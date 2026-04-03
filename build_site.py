@@ -179,7 +179,9 @@ def collect_all_downloads(structure: dict) -> list:
 
   def display_title(dl: dict, lesson_title: str) -> str:
     raw = str(dl.get("title", "")).strip()
-    if raw and raw.lower() not in {"here", "click here", "download here"}:
+    # Strip trailing punctuation and compare
+    cleaned = raw.rstrip(".,;:!? ")
+    if cleaned and cleaned.lower() not in {"here", "click here", "download here", "download", "link"}:
       return raw
 
     guessed = clean_filename_title(str(dl.get("filename", "")))
@@ -451,7 +453,7 @@ WORKSHEETS_CONTENT = r"""
   <details class="worksheet-week-section" {% if loop.first %}open{% endif %}>
     <summary class="worksheet-week-header">
       <span>{% if week_group.grouper == 0 %}General{% else %}Week {{ week_group.grouper }}{% endif %}</span>
-      <span class="worksheet-week-count">{{ week_group.list | length }} PDFs</span>
+      <span class="worksheet-week-count">{{ week_group.list | length }}</span>
     </summary>
     <div class="worksheet-grid">
       {% for dl in week_group.list %}
@@ -558,6 +560,24 @@ def generate_site():
             dst.write_text(sw_content, encoding="utf-8")
         else:
             shutil.copy2(src, dst)
+
+    # Generate precache manifest (all local assets for offline iPad use)
+    precache_urls = []
+    for subdir in ["lessons", "images", "pdfs", "audio", "videos"]:
+        asset_dir = SITE_DIR / subdir
+        if asset_dir.exists():
+            for f in sorted(asset_dir.iterdir()):
+                if f.is_file():
+                    precache_urls.append(f"./{subdir}/{f.name}")
+    precache_manifest = {
+        "build_id": build_id,
+        "profile": "full_offline",
+        "urls": precache_urls,
+    }
+    (SITE_DIR / "precache-manifest.json").write_text(
+        json.dumps(precache_manifest, ensure_ascii=False, indent=2)
+    )
+    print(f"  Precache manifest: {len(precache_urls)} assets")
 
     # lesson-data.json for JS
     lesson_data = [

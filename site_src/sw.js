@@ -31,13 +31,28 @@ async function getGeneratedPrecacheUrls() {
   }
 }
 
-// Install: precache core files
+// Install: precache core files, then background-cache all assets
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then(async (cache) => {
+      // Always precache core files first
+      await cache.addAll(PRECACHE_URLS);
+
+      // Then try to cache generated assets (lessons, images, PDFs, audio)
       const generatedUrls = await getGeneratedPrecacheUrls();
-      const allUrls = [...new Set([...PRECACHE_URLS, ...generatedUrls])];
-      return cache.addAll(allUrls);
+      // Cache in batches to avoid overwhelming the browser
+      const BATCH = 50;
+      for (let i = 0; i < generatedUrls.length; i += BATCH) {
+        const batch = generatedUrls.slice(i, i + BATCH);
+        try {
+          await cache.addAll(batch);
+        } catch (e) {
+          // Cache individually on batch failure so one bad URL doesn't skip all
+          for (const url of batch) {
+            try { await cache.add(url); } catch { /* skip */ }
+          }
+        }
+      }
     }).then(() => self.skipWaiting())
   );
 });

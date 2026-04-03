@@ -1158,9 +1158,15 @@ body {
   border-radius: var(--radius);
   background: color-mix(in srgb, var(--bg-secondary) 88%, var(--bg-tertiary));
   overflow: hidden;
+  transition: border-color var(--transition), box-shadow var(--transition);
+}
+
+.worksheet-week-section:hover {
+  border-color: var(--accent);
 }
 
 .worksheet-week-section[open] {
+  border-color: var(--accent);
   box-shadow: 0 8px 28px var(--shadow);
 }
 
@@ -1176,6 +1182,13 @@ body {
   font-size: 1.02rem;
   font-weight: 700;
   background: color-mix(in srgb, var(--bg-tertiary) 75%, var(--bg-secondary));
+  transition: background var(--transition), color var(--transition);
+  user-select: none;
+}
+
+.worksheet-week-header:hover {
+  background: color-mix(in srgb, var(--accent) 12%, var(--bg-tertiary));
+  color: var(--accent);
 }
 
 .worksheet-week-header::-webkit-details-marker {
@@ -1184,7 +1197,7 @@ body {
 
 .worksheet-week-header::before {
   content: '▸';
-  color: var(--text-muted);
+  color: var(--accent);
   font-size: 0.9rem;
   transition: transform var(--transition);
 }
@@ -1198,13 +1211,16 @@ body {
 }
 
 .worksheet-week-count {
-  font-size: 0.78rem;
-  font-weight: 600;
-  color: var(--text-muted);
-  padding: 4px 10px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #fff;
+  min-width: 28px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  padding: 0 8px;
   border-radius: 999px;
-  border: 1px solid var(--border);
-  background: var(--bg-secondary);
+  background: var(--accent);
 }
 
 .worksheet-grid {
