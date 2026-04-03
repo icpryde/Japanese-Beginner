@@ -222,9 +222,9 @@ LAYOUT_TEMPLATE = r"""<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="Akamonkai">
   <meta name="theme-color" content="#1a1a2e">
   <link rel="apple-touch-icon" href="{{ root }}icons/icon-192.png">
@@ -447,27 +447,29 @@ WORKSHEETS_CONTENT = r"""
   <p class="worksheets-intro">Quick access to downloadable PDF worksheets and answer sheets.</p>
 
   {% if downloads %}
-  {% set ns = namespace(current_week=-1) %}
-  {% for dl in downloads %}
-    {% if dl.week != ns.current_week %}
-      {% if ns.current_week >= 0 %}</div>{% endif %}
-      {% set ns.current_week = dl.week %}
-      <h2 class="worksheet-week-header">{% if dl.week == 0 %}General{% else %}Week {{ dl.week }}{% endif %}</h2>
-      <div class="worksheet-grid">
-    {% endif %}
-    <div class="worksheet-card">
-      <div class="worksheet-info">
-        <h4>{{ dl.display_title }}</h4>
-        <p class="worksheet-lesson">From: {{ dl.lesson_title }}{% if dl.day %} · Day {{ dl.day }}{% endif %}</p>
+  {% for week_group in downloads | groupby('week') %}
+  <details class="worksheet-week-section" {% if loop.first %}open{% endif %}>
+    <summary class="worksheet-week-header">
+      <span>{% if week_group.grouper == 0 %}General{% else %}Week {{ week_group.grouper }}{% endif %}</span>
+      <span class="worksheet-week-count">{{ week_group.list | length }} PDFs</span>
+    </summary>
+    <div class="worksheet-grid">
+      {% for dl in week_group.list %}
+      <div class="worksheet-card">
+        <div class="worksheet-info">
+          <h4>{{ dl.display_title }}</h4>
+          <p class="worksheet-lesson">From: {{ dl.lesson_title }}{% if dl.day %} · Day {{ dl.day }}{% endif %}</p>
+        </div>
+        {% if dl.get('local') %}
+        <a href="pdfs/{{ dl.filename }}" class="download-btn-sm" download="{{ dl.filename }}">Download</a>
+        {% else %}
+        <a href="{{ dl.url }}" class="download-btn-sm" target="_blank" rel="noopener noreferrer">Open</a>
+        {% endif %}
       </div>
-      {% if dl.get('local') %}
-      <a href="pdfs/{{ dl.filename }}" class="download-btn-sm" download="{{ dl.filename }}">Download</a>
-      {% else %}
-      <a href="{{ dl.url }}" class="download-btn-sm" target="_blank" rel="noopener noreferrer">Open</a>
-      {% endif %}
+      {% endfor %}
     </div>
+  </details>
   {% endfor %}
-  {% if downloads %}</div>{% endif %}
   {% else %}
   <p class="no-worksheets">No downloads found.</p>
   {% endif %}

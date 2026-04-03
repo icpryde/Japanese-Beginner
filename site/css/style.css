@@ -1152,17 +1152,66 @@ body {
   font-size: 0.92rem;
 }
 
+.worksheet-week-section {
+  margin-top: 18px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: color-mix(in srgb, var(--bg-secondary) 88%, var(--bg-tertiary));
+  overflow: hidden;
+}
+
+.worksheet-week-section[open] {
+  box-shadow: 0 8px 28px var(--shadow);
+}
+
 .worksheet-week-header {
-  font-size: 1.2rem;
-  margin-top: 32px;
-  margin-bottom: 16px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 20px;
+  cursor: pointer;
   color: var(--text-primary);
+  font-size: 1.02rem;
+  font-weight: 700;
+  background: color-mix(in srgb, var(--bg-tertiary) 75%, var(--bg-secondary));
+}
+
+.worksheet-week-header::-webkit-details-marker {
+  display: none;
+}
+
+.worksheet-week-header::before {
+  content: '▸';
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  transition: transform var(--transition);
+}
+
+.worksheet-week-section[open] .worksheet-week-header::before {
+  transform: rotate(90deg);
+}
+
+.worksheet-week-header span:first-of-type {
+  flex: 1;
+}
+
+.worksheet-week-count {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--bg-secondary);
 }
 
 .worksheet-grid {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  padding: 14px;
 }
 
 .worksheet-card {
@@ -1262,6 +1311,8 @@ body {
 @supports (padding: env(safe-area-inset-top)) {
   .topbar {
     padding-top: env(safe-area-inset-top);
+      padding-left: calc(24px + env(safe-area-inset-left));
+      padding-right: calc(24px + env(safe-area-inset-right));
     height: calc(var(--topbar-height) + env(safe-area-inset-top));
   }
 
@@ -1270,6 +1321,9 @@ body {
   }
 
   .content-wrapper {
+      padding-top: calc(32px + env(safe-area-inset-top));
+      padding-left: calc(24px + env(safe-area-inset-left));
+      padding-right: calc(24px + env(safe-area-inset-right));
     padding-bottom: calc(24px + env(safe-area-inset-bottom));
   }
 }
