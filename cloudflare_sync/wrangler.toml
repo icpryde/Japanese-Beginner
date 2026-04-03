@@ -1,6 +1,8 @@
 name = "akamonkai-progress-sync"
 main = "src/worker.js"
 compatibility_date = "2026-04-03"
+workers_dev = true
+preview_urls = true
 
 [vars]
 # Set this to your GitHub Pages origin (no trailing slash)
@@ -9,5 +11,5 @@ ALLOWED_ORIGIN = "https://icpryde.github.io"
 [[kv_namespaces]]
 binding = "PROGRESS_KV"
 # Replace these after creating your KV namespace
-id = "REPLACE_WITH_KV_NAMESPACE_ID"
-preview_id = "REPLACE_WITH_PREVIEW_KV_NAMESPACE_ID"
+id = "ff84ce17051e4a6f97fd26e9b2eace80"
+preview_id = "1b6d86fde30f4dbfbae016bec85a2e93"

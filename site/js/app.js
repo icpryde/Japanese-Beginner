@@ -551,6 +551,7 @@
     isFlushing: false,
     CONFIG_ENDPOINT_KEY: 'akamonkai_sync_endpoint',
     CONFIG_KEY_KEY: 'akamonkai_sync_user_key',
+    DEFAULT_CLOUD_ENDPOINT: 'https://akamonkai-progress-sync.icpryde-akamonkai-sync.workers.dev/api/progress',
 
     isHostedStatic() {
       return window.location.hostname.endsWith('github.io');
@@ -566,7 +567,8 @@
     },
 
     getConfiguredEndpoint() {
-      return this.normalizeEndpoint(localStorage.getItem(this.CONFIG_ENDPOINT_KEY) || '');
+      const stored = localStorage.getItem(this.CONFIG_ENDPOINT_KEY) || '';
+      return this.normalizeEndpoint(stored || this.DEFAULT_CLOUD_ENDPOINT);
     },
 
     getConfiguredSyncKey() {
