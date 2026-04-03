@@ -5,6 +5,29 @@
 (function () {
   'use strict';
 
+  function getRootPath() {
+    return window.location.pathname.includes('/lessons/') ? '../' : '';
+  }
+
+  function ensureBrandIcons() {
+    const root = getRootPath();
+    const icon192 = root + 'icons/icon-192.png';
+
+    const ensureLink = (rel, href) => {
+      let node = document.querySelector(`link[rel="${rel}"]`);
+      if (!node) {
+        node = document.createElement('link');
+        node.rel = rel;
+        document.head.appendChild(node);
+      }
+      node.href = href;
+    };
+
+    ensureLink('icon', icon192);
+    ensureLink('shortcut icon', icon192);
+    ensureLink('apple-touch-icon', icon192);
+  }
+
   // ═══════════════════════════════════════════
   // Status UI Module
   // ═══════════════════════════════════════════
@@ -892,6 +915,7 @@
   // Init
   // ═══════════════════════════════════════════
   document.addEventListener('DOMContentLoaded', () => {
+    ensureBrandIcons();
     StatusUI.init();
     Theme.init();
     Nav.init();
