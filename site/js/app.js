@@ -544,22 +544,103 @@
   // Service Worker Registration
   // ═══════════════════════════════════════════
   const Sync = {
-    // Will attempt to find the server on the same network
+    // Cloud or local sync endpoint
     endpoint: null,
+    syncKey: null,
     QUEUE_KEY: 'akamonkai_sync_queue',
     isFlushing: false,
+    CONFIG_ENDPOINT_KEY: 'akamonkai_sync_endpoint',
+    CONFIG_KEY_KEY: 'akamonkai_sync_user_key',
 
     isHostedStatic() {
       return window.location.hostname.endsWith('github.io');
     },
 
-    setLocalModeStatus() {
-      StatusUI.set('ok', 'Status: Local progress');
+    normalizeEndpoint(value) {
+      const trimmed = (value || '').trim();
+      if (!trimmed) return '';
+      const withProtocol = /^https?:\/\//i.test(trimmed) ? trimmed : `https://${trimmed}`;
+      const noTrailing = withProtocol.replace(/\/+$/, '');
+      if (noTrailing.endsWith('/api/progress')) return noTrailing;
+      return `${noTrailing}/api/progress`;
+    },
+
+    getConfiguredEndpoint() {
+      return this.normalizeEndpoint(localStorage.getItem(this.CONFIG_ENDPOINT_KEY) || '');
+    },
+
+    getConfiguredSyncKey() {
+      return (localStorage.getItem(this.CONFIG_KEY_KEY) || '').trim();
+    },
+
+    hasCloudConfig() {
+      return !!this.getConfiguredEndpoint() && !!this.getConfiguredSyncKey();
+    },
+
+    endpointWithKey() {
+      if (!this.endpoint) return null;
+      const url = new URL(this.endpoint);
+      if (this.syncKey) url.searchParams.set('sync_key', this.syncKey);
+      return url.toString();
+    },
+
+    setLocalModeStatus(text) {
+      StatusUI.set('ok', text || 'Status: Local progress (tap to setup sync)');
+    },
+
+    bindStatusClick() {
+      const node = document.getElementById('syncStatus');
+      if (!node) return;
+      node.title = 'Tap to configure cloud sync';
+      node.style.cursor = 'pointer';
+      node.addEventListener('click', () => this.configureCloudSync());
+    },
+
+    configureCloudSync() {
+      const currentEndpoint = this.getConfiguredEndpoint();
+      const endpointInput = window.prompt(
+        'Cloud sync endpoint URL (Cloudflare Worker domain). Leave blank to disable cloud sync.',
+        currentEndpoint ? currentEndpoint.replace(/\/api\/progress$/, '') : ''
+      );
+      if (endpointInput === null) return;
+
+      const normalized = this.normalizeEndpoint(endpointInput);
+      if (!normalized) {
+        localStorage.removeItem(this.CONFIG_ENDPOINT_KEY);
+        localStorage.removeItem(this.CONFIG_KEY_KEY);
+        this.endpoint = null;
+        this.syncKey = null;
+        this.setLocalModeStatus();
+        return;
+      }
+
+      const currentKey = this.getConfiguredSyncKey();
+      const keyInput = window.prompt(
+        'Sync key (use the same key on Mac and iPad).',
+        currentKey
+      );
+      if (keyInput === null) return;
+
+      const syncKey = keyInput.trim();
+      if (!syncKey) {
+        window.alert('Sync key is required to enable cloud sync. Keeping local-only mode.');
+        this.setLocalModeStatus();
+        return;
+      }
+
+      localStorage.setItem(this.CONFIG_ENDPOINT_KEY, normalized);
+      localStorage.setItem(this.CONFIG_KEY_KEY, syncKey);
+      this.endpoint = normalized;
+      this.syncKey = syncKey;
+      StatusUI.set('warn', 'Status: Connecting sync...');
+      this.pull();
     },
 
     init() {
+      this.bindStatusClick();
+
       window.addEventListener('online', () => {
-        if (this.isHostedStatic() && !this.endpoint) {
+        if (this.isHostedStatic() && !this.hasCloudConfig()) {
           this.setLocalModeStatus();
           return;
         }
@@ -577,7 +658,10 @@
 
       // Try to find server
       const saved = localStorage.getItem('sync_server');
-      if (saved) {
+      if (this.hasCloudConfig()) {
+        this.endpoint = this.getConfiguredEndpoint();
+        this.syncKey = this.getConfiguredSyncKey();
+      } else if (saved) {
         this.endpoint = saved;
       } else {
         // Try common local addresses
@@ -587,8 +671,8 @@
       if (!navigator.onLine) {
         StatusUI.set('error', 'Status: Offline');
       } else if (this.endpoint) {
-        StatusUI.set('warn', 'Status: Sync server ready');
-      } else if (this.isHostedStatic()) {
+        StatusUI.set('warn', 'Status: Sync configured');
+      } else if (this.isHostedStatic() && !this.hasCloudConfig()) {
         this.setLocalModeStatus();
       } else {
         StatusUI.set('warn', 'Status: Searching for sync server');
@@ -623,8 +707,26 @@
     },
 
     async discover() {
+      const configuredEndpoint = this.getConfiguredEndpoint();
+      const configuredKey = this.getConfiguredSyncKey();
+      if (configuredEndpoint && configuredKey) {
+        this.endpoint = configuredEndpoint;
+        this.syncKey = configuredKey;
+        try {
+          const res = await fetch(this.endpointWithKey(), { method: 'GET', signal: AbortSignal.timeout(2500) });
+          if (res.ok) {
+            StatusUI.set('ok', 'Status: Sync connected');
+            this.flushQueue();
+            return;
+          }
+        } catch {}
+        StatusUI.set('warn', 'Status: Sync endpoint unreachable');
+        return;
+      }
+
       if (this.isHostedStatic()) {
         this.endpoint = null;
+        this.syncKey = null;
         this.setLocalModeStatus();
         return;
       }
@@ -648,7 +750,7 @@
     },
 
     async postPayload(payload, operationId) {
-      await fetch(this.endpoint, {
+      await fetch(this.endpointWithKey() || this.endpoint, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -665,7 +767,7 @@
       if (!this.endpoint) {
         await this.discover();
         if (!this.endpoint) {
-          if (this.isHostedStatic()) {
+          if (this.isHostedStatic() && !this.hasCloudConfig()) {
             this.setLocalModeStatus();
           }
           return;
@@ -703,7 +805,7 @@
       }
 
       if (!this.endpoint) {
-        if (this.isHostedStatic()) {
+        if (this.isHostedStatic() && !this.hasCloudConfig()) {
           this.setLocalModeStatus();
           return;
         }
@@ -735,7 +837,7 @@
       }
 
       if (!this.endpoint) {
-        if (this.isHostedStatic()) {
+        if (this.isHostedStatic() && !this.hasCloudConfig()) {
           this.setLocalModeStatus();
           return;
         }
@@ -744,7 +846,7 @@
       }
 
       try {
-        const res = await fetch(this.endpoint, { signal: AbortSignal.timeout(5000) });
+        const res = await fetch(this.endpointWithKey() || this.endpoint, { signal: AbortSignal.timeout(5000) });
         if (!res.ok) return;
         const serverData = await res.json();
         const localData = Progress.load();
