@@ -24,6 +24,17 @@ SITE_DIR = PROJECT_ROOT / "site"
 
 # ─── Helpers ──────────────────────────────────────────────────
 
+def normalize_embedded_asset_paths(html: str) -> str:
+  """Fix over-deep relative media paths inside lesson HTML snippets."""
+  if not html:
+    return html
+
+  return re.sub(
+    r'(["\'(])\.\./\.\./(images|audio|videos|pdfs|icons|css|js)/',
+    r'\1../\2/',
+    html,
+  )
+
 def build_course_structure(manifest: dict) -> dict:
     """Organize flat lesson list into a hierarchical structure."""
     structure = OrderedDict()
@@ -59,7 +70,7 @@ def build_course_structure(manifest: dict) -> dict:
             "section_type": section_type,
             "week": week,
             "day": day,
-            "html": data.get("html", ""),
+          "html": normalize_embedded_asset_paths(data.get("html", "")),
             "videos": data.get("videos", []),
             "downloads": data.get("downloads", []),
             "has_video": data.get("has_video", False),

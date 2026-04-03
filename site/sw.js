@@ -3,25 +3,25 @@
  * Cache-first strategy for offline PWA support
  */
 
-const BUILD_ID = '20260403015137';
+const BUILD_ID = '20260403215923';
 const CACHE_NAME = `akamonkai-${BUILD_ID}`;
 
 // Core files to precache
 const PRECACHE_URLS = [
-  '/',
-  '/index.html',
-  '/worksheets.html',
-  '/css/style.css',
-  '/js/app.js',
-  '/lesson-data.json',
-  '/manifest.json',
-  '/offline-asset-report.json',
-  '/precache-manifest.json',
+  './',
+  './index.html',
+  './worksheets.html',
+  './css/style.css',
+  './js/app.js',
+  './lesson-data.json',
+  './manifest.json',
+  './offline-asset-report.json',
+  './precache-manifest.json',
 ];
 
 async function getGeneratedPrecacheUrls() {
   try {
-    const response = await fetch('/precache-manifest.json', { cache: 'no-store' });
+    const response = await fetch('./precache-manifest.json', { cache: 'no-store' });
     if (!response.ok) return [];
     const payload = await response.json();
     if (!Array.isArray(payload.urls)) return [];
@@ -88,7 +88,7 @@ self.addEventListener('fetch', (event) => {
       }).catch(() => {
         // Offline fallback for HTML pages
         if (event.request.headers.get('accept')?.includes('text/html')) {
-          return caches.match('/index.html');
+          return caches.match('./index.html');
         }
       });
     })
