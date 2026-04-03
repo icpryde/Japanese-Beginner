@@ -161,22 +161,51 @@ def collect_ordered_lessons(structure: dict) -> list:
 
 
 def collect_all_downloads(structure: dict) -> list:
-    """Collect all downloadable items across the course."""
-    downloads = []
-    for key, section in structure.items():
-        all_lessons = list(section.get("lessons", []))
-        for dk, day_data in section.get("days", {}).items():
-            all_lessons.extend(day_data["lessons"])
-        for l in all_lessons:
-            for dl in l.get("downloads", []):
-                downloads.append({
-                    **dl,
-                    "lesson_title": l["title"],
-                    "lesson_id": l["id"],
-                    "week": l.get("week", 0),
-                    "day": l.get("day", 0),
-                })
-    return downloads
+  """Collect PDF downloads for the worksheets hub with readable titles."""
+
+  def is_pdf_item(dl: dict) -> bool:
+    filename = str(dl.get("filename", "")).lower()
+    url = str(dl.get("url", "")).lower()
+    dl_type = str(dl.get("type", "")).lower()
+    return dl_type == "pdf" or filename.endswith(".pdf") or ".pdf" in url
+
+  def clean_filename_title(filename: str) -> str:
+    stem = Path(filename).stem if filename else ""
+    if not stem:
+      return ""
+    text = re.sub(r"[_-]+", " ", stem)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+  def display_title(dl: dict, lesson_title: str) -> str:
+    raw = str(dl.get("title", "")).strip()
+    if raw and raw.lower() not in {"here", "click here", "download here"}:
+      return raw
+
+    guessed = clean_filename_title(str(dl.get("filename", "")))
+    if guessed:
+      return guessed
+
+    return f"{lesson_title} PDF"
+
+  downloads = []
+  for key, section in structure.items():
+    all_lessons = list(section.get("lessons", []))
+    for dk, day_data in section.get("days", {}).items():
+      all_lessons.extend(day_data["lessons"])
+    for l in all_lessons:
+      for dl in l.get("downloads", []):
+        if not is_pdf_item(dl):
+          continue
+        downloads.append({
+          **dl,
+          "display_title": display_title(dl, l["title"]),
+          "lesson_title": l["title"],
+          "lesson_id": l["id"],
+          "week": l.get("week", 0),
+          "day": l.get("day", 0),
+        })
+  return downloads
 
 
 def get_section_lesson_ids(section: dict) -> list:
@@ -414,8 +443,8 @@ LESSON_CONTENT = r"""
 
 WORKSHEETS_CONTENT = r"""
 <div class="worksheets-hub">
-  <h1>📄 Downloads & Resources</h1>
-  <p class="worksheets-intro">All downloadable PDFs, worksheets, and resource links from the course.</p>
+  <h1>📄 PDF Worksheets</h1>
+  <p class="worksheets-intro">Quick access to downloadable PDF worksheets and answer sheets.</p>
 
   {% if downloads %}
   {% set ns = namespace(current_week=-1) %}
@@ -428,15 +457,13 @@ WORKSHEETS_CONTENT = r"""
     {% endif %}
     <div class="worksheet-card">
       <div class="worksheet-info">
-        <h4>{{ dl.title or dl.get('filename', 'Download') }}</h4>
+        <h4>{{ dl.display_title }}</h4>
         <p class="worksheet-lesson">From: {{ dl.lesson_title }}{% if dl.day %} · Day {{ dl.day }}{% endif %}</p>
       </div>
       {% if dl.get('local') %}
-      <a href="{% if dl.type in ['audio', 'audio_link'] %}audio/{{ dl.filename }}{% elif dl.type == 'pdf' %}pdfs/{{ dl.filename }}{% else %}pdfs/{{ dl.filename }}{% endif %}" class="download-btn-sm" download="{{ dl.filename }}">Download</a>
+      <a href="pdfs/{{ dl.filename }}" class="download-btn-sm" download="{{ dl.filename }}">Download</a>
       {% else %}
-      <a href="{{ dl.url }}" class="download-btn-sm" target="_blank" rel="noopener noreferrer">
-        {% if dl.type == 'audio_link' %}Listen{% else %}Open{% endif %}
-      </a>
+      <a href="{{ dl.url }}" class="download-btn-sm" target="_blank" rel="noopener noreferrer">Open</a>
       {% endif %}
     </div>
   {% endfor %}
