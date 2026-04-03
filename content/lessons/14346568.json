@@ -1,0 +1,22 @@
+{
+  "id": "14346568",
+  "title": "Day 47 Lesson 1 - Video Repetition",
+  "primary_type": "video",
+  "section": "Week 10 - Day 47",
+  "section_type": "day",
+  "section_order": 50,
+  "item_order": 7,
+  "week": 10,
+  "day": 47,
+  "html": "<p><span style=\"color: rgb(91, 91, 91);\">The focus of this repetition is on these sentences:</span></p><div class=\"fr-view\"><p>Sentence 1 - えいごが　はなせますか。= Can you speak English?</p><p>Sentence 2 - りょこうがいしゃに　はいれますよ。= You can work for a travel agency.</p><p><strong>How to use this lesson</strong> - When the repeat message shows and the video pauses, please repeat the sentence you have just heard. Keep practising until you can repeat perfectly!</p><p><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/bs3grfdirbaucvf1hiag\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"D47 L1 R1.mp4 - 00:09\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span></p></div>",
+  "videos": [
+    {
+      "src": "https://platform.thinkific.com/videoproxy/v1/play/bs3grfdirbaucvf1hiag",
+      "title": "D47 L1 R1.mp4 - 00:09"
+    }
+  ],
+  "downloads": [],
+  "has_video": true,
+  "has_images": false,
+  "has_downloads": false
+}

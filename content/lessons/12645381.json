@@ -1,0 +1,22 @@
+{
+  "id": "12645381",
+  "title": "Day 3 Lesson 1 - Video Repetition",
+  "primary_type": "video",
+  "section": "Week 1 - Day 3",
+  "section_type": "day",
+  "section_order": 5,
+  "item_order": 6,
+  "week": 1,
+  "day": 3,
+  "html": "<div class=\"fr-view\"><p>The focus of this repetition is on these sentences: &nbsp;</p><p>Sentence 1 - ここ は ちゅうりんじょう です。 (Koko wa chuurinjoo des) = This is the parking area for bicycles.</p><p>Sentence 2 - そこ は きつえんじょ です。(Soko wa kitsuenjo des) = That&#39;s the smoking area.</p><p>Sentence 3 - あそこ は ロビー です。(Asoko wa lobby des) = Over there is the lobby.</p><p><strong>How to use this lesson -&nbsp;</strong>Please watch the video twice (first with the subtitles and then without them) and repeat the sentences.</p><p><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/bruiutkobr2ovlip5hcg\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"*D3 L1 R1.mp4 - 00:16\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span><br></p></div>",
+  "videos": [
+    {
+      "src": "https://platform.thinkific.com/videoproxy/v1/play/bruiutkobr2ovlip5hcg",
+      "title": "*D3 L1 R1.mp4 - 00:16"
+    }
+  ],
+  "downloads": [],
+  "has_video": true,
+  "has_images": false,
+  "has_downloads": false
+}

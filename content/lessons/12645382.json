@@ -1,0 +1,22 @@
+{
+  "id": "12645382",
+  "title": "Day 3 Lesson 2 ( Video )Asking where is a place",
+  "primary_type": "video",
+  "section": "Week 1 - Day 3",
+  "section_type": "day",
+  "section_order": 5,
+  "item_order": 7,
+  "week": 1,
+  "day": 3,
+  "html": "<div class=\"fr-view\"><p>Day ３ - Lesson 2</p><p>ばしょを　きく = Asking where is a place</p><p><b>ばしょ (Location):</b> がっこうのロビー　= School&#39;s lobby</p><p><b>とうじょうじんぶつ (Characters):</b> じむいん (Clerk), あんなさん しんにゅうせい (Anna-san new student)</p><p><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/bq9qtbrcip4fs3fshotg\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"D3 L2 C1.mp4 - 00:12\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span></p><p>The new words in this lesson are:</p><p>きょうしつ (kyooshitsu) = classroom</p><p>どこ (doko) = where</p><p>にかい (nikai) = second floor</p><p>かい (kai) = floor</p><p>じしゅうしつ (jishuushitsu) = self-study room</p><p>ちか いっかい (chika ikkai) = basement 1st floor</p><p>ちか (chika) = basement</p><p>かいだん (kaidan) = stairs</p></div>",
+  "videos": [
+    {
+      "src": "https://platform.thinkific.com/videoproxy/v1/play/bq9qtbrcip4fs3fshotg",
+      "title": "D3 L2 C1.mp4 - 00:12"
+    }
+  ],
+  "downloads": [],
+  "has_video": true,
+  "has_images": false,
+  "has_downloads": false
+}

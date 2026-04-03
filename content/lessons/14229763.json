@@ -1,0 +1,22 @@
+{
+  "id": "14229763",
+  "title": "Day 45 Lesson 3 - Grammar Video",
+  "primary_type": "video",
+  "section": "Week 9 - Day 45",
+  "section_type": "day",
+  "section_order": 48,
+  "item_order": 15,
+  "week": 9,
+  "day": 45,
+  "html": "<div class=\"fr-view\"><p>Day 41 Lesson 1 - Grammar Video</p><p>Watch this video for an overview of the grammar for this lesson:</p><p><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/bs18omekg7cnqndr4otg\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"D45L3E1.mp4 - 01:21\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span><br></p></div>",
+  "videos": [
+    {
+      "src": "https://platform.thinkific.com/videoproxy/v1/play/bs18omekg7cnqndr4otg",
+      "title": "D45L3E1.mp4 - 01:21"
+    }
+  ],
+  "downloads": [],
+  "has_video": true,
+  "has_images": false,
+  "has_downloads": false
+}

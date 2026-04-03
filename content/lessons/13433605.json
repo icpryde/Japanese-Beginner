@@ -1,0 +1,22 @@
+{
+  "id": "13433605",
+  "title": "Day 23 Lesson 1 - Grammar Video",
+  "primary_type": "video",
+  "section": "Week 5 - Day 23",
+  "section_type": "day",
+  "section_order": 25,
+  "item_order": 5,
+  "week": 5,
+  "day": 23,
+  "html": "<div class=\"fr-view\"><p>Day 23 Lesson 1 - Grammar Video</p><p>Watch this video for an overview of the grammar for this lesson:</p><p><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/brcq2bekg7cnqndpqgv0\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"D23 L1 E.mp4 - 01:26\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span></p></div>",
+  "videos": [
+    {
+      "src": "https://platform.thinkific.com/videoproxy/v1/play/brcq2bekg7cnqndpqgv0",
+      "title": "D23 L1 E.mp4 - 01:26"
+    }
+  ],
+  "downloads": [],
+  "has_video": true,
+  "has_images": false,
+  "has_downloads": false
+}

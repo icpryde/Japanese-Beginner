@@ -1,0 +1,22 @@
+{
+  "id": "12645430",
+  "title": "Day 5 Lesson 3 - Video Repetition",
+  "primary_type": "video",
+  "section": "Week 1 - Day 5",
+  "section_type": "day",
+  "section_order": 7,
+  "item_order": 14,
+  "week": 1,
+  "day": 5,
+  "html": "<div class=\"fr-view\"><p>The focus of this repetition is on these two sentences: &nbsp;</p><p>Sentence 1 - なんじ に ねますか。(nanji ni nemaska?) = What time do you sleep?</p><p>Sentence 2 - わたしは　じゅうにじ に ねます。(Watashi wa juuniji ni nemas) = I go to sleep at 12.</p><p><strong>How to use this lesson -&nbsp;</strong>Please watch the video twice (first with the subtitles and then without them) and repeat the sentences.</p><p><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/bruiutukg7cnqndqvm5g\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"*D5 L3 R1.mp4 - 00:10\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span><br></p></div>",
+  "videos": [
+    {
+      "src": "https://platform.thinkific.com/videoproxy/v1/play/bruiutukg7cnqndqvm5g",
+      "title": "*D5 L3 R1.mp4 - 00:10"
+    }
+  ],
+  "downloads": [],
+  "has_video": true,
+  "has_images": false,
+  "has_downloads": false
+}

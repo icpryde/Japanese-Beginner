@@ -1,0 +1,22 @@
+{
+  "id": "12645391",
+  "title": "Day 3 Lesson 3 - Video Repetition 2",
+  "primary_type": "video",
+  "section": "Week 1 - Day 3",
+  "section_type": "day",
+  "section_order": 5,
+  "item_order": 16,
+  "week": 1,
+  "day": 3,
+  "html": "<div class=\"fr-view\"><p>The focus of this repetition is on these two sentences: &nbsp;</p><p>Sentence 1 - これは　いくら　ですか。 (Kore wa ikura deska?) = How much is this?</p><p>Sentence 2 - さんまんごせんえんです。(San man go sen en des) = 35,000 yen.</p><p><strong>How to use this lesson -&nbsp;</strong>Please watch the video twice (first with the subtitles and then without them) and repeat the sentences.</p><p><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/bruiutukg7cnqndqvm7g\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"*D3 L3 R2.mp4 - 00:09\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span><br></p></div>",
+  "videos": [
+    {
+      "src": "https://platform.thinkific.com/videoproxy/v1/play/bruiutukg7cnqndqvm7g",
+      "title": "*D3 L3 R2.mp4 - 00:09"
+    }
+  ],
+  "downloads": [],
+  "has_video": true,
+  "has_images": false,
+  "has_downloads": false
+}

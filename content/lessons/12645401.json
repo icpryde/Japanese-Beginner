@@ -1,0 +1,22 @@
+{
+  "id": "12645401",
+  "title": "Day 4 Lesson 1 ( Video )Talking about breakfast",
+  "primary_type": "video",
+  "section": "Week 1 - Day 4",
+  "section_type": "day",
+  "section_order": 6,
+  "item_order": 4,
+  "week": 1,
+  "day": 4,
+  "html": "<div class=\"fr-view\"><p>Day 4 - Lesson 1</p><p>あさごはんの　はなしを　する = Talking about breakfast</p><p><b>ばしょ (Location):</b> きょうしつ　= Classroom</p><p><b>とうじょうじんぶつ (Characters):</b> さとうさん、たかはしさん がくせい ふたり (Sato-san, Takahashi-san two students)</p><p><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/bq9tk3bcip4fs3fsht70\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"D4 L1 C1.mp4 - 00:15\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span></p><p>The new words in this lesson are:</p><p>あさごはん (asa gohan) = breakfast</p><p>あさ (asa) = morning</p><p>ごはん (gohan) = meal</p><p>たべます (tabemas) = to eat</p><p>ぱん (pan) = bread</p><p>たまご (tamago) = egg</p><p>こーひー (koohii) = coffee</p><p>のみます (nomimas) = to drink</p></div>",
+  "videos": [
+    {
+      "src": "https://platform.thinkific.com/videoproxy/v1/play/bq9tk3bcip4fs3fsht70",
+      "title": "D4 L1 C1.mp4 - 00:15"
+    }
+  ],
+  "downloads": [],
+  "has_video": true,
+  "has_images": false,
+  "has_downloads": false
+}

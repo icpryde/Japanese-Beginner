@@ -1,0 +1,22 @@
+{
+  "id": "12645628",
+  "title": "Day 14 Lesson 2 - Video Repetition",
+  "primary_type": "video",
+  "section": "Week 3 - Day 14",
+  "section_type": "day",
+  "section_order": 16,
+  "item_order": 10,
+  "week": 3,
+  "day": 14,
+  "html": "<div class=\"fr-view\"><p>The focus of this repetition is on these two sentences: &nbsp;</p><div class=\"fr-view\"><p>Sentence 1 - だれに　にほんごを　ならいましたか。 = From who did you learn Japanese?<br><br>Sentence 2 - たなかせんせいに　ならいました。 = &nbsp;I learned from teacher Tanaka.</p><p><strong>How to use this lesson</strong> - When the repeat message shows and the video pauses, please repeat the sentence you have just heard. &nbsp;Keep practising until you can repeat perfectly!</p><p><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/bqgkeimhra84otn73il0\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"D14 L2 R1.mp4 - 00:15\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span><br></p></div></div>",
+  "videos": [
+    {
+      "src": "https://platform.thinkific.com/videoproxy/v1/play/bqgkeimhra84otn73il0",
+      "title": "D14 L2 R1.mp4 - 00:15"
+    }
+  ],
+  "downloads": [],
+  "has_video": true,
+  "has_images": false,
+  "has_downloads": false
+}

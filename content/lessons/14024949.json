@@ -1,0 +1,22 @@
+{
+  "id": "14024949",
+  "title": "Day 38 Lesson 1 - Grammar Video",
+  "primary_type": "video",
+  "section": "Week 8 - Day 38",
+  "section_type": "day",
+  "section_order": 41,
+  "item_order": 5,
+  "week": 8,
+  "day": 38,
+  "html": "<div class=\"fr-view\"><p><span style=\"color: rgb(91, 91, 91);\">Day 38 Lesson 1 - Grammar Video</span></p><p><span style=\"color: rgb(91, 91, 91);\">Watch this video for an overview of the grammar for this lesson:</span></p><p><span style=\"color: rgb(91, 91, 91);\"><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/brq5q6cobr2ovliosco0\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"D38L1E.mp4 - 00:41\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span></span><br></p></div>",
+  "videos": [
+    {
+      "src": "https://platform.thinkific.com/videoproxy/v1/play/brq5q6cobr2ovliosco0",
+      "title": "D38L1E.mp4 - 00:41"
+    }
+  ],
+  "downloads": [],
+  "has_video": true,
+  "has_images": false,
+  "has_downloads": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "14025475",
+  "title": "Day 39 Lesson 3 - Video Repetition",
+  "primary_type": "video",
+  "section": "Week 8 - Day 39",
+  "section_type": "day",
+  "section_order": 42,
+  "item_order": 18,
+  "week": 8,
+  "day": 39,
+  "html": "<div class=\"fr-view\"><p><span style=\"color: rgb(91, 91, 91);\">The focus of this repetition is on this sentence:</span></p><p><span style=\"color: rgb(91, 91, 91);\">Sentence - くやくしょに　いかなきゃ。= I have to go to the ward office.</span></p><p><span style=\"color: rgb(91, 91, 91);\">How to use this lesson - When the repeat message shows and the video pauses, please repeat the sentence you have just heard. Keep practising until you can repeat perfectly!</span></p><p><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/brsld7ukg7cnqndqqvsg\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"D39L3R1.mp4 - 00:07\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span><br></p></div>",
+  "videos": [
+    {
+      "src": "https://platform.thinkific.com/videoproxy/v1/play/brsld7ukg7cnqndqqvsg",
+      "title": "D39L3R1.mp4 - 00:07"
+    }
+  ],
+  "downloads": [],
+  "has_video": true,
+  "has_images": false,
+  "has_downloads": false
+}

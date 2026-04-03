@@ -1,0 +1,22 @@
+{
+  "id": "18335127",
+  "title": "Week 9 - Kanji",
+  "primary_type": "video",
+  "section": "Week 9 - Day 41",
+  "section_type": "day",
+  "section_order": 44,
+  "item_order": 3,
+  "week": 9,
+  "day": 41,
+  "html": "<div class=\"fr-view\"><p>This week you will learn all the Kanji from the following video, split across the week to make learning easier:</p><p><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/burkrkri57dcbr64hi2g\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"Week 9- Kanji.mp4 - 02:37\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span></p></div>",
+  "videos": [
+    {
+      "src": "https://platform.thinkific.com/videoproxy/v1/play/burkrkri57dcbr64hi2g",
+      "title": "Week 9- Kanji.mp4 - 02:37"
+    }
+  ],
+  "downloads": [],
+  "has_video": true,
+  "has_images": false,
+  "has_downloads": false
+}

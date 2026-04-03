@@ -1,0 +1,24 @@
+{
+  "id": "12645397",
+  "title": "Day 3 - Grammar Homework",
+  "primary_type": "text",
+  "section": "Week 1 - Day 3",
+  "section_type": "day",
+  "section_order": 5,
+  "item_order": 22,
+  "week": 1,
+  "day": 3,
+  "html": "<div class=\"fr-view\"><p><strong>How to do your grammar homework</strong></p><p>1. Please download the grammar homework file below and fill it out.</p><p><a class=\"fr-file\" href=\"https://s3.amazonaws.com/thinkific/file_uploads/259518/attachments/92c/224/bc0/Grammar_Homework_Day_3.pdf\" target=\"_blank\">Grammar Homework Day 3.pdf</a></p><p>2. Write the answer in the space or circle the right word.</p><p>You can download the answer sheet in the next lesson.</p></div>",
+  "videos": [],
+  "downloads": [
+    {
+      "type": "pdf",
+      "url": "https://s3.amazonaws.com/thinkific/file_uploads/259518/attachments/92c/224/bc0/Grammar_Homework_Day_3.pdf",
+      "title": "Grammar Homework Day 3.pdf",
+      "local": false
+    }
+  ],
+  "has_video": false,
+  "has_images": false,
+  "has_downloads": true
+}

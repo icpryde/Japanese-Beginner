@@ -1,0 +1,30 @@
+{
+  "id": "14347349",
+  "title": "Day 50 - Vocabulary",
+  "primary_type": "reference",
+  "section": "Week 10 - Day 50",
+  "section_type": "day",
+  "section_order": 53,
+  "item_order": 3,
+  "week": 10,
+  "day": 50,
+  "html": "<div class=\"fr-view\">\n<p><span style=\"color: rgb(91, 91, 91);\">Day 50 Vocabulary:</span></p>\n<p><img src=\"https://files.cdn.thinkific.com/file_uploads/259518/images/a64/45b/c0f/Vocabulary_Day_50_1.jpg\" style=\"width: 725px; max-width: 100%; height: 1025.97px;\" class=\"fr-fic fr-dib\" srcset=\"https://files.cdn.thinkific.com/file_uploads/259518/images/a64/45b/c0f/Vocabulary_Day_50_1.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/259518/images/a64/45b/c0f/Vocabulary_Day_50_1.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/259518/images/a64/45b/c0f/Vocabulary_Day_50_1.jpg?width=1920&amp;dpr=3 3x\"></p>\n<p><span style=\"color: rgb(91, 91, 91);\">A downloadable print file can be found here: <a class=\"fr-file\" href=\"https://s3.amazonaws.com/thinkific/file_uploads/259518/attachments/781/05d/48e/Vocabulary_Day_50.pdf\" target=\"_blank\">Vocabulary Day 50.pdf</a></span></p>\n<p><span style=\"color: rgb(91, 91, 91);\">Audio files can be found <a href=\"https://drive.google.com/drive/folders/1Rf1fFrgZarfryTuHjMq_sSMS128xR6-O?usp=sharing\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>, so you can listen to the pronunciation and practise repeating the words!</span></p>\n</div>",
+  "videos": [],
+  "downloads": [
+    {
+      "type": "pdf",
+      "url": "https://s3.amazonaws.com/thinkific/file_uploads/259518/attachments/781/05d/48e/Vocabulary_Day_50.pdf",
+      "title": "Vocabulary Day 50.pdf",
+      "local": false
+    },
+    {
+      "type": "audio_link",
+      "url": "https://drive.google.com/drive/folders/1Rf1fFrgZarfryTuHjMq_sSMS128xR6-O?usp=sharing",
+      "title": "here",
+      "local": false
+    }
+  ],
+  "has_video": false,
+  "has_images": true,
+  "has_downloads": true
+}

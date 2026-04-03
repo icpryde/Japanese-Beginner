@@ -1,0 +1,22 @@
+{
+  "id": "13836661",
+  "title": "Day 34 Lesson 1 - Grammar Video",
+  "primary_type": "video",
+  "section": "Week 7 - Day 34",
+  "section_type": "day",
+  "section_order": 37,
+  "item_order": 5,
+  "week": 7,
+  "day": 34,
+  "html": "<div class=\"fr-view\"><p>Day 34 Lesson 1 - Grammar Video</p><p>Watch this video for an overview of the plain form:</p><p><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/brm1hdcobr2ovliojptg\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"D34L1E1.mp4 - 08:06\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span><br></p></div>",
+  "videos": [
+    {
+      "src": "https://platform.thinkific.com/videoproxy/v1/play/brm1hdcobr2ovliojptg",
+      "title": "D34L1E1.mp4 - 08:06"
+    }
+  ],
+  "downloads": [],
+  "has_video": true,
+  "has_images": false,
+  "has_downloads": false
+}

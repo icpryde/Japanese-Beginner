@@ -1,0 +1,22 @@
+{
+  "id": "13623723",
+  "title": "Day 30 Lesson 1 - Grammar Video",
+  "primary_type": "video",
+  "section": "Week 6 - Day 30",
+  "section_type": "day",
+  "section_order": 32,
+  "item_order": 6,
+  "week": 6,
+  "day": 30,
+  "html": "<div class=\"fr-view\"><p>Day 30 Lesson 1 - Grammar Video</p><p>Watch this video for an overview of how to create the &#39;た&#39; form used in this lesson:</p><p><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/brhj1bkobr2ovlioaecg\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"D30L1PowerPoint.mp4 - 05:39\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span><br></p></div>",
+  "videos": [
+    {
+      "src": "https://platform.thinkific.com/videoproxy/v1/play/brhj1bkobr2ovlioaecg",
+      "title": "D30L1PowerPoint.mp4 - 05:39"
+    }
+  ],
+  "downloads": [],
+  "has_video": true,
+  "has_images": false,
+  "has_downloads": false
+}

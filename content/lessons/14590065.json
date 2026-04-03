@@ -1,0 +1,22 @@
+{
+  "id": "14590065",
+  "title": "Day 54 Lesson 1 - Grammar Video",
+  "primary_type": "video",
+  "section": "Week 11 - Day 54",
+  "section_type": "day",
+  "section_order": 57,
+  "item_order": 5,
+  "week": 11,
+  "day": 54,
+  "html": "<div class=\"fr-view\"><p>Day 54 Lesson 1 - Grammar Video</p><p>Watch this video for an overview of the grammar for this lesson:</p><p><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/bsag9jdab8ion3qpiio0\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"D54L1E1.mp4 - 02:12\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span><br></p></div>",
+  "videos": [
+    {
+      "src": "https://platform.thinkific.com/videoproxy/v1/play/bsag9jdab8ion3qpiio0",
+      "title": "D54L1E1.mp4 - 02:12"
+    }
+  ],
+  "downloads": [],
+  "has_video": true,
+  "has_images": false,
+  "has_downloads": false
+}

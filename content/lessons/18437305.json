@@ -1,0 +1,24 @@
+{
+  "id": "18437305",
+  "title": "Introducing Kanji",
+  "primary_type": "reference",
+  "section": "Week 4 - Day 16",
+  "section_type": "day",
+  "section_order": 18,
+  "item_order": 3,
+  "week": 4,
+  "day": 16,
+  "html": "<div class=\"fr-view\">\n<p>Congratulations on completing the first 15 days of the course! You should now have a firm grasp on Hiragana &amp; Katakana so, from lesson 16 onwards, we will start to introduce you to Kanji.  </p>\n<p><strong>KANJI</strong></p>\n<p>There are thousands of kanji characters in regular use. All have different meanings and most have more than one pronunciation or ‘reading’. The different readings are <em>onyomi</em> (音読み, おんよみ), which is “sound reading”, derived from Chinese, or <em>kunyomi</em> (訓読み, くんよみ), which is “meaning reading”, and are native Japanese readings. </p>\n<p>Most characters have one of each, but many have more than one, and some only have one. In Japanese elementary, middle and high schools, students learn more than 2,000<em> jyoyo kanji</em> (常用漢字), or regularly used kanji, which is also the number of kanji required to pass the highest level of the <a href=\"https://gogonihon.com/en/blog/preparing-for-the-jlpt/\" rel=\"noopener noreferrer\" target=\"_blank\">JLPT</a>. </p>\n<p>Fun fact: There are more than 50,000 kanji, however, most native Japanese don’t know nearly that many by heart!  </p>\n<p><img src=\"https://files.cdn.thinkific.com/file_uploads/259518/images/010/dbb/45b/Kanji_chart.png\" style=\"width: 852px;\" class=\"fr-fic fr-dib\" srcset=\"https://files.cdn.thinkific.com/file_uploads/259518/images/010/dbb/45b/Kanji_chart.png?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/259518/images/010/dbb/45b/Kanji_chart.png?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/259518/images/010/dbb/45b/Kanji_chart.png?width=1920&amp;dpr=3 3x\"></p>\n<p>Attached is a <a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/d50/c8f/fc5/English_-_Kanji_booklet.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">Kanji practice booklet</a> that you can print off and use to perfect stroke order along with the videos you will find in the Kanji Practice lessons.</p>\n<p><strong><span style=\"font-size: 18px;\">Furigana</span></strong></p>\n<p>We will now start to use Kanji throughout lessons from this point on, to help you get used to seeing Kanji and begin to understand it.  </p>\n<p>To help you understand the pronunciation of words we have yet to teach, we will use Furigana.</p>\n<p>Furigana is a Japanese reading aid, consisting of hiragana, printed next to or above a kanji to indicate its pronunciation.  An example of this is below:</p>\n<p><ruby><b>場所</b> <rt>ばしょ</rt> </ruby><b>= Location:</b> <ruby>教室  <rt>きょうしつ</rt> </ruby>= classroom</p>\n</div>",
+  "videos": [],
+  "downloads": [
+    {
+      "type": "pdf",
+      "url": "https://files.cdn.thinkific.com/file_uploads/259518/attachments/d50/c8f/fc5/English_-_Kanji_booklet.pdf",
+      "title": "Kanji practice booklet",
+      "local": false
+    }
+  ],
+  "has_video": false,
+  "has_images": true,
+  "has_downloads": true
+}

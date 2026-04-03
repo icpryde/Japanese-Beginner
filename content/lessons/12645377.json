@@ -1,0 +1,33 @@
+{
+  "id": "12645377",
+  "title": "Day 3 - Hiragana Practice",
+  "primary_type": "video",
+  "section": "Week 1 - Day 3",
+  "section_type": "day",
+  "section_order": 5,
+  "item_order": 2,
+  "week": 1,
+  "day": 3,
+  "html": "<div class=\"fr-view\"><p>Please download today&#39;s hiragana practice here <a class=\"fr-file\" href=\"https://s3.amazonaws.com/thinkific/file_uploads/259518/attachments/af4/c0a/800/Hiragana_Practice_Day_3.pdf\" target=\"_blank\">Hiragana Practice Day 3.pdf</a> and watch the 2 videos below to see the stroke order:</p><p><strong>な、に、ぬ、ね、の</strong></p><p><strong><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/buh5tjeje35bt9cic34g\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"Hiragana 5 なにぬねの.mp4 - 01:50\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span></strong></p><p><strong>は、ひ、ふ、へ、ほ</strong></p><p><strong><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/buh5ukri57dcbr63old0\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"Hiragana 6 はひふへほ.mp4 - 01:45\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span><br></strong>It is very important to practice writing hiragana every day, which will enable you to master what you have learned faster. If you have any questions you can always ask other students and teachers in the group <a href=\"https://japaneseonline.gogonihon.com/communities/Q29tbXVuaXR5LTM1MzQ=\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p></div>",
+  "videos": [
+    {
+      "src": "https://platform.thinkific.com/videoproxy/v1/play/buh5tjeje35bt9cic34g",
+      "title": "Hiragana 5 なにぬねの.mp4 - 01:50"
+    },
+    {
+      "src": "https://platform.thinkific.com/videoproxy/v1/play/buh5ukri57dcbr63old0",
+      "title": "Hiragana 6 はひふへほ.mp4 - 01:45"
+    }
+  ],
+  "downloads": [
+    {
+      "type": "pdf",
+      "url": "https://s3.amazonaws.com/thinkific/file_uploads/259518/attachments/af4/c0a/800/Hiragana_Practice_Day_3.pdf",
+      "title": "Hiragana Practice Day 3.pdf",
+      "local": false
+    }
+  ],
+  "has_video": true,
+  "has_images": false,
+  "has_downloads": true
+}

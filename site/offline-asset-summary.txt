@@ -1,0 +1,24 @@
+Akamonkai Offline Asset Summary
+================================
+Build ID: 20260402072837
+Generated At: 2026-04-02T07:28:37.022578+00:00
+Profile: full_offline
+Allow Missing Media: True
+
+Coverage
+- Offline readiness: 100.0%
+- Required assets: 1 / 1
+- Missing required references: 0
+- Lessons with missing required references: 0
+
+Coverage by Kind
+- image: 100.0%  (1/1)  [OK]
+
+Missing by Kind (reference count)
+- none
+
+Top Missing Reasons
+- none
+
+Most Affected Lessons
+- none

@@ -1,0 +1,22 @@
+{
+  "id": "12645484",
+  "title": "Day 8 Lesson 1 - Video Repetition",
+  "primary_type": "video",
+  "section": "Week 2 - Day 8",
+  "section_type": "day",
+  "section_order": 10,
+  "item_order": 7,
+  "week": 2,
+  "day": 8,
+  "html": "<div class=\"fr-view\"><p>The focus of this repetition is on these two sentences: &nbsp;</p><p>Sentence 1 - らーめん（らあめん） は おいしい です。 (ramen wa oishii des) = Ramen is delicious.</p><p>Sentence 2 - みせ は しずか です。 (mise wa shizuka des) = The store is quiet.</p><p><strong>How to use this lesson</strong> - When the repeat message shows and the video pauses, please repeat the sentence you have just heard. &nbsp;Keep practising until you can repeat perfectly!</p><p><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/bqc10hrcip4fs3fsn6sg\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"D8 L1 R1.mp4 - 00:14\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span><br></p></div>",
+  "videos": [
+    {
+      "src": "https://platform.thinkific.com/videoproxy/v1/play/bqc10hrcip4fs3fsn6sg",
+      "title": "D8 L1 R1.mp4 - 00:14"
+    }
+  ],
+  "downloads": [],
+  "has_video": true,
+  "has_images": false,
+  "has_downloads": false
+}

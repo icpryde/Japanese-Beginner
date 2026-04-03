@@ -1,0 +1,30 @@
+{
+  "id": "12645336",
+  "title": "Introducing Hiragana",
+  "primary_type": "reference",
+  "section": "Week 1 - Day 1",
+  "section_type": "day",
+  "section_order": 3,
+  "item_order": 2,
+  "week": 1,
+  "day": 1,
+  "html": "<div class=\"fr-view\">\n<p>The Japanese writing system consists of two types of characters: the syllabic kana – <em>hiragana</em> (平仮名) and <em>katakana</em> (片仮名), and the pictorial - <em>kanji</em> (漢字).  Each set has a different usage, and all are necessary to learn to read and write Japanese fluently. </p>\n<p><strong>HIRAGANA</strong></p>\n<p>Hiragana, which literally means “ordinary” or “simple” kana, is used primarily for native Japanese words and grammatical elements. Each sound in the Japanese language corresponds to one character in the syllabary. </p>\n<p>Hiragana is also used for <em>furigana</em> (ふりがな) or <em>yomigana</em> (読み仮名), a reading aid for kanji you will find either next to or above the kanji. It will help you read kanji you may not know yet, so make sure you master kana! Children’s books targeted at young children are often written in hiragana.</p>\n<p>As an overview of the entire Hiragana set, we have created this helpful chart which also includes stroke order for each character. </p>\n<p>Each day in lessons 1-10 we will introduce you o new hiragana characters until you learn them all. </p>\n<p><img src=\"https://files.cdn.thinkific.com/file_uploads/259518/images/8dc/30a/919/Hiragana_Table.png\" style=\"width: 792px;\" class=\"fr-fic fr-dib\" srcset=\"https://files.cdn.thinkific.com/file_uploads/259518/images/8dc/30a/919/Hiragana_Table.png?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/259518/images/8dc/30a/919/Hiragana_Table.png?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/259518/images/8dc/30a/919/Hiragana_Table.png?width=1920&amp;dpr=3 3x\"></p>\n<p>You can also download the Hiragana table from <a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/034/656/ca1/Hiragana_Table.pdf\" target=\"_blank\">here</a>.</p>\n<p>To learn and practice stroke orders you can download our helpful practice booklet <a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/06c/fa6/420/Hiragana_practice.pdf\" target=\"_blank\">Hiragana practice.pdf</a> and to listen to sounds you could use the Go! Go! Nihon Hiragana Quest app with free trial lesson (¥360 to unlock Hiragana), find it <a href=\"https://futuretrostudios.com/hiraganaquest/\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p>\n</div>",
+  "videos": [],
+  "downloads": [
+    {
+      "type": "pdf",
+      "url": "https://files.cdn.thinkific.com/file_uploads/259518/attachments/034/656/ca1/Hiragana_Table.pdf",
+      "title": "here",
+      "local": false
+    },
+    {
+      "type": "pdf",
+      "url": "https://files.cdn.thinkific.com/file_uploads/259518/attachments/06c/fa6/420/Hiragana_practice.pdf",
+      "title": "Hiragana practice.pdf",
+      "local": false
+    }
+  ],
+  "has_video": false,
+  "has_images": true,
+  "has_downloads": true
+}

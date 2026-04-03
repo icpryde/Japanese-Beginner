@@ -1,0 +1,23 @@
+{
+  "id": "mp4_1_2",
+  "title": "How to use the course",
+  "primary_type": "video",
+  "section": "Course introduction",
+  "section_type": "intro",
+  "section_order": 1,
+  "item_order": 2,
+  "week": 0,
+  "day": 0,
+  "html": "",
+  "videos": [
+    {
+      "src": "../videos/bqlucpuhra84otn7gs10.mp4",
+      "title": "How to use the course",
+      "local": true
+    }
+  ],
+  "downloads": [],
+  "has_video": true,
+  "has_images": false,
+  "has_downloads": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "18333845",
+  "title": "Week 6 - Kanji",
+  "primary_type": "video",
+  "section": "Week 6 - Day 26",
+  "section_type": "day",
+  "section_order": 28,
+  "item_order": 3,
+  "week": 6,
+  "day": 26,
+  "html": "<div class=\"fr-view\"><p>This week you will learn all the Kanji from the following video, split across the week to make learning easier:</p><p><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/burkrkuje35bt9cj4rf0\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"Week 6 - kanji.mp4 - 02:22\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span></p></div>",
+  "videos": [
+    {
+      "src": "https://platform.thinkific.com/videoproxy/v1/play/burkrkuje35bt9cj4rf0",
+      "title": "Week 6 - kanji.mp4 - 02:22"
+    }
+  ],
+  "downloads": [],
+  "has_video": true,
+  "has_images": false,
+  "has_downloads": false
+}

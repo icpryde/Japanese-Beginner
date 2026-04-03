@@ -1,0 +1,22 @@
+{
+  "id": "12645333",
+  "title": "A message from the teachers",
+  "primary_type": "video",
+  "section": "Welcome to the course",
+  "section_type": "intro",
+  "section_order": 2,
+  "item_order": 1,
+  "week": 0,
+  "day": 0,
+  "html": "<div class=\"fr-view\"><p><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/bq78ffjcip4fs3fscvig?autoplay=true\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"OL opening.mp4 - 00:06\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span></p><p>An introduction from the teachers at Akamonkai Japanese Language School.</p></div>",
+  "videos": [
+    {
+      "src": "https://platform.thinkific.com/videoproxy/v1/play/bq78ffjcip4fs3fscvig?autoplay=true",
+      "title": "OL opening.mp4 - 00:06"
+    }
+  ],
+  "downloads": [],
+  "has_video": true,
+  "has_images": false,
+  "has_downloads": false
+}

@@ -1,0 +1,26 @@
+{
+  "id": "18333237",
+  "title": "Week 4 - Kanji",
+  "primary_type": "video",
+  "section": "Week 4 - Day 16",
+  "section_type": "day",
+  "section_order": 18,
+  "item_order": 4,
+  "week": 4,
+  "day": 16,
+  "html": "<div class=\"fr-view\"><p>This week you will learn all the Kanji from the following video, split across the week to make learning easier:</p><p><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/burkrleje35bt9cj4rg0\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"Week 4- Kanji.mp4 - 02:15\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span></p><p>You will also learn to count from 1 to 10 using Kanji:</p><p><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/c03pifcerl5cdoanr00g\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"Week 3- Kanji.mp4 - 02:14\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span></p></div>",
+  "videos": [
+    {
+      "src": "https://platform.thinkific.com/videoproxy/v1/play/burkrleje35bt9cj4rg0",
+      "title": "Week 4- Kanji.mp4 - 02:15"
+    },
+    {
+      "src": "https://platform.thinkific.com/videoproxy/v1/play/c03pifcerl5cdoanr00g",
+      "title": "Week 3- Kanji.mp4 - 02:14"
+    }
+  ],
+  "downloads": [],
+  "has_video": true,
+  "has_images": false,
+  "has_downloads": false
+}

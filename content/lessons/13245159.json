@@ -1,0 +1,22 @@
+{
+  "id": "13245159",
+  "title": "Day 17 Lesson 3 - Video Repetition",
+  "primary_type": "video",
+  "section": "Week 4 - Day 17",
+  "section_type": "day",
+  "section_order": 19,
+  "item_order": 18,
+  "week": 4,
+  "day": 17,
+  "html": "<div class=\"fr-view\"><p>The focus of this repetition is on these two sentences: &nbsp;</p><p>Sentence 1 - なんじかん　べんきょうしましたか。 = How many hours did your study?</p><p>Sentence 2 - 8じかんぐらい　べんきょうしました。 = I studied around 8 hours.</p><p><strong>How to use this lesson</strong> - When the repeat message shows and the video pauses, please repeat the sentence you have just heard. Keep practising until you can repeat perfectly!</p><p><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/br72m7ukg7cnqndpchp0\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"D17 L3 R1.mp4 - 00:14\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span></p></div>",
+  "videos": [
+    {
+      "src": "https://platform.thinkific.com/videoproxy/v1/play/br72m7ukg7cnqndpchp0",
+      "title": "D17 L3 R1.mp4 - 00:14"
+    }
+  ],
+  "downloads": [],
+  "has_video": true,
+  "has_images": false,
+  "has_downloads": false
+}

@@ -1,0 +1,528 @@
+{
+  "imported_at": "2026-04-02T09:29:37.541135+00:00",
+  "source": "/Users/kurisu/Documents/AI Apps/Akamonkai Japanese 12 Week Beginner Course - content",
+  "stats": {
+    "total_sections": 64,
+    "total_items": 1102,
+    "html_items": 1041,
+    "pdf_items": 60,
+    "mp4_items": 1,
+    "skipped_empty": 0,
+    "skipped_gaps": 0,
+    "warnings": []
+  },
+  "sections_summary": [
+    {
+      "order": 1,
+      "label": "Course introduction",
+      "section_type": "intro",
+      "week": 0,
+      "day": 0,
+      "lesson_count": 5
+    },
+    {
+      "order": 2,
+      "label": "Welcome to the course",
+      "section_type": "intro",
+      "week": 0,
+      "day": 0,
+      "lesson_count": 3
+    },
+    {
+      "order": 3,
+      "label": "Week 1 - Day 1",
+      "section_type": "day",
+      "week": 1,
+      "day": 1,
+      "lesson_count": 16
+    },
+    {
+      "order": 4,
+      "label": "Week 1 - Day 2",
+      "section_type": "day",
+      "week": 1,
+      "day": 2,
+      "lesson_count": 17
+    },
+    {
+      "order": 5,
+      "label": "Week 1 - Day 3",
+      "section_type": "day",
+      "week": 1,
+      "day": 3,
+      "lesson_count": 17
+    },
+    {
+      "order": 6,
+      "label": "Week 1 - Day 4",
+      "section_type": "day",
+      "week": 1,
+      "day": 4,
+      "lesson_count": 15
+    },
+    {
+      "order": 7,
+      "label": "Week 1 - Day 5",
+      "section_type": "day",
+      "week": 1,
+      "day": 5,
+      "lesson_count": 17
+    },
+    {
+      "order": 8,
+      "label": "Week 2 - Day 6",
+      "section_type": "day",
+      "week": 2,
+      "day": 6,
+      "lesson_count": 15
+    },
+    {
+      "order": 9,
+      "label": "Week 2 - Day 7",
+      "section_type": "day",
+      "week": 2,
+      "day": 7,
+      "lesson_count": 17
+    },
+    {
+      "order": 10,
+      "label": "Week 2 - Day 8",
+      "section_type": "day",
+      "week": 2,
+      "day": 8,
+      "lesson_count": 17
+    },
+    {
+      "order": 11,
+      "label": "Week 2 - Day 9",
+      "section_type": "day",
+      "week": 2,
+      "day": 9,
+      "lesson_count": 15
+    },
+    {
+      "order": 12,
+      "label": "Week 2 - Day 10",
+      "section_type": "day",
+      "week": 2,
+      "day": 10,
+      "lesson_count": 24
+    },
+    {
+      "order": 13,
+      "label": "Week 3 - Day 11",
+      "section_type": "day",
+      "week": 3,
+      "day": 11,
+      "lesson_count": 23
+    },
+    {
+      "order": 14,
+      "label": "Week 3 - Day 12",
+      "section_type": "day",
+      "week": 3,
+      "day": 12,
+      "lesson_count": 20
+    },
+    {
+      "order": 15,
+      "label": "Week 3 - Day 13",
+      "section_type": "day",
+      "week": 3,
+      "day": 13,
+      "lesson_count": 17
+    },
+    {
+      "order": 16,
+      "label": "Week 3 - Day 14",
+      "section_type": "day",
+      "week": 3,
+      "day": 14,
+      "lesson_count": 19
+    },
+    {
+      "order": 17,
+      "label": "Week 3 - Day 15",
+      "section_type": "day",
+      "week": 3,
+      "day": 15,
+      "lesson_count": 17
+    },
+    {
+      "order": 18,
+      "label": "Week 4 - Day 16",
+      "section_type": "day",
+      "week": 4,
+      "day": 16,
+      "lesson_count": 23
+    },
+    {
+      "order": 19,
+      "label": "Week 4 - Day 17",
+      "section_type": "day",
+      "week": 4,
+      "day": 17,
+      "lesson_count": 25
+    },
+    {
+      "order": 20,
+      "label": "Week 4 - Day 18",
+      "section_type": "day",
+      "week": 4,
+      "day": 18,
+      "lesson_count": 14
+    },
+    {
+      "order": 21,
+      "label": "Week 4 - Day 19",
+      "section_type": "day",
+      "week": 4,
+      "day": 19,
+      "lesson_count": 21
+    },
+    {
+      "order": 22,
+      "label": "Week 4 - Day 20",
+      "section_type": "day",
+      "week": 4,
+      "day": 20,
+      "lesson_count": 16
+    },
+    {
+      "order": 23,
+      "label": "Week 5 - Day 21",
+      "section_type": "day",
+      "week": 5,
+      "day": 21,
+      "lesson_count": 17
+    },
+    {
+      "order": 24,
+      "label": "Week 5 - Day 22",
+      "section_type": "day",
+      "week": 5,
+      "day": 22,
+      "lesson_count": 18
+    },
+    {
+      "order": 25,
+      "label": "Week 5 - Day 23",
+      "section_type": "day",
+      "week": 5,
+      "day": 23,
+      "lesson_count": 22
+    },
+    {
+      "order": 26,
+      "label": "Week 5 - Day 24",
+      "section_type": "day",
+      "week": 5,
+      "day": 24,
+      "lesson_count": 19
+    },
+    {
+      "order": 27,
+      "label": "Week 5 - Day 25",
+      "section_type": "day",
+      "week": 5,
+      "day": 25,
+      "lesson_count": 15
+    },
+    {
+      "order": 28,
+      "label": "Week 6 - Day 26",
+      "section_type": "day",
+      "week": 6,
+      "day": 26,
+      "lesson_count": 18
+    },
+    {
+      "order": 29,
+      "label": "Week 6 - Day 27",
+      "section_type": "day",
+      "week": 6,
+      "day": 27,
+      "lesson_count": 20
+    },
+    {
+      "order": 30,
+      "label": "Week 6 - Day 28",
+      "section_type": "day",
+      "week": 6,
+      "day": 28,
+      "lesson_count": 17
+    },
+    {
+      "order": 31,
+      "label": "Week 6 - Day 29",
+      "section_type": "day",
+      "week": 6,
+      "day": 29,
+      "lesson_count": 15
+    },
+    {
+      "order": 32,
+      "label": "Week 6 - Day 30",
+      "section_type": "day",
+      "week": 6,
+      "day": 30,
+      "lesson_count": 14
+    },
+    {
+      "order": 33,
+      "label": "Mid course review",
+      "section_type": "review",
+      "week": 0,
+      "day": 0,
+      "lesson_count": 14
+    },
+    {
+      "order": 34,
+      "label": "Week 7 - Day 31",
+      "section_type": "day",
+      "week": 7,
+      "day": 31,
+      "lesson_count": 22
+    },
+    {
+      "order": 35,
+      "label": "Week 7 - Day 32",
+      "section_type": "day",
+      "week": 7,
+      "day": 32,
+      "lesson_count": 15
+    },
+    {
+      "order": 36,
+      "label": "Week 7 - Day 33",
+      "section_type": "day",
+      "week": 7,
+      "day": 33,
+      "lesson_count": 12
+    },
+    {
+      "order": 37,
+      "label": "Week 7 - Day 34",
+      "section_type": "day",
+      "week": 7,
+      "day": 34,
+      "lesson_count": 23
+    },
+    {
+      "order": 38,
+      "label": "Week 7 - Day 35",
+      "section_type": "day",
+      "week": 7,
+      "day": 35,
+      "lesson_count": 22
+    },
+    {
+      "order": 39,
+      "label": "Week 8 - Day 36",
+      "section_type": "day",
+      "week": 8,
+      "day": 36,
+      "lesson_count": 15
+    },
+    {
+      "order": 40,
+      "label": "Week 8 - Day 37",
+      "section_type": "day",
+      "week": 8,
+      "day": 37,
+      "lesson_count": 19
+    },
+    {
+      "order": 41,
+      "label": "Week 8 - Day 38",
+      "section_type": "day",
+      "week": 8,
+      "day": 38,
+      "lesson_count": 16
+    },
+    {
+      "order": 42,
+      "label": "Week 8 - Day 39",
+      "section_type": "day",
+      "week": 8,
+      "day": 39,
+      "lesson_count": 20
+    },
+    {
+      "order": 43,
+      "label": "Week 8 - Day 40",
+      "section_type": "day",
+      "week": 8,
+      "day": 40,
+      "lesson_count": 20
+    },
+    {
+      "order": 44,
+      "label": "Week 9 - Day 41",
+      "section_type": "day",
+      "week": 9,
+      "day": 41,
+      "lesson_count": 19
+    },
+    {
+      "order": 45,
+      "label": "Week 9 - Day 42",
+      "section_type": "day",
+      "week": 9,
+      "day": 42,
+      "lesson_count": 17
+    },
+    {
+      "order": 46,
+      "label": "Week 9 - Day 43",
+      "section_type": "day",
+      "week": 9,
+      "day": 43,
+      "lesson_count": 16
+    },
+    {
+      "order": 47,
+      "label": "Week 9 - Day 44",
+      "section_type": "day",
+      "week": 9,
+      "day": 44,
+      "lesson_count": 19
+    },
+    {
+      "order": 48,
+      "label": "Week 9 - Day 45",
+      "section_type": "day",
+      "week": 9,
+      "day": 45,
+      "lesson_count": 19
+    },
+    {
+      "order": 49,
+      "label": "Week 10 - Day 46",
+      "section_type": "day",
+      "week": 10,
+      "day": 46,
+      "lesson_count": 18
+    },
+    {
+      "order": 50,
+      "label": "Week 10 - Day 47",
+      "section_type": "day",
+      "week": 10,
+      "day": 47,
+      "lesson_count": 17
+    },
+    {
+      "order": 51,
+      "label": "Week 10 - Day 48",
+      "section_type": "day",
+      "week": 10,
+      "day": 48,
+      "lesson_count": 18
+    },
+    {
+      "order": 52,
+      "label": "Week 10 - Day 49",
+      "section_type": "day",
+      "week": 10,
+      "day": 49,
+      "lesson_count": 15
+    },
+    {
+      "order": 53,
+      "label": "Week 10 - Day 50",
+      "section_type": "day",
+      "week": 10,
+      "day": 50,
+      "lesson_count": 16
+    },
+    {
+      "order": 54,
+      "label": "Week  11 - Day 51",
+      "section_type": "day",
+      "week": 11,
+      "day": 51,
+      "lesson_count": 20
+    },
+    {
+      "order": 55,
+      "label": "Week 11 - Day 52",
+      "section_type": "day",
+      "week": 11,
+      "day": 52,
+      "lesson_count": 14
+    },
+    {
+      "order": 56,
+      "label": "Week 11 - Day 53",
+      "section_type": "day",
+      "week": 11,
+      "day": 53,
+      "lesson_count": 18
+    },
+    {
+      "order": 57,
+      "label": "Week 11 - Day 54",
+      "section_type": "day",
+      "week": 11,
+      "day": 54,
+      "lesson_count": 15
+    },
+    {
+      "order": 58,
+      "label": "Week 11 - Day 55",
+      "section_type": "day",
+      "week": 11,
+      "day": 55,
+      "lesson_count": 18
+    },
+    {
+      "order": 59,
+      "label": "Week 12 - Day 56",
+      "section_type": "day",
+      "week": 12,
+      "day": 56,
+      "lesson_count": 17
+    },
+    {
+      "order": 60,
+      "label": "Week 12 - Day 57",
+      "section_type": "day",
+      "week": 12,
+      "day": 57,
+      "lesson_count": 14
+    },
+    {
+      "order": 61,
+      "label": "Week 12 - Day 58",
+      "section_type": "day",
+      "week": 12,
+      "day": 58,
+      "lesson_count": 16
+    },
+    {
+      "order": 62,
+      "label": "Week 12 - Day 59",
+      "section_type": "day",
+      "week": 12,
+      "day": 59,
+      "lesson_count": 21
+    },
+    {
+      "order": 63,
+      "label": "Week 12 - Day 60",
+      "section_type": "day",
+      "week": 12,
+      "day": 60,
+      "lesson_count": 27
+    },
+    {
+      "order": 64,
+      "label": "Next steps",
+      "section_type": "outro",
+      "week": 0,
+      "day": 0,
+      "lesson_count": 2
+    }
+  ]
+}

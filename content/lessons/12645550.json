@@ -1,0 +1,30 @@
+{
+  "id": "12645550",
+  "title": "Introducing Katakana",
+  "primary_type": "reference",
+  "section": "Week 3 - Day 11",
+  "section_type": "day",
+  "section_order": 13,
+  "item_order": 3,
+  "week": 3,
+  "day": 11,
+  "html": "<div class=\"fr-view\">\n<p>Congratulations on completing the first 10 days of the course! You should now have a firm grasp on Hiragana so, from lesson 11 onwards, we will start to introduce you to Katakana.  </p>\n<p><strong>KATAKANA</strong></p>\n<p>Katakana, meaning “fragmentary kana,” are used primarily for foreign words and names, loanwords and onomatopoeia. Like hiragana, the basic alphabet has 5 singular vowels, 40 consonant-vowels and 1 singular consonant. Katakana usage is sometimes similar to italics in English, where it is used for transcription of foreign language words into Japanese. </p>\n<p><em>Gairaigo</em> (外来語), or loan words, are all written in katakana, such as バナナ, or banana. Foreign names are similarly also written in katakana. If you have a non-Japanese name, you should learn how to write your name in katakana first.</p>\n<p>As an overview of the entire Katakana alphabet, we have created this helpful chart which also includes stroke order for each character.</p>\n<p><img src=\"https://files.cdn.thinkific.com/file_uploads/259518/images/209/a0e/c51/Katakana_Table.jpg\" style=\"width: 842px;\" class=\"fr-fic fr-dib\" srcset=\"https://files.cdn.thinkific.com/file_uploads/259518/images/209/a0e/c51/Katakana_Table.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/259518/images/209/a0e/c51/Katakana_Table.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/259518/images/209/a0e/c51/Katakana_Table.jpg?width=1920&amp;dpr=3 3x\"></p>\n<p>You can also download the Katakana table from <a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/9d8/1e2/232/Katakana_Table.pdf\" target=\"_blank\">here</a>.</p>\n</div><p>To learn and practice stroke orders you can download our helpful practice booklet <a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/9df/e27/05b/Katakana_practice.pdf\" target=\"_blank\">Katakana practice.pdf</a> and to listen to the sounds you could use the Go! Go! Nihon Katakana Quest app with free trial lesson (¥360 to unlock Hiragana), find it <a href=\"https://futuretrostudios.com/hiraganaquest/\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p>",
+  "videos": [],
+  "downloads": [
+    {
+      "type": "pdf",
+      "url": "https://files.cdn.thinkific.com/file_uploads/259518/attachments/9d8/1e2/232/Katakana_Table.pdf",
+      "title": "here",
+      "local": false
+    },
+    {
+      "type": "pdf",
+      "url": "https://files.cdn.thinkific.com/file_uploads/259518/attachments/9df/e27/05b/Katakana_practice.pdf",
+      "title": "Katakana practice.pdf",
+      "local": false
+    }
+  ],
+  "has_video": false,
+  "has_images": true,
+  "has_downloads": true
+}

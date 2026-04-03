@@ -1,0 +1,22 @@
+{
+  "id": "14867533",
+  "title": "Day 58 Lesson 2 - Grammar Video",
+  "primary_type": "video",
+  "section": "Week 12 - Day 58",
+  "section_type": "day",
+  "section_order": 61,
+  "item_order": 11,
+  "week": 12,
+  "day": 58,
+  "html": "<div class=\"fr-view\"><p>Day 58 Lesson 2 - Grammar Video&nbsp;</p><p>Watch this video for an overview of the grammar for this lesson:</p><p><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/bsf7n4p9tnhu54jnj8sg\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"D58L2E1.mp4 - 05:25\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span><br></p></div>",
+  "videos": [
+    {
+      "src": "https://platform.thinkific.com/videoproxy/v1/play/bsf7n4p9tnhu54jnj8sg",
+      "title": "D58L2E1.mp4 - 05:25"
+    }
+  ],
+  "downloads": [],
+  "has_video": true,
+  "has_images": false,
+  "has_downloads": false
+}

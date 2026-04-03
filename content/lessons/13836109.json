@@ -1,0 +1,22 @@
+{
+  "id": "13836109",
+  "title": "Day 31 Lesson 2 - Grammar Video",
+  "primary_type": "video",
+  "section": "Week 7 - Day 31",
+  "section_type": "day",
+  "section_order": 34,
+  "item_order": 15,
+  "week": 7,
+  "day": 31,
+  "html": "<div class=\"fr-view\"><p>Day 31 Lesson 2 - Grammar Video</p><p>Watch this video for an overview of the grammar for this lesson:</p><p><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/brlcfhcobr2ovlioi65g\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"D31 L2 E.mp4 - 00:19\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span><br></p></div>",
+  "videos": [
+    {
+      "src": "https://platform.thinkific.com/videoproxy/v1/play/brlcfhcobr2ovlioi65g",
+      "title": "D31 L2 E.mp4 - 00:19"
+    }
+  ],
+  "downloads": [],
+  "has_video": true,
+  "has_images": false,
+  "has_downloads": false
+}

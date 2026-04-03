@@ -1,0 +1,22 @@
+{
+  "id": "14408171",
+  "title": "Day 47 Lesson 2 - Grammar Video",
+  "primary_type": "video",
+  "section": "Week 10 - Day 47",
+  "section_type": "day",
+  "section_order": 50,
+  "item_order": 14,
+  "week": 10,
+  "day": 47,
+  "html": "<div class=\"fr-view\"><p>Day 47 Lesson 2 - Grammar Video&nbsp;</p><p>Watch this video for an overview of the grammar for this lesson:</p><p><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/bs3grfeha64baurspg10\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"D47 L2 E.mp4 - 01:30\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span><br></p></div>",
+  "videos": [
+    {
+      "src": "https://platform.thinkific.com/videoproxy/v1/play/bs3grfeha64baurspg10",
+      "title": "D47 L2 E.mp4 - 01:30"
+    }
+  ],
+  "downloads": [],
+  "has_video": true,
+  "has_images": false,
+  "has_downloads": false
+}

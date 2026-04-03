@@ -1,0 +1,22 @@
+{
+  "id": "13464659",
+  "title": "Day 22 Lesson 2 - Grammar Video  2",
+  "primary_type": "video",
+  "section": "Week 5 - Day 22",
+  "section_type": "day",
+  "section_order": 24,
+  "item_order": 13,
+  "week": 5,
+  "day": 22,
+  "html": "<div class=\"fr-view\"><p>Day 22 Lesson 2 - Grammar Video 2</p><p>Watch this video for an overview of the grammar for this lesson:</p><p><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/brblvp6kg7cnqndpn84g\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"D 22 L2 E2.mp4 - 04:37\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span></p></div>",
+  "videos": [
+    {
+      "src": "https://platform.thinkific.com/videoproxy/v1/play/brblvp6kg7cnqndpn84g",
+      "title": "D 22 L2 E2.mp4 - 04:37"
+    }
+  ],
+  "downloads": [],
+  "has_video": true,
+  "has_images": false,
+  "has_downloads": false
+}

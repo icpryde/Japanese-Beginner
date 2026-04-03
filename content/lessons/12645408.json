@@ -1,0 +1,22 @@
+{
+  "id": "12645408",
+  "title": "Day 4 Lesson 2 ( Video )Talking about this evening plans",
+  "primary_type": "video",
+  "section": "Week 1 - Day 4",
+  "section_type": "day",
+  "section_order": 6,
+  "item_order": 11,
+  "week": 1,
+  "day": 4,
+  "html": "<div class=\"fr-view\"><p><span style=\"font-size: 16px;\">Day 4 - Lesson 2</span></p><p><span style=\"font-size: 16px;\">こんばんの　よていを　はなす = Talking about this evening&#39;s plans</span></p><p><span style=\"font-size: 16px;\"><b>ばしょ (Location):</b> きょうしつ　= Classroom</span></p><p><span style=\"font-size: 16px;\"><b>とうじょうじんぶつ (Characters):</b> がくせい ふたり (Two students)</span></p><p><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/bqa00v3cip4fs3fsi0o0\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"D4 L2 C1.mp4 - 00:12\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span></p><p>The new words for this lesson are:</p><p>こんばん (konban) = this evening</p><p>おんがく (ongaku) = music</p><p>ききます (kikimas) = to listen</p><p>てれび (terebi) = tv</p><p>みます (mimas) = to watch</p><p>ほん (hon) = book</p><p>よみます (yomimas) = to read</p><p>それから (sore kara) = after that</p><p>ゲームをします (geemu shimas) = play video games</p><p>します (shimas) = to do (&quot;to play&quot; in this example)</p></div>",
+  "videos": [
+    {
+      "src": "https://platform.thinkific.com/videoproxy/v1/play/bqa00v3cip4fs3fsi0o0",
+      "title": "D4 L2 C1.mp4 - 00:12"
+    }
+  ],
+  "downloads": [],
+  "has_video": true,
+  "has_images": false,
+  "has_downloads": false
+}

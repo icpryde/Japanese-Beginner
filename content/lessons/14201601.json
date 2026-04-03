@@ -1,0 +1,22 @@
+{
+  "id": "14201601",
+  "title": "Day 41 Lesson 2 - Show us",
+  "primary_type": "video",
+  "section": "Week 9 - Day 41",
+  "section_type": "day",
+  "section_order": 44,
+  "item_order": 20,
+  "week": 9,
+  "day": 41,
+  "html": "<p><span style=\"color: rgb(91, 91, 91); font-size: 16px; font-family: Tahoma, Geneva, sans-serif;\">Listen to the teacher and go to our </span><span style=\"color: rgb(91, 91, 91);\"><span style=\"font-family: Tahoma,Geneva,sans-serif;\"><span style=\"font-size: 16px;\"><a href=\"https://flipgrid.com/dd760d57\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>Flip board</strong></a> to leave your video! You will also be able to hear what other students taking the course say!</span></span></span></p><div class=\"fr-view\"><p><span style=\"color: rgb(91, 91, 91);\"><span style=\"font-family: Tahoma, Geneva, sans-serif;\"><span style=\"font-size: 16px;\"><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/bru4o7mkg7cnqndqugt0\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"D41 L2 S.mp4 - 00:05\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span></span></span></span></p></div><p dir=\"ltr\"><span style=\"color: rgb(91, 91, 91);\"><span style=\"font-family: Arial,Helvetica,sans-serif;\"><span style=\"font-size: 16px;\"><a href=\"https://flip.com/dd760d57\" rel=\"noopener noreferrer\" target=\"_blank\"><img src=\"https://files.cdn.thinkific.com/file_uploads/259518/images/9a1/ff8/3c8/Flip_correction-EN.png\" style=\"width: 300px;\" class=\"fr-fic fr-dib\" srcset=\"https://files.cdn.thinkific.com/file_uploads/259518/images/9a1/ff8/3c8/Flip_correction-EN.png?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/259518/images/9a1/ff8/3c8/Flip_correction-EN.png?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/259518/images/9a1/ff8/3c8/Flip_correction-EN.png?width=1920&amp;dpr=3 3x\"></a></span> <span style=\"font-size: 16px;\">Flipgrid password: <strong>GGNnek0#</strong></span> </span></span></p><p><span style=\"color: rgb(91, 91, 91); font-size: 16px; font-family: Arial, Helvetica, sans-serif;\">Please note that you don't have to show your face if you don't want to. You can cover it with an emoji when you record your video, use\"pixel mode\" or just hide it ;)</span></p><p><span style=\"color: rgb(91, 91, 91); font-size: 16px; font-family: Arial, Helvetica, sans-serif;\">ビデオと一緒に、あなたが言いたいことをテキストで送ってください。テキストはローマ字でもひらがなでもいいです。When you send us a video, please also add your response or script as text as well. Feel free to use romaji or hiragana.</span></p>",
+  "videos": [
+    {
+      "src": "https://platform.thinkific.com/videoproxy/v1/play/bru4o7mkg7cnqndqugt0",
+      "title": "D41 L2 S.mp4 - 00:05"
+    }
+  ],
+  "downloads": [],
+  "has_video": true,
+  "has_images": true,
+  "has_downloads": false
+}

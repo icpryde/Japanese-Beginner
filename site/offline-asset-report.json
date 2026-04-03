@@ -1,0 +1,30 @@
+{
+  "build_id": "20260402072837",
+  "generated_at": "2026-04-02T07:28:37.022578+00:00",
+  "profile": "full_offline",
+  "allow_missing_media": true,
+  "summary": {
+    "profile": "full_offline",
+    "total_references": 22,
+    "required_references": 22,
+    "missing_required_references": 0,
+    "required_unique_paths": 1,
+    "available_required_unique_paths": 1,
+    "offline_readiness_percent": 100.0,
+    "coverage_by_kind": {
+      "image": 100.0
+    },
+    "required_by_kind": {
+      "image": 1
+    },
+    "available_by_kind": {
+      "image": 1
+    },
+    "missing_reason_counts": {},
+    "missing_by_kind": {},
+    "lessons_with_missing_required": 0
+  },
+  "missing_required": [],
+  "missing_by_lesson": {},
+  "scrape_report": {}
+}

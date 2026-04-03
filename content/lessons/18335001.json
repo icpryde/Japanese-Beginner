@@ -1,0 +1,22 @@
+{
+  "id": "18335001",
+  "title": "Week 7 - Kanji",
+  "primary_type": "video",
+  "section": "Week 7 - Day 31",
+  "section_type": "day",
+  "section_order": 34,
+  "item_order": 3,
+  "week": 7,
+  "day": 31,
+  "html": "<div class=\"fr-view\"><p>This week you will learn all the Kanji from the following video, split across the week to make learning easier:</p><p><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/burkrkri57dcbr64hi20\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"Week 7- Kanji.mp4 - 02:20\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span></p></div>",
+  "videos": [
+    {
+      "src": "https://platform.thinkific.com/videoproxy/v1/play/burkrkri57dcbr64hi20",
+      "title": "Week 7- Kanji.mp4 - 02:20"
+    }
+  ],
+  "downloads": [],
+  "has_video": true,
+  "has_images": false,
+  "has_downloads": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "13437850",
+  "title": "Day 25 Lesson 1 - Grammar Video",
+  "primary_type": "video",
+  "section": "Week 5 - Day 25",
+  "section_type": "day",
+  "section_order": 27,
+  "item_order": 7,
+  "week": 5,
+  "day": 25,
+  "html": "<div class=\"fr-view\"><p>Day 25 Lesson 1 - Grammar Video</p><p>Watch this video for an overview of Te form conjugation used in this lesson:</p><p><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/brcuv3mkg7cnqndpqo00\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"D25L1E1.mp4 - 05:57\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span><br></p></div>",
+  "videos": [
+    {
+      "src": "https://platform.thinkific.com/videoproxy/v1/play/brcuv3mkg7cnqndpqo00",
+      "title": "D25L1E1.mp4 - 05:57"
+    }
+  ],
+  "downloads": [],
+  "has_video": true,
+  "has_images": false,
+  "has_downloads": false
+}

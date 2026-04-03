@@ -1,0 +1,22 @@
+{
+  "id": "18335331",
+  "title": "Week 11 - Kanji",
+  "primary_type": "video",
+  "section": "Week  11 - Day 51",
+  "section_type": "day",
+  "section_order": 54,
+  "item_order": 3,
+  "week": 11,
+  "day": 51,
+  "html": "<div class=\"fr-view\"><p>This week you will learn all the Kanji from the following video, split across the week to make learning easier:</p><p><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/burkrkri57dcbr64hi1g\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"Week 11- Kanji.mp4 - 02:50\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span></p></div>",
+  "videos": [
+    {
+      "src": "https://platform.thinkific.com/videoproxy/v1/play/burkrkri57dcbr64hi1g",
+      "title": "Week 11- Kanji.mp4 - 02:50"
+    }
+  ],
+  "downloads": [],
+  "has_video": true,
+  "has_images": false,
+  "has_downloads": false
+}

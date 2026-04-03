@@ -1,0 +1,22 @@
+{
+  "id": "13344839",
+  "title": "Day 20 Lesson 2 - Grammar Video",
+  "primary_type": "video",
+  "section": "Week 4 - Day 20",
+  "section_type": "day",
+  "section_order": 22,
+  "item_order": 9,
+  "week": 4,
+  "day": 20,
+  "html": "<div class=\"fr-view\"><p>Day 20 Lesson 2 - Grammar video</p><p>Watch this video for an overview of the grammar for this lesson:</p><p><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/br898oksd76s0l4b92g0\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"D20 L2 E.mp4 - 01:39\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span></p></div>",
+  "videos": [
+    {
+      "src": "https://platform.thinkific.com/videoproxy/v1/play/br898oksd76s0l4b92g0",
+      "title": "D20 L2 E.mp4 - 01:39"
+    }
+  ],
+  "downloads": [],
+  "has_video": true,
+  "has_images": false,
+  "has_downloads": false
+}

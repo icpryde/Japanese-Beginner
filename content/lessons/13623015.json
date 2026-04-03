@@ -1,0 +1,22 @@
+{
+  "id": "13623015",
+  "title": "Day 26 Lesson 2 - Grammar Video",
+  "primary_type": "video",
+  "section": "Week 6 - Day 26",
+  "section_type": "day",
+  "section_order": 28,
+  "item_order": 14,
+  "week": 6,
+  "day": 26,
+  "html": "<div class=\"fr-view\"><div class=\"fr-view\"><p>Day 26 Lesson 2 - Grammar video</p><p>Watch this video for an overview of this grammar point below:</p><p><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/brgb0okobr2ovlio7gcg\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"D26 L2 E.mp4 - 03:15\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span><br></p></div></div>",
+  "videos": [
+    {
+      "src": "https://platform.thinkific.com/videoproxy/v1/play/brgb0okobr2ovlio7gcg",
+      "title": "D26 L2 E.mp4 - 03:15"
+    }
+  ],
+  "downloads": [],
+  "has_video": true,
+  "has_images": false,
+  "has_downloads": false
+}

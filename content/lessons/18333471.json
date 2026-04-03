@@ -1,0 +1,22 @@
+{
+  "id": "18333471",
+  "title": "Week 5 - Kanji",
+  "primary_type": "video",
+  "section": "Week 5 - Day 21",
+  "section_type": "day",
+  "section_order": 23,
+  "item_order": 3,
+  "week": 5,
+  "day": 21,
+  "html": "<div class=\"fr-view\"><p>This week you will learn all the Kanji from the following video, split across the week to make learning easier:</p><p><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/burkrkri57dcbr64hi30\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"Week 5- kanji.mp4 - 02:34\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span></p></div><p><br></p>",
+  "videos": [
+    {
+      "src": "https://platform.thinkific.com/videoproxy/v1/play/burkrkri57dcbr64hi30",
+      "title": "Week 5- kanji.mp4 - 02:34"
+    }
+  ],
+  "downloads": [],
+  "has_video": true,
+  "has_images": false,
+  "has_downloads": false
+}

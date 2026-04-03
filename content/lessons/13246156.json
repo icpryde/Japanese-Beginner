@@ -1,0 +1,30 @@
+{
+  "id": "13246156",
+  "title": "Day 19 - Vocabulary",
+  "primary_type": "reference",
+  "section": "Week 4 - Day 19",
+  "section_type": "day",
+  "section_order": 21,
+  "item_order": 3,
+  "week": 4,
+  "day": 19,
+  "html": "<div class=\"fr-view\"><div class=\"fr-view\">\n<p><span style=\"color: rgb(91, 91, 91);\">Day 19 Vocabulary:</span></p>\n<p><img src=\"https://files.cdn.thinkific.com/file_uploads/259518/images/bbb/c14/bf3/Vocabulary_Day_19.png\" style=\"width: 709px;\" class=\"fr-fic fr-dib\" srcset=\"https://files.cdn.thinkific.com/file_uploads/259518/images/bbb/c14/bf3/Vocabulary_Day_19.png?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/259518/images/bbb/c14/bf3/Vocabulary_Day_19.png?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/259518/images/bbb/c14/bf3/Vocabulary_Day_19.png?width=1920&amp;dpr=3 3x\"></p>\n<p><img src=\"https://files.cdn.thinkific.com/file_uploads/259518/images/1ad/6bb/34a/Vocabulary_Day_19_2.png\" style=\"width: 702px;\" class=\"fr-fic fr-dib\" srcset=\"https://files.cdn.thinkific.com/file_uploads/259518/images/1ad/6bb/34a/Vocabulary_Day_19_2.png?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/259518/images/1ad/6bb/34a/Vocabulary_Day_19_2.png?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/259518/images/1ad/6bb/34a/Vocabulary_Day_19_2.png?width=1920&amp;dpr=3 3x\"></p>\n<p><span style=\"color: rgb(91, 91, 91);\">A downloadable print file can be found here: <a class=\"fr-file\" href=\"https://s3.amazonaws.com/thinkific/file_uploads/259518/attachments/a25/29c/1bf/Vocabulary_Day_19.pdf\" target=\"_blank\">Vocabulary Day 19.pdf</a></span></p>\n<p><span style=\"color: rgb(91, 91, 91);\">Audio files can be found <a href=\"https://drive.google.com/drive/folders/1Gdx8lJZ5Zv-VRnxvPYadMo-ocJpzOd2q?usp=sharing\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>, so you can listen to the pronunciation and practise repeating the words!</span></p>\n</div></div>",
+  "videos": [],
+  "downloads": [
+    {
+      "type": "pdf",
+      "url": "https://s3.amazonaws.com/thinkific/file_uploads/259518/attachments/a25/29c/1bf/Vocabulary_Day_19.pdf",
+      "title": "Vocabulary Day 19.pdf",
+      "local": false
+    },
+    {
+      "type": "audio_link",
+      "url": "https://drive.google.com/drive/folders/1Gdx8lJZ5Zv-VRnxvPYadMo-ocJpzOd2q?usp=sharing",
+      "title": "here",
+      "local": false
+    }
+  ],
+  "has_video": false,
+  "has_images": true,
+  "has_downloads": true
+}
