@@ -5,8 +5,8 @@ workers_dev = true
 preview_urls = true
 
 [vars]
-# Set this to your GitHub Pages origin (no trailing slash)
-ALLOWED_ORIGIN = "https://icpryde.github.io"
+# Comma-separated list of allowed origins (no trailing slashes)
+ALLOWED_ORIGIN = "https://akamonkai-japanese.pages.dev"
 
 [[kv_namespaces]]
 binding = "PROGRESS_KV"

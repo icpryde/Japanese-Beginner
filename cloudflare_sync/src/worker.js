@@ -34,8 +34,11 @@ function getCorsOrigin(request, env) {
   const configured = normalizeAllowedOrigin(env);
   if (configured === '*') return '*';
   const reqOrigin = getRequestOrigin(request);
-  if (reqOrigin === configured) return configured;
-  return configured;
+  // Support comma-separated list of allowed origins
+  const allowed = configured.split(',').map(s => s.trim()).filter(Boolean);
+  if (allowed.includes(reqOrigin)) return reqOrigin;
+  // Default to first configured origin
+  return allowed[0] || '*';
 }
 
 function sanitizeSyncKey(key) {
