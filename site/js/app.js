@@ -549,8 +549,20 @@
     QUEUE_KEY: 'akamonkai_sync_queue',
     isFlushing: false,
 
+    isHostedStatic() {
+      return window.location.hostname.endsWith('github.io');
+    },
+
+    setLocalModeStatus() {
+      StatusUI.set('ok', 'Status: Local progress');
+    },
+
     init() {
       window.addEventListener('online', () => {
+        if (this.isHostedStatic() && !this.endpoint) {
+          this.setLocalModeStatus();
+          return;
+        }
         StatusUI.set('warn', 'Status: Reconnecting...');
         this.flushQueue();
       });
@@ -576,6 +588,8 @@
         StatusUI.set('error', 'Status: Offline');
       } else if (this.endpoint) {
         StatusUI.set('warn', 'Status: Sync server ready');
+      } else if (this.isHostedStatic()) {
+        this.setLocalModeStatus();
       } else {
         StatusUI.set('warn', 'Status: Searching for sync server');
       }
@@ -609,6 +623,12 @@
     },
 
     async discover() {
+      if (this.isHostedStatic()) {
+        this.endpoint = null;
+        this.setLocalModeStatus();
+        return;
+      }
+
       // Try the page origin first (if served by our server)
       const origin = window.location.origin;
       try {
@@ -644,7 +664,12 @@
 
       if (!this.endpoint) {
         await this.discover();
-        if (!this.endpoint) return;
+        if (!this.endpoint) {
+          if (this.isHostedStatic()) {
+            this.setLocalModeStatus();
+          }
+          return;
+        }
       }
 
       this.isFlushing = true;
@@ -678,6 +703,10 @@
       }
 
       if (!this.endpoint) {
+        if (this.isHostedStatic()) {
+          this.setLocalModeStatus();
+          return;
+        }
         this.enqueue(data, operationId);
         return;
       }
@@ -706,6 +735,10 @@
       }
 
       if (!this.endpoint) {
+        if (this.isHostedStatic()) {
+          this.setLocalModeStatus();
+          return;
+        }
         StatusUI.set('warn', 'Status: Sync unavailable');
         return;
       }
