@@ -221,11 +221,11 @@ def get_section_lesson_ids(section: dict) -> list:
 # ─── Templates ────────────────────────────────────────────────
 
 WEEKLY_TEST_TEMPLATE = r"""
-<div class="weekly-test" data-test-id="week1-test">
+<div class="weekly-test" data-test-id="{{ test_id }}">
   <!-- Test header -->
   <div class="test-header">
-    <h1>📝 Week 1 Test</h1>
-    <p class="test-subtitle">35 questions covering Days 1–5</p>
+    <h1>📝 {{ test_title }}</h1>
+    <p class="test-subtitle">{{ test_subtitle }}</p>
     <div class="test-meta-badges">
       <span class="test-meta-badge">Multiple Choice</span>
       <span class="test-meta-badge">True / False</span>
@@ -1014,6 +1014,432 @@ def get_week1_test_questions():
 '''
 
 
+def get_week2_test_questions():
+    """Return the 35 quiz question HTML for the Week 2 test."""
+    return '''
+<!-- ════════ DAY 6: V-masen deshita, iku/kuru/kaeru, へ/で/と/も, Voiced Hiragana ════════ -->
+
+<div class="quiz-question" data-topic="Grammar" data-explanation="V-ませんでした (masen deshita) = polite negative past. たべませんでした = did not eat." data-qnum="1">
+  <div class="q-number">Q1</div>
+  <span class="q-type-badge type-tf">True / False</span>
+  <div class="q-text">True or False: V-ませんでした is the negative past tense form meaning "did not do".</div>
+  <div class="q-options">
+    <button class="q-option" data-correct="true">True</button>
+    <button class="q-option" data-correct="false">False</button>
+  </div>
+  <div class="q-feedback"></div>
+</div>
+
+<div class="quiz-question" data-topic="Grammar" data-explanation="いく (iku) = to go, くる (kuru) = to come, かえる (kaeru) = to return/go back (to a place)." data-qnum="2">
+  <div class="q-number">Q2</div>
+  <span class="q-type-badge type-mc">Multiple Choice</span>
+  <div class="q-text">What does いきました mean?</div>
+  <div class="q-options">
+    <button class="q-option" data-correct="true">went</button>
+    <button class="q-option" data-correct="false">came</button>
+    <button class="q-option" data-correct="false">returned</button>
+    <button class="q-option" data-correct="false">am going</button>
+  </div>
+  <div class="q-feedback"></div>
+</div>
+
+<div class="quiz-question" data-topic="Particles" data-explanation="へ (e/he) marks direction of movement: がっこうへ いきます = I go to school." data-qnum="3">
+  <div class="q-number">Q3</div>
+  <span class="q-type-badge type-fill">Fill in the Particle</span>
+  <div class="q-text">えきへ ＿ いきました。(I went to the station.) — which particle?</div>
+  <div class="q-options">
+    <button class="q-option" data-correct="false">に</button>
+    <button class="q-option" data-correct="true">へ</button>
+    <button class="q-option" data-correct="false">で</button>
+    <button class="q-option" data-correct="false">を</button>
+  </div>
+  <div class="q-feedback"></div>
+</div>
+
+<div class="quiz-question" data-topic="Particles" data-explanation="で (de) indicates the means/method or location where an action occurs: くるまで いきます = I go by car." data-qnum="4">
+  <div class="q-number">Q4</div>
+  <span class="q-type-badge type-fill">Fill in the Particle</span>
+  <div class="q-text">バス ＿ がっこうへ いきました。(I went to school by bus.)" data-qnum="4">
+  <div class="q-feedback"></div>
+</div>
+
+<div class="quiz-question" data-topic="Particles" data-explanation="と (to) means 'with' when between people or things doing an action together." data-qnum="5">
+  <div class="q-number">Q5</div>
+  <span class="q-type-badge type-fill">Fill in the Particle</span>
+  <div class="q-text">ともだち ＿ えいがへ いきました。(I went to the movie with a friend.)" data-qnum="5">
+  <div class="q-feedback"></div>
+</div>
+
+<div class="quiz-question" data-topic="Grammar" data-explanation="も in negative contexts = 'not even', 'either'. Given in V-masen + も context." data-qnum="6">
+  <div class="q-number">Q6</div>
+  <span class="q-type-badge type-mc">Multiple Choice</span>
+  <div class="q-text">I didn't go to the party, and my friend didn't either. Which particle expresses this 'either/not even' meaning?</div>
+  <div class="q-options">
+    <button class="q-option" data-correct="false">は</button>
+    <button class="q-option" data-correct="true">も</button>
+    <button class="q-option" data-correct="false">を</button>
+    <button class="q-option" data-correct="false">に</button>
+  </div>
+  <div class="q-feedback"></div>
+</div>
+
+<div class="quiz-question" data-topic="Hiragana" data-explanation="が (ga), ぎ (gi), ぐ (gu), げ (ge), ご (go) — voiced versions of か row." data-qnum="7">
+  <div class="q-number">Q7</div>
+  <span class="q-type-badge type-match">Match the Reading</span>
+  <div class="q-text">What is the romaji reading for ぎ?</div>
+  <div class="q-options">
+    <button class="q-option" data-correct="false">ki</button>
+    <button class="q-option" data-correct="true">gi</button>
+    <button class="q-option" data-correct="false">ku</button>
+    <button class="q-option" data-correct="false">go</button>
+  </div>
+  <div class="q-feedback"></div>
+</div>
+
+<div class="quiz-question" data-topic="Vocabulary" data-explanation="かえります = to return/go back. Used for returning home or to a place." data-qnum="8">
+  <div class="q-number">Q8</div>
+  <span class="q-type-badge type-mc">Multiple Choice</span>
+  <div class="q-text">What does うちへ かえりました mean?</div>
+  <div class="q-options">
+    <button class="q-option" data-correct="false">came to home</button>
+    <button class="q-option" data-correct="true">returned home / went back home</button>
+    <button class="q-option" data-correct="false">is returning home</button>
+    <button class="q-option" data-correct="false">left home</button>
+  </div>
+  <div class="q-feedback"></div>
+</div>
+
+<!-- ════════ DAY 7: いつ, Future Form, V-masen ka, Double Consonant ════════ -->
+
+<div class="quiz-question" data-topic="Grammar" data-explanation="いつ (itsu) = when (specifically for actions). どの日 (which day) as a more explicit version." data-qnum="9">
+  <div class="q-number">Q9</div>
+  <span class="q-type-badge type-mc">Multiple Choice</span>
+  <div class="q-text">How would you ask "When did you go to Japan?" — いつ ＿ にほんへ いきましたか。</div>
+  <div class="q-options">
+    <button class="q-option" data-correct="true">you put no word (itsu directly before verb)</button>
+    <button class="q-option" data-correct="false">どこ</button>
+    <button class="q-option" data-correct="false">だれ</button>
+    <button class="q-option" data-correct="false">なに</button>
+  </div>
+  <div class="q-feedback"></div>
+</div>
+
+<div class="quiz-question" data-topic="Grammar" data-explanation="Future form: V-ます becomes V-ます (present = future in polite Japanese). More explicit: V-ます for future or add "次の～" (next...)." data-qnum="10">
+  <div class="q-number">Q10</div>
+  <span class="q-type-badge type-tf">True / False</span>
+  <div class="q-text">True or False: In Japanese, the polite present tense (V-ます) can also express future planned actions.</div>
+  <div class="q-options">
+    <button class="q-option" data-correct="true">True</button>
+    <button class="q-option" data-correct="false">False</button>
+  </div>
+  <div class="q-feedback"></div>
+</div>
+
+<div class="quiz-question" data-topic="Grammar" data-explanation="V-ませんか (masen ka) = invitation form 'Would you like to...' or 'Won't you...'" data-qnum="11">
+  <div class="q-number">Q11</div>
+  <span class="q-type-badge type-mc">Multiple Choice</span>
+  <div class="q-text">What does コーヒーを のみませんか mean?</div>
+  <div class="q-options">
+    <button class="q-option" data-correct="false">You don't drink coffee</button>
+    <button class="q-option" data-correct="true">Would you like to drink coffee? / Won't you have coffee?</button>
+    <button class="q-option" data-correct="false">I won't drink coffee</button>
+    <button class="q-option" data-correct="false">Did you drink coffee?</button>
+  </div>
+  <div class="q-feedback"></div>
+</div>
+
+<div class="quiz-question" data-topic="Hiragana" data-explanation="Small っ (tsu) represents a doubled consonant: がっこう (gakkoo = school), さっぽろ (Sapporo), ずっと (zutto = continuously)." data-qnum="12">
+  <div class="q-number">Q12</div>
+  <span class="q-type-badge type-tf">True / False</span>
+  <div class="q-text">True or False: The small っ (tsu) doubles the consonant sound that follows it, as in がっこう (school — 'gak-koo')." data-qnum="12">
+  <div class="q-feedback"></div>
+</div>
+
+<div class="quiz-question" data-topic="Vocabulary" data-explanation="年 (ねん) = year, 月 (がつ) = month, 日 (ひ/にち) = day. 次の年 (next year), 先月 (last month)." data-qnum="13">
+  <div class="q-number">Q13</div>
+  <span class="q-type-badge type-mc">Multiple Choice</span>
+  <div class="q-text">How do you say "next year" in Japanese?</div>
+  <div class="q-options">
+    <button class="q-option" data-correct="false">先年</button>
+    <button class="q-option" data-correct="true">来年 (らいねん)</button>
+    <button class="q-option" data-correct="false">今年</button>
+    <button class="q-option" data-correct="false">去年</button>
+  </div>
+  <div class="q-feedback"></div>
+</div>
+
+<!-- ════════ DAY 8: Adjectives, そして, が (contrast), Intensifiers, Long Vowels ════════ -->
+
+<div class="quiz-question" data-topic="Grammar" data-explanation="い-adjectives: positive (赤い = akai = red), negative (赤くない = akaku nai = not red). な-adjectives: きれい (kirei = pretty)." data-qnum="14">
+  <div class="q-number">Q14</div>
+  <span class="q-type-badge type-mc">Multiple Choice</span>
+  <div class="q-text">What is the negative form of 大きい (ookii = big)?</div>
+  <div class="q-options">
+    <button class="q-option" data-correct="false">大きくある</button>
+    <button class="q-option" data-correct="true">大きくない</button>
+    <button class="q-option" data-correct="false">大きくない</button>
+    <button class="q-option" data-correct="false">大きません</button>
+  </div>
+  <div class="q-feedback"></div>
+</div>
+
+<div class="quiz-question" data-topic="Grammar" data-explanation="そして (soshite) = 'and then', 'and', 'furthermore'. Connects sentences." data-qnum="15">
+  <div class="q-number">Q15</div>
+  <span class="q-type-badge type-tf">True / False</span>
+  <div class="q-text">True or False: そして is a connector word meaning 'and' or 'and then' between sentences." data-qnum="15">
+  <div class="q-feedback"></div>
+</div>
+
+<div class="quiz-question" data-topic="Particles" data-explanation="が (ga) as a contrast marker: connects two ideas with implicit contrast. 私は背が高いです (I am tall [in height]). Note: は (wa) for topic, が for subject/focus." data-qnum="16">
+  <div class="q-number">Q16</div>
+  <span class="q-type-badge type-mc">Multiple Choice</span>
+  <div class="q-text">In the sentence 兄は背が高いです (My older brother is tall), which particle expresses the focused quality being described?</div>
+  <div class="q-options">
+    <button class="q-option" data-correct="false">は</button>
+    <button class="q-option" data-correct="true">が</button>
+    <button class="q-option" data-correct="false">を</button>
+    <button class="q-option" data-correct="false">に</button>
+  </div>
+  <div class="q-feedback"></div>
+</div>
+
+<div class="quiz-question" data-topic="Grammar" data-explanation="とても (totemo) = very (for positive descriptions). あまり (amari) = not very, not much (used with negatives)." data-qnum="17">
+  <div class="q-number">Q17</div>
+  <span class="q-type-badge type-mc">Multiple Choice</span>
+  <div class="q-text">Which intensifier is used with a NEGATIVE verb form? あまり or とても?</div>
+  <div class="q-options">
+    <button class="q-option" data-correct="false">とても</button>
+    <button class="q-option" data-correct="true">あまり</button>
+    <button class="q-option" data-correct="false">Both work the same</button>
+    <button class="q-option" data-correct="false">Neither — use ね instead</button>
+  </div>
+  <div class="q-feedback"></div>
+</div>
+
+<div class="quiz-question" data-topic="Hiragana" data-explanation="Long vowels: aa=あー, ii=いい, uu=うう, ee=ええ, oo=おお or おう. Examples: おかあさん (mother), おにいさん (older brother)." data-qnum="18">
+  <div class="q-number">Q18</div>
+  <span class="q-type-badge type-match">Match the Reading</span>
+  <div class="q-text">What sound does the long vowel in おかあさん (mother) represent?</div>
+  <div class="q-options">
+    <button class="q-option" data-correct="true">aa (long a)</button>
+    <button class="q-option" data-correct="false">ah (short a + h)</button>
+    <button class="q-option" data-correct="false">ia (i followed by a)</button>
+    <button class="q-option" data-correct="false">ai (a then i)</button>
+  </div>
+  <div class="q-feedback"></div>
+</div>
+
+<!-- ════════ DAY 9: Adjective+Noun, どんな, どれ, ね, Contracted Sounds ════════ -->
+
+<div class="quiz-question" data-topic="Grammar" data-explanation="Adjective + Noun: い-adjective goes directly (赤い本 = red book). な-adjective needs な (きれいな本 = pretty book)." data-qnum="19">
+  <div class="q-number">Q19</div>
+  <span class="q-type-badge type-fill">Fill in the Particle</span>
+  <div class="q-text">きれい ＿ 家 (beautiful house) — what's needed between the na-adjective and noun?</div>
+  <div class="q-options">
+    <button class="q-option" data-correct="false">い</button>
+    <button class="q-option" data-correct="true">な</button>
+    <button class="q-option" data-correct="false">の</button>
+    <button class="q-option" data-correct="false">を</button>
+  </div>
+  <div class="q-feedback"></div>
+</div>
+
+<div class="quiz-question" data-topic="Grammar" data-explanation="どんな (donna) = 'what kind of?' — used to ask about qualities/descriptions." data-qnum="20">
+  <div class="q-number">Q20</div>
+  <span class="q-type-badge type-mc">Multiple Choice</span>
+  <div class="q-text">How would you ask 'What kind of book do you like?' in Japanese?</div>
+  <div class="q-options">
+    <button class="q-option" data-correct="false">どこの本が好きですか。</button>
+    <button class="q-option" data-correct="true">どんな本が好きですか。</button>
+    <button class="q-option" data-correct="false">何の本が好きですか。</button>
+    <button class="q-option" data-correct="false">どれの本が好きですか。</button>
+  </div>
+  <div class="q-feedback"></div>
+</div>
+
+<div class="quiz-question" data-topic="Grammar" data-explanation="どれ (dore) = 'which one?' when choosing from 3+ objects. どちら (dochira) for 2 objects." data-qnum="21">
+  <div class="q-number">Q21</div>
+  <span class="q-type-badge type-mc">Multiple Choice</span>
+  <div class="q-text">You're pointing at three pens and asking 'Which one is yours?' Use どれ?</div>
+  <div class="q-options">
+    <button class="q-option" data-correct="true">どれですか。</button>
+    <button class="q-option" data-correct="false">どちらですか。</button>
+    <button class="q-option" data-correct="false">どうですか。</button>
+    <button class="q-option" data-correct="false">なんですか。</button>
+  </div>
+  <div class="q-feedback"></div>
+</div>
+
+<div class="quiz-question" data-topic="Particles" data-explanation="ね (ne) at the end of a sentence = seeking agreement/empathy, like English 'right?' or 'isn't it?'" data-qnum="22">
+  <div class="q-number">Q22</div>
+  <span class="q-type-badge type-tf">True / False</span>
+  <div class="q-text">True or False: ね (ne) at the end of a sentence seeks agreement or empathy from the listener, like saying 'right?' or 'isn't it?'" data-qnum="22">
+  <div class="q-feedback"></div>
+</div>
+
+<div class="quiz-question" data-topic="Hiragana" data-explanation="Contracted sounds: きゃ(kya), ぎゃ(gya), しゃ(sha), じゃ(ja), ちゃ(cha), にゃ(nya), ひゃ(hya), びゃ(bya), ぴゃ(pya), みゃ(mya), りゃ(rya)." data-qnum="23">
+  <div class="q-number">Q23</div>
+  <span class="q-type-badge type-match">Match the Reading</span>
+  <div class="q-text">What is the romaji reading for しゃ?</div>
+  <div class="q-options">
+    <button class="q-option" data-correct="false">sia</button>
+    <button class="q-option" data-correct="true">sha</button>
+    <button class="q-option" data-correct="false">sa</button>
+    <button class="q-option" data-correct="false">sya</button>
+  </div>
+  <div class="q-feedback"></div>
+</div>
+
+<!-- ════════ DAY 10: ある/いる, に/が (Existence), Emphasis Particles ════════ -->
+
+<div class="quiz-question" data-topic="Grammar" data-explanation="ある (aru) = for non-living things. いる (iru) = for living things. テーブルの上にペンがあります (There's a pen on the table)." data-qnum="24">
+  <div class="q-number">Q24</div>
+  <span class="q-type-badge type-mc">Multiple Choice</span>
+  <div class="q-text">Would use ある or いる? ここに ＿ 猫が ___ます。(There's a cat here.)</div>
+  <div class="q-options">
+    <button class="q-option" data-correct="false">ある</button>
+    <button class="q-option" data-correct="true">いる</button>
+    <button class="q-option" data-correct="false">Both work</button>
+    <button class="q-option" data-correct="false">Neither word fits</button>
+  </div>
+  <div class="q-feedback"></div>
+</div>
+
+<div class="quiz-question" data-topic="Particles" data-explanation="に marks location for existence (ある/いる). が marks the subject (the thing existing). ペンがここにあります (A pen is here)." data-qnum="25">
+  <div class="q-number">Q25</div>
+  <span class="q-type-badge type-fill">Fill in the Particle</span>
+  <div class="q-text">ペン ＿ ここに あります。(The pen is here.) — what particle marks the existing thing?</div>
+  <div class="q-options">
+    <button class="q-option" data-correct="false">は</button>
+    <button class="q-option" data-correct="true">が</button>
+    <button class="q-option" data-correct="false">を</button>
+    <button class="q-option" data-correct="false">に</button>
+  </div>
+  <div class="q-feedback"></div>
+</div>
+
+<div class="quiz-question" data-topic="Grammar" data-explanation="Question: 誰がいますか (Who is there/here)? Statement: 田中さんがいます (Tanaka is here). The subject being identified uses が." data-qnum="26">
+  <div class="q-number">Q26</div>
+  <span class="q-type-badge type-mc">Multiple Choice</span>
+  <div class="q-text">Which grammar point does 'There are three people in the room' illustrate?</div>
+  <div class="q-options">
+    <button class="q-option" data-correct="false">V-masen deshita</button>
+    <button class="q-option" data-correct="false">へ as direction marker</button>
+    <button class="q-option" data-correct="true">ある/いる existence verbs with location particles</button>
+    <button class="q-option" data-correct="false">Adjective + noun conjugation</button>
+  </div>
+  <div class="q-feedback"></div>
+</div>
+
+<div class="quiz-question" data-topic="Particles" data-explanation="や (ya) = 'and (others)', 'etc.' (lists non-exhaustive items). りんご や みかん や いろいろ ... (apples and oranges and various things)." data-qnum="27">
+  <div class="q-number">Q27</div>
+  <span class="q-type-badge type-tf">True / False</span>
+  <div class="q-text">True or False: The particle や lists some examples but implies there are other unlisted items (unlike と which lists all)." data-qnum="27">
+  <div class="q-feedback"></div>
+</div>
+
+<div class="quiz-question" data-topic="Particles" data-explanation="よ (yo) = emphasis/assertion. Adds emphasis/certainty: 大丈夫よ (Don't worry! / It's fine!). Often used at end of sentence." data-qnum="28">
+  <div class="q-number">Q28</div>
+  <span class="q-type-badge type-fill">Fill in the Particle</span>
+  <div class="q-text">大丈夫 ＿ (Don't worry / It's fine!) — which particle adds emphasis/certainty?</div>
+  <div class="q-options">
+    <button class="q-option" data-correct="false">ね</button>
+    <button class="q-option" data-correct="true">よ</button>
+    <button class="q-option" data-correct="false">か</button>
+    <button class="q-option" data-correct="false">を</button>
+  </div>
+  <div class="q-feedback"></div>
+</div>
+
+<!-- ════════ DAY 6-10 Vocab & Mixed Grammar ════════ -->
+
+<div class="quiz-question" data-topic="Vocabulary" data-explanation="時間 (じかん) = time/duration, 分 (ぶん/ふん) = minutes, 秒 (びょう) = seconds." data-qnum="29">
+  <div class="q-number">Q29</div>
+  <span class="q-type-badge type-mc">Multiple Choice</span>
+  <div class="q-text">What does ３０分 mean?</div>
+  <div class="q-options">
+    <button class="q-option" data-correct="false">30 hours</button>
+    <button class="q-option" data-correct="true">30 minutes</button>
+    <button class="q-option" data-correct="false">30 seconds</button>
+    <button class="q-option" data-correct="false">30 days</button>
+  </div>
+  <div class="q-feedback"></div>
+</div>
+
+<div class="quiz-question" data-topic="Grammar" data-explanation="Asking age: (お)年はいくつですか (How old are you?). Answering: ２５才です (I'm 25 years old)." data-qnum="30">
+  <div class="q-number">Q30</div>
+  <span class="q-type-badge type-mc">Multiple Choice</span>
+  <div class="q-text">How would you ask 'How old is he?' in Japanese?</div>
+  <div class="q-options">
+    <button class="q-option" data-correct="false">彼はいつですか。</button>
+    <button class="q-option" data-correct="true">彼はいくつですか。 or 彼はお年はいくつですか。</button>
+    <button class="q-option" data-correct="false">彼はどこですか。</button>
+    <button class="q-option" data-correct="false">彼は何ですか。</button>
+  </div>
+  <div class="q-feedback"></div>
+</div>
+
+<div class="quiz-question" data-topic="Particles" data-explanation="に (ni) for destination with iki/ki/kaeru, and for specific time points (7じに = at 7 o'clock)." data-qnum="31">
+  <div class="q-number">Q31</div>
+  <span class="q-type-badge type-fill">Fill in the Particle</span>
+  <div class="q-text">８月 ＿ 日本へ いきます。(I will go to Japan in August.) — which particle?</div>
+  <div class="q-options">
+    <button class="q-option" data-correct="false">へ</button>
+    <button class="q-option" data-correct="true">に</button>
+    <button class="q-option" data-correct="false">で</button>
+    <button class="q-option" data-correct="false">を</button>
+  </div>
+  <div class="q-feedback"></div>
+</div>
+
+<div class="quiz-question" data-topic="Grammar" data-explanation="Review: V-masen ka for invitations. Answering: いいですね (That sounds good!) or ちょっと... (I'm a bit busy...)." data-qnum="32">
+  <div class="q-number">Q32</div>
+  <span class="q-type-badge type-mc">Multiple Choice</span>
+  <div class="q-text">If someone says 映画へ いきませんか, what are they asking?</div>
+  <div class="q-options">
+    <button class="q-option" data-correct="false">Where did you go?</button>
+    <button class="q-option" data-correct="true">Would you like to go to a movie? / Won't you go to a movie?</button>
+    <button class="q-option" data-correct="false">Are you going to a movie?</button>
+    <button class="q-option" data-correct="false">Did you go to a movie?</button>
+  </div>
+  <div class="q-feedback"></div>
+</div>
+
+<div class="quiz-question" data-topic="Hiragana" data-explanation="ざ (za), ぎ (gi), ぐ (gu), ぜ (ze), ぞ (zo) — voiced versions of さ/す/せ/そ row." data-qnum="33">
+  <div class="q-number">Q33</div>
+  <span class="q-type-badge type-match">Match the Reading</span>
+  <div class="q-text">What is the romaji reading for ぜ?</div>
+  <div class="q-options">
+    <button class="q-option" data-correct="false">se</button>
+    <button class="q-option" data-correct="true">ze</button>
+    <button class="q-option" data-correct="false">su</button>
+    <button class="q-option" data-correct="false">zo</button>
+  </div>
+  <div class="q-feedback"></div>
+</div>
+
+<div class="quiz-question" data-topic="Grammar" data-explanation="だ/である = plain form of です (is). です is polite form." data-qnum="34">
+  <div class="q-number">Q34</div>
+  <span class="q-type-badge type-tf">True / False</span>
+  <div class="q-text">True or False: です and だ are both copulas that mean 'is', with です being the polite form." data-qnum="34">
+  <div class="q-feedback"></div>
+</div>
+
+<div class="quiz-question" data-topic="Particles" data-explanation="Combined: へ marks direction, に marks time/location, で marks means. ７時に車で学校へいきます (At 7 o'clock, I go to school by car)." data-qnum="35">
+  <div class="q-number">Q35</div>
+  <span class="q-type-badge type-mc">Multiple Choice</span>
+  <div class="q-text">How many different particles (へ, に, で) are in this sentence? 朝７時に駅で友達と会いました。(I met my friend at the station at 7 AM.)</div>
+  <div class="q-options">
+    <button class="q-option" data-correct="false">1 particle</button>
+    <button class="q-option" data-correct="false">2 particles</button>
+    <button class="q-option" data-correct="true">This sentence has に and で (2 of the three)</button>
+    <button class="q-option" data-correct="false">All 3 particles</button>
+  </div>
+  <div class="q-feedback"></div>
+</div>
+'''
+
+
 def generate_site():
     print("Building site...")
 
@@ -1172,15 +1598,37 @@ def generate_site():
     weeks_out = SITE_DIR / "weeks"
     weeks_out.mkdir(exist_ok=True)
     test_tpl = env.from_string(WEEKLY_TEST_TEMPLATE)
-    # Week 1 test questions are in the inject_quiz_questions module
+    
+    # Week 1 test
     week1_questions = get_week1_test_questions()
-    test_html = test_tpl.render(questions_html=week1_questions)
+    test_html = test_tpl.render(
+        test_id="week1-test",
+        test_title="Week 1 Test",
+        test_subtitle="35 questions covering Days 1–5",
+        questions_html=week1_questions
+    )
     breadcrumb = '<a href="../index.html">Dashboard</a> → Week 1 → <a href="../lessons/12645437.html">Week 1 Review</a> → Week 1 Test'
     page_html = layout_tpl.render(
         title="Week 1 Test", root="../", breadcrumb=breadcrumb,
         content=test_html, structure=structure,
     )
     (weeks_out / "week1-test.html").write_text(page_html)
+    
+    # Week 2 test
+    week2_questions = get_week2_test_questions()
+    test_html = test_tpl.render(
+        test_id="week2-test",
+        test_title="Week 2 Test",
+        test_subtitle="35 questions covering Days 6–10",
+        questions_html=week2_questions
+    )
+    breadcrumb = '<a href="../index.html">Dashboard</a> → Week 2 → <a href="../lessons/12645547.html">Week 2 Review</a> → Week 2 Test'
+    page_html = layout_tpl.render(
+        title="Week 2 Test", root="../", breadcrumb=breadcrumb,
+        content=test_html, structure=structure,
+    )
+    (weeks_out / "week2-test.html").write_text(page_html)
+    
     print("  Weekly test pages generated")
 
     print(f"Site built at: {SITE_DIR}/")

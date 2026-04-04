@@ -520,10 +520,11 @@
       const panel = document.getElementById('quizResults');
       if (!panel) return;
 
-      // Hide question area
-      if (this.container) this.container.style.display = 'none';
+        // Get review link metadata from page header (or default to Week 1)
+        const breadcrumb = document.evaluate("//a[contains(text(), 'Review')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+        const reviewLink = breadcrumb ? breadcrumb.href : '../lessons/12645437.html';
+        const reviewLabel = breadcrumb ? breadcrumb.textContent.trim() : 'Week 1 Review';
 
-      const pct = Math.round((this.correct / this.total) * 100);
       let grade, gradeLabel;
       if (pct >= 90) { grade = 'A'; gradeLabel = 'Excellent!'; }
       else if (pct >= 80) { grade = 'B'; gradeLabel = 'Great work!'; }
@@ -591,7 +592,7 @@
 
       html += '<div class="test-result-actions">';
       html += '<button id="quizRetakeBtn" class="quiz-retake-btn">↻ Retake Test</button>';
-      html += '<a href="../lessons/12645437.html" class="test-back-link">← Back to Week 1 Review</a>';
+      html += '<a href="' + reviewLink + '" class="test-back-link">← Back to ' + reviewLabel + '</a>';
       html += '</div>';
 
       html += '</div>';
