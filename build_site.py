@@ -72,7 +72,10 @@ def build_course_structure(manifest: dict) -> dict:
             "day": day,
           "html": normalize_embedded_asset_paths(data.get("html", "")),
             "videos": data.get("videos", []),
-            "downloads": data.get("downloads", []),
+            "downloads": [
+                {**dl, "title": clean_download_title(dl, title)}
+                for dl in data.get("downloads", [])
+            ],
             "has_video": data.get("has_video", False),
             "has_images": data.get("has_images", False),
             "has_downloads": data.get("has_downloads", False),
@@ -160,35 +163,32 @@ def collect_ordered_lessons(structure: dict) -> list:
     return ordered
 
 
+VAGUE_TITLES = {"here", "click here", "download here", "download", "link"}
+
+def clean_download_title(dl: dict, lesson_title: str) -> str:
+    """Return a readable title for a download, replacing vague labels."""
+    raw = str(dl.get("title", "")).strip()
+    cleaned = raw.rstrip(".,;:!? ")
+    if cleaned and cleaned.lower() not in VAGUE_TITLES:
+        return raw
+    filename = str(dl.get("filename", ""))
+    stem = Path(filename).stem if filename else ""
+    if stem:
+        text = re.sub(r"[_-]+", " ", stem)
+        text = re.sub(r"\s+", " ", text).strip()
+        if text:
+            return text
+    return f"{lesson_title} PDF"
+
+
 def collect_all_downloads(structure: dict) -> list:
-  """Collect PDF downloads for the worksheets hub with readable titles."""
+  """Collect PDF downloads for the worksheets hub."""
 
   def is_pdf_item(dl: dict) -> bool:
     filename = str(dl.get("filename", "")).lower()
     url = str(dl.get("url", "")).lower()
     dl_type = str(dl.get("type", "")).lower()
     return dl_type == "pdf" or filename.endswith(".pdf") or ".pdf" in url
-
-  def clean_filename_title(filename: str) -> str:
-    stem = Path(filename).stem if filename else ""
-    if not stem:
-      return ""
-    text = re.sub(r"[_-]+", " ", stem)
-    text = re.sub(r"\s+", " ", text).strip()
-    return text
-
-  def display_title(dl: dict, lesson_title: str) -> str:
-    raw = str(dl.get("title", "")).strip()
-    # Strip trailing punctuation and compare
-    cleaned = raw.rstrip(".,;:!? ")
-    if cleaned and cleaned.lower() not in {"here", "click here", "download here", "download", "link"}:
-      return raw
-
-    guessed = clean_filename_title(str(dl.get("filename", "")))
-    if guessed:
-      return guessed
-
-    return f"{lesson_title} PDF"
 
   downloads = []
   for key, section in structure.items():
@@ -201,7 +201,7 @@ def collect_all_downloads(structure: dict) -> list:
           continue
         downloads.append({
           **dl,
-          "display_title": display_title(dl, l["title"]),
+          "display_title": dl.get("title", "PDF"),
           "lesson_title": l["title"],
           "lesson_id": l["id"],
           "week": l.get("week", 0),
