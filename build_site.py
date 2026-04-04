@@ -1059,14 +1059,26 @@ def get_week2_test_questions():
 <div class="quiz-question" data-topic="Particles" data-explanation="で (de) indicates the means/method or location where an action occurs: くるまで いきます = I go by car." data-qnum="4">
   <div class="q-number">Q4</div>
   <span class="q-type-badge type-fill">Fill in the Particle</span>
-  <div class="q-text">バス ＿ がっこうへ いきました。(I went to school by bus.)" data-qnum="4">
+  <div class="q-text">バス ＿ がっこうへ いきました。(I went to school by bus.)</div>
+  <div class="q-options">
+    <button class="q-option" data-correct="true">で</button>
+    <button class="q-option" data-correct="false">へ</button>
+    <button class="q-option" data-correct="false">に</button>
+    <button class="q-option" data-correct="false">を</button>
+  </div>
   <div class="q-feedback"></div>
 </div>
 
 <div class="quiz-question" data-topic="Particles" data-explanation="と (to) means 'with' when between people or things doing an action together." data-qnum="5">
   <div class="q-number">Q5</div>
   <span class="q-type-badge type-fill">Fill in the Particle</span>
-  <div class="q-text">ともだち ＿ えいがへ いきました。(I went to the movie with a friend.)" data-qnum="5">
+  <div class="q-text">ともだち ＿ えいがへ いきました。(I went to the movie with a friend.)</div>
+  <div class="q-options">
+    <button class="q-option" data-correct="false">で</button>
+    <button class="q-option" data-correct="true">と</button>
+    <button class="q-option" data-correct="false">へ</button>
+    <button class="q-option" data-correct="false">に</button>
+  </div>
   <div class="q-feedback"></div>
 </div>
 
@@ -1151,7 +1163,11 @@ def get_week2_test_questions():
 <div class="quiz-question" data-topic="Hiragana" data-explanation="Small っ (tsu) represents a doubled consonant: がっこう (gakkoo = school), さっぽろ (Sapporo), ずっと (zutto = continuously)." data-qnum="12">
   <div class="q-number">Q12</div>
   <span class="q-type-badge type-tf">True / False</span>
-  <div class="q-text">True or False: The small っ (tsu) doubles the consonant sound that follows it, as in がっこう (school — 'gak-koo')." data-qnum="12">
+  <div class="q-text">True or False: The small っ (tsu) doubles the consonant sound that follows it, as in がっこう (school — 'gak-koo').</div>
+  <div class="q-options">
+    <button class="q-option" data-correct="true">True</button>
+    <button class="q-option" data-correct="false">False</button>
+  </div>
   <div class="q-feedback"></div>
 </div>
 
@@ -1186,7 +1202,11 @@ def get_week2_test_questions():
 <div class="quiz-question" data-topic="Grammar" data-explanation="そして (soshite) = 'and then', 'and', 'furthermore'. Connects sentences." data-qnum="15">
   <div class="q-number">Q15</div>
   <span class="q-type-badge type-tf">True / False</span>
-  <div class="q-text">True or False: そして is a connector word meaning 'and' or 'and then' between sentences." data-qnum="15">
+  <div class="q-text">True or False: そして is a connector word meaning 'and' or 'and then' between sentences.</div>
+  <div class="q-options">
+    <button class="q-option" data-correct="true">True</button>
+    <button class="q-option" data-correct="false">False</button>
+  </div>
   <div class="q-feedback"></div>
 </div>
 
@@ -1273,7 +1293,11 @@ def get_week2_test_questions():
 <div class="quiz-question" data-topic="Particles" data-explanation="ね (ne) at the end of a sentence = seeking agreement/empathy, like English 'right?' or 'isn't it?'" data-qnum="22">
   <div class="q-number">Q22</div>
   <span class="q-type-badge type-tf">True / False</span>
-  <div class="q-text">True or False: ね (ne) at the end of a sentence seeks agreement or empathy from the listener, like saying 'right?' or 'isn't it?'" data-qnum="22">
+  <div class="q-text">True or False: ね (ne) at the end of a sentence seeks agreement or empathy from the listener, like saying 'right?' or 'isn't it?'</div>
+  <div class="q-options">
+    <button class="q-option" data-correct="true">True</button>
+    <button class="q-option" data-correct="false">False</button>
+  </div>
   <div class="q-feedback"></div>
 </div>
 
@@ -1334,7 +1358,11 @@ def get_week2_test_questions():
 <div class="quiz-question" data-topic="Particles" data-explanation="や (ya) = 'and (others)', 'etc.' (lists non-exhaustive items). りんご や みかん や いろいろ ... (apples and oranges and various things)." data-qnum="27">
   <div class="q-number">Q27</div>
   <span class="q-type-badge type-tf">True / False</span>
-  <div class="q-text">True or False: The particle や lists some examples but implies there are other unlisted items (unlike と which lists all)." data-qnum="27">
+  <div class="q-text">True or False: The particle や lists some examples but implies there are other unlisted items (unlike と which lists all).</div>
+  <div class="q-options">
+    <button class="q-option" data-correct="true">True</button>
+    <button class="q-option" data-correct="false">False</button>
+  </div>
   <div class="q-feedback"></div>
 </div>
 
@@ -1421,7 +1449,11 @@ def get_week2_test_questions():
 <div class="quiz-question" data-topic="Grammar" data-explanation="だ/である = plain form of です (is). です is polite form." data-qnum="34">
   <div class="q-number">Q34</div>
   <span class="q-type-badge type-tf">True / False</span>
-  <div class="q-text">True or False: です and だ are both copulas that mean 'is', with です being the polite form." data-qnum="34">
+  <div class="q-text">True or False: です and だ are both copulas that mean 'is', with です being the polite form.</div>
+  <div class="q-options">
+    <button class="q-option" data-correct="true">True</button>
+    <button class="q-option" data-correct="false">False</button>
+  </div>
   <div class="q-feedback"></div>
 </div>
 
