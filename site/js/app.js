@@ -577,29 +577,7 @@
     DEFAULT_CLOUD_ENDPOINT: 'https://akamonkai-progress-sync.icpryde-akamonkai-sync.workers.dev/api/progress',
 
     isHostedStatic() {
-      const h = window.location.hostname;
-      return h.endsWith('github.io') || h.endsWith('.pages.dev');
-    },
-
-    isCloudflarePages() {
-      return window.location.hostname.endsWith('.pages.dev');
-    },
-
-    async hashEmail(email) {
-      const enc = new TextEncoder().encode(email.toLowerCase().trim());
-      const buf = await crypto.subtle.digest('SHA-256', enc);
-      return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('').slice(0, 32);
-    },
-
-    async getCfAccessIdentity() {
-      try {
-        const res = await fetch('/cdn-cgi/access/get-identity', { signal: AbortSignal.timeout(3000) });
-        if (!res.ok) return null;
-        const data = await res.json();
-        return data.email || null;
-      } catch {
-        return null;
-      }
+      return window.location.hostname.endsWith('github.io');
     },
 
     normalizeEndpoint(value) {
@@ -687,7 +665,7 @@
       this.bindStatusClick();
 
       window.addEventListener('online', () => {
-        if (this.isHostedStatic() && !this.hasCloudConfig() && !this.isCloudflarePages()) {
+        if (this.isHostedStatic() && !this.hasCloudConfig()) {
           this.setLocalModeStatus();
           return;
         }
@@ -702,12 +680,6 @@
           : 'Status: Offline';
         StatusUI.set('error', text);
       });
-
-      // Auto-configure on Cloudflare Pages (Access provides identity)
-      if (this.isCloudflarePages()) {
-        this.autoConfigFromAccess();
-        return;
-      }
 
       // Try to find server
       const saved = localStorage.getItem('sync_server');
@@ -729,24 +701,6 @@
         this.setLocalModeStatus();
       } else {
         StatusUI.set('warn', 'Status: Searching for sync server');
-      }
-    },
-
-    async autoConfigFromAccess() {
-      StatusUI.set('warn', 'Status: Connecting...');
-      const email = await this.getCfAccessIdentity();
-      if (email) {
-        const key = await this.hashEmail(email);
-        this.endpoint = this.DEFAULT_CLOUD_ENDPOINT;
-        this.syncKey = key;
-        // Save so offline mode knows we're configured
-        localStorage.setItem(this.CONFIG_ENDPOINT_KEY, this.endpoint);
-        localStorage.setItem(this.CONFIG_KEY_KEY, key);
-        StatusUI.set('ok', 'Status: Synced');
-        this.pull();
-      } else {
-        // CF Access not active or identity unavailable, fall back
-        this.setLocalModeStatus('Status: Local progress');
       }
     },
 
