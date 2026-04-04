@@ -376,92 +376,154 @@
     wrongAnswers: [],
     topicScores: {},
     container: null,
-    lessonId: null,
+    testId: null,
+    submitted: false,
 
     init() {
       this.container = document.getElementById('quizContainer');
       if (!this.container) return;
 
-      // Get lesson ID from the article element
-      const article = document.querySelector('.lesson[data-lesson-id]');
-      this.lessonId = article ? article.dataset.lessonId : null;
+      // Get test ID from the weekly-test wrapper
+      const testWrapper = document.querySelector('.weekly-test[data-test-id]');
+      this.testId = testWrapper ? testWrapper.dataset.testId : null;
 
-      // Load previous results and show if exists
+      this.total = this.container.querySelectorAll('.quiz-question').length;
+
+      // Show previous result banner
       this.showPreviousResult();
 
+      // Answer click handler
       this.container.addEventListener('click', (e) => {
         const btn = e.target.closest('.q-option');
-        if (!btn || btn.classList.contains('disabled')) return;
+        if (!btn || btn.classList.contains('disabled') || this.submitted) return;
         this.handleAnswer(btn);
       });
 
-      // Retake button
-      const retakeBtn = document.getElementById('quizRetake');
-      if (retakeBtn) {
-        retakeBtn.addEventListener('click', () => this.retake());
+      // Submit button
+      const submitBtn = document.getElementById('quizSubmitBtn');
+      if (submitBtn) {
+        submitBtn.addEventListener('click', () => this.submit());
       }
+
+      // Update progress
+      this.updateProgressBar();
     },
 
     handleAnswer(btn) {
       const question = btn.closest('.quiz-question');
       const options = question.querySelectorAll('.q-option');
-      const feedback = question.querySelector('.q-feedback');
       const isCorrect = btn.dataset.correct === 'true';
       const topic = question.dataset.topic || 'General';
       const explanation = question.dataset.explanation || '';
-      const qNum = question.dataset.qnum || '';
 
-      // Disable all options
-      options.forEach(o => o.classList.add('disabled'));
+      // Check if already answered (allow changing answer before submit)
+      const prevSelected = question.querySelector('.q-option.selected');
+      if (prevSelected) {
+        // Undo previous selection
+        prevSelected.classList.remove('selected');
+        const wasPrevCorrect = prevSelected.dataset.correct === 'true';
+        const prevTopic = question.dataset.topic || 'General';
+        this.answered--;
+        if (wasPrevCorrect) {
+          this.correct--;
+          if (this.topicScores[prevTopic]) this.topicScores[prevTopic].correct--;
+        }
+        // Remove from wrong answers if it was wrong
+        const qText = question.querySelector('.q-text')?.textContent || '';
+        this.wrongAnswers = this.wrongAnswers.filter(w => w.question !== qText);
+      } else {
+        // First time answering this question
+      }
+
+      // Mark new selection
+      btn.classList.add('selected');
+      this.answered++;
 
       // Track topic scores
       if (!this.topicScores[topic]) this.topicScores[topic] = { correct: 0, total: 0 };
-      this.topicScores[topic].total++;
+      // Only count total once per question
+      const qIndex = question.dataset.qnum;
+      if (!question.dataset.counted) {
+        this.topicScores[topic].total++;
+        question.dataset.counted = 'true';
+      }
 
       if (isCorrect) {
-        btn.classList.add('correct');
         this.correct++;
         this.topicScores[topic].correct++;
-        if (feedback) {
-          feedback.innerHTML = '✓ Correct!' + (explanation ? ' <span class="q-explanation">' + explanation + '</span>' : '');
-          feedback.className = 'q-feedback show feedback-correct';
-        }
       } else {
-        btn.classList.add('incorrect');
-        options.forEach(o => {
-          if (o.dataset.correct === 'true') o.classList.add('correct');
-        });
-        // Find correct answer text
         const correctBtn = question.querySelector('.q-option[data-correct="true"]');
         const correctText = correctBtn ? correctBtn.textContent : '';
         this.wrongAnswers.push({
-          question: question.querySelector('.q-text')?.textContent || 'Q' + qNum,
+          question: question.querySelector('.q-text')?.textContent || 'Q' + qIndex,
           yourAnswer: btn.textContent,
           correctAnswer: correctText,
+          explanation: explanation,
           topic: topic
         });
-        if (feedback) {
-          feedback.innerHTML = '✗ Incorrect — the answer is <strong>' + correctText + '</strong>' + (explanation ? '<br><span class="q-explanation">' + explanation + '</span>' : '');
-          feedback.className = 'q-feedback show feedback-incorrect';
-        }
       }
 
-      this.answered++;
-
-      // Update progress bar
+      // Update progress
       this.updateProgressBar();
 
-      if (this.answered === this.total) {
-        this.showResults();
-        this.saveResult();
+      // Enable submit when all answered
+      const submitBtn = document.getElementById('quizSubmitBtn');
+      const hint = document.getElementById('testSubmitHint');
+      if (this.answered >= this.total) {
+        if (submitBtn) { submitBtn.disabled = false; submitBtn.classList.add('ready'); }
+        if (hint) hint.textContent = 'All questions answered — ready to submit!';
+      } else {
+        if (hint) hint.textContent = (this.total - this.answered) + ' question' + (this.total - this.answered === 1 ? '' : 's') + ' remaining';
       }
     },
 
     updateProgressBar() {
       const bar = document.getElementById('quizProgressFill');
       const text = document.getElementById('quizProgressText');
-      if (bar) bar.style.width = Math.round((this.answered / this.total) * 100) + '%';
+      const correctEl = document.getElementById('quizCorrectCount');
+      const pct = this.total > 0 ? Math.round((this.answered / this.total) * 100) : 0;
+      if (bar) bar.style.width = pct + '%';
       if (text) text.textContent = this.answered + ' / ' + this.total + ' answered';
+    },
+
+    submit() {
+      if (this.submitted || this.answered < this.total) return;
+      this.submitted = true;
+
+      // Lock all options and show per-question feedback
+      this.container.querySelectorAll('.quiz-question').forEach(question => {
+        const options = question.querySelectorAll('.q-option');
+        const feedback = question.querySelector('.q-feedback');
+        const explanation = question.dataset.explanation || '';
+        const selected = question.querySelector('.q-option.selected');
+        const isCorrect = selected && selected.dataset.correct === 'true';
+
+        options.forEach(o => {
+          o.classList.add('disabled');
+          if (o.dataset.correct === 'true') o.classList.add('correct');
+        });
+        if (selected && !isCorrect) selected.classList.add('incorrect');
+
+        if (feedback) {
+          if (isCorrect) {
+            feedback.innerHTML = '✓ Correct!' + (explanation ? ' <span class="q-explanation">' + explanation + '</span>' : '');
+            feedback.className = 'q-feedback show feedback-correct';
+          } else {
+            const correctBtn = question.querySelector('.q-option[data-correct="true"]');
+            const correctText = correctBtn ? correctBtn.textContent : '';
+            feedback.innerHTML = '✗ Incorrect — the answer is <strong>' + correctText + '</strong>' + (explanation ? '<br><span class="q-explanation">' + explanation + '</span>' : '');
+            feedback.className = 'q-feedback show feedback-incorrect';
+          }
+        }
+      });
+
+      // Hide submit button area
+      const submitArea = document.getElementById('testSubmitArea');
+      if (submitArea) submitArea.style.display = 'none';
+
+      // Show results
+      this.showResults();
+      this.saveResult();
     },
 
     showResults() {
@@ -469,21 +531,26 @@
       if (!panel) return;
 
       const pct = Math.round((this.correct / this.total) * 100);
-      let grade = '';
-      if (pct >= 90) grade = 'A';
-      else if (pct >= 80) grade = 'B';
-      else if (pct >= 70) grade = 'C';
-      else if (pct >= 60) grade = 'D';
-      else grade = 'F';
+      let grade, gradeLabel;
+      if (pct >= 90) { grade = 'A'; gradeLabel = 'Excellent!'; }
+      else if (pct >= 80) { grade = 'B'; gradeLabel = 'Great work!'; }
+      else if (pct >= 70) { grade = 'C'; gradeLabel = 'Good effort!'; }
+      else if (pct >= 60) { grade = 'D'; gradeLabel = 'Keep studying!'; }
+      else { grade = 'F'; gradeLabel = 'Review and try again'; }
 
-      let gradeClass = pct >= 70 ? 'grade-pass' : 'grade-fail';
+      const gradeClass = pct >= 70 ? 'grade-pass' : 'grade-fail';
 
-      let html = '<div class="quiz-results-header">';
+      let html = '<div class="test-results-inner">';
+
+      // Header with grade
+      html += '<div class="test-results-header">';
+      html += '<h2>Test Results</h2>';
+      html += '<div class="test-results-grade-row">';
       html += '<div class="quiz-grade ' + gradeClass + '">' + grade + '</div>';
       html += '<div class="quiz-score-detail">';
       html += '<div class="quiz-score-big">' + this.correct + ' / ' + this.total + '</div>';
-      html += '<div class="quiz-score-pct">' + pct + '% correct</div>';
-      html += '</div></div>';
+      html += '<div class="quiz-score-pct">' + pct + '% · ' + gradeLabel + '</div>';
+      html += '</div></div></div>';
 
       // Topic breakdown
       html += '<div class="quiz-topic-breakdown"><h4>Score by Topic</h4><div class="topic-bars">';
@@ -492,46 +559,69 @@
         const s = this.topicScores[topic];
         if (!s) continue;
         const tpct = Math.round((s.correct / s.total) * 100);
+        const barClass = tpct >= 70 ? 'bar-pass' : 'bar-fail';
         html += '<div class="topic-row">';
         html += '<span class="topic-label">' + topic + '</span>';
-        html += '<div class="topic-bar-track"><div class="topic-bar-fill" style="width:' + tpct + '%"></div></div>';
+        html += '<div class="topic-bar-track"><div class="topic-bar-fill ' + barClass + '" style="width:' + tpct + '%"></div></div>';
         html += '<span class="topic-score">' + s.correct + '/' + s.total + '</span>';
         html += '</div>';
       }
       html += '</div></div>';
 
-      // Wrong answers review
-      if (this.wrongAnswers.length > 0) {
-        html += '<div class="quiz-wrong-review"><h4>Review Incorrect Answers</h4>';
-        this.wrongAnswers.forEach(w => {
-          html += '<div class="wrong-item">';
-          html += '<div class="wrong-question">' + w.question + '</div>';
-          html += '<div class="wrong-answers">';
-          html += '<span class="wrong-yours">Your answer: ' + w.yourAnswer + '</span>';
-          html += '<span class="wrong-correct">Correct: ' + w.correctAnswer + '</span>';
-          html += '</div></div>';
-        });
-        html += '</div>';
-      }
+      // Full question review
+      html += '<div class="test-full-review"><h4>Question Review</h4>';
+      this.container.querySelectorAll('.quiz-question').forEach(q => {
+        const num = q.dataset.qnum;
+        const topic = q.dataset.topic || '';
+        const text = q.querySelector('.q-text')?.textContent || '';
+        const selected = q.querySelector('.q-option.selected');
+        const correctBtn = q.querySelector('.q-option[data-correct="true"]');
+        const isCorrect = selected && selected.dataset.correct === 'true';
+        const explanation = q.dataset.explanation || '';
 
+        html += '<div class="review-item ' + (isCorrect ? 'review-correct' : 'review-incorrect') + '">';
+        html += '<div class="review-header">';
+        html += '<span class="review-num">Q' + num + '</span>';
+        html += '<span class="review-status">' + (isCorrect ? '✓' : '✗') + '</span>';
+        html += '<span class="review-topic-tag">' + topic + '</span>';
+        html += '</div>';
+        html += '<div class="review-question">' + text + '</div>';
+        if (!isCorrect) {
+          html += '<div class="review-answer-row">';
+          html += '<span class="wrong-yours">Your answer: ' + (selected ? selected.textContent : 'none') + '</span>';
+          html += '<span class="wrong-correct">Correct: ' + (correctBtn ? correctBtn.textContent : '') + '</span>';
+          html += '</div>';
+        }
+        if (explanation) {
+          html += '<div class="review-explanation">' + explanation + '</div>';
+        }
+        html += '</div>';
+      });
+      html += '</div>';
+
+      // Action buttons
+      html += '<div class="test-result-actions">';
       html += '<button id="quizRetakeBtn" class="quiz-retake-btn">↻ Retake Test</button>';
+      html += '<a href="../lessons/12645437.html" class="test-back-link">← Back to Week 1 Review</a>';
+      html += '</div>';
+
+      html += '</div>';
 
       panel.innerHTML = html;
       panel.classList.add('show');
       panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
 
-      // Bind retake button inside results
       document.getElementById('quizRetakeBtn')?.addEventListener('click', () => this.retake());
     },
 
     saveResult() {
-      if (!this.lessonId) return;
+      if (!this.testId) return;
       const pct = Math.round((this.correct / this.total) * 100);
-      if (!Progress.data[this.lessonId]) {
-        Progress.data[this.lessonId] = {};
-      }
-      const prev = Progress.data[this.lessonId].quiz;
-      Progress.data[this.lessonId].quiz = {
+      const key = 'akamonkai_test_' + this.testId;
+      let prev;
+      try { prev = JSON.parse(localStorage.getItem(key)); } catch { prev = null; }
+
+      const result = {
         score: this.correct,
         total: this.total,
         percentage: pct,
@@ -539,23 +629,30 @@
         timestamp: Date.now(),
         attempts: (prev?.attempts || 0) + 1
       };
-      // Also mark lesson as completed
-      Progress.data[this.lessonId].completed = true;
-      Progress.data[this.lessonId].timestamp = Date.now();
+      localStorage.setItem(key, JSON.stringify(result));
+
+      // Also store in Progress data for cloud sync
+      if (!Progress.data['__tests__']) Progress.data['__tests__'] = {};
+      Progress.data['__tests__'][this.testId] = result;
       Progress.save();
     },
 
     showPreviousResult() {
-      if (!this.lessonId) return;
-      const prev = Progress.data[this.lessonId]?.quiz;
+      if (!this.testId) return;
+      const key = 'akamonkai_test_' + this.testId;
+      let prev;
+      try { prev = JSON.parse(localStorage.getItem(key)); } catch { prev = null; }
       if (!prev) return;
 
       const banner = document.getElementById('quizPreviousBanner');
       if (banner) {
-        banner.innerHTML = 'Previous attempt: <strong>' + prev.score + '/' + prev.total +
-          ' (' + prev.percentage + '%)</strong>' +
-          (prev.bestPercentage > prev.percentage ? ' · Best: <strong>' + prev.bestPercentage + '%</strong>' : '') +
-          ' · Attempts: ' + prev.attempts;
+        const d = new Date(prev.timestamp);
+        const dateStr = d.toLocaleDateString();
+        banner.innerHTML = '<strong>Previous result:</strong> ' + prev.score + '/' + prev.total +
+          ' (' + prev.percentage + '%)' +
+          (prev.bestPercentage > prev.percentage ? ' · Best: ' + prev.bestPercentage + '%' : '') +
+          ' · Attempts: ' + prev.attempts +
+          ' · ' + dateStr;
         banner.classList.add('show');
       }
     },
@@ -566,11 +663,15 @@
       this.correct = 0;
       this.wrongAnswers = [];
       this.topicScores = {};
+      this.submitted = false;
       this.total = this.container.querySelectorAll('.quiz-question').length;
 
-      // Reset all questions
+      // Reset question state
+      this.container.querySelectorAll('.quiz-question').forEach(q => {
+        delete q.dataset.counted;
+      });
       this.container.querySelectorAll('.q-option').forEach(o => {
-        o.classList.remove('disabled', 'correct', 'incorrect');
+        o.classList.remove('disabled', 'correct', 'incorrect', 'selected');
       });
       this.container.querySelectorAll('.q-feedback').forEach(f => {
         f.classList.remove('show', 'feedback-correct', 'feedback-incorrect');
@@ -579,23 +680,20 @@
 
       // Hide results
       const results = document.getElementById('quizResults');
-      if (results) {
-        results.classList.remove('show');
-        results.innerHTML = '';
-      }
+      if (results) { results.classList.remove('show'); results.innerHTML = ''; }
 
-      // Reset progress bar
+      // Show submit area again
+      const submitArea = document.getElementById('testSubmitArea');
+      if (submitArea) submitArea.style.display = '';
+
+      // Reset submit button
+      const submitBtn = document.getElementById('quizSubmitBtn');
+      if (submitBtn) { submitBtn.disabled = true; submitBtn.classList.remove('ready'); }
+      const hint = document.getElementById('testSubmitHint');
+      if (hint) hint.textContent = 'Answer all ' + this.total + ' questions to submit';
+
       this.updateProgressBar();
-
-      // Scroll to top of quiz
       this.container.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    },
-
-    // Called after init to set total
-    setup() {
-      if (!this.container) return;
-      this.total = this.container.querySelectorAll('.quiz-question').length;
-      this.updateProgressBar();
     }
   };
 
@@ -1098,7 +1196,6 @@
     Progress.init();
     Search.init();
     Quiz.init();
-    Quiz.setup();
     Notes.init();
     Bookmarks.init();
     Resume.init();

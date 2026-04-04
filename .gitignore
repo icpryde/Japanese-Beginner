@@ -4,3 +4,4 @@ __pycache__/
 .DS_Store
 .yt-dlp-cookies.txt
 cloudflare_sync/.wrangler/
+.wrangler/
