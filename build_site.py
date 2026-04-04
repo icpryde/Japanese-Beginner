@@ -1100,7 +1100,7 @@ def generate_site():
 
     # Generate precache manifest (all local assets for offline iPad use)
     precache_urls = []
-    for subdir in ["lessons", "images", "pdfs", "audio", "videos"]:
+    for subdir in ["lessons", "images", "pdfs", "audio", "videos", "weeks"]:
         asset_dir = SITE_DIR / subdir
         if asset_dir.exists():
             for f in sorted(asset_dir.iterdir()):
