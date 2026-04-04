@@ -398,24 +398,55 @@ LESSON_CONTENT = r"""
   </div>
 
   <div class="lesson-body">
+    {% if lesson.html %}
     {{ lesson.html | safe }}
+    {% else %}
+    <div class="course-guide">
+      <h2>📖 How to Navigate This Course</h2>
+      <p>Welcome to the Akamonkai Japanese Beginner course. Here's how to get the most out of this study app:</p>
+      <h3>🧭 Navigation</h3>
+      <ul>
+        <li><strong>Sidebar</strong> — Browse all weeks, days, and lessons. Tap any lesson to jump straight to it.</li>
+        <li><strong>← Previous / Next →</strong> — Use the buttons at the bottom of each lesson to move through the course in order.</li>
+        <li><strong>Search</strong> — Use the search box at the top of the sidebar to quickly find any topic or lesson by name.</li>
+      </ul>
+      <h3>📝 Study Features</h3>
+      <ul>
+        <li><strong>✅ Complete</strong> — Tick the checkbox on each lesson to track your progress. The sidebar shows your completion count per week.</li>
+        <li><strong>☆ Bookmark</strong> — Star lessons you want to revisit later.</li>
+        <li><strong>My Notes</strong> — Each lesson has a notes area at the bottom. Your notes save automatically to your device.</li>
+        <li><strong>🎧 Audio</strong> — Many lessons include audio. Use the built-in player to listen along with the slides.</li>
+      </ul>
+      <h3>📄 Downloads</h3>
+      <ul>
+        <li>Visit the <strong>Downloads</strong> page (in the sidebar) for all PDF worksheets, organised by week.</li>
+      </ul>
+      <h3>📱 Offline Use</h3>
+      <ul>
+        <li>This is a <strong>Progressive Web App</strong> — after your first visit, all lessons and resources are cached for offline use on your device.</li>
+        <li>On iPad, tap <strong>Share → Add to Home Screen</strong> for a full-screen app experience.</li>
+      </ul>
+    </div>
+    {% endif %}
   </div>
 
   {% if lesson.downloads %}
   <div class="lesson-downloads">
     <h3>📥 Downloads & Resources</h3>
     {% for dl in lesson.downloads %}
-      {% if dl.get('local') %}
-      <a href="{% if dl.type in ['audio', 'audio_link'] %}../audio/{{ dl.filename }}{% elif dl.type == 'pdf' %}../pdfs/{{ dl.filename }}{% else %}../pdfs/{{ dl.filename }}{% endif %}" class="download-btn" download="{{ dl.filename }}">
+      {% if dl.type in ['audio', 'audio_link'] %}
+      {# Audio files are already playable inline — skip download button #}
+      {% elif dl.get('local') %}
+      <a href="{% if dl.type == 'pdf' %}../pdfs/{{ dl.filename }}{% else %}../pdfs/{{ dl.filename }}{% endif %}" class="download-btn" download="{{ dl.filename }}">
         <span class="download-icon">📄</span>
         <span class="download-text">{{ dl.title or dl.filename }}</span>
         <span class="download-action">Download</span>
       </a>
       {% else %}
       <a href="{{ dl.url }}" class="download-btn" target="_blank" rel="noopener noreferrer">
-        <span class="download-icon">{% if dl.type == 'pdf' %}📄{% elif dl.type == 'audio_link' %}🎵{% else %}🔗{% endif %}</span>
+        <span class="download-icon">{% if dl.type == 'pdf' %}📄{% else %}🔗{% endif %}</span>
         <span class="download-text">{{ dl.title }}</span>
-        <span class="download-action">{% if dl.type == 'audio_link' %}Listen{% else %}Open{% endif %}</span>
+        <span class="download-action">Open</span>
       </a>
       {% endif %}
     {% endfor %}
