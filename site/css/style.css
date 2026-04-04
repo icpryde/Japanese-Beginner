@@ -835,17 +835,26 @@ body {
   background: var(--bg-tertiary);
 }
 
-/* Override inline color styles from scraped content in dark mode */
+/* Override inline color/background styles from scraped content in dark mode */
+[data-theme="dark"] .lesson-body table,
+[data-theme="dark"] .lesson-body tr,
 [data-theme="dark"] .lesson-body td,
-[data-theme="dark"] .lesson-body th,
+[data-theme="dark"] .lesson-body th {
+  color: var(--text-primary) !important;
+  background: var(--bg-secondary) !important;
+  border-color: var(--border) !important;
+}
 [data-theme="dark"] .lesson-body td *,
 [data-theme="dark"] .lesson-body th * {
-  color: var(--text-primary) !important;
-  background-color: transparent !important;
+  color: inherit !important;
+  background: transparent !important;
 }
 [data-theme="dark"] .lesson-body th,
-[data-theme="dark"] .lesson-body tr:nth-child(even) td {
-  background-color: var(--bg-tertiary) !important;
+[data-theme="dark"] .lesson-body thead tr {
+  background: var(--bg-tertiary) !important;
+}
+[data-theme="dark"] .lesson-body tr:nth-child(even) {
+  background: color-mix(in srgb, var(--bg-tertiary) 50%, var(--bg-secondary)) !important;
 }
 
 .lesson-body code {
