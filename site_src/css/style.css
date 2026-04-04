@@ -835,6 +835,19 @@ body {
   background: var(--bg-tertiary);
 }
 
+/* Override inline color styles from scraped content in dark mode */
+[data-theme="dark"] .lesson-body td,
+[data-theme="dark"] .lesson-body th,
+[data-theme="dark"] .lesson-body td *,
+[data-theme="dark"] .lesson-body th * {
+  color: var(--text-primary) !important;
+  background-color: transparent !important;
+}
+[data-theme="dark"] .lesson-body th,
+[data-theme="dark"] .lesson-body tr:nth-child(even) td {
+  background-color: var(--bg-tertiary) !important;
+}
+
 .lesson-body code {
   font-family: var(--font-mono);
   background: var(--bg-tertiary);
