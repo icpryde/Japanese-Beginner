@@ -244,26 +244,23 @@ WEEKLY_TEST_TEMPLATE = r"""
         <div id="quizProgressFill" class="test-progress-fill"></div>
       </div>
       <div class="test-progress-stats">
-        <span id="quizProgressText">0 / 35 answered</span>
-        <span id="quizCorrectCount" class="test-correct-count"></span>
+        <span id="quizProgressText">Question 1 of 35</span>
       </div>
     </div>
   </div>
 
-  <!-- Questions container -->
+  <!-- Questions container (one visible at a time) -->
   <div id="quizContainer">
   {{ questions_html }}
   </div>
 
-  <!-- Submit button -->
-  <div class="test-submit-area" id="testSubmitArea">
-    <button id="quizSubmitBtn" class="test-submit-btn" disabled>
-      Submit Test
-    </button>
-    <p class="test-submit-hint" id="testSubmitHint">Answer all 35 questions to submit</p>
+  <!-- Per-question navigation -->
+  <div class="test-nav" id="testNav">
+    <button id="quizBackBtn" class="test-nav-back" disabled>‹ Back</button>
+    <button id="quizSubmitBtn" class="test-nav-submit" disabled>Submit Answer</button>
   </div>
 
-  <!-- Results panel (hidden until submit) -->
+  <!-- Results panel (hidden until all done) -->
   <div id="quizResults" class="test-results"></div>
 </div>
 """
