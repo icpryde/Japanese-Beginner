@@ -35,6 +35,39 @@ def normalize_embedded_asset_paths(html: str) -> str:
     html,
   )
 
+def rewrite_internal_lesson_links(html: str) -> str:
+  """Rewrite external Thinkific course links to internal app lesson pages."""
+  if not html:
+    return html
+
+  def _replace(m):
+    lesson_id = m.group(1)
+    return f'<a href="../lessons/{lesson_id}.html"'
+
+  # Pattern 1: /manage/courses/731527/contents/{id}
+  html = re.sub(
+    r'<a\s+href="https://japaneseonline\.gogonihon\.com/manage/courses/731527/contents/(\d+)"'
+    r'\s*(?:rel="noopener noreferrer"\s*)?(?:target="_blank"\s*)?(?:rel="noopener noreferrer"\s*)?',
+    _replace,
+    html,
+  )
+
+  # Pattern 2: /courses/take/.../texts/{id}-slug or .../lessons/{id}-slug
+  html = re.sub(
+    r'<a\s+href="https://japaneseonline\.gogonihon\.com/courses/take/[^"]+/(?:texts|lessons|multimedia)/(\d+)-[^"]*"'
+    r'\s*(?:rel="noopener noreferrer"\s*)?(?:target="_blank"\s*)?(?:rel="noopener noreferrer"\s*)?',
+    _replace,
+    html,
+  )
+
+  return html
+
+def strip_srcset(html: str) -> str:
+  """Remove srcset attributes from img tags to prevent flashing/reloading."""
+  if not html:
+    return html
+  return re.sub(r'\s+srcset="[^"]*"', '', html)
+
 def build_course_structure(manifest: dict) -> dict:
     """Organize flat lesson list into a hierarchical structure."""
     structure = OrderedDict()
@@ -70,7 +103,7 @@ def build_course_structure(manifest: dict) -> dict:
             "section_type": section_type,
             "week": week,
             "day": day,
-          "html": normalize_embedded_asset_paths(data.get("html", "")),
+          "html": strip_srcset(rewrite_internal_lesson_links(normalize_embedded_asset_paths(data.get("html", "")))),
             "videos": data.get("videos", []),
             "downloads": [
                 {**dl, "title": clean_download_title(dl, title)}
