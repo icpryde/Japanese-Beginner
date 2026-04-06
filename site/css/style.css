@@ -813,6 +813,13 @@ body {
   margin: 16px 0;
 }
 
+.lesson-body p[style*="text-align: center"] img,
+.lesson-body p[style*="text-align:center"] img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .lesson-body table {
   width: 100%;
   border-collapse: collapse;
