@@ -8,7 +8,7 @@
   "item_order": 2,
   "week": 1,
   "day": 2,
-  "html": "<div class=\"fr-view\"><p>Please download today&#39;s hiragana practice here <a class=\"fr-file\" href=\"https://s3.amazonaws.com/thinkific/file_uploads/259518/attachments/e2c/400/7a0/Hiragana_Practice_Day_2.pdf\" target=\"_blank\">Hiragana Practice Day 2.pdf</a> and watch the 2 videos below to see the stroke order:</p><p><strong>さ、し、す、せ、そ</strong></p><p><strong><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/buh5t8ji57dcbr63ol9g\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"Hiragana 3 さしすせそ.mp4 - 01:31\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span></strong></p><p><strong>た、ち、つ、て、と</strong></p><p><strong><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/buh5tdji57dcbr63ola0\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"Hiragana 4 たちつてと.mp4 - 01:29\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span><br></strong>It is very important to practice writing hiragana every day, which will enable you to master what you have learned faster. If you have any questions you can always ask other students and teachers in the group <a href=\"https://japaneseonline.gogonihon.com/communities/Q29tbXVuaXR5LTM1MzQ=\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p></div>",
+  "html": "<div class=\"fr-view\"><p>Please download today&#39;s hiragana practice here <a class=\"fr-file\" href=\"../../pdfs/week_01/day_02/Hiragana_Practice_Day_2.pdf\" target=\"_blank\">Hiragana Practice Day 2.pdf</a> and watch the 2 videos below to see the stroke order:</p><p><strong>さ、し、す、せ、そ</strong></p><p><strong><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/buh5t8ji57dcbr63ol9g\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"Hiragana 3 さしすせそ.mp4 - 01:31\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span></strong></p><p><strong>た、ち、つ、て、と</strong></p><p><strong><span class=\"fr-video fr-fvc fr-dvb\"><iframe src=\"https://platform.thinkific.com/videoproxy/v1/play/buh5tdji57dcbr63ola0\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"Hiragana 4 たちつてと.mp4 - 01:29\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span><br></strong>It is very important to practice writing hiragana every day, which will enable you to master what you have learned faster. If you have any questions you can always ask other students and teachers in the group <a href=\"https://japaneseonline.gogonihon.com/communities/Q29tbXVuaXR5LTM1MzQ=\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p></div>",
   "videos": [
     {
       "src": "https://platform.thinkific.com/videoproxy/v1/play/buh5t8ji57dcbr63ol9g",
@@ -22,9 +22,10 @@
   "downloads": [
     {
       "type": "pdf",
-      "url": "https://s3.amazonaws.com/thinkific/file_uploads/259518/attachments/e2c/400/7a0/Hiragana_Practice_Day_2.pdf",
+      "url": "../../pdfs/week_01/day_02/Hiragana_Practice_Day_2.pdf",
       "title": "Hiragana Practice Day 2.pdf",
-      "local": false
+      "local": true,
+      "filename": "week_01/day_02/Hiragana_Practice_Day_2.pdf"
     }
   ],
   "has_video": true,

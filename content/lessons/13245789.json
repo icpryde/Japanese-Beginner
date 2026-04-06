@@ -8,14 +8,15 @@
   "item_order": 2,
   "week": 4,
   "day": 18,
-  "html": "<div class=\"fr-view\"><div class=\"fr-view\"><p>Please download today&#39;s kanji practice here: <a class=\"fr-file\" href=\"https://s3.amazonaws.com/thinkific/file_uploads/259518/attachments/1d9/283/0e5/Kanji_Practice_Day_18.pdf\" target=\"_blank\">Kanji Practice Day 18.pdf</a></p><p>Practising writing kanji every day is a very important exercise to help you learn quickly. If you have any questions you can always ask other students and teachers in the community <a href=\"https://japaneseonline.gogonihon.com/communities/Q29tbXVuaXR5LTM1MzQ=\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p><p>Refer back to the <a href=\"https://japaneseonline.gogonihon.com/manage/courses/731527/contents/18333237\" rel=\"noopener noreferrer\" target=\"_blank\">Week 4 - Kanji lesson</a> to watch how to do the correct stroke order for日, 本, 人.</p></div></div>",
+  "html": "<div class=\"fr-view\"><div class=\"fr-view\"><p>Please download today&#39;s kanji practice here: <a class=\"fr-file\" href=\"../../pdfs/week_04/day_18/Kanji_Practice_Day_18.pdf\" target=\"_blank\">Kanji Practice Day 18.pdf</a></p><p>Practising writing kanji every day is a very important exercise to help you learn quickly. If you have any questions you can always ask other students and teachers in the community <a href=\"https://japaneseonline.gogonihon.com/communities/Q29tbXVuaXR5LTM1MzQ=\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p><p>Refer back to the <a href=\"https://japaneseonline.gogonihon.com/manage/courses/731527/contents/18333237\" rel=\"noopener noreferrer\" target=\"_blank\">Week 4 - Kanji lesson</a> to watch how to do the correct stroke order for日, 本, 人.</p></div></div>",
   "videos": [],
   "downloads": [
     {
       "type": "pdf",
-      "url": "https://s3.amazonaws.com/thinkific/file_uploads/259518/attachments/1d9/283/0e5/Kanji_Practice_Day_18.pdf",
+      "url": "../../pdfs/week_04/day_18/Kanji_Practice_Day_18.pdf",
       "title": "Kanji Practice Day 18.pdf",
-      "local": false
+      "local": true,
+      "filename": "week_04/day_18/Kanji_Practice_Day_18.pdf"
     }
   ],
   "has_video": false,

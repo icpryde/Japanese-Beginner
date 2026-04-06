@@ -8,14 +8,15 @@
   "item_order": 4,
   "week": 0,
   "day": 0,
-  "html": "<div class=\"fr-view\"><p><strong>Verbal conjugation in ます forms</strong></p><p>The subject has no impact on the verbal conjugation in Japanese, whoever the subject is, the verbal conjugation is always the same.</p><table><tbody><tr><td><br></td><td><p>positive</p></td><td><p>negative</p></td></tr><tr><td><p>non-past</p></td><td><p>V ます(たべます)</p></td><td><p>V ません(たべません)</p></td></tr><tr><td><p>past</p></td><td><p>V ました(たべました)</p></td><td><p>V ませんでした(たべませんでした)</p></td></tr></tbody></table><p>You can download this cheat sheet <a class=\"fr-file\" href=\"https://s3.amazonaws.com/thinkific/file_uploads/259518/attachments/1b6/845/4b9/Verbal_conjugation_in_%E3%81%BE%E3%81%99_forms.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">here,</a>&nbsp;</p></div>",
+  "html": "<div class=\"fr-view\"><p><strong>Verbal conjugation in ます forms</strong></p><p>The subject has no impact on the verbal conjugation in Japanese, whoever the subject is, the verbal conjugation is always the same.</p><table><tbody><tr><td><br></td><td><p>positive</p></td><td><p>negative</p></td></tr><tr><td><p>non-past</p></td><td><p>V ます(たべます)</p></td><td><p>V ません(たべません)</p></td></tr><tr><td><p>past</p></td><td><p>V ました(たべました)</p></td><td><p>V ませんでした(たべませんでした)</p></td></tr></tbody></table><p>You can download this cheat sheet <a class=\"fr-file\" href=\"../../pdfs/shared/Verbal_conjugation_in_ます_forms.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">here,</a>&nbsp;</p></div>",
   "videos": [],
   "downloads": [
     {
       "type": "pdf",
-      "url": "https://s3.amazonaws.com/thinkific/file_uploads/259518/attachments/1b6/845/4b9/Verbal_conjugation_in_%E3%81%BE%E3%81%99_forms.pdf",
+      "url": "../../pdfs/shared/Verbal_conjugation_in_ます_forms.pdf",
       "title": "here,",
-      "local": false
+      "local": true,
+      "filename": "shared/Verbal_conjugation_in_ます_forms.pdf"
     }
   ],
   "has_video": false,

@@ -8,14 +8,15 @@
   "item_order": 3,
   "week": 12,
   "day": 60,
-  "html": "<div class=\"fr-view\">\n<p><span style=\"color: rgb(91, 91, 91);\">Day 60 Vocabulary:</span></p>\n<p><img src=\"https://files.cdn.thinkific.com/file_uploads/259518/images/77c/b45/7ea/Vocabulary_Day_60_1.jpg\" style=\"width: 658px;\" class=\"fr-fic fr-dib\" srcset=\"https://files.cdn.thinkific.com/file_uploads/259518/images/77c/b45/7ea/Vocabulary_Day_60_1.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/259518/images/77c/b45/7ea/Vocabulary_Day_60_1.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/259518/images/77c/b45/7ea/Vocabulary_Day_60_1.jpg?width=1920&amp;dpr=3 3x\"></p>\n<p><br></p>\n<p style=\"text-align: center;\"><img src=\"https://files.cdn.thinkific.com/file_uploads/259518/images/a57/4be/b7c/Vocabulary_Day_60_2.jpg\" style=\"width: 695px;\" class=\"fr-fic fr-dib\" srcset=\"https://files.cdn.thinkific.com/file_uploads/259518/images/a57/4be/b7c/Vocabulary_Day_60_2.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/259518/images/a57/4be/b7c/Vocabulary_Day_60_2.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/259518/images/a57/4be/b7c/Vocabulary_Day_60_2.jpg?width=1920&amp;dpr=3 3x\"></p>\n<p><span style=\"color: rgb(91, 91, 91);\">A downloadable print file can be found here: <a class=\"fr-file\" href=\"https://s3.amazonaws.com/thinkific/file_uploads/259518/attachments/7c5/ed9/c34/Vocabulary_Day_60.pdf\" target=\"_blank\">Vocabulary Day 60.pdf</a></span></p>\n<p><span style=\"color: rgb(91, 91, 91);\">Audio files can be found <a href=\"https://drive.google.com/drive/folders/1NYFXLBpcM6CSt4ZgRcrzF30KYUgUu3c0?usp=sharing\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>, so you can listen to the pronunciation and practise repeating the words!</span></p>\n</div>",
+  "html": "<div class=\"fr-view\">\n<p><span style=\"color: rgb(91, 91, 91);\">Day 60 Vocabulary:</span></p>\n<p><img src=\"../../images/week_12/day_60/Vocabulary_Day_60_1.jpg\" style=\"width: 658px;\" class=\"fr-fic fr-dib\" srcset=\"../../images/week_12/day_60/Vocabulary_Day_60_1.jpg 1x, ../../images/week_12/day_60/Vocabulary_Day_60_1.jpg 2x, ../../images/week_12/day_60/Vocabulary_Day_60_1.jpg 3x\"></p>\n<p><br></p>\n<p style=\"text-align: center;\"><img src=\"../../images/week_12/day_60/Vocabulary_Day_60_2.jpg\" style=\"width: 695px;\" class=\"fr-fic fr-dib\" srcset=\"../../images/week_12/day_60/Vocabulary_Day_60_2.jpg 1x, ../../images/week_12/day_60/Vocabulary_Day_60_2.jpg 2x, ../../images/week_12/day_60/Vocabulary_Day_60_2.jpg 3x\"></p>\n<p><span style=\"color: rgb(91, 91, 91);\">A downloadable print file can be found here: <a class=\"fr-file\" href=\"../../pdfs/week_12/day_60/Vocabulary_Day_60.pdf\" target=\"_blank\">Vocabulary Day 60.pdf</a></span></p>\n<p><span style=\"color: rgb(91, 91, 91);\">Audio files can be found <a href=\"https://drive.google.com/drive/folders/1NYFXLBpcM6CSt4ZgRcrzF30KYUgUu3c0?usp=sharing\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>, so you can listen to the pronunciation and practise repeating the words!</span></p>\n</div>",
   "videos": [],
   "downloads": [
     {
       "type": "pdf",
-      "url": "https://s3.amazonaws.com/thinkific/file_uploads/259518/attachments/7c5/ed9/c34/Vocabulary_Day_60.pdf",
+      "url": "../../pdfs/week_12/day_60/Vocabulary_Day_60.pdf",
       "title": "Vocabulary Day 60.pdf",
-      "local": false
+      "local": true,
+      "filename": "week_12/day_60/Vocabulary_Day_60.pdf"
     },
     {
       "type": "audio_link",

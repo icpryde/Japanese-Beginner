@@ -8,14 +8,15 @@
   "item_order": 7,
   "week": 0,
   "day": 0,
-  "html": "<div class=\"fr-view\">\n<p><strong>Interrogatives part 1 </strong></p>\n<p>An interrogative is a function word used to ask a question, such as what, which, when, where, who, whom, whose, why and how.</p>\n<p>All of the words and phrases listed here cannot be used with 「は」especially, those used as subjects, they should always be marked with「が」.</p>\n<p><img class=\"fr-dib\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/images/259/bb7/425/1593150866216.jpg\" style=\"width: auto; max-width: 100%; height: auto;\" srcset=\"https://files.cdn.thinkific.com/file_uploads/259518/images/259/bb7/425/1593150866216.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/259518/images/259/bb7/425/1593150866216.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/259518/images/259/bb7/425/1593150866216.jpg?width=1920&amp;dpr=3 3x\"></p>\n<p>「どちら」is used as a polite form of 「だれ」 and 「どこ」, like 「こちら」 in Day 1.</p>\n<p>You can download a copy of this cheat sheet <a class=\"fr-file\" href=\"https://s3.amazonaws.com/thinkific/file_uploads/259518/attachments/b6b/b1d/39c/interrogatives_A.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">here,</a> </p>\n</div>",
+  "html": "<div class=\"fr-view\">\n<p><strong>Interrogatives part 1 </strong></p>\n<p>An interrogative is a function word used to ask a question, such as what, which, when, where, who, whom, whose, why and how.</p>\n<p>All of the words and phrases listed here cannot be used with 「は」especially, those used as subjects, they should always be marked with「が」.</p>\n<p><img class=\"fr-dib\" src=\"../../images/shared/1593150866216.jpg\" style=\"width: auto; max-width: 100%; height: auto;\" srcset=\"../../images/shared/1593150866216.jpg?width=1920 1x, ../../images/shared/1593150866216.jpg?width=1920&amp;dpr=2 2x, ../../images/shared/1593150866216.jpg?width=1920&amp;dpr=3 3x\"></p>\n<p>「どちら」is used as a polite form of 「だれ」 and 「どこ」, like 「こちら」 in Day 1.</p>\n<p>You can download a copy of this cheat sheet <a class=\"fr-file\" href=\"../../pdfs/shared/interrogatives_A.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">here,</a> </p>\n</div>",
   "videos": [],
   "downloads": [
     {
       "type": "pdf",
-      "url": "https://s3.amazonaws.com/thinkific/file_uploads/259518/attachments/b6b/b1d/39c/interrogatives_A.pdf",
+      "url": "../../pdfs/shared/interrogatives_A.pdf",
       "title": "here,",
-      "local": false
+      "local": true,
+      "filename": "shared/interrogatives_A.pdf"
     }
   ],
   "has_video": false,

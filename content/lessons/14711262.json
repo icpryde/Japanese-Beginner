@@ -8,14 +8,15 @@
   "item_order": 2,
   "week": 12,
   "day": 60,
-  "html": "<p><span style=\"color: rgb(91, 91, 91);\">Day 60 - Kanji Practice</span></p><div class=\"fr-view\"><p>Please download today&#39;s kanji practice here: <a class=\"fr-file\" href=\"https://s3.amazonaws.com/thinkific/file_uploads/259518/attachments/126/c7e/243/Kanji_Practice_Day_60.pdf\" target=\"_blank\">Kanji Practice Day 60.pdf</a></p><p>Practising writing every day is a very important exercise to help you learn quickly. If you have any questions you can always ask other students and teachers in the community <a href=\"https://japaneseonline.gogonihon.com/communities/Q29tbXVuaXR5LTM1MzQ=\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p><p>Refer back to the <a href=\"https://japaneseonline.gogonihon.com/manage/courses/731527/contents/18335350\" rel=\"noopener noreferrer\" target=\"_blank\">Week 12 - Kanji lesson</a> to watch how to do the correct stroke order for the 駅, 電 &amp; 話 kanji.</p></div>",
+  "html": "<p><span style=\"color: rgb(91, 91, 91);\">Day 60 - Kanji Practice</span></p><div class=\"fr-view\"><p>Please download today&#39;s kanji practice here: <a class=\"fr-file\" href=\"../../pdfs/week_12/day_60/Kanji_Practice_Day_60.pdf\" target=\"_blank\">Kanji Practice Day 60.pdf</a></p><p>Practising writing every day is a very important exercise to help you learn quickly. If you have any questions you can always ask other students and teachers in the community <a href=\"https://japaneseonline.gogonihon.com/communities/Q29tbXVuaXR5LTM1MzQ=\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p><p>Refer back to the <a href=\"https://japaneseonline.gogonihon.com/manage/courses/731527/contents/18335350\" rel=\"noopener noreferrer\" target=\"_blank\">Week 12 - Kanji lesson</a> to watch how to do the correct stroke order for the 駅, 電 &amp; 話 kanji.</p></div>",
   "videos": [],
   "downloads": [
     {
       "type": "pdf",
-      "url": "https://s3.amazonaws.com/thinkific/file_uploads/259518/attachments/126/c7e/243/Kanji_Practice_Day_60.pdf",
+      "url": "../../pdfs/week_12/day_60/Kanji_Practice_Day_60.pdf",
       "title": "Kanji Practice Day 60.pdf",
-      "local": false
+      "local": true,
+      "filename": "week_12/day_60/Kanji_Practice_Day_60.pdf"
     }
   ],
   "has_video": false,

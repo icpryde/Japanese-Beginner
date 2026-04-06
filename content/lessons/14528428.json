@@ -8,14 +8,15 @@
   "item_order": 17,
   "week": 11,
   "day": 52,
-  "html": "<div class=\"fr-view\"><p>1. Please download the grammar homework file below and fill it.</p><p><a class=\"fr-file\" href=\"https://s3.amazonaws.com/thinkific/file_uploads/259518/attachments/6d6/f47/dc8/Grammar_Homework_Day_52.pdf\" target=\"_blank\">Grammar Homework Day 52.pdf</a></p><p>2. Write the answer in the space or circle the right word. You will be able to download the answer sheet in next lesson.</p></div>",
+  "html": "<div class=\"fr-view\"><p>1. Please download the grammar homework file below and fill it.</p><p><a class=\"fr-file\" href=\"../../pdfs/week_11/day_52/Grammar_Homework_Day_52.pdf\" target=\"_blank\">Grammar Homework Day 52.pdf</a></p><p>2. Write the answer in the space or circle the right word. You will be able to download the answer sheet in next lesson.</p></div>",
   "videos": [],
   "downloads": [
     {
       "type": "pdf",
-      "url": "https://s3.amazonaws.com/thinkific/file_uploads/259518/attachments/6d6/f47/dc8/Grammar_Homework_Day_52.pdf",
+      "url": "../../pdfs/week_11/day_52/Grammar_Homework_Day_52.pdf",
       "title": "Grammar Homework Day 52.pdf",
-      "local": false
+      "local": true,
+      "filename": "week_11/day_52/Grammar_Homework_Day_52.pdf"
     }
   ],
   "has_video": false,

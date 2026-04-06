@@ -1535,14 +1535,13 @@ def generate_site():
                 shutil.rmtree(dst)
             shutil.copytree(src, dst)
 
-    # Copy local PDFs
+    # Copy local PDFs (recursive to preserve week/day layout)
     pdfs_src = CONTENT_DIR / "pdfs"
     pdfs_dst = SITE_DIR / "pdfs"
     if pdfs_src.exists() and any(pdfs_src.iterdir()):
-        pdfs_dst.mkdir(exist_ok=True)
-        for f in pdfs_src.iterdir():
-            if f.is_file():
-                shutil.copy2(f, pdfs_dst / f.name)
+      if pdfs_dst.exists():
+        shutil.rmtree(pdfs_dst)
+      shutil.copytree(pdfs_src, pdfs_dst)
 
     # Copy local videos
     videos_src = CONTENT_DIR / "videos"
@@ -1553,14 +1552,13 @@ def generate_site():
             if f.is_file():
                 shutil.copy2(f, videos_dst / f.name)
 
-    # Copy local images
+    # Copy local images (recursive to preserve week/day layout)
     images_src = CONTENT_DIR / "images"
     images_dst = SITE_DIR / "images"
     if images_src.exists() and any(images_src.iterdir()):
-      images_dst.mkdir(exist_ok=True)
-      for f in images_src.iterdir():
-        if f.is_file():
-          shutil.copy2(f, images_dst / f.name)
+      if images_dst.exists():
+        shutil.rmtree(images_dst)
+      shutil.copytree(images_src, images_dst)
 
     # Copy local audio
     audio_src = CONTENT_DIR / "audio"
@@ -1591,9 +1589,10 @@ def generate_site():
     for subdir in ["lessons", "images", "pdfs", "audio", "videos", "weeks"]:
         asset_dir = SITE_DIR / subdir
         if asset_dir.exists():
-            for f in sorted(asset_dir.iterdir()):
+            for f in sorted(asset_dir.rglob("*")):
                 if f.is_file():
-                    precache_urls.append(f"./{subdir}/{f.name}")
+                    rel = f.relative_to(SITE_DIR).as_posix()
+                    precache_urls.append(f"./{rel}")
     precache_manifest = {
         "build_id": build_id,
         "profile": "full_offline",
