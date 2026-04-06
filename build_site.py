@@ -68,6 +68,20 @@ def strip_srcset(html: str) -> str:
     return html
   return re.sub(r'\s+srcset="[^"]*"', '', html)
 
+
+def strip_redundant_vocabulary_label(html: str, lesson_title: str) -> str:
+  """Remove inline 'Day X Vocabulary:' label when lesson title already provides it."""
+  if not html:
+    return html
+
+  m = re.match(r"\s*Day\s*(\d+)\s*-\s*Vocabulary\s*$", lesson_title or "", re.I)
+  if not m:
+    return html
+
+  day = m.group(1)
+  # Remove only the first inline label occurrence and keep surrounding markup/assets.
+  return re.sub(rf"Day\s*{day}\s*Vocabulary\s*:\s*", "", html, count=1, flags=re.I)
+
 def build_course_structure(manifest: dict) -> dict:
     """Organize flat lesson list into a hierarchical structure."""
     structure = OrderedDict()
@@ -103,7 +117,10 @@ def build_course_structure(manifest: dict) -> dict:
             "section_type": section_type,
             "week": week,
             "day": day,
-          "html": strip_srcset(rewrite_internal_lesson_links(normalize_embedded_asset_paths(data.get("html", "")))),
+          "html": strip_redundant_vocabulary_label(
+              strip_srcset(rewrite_internal_lesson_links(normalize_embedded_asset_paths(data.get("html", "")))),
+              title,
+          ),
             "videos": data.get("videos", []),
             "downloads": [
                 {**dl, "title": clean_download_title(dl, title)}
