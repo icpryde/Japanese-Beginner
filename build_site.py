@@ -25,15 +25,25 @@ SITE_DIR = PROJECT_ROOT / "site"
 # ─── Helpers ──────────────────────────────────────────────────
 
 def normalize_embedded_asset_paths(html: str) -> str:
-  """Fix over-deep relative media paths inside lesson HTML snippets."""
+  """Fix media paths inside lesson HTML snippets after content restructuring."""
   if not html:
     return html
 
-  return re.sub(
+  normalized = re.sub(
     r'(["\'(])\.\./\.\./(images|audio|videos|pdfs|icons|css|js)/',
     r'\1../\2/',
     html,
   )
+
+  # Grammar slide assets are now under images/grammar, but many lesson snippets
+  # still reference ../images/gs_*.jpg after migration.
+  normalized = re.sub(
+    r'(["\'(]\.\./images/)gs_([^"\')\s]+)',
+    r'\1grammar/gs_\2',
+    normalized,
+  )
+
+  return normalized
 
 def rewrite_internal_lesson_links(html: str) -> str:
   """Rewrite external Thinkific course links to internal app lesson pages."""
