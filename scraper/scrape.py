@@ -112,6 +112,38 @@ def infer_download_kind(url: str, text_hint: str, content_type: str = "") -> str
     return "pdf"
 
 
+def get_week_day(lesson: dict) -> tuple[int | None, int | None]:
+    """Return (week, day) from lesson metadata, with safe fallbacks."""
+    week = lesson.get("week")
+    day = lesson.get("day")
+
+    if isinstance(week, int) and week > 0 and isinstance(day, int) and day > 0:
+        return week, day
+
+    title = str(lesson.get("title", ""))
+    day_match = re.search(r"day\s*(\d+)", title, re.I)
+    if day_match:
+        d = int(day_match.group(1))
+        w = ((d - 1) // 5) + 1
+        return w, d
+
+    return None, None
+
+
+def get_image_dest_dir(lesson: dict) -> Path:
+    week, day = get_week_day(lesson)
+    if week and day:
+        return IMAGES_DIR / f"week_{week:02d}" / f"day_{day:02d}"
+    return IMAGES_DIR / "shared"
+
+
+def get_pdf_dest_dir(lesson: dict) -> Path:
+    week, day = get_week_day(lesson)
+    if week and day:
+        return PDFS_DIR / f"week_{week:02d}" / f"day_{day:02d}"
+    return PDFS_DIR / "shared"
+
+
 # --- Cloudflare wait ---
 
 async def wait_for_cf(page, timeout=120):
@@ -254,9 +286,10 @@ def extract_primary_content_html(html: str) -> str:
     return str(soup.select_one("body") or "")
 
 
-async def extract_and_download_images(page, html: str, lesson_id: str) -> tuple:
+async def extract_and_download_images(page, html: str, lesson: dict) -> tuple:
     soup = BeautifulSoup(html, "html.parser")
     images = []
+    img_dest_dir = get_image_dest_dir(lesson)
 
     urls = set()
 
@@ -283,11 +316,12 @@ async def extract_and_download_images(page, html: str, lesson_id: str) -> tuple:
             ext = ".png"
 
         local_name = f"{url_hash(src)}{ext}"
-        local_path = IMAGES_DIR / local_name
+        local_path = img_dest_dir / local_name
 
         ok, reason = await download_binary(page, src, local_path)
         if ok:
-            images.append({"url": src, "local": local_name})
+            local_rel = local_path.relative_to(IMAGES_DIR).as_posix()
+            images.append({"url": src, "local": local_rel})
         else:
             images.append({"url": src, "local": "", "error": reason})
 
@@ -422,9 +456,11 @@ async def download_video(page, lesson_id: str, title: str, video_info: dict) -> 
     return None, "download_not_found"
 
 
-async def extract_downloads(page, html: str, lesson_id: str, title: str) -> list:
+async def extract_downloads(page, html: str, lesson: dict) -> list:
     soup = BeautifulSoup(html, "html.parser")
     downloads = []
+    lesson_id = str(lesson.get("id", ""))
+    title = str(lesson.get("title", ""))
 
     selectors = [
         'a[href$=".pdf"]', 'a[href*=".pdf?"]',
@@ -482,7 +518,7 @@ async def extract_downloads(page, html: str, lesson_id: str, title: str) -> list
             ext = ""
 
         kind = infer_download_kind(href, link_text)
-        dest_dir = AUDIO_DIR if kind == "audio" else PDFS_DIR
+        dest_dir = AUDIO_DIR if kind == "audio" else get_pdf_dest_dir(lesson)
         if not ext:
             ext = ".mp3" if kind == "audio" else ".pdf"
 
@@ -492,9 +528,21 @@ async def extract_downloads(page, html: str, lesson_id: str, title: str) -> list
         ok, reason = await download_binary(page, href, dest)
         if ok:
             ftype = kind
+            if kind == "pdf":
+                local_rel = dest.relative_to(PDFS_DIR).as_posix()
+                local_url = f"../../pdfs/{local_rel}"
+                local_filename = local_rel
+                local_flag = True
+            else:
+                local_url = href
+                local_filename = fname
+                local_flag = False
             downloads.append({
-                "url": href, "filename": fname,
-                "type": ftype, "title": link_text,
+                "url": local_url,
+                "filename": local_filename,
+                "type": ftype,
+                "title": link_text,
+                "local": local_flag,
             })
             log.info(f"    Downloaded {ftype}: {fname}")
         else:
@@ -565,11 +613,11 @@ async def download_lesson(page, lesson: dict) -> dict:
 
     # Detect what's on this page
     videos = await extract_videos_from_html(html)
-    downloads = await extract_downloads(page, content_html, lid, title)
+    downloads = await extract_downloads(page, content_html, lesson)
     quiz_questions = await extract_quiz(html) if 'quiz' in lesson.get('type', '') else []
 
     # Download images and rewrite URLs
-    content_html, images = await extract_and_download_images(page, content_html, lid)
+    content_html, images = await extract_and_download_images(page, content_html, lesson)
 
     # Download videos
     video_files = []
