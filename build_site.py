@@ -12,6 +12,7 @@ from pathlib import Path
 from collections import OrderedDict
 from datetime import datetime, timezone
 
+from bs4 import BeautifulSoup
 from jinja2 import Environment, BaseLoader
 
 # === Paths ===
@@ -92,6 +93,47 @@ def strip_redundant_vocabulary_label(html: str, lesson_title: str) -> str:
   # Remove only the first inline label occurrence and keep surrounding markup/assets.
   return re.sub(rf"Day\s*{day}\s*Vocabulary\s*:\s*", "", html, count=1, flags=re.I)
 
+
+def normalize_vocabulary_image_layout(html: str, lesson_title: str) -> str:
+  """Center vocabulary slide images consistently and split combined image blocks."""
+  if not html:
+    return html
+
+  if not re.match(r"\s*Day\s*\d+\s*-\s*Vocabulary\s*$", lesson_title or "", re.I):
+    return html
+
+  soup = BeautifulSoup(html, "html.parser")
+  changed = False
+
+  for para in list(soup.find_all("p")):
+    imgs = para.find_all("img")
+    if not imgs:
+      continue
+
+    para_clone = BeautifulSoup(str(para), "html.parser").find("p")
+    for tag in para_clone.find_all(["img", "br"]):
+      tag.decompose()
+    residual_text = para_clone.get_text(" ", strip=True)
+    if residual_text:
+      continue
+
+    style = para.get("style", "")
+    if "text-align" not in style.lower():
+      para["style"] = (style.rstrip("; ") + "; text-align: center;").lstrip("; ").strip()
+      changed = True
+
+    if len(imgs) > 1:
+      new_style = para.get("style", "text-align: center;")
+      for img in imgs:
+        new_para = soup.new_tag("p")
+        new_para["style"] = new_style
+        new_para.append(BeautifulSoup(str(img), "html.parser").find("img"))
+        para.insert_before(new_para)
+      para.decompose()
+      changed = True
+
+  return str(soup) if changed else html
+
 def build_course_structure(manifest: dict) -> dict:
     """Organize flat lesson list into a hierarchical structure."""
     structure = OrderedDict()
@@ -127,10 +169,13 @@ def build_course_structure(manifest: dict) -> dict:
             "section_type": section_type,
             "week": week,
             "day": day,
-          "html": strip_redundant_vocabulary_label(
-              strip_srcset(rewrite_internal_lesson_links(normalize_embedded_asset_paths(data.get("html", "")))),
+            "html": normalize_vocabulary_image_layout(
+              strip_redundant_vocabulary_label(
+                strip_srcset(rewrite_internal_lesson_links(normalize_embedded_asset_paths(data.get("html", "")))),
+                title,
+              ),
               title,
-          ),
+            ),
             "videos": data.get("videos", []),
             "downloads": [
                 {**dl, "title": clean_download_title(dl, title)}
