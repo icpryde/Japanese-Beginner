@@ -1149,6 +1149,825 @@
   };
 
   // ═══════════════════════════════════════════
+  // Week 3 Review Quiz Module
+  // ═══════════════════════════════════════════
+  const Week3ReviewQuiz = {
+    LESSON_ID: 'Week 3 - Review quiz Answers',
+    STORAGE_KEY: 'akamonkai_week3_review_quiz_v1',
+    PASS_PERCENT: 80,
+    AUDIO_MAP: {
+      '135C_zlduagxKDuD-Yc2Dlt25g5nK6ZqE': '../audio/week_03/day_15/3week_test_audio_question6.mp3',
+      '10p_eB6TQQjplSlOD_amadiBfQ4crNEhp': '../audio/week_03/day_15/3week_test_audio_question13.mp3',
+      '1JoFzFTY72sQ2UNZ_6o9OrdamZxPop4GK': '../audio/week_03/day_15/3week_test_audio_question15.mp3',
+      '1jICJ9A8qDd78PXBQV98He73MSkMlZmvw': '../audio/week_03/day_15/3week_test_audio_question16.mp3',
+      '1ga-7X6hR_EAmBJo1UTMCpOSExnTAo9bk': '../audio/week_03/day_15/3week_test_audio_question17.mp3',
+      '19KRJTt5xW859hUDy-EiU_3iAaFxXMIUz': '../audio/week_03/day_15/3week_test_audio_question24.mp3'
+    },
+    VIDEO_MAP: {
+      btlb4fmh0ra1r4jeb550: '../videos/week_03/day_15/D1L4Q1.mp4',
+      bt52pbp9tnhu54jp2afg: '../videos/week_03/day_15/new_question.mp4'
+    },
+
+    init() {
+      const lesson = document.querySelector('.lesson[data-lesson-id]');
+      if (!lesson || lesson.dataset.lessonId !== this.LESSON_ID) return;
+
+      this.lessonBody = lesson.querySelector('.lesson-body');
+      if (!this.lessonBody) return;
+
+      this.injectStyles();
+      this.questions = this.parseQuestions(this.lessonBody.innerHTML);
+      if (!this.questions.length) return;
+
+      this.state = this.loadState();
+      this.renderShell();
+      this.cacheNodes();
+      this.bindEvents();
+      this.render();
+    },
+
+    injectStyles() {
+      if (document.getElementById('w3rqStyles')) return;
+
+      const style = document.createElement('style');
+      style.id = 'w3rqStyles';
+      style.textContent = `
+        .w3rq-shell {
+          background: var(--bg-secondary);
+          border: 1px solid var(--border);
+          border-radius: var(--radius);
+          box-shadow: 0 4px 14px var(--shadow);
+          padding: 16px;
+        }
+
+        .w3rq-header {
+          display: grid;
+          grid-template-columns: 1fr auto;
+          gap: 12px;
+          align-items: center;
+          margin-bottom: 14px;
+          padding-bottom: 12px;
+          border-bottom: 1px solid var(--border);
+        }
+
+        .w3rq-progress-track {
+          width: 100%;
+          height: 10px;
+          background: var(--bg-tertiary);
+          border-radius: 999px;
+          overflow: hidden;
+          margin-bottom: 6px;
+        }
+
+        .w3rq-progress-fill {
+          height: 100%;
+          background: linear-gradient(90deg, var(--accent), var(--info));
+          width: 0%;
+          transition: width 0.25s ease;
+        }
+
+        .w3rq-progress-label {
+          font-size: 0.86rem;
+          color: var(--text-secondary);
+          font-weight: 600;
+        }
+
+        .w3rq-score {
+          font-size: 0.92rem;
+          font-weight: 700;
+          color: var(--text-primary);
+          background: var(--bg-tertiary);
+          border: 1px solid var(--border);
+          border-radius: 999px;
+          padding: 6px 12px;
+          white-space: nowrap;
+        }
+
+        .w3rq-card {
+          border: 1px solid var(--border);
+          border-radius: var(--radius);
+          background: color-mix(in srgb, var(--bg-secondary) 86%, var(--bg-primary));
+          padding: 16px;
+        }
+
+        .w3rq-number {
+          color: var(--accent);
+          font-size: 0.78rem;
+          font-weight: 700;
+          text-transform: uppercase;
+          letter-spacing: 0.08em;
+          margin-bottom: 8px;
+        }
+
+        .w3rq-prompt {
+          font-size: 1.05rem;
+          font-weight: 600;
+          color: var(--text-primary);
+          margin-bottom: 8px;
+        }
+
+        .w3rq-type {
+          display: inline-block;
+          margin-bottom: 14px;
+          padding: 3px 10px;
+          border-radius: 999px;
+          font-size: 0.74rem;
+          font-weight: 600;
+          background: color-mix(in srgb, var(--info) 16%, var(--bg-secondary));
+          color: var(--info);
+          border: 1px solid color-mix(in srgb, var(--info) 30%, transparent);
+        }
+
+        .w3rq-media-wrap {
+          display: flex;
+          flex-direction: column;
+          gap: 8px;
+          margin-bottom: 14px;
+        }
+
+        .w3rq-media-wrap audio,
+        .w3rq-media-wrap video {
+          width: 100%;
+          max-width: 620px;
+          border-radius: var(--radius-sm);
+          background: #111;
+        }
+
+        .w3rq-media-wrap img {
+          width: 100%;
+          max-width: 520px;
+          border: 1px solid var(--border);
+          border-radius: var(--radius);
+          background: #fff;
+        }
+
+        .w3rq-options {
+          display: grid;
+          gap: 8px;
+        }
+
+        .w3rq-option {
+          width: 100%;
+          text-align: left;
+          border: 1px solid var(--border);
+          border-radius: var(--radius-sm);
+          background: var(--bg-tertiary);
+          color: var(--text-primary);
+          padding: 11px 14px;
+          font-size: 0.95rem;
+          line-height: 1.5;
+          cursor: pointer;
+          transition: all var(--transition);
+        }
+
+        .w3rq-option:hover:not(:disabled) {
+          border-color: var(--info);
+          background: color-mix(in srgb, var(--info) 12%, var(--bg-secondary));
+        }
+
+        .w3rq-option.selected {
+          border-color: var(--info);
+          background: color-mix(in srgb, var(--info) 18%, var(--bg-secondary));
+          font-weight: 600;
+        }
+
+        .w3rq-option.correct {
+          background: var(--success-bg);
+          border-color: var(--success);
+          color: var(--success);
+          font-weight: 700;
+        }
+
+        .w3rq-option.incorrect {
+          background: var(--accent-light);
+          border-color: var(--accent);
+          color: var(--accent);
+          opacity: 0.85;
+        }
+
+        .w3rq-feedback {
+          margin-top: 12px;
+          padding: 10px 12px;
+          border-radius: var(--radius-sm);
+          border: 1px solid var(--border);
+          background: var(--bg-primary);
+          color: var(--text-secondary);
+          font-size: 0.9rem;
+          display: none;
+        }
+
+        .w3rq-feedback.show {
+          display: block;
+        }
+
+        .w3rq-feedback.good {
+          border-color: color-mix(in srgb, var(--success) 40%, var(--border));
+          background: color-mix(in srgb, var(--success-bg) 72%, var(--bg-secondary));
+          color: var(--success);
+        }
+
+        .w3rq-feedback.bad {
+          border-color: color-mix(in srgb, var(--accent) 40%, var(--border));
+          background: color-mix(in srgb, var(--accent-light) 72%, var(--bg-secondary));
+          color: var(--accent);
+        }
+
+        .w3rq-actions {
+          margin-top: 14px;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 8px;
+        }
+
+        .w3rq-btn {
+          border: 1px solid var(--border);
+          background: var(--bg-tertiary);
+          color: var(--text-primary);
+          border-radius: var(--radius-sm);
+          padding: 10px 14px;
+          font-family: var(--font-sans);
+          font-size: 0.9rem;
+          font-weight: 600;
+          cursor: pointer;
+          transition: all var(--transition);
+        }
+
+        .w3rq-btn:hover:not(:disabled) {
+          transform: translateY(-1px);
+          border-color: var(--text-secondary);
+        }
+
+        .w3rq-btn:disabled {
+          opacity: 0.45;
+          cursor: not-allowed;
+          transform: none;
+        }
+
+        .w3rq-btn.primary {
+          background: var(--accent);
+          color: #fff;
+          border-color: var(--accent);
+        }
+
+        .w3rq-btn.primary:hover:not(:disabled) {
+          background: var(--accent-hover);
+          border-color: var(--accent-hover);
+        }
+
+        .w3rq-results {
+          margin-top: 16px;
+          display: none;
+          border: 1px solid var(--border);
+          border-radius: var(--radius);
+          background: var(--bg-secondary);
+          padding: 16px;
+        }
+
+        .w3rq-results.show {
+          display: block;
+        }
+
+        .w3rq-results h3 {
+          margin-bottom: 10px;
+          font-size: 1.2rem;
+        }
+
+        .w3rq-final {
+          display: grid;
+          grid-template-columns: 90px 1fr;
+          gap: 14px;
+          align-items: center;
+          margin-bottom: 12px;
+        }
+
+        .w3rq-grade {
+          width: 90px;
+          height: 90px;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 1.5rem;
+          font-weight: 700;
+          border: 3px solid;
+        }
+
+        .w3rq-grade.pass {
+          color: var(--success);
+          border-color: var(--success);
+          background: var(--success-bg);
+        }
+
+        .w3rq-grade.fail {
+          color: var(--accent);
+          border-color: var(--accent);
+          background: var(--accent-light);
+        }
+
+        .w3rq-final p {
+          margin: 0;
+          color: var(--text-secondary);
+        }
+
+        .w3rq-missed-list {
+          margin-top: 12px;
+          display: grid;
+          gap: 10px;
+        }
+
+        .w3rq-missed-item {
+          border-left: 4px solid var(--accent);
+          border: 1px solid var(--border);
+          border-left-width: 4px;
+          border-radius: var(--radius-sm);
+          padding: 10px 12px;
+          background: color-mix(in srgb, var(--accent-light) 45%, var(--bg-secondary));
+        }
+
+        .w3rq-missed-item h4 {
+          margin: 0 0 6px;
+          font-size: 0.9rem;
+          color: var(--text-primary);
+        }
+
+        .w3rq-missed-item p {
+          margin: 0;
+          font-size: 0.86rem;
+          color: var(--text-secondary);
+        }
+
+        .w3rq-missed-item .label {
+          color: var(--text-primary);
+          font-weight: 700;
+        }
+
+        @media (max-width: 768px) {
+          .w3rq-shell {
+            padding: 12px;
+          }
+
+          .w3rq-header {
+            grid-template-columns: 1fr;
+          }
+
+          .w3rq-final {
+            grid-template-columns: 1fr;
+            text-align: center;
+            justify-items: center;
+          }
+        }
+      `;
+      document.head.appendChild(style);
+    },
+
+    cacheNodes() {
+      this.progressFill = document.getElementById('w3rqProgressFill');
+      this.progressLabel = document.getElementById('w3rqProgressLabel');
+      this.scoreNode = document.getElementById('w3rqScore');
+      this.cardNode = document.getElementById('w3rqCard');
+      this.feedbackNode = document.getElementById('w3rqFeedback');
+      this.resultsNode = document.getElementById('w3rqResults');
+      this.prevBtn = document.getElementById('w3rqPrevBtn');
+      this.actionBtn = document.getElementById('w3rqActionBtn');
+      this.resetBtn = document.getElementById('w3rqResetBtn');
+    },
+
+    bindEvents() {
+      this.prevBtn?.addEventListener('click', () => {
+        if (this.state.index > 0) {
+          this.state.index -= 1;
+          this.saveState();
+          this.render();
+        }
+      });
+
+      this.actionBtn?.addEventListener('click', () => {
+        const current = this.state.answers[this.state.index];
+        if (!current) return;
+
+        if (!current.submitted) {
+          this.submitCurrent();
+          return;
+        }
+
+        if (this.state.index === this.questions.length - 1) {
+          this.state.finished = true;
+          this.saveState();
+          this.renderResults();
+          return;
+        }
+
+        this.state.index += 1;
+        this.saveState();
+        this.render();
+      });
+
+      this.resetBtn?.addEventListener('click', () => {
+        if (!window.confirm('Reset quiz and clear all answers?')) return;
+        this.state = this.createEmptyState();
+        localStorage.removeItem(this.STORAGE_KEY);
+        this.render();
+      });
+    },
+
+    renderShell() {
+      this.lessonBody.innerHTML = [
+        '<div class="w3rq-shell">',
+        '<div class="w3rq-header">',
+        '<div>',
+        '<div class="w3rq-progress-track"><div id="w3rqProgressFill" class="w3rq-progress-fill"></div></div>',
+        '<div id="w3rqProgressLabel" class="w3rq-progress-label"></div>',
+        '</div>',
+        '<div id="w3rqScore" class="w3rq-score"></div>',
+        '</div>',
+        '<div id="w3rqCard" class="w3rq-card"></div>',
+        '<div id="w3rqFeedback" class="w3rq-feedback"></div>',
+        '<div class="w3rq-actions">',
+        '<button id="w3rqPrevBtn" class="w3rq-btn" type="button">← Previous</button>',
+        '<button id="w3rqActionBtn" class="w3rq-btn primary" type="button">Confirm</button>',
+        '<button id="w3rqResetBtn" class="w3rq-btn" type="button">Reset Quiz</button>',
+        '</div>',
+        '<div id="w3rqResults" class="w3rq-results"></div>',
+        '</div>'
+      ].join('');
+    },
+
+    render() {
+      if (this.state.finished) {
+        this.renderResults();
+        return;
+      }
+
+      const q = this.questions[this.state.index];
+      const a = this.state.answers[this.state.index];
+      if (!q || !a) return;
+
+      const prompt = this.escapeHtml(q.prompt || 'Choose the best answer.');
+      let mediaHtml = '';
+
+      if (q.media.video) {
+        mediaHtml += '<video controls preload="metadata"><source src="' + this.escapeAttr(q.media.video) + '" type="video/mp4"></video>';
+      }
+      if (q.media.audio) {
+        mediaHtml += '<audio controls preload="metadata" src="' + this.escapeAttr(q.media.audio) + '"></audio>';
+      }
+      if (q.media.image) {
+        mediaHtml += '<img src="' + this.escapeAttr(q.media.image) + '" alt="Question ' + q.number + ' image">';
+      }
+
+      let optionsHtml = '<div class="w3rq-options">';
+      q.options.forEach((option) => {
+        const selected = a.selected.includes(option.letter);
+        const classes = ['w3rq-option'];
+        if (selected) classes.push('selected');
+
+        if (a.submitted) {
+          if (option.correct) classes.push('correct');
+          if (selected && !option.correct) classes.push('incorrect');
+        }
+
+        optionsHtml += '<button type="button" class="' + classes.join(' ') + '" data-letter="' + option.letter + '" ' + (a.submitted ? 'disabled' : '') + '>';
+        optionsHtml += '<strong>' + option.letter + '.</strong> ' + this.escapeHtml(option.text);
+        optionsHtml += '</button>';
+      });
+      optionsHtml += '</div>';
+
+      this.cardNode.innerHTML = [
+        '<div class="w3rq-number">Question ' + q.number + ' of ' + this.questions.length + '</div>',
+        '<div class="w3rq-prompt">' + prompt + '</div>',
+        '<div class="w3rq-type">' + (q.multi ? 'Select all that apply' : 'Select one answer') + '</div>',
+        mediaHtml ? '<div class="w3rq-media-wrap">' + mediaHtml + '</div>' : '',
+        optionsHtml
+      ].join('');
+
+      this.cardNode.querySelectorAll('.w3rq-option').forEach((btn) => {
+        btn.addEventListener('click', () => this.selectOption(btn.dataset.letter));
+      });
+
+      this.renderFeedback(q, a);
+      this.updateHeader();
+      this.updateActions();
+    },
+
+    renderFeedback(question, answer) {
+      if (!answer.submitted) {
+        this.feedbackNode.className = 'w3rq-feedback';
+        this.feedbackNode.textContent = '';
+        return;
+      }
+
+      const correctText = question.options.filter((o) => o.correct).map((o) => o.letter + '. ' + o.text).join(' / ');
+      if (answer.correct) {
+        this.feedbackNode.className = 'w3rq-feedback show good';
+        this.feedbackNode.textContent = 'Correct. Nice work.';
+      } else {
+        this.feedbackNode.className = 'w3rq-feedback show bad';
+        this.feedbackNode.textContent = 'Not quite. Correct answer: ' + correctText;
+      }
+    },
+
+    renderResults() {
+      const total = this.questions.length;
+      const score = this.getScore();
+      const percent = Math.round((score / total) * 100);
+      const pass = percent >= this.PASS_PERCENT;
+
+      const missed = [];
+      this.questions.forEach((q, idx) => {
+        const ans = this.state.answers[idx];
+        if (!ans || ans.correct) return;
+        const selected = ans.selected.length ? ans.selected.join(', ') : '(none)';
+        const correct = q.options.filter((o) => o.correct).map((o) => o.letter).join(', ');
+        missed.push({
+          number: q.number,
+          prompt: q.prompt || 'Question',
+          selected,
+          correct
+        });
+      });
+
+      let missedHtml = '';
+      if (missed.length) {
+        missedHtml = '<div class="w3rq-missed-list">';
+        missed.forEach((item) => {
+          missedHtml += '<div class="w3rq-missed-item">';
+          missedHtml += '<h4>Q' + item.number + ' · ' + this.escapeHtml(item.prompt) + '</h4>';
+          missedHtml += '<p><span class="label">Your answer:</span> ' + this.escapeHtml(item.selected) + '</p>';
+          missedHtml += '<p><span class="label">Correct:</span> ' + this.escapeHtml(item.correct) + '</p>';
+          missedHtml += '<p><span class="label">Study tip:</span> replay the media and compare counters/particles carefully.</p>';
+          missedHtml += '</div>';
+        });
+        missedHtml += '</div>';
+      } else {
+        missedHtml = '<p>Perfect score. You answered every question correctly.</p>';
+      }
+
+      this.resultsNode.innerHTML = [
+        '<h3>Week 3 Review Quiz Results</h3>',
+        '<div class="w3rq-final">',
+        '<div class="w3rq-grade ' + (pass ? 'pass' : 'fail') + '">' + percent + '%</div>',
+        '<div>',
+        '<p><strong>Score:</strong> ' + score + ' / ' + total + '</p>',
+        '<p><strong>Status:</strong> ' + (pass ? 'Pass' : 'Needs review') + ' (target: ' + this.PASS_PERCENT + '%)</p>',
+        '<p><strong>Helpful review:</strong> check the missed questions below, then use Reset Quiz to try again.</p>',
+        '</div>',
+        '</div>',
+        '<h4>Questions to review</h4>',
+        missedHtml
+      ].join('');
+      this.resultsNode.classList.add('show');
+
+      this.cardNode.style.display = 'none';
+      this.feedbackNode.className = 'w3rq-feedback';
+      this.feedbackNode.textContent = '';
+
+      this.prevBtn.disabled = true;
+      this.actionBtn.disabled = true;
+      this.actionBtn.textContent = 'Completed';
+      this.updateHeader();
+    },
+
+    selectOption(letter) {
+      const q = this.questions[this.state.index];
+      const a = this.state.answers[this.state.index];
+      if (!q || !a || a.submitted) return;
+
+      if (q.multi) {
+        if (a.selected.includes(letter)) {
+          a.selected = a.selected.filter((l) => l !== letter);
+        } else {
+          a.selected = a.selected.concat(letter);
+        }
+      } else {
+        a.selected = [letter];
+      }
+
+      this.saveState();
+      this.render();
+    },
+
+    submitCurrent() {
+      const q = this.questions[this.state.index];
+      const a = this.state.answers[this.state.index];
+      if (!q || !a || !a.selected.length) return;
+
+      const chosen = a.selected.slice().sort().join('|');
+      const correct = q.options.filter((o) => o.correct).map((o) => o.letter).sort().join('|');
+
+      a.submitted = true;
+      a.correct = chosen === correct;
+
+      this.saveState();
+      this.render();
+    },
+
+    updateHeader() {
+      const answered = this.state.answers.filter((a) => a.submitted).length;
+      const total = this.questions.length;
+      const score = this.getScore();
+      const pct = total > 0 ? Math.round((answered / total) * 100) : 0;
+
+      if (this.progressFill) this.progressFill.style.width = pct + '%';
+      if (this.progressLabel) {
+        if (this.state.finished) {
+          this.progressLabel.textContent = 'Finished · ' + answered + ' of ' + total + ' answered';
+        } else {
+          this.progressLabel.textContent = 'Question ' + (this.state.index + 1) + ' of ' + total + ' · ' + answered + ' answered';
+        }
+      }
+      if (this.scoreNode) this.scoreNode.textContent = 'Score: ' + score + ' / ' + total;
+    },
+
+    updateActions() {
+      const a = this.state.answers[this.state.index];
+      if (!a) return;
+
+      this.prevBtn.disabled = this.state.index === 0;
+
+      if (!a.submitted) {
+        this.actionBtn.textContent = 'Confirm';
+        this.actionBtn.disabled = a.selected.length === 0;
+        return;
+      }
+
+      if (this.state.index === this.questions.length - 1) {
+        this.actionBtn.textContent = 'See Results';
+      } else {
+        this.actionBtn.textContent = 'Next →';
+      }
+      this.actionBtn.disabled = false;
+    },
+
+    createEmptyState() {
+      return {
+        index: 0,
+        finished: false,
+        answers: this.questions.map(() => ({
+          selected: [],
+          submitted: false,
+          correct: false
+        }))
+      };
+    },
+
+    loadState() {
+      try {
+        const raw = localStorage.getItem(this.STORAGE_KEY);
+        if (!raw) return this.createEmptyState();
+        const parsed = JSON.parse(raw);
+        if (!parsed || !Array.isArray(parsed.answers) || parsed.answers.length !== this.questions.length) {
+          return this.createEmptyState();
+        }
+        parsed.index = Math.min(Math.max(parsed.index || 0, 0), this.questions.length - 1);
+        return parsed;
+      } catch {
+        return this.createEmptyState();
+      }
+    },
+
+    saveState() {
+      localStorage.setItem(this.STORAGE_KEY, JSON.stringify(this.state));
+    },
+
+    getScore() {
+      return this.state.answers.reduce((sum, answer) => sum + (answer.correct ? 1 : 0), 0);
+    },
+
+    parseQuestions(rawHtml) {
+      const questions = [];
+      const normalized = rawHtml.replace(/<h3[^>]*>[\s\S]*?<\/h3>/i, '');
+      const questionPattern = /(\d+)\)\s*<strong>([\s\S]*?)<\/strong>\s*Explanation:\s*<br\s*\/?>\s*<br\s*\/?>\s*([\s\S]*?)(?=(?:\d+\)\s*<strong>)|$)/gi;
+
+      let match;
+      while ((match = questionPattern.exec(normalized)) !== null) {
+        const number = Number(match[1]);
+        const promptHtml = match[2] || '';
+        const optionsHtml = (match[3] || '').replace(/<br\s*\/?>\s*$/i, '');
+        const options = this.parseOptions(optionsHtml);
+        if (!options.length) continue;
+
+        const media = this.extractMedia(promptHtml);
+        const prompt = this.extractPrompt(promptHtml);
+        const correctCount = options.filter((o) => o.correct).length;
+
+        questions.push({
+          number,
+          prompt,
+          media,
+          options,
+          multi: correctCount > 1
+        });
+      }
+
+      questions.sort((a, b) => a.number - b.number);
+      return questions;
+    },
+
+    parseOptions(optionsHtml) {
+      const options = [];
+      const optionPattern = /(<em[^>]*>)?\s*([A-E])\)\s*([\s\S]*?)(?=(?:(?:<\/em>\s*)?(?:<em[^>]*>)?\s*[A-E]\)\s*)|$)/gi;
+
+      let match;
+      while ((match = optionPattern.exec(optionsHtml)) !== null) {
+        const letter = match[2].toUpperCase();
+        const raw = (match[3] || '').trim();
+        if (!raw) continue;
+
+        const correct = Boolean(match[1]) || /<em\b/i.test(raw);
+        const withoutEmphasis = raw.replace(/<\/?em[^>]*>/gi, '');
+        const text = this.normalizeText(this.stripHtml(withoutEmphasis));
+        if (!text) continue;
+
+        options.push({ letter, text, correct });
+      }
+
+      return options;
+    },
+
+    extractPrompt(promptHtml) {
+      const wrapper = document.createElement('div');
+      wrapper.innerHTML = promptHtml;
+      wrapper.querySelectorAll('iframe, video, audio, img').forEach((node) => node.remove());
+      return this.normalizeText(wrapper.textContent || 'Choose the correct answer.');
+    },
+
+    extractMedia(promptHtml) {
+      const wrapper = document.createElement('div');
+      wrapper.innerHTML = promptHtml;
+
+      const iframe = wrapper.querySelector('iframe');
+      const audio = wrapper.querySelector('audio');
+      const image = wrapper.querySelector('img');
+
+      return {
+        video: this.resolveVideoSrc(iframe?.getAttribute('src') || ''),
+        audio: this.resolveAudioSrc(audio?.getAttribute('src') || ''),
+        image: this.resolveImageSrc(image?.getAttribute('src') || '')
+      };
+    },
+
+    resolveAudioSrc(src) {
+      if (!src) return '';
+      if (src.startsWith('../audio/')) return src;
+
+      const id = this.extractGoogleFileId(src);
+      if (id && this.AUDIO_MAP[id]) return this.AUDIO_MAP[id];
+      return src;
+    },
+
+    resolveVideoSrc(src) {
+      if (!src) return '';
+      if (src.startsWith('../videos/')) return src;
+
+      const key = Object.keys(this.VIDEO_MAP).find((token) => src.includes(token));
+      return key ? this.VIDEO_MAP[key] : src;
+    },
+
+    resolveImageSrc(src) {
+      if (!src) return '';
+      if (src.startsWith('../images/')) return src;
+
+      const filename = src.split('/').pop()?.split('?')[0] || '';
+      if (/^week3_test_question\d+\.jpg$/i.test(filename)) {
+        return '../images/week_03/day_15/' + filename;
+      }
+      return src;
+    },
+
+    extractGoogleFileId(url) {
+      const match = url.match(/[?&]id=([^&]+)/i);
+      return match ? match[1] : '';
+    },
+
+    stripHtml(html) {
+      const wrapper = document.createElement('div');
+      wrapper.innerHTML = html.replace(/<br\s*\/?>/gi, ' ');
+      return wrapper.textContent || '';
+    },
+
+    normalizeText(text) {
+      return (text || '')
+        .replace(/\u00a0/g, ' ')
+        .replace(/\s+/g, ' ')
+        .replace(/\s+([.,!?;:])/g, '$1')
+        .trim();
+    },
+
+    escapeHtml(text) {
+      return (text || '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    },
+
+    escapeAttr(text) {
+      return this.escapeHtml(text).replace(/`/g, '&#96;');
+    }
+  };
+
+  // ═══════════════════════════════════════════
   // Service Worker Registration
   // ═══════════════════════════════════════════
   function registerSW() {
@@ -1170,6 +1989,7 @@
     Progress.init();
     Search.init();
     Quiz.init();
+    Week3ReviewQuiz.init();
     Notes.init();
     Bookmarks.init();
     Resume.init();
