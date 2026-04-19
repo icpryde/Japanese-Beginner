@@ -1598,6 +1598,9 @@
         return;
       }
 
+      this.cardNode.style.display = '';
+      this.resultsNode.classList.remove('show');
+
       const q = this.questions[this.state.index];
       const a = this.state.answers[this.state.index];
       if (!q || !a) return;
