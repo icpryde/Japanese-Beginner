@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import json
+import os
 import re
 import shutil
 from pathlib import Path
@@ -18,6 +19,13 @@ GRAMMAR_ROOT_CANDIDATES = [
     Path("/Users/kurisu/Documents/AI Apps/Grammar Slides"),
 ]
 GRAMMAR_ROOT = next((p for p in GRAMMAR_ROOT_CANDIDATES if p.exists()), GRAMMAR_ROOT_CANDIDATES[0])
+
+# Comma-separated IDs to force-reimport even if they already exist in manifest.
+REIMPORT_IDS = {
+    i.strip()
+    for i in os.getenv("GS_REIMPORT_IDS", "").split(",")
+    if i.strip()
+}
 
 
 REAL_SLIDE_ENTRIES = [
@@ -103,6 +111,13 @@ def normalize_name(name: str) -> str:
     return re.sub(r"[^a-zA-Z0-9._-]+", "_", name.strip())
 
 
+def grammar_day_from_real_id(lesson_id: str) -> int | None:
+    m = re.match(r"^gs_w\d+_d(\d+)_", lesson_id)
+    if not m:
+        return None
+    return int(m.group(1))
+
+
 def page_key(path: Path):
     match = re.search(r"page__([0-9]+)", path.name)
     if match:
@@ -110,7 +125,17 @@ def page_key(path: Path):
     return 99999
 
 
-def make_slide_html(lesson_id: str, title: str, image_files: list[str], audio_file: str | None) -> str:
+def extract_page_numbers(name: str) -> list[int]:
+    return [int(n) for n in re.findall(r"page__([0-9]+)", name)]
+
+
+def make_slide_html(
+    lesson_id: str,
+    title: str,
+    image_files: list[str],
+    audio_files: list[str],
+    page_audio_map: dict[int, int] | None = None,
+) -> str:
     viewer_id = f"viewer-{lesson_id}"
     lines = [
         '<div class="fr-view">',
@@ -131,9 +156,9 @@ def make_slide_html(lesson_id: str, title: str, image_files: list[str], audio_fi
     lines.append('</div>')
     lines.append('</div>')
 
-    if audio_file:
+    if audio_files:
         lines.append('<div style="margin-top:14px; text-align:center;">')
-        lines.append(f'<audio controls preload="metadata" src="../../audio/{audio_file}"></audio>')
+        lines.append(f'<audio controls preload="metadata" src="../../audio/{audio_files[0]}"></audio>')
         lines.append("</div>")
 
     lines.append("<script>")
@@ -154,6 +179,24 @@ def make_slide_html(lesson_id: str, title: str, image_files: list[str], audio_fi
     lines.append("  }")
     lines.append("  prev.addEventListener('click', ()=>{if(idx>0){idx-=1; render();}});")
     lines.append("  next.addEventListener('click', ()=>{if(idx<pages.length-1){idx+=1; render();}});")
+    if audio_files:
+        lines.append("  const audio=root.querySelector('audio');")
+        lines.append(f"  const audioFiles={json.dumps(audio_files, ensure_ascii=False)};")
+        lines.append(f"  const pageToAudio={json.dumps(page_audio_map or {}, ensure_ascii=False)};")
+        lines.append("  function updateAudio(){")
+        lines.append("    if(!audio || !audioFiles.length){return;}")
+        lines.append("    const key = String(idx);")
+        lines.append("    const targetIdx = Object.prototype.hasOwnProperty.call(pageToAudio, key) ? pageToAudio[key] : 0;")
+        lines.append("    const target = audioFiles[targetIdx] || audioFiles[0];")
+        lines.append("    const expectedSrc = `../../audio/${target}`;")
+        lines.append("    if(!audio.getAttribute('src') || !audio.getAttribute('src').endsWith(target)){")
+        lines.append("      audio.setAttribute('src', expectedSrc);")
+        lines.append("      audio.load();")
+        lines.append("    }")
+        lines.append("  }")
+        lines.append("  const _render = render;")
+        lines.append("  render = function(){ _render(); updateAudio(); };")
+
     lines.append("  render();")
     lines.append("})();")
     lines.append("</script>")
@@ -176,8 +219,17 @@ def get_day_context(lessons: list[dict], day: int) -> tuple[int, str, int]:
     raise ValueError(f"Unable to resolve week/section for day {day}")
 
 
-def write_lesson_json(entry_id: str, title: str, week: int, day: int, section: str, html: str,
-                      image_files: list[str], audio_file: str | None, placeholder: bool):
+def write_lesson_json(
+    entry_id: str,
+    title: str,
+    week: int,
+    day: int,
+    section: str,
+    html: str,
+    image_files: list[str],
+    audio_files: list[str],
+    placeholder: bool,
+):
     lesson_json = {
         "id": entry_id,
         "title": title,
@@ -190,14 +242,14 @@ def write_lesson_json(entry_id: str, title: str, week: int, day: int, section: s
         "videos": [],
         "downloads": ([{
             "type": "audio",
-            "filename": audio_file,
-            "title": "Lesson audio",
+            "filename": fn,
+            "title": "Lesson audio" if len(audio_files) == 1 else f"Lesson audio {idx + 1}",
             "local": True,
-        }] if audio_file else []),
+        } for idx, fn in enumerate(audio_files)] if audio_files else []),
         "images": ([{"local": fn} for fn in image_files] if image_files else []),
         "has_video": False,
         "has_images": bool(image_files),
-        "has_downloads": bool(audio_file),
+        "has_downloads": bool(audio_files),
         "placeholder": placeholder,
     }
     (LESSONS_DIR / f"{entry_id}.json").write_text(
@@ -217,7 +269,7 @@ def import_real_slides(manifest: dict) -> tuple[list[dict], dict[str, list[dict]
     AUDIO_DIR.mkdir(parents=True, exist_ok=True)
 
     for entry in REAL_SLIDE_ENTRIES:
-        if entry["id"] in existing_ids:
+        if entry["id"] in existing_ids and entry["id"] not in REIMPORT_IDS:
             continue
 
         week, section, section_type = get_day_context(lessons, entry["day"])
@@ -242,16 +294,39 @@ def import_real_slides(manifest: dict) -> tuple[list[dict], dict[str, list[dict]
             print(f"Warning: multiple audio files in {folder}; using {audio[0].name}")
 
         copied_images = []
+        image_pages = []
         for i, img in enumerate(images, start=1):
             img_name = f"{entry['id']}_p{i:02d}{img.suffix.lower()}"
             shutil.copy2(img, GRAMMAR_IMAGES_DIR / img_name)
             copied_images.append(img_name)
+            image_pages.append(page_key(img))
 
-        audio_src = audio[0]
-        audio_name = f"{entry['id']}{audio_src.suffix.lower()}"
-        shutil.copy2(audio_src, AUDIO_DIR / audio_name)
+        copied_audio = []
+        for idx, audio_src in enumerate(audio, start=1):
+            if len(audio) == 1:
+                audio_name = f"{entry['id']}{audio_src.suffix.lower()}"
+            else:
+                audio_name = f"{entry['id']}_a{idx:02d}{audio_src.suffix.lower()}"
+            shutil.copy2(audio_src, AUDIO_DIR / audio_name)
+            copied_audio.append(audio_name)
 
-        html = make_slide_html(entry["id"], entry["title"], copied_images, audio_name)
+        page_audio_map: dict[int, int] = {}
+        image_page_set = set(image_pages)
+        page_number_to_audio_idx: dict[int, int] = {}
+        for audio_idx, audio_src in enumerate(audio):
+            nums = extract_page_numbers(audio_src.name)
+            for n in nums:
+                if n in image_page_set:
+                    page_number_to_audio_idx[n] = audio_idx
+                elif (n - 1) in image_page_set:
+                    # Handles folders where audio names are 1-based but image pages are 0-based.
+                    page_number_to_audio_idx[n - 1] = audio_idx
+
+        for idx, page_num in enumerate(image_pages):
+            if page_num in page_number_to_audio_idx:
+                page_audio_map[idx] = page_number_to_audio_idx[page_num]
+
+        html = make_slide_html(entry["id"], entry["title"], copied_images, copied_audio, page_audio_map)
         write_lesson_json(
             entry_id=entry["id"],
             title=entry["title"],
@@ -260,7 +335,7 @@ def import_real_slides(manifest: dict) -> tuple[list[dict], dict[str, list[dict]
             section=section,
             html=html,
             image_files=copied_images,
-            audio_file=audio_name,
+            audio_files=copied_audio,
             placeholder=False,
         )
 
@@ -281,7 +356,11 @@ def import_real_slides(manifest: dict) -> tuple[list[dict], dict[str, list[dict]
     return created_manifest_items, anchor_insertions, day_add_counts
 
 
-def import_placeholders(manifest: dict, existing_ids: set[str]) -> tuple[list[dict], dict[str, list[dict]], dict[int, int]]:
+def import_placeholders(
+    manifest: dict,
+    existing_ids: set[str],
+    days_with_real_slides: set[int],
+) -> tuple[list[dict], dict[str, list[dict]], dict[int, int]]:
     lessons = manifest["lessons"]
     placeholders = []
     anchor_insertions: dict[str, list[dict]] = {}
@@ -290,6 +369,8 @@ def import_placeholders(manifest: dict, existing_ids: set[str]) -> tuple[list[di
     all_days = sorted({int(l.get("day", 0)) for l in lessons if l.get("day", 0) > 0})
     for day in all_days:
         if day <= 5:
+            continue
+        if day in days_with_real_slides:
             continue
 
         placeholder_id = f"gs_placeholder_d{day:02d}"
@@ -313,7 +394,7 @@ def import_placeholders(manifest: dict, existing_ids: set[str]) -> tuple[list[di
             section=section,
             html=html,
             image_files=[],
-            audio_file=None,
+            audio_files=[],
             placeholder=True,
         )
 
@@ -373,10 +454,29 @@ def update_section_counts(manifest: dict, day_add_counts: dict[int, int]):
 def main():
     manifest = load_manifest()
     lessons = manifest["lessons"]
+
+    removed_reimport_by_day: dict[int, int] = {}
+    if REIMPORT_IDS:
+        filtered = []
+        for lesson in lessons:
+            lid = str(lesson.get("id", ""))
+            if lid in REIMPORT_IDS:
+                day = int(lesson.get("day", 0))
+                removed_reimport_by_day[day] = removed_reimport_by_day.get(day, 0) + 1
+                continue
+            filtered.append(lesson)
+        lessons = filtered
+        manifest["lessons"] = lessons
+
     existing_ids = {str(l["id"]) for l in lessons}
 
     _, real_insertions, real_counts = import_real_slides(manifest)
     days_with_real = set(real_counts.keys())
+
+    for lesson in lessons:
+        real_day = grammar_day_from_real_id(str(lesson.get("id", "")))
+        if real_day is not None:
+            days_with_real.add(real_day)
 
     # Replace placeholders with real entries for days that now have imported slide assets.
     removed_by_day: dict[int, int] = {}
@@ -390,7 +490,7 @@ def main():
         base_lessons.append(lesson)
 
     manifest["lessons"] = base_lessons
-    placeholders, ph_insertions, ph_counts = import_placeholders(manifest, existing_ids)
+    placeholders, ph_insertions, ph_counts = import_placeholders(manifest, existing_ids, days_with_real)
 
     merged_insertions = {}
     for src in (real_insertions, ph_insertions):
@@ -404,6 +504,8 @@ def main():
     for day, c in ph_counts.items():
         merged_counts[day] = merged_counts.get(day, 0) + c
     for day, c in removed_by_day.items():
+        merged_counts[day] = merged_counts.get(day, 0) - c
+    for day, c in removed_reimport_by_day.items():
         merged_counts[day] = merged_counts.get(day, 0) - c
     update_section_counts(manifest, merged_counts)
     manifest["total_lessons"] = int(manifest.get("total_lessons", len(base_lessons))) + sum(merged_counts.values())
