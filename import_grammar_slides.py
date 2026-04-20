@@ -10,6 +10,7 @@ CONTENT_DIR = PROJECT_ROOT / "content"
 LESSONS_DIR = CONTENT_DIR / "lessons"
 MANIFEST_PATH = CONTENT_DIR / "manifest.json"
 IMAGES_DIR = CONTENT_DIR / "images"
+GRAMMAR_IMAGES_DIR = IMAGES_DIR / "grammar"
 AUDIO_DIR = CONTENT_DIR / "audio"
 
 GRAMMAR_ROOT_CANDIDATES = [
@@ -212,7 +213,7 @@ def import_real_slides(manifest: dict) -> tuple[list[dict], dict[str, list[dict]
     anchor_insertions: dict[str, list[dict]] = {}
     day_add_counts: dict[int, int] = {}
 
-    IMAGES_DIR.mkdir(parents=True, exist_ok=True)
+    GRAMMAR_IMAGES_DIR.mkdir(parents=True, exist_ok=True)
     AUDIO_DIR.mkdir(parents=True, exist_ok=True)
 
     for entry in REAL_SLIDE_ENTRIES:
@@ -243,7 +244,7 @@ def import_real_slides(manifest: dict) -> tuple[list[dict], dict[str, list[dict]
         copied_images = []
         for i, img in enumerate(images, start=1):
             img_name = f"{entry['id']}_p{i:02d}{img.suffix.lower()}"
-            shutil.copy2(img, IMAGES_DIR / img_name)
+            shutil.copy2(img, GRAMMAR_IMAGES_DIR / img_name)
             copied_images.append(img_name)
 
         audio_src = audio[0]
