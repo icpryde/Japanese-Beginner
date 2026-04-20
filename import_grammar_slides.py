@@ -158,7 +158,33 @@ def make_slide_html(
 
     if audio_files:
         lines.append('<div style="margin-top:14px; text-align:center;">')
-        lines.append(f'<audio controls preload="metadata" src="../audio/{audio_files[0]}"></audio>')
+
+        if len(audio_files) == 1:
+            lines.append(f'<audio controls preload="metadata" src="../audio/{audio_files[0]}"></audio>')
+        else:
+            total_pages = max(len(image_files), 1)
+            page_to_audio = [0] * total_pages
+            for i in range(total_pages):
+                mapped = (page_audio_map or {}).get(i)
+                if mapped is None:
+                    mapped = (page_audio_map or {}).get(str(i), 0)
+                page_to_audio[i] = int(mapped)
+
+            for audio_idx, audio_name in enumerate(audio_files):
+                pages = [i + 1 for i, mapped_idx in enumerate(page_to_audio) if mapped_idx == audio_idx]
+                if pages:
+                    if len(pages) == 1:
+                        label = f"Slide {pages[0]}/{total_pages}"
+                    else:
+                        label = f"Slides {pages[0]}-{pages[-1]}/{total_pages}"
+                else:
+                    label = f"Audio {audio_idx + 1}"
+
+                lines.append('<div style="margin:10px 0;">')
+                lines.append(f'<div style="font-size:12px; color:#94a3b8; margin-bottom:4px;">{label}</div>')
+                lines.append(f'<audio controls preload="metadata" src="../audio/{audio_name}"></audio>')
+                lines.append('</div>')
+
         lines.append("</div>")
 
     lines.append("<script>")
@@ -179,7 +205,7 @@ def make_slide_html(
     lines.append("  }")
     lines.append("  prev.addEventListener('click', ()=>{if(idx>0){idx-=1; render();}});")
     lines.append("  next.addEventListener('click', ()=>{if(idx<pages.length-1){idx+=1; render();}});")
-    if audio_files:
+    if audio_files and len(audio_files) == 1:
         lines.append("  const audio=root.querySelector('audio');")
         lines.append(f"  const audioFiles={json.dumps(audio_files, ensure_ascii=False)};")
         lines.append(f"  const pageToAudio={json.dumps(page_audio_map or {}, ensure_ascii=False)};")
