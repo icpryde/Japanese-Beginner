@@ -12,7 +12,11 @@ MANIFEST_PATH = CONTENT_DIR / "manifest.json"
 IMAGES_DIR = CONTENT_DIR / "images"
 AUDIO_DIR = CONTENT_DIR / "audio"
 
-GRAMMAR_ROOT = Path("/Users/kurisu/Documents/AI Apps/Grammar Slides")
+GRAMMAR_ROOT_CANDIDATES = [
+    Path("/Users/kurisu/Documents/AI Apps/Akamonkai/Grammar Slides"),
+    Path("/Users/kurisu/Documents/AI Apps/Grammar Slides"),
+]
+GRAMMAR_ROOT = next((p for p in GRAMMAR_ROOT_CANDIDATES if p.exists()), GRAMMAR_ROOT_CANDIDATES[0])
 
 
 REAL_SLIDE_ENTRIES = [
@@ -42,6 +46,55 @@ REAL_SLIDE_ENTRIES = [
     {"id": "gs_w01_d05_l02", "day": 5, "title": "Day 5 Lesson 2 - Grammar Slides", "folder": "Week 1/Day 5/2. Day 5 Lesson 2", "anchor_id": "12645424"},
     {"id": "gs_w01_d05_l03", "day": 5, "title": "Day 5 Lesson 3 - Grammar Slides", "folder": "Week 1/Day 5/3. Day 5 Lesson 3", "anchor_id": "12645428"},
     {"id": "gs_w01_d05_l04", "day": 5, "title": "Day 5 Lesson 4 - Grammar Slides", "folder": "Week 1/Day 5/4. Day 5 Lesson 4", "anchor_id": "12645432"},
+    # Day 6
+    {"id": "gs_w02_d06_l01", "day": 6, "title": "Day 6 Lesson 1 - Grammar Slides", "folder": "Week 2/Day 6/1. Day 6 Lesson 1", "anchor_id": "12645442"},
+    {"id": "gs_w02_d06_l02", "day": 6, "title": "Day 6 Lesson 2 - Grammar Slides", "folder": "Week 2/Day 6/2. Day 6 Lesson 2", "anchor_id": "12645447"},
+    {"id": "gs_w02_d06_l03", "day": 6, "title": "Day 6 Lesson 3 - Grammar Slides", "folder": "Week 2/Day 6/3. Day 6 Lesson 3", "anchor_id": "12645451"},
+    # Day 7
+    {"id": "gs_w02_d07_l01", "day": 7, "title": "Day 7 Lesson 1 - Grammar Slides", "folder": "Week 2/Day 7/1. Day 7 Lesson 1", "anchor_id": "12645459"},
+    {"id": "gs_w02_d07_l02_p1", "day": 7, "title": "Day 7 Lesson 2 - Grammar Slides Part 1", "folder": "Week 2/Day 7/2. Day 7 Lesson 2 - Part 1", "anchor_id": "12645464"},
+    {"id": "gs_w02_d07_l02_p2", "day": 7, "title": "Day 7 Lesson 2 - Grammar Slides Part 2", "folder": "Week 2/Day 7/3. Day 7 Lesson 2 - Part 2", "anchor_id": "12645467"},
+    {"id": "gs_w02_d07_l03", "day": 7, "title": "Day 7 Lesson 3 - Grammar Slides", "folder": "Week 2/Day 7/4. Day 7 Lesson 3", "anchor_id": "12645471"},
+    # Day 8
+    {"id": "gs_w02_d08_l01_p1", "day": 8, "title": "Day 8 Lesson 1 - Grammar Slides Part 1", "folder": "Week 2/Day 8/1. Day 8 Lesson 1 - Part 1", "anchor_id": "12645481"},
+    {"id": "gs_w02_d08_l01_p2", "day": 8, "title": "Day 8 Lesson 1 - Grammar Slides Part 2", "folder": "Week 2/Day 8/2. Day 8 Lesson 1 - Part 2", "anchor_id": "12645484"},
+    {"id": "gs_w02_d08_l02", "day": 8, "title": "Day 8 Lesson 2 - Grammar Slides", "folder": "Week 2/Day 8/3. Day 8 Lesson 2", "anchor_id": "12645485"},
+    {"id": "gs_w02_d08_l03_p1", "day": 8, "title": "Day 8 Lesson 3 - Grammar Slides Part 1", "folder": "Week 2/Day 8/4. Day 8 Lesson 3 - Part 1", "anchor_id": "12645491"},
+    {"id": "gs_w02_d08_l03_p2", "day": 8, "title": "Day 8 Lesson 3 - Grammar Slides Part 2", "folder": "Week 2/Day 8/5. Day 8 Lesson 3 - Part 2", "anchor_id": "12645493"},
+    # Day 9
+    {"id": "gs_w02_d09_l01", "day": 9, "title": "Day 9 Lesson 1 - Grammar Slides", "folder": "Week 2/Day 9/1. Day 9 Lesson 1", "anchor_id": "12645503"},
+    {"id": "gs_w02_d09_l02", "day": 9, "title": "Day 9 Lesson 2 - Grammar Slides", "folder": "Week 2/Day 9/2. Day 9 Lesson 2", "anchor_id": "12645508"},
+    {"id": "gs_w02_d09_l03", "day": 9, "title": "Day 9 Lesson 3 - Grammar Slides", "folder": "Week 2/Day 9/3. Day 9 Lesson 3", "anchor_id": "12645512"},
+    # Day 10
+    {"id": "gs_w02_d10_l01", "day": 10, "title": "Day 10 Lesson 1 - Grammar Slides", "folder": "Week 2/Day 10/1. Day 10 Lesson 1", "anchor_id": "12645521"},
+    {"id": "gs_w02_d10_l02_p1", "day": 10, "title": "Day 10 Lesson 2 - Grammar Slides Part 1", "folder": "Week 2/Day 10/2. Day 10 Lesson 2 - Part 1", "anchor_id": "12645530"},
+    {"id": "gs_w02_d10_l02_p2", "day": 10, "title": "Day 10 Lesson 2 - Grammar Slides Part 2", "folder": "Week 2/Day 10/3. Day 10 Lesson 2 - Part 2", "anchor_id": "12645532"},
+    {"id": "gs_w02_d10_l03", "day": 10, "title": "Day 10 Lesson 3 - Grammar Slides", "folder": "Week 2/Day 10/4. Day 10 Lesson 3", "anchor_id": "12645537"},
+    {"id": "gs_w02_d10_l04", "day": 10, "title": "Day 10 Lesson 4 - Grammar Slides", "folder": "Week 2/Day 10/5. Day 10 Lesson 4", "anchor_id": "12645542"},
+    # Day 11
+    {"id": "gs_w02_d11_l01", "day": 11, "title": "Day 11 Lesson 1 - Grammar Slides", "folder": "Week 2/Day 11/1. Day 11 Lesson 1", "anchor_id": "12645553"},
+    {"id": "gs_w02_d11_l02", "day": 11, "title": "Day 11 Lesson 2 - Grammar Slides", "folder": "Week 2/Day 11/2. Day 11 Lesson 2", "anchor_id": "12645558"},
+    {"id": "gs_w02_d11_l03", "day": 11, "title": "Day 11 Lesson 3 - Grammar Slides", "folder": "Week 2/Day 11/3. Day 11 Lesson 3", "anchor_id": "12645564"},
+    {"id": "gs_w02_d11_l04", "day": 11, "title": "Day 11 Lesson 4 - Grammar Slides", "folder": "Week 2/Day 11/4. Day 11 Lesson 4", "anchor_id": "12645569"},
+    # Day 12
+    {"id": "gs_w02_d12_l01", "day": 12, "title": "Day 12 Lesson 1 - Grammar Slides", "folder": "Week 2/Day 12/1. Day 12 Lesson 1", "anchor_id": "12645578"},
+    {"id": "gs_w02_d12_l02", "day": 12, "title": "Day 12 Lesson 2 - Grammar Slides", "folder": "Week 2/Day 12/2. Day 12 Lesson 2", "anchor_id": "12645582"},
+    {"id": "gs_w02_d12_l03", "day": 12, "title": "Day 12 Lesson 3 - Grammar Slides", "folder": "Week 2/Day 12/3. Day 12 Lesson 3", "anchor_id": "12645587"},
+    {"id": "gs_w02_d12_l04", "day": 12, "title": "Day 12 Lesson 4 - Grammar Slides", "folder": "Week 2/Day 12/4. Day 12 Lesson 4", "anchor_id": "12645593"},
+    # Day 13
+    {"id": "gs_w02_d13_l01", "day": 13, "title": "Day 13 Lesson 1 - Grammar Slides", "folder": "Week 2/Day 13/1. Day 13 Lesson 1", "anchor_id": "12645602"},
+    {"id": "gs_w02_d13_l02", "day": 13, "title": "Day 13 Lesson 2 - Grammar Slides", "folder": "Week 2/Day 13/2. Day 13 Lesson 2", "anchor_id": "12645607"},
+    {"id": "gs_w02_d13_l03", "day": 13, "title": "Day 13 Lesson 3 - Grammar Slides", "folder": "Week 2/Day 13/3. Day 13 Lesson 3", "anchor_id": "12645612"},
+    # Day 14
+    {"id": "gs_w02_d14_l01", "day": 14, "title": "Day 14 Lesson 1 - Grammar Slides", "folder": "Week 2/Day 14/1. Day 14 Lesson 1", "anchor_id": "12645622"},
+    {"id": "gs_w02_d14_l02", "day": 14, "title": "Day 14 Lesson 2 - Grammar Slides", "folder": "Week 2/Day 14/2. Day 14 Lesson 2", "anchor_id": "12645626"},
+    {"id": "gs_w02_d14_l03_p1", "day": 14, "title": "Day 14 Lesson 3 - Grammar Slides Part 1", "folder": "Week 2/Day 14/3. Day 14 Lesson 3 - Part 1", "anchor_id": "12645630"},
+    {"id": "gs_w02_d14_l03_p2", "day": 14, "title": "Day 14 Lesson 3 - Grammar Slides Part 2", "folder": "Week 2/Day 14/4. Day 14 Lesson 3 - Part 2", "anchor_id": "12645632"},
+    {"id": "gs_w02_d14_l04", "day": 14, "title": "Day 14 Lesson 4 - Grammar Slides", "folder": "Week 2/Day 14/5. Day 14 Lesson 4", "anchor_id": "12645638"},
+    # Day 15
+    {"id": "gs_w02_d15_l01", "day": 15, "title": "Day 15 Lesson 1 - Grammar Slides", "folder": "Week 2/Day 15/1. Day 15 Lesson 1", "anchor_id": "12645646"},
+    {"id": "gs_w02_d15_l02", "day": 15, "title": "Day 15 Lesson 2 - Grammar Slides", "folder": "Week 2/Day 15/2. Day 15 Lesson 2", "anchor_id": "12645651"},
+    {"id": "gs_w02_d15_l03", "day": 15, "title": "Day 15 Lesson 3 - Grammar Slides", "folder": "Week 2/Day 15/3. Day 15 Lesson 3", "anchor_id": "12645655"},
 ]
 
 
@@ -178,8 +231,14 @@ def import_real_slides(manifest: dict) -> tuple[list[dict], dict[str, list[dict]
 
         if not images:
             raise ValueError(f"No images found in {folder}")
-        if len(audio) != 1:
-            raise ValueError(f"Expected exactly one audio file in {folder}, found {len(audio)}")
+        if not audio:
+            raise ValueError(f"No audio file found in {folder}")
+
+        # Prefer m4a over mp3 over wav, then pick by filename for deterministic imports.
+        audio_priority = {".m4a": 0, ".mp3": 1, ".wav": 2}
+        audio = sorted(audio, key=lambda p: (audio_priority.get(p.suffix.lower(), 9), p.name.lower()))
+        if len(audio) > 1:
+            print(f"Warning: multiple audio files in {folder}; using {audio[0].name}")
 
         copied_images = []
         for i, img in enumerate(images, start=1):
@@ -316,6 +375,20 @@ def main():
     existing_ids = {str(l["id"]) for l in lessons}
 
     _, real_insertions, real_counts = import_real_slides(manifest)
+    days_with_real = set(real_counts.keys())
+
+    # Replace placeholders with real entries for days that now have imported slide assets.
+    removed_by_day: dict[int, int] = {}
+    base_lessons = []
+    for lesson in lessons:
+        lesson_id = str(lesson.get("id", ""))
+        day = int(lesson.get("day", 0))
+        if lesson_id.startswith("gs_placeholder_d") and day in days_with_real:
+            removed_by_day[day] = removed_by_day.get(day, 0) + 1
+            continue
+        base_lessons.append(lesson)
+
+    manifest["lessons"] = base_lessons
     placeholders, ph_insertions, ph_counts = import_placeholders(manifest, existing_ids)
 
     merged_insertions = {}
@@ -323,14 +396,16 @@ def main():
         for k, v in src.items():
             merged_insertions.setdefault(k, []).extend(v)
 
-    new_lessons = insert_after_anchors(lessons, merged_insertions)
+    new_lessons = insert_after_anchors(base_lessons, merged_insertions)
     manifest["lessons"] = new_lessons
 
     merged_counts = dict(real_counts)
     for day, c in ph_counts.items():
         merged_counts[day] = merged_counts.get(day, 0) + c
+    for day, c in removed_by_day.items():
+        merged_counts[day] = merged_counts.get(day, 0) - c
     update_section_counts(manifest, merged_counts)
-    manifest["total_lessons"] = int(manifest.get("total_lessons", len(lessons))) + sum(merged_counts.values())
+    manifest["total_lessons"] = int(manifest.get("total_lessons", len(base_lessons))) + sum(merged_counts.values())
 
     save_manifest(manifest)
 

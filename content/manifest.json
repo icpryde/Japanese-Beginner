@@ -2,7 +2,7 @@
   "course_name": "Akamonkai 12-Week Beginner Course",
   "imported_at": "2026-04-02T09:29:37.535648+00:00",
   "source": "/Users/kurisu/Documents/AI Apps/Akamonkai Japanese 12 Week Beginner Course - content",
-  "total_lessons": 1178,
+  "total_lessons": 1207,
   "sections": [
     {
       "order": 1,
@@ -66,7 +66,7 @@
       "section_type": "day",
       "week": 2,
       "day": 6,
-      "lesson_count": 16
+      "lesson_count": 18
     },
     {
       "order": 9,
@@ -74,7 +74,7 @@
       "section_type": "day",
       "week": 2,
       "day": 7,
-      "lesson_count": 18
+      "lesson_count": 21
     },
     {
       "order": 10,
@@ -82,7 +82,7 @@
       "section_type": "day",
       "week": 2,
       "day": 8,
-      "lesson_count": 18
+      "lesson_count": 22
     },
     {
       "order": 11,
@@ -90,7 +90,7 @@
       "section_type": "day",
       "week": 2,
       "day": 9,
-      "lesson_count": 16
+      "lesson_count": 18
     },
     {
       "order": 12,
@@ -98,7 +98,7 @@
       "section_type": "day",
       "week": 2,
       "day": 10,
-      "lesson_count": 25
+      "lesson_count": 29
     },
     {
       "order": 13,
@@ -106,7 +106,7 @@
       "section_type": "day",
       "week": 3,
       "day": 11,
-      "lesson_count": 24
+      "lesson_count": 27
     },
     {
       "order": 14,
@@ -114,7 +114,7 @@
       "section_type": "day",
       "week": 3,
       "day": 12,
-      "lesson_count": 21
+      "lesson_count": 24
     },
     {
       "order": 15,
@@ -122,7 +122,7 @@
       "section_type": "day",
       "week": 3,
       "day": 13,
-      "lesson_count": 18
+      "lesson_count": 20
     },
     {
       "order": 16,
@@ -130,7 +130,7 @@
       "section_type": "day",
       "week": 3,
       "day": 14,
-      "lesson_count": 20
+      "lesson_count": 24
     },
     {
       "order": 17,
@@ -138,7 +138,7 @@
       "section_type": "day",
       "week": 3,
       "day": 15,
-      "lesson_count": 18
+      "lesson_count": 20
     },
     {
       "order": 18,
@@ -1563,8 +1563,8 @@
       "day": 6
     },
     {
-      "id": "gs_placeholder_d06",
-      "title": "Day 6 - Grammar Slides (Placeholder)",
+      "id": "gs_w02_d06_l01",
+      "title": "Day 6 Lesson 1 - Grammar Slides",
       "type": "reference",
       "section": "Week 2 - Day 6",
       "section_type": "day",
@@ -1608,6 +1608,15 @@
       "day": 6
     },
     {
+      "id": "gs_w02_d06_l02",
+      "title": "Day 6 Lesson 2 - Grammar Slides",
+      "type": "reference",
+      "section": "Week 2 - Day 6",
+      "section_type": "day",
+      "week": 2,
+      "day": 6
+    },
+    {
       "id": "12645449",
       "title": "Day 6 Lesson 2 - Video Repetition",
       "type": "video",
@@ -1629,6 +1638,15 @@
       "id": "12645451",
       "title": "Day 6 Lesson 3 ( Video )How do you come to school",
       "type": "video",
+      "section": "Week 2 - Day 6",
+      "section_type": "day",
+      "week": 2,
+      "day": 6
+    },
+    {
+      "id": "gs_w02_d06_l03",
+      "title": "Day 6 Lesson 3 - Grammar Slides",
+      "type": "reference",
       "section": "Week 2 - Day 6",
       "section_type": "day",
       "week": 2,
@@ -1698,8 +1716,8 @@
       "day": 7
     },
     {
-      "id": "gs_placeholder_d07",
-      "title": "Day 7 - Grammar Slides (Placeholder)",
+      "id": "gs_w02_d07_l01",
+      "title": "Day 7 Lesson 1 - Grammar Slides",
       "type": "reference",
       "section": "Week 2 - Day 7",
       "section_type": "day",
@@ -1743,9 +1761,27 @@
       "day": 7
     },
     {
+      "id": "gs_w02_d07_l02_p1",
+      "title": "Day 7 Lesson 2 - Grammar Slides Part 1",
+      "type": "reference",
+      "section": "Week 2 - Day 7",
+      "section_type": "day",
+      "week": 2,
+      "day": 7
+    },
+    {
       "id": "12645467",
       "title": "Day 7 Lesson 2 - Video Repetition",
       "type": "video",
+      "section": "Week 2 - Day 7",
+      "section_type": "day",
+      "week": 2,
+      "day": 7
+    },
+    {
+      "id": "gs_w02_d07_l02_p2",
+      "title": "Day 7 Lesson 2 - Grammar Slides Part 2",
+      "type": "reference",
       "section": "Week 2 - Day 7",
       "section_type": "day",
       "week": 2,
@@ -1773,6 +1809,15 @@
       "id": "12645471",
       "title": "Day 7 Lesson 3 ( Video )Inviting a friend",
       "type": "video",
+      "section": "Week 2 - Day 7",
+      "section_type": "day",
+      "week": 2,
+      "day": 7
+    },
+    {
+      "id": "gs_w02_d07_l03",
+      "title": "Day 7 Lesson 3 - Grammar Slides",
+      "type": "reference",
       "section": "Week 2 - Day 7",
       "section_type": "day",
       "week": 2,
@@ -1860,8 +1905,8 @@
       "day": 8
     },
     {
-      "id": "gs_placeholder_d08",
-      "title": "Day 8 - Grammar Slides (Placeholder)",
+      "id": "gs_w02_d08_l01_p1",
+      "title": "Day 8 Lesson 1 - Grammar Slides Part 1",
       "type": "reference",
       "section": "Week 2 - Day 8",
       "section_type": "day",
@@ -1878,9 +1923,27 @@
       "day": 8
     },
     {
+      "id": "gs_w02_d08_l01_p2",
+      "title": "Day 8 Lesson 1 - Grammar Slides Part 2",
+      "type": "reference",
+      "section": "Week 2 - Day 8",
+      "section_type": "day",
+      "week": 2,
+      "day": 8
+    },
+    {
       "id": "12645485",
       "title": "Day 8 Lesson 2 ( Video )Giving a personal impression",
       "type": "video",
+      "section": "Week 2 - Day 8",
+      "section_type": "day",
+      "week": 2,
+      "day": 8
+    },
+    {
+      "id": "gs_w02_d08_l02",
+      "title": "Day 8 Lesson 2 - Grammar Slides",
+      "type": "reference",
       "section": "Week 2 - Day 8",
       "section_type": "day",
       "week": 2,
@@ -1932,9 +1995,27 @@
       "day": 8
     },
     {
+      "id": "gs_w02_d08_l03_p1",
+      "title": "Day 8 Lesson 3 - Grammar Slides Part 1",
+      "type": "reference",
+      "section": "Week 2 - Day 8",
+      "section_type": "day",
+      "week": 2,
+      "day": 8
+    },
+    {
       "id": "12645493",
       "title": "Day 8 Lesson 3 - Video Repetition  1",
       "type": "video",
+      "section": "Week 2 - Day 8",
+      "section_type": "day",
+      "week": 2,
+      "day": 8
+    },
+    {
+      "id": "gs_w02_d08_l03_p2",
+      "title": "Day 8 Lesson 3 - Grammar Slides Part 2",
+      "type": "reference",
       "section": "Week 2 - Day 8",
       "section_type": "day",
       "week": 2,
@@ -2022,8 +2103,8 @@
       "day": 9
     },
     {
-      "id": "gs_placeholder_d09",
-      "title": "Day 9 - Grammar Slides (Placeholder)",
+      "id": "gs_w02_d09_l01",
+      "title": "Day 9 Lesson 1 - Grammar Slides",
       "type": "reference",
       "section": "Week 2 - Day 9",
       "section_type": "day",
@@ -2067,6 +2148,15 @@
       "day": 9
     },
     {
+      "id": "gs_w02_d09_l02",
+      "title": "Day 9 Lesson 2 - Grammar Slides",
+      "type": "reference",
+      "section": "Week 2 - Day 9",
+      "section_type": "day",
+      "week": 2,
+      "day": 9
+    },
+    {
       "id": "12645510",
       "title": "Day 9 Lesson 2 - Video Repetition",
       "type": "video",
@@ -2088,6 +2178,15 @@
       "id": "12645512",
       "title": "Day 9 Lesson 3 ( Video )Asking who-s the owner of an object",
       "type": "video",
+      "section": "Week 2 - Day 9",
+      "section_type": "day",
+      "week": 2,
+      "day": 9
+    },
+    {
+      "id": "gs_w02_d09_l03",
+      "title": "Day 9 Lesson 3 - Grammar Slides",
+      "type": "reference",
       "section": "Week 2 - Day 9",
       "section_type": "day",
       "week": 2,
@@ -2166,8 +2265,8 @@
       "day": 10
     },
     {
-      "id": "gs_placeholder_d10",
-      "title": "Day 10 - Grammar Slides (Placeholder)",
+      "id": "gs_w02_d10_l01",
+      "title": "Day 10 Lesson 1 - Grammar Slides",
       "type": "reference",
       "section": "Week 2 - Day 10",
       "section_type": "day",
@@ -2238,9 +2337,27 @@
       "day": 10
     },
     {
+      "id": "gs_w02_d10_l02_p1",
+      "title": "Day 10 Lesson 2 - Grammar Slides Part 1",
+      "type": "reference",
+      "section": "Week 2 - Day 10",
+      "section_type": "day",
+      "week": 2,
+      "day": 10
+    },
+    {
       "id": "12645532",
       "title": "Day 10 Lesson 2 - Video Repetition 1",
       "type": "video",
+      "section": "Week 2 - Day 10",
+      "section_type": "day",
+      "week": 2,
+      "day": 10
+    },
+    {
+      "id": "gs_w02_d10_l02_p2",
+      "title": "Day 10 Lesson 2 - Grammar Slides Part 2",
+      "type": "reference",
       "section": "Week 2 - Day 10",
       "section_type": "day",
       "week": 2,
@@ -2283,6 +2400,15 @@
       "day": 10
     },
     {
+      "id": "gs_w02_d10_l03",
+      "title": "Day 10 Lesson 3 - Grammar Slides",
+      "type": "reference",
+      "section": "Week 2 - Day 10",
+      "section_type": "day",
+      "week": 2,
+      "day": 10
+    },
+    {
       "id": "12645539",
       "title": "Day 10 Lesson 3 - Video Repetition",
       "type": "video",
@@ -2313,6 +2439,15 @@
       "id": "12645542",
       "title": "Day 10 Lesson 4 ( Video )Asking where is the trash can",
       "type": "video",
+      "section": "Week 2 - Day 10",
+      "section_type": "day",
+      "week": 2,
+      "day": 10
+    },
+    {
+      "id": "gs_w02_d10_l04",
+      "title": "Day 10 Lesson 4 - Grammar Slides",
+      "type": "reference",
       "section": "Week 2 - Day 10",
       "section_type": "day",
       "week": 2,
@@ -2409,8 +2544,8 @@
       "day": 11
     },
     {
-      "id": "gs_placeholder_d11",
-      "title": "Day 11 - Grammar Slides (Placeholder)",
+      "id": "gs_w02_d11_l01",
+      "title": "Day 11 Lesson 1 - Grammar Slides",
       "type": "reference",
       "section": "Week 3 - Day 11",
       "section_type": "day",
@@ -2448,6 +2583,15 @@
       "id": "12645558",
       "title": "Day 11 Lesson 2 ( Video )Talking about a what kind of TV shows you like",
       "type": "video",
+      "section": "Week 3 - Day 11",
+      "section_type": "day",
+      "week": 3,
+      "day": 11
+    },
+    {
+      "id": "gs_w02_d11_l02",
+      "title": "Day 11 Lesson 2 - Grammar Slides",
+      "type": "reference",
       "section": "Week 3 - Day 11",
       "section_type": "day",
       "week": 3,
@@ -2499,6 +2643,15 @@
       "day": 11
     },
     {
+      "id": "gs_w02_d11_l03",
+      "title": "Day 11 Lesson 3 - Grammar Slides",
+      "type": "reference",
+      "section": "Week 3 - Day 11",
+      "section_type": "day",
+      "week": 3,
+      "day": 11
+    },
+    {
       "id": "12645566",
       "title": "Day 11 Lesson 3 - Video Repetition",
       "type": "video",
@@ -2529,6 +2682,15 @@
       "id": "12645569",
       "title": "Day 11 Lesson 4 ( Video )Talking about one-s understanding of Japanese news",
       "type": "video",
+      "section": "Week 3 - Day 11",
+      "section_type": "day",
+      "week": 3,
+      "day": 11
+    },
+    {
+      "id": "gs_w02_d11_l04",
+      "title": "Day 11 Lesson 4 - Grammar Slides",
+      "type": "reference",
       "section": "Week 3 - Day 11",
       "section_type": "day",
       "week": 3,
@@ -2607,8 +2769,8 @@
       "day": 12
     },
     {
-      "id": "gs_placeholder_d12",
-      "title": "Day 12 - Grammar Slides (Placeholder)",
+      "id": "gs_w02_d12_l01",
+      "title": "Day 12 Lesson 1 - Grammar Slides",
       "type": "reference",
       "section": "Week 3 - Day 12",
       "section_type": "day",
@@ -2637,6 +2799,15 @@
       "id": "12645582",
       "title": "Day 12  Lesson 2 ( Video )Saying why you do something",
       "type": "video",
+      "section": "Week 3 - Day 12",
+      "section_type": "day",
+      "week": 3,
+      "day": 12
+    },
+    {
+      "id": "gs_w02_d12_l02",
+      "title": "Day 12 Lesson 2 - Grammar Slides",
+      "type": "reference",
       "section": "Week 3 - Day 12",
       "section_type": "day",
       "week": 3,
@@ -2673,6 +2844,15 @@
       "id": "12645587",
       "title": "Day 12 Lesson 3 ( Video )Asking and answering why",
       "type": "video",
+      "section": "Week 3 - Day 12",
+      "section_type": "day",
+      "week": 3,
+      "day": 12
+    },
+    {
+      "id": "gs_w02_d12_l03",
+      "title": "Day 12 Lesson 3 - Grammar Slides",
+      "type": "reference",
       "section": "Week 3 - Day 12",
       "section_type": "day",
       "week": 3,
@@ -2718,6 +2898,15 @@
       "id": "12645593",
       "title": "Day 12 Lesson 4 ( Video )Receiving an invitation",
       "type": "video",
+      "section": "Week 3 - Day 12",
+      "section_type": "day",
+      "week": 3,
+      "day": 12
+    },
+    {
+      "id": "gs_w02_d12_l04",
+      "title": "Day 12 Lesson 4 - Grammar Slides",
+      "type": "reference",
       "section": "Week 3 - Day 12",
       "section_type": "day",
       "week": 3,
@@ -2796,8 +2985,8 @@
       "day": 13
     },
     {
-      "id": "gs_placeholder_d13",
-      "title": "Day 13 - Grammar Slides (Placeholder)",
+      "id": "gs_w02_d13_l01",
+      "title": "Day 13 Lesson 1 - Grammar Slides",
       "type": "reference",
       "section": "Week 3 - Day 13",
       "section_type": "day",
@@ -2841,6 +3030,15 @@
       "day": 13
     },
     {
+      "id": "gs_w02_d13_l02",
+      "title": "Day 13 Lesson 2 - Grammar Slides",
+      "type": "reference",
+      "section": "Week 3 - Day 13",
+      "section_type": "day",
+      "week": 3,
+      "day": 13
+    },
+    {
       "id": "12645609",
       "title": "Day 13 Lesson 2 - Video Repetition",
       "type": "video",
@@ -2871,6 +3069,15 @@
       "id": "12645612",
       "title": "Day 13 Lesson 3 ( Video )Talking about Mother-s day presents",
       "type": "video",
+      "section": "Week 3 - Day 13",
+      "section_type": "day",
+      "week": 3,
+      "day": 13
+    },
+    {
+      "id": "gs_w02_d13_l03",
+      "title": "Day 13 Lesson 3 - Grammar Slides",
+      "type": "reference",
       "section": "Week 3 - Day 13",
       "section_type": "day",
       "week": 3,
@@ -2958,8 +3165,8 @@
       "day": 14
     },
     {
-      "id": "gs_placeholder_d14",
-      "title": "Day 14 - Grammar Slides (Placeholder)",
+      "id": "gs_w02_d14_l01",
+      "title": "Day 14 Lesson 1 - Grammar Slides",
       "type": "reference",
       "section": "Week 3 - Day 14",
       "section_type": "day",
@@ -2994,6 +3201,15 @@
       "day": 14
     },
     {
+      "id": "gs_w02_d14_l02",
+      "title": "Day 14 Lesson 2 - Grammar Slides",
+      "type": "reference",
+      "section": "Week 3 - Day 14",
+      "section_type": "day",
+      "week": 3,
+      "day": 14
+    },
+    {
       "id": "12645628",
       "title": "Day 14 Lesson 2 - Video Repetition",
       "type": "video",
@@ -3021,9 +3237,27 @@
       "day": 14
     },
     {
+      "id": "gs_w02_d14_l03_p1",
+      "title": "Day 14 Lesson 3 - Grammar Slides Part 1",
+      "type": "reference",
+      "section": "Week 3 - Day 14",
+      "section_type": "day",
+      "week": 3,
+      "day": 14
+    },
+    {
       "id": "12645632",
       "title": "Day 14 Lesson 3 - Video Repetition 1",
       "type": "video",
+      "section": "Week 3 - Day 14",
+      "section_type": "day",
+      "week": 3,
+      "day": 14
+    },
+    {
+      "id": "gs_w02_d14_l03_p2",
+      "title": "Day 14 Lesson 3 - Grammar Slides Part 2",
+      "type": "reference",
       "section": "Week 3 - Day 14",
       "section_type": "day",
       "week": 3,
@@ -3075,6 +3309,15 @@
       "day": 14
     },
     {
+      "id": "gs_w02_d14_l04",
+      "title": "Day 14 Lesson 4 - Grammar Slides",
+      "type": "reference",
+      "section": "Week 3 - Day 14",
+      "section_type": "day",
+      "week": 3,
+      "day": 14
+    },
+    {
       "id": "12645640",
       "title": "Day 14 Lesson 4 - Video Repetition",
       "type": "video",
@@ -3111,15 +3354,6 @@
       "day": 15
     },
     {
-      "id": "gs_placeholder_d15",
-      "title": "Day 15 - Grammar Slides (Placeholder)",
-      "type": "reference",
-      "section": "Week 3 - Day 15",
-      "section_type": "day",
-      "week": 3,
-      "day": 15
-    },
-    {
       "id": "12645644",
       "title": "Day 15 - Katakana Practice",
       "type": "text",
@@ -3141,6 +3375,15 @@
       "id": "12645646",
       "title": "Day 15 ( Lesson 1 )Talking about the cost of living",
       "type": "video",
+      "section": "Week 3 - Day 15",
+      "section_type": "day",
+      "week": 3,
+      "day": 15
+    },
+    {
+      "id": "gs_w02_d15_l01",
+      "title": "Day 15 Lesson 1 - Grammar Slides",
+      "type": "reference",
       "section": "Week 3 - Day 15",
       "section_type": "day",
       "week": 3,
@@ -3183,6 +3426,15 @@
       "day": 15
     },
     {
+      "id": "gs_w02_d15_l02",
+      "title": "Day 15 Lesson 2 - Grammar Slides",
+      "type": "reference",
+      "section": "Week 3 - Day 15",
+      "section_type": "day",
+      "week": 3,
+      "day": 15
+    },
+    {
       "id": "12645652",
       "title": "Day 15 Lesson 2 - Video Repetition",
       "type": "video",
@@ -3204,6 +3456,15 @@
       "id": "12645655",
       "title": "Day 15 Lesson 3  ( Video )Talking about studying",
       "type": "video",
+      "section": "Week 3 - Day 15",
+      "section_type": "day",
+      "week": 3,
+      "day": 15
+    },
+    {
+      "id": "gs_w02_d15_l03",
+      "title": "Day 15 Lesson 3 - Grammar Slides",
+      "type": "reference",
       "section": "Week 3 - Day 15",
       "section_type": "day",
       "week": 3,
