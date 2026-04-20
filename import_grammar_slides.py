@@ -158,7 +158,7 @@ def make_slide_html(
 
     if audio_files:
         lines.append('<div style="margin-top:14px; text-align:center;">')
-        lines.append(f'<audio controls preload="metadata" src="../../audio/{audio_files[0]}"></audio>')
+        lines.append(f'<audio controls preload="metadata" src="../audio/{audio_files[0]}"></audio>')
         lines.append("</div>")
 
     lines.append("<script>")
@@ -188,7 +188,7 @@ def make_slide_html(
         lines.append("    const key = String(idx);")
         lines.append("    const targetIdx = Object.prototype.hasOwnProperty.call(pageToAudio, key) ? pageToAudio[key] : 0;")
         lines.append("    const target = audioFiles[targetIdx] || audioFiles[0];")
-        lines.append("    const expectedSrc = `../../audio/${target}`;")
+        lines.append("    const expectedSrc = `../audio/${target}`;")
         lines.append("    if(!audio.getAttribute('src') || !audio.getAttribute('src').endsWith(target)){")
         lines.append("      audio.setAttribute('src', expectedSrc);")
         lines.append("      audio.load();")
