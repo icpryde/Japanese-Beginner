@@ -1,0 +1,92 @@
+{
+  "id": "week_01/day_03_floors",
+  "kind": "text",
+  "title": "Day 3 Floors",
+  "context_blocks": [
+    {
+      "japanese": "かず（数）",
+      "romaji": "kazu",
+      "english": "numbers"
+    },
+    {
+      "japanese": "【なんがい？】",
+      "romaji": "nangai?",
+      "english": "Which floor?"
+    }
+  ],
+  "description": "Text-only floor-counting practice from the Day 3 vocabulary sheet.",
+  "learning_note": "Use this pattern when asking which floor of a building something is on.",
+  "flashcards_title": "Day 3 Floors Flashcards",
+  "items": [
+    {
+      "id": "ikkai",
+      "japanese": "いっかい",
+      "romaji": "ikkai",
+      "english": "1st floor",
+      "audio": "../audio/shared/floors/ikkai.m4a"
+    },
+    {
+      "id": "nikai",
+      "japanese": "にかい",
+      "romaji": "nikai",
+      "english": "2nd floor",
+      "audio": "../audio/shared/floors/nikai.m4a"
+    },
+    {
+      "id": "sangai",
+      "japanese": "さんがい",
+      "romaji": "sangai",
+      "english": "3rd floor",
+      "audio": "../audio/shared/floors/sangai.m4a"
+    },
+    {
+      "id": "yonkai",
+      "japanese": "よんかい",
+      "romaji": "yonkai",
+      "english": "4th floor",
+      "audio": "../audio/shared/floors/yonkai.m4a"
+    },
+    {
+      "id": "gokai",
+      "japanese": "ごかい",
+      "romaji": "gokai",
+      "english": "5th floor",
+      "audio": "../audio/shared/floors/gokai.m4a"
+    },
+    {
+      "id": "rokkai",
+      "japanese": "ろっかい",
+      "romaji": "rokkai",
+      "english": "6th floor",
+      "audio": "../audio/shared/floors/rokkai.m4a"
+    },
+    {
+      "id": "nanakai",
+      "japanese": "ななかい",
+      "romaji": "nanakai",
+      "english": "7th floor",
+      "audio": "../audio/shared/floors/nanakai.m4a"
+    },
+    {
+      "id": "hakkai",
+      "japanese": "はっかい",
+      "romaji": "hakkai",
+      "english": "8th floor",
+      "audio": "../audio/shared/floors/hakkai.m4a"
+    },
+    {
+      "id": "kyuukai",
+      "japanese": "きゅうかい",
+      "romaji": "kyuukai",
+      "english": "9th floor",
+      "audio": "../audio/shared/floors/kyuukai.m4a"
+    },
+    {
+      "id": "jukkai",
+      "japanese": "じゅっかい",
+      "romaji": "jukkai",
+      "english": "10th floor",
+      "audio": "../audio/shared/floors/jukkai.m4a"
+    }
+  ]
+}

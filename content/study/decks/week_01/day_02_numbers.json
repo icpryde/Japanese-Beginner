@@ -1,0 +1,87 @@
+{
+  "id": "week_01/day_02_numbers",
+  "kind": "text",
+  "title": "Day 2 Numbers",
+  "context_blocks": [
+    {
+      "japanese": "かず（数）",
+      "romaji": "kazu",
+      "english": "numbers"
+    }
+  ],
+  "description": "Text-only number practice from the Day 2 vocabulary sheet, using the shared numbers audio hosted in the app.",
+  "learning_note": "Use these forms when counting in the hundreds and when saying 1,000.",
+  "flashcards_title": "Day 2 Numbers Flashcards",
+  "items": [
+    {
+      "id": "hyaku",
+      "japanese": "ひゃく",
+      "romaji": "hyaku",
+      "english": "100",
+      "audio": "../audio/shared/numbers/hyaku.mp3"
+    },
+    {
+      "id": "nihyaku",
+      "japanese": "にひゃく",
+      "romaji": "nihyaku",
+      "english": "200",
+      "audio": "../audio/shared/numbers/nihyaku.mp3"
+    },
+    {
+      "id": "sanbyaku",
+      "japanese": "さんびゃく",
+      "romaji": "sanbyaku",
+      "english": "300",
+      "audio": "../audio/shared/numbers/sanbyaku.mp3"
+    },
+    {
+      "id": "yonhyaku",
+      "japanese": "よんひゃく",
+      "romaji": "yonhyaku",
+      "english": "400",
+      "audio": "../audio/shared/numbers/yonhyaku.m4a"
+    },
+    {
+      "id": "gohyaku",
+      "japanese": "ごひゃく",
+      "romaji": "gohyaku",
+      "english": "500",
+      "audio": "../audio/shared/numbers/gohyaku.m4a"
+    },
+    {
+      "id": "roppyaku",
+      "japanese": "ろっぴゃく",
+      "romaji": "roppyaku",
+      "english": "600",
+      "audio": "../audio/shared/numbers/roppyaku.mp3"
+    },
+    {
+      "id": "nanahyaku",
+      "japanese": "ななひゃく",
+      "romaji": "nanahyaku",
+      "english": "700",
+      "audio": "../audio/shared/numbers/nanahyaku.m4a"
+    },
+    {
+      "id": "happyaku",
+      "japanese": "はっぴゃく",
+      "romaji": "happyaku",
+      "english": "800",
+      "audio": "../audio/shared/numbers/happyaku.mp3"
+    },
+    {
+      "id": "kyuuhyaku",
+      "japanese": "きゅうひゃく",
+      "romaji": "kyuuhyaku",
+      "english": "900",
+      "audio": "../audio/shared/numbers/kyuuhyaku.m4a"
+    },
+    {
+      "id": "sen",
+      "japanese": "せん / いっせん",
+      "romaji": "sen / issen",
+      "english": "1,000",
+      "audio": "../audio/shared/numbers/sen.mp3"
+    }
+  ]
+}

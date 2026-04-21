@@ -1,0 +1,125 @@
+{
+  "id": "week_01/day_05_hours",
+  "kind": "image",
+  "title": "Day 5 Hours",
+  "context_blocks": [
+    {
+      "japanese": "じかん（時間）",
+      "romaji": "jikan",
+      "english": "time"
+    }
+  ],
+  "description": "Clock-based hour practice from the Day 5 vocabulary sheet.",
+  "learning_note": "Use these forms when asking or saying what hour it is.",
+  "flashcards_title": "Day 5 Hours Flashcards",
+  "items": [
+    {
+      "id": "ichiji",
+      "japanese": "いちじ",
+      "romaji": "ichi-ji",
+      "english": "1 o'clock",
+      "image": "../images/study/week_01/day_05/time/ichi-ji.png",
+      "audio": "../audio/vocabulary/week_01/day_05/hours/ichi-ji.m4a",
+      "alt": "Clock showing 1 o'clock"
+    },
+    {
+      "id": "niji",
+      "japanese": "にじ",
+      "romaji": "ni-ji",
+      "english": "2 o'clock",
+      "image": "../images/study/week_01/day_05/time/ni-ji.png",
+      "audio": "../audio/vocabulary/week_01/day_05/hours/ni-ji.m4a",
+      "alt": "Clock showing 2 o'clock"
+    },
+    {
+      "id": "sanji",
+      "japanese": "さんじ",
+      "romaji": "san-ji",
+      "english": "3 o'clock",
+      "image": "../images/study/week_01/day_05/time/san-ji.png",
+      "audio": "../audio/vocabulary/week_01/day_05/hours/san-ji.m4a",
+      "alt": "Clock showing 3 o'clock"
+    },
+    {
+      "id": "yoji",
+      "japanese": "よじ",
+      "romaji": "yo-ji",
+      "english": "4 o'clock",
+      "image": "../images/study/week_01/day_05/time/yo-ji.png",
+      "audio": "../audio/vocabulary/week_01/day_05/hours/yo-ji.m4a",
+      "alt": "Clock showing 4 o'clock"
+    },
+    {
+      "id": "goji",
+      "japanese": "ごじ",
+      "romaji": "go-ji",
+      "english": "5 o'clock",
+      "image": "../images/study/week_01/day_05/time/go-ji.png",
+      "audio": "../audio/vocabulary/week_01/day_05/hours/go-ji.m4a",
+      "alt": "Clock showing 5 o'clock"
+    },
+    {
+      "id": "rokuji",
+      "japanese": "ろくじ",
+      "romaji": "roku-ji",
+      "english": "6 o'clock",
+      "image": "../images/study/week_01/day_05/time/roku-ji.png",
+      "audio": "../audio/vocabulary/week_01/day_05/hours/roku-ji.m4a",
+      "alt": "Clock showing 6 o'clock"
+    },
+    {
+      "id": "shichiji",
+      "japanese": "しちじ",
+      "romaji": "shichi-ji",
+      "english": "7 o'clock",
+      "image": "../images/study/week_01/day_05/time/shichi-ji.png",
+      "audio": "../audio/vocabulary/week_01/day_05/hours/shichi-ji.m4a",
+      "alt": "Clock showing 7 o'clock"
+    },
+    {
+      "id": "hachiji",
+      "japanese": "はちじ",
+      "romaji": "hachi-ji",
+      "english": "8 o'clock",
+      "image": "../images/study/week_01/day_05/time/hachi-ji.png",
+      "audio": "../audio/vocabulary/week_01/day_05/hours/hachi-ji.m4a",
+      "alt": "Clock showing 8 o'clock"
+    },
+    {
+      "id": "kuji",
+      "japanese": "くじ",
+      "romaji": "ku-ji",
+      "english": "9 o'clock",
+      "image": "../images/study/week_01/day_05/time/ku-ji.png",
+      "audio": "../audio/vocabulary/week_01/day_05/hours/ku-ji.m4a",
+      "alt": "Clock showing 9 o'clock"
+    },
+    {
+      "id": "juuji",
+      "japanese": "じゅうじ",
+      "romaji": "juu-ji",
+      "english": "10 o'clock",
+      "image": "../images/study/week_01/day_05/time/juu-ji.png",
+      "audio": "../audio/vocabulary/week_01/day_05/hours/juu-ji.m4a",
+      "alt": "Clock showing 10 o'clock"
+    },
+    {
+      "id": "juuichiji",
+      "japanese": "じゅういちじ",
+      "romaji": "juuichi-ji",
+      "english": "11 o'clock",
+      "image": "../images/study/week_01/day_05/time/juuichi-ji.png",
+      "audio": "../audio/vocabulary/week_01/day_05/hours/juuichi-ji.m4a",
+      "alt": "Clock showing 11 o'clock"
+    },
+    {
+      "id": "juuniji",
+      "japanese": "じゅうにじ",
+      "romaji": "juuni-ji",
+      "english": "12 o'clock",
+      "image": "../images/study/week_01/day_05/time/juuni-ji.png",
+      "audio": "../audio/vocabulary/week_01/day_05/hours/juuni-ji.m4a",
+      "alt": "Clock showing 12 o'clock"
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "id": "week_02/day_06_vocabulary",
+  "kind": "image",
+  "title": "Day 6 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with hosted audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 6 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "haruyasumi",
+      "japanese": "はるやすみ",
+      "romaji": "haruyasumi",
+      "english": "spring vacation",
+      "image": "../images/study/week_02/day_06/haruyasmi.png",
+      "audio": "../audio/vocabulary/week_02/day_06/haruyasmi.m4a",
+      "alt": "Spring vacation"
+    },
+    {
+      "id": "ikimasu",
+      "japanese": "いきます",
+      "romaji": "ikimasu",
+      "english": "to go",
+      "image": "../images/study/week_02/day_06/ikimas.png",
+      "audio": "../audio/vocabulary/week_02/day_06/ikimas.m4a",
+      "alt": "To go"
+    },
+    {
+      "id": "kaerimasu",
+      "japanese": "かえります",
+      "romaji": "kaerimasu",
+      "english": "to return (home)",
+      "image": "../images/study/week_02/day_06/kaerimas.png",
+      "audio": "../audio/vocabulary/week_02/day_06/kaerimas.m4a",
+      "alt": "To return home"
+    },
+    {
+      "id": "uchi",
+      "japanese": "うち",
+      "romaji": "uchi",
+      "english": "house",
+      "image": "../images/study/week_02/day_06/uchi.png",
+      "audio": "../audio/vocabulary/week_02/day_06/uchi.m4a",
+      "alt": "House"
+    },
+    {
+      "id": "toshokan",
+      "japanese": "としょかん",
+      "romaji": "toshokan",
+      "english": "library",
+      "image": "../images/study/week_02/day_06/toshokan.png",
+      "audio": "../audio/vocabulary/week_02/day_06/toshokan.m4a",
+      "alt": "Library"
+    },
+    {
+      "id": "kyooto",
+      "japanese": "きょうと",
+      "romaji": "kyooto",
+      "english": "Kyoto",
+      "image": "../images/study/week_02/day_06/kyooto.png",
+      "audio": "../audio/vocabulary/week_02/day_06/kyooto.m4a",
+      "alt": "Kyoto"
+    },
+    {
+      "id": "kuni",
+      "japanese": "くに",
+      "romaji": "kuni",
+      "english": "country",
+      "image": "../images/study/week_02/day_06/kuni.png",
+      "audio": "../audio/vocabulary/week_02/day_06/kuni.m4a",
+      "alt": "Country"
+    },
+    {
+      "id": "hokkaidoo",
+      "japanese": "ほっかいどう",
+      "romaji": "hokkaidoo",
+      "english": "Hokkaido",
+      "image": "../images/study/week_02/day_06/hokkaidoo.png",
+      "audio": "../audio/vocabulary/week_02/day_06/hokkaidoo.m4a",
+      "alt": "Hokkaido"
+    },
+    {
+      "id": "depaato",
+      "japanese": "デパート",
+      "romaji": "depaato",
+      "english": "department store",
+      "image": "../images/study/week_02/day_06/depaato.png",
+      "audio": "../audio/vocabulary/week_02/day_06/depaato.m4a",
+      "alt": "Department store"
+    },
+    {
+      "id": "hitoride",
+      "japanese": "ひとりで",
+      "romaji": "hitoride",
+      "english": "alone",
+      "image": "../images/study/week_02/day_06/hitoride.png",
+      "audio": "../audio/vocabulary/week_02/day_06/hitoride.m4a",
+      "alt": "Alone"
+    },
+    {
+      "id": "aimasu",
+      "japanese": "あいます",
+      "romaji": "aimasu",
+      "english": "to meet",
+      "image": "../images/study/week_02/day_06/aimas.png",
+      "audio": "../audio/vocabulary/week_02/day_06/aimas.m4a",
+      "alt": "To meet"
+    },
+    {
+      "id": "kimasu",
+      "japanese": "きます",
+      "romaji": "kimasu",
+      "english": "to come",
+      "image": "../images/study/week_02/day_06/kimas.png",
+      "audio": "../audio/vocabulary/week_02/day_06/kimas.m4a",
+      "alt": "To come"
+    },
+    {
+      "id": "aruite",
+      "japanese": "あるいて",
+      "romaji": "aruite",
+      "english": "on foot",
+      "image": "../images/study/week_02/day_06/aruite.png",
+      "audio": "../audio/vocabulary/week_02/day_06/aruite.m4a",
+      "alt": "On foot"
+    },
+    {
+      "id": "basu",
+      "japanese": "バス",
+      "romaji": "basu",
+      "english": "bus",
+      "image": "../images/study/week_02/day_06/bas.png",
+      "audio": "../audio/vocabulary/week_02/day_06/bas.m4a",
+      "alt": "Bus"
+    },
+    {
+      "id": "kooen",
+      "japanese": "こうえん",
+      "romaji": "kooen",
+      "english": "park",
+      "image": "../images/study/week_02/day_06/kooen.png",
+      "audio": "../audio/vocabulary/week_02/day_06/kooen.m4a",
+      "alt": "Park"
+    },
+    {
+      "id": "tomodachi",
+      "japanese": "ともだち",
+      "romaji": "tomodachi",
+      "english": "friend",
+      "image": "../images/study/week_02/day_06/tomodachi.png",
+      "audio": "../audio/vocabulary/week_02/day_06/tomodachi.m4a",
+      "alt": "Friend"
+    },
+    {
+      "id": "kazoku",
+      "japanese": "かぞく",
+      "romaji": "kazoku",
+      "english": "family",
+      "image": "../images/study/week_02/day_06/kazoku.png",
+      "audio": "../audio/vocabulary/week_02/day_06/kazoku.m4a",
+      "alt": "Family"
+    },
+    {
+      "id": "jitensha",
+      "japanese": "じてんしゃ",
+      "romaji": "jitensha",
+      "english": "bicycle",
+      "image": "../images/study/week_02/day_06/jitensha.png",
+      "audio": "../audio/vocabulary/week_02/day_06/jitensha.m4a",
+      "alt": "Bicycle"
+    },
+    {
+      "id": "densha",
+      "japanese": "でんしゃ",
+      "romaji": "densha",
+      "english": "train",
+      "image": "../images/study/week_02/day_06/densha.png",
+      "audio": "../audio/vocabulary/week_02/day_06/densha.m4a",
+      "alt": "Train"
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "id": "week_01/day_04_vocabulary",
+  "kind": "image",
+  "title": "Day 4 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with hosted audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 4 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "asagohan",
+      "japanese": "あさごはん",
+      "romaji": "asagohan",
+      "english": "breakfast",
+      "image": "../images/study/week_01/day_04/asagohan.png",
+      "audio": "../audio/vocabulary/week_01/day_04/asagohan.wav",
+      "alt": "Breakfast"
+    },
+    {
+      "id": "asatte",
+      "japanese": "あさって",
+      "romaji": "asatte",
+      "english": "day after tomorrow",
+      "image": "../images/study/week_01/day_04/asatte.png",
+      "audio": "../audio/vocabulary/week_01/day_04/asatte.wav",
+      "alt": "Day after tomorrow"
+    },
+    {
+      "id": "ashita",
+      "japanese": "あした",
+      "romaji": "ashita",
+      "english": "tomorrow",
+      "image": "../images/study/week_01/day_04/ashita.png",
+      "audio": "../audio/vocabulary/week_01/day_04/ashita.wav",
+      "alt": "Tomorrow"
+    },
+    {
+      "id": "geemu",
+      "japanese": "ゲーム",
+      "romaji": "geemu",
+      "english": "game",
+      "image": "../images/study/week_01/day_04/geemu.png",
+      "audio": "../audio/vocabulary/week_01/day_04/geemu.wav",
+      "alt": "Game"
+    },
+    {
+      "id": "hon",
+      "japanese": "ほん",
+      "romaji": "hon",
+      "english": "book",
+      "image": "../images/study/week_01/day_04/hon.png",
+      "audio": "../audio/vocabulary/week_01/day_04/hon.wav",
+      "alt": "Book"
+    },
+    {
+      "id": "kaimonoshimasu",
+      "japanese": "かいもの します",
+      "romaji": "kaimono shimasu",
+      "english": "go shopping",
+      "image": "../images/study/week_01/day_04/kaimonoshimasu.png",
+      "audio": "../audio/vocabulary/week_01/day_04/kaimonoshimasu.wav",
+      "alt": "Go shopping"
+    },
+    {
+      "id": "kikimasu",
+      "japanese": "ききます",
+      "romaji": "kikimasu",
+      "english": "listen",
+      "image": "../images/study/week_01/day_04/kikimasu.png",
+      "audio": "../audio/vocabulary/week_01/day_04/kikimasu.wav",
+      "alt": "Listen"
+    },
+    {
+      "id": "kissaten",
+      "japanese": "きっさてん",
+      "romaji": "kissaten",
+      "english": "cafe",
+      "image": "../images/study/week_01/day_04/kissaten.png",
+      "audio": "../audio/vocabulary/week_01/day_04/kissaten.wav",
+      "alt": "Cafe"
+    },
+    {
+      "id": "konban",
+      "japanese": "こんばん",
+      "romaji": "konban",
+      "english": "tonight",
+      "image": "../images/study/week_01/day_04/konban.png",
+      "audio": "../audio/vocabulary/week_01/day_04/konban.wav",
+      "alt": "Tonight"
+    },
+    {
+      "id": "koocha",
+      "japanese": "こうちゃ",
+      "romaji": "koocha",
+      "english": "black tea",
+      "image": "../images/study/week_01/day_04/koocha.png",
+      "audio": "../audio/vocabulary/week_01/day_04/koocha.wav",
+      "alt": "Black tea"
+    },
+    {
+      "id": "koohii",
+      "japanese": "コーヒー",
+      "romaji": "koohii",
+      "english": "coffee",
+      "image": "../images/study/week_01/day_04/koohii.png",
+      "audio": "../audio/vocabulary/week_01/day_04/koohii.wav",
+      "alt": "Coffee"
+    },
+    {
+      "id": "kudamono",
+      "japanese": "くだもの",
+      "romaji": "kudamono",
+      "english": "fruit",
+      "image": "../images/study/week_01/day_04/kudamono.png",
+      "audio": "../audio/vocabulary/week_01/day_04/kudamono.wav",
+      "alt": "Fruit"
+    },
+    {
+      "id": "kyou",
+      "japanese": "きょう",
+      "romaji": "kyou",
+      "english": "today",
+      "image": "../images/study/week_01/day_04/kyou.png",
+      "audio": "../audio/vocabulary/week_01/day_04/kyou.wav",
+      "alt": "Today"
+    },
+    {
+      "id": "maiasa",
+      "japanese": "まいあさ",
+      "romaji": "maiasa",
+      "english": "every morning",
+      "image": "../images/study/week_01/day_04/maiasa.png",
+      "audio": "../audio/vocabulary/week_01/day_04/maiasa.wav",
+      "alt": "Every morning"
+    },
+    {
+      "id": "maiban",
+      "japanese": "まいばん",
+      "romaji": "maiban",
+      "english": "every evening",
+      "image": "../images/study/week_01/day_04/maiban.png",
+      "audio": "../audio/vocabulary/week_01/day_04/maiban.wav",
+      "alt": "Every evening"
+    },
+    {
+      "id": "mainichi",
+      "japanese": "まいにち",
+      "romaji": "mainichi",
+      "english": "every day",
+      "image": "../images/study/week_01/day_04/mainichi.png",
+      "audio": "../audio/vocabulary/week_01/day_04/mainichi.wav",
+      "alt": "Every day"
+    },
+    {
+      "id": "mimasu",
+      "japanese": "みます",
+      "romaji": "mimasu",
+      "english": "watch",
+      "image": "../images/study/week_01/day_04/mimasu.png",
+      "audio": "../audio/vocabulary/week_01/day_04/mimasu.wav",
+      "alt": "Watch"
+    },
+    {
+      "id": "nomimasu",
+      "japanese": "のみます",
+      "romaji": "nomimasu",
+      "english": "drink",
+      "image": "../images/study/week_01/day_04/nomimasu.png",
+      "audio": "../audio/vocabulary/week_01/day_04/nomimasu.wav",
+      "alt": "Drink"
+    },
+    {
+      "id": "ongaku",
+      "japanese": "おんがく",
+      "romaji": "ongaku",
+      "english": "music",
+      "image": "../images/study/week_01/day_04/ongaku.png",
+      "audio": "../audio/vocabulary/week_01/day_04/ongaku.wav",
+      "alt": "Music"
+    },
+    {
+      "id": "pan",
+      "japanese": "パン",
+      "romaji": "pan",
+      "english": "bread",
+      "image": "../images/study/week_01/day_04/pan.png",
+      "audio": "../audio/vocabulary/week_01/day_04/pan.wav",
+      "alt": "Bread"
+    },
+    {
+      "id": "shukudai",
+      "japanese": "しゅくだい",
+      "romaji": "shukudai",
+      "english": "homework",
+      "image": "../images/study/week_01/day_04/shukudai.png",
+      "audio": "../audio/vocabulary/week_01/day_04/shukudai.wav",
+      "alt": "Homework"
+    },
+    {
+      "id": "suupaa",
+      "japanese": "スーパー",
+      "romaji": "suupaa",
+      "english": "supermarket",
+      "image": "../images/study/week_01/day_04/suupaa.png",
+      "audio": "../audio/vocabulary/week_01/day_04/suupaa.wav",
+      "alt": "Supermarket"
+    },
+    {
+      "id": "tabemasu",
+      "japanese": "たべます",
+      "romaji": "tabemasu",
+      "english": "eat",
+      "image": "../images/study/week_01/day_04/tabemasu.png",
+      "audio": "../audio/vocabulary/week_01/day_04/tabemasu.wav",
+      "alt": "Eat"
+    },
+    {
+      "id": "tamago",
+      "japanese": "たまご",
+      "romaji": "tamago",
+      "english": "egg",
+      "image": "../images/study/week_01/day_04/tamago.png",
+      "audio": "../audio/vocabulary/week_01/day_04/tamago.wav",
+      "alt": "Egg"
+    },
+    {
+      "id": "terebi",
+      "japanese": "テレビ",
+      "romaji": "terebi",
+      "english": "television",
+      "image": "../images/study/week_01/day_04/terebi.png",
+      "audio": "../audio/vocabulary/week_01/day_04/terebi.wav",
+      "alt": "Television"
+    },
+    {
+      "id": "toshokan",
+      "japanese": "としょかん",
+      "romaji": "toshokan",
+      "english": "library",
+      "image": "../images/study/week_01/day_04/toshokan.png",
+      "audio": "../audio/vocabulary/week_01/day_04/toshokan.wav",
+      "alt": "Library"
+    },
+    {
+      "id": "uchi",
+      "japanese": "うち",
+      "romaji": "uchi",
+      "english": "home",
+      "image": "../images/study/week_01/day_04/uchi.png",
+      "audio": "../audio/vocabulary/week_01/day_04/uchi.wav",
+      "alt": "Home"
+    },
+    {
+      "id": "yomimasu",
+      "japanese": "よみます",
+      "romaji": "yomimasu",
+      "english": "read",
+      "image": "../images/study/week_01/day_04/yomimasu.png",
+      "audio": "../audio/vocabulary/week_01/day_04/yomimasu.wav",
+      "alt": "Read"
+    }
+  ]
+}

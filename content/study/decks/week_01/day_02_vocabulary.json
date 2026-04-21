@@ -1,0 +1,205 @@
+{
+  "id": "week_01/day_02_vocabulary",
+  "kind": "image",
+  "title": "Day 2 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with hosted audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 2 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "butaniku",
+      "japanese": "ぶたにく",
+      "romaji": "butaniku",
+      "english": "pork",
+      "image": "../images/study/week_01/day_02/butaniku.png",
+      "audio": "../audio/vocabulary/week_01/day_02/butaniku.wav",
+      "alt": "Pork"
+    },
+    {
+      "id": "gyuudon",
+      "japanese": "ぎゅうどん",
+      "romaji": "gyuudon",
+      "english": "beef bowl",
+      "image": "../images/study/week_01/day_02/gyuudon.png",
+      "audio": "../audio/vocabulary/week_01/day_02/gyuudon.wav",
+      "alt": "Beef bowl"
+    },
+    {
+      "id": "gyuuniku",
+      "japanese": "ぎゅうにく",
+      "romaji": "gyuuniku",
+      "english": "beef",
+      "image": "../images/study/week_01/day_02/gyuuniku.png",
+      "audio": "../audio/vocabulary/week_01/day_02/gyuuniku.wav",
+      "alt": "Beef"
+    },
+    {
+      "id": "hito",
+      "japanese": "ひと",
+      "romaji": "hito",
+      "english": "person",
+      "image": "../images/study/week_01/day_02/hito.png",
+      "audio": "../audio/vocabulary/week_01/day_02/hito.wav",
+      "alt": "Person"
+    },
+    {
+      "id": "kagi",
+      "japanese": "かぎ",
+      "romaji": "kagi",
+      "english": "key",
+      "image": "../images/study/week_01/day_02/kagi.png",
+      "audio": "../audio/vocabulary/week_01/day_02/kagi.wav",
+      "alt": "Key"
+    },
+    {
+      "id": "karaage",
+      "japanese": "からあげ",
+      "romaji": "karaage",
+      "english": "fried chicken",
+      "image": "../images/study/week_01/day_02/karaage.png",
+      "audio": "../audio/vocabulary/week_01/day_02/karaage.wav",
+      "alt": "Fried chicken"
+    },
+    {
+      "id": "kasa",
+      "japanese": "かさ",
+      "romaji": "kasa",
+      "english": "umbrella",
+      "image": "../images/study/week_01/day_02/kasa.png",
+      "audio": "../audio/vocabulary/week_01/day_02/kasa.wav",
+      "alt": "Umbrella"
+    },
+    {
+      "id": "keitai",
+      "japanese": "けいたい",
+      "romaji": "keitai",
+      "english": "mobile phone",
+      "image": "../images/study/week_01/day_02/keitai.png",
+      "audio": "../audio/vocabulary/week_01/day_02/keitai.wav",
+      "alt": "Mobile phone"
+    },
+    {
+      "id": "kuruma",
+      "japanese": "くるま",
+      "romaji": "kuruma",
+      "english": "car",
+      "image": "../images/study/week_01/day_02/kuruma.png",
+      "audio": "../audio/vocabulary/week_01/day_02/kuruma.wav",
+      "alt": "Car"
+    },
+    {
+      "id": "kyookasho",
+      "japanese": "きょうかしょ",
+      "romaji": "kyookasho",
+      "english": "textbook",
+      "image": "../images/study/week_01/day_02/kyookasho.png",
+      "audio": "../audio/vocabulary/week_01/day_02/kyookasho.wav",
+      "alt": "Textbook"
+    },
+    {
+      "id": "niku",
+      "japanese": "にく",
+      "romaji": "niku",
+      "english": "meat",
+      "image": "../images/study/week_01/day_02/niku.png",
+      "audio": "../audio/vocabulary/week_01/day_02/niku.wav",
+      "alt": "Meat"
+    },
+    {
+      "id": "nooto",
+      "japanese": "ノート",
+      "romaji": "nooto",
+      "english": "notebook",
+      "image": "../images/study/week_01/day_02/nooto.png",
+      "audio": "../audio/vocabulary/week_01/day_02/nooto.wav",
+      "alt": "Notebook"
+    },
+    {
+      "id": "penkeesu",
+      "japanese": "ペンケース",
+      "romaji": "penkeesu",
+      "english": "pencil case",
+      "image": "../images/study/week_01/day_02/penkeesu.png",
+      "audio": "../audio/vocabulary/week_01/day_02/penkeesu.wav",
+      "alt": "Pencil case"
+    },
+    {
+      "id": "ryoori",
+      "japanese": "りょうり",
+      "romaji": "ryoori",
+      "english": "cooking",
+      "image": "../images/study/week_01/day_02/ryoori.png",
+      "audio": "../audio/vocabulary/week_01/day_02/ryoori.wav",
+      "alt": "Cooking"
+    },
+    {
+      "id": "sakana",
+      "japanese": "さかな",
+      "romaji": "sakana",
+      "english": "fish",
+      "image": "../images/study/week_01/day_02/sakana.png",
+      "audio": "../audio/vocabulary/week_01/day_02/sakana.wav",
+      "alt": "Fish"
+    },
+    {
+      "id": "sarada",
+      "japanese": "サラダ",
+      "romaji": "sarada",
+      "english": "salad",
+      "image": "../images/study/week_01/day_02/sarada.png",
+      "audio": "../audio/vocabulary/week_01/day_02/sarada.wav",
+      "alt": "Salad"
+    },
+    {
+      "id": "suupu",
+      "japanese": "スープ",
+      "romaji": "suupu",
+      "english": "soup",
+      "image": "../images/study/week_01/day_02/suupu.png",
+      "audio": "../audio/vocabulary/week_01/day_02/suupu.wav",
+      "alt": "Soup"
+    },
+    {
+      "id": "tonkatsu",
+      "japanese": "とんかつ",
+      "romaji": "tonkatsu",
+      "english": "pork cutlet",
+      "image": "../images/study/week_01/day_02/tonkatsu.png",
+      "audio": "../audio/vocabulary/week_01/day_02/tonkatsu.wav",
+      "alt": "Pork cutlet"
+    },
+    {
+      "id": "toriniku",
+      "japanese": "とりにく",
+      "romaji": "toriniku",
+      "english": "chicken meat",
+      "image": "../images/study/week_01/day_02/toriniku.png",
+      "audio": "../audio/vocabulary/week_01/day_02/toriniku.wav",
+      "alt": "Chicken meat"
+    },
+    {
+      "id": "yasai",
+      "japanese": "やさい",
+      "romaji": "yasai",
+      "english": "vegetables",
+      "image": "../images/study/week_01/day_02/yasai.png",
+      "audio": "../audio/vocabulary/week_01/day_02/yasai.wav",
+      "alt": "Vegetables"
+    },
+    {
+      "id": "zasshi",
+      "japanese": "ざっし",
+      "romaji": "zasshi",
+      "english": "magazine",
+      "image": "../images/study/week_01/day_02/zasshi.png",
+      "audio": "../audio/vocabulary/week_01/day_02/zasshi.wav",
+      "alt": "Magazine"
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "id": "shared/large_numbers",
+  "kind": "text",
+  "title": "Large Numbers Practice",
+  "description": "Shared higher-number and price-style audio hosted in the app for repeat listening and quick review.",
+  "flashcards_title": "Large Numbers Flashcards",
+  "items": [
+    {
+      "id": "juukyuu",
+      "japanese": "じゅうきゅう",
+      "romaji": "juukyuu",
+      "english": "19",
+      "audio": "../audio/shared/numbers/juukyuu.mp3"
+    },
+    {
+      "id": "hyaku_go",
+      "japanese": "ひゃくご",
+      "romaji": "hyaku go",
+      "english": "105",
+      "audio": "../audio/shared/numbers/hyaku_go.mp3"
+    },
+    {
+      "id": "hyaku_gojuu_hachi",
+      "japanese": "ひゃくごじゅうはち",
+      "romaji": "hyaku gojuu hachi",
+      "english": "158",
+      "audio": "../audio/shared/numbers/hyaku_gojuu_hachi.mp3"
+    },
+    {
+      "id": "nihyaku",
+      "japanese": "にひゃく",
+      "romaji": "nihyaku",
+      "english": "200",
+      "audio": "../audio/shared/numbers/nihyaku.mp3"
+    },
+    {
+      "id": "sanbyaku",
+      "japanese": "さんびゃく",
+      "romaji": "sanbyaku",
+      "english": "300",
+      "audio": "../audio/shared/numbers/sanbyaku.mp3"
+    },
+    {
+      "id": "yonhyaku",
+      "japanese": "よんひゃく",
+      "romaji": "yonhyaku",
+      "english": "400",
+      "audio": "../audio/shared/numbers/yonhyaku.m4a"
+    },
+    {
+      "id": "gohyaku",
+      "japanese": "ごひゃく",
+      "romaji": "gohyaku",
+      "english": "500",
+      "audio": "../audio/shared/numbers/gohyaku.m4a"
+    },
+    {
+      "id": "roppyaku",
+      "japanese": "ろっぴゃく",
+      "romaji": "roppyaku",
+      "english": "600",
+      "audio": "../audio/shared/numbers/roppyaku.mp3"
+    },
+    {
+      "id": "nanahyaku",
+      "japanese": "ななひゃく",
+      "romaji": "nanahyaku",
+      "english": "700",
+      "audio": "../audio/shared/numbers/nanahyaku.m4a"
+    },
+    {
+      "id": "nanahyaku_kyuujuu_kyuu",
+      "japanese": "ななひゃくきゅうじゅうきゅう",
+      "romaji": "nanahyaku kyuujuu kyuu",
+      "english": "799",
+      "audio": "../audio/shared/numbers/nanahyaku_kyuujuu_kyuu.mp3"
+    },
+    {
+      "id": "happyaku",
+      "japanese": "はっぴゃく",
+      "romaji": "happyaku",
+      "english": "800",
+      "audio": "../audio/shared/numbers/happyaku.mp3"
+    },
+    {
+      "id": "kyuuhyaku",
+      "japanese": "きゅうひゃく",
+      "romaji": "kyuuhyaku",
+      "english": "900",
+      "audio": "../audio/shared/numbers/kyuuhyaku.m4a"
+    },
+    {
+      "id": "sen",
+      "japanese": "せん",
+      "romaji": "sen",
+      "english": "1,000",
+      "audio": "../audio/shared/numbers/sen.mp3"
+    },
+    {
+      "id": "sen_gojuu_ichi",
+      "japanese": "せんごじゅういち",
+      "romaji": "sen gojuu ichi",
+      "english": "1,051",
+      "audio": "../audio/shared/numbers/sen_gojuu_ichi.mp3"
+    },
+    {
+      "id": "sen_gohyaku_hachijuu_ni",
+      "japanese": "せんごひゃくはちじゅうに",
+      "romaji": "sen gohyaku hachijuu ni",
+      "english": "1,582",
+      "audio": "../audio/shared/numbers/sen_gohyaku_hachijuu_ni.mp3"
+    },
+    {
+      "id": "nisen",
+      "japanese": "にせん",
+      "romaji": "nisen",
+      "english": "2,000",
+      "audio": "../audio/shared/numbers/nisen.mp3"
+    },
+    {
+      "id": "sanzen",
+      "japanese": "さんぜん",
+      "romaji": "sanzen",
+      "english": "3,000",
+      "audio": "../audio/shared/numbers/sanzen.mp3"
+    },
+    {
+      "id": "yonsen",
+      "japanese": "よんせん",
+      "romaji": "yonsen",
+      "english": "4,000",
+      "audio": "../audio/shared/numbers/yonsen.m4a"
+    },
+    {
+      "id": "gosen",
+      "japanese": "ごせん",
+      "romaji": "gosen",
+      "english": "5,000",
+      "audio": "../audio/shared/numbers/gosen.m4a"
+    },
+    {
+      "id": "rokusen",
+      "japanese": "ろくせん",
+      "romaji": "rokusen",
+      "english": "6,000",
+      "audio": "../audio/shared/numbers/rokusen.mp3"
+    },
+    {
+      "id": "nanasen",
+      "japanese": "ななせん",
+      "romaji": "nanasen",
+      "english": "7,000",
+      "audio": "../audio/shared/numbers/nanasen.m4a"
+    },
+    {
+      "id": "nanasen_kyuuhyaku_kyuujuu_kyuu",
+      "japanese": "ななせんきゅうひゃくきゅうじゅうきゅう",
+      "romaji": "nanasen kyuuhyaku kyuujuu kyuu",
+      "english": "7,999",
+      "audio": "../audio/shared/numbers/nanasen_kyuuhyaku_kyuujuu_kyuu.mp3"
+    },
+    {
+      "id": "hassen",
+      "japanese": "はっせん",
+      "romaji": "hassen",
+      "english": "8,000",
+      "audio": "../audio/shared/numbers/hassen.mp3"
+    },
+    {
+      "id": "kyuusen",
+      "japanese": "きゅうせん",
+      "romaji": "kyuusen",
+      "english": "9,000",
+      "audio": "../audio/shared/numbers/kyuusen.m4a"
+    },
+    {
+      "id": "ichiman",
+      "japanese": "いちまん",
+      "romaji": "ichiman",
+      "english": "10,000",
+      "audio": "../audio/shared/numbers/ichiman.mp3"
+    },
+    {
+      "id": "ichiman_gohyaku_juu_ichi",
+      "japanese": "いちまんごひゃくじゅういち",
+      "romaji": "ichiman gohyaku juu ichi",
+      "english": "10,511",
+      "audio": "../audio/shared/numbers/ichiman_gohyaku_juu_ichi.mp3"
+    },
+    {
+      "id": "ichiman_gosen_happyaku_nijuu_ni",
+      "japanese": "いちまんごせんはっぴゃくにじゅうに",
+      "romaji": "ichiman gosen happyaku nijuu ni",
+      "english": "15,822",
+      "audio": "../audio/shared/numbers/ichiman_gosen_happyaku_nijuu_ni.mp3"
+    },
+    {
+      "id": "niman",
+      "japanese": "にまん",
+      "romaji": "niman",
+      "english": "20,000",
+      "audio": "../audio/shared/numbers/niman.mp3"
+    },
+    {
+      "id": "yonman_sanzen_happyaku_nijuu_go",
+      "japanese": "よんまんさんぜんはっぴゃくにじゅうご",
+      "romaji": "yonman sanzen happyaku nijuu go",
+      "english": "43,825",
+      "audio": "../audio/shared/numbers/yonman_sanzen_happyaku_nijuu_go.m4a"
+    },
+    {
+      "id": "nanaman_kyuusen_kyuuhyaku_kyuujuu_kyuu",
+      "japanese": "ななまんきゅうせんきゅうひゃくきゅうじゅうきゅう",
+      "romaji": "nanaman kyuusen kyuuhyaku kyuujuu kyuu",
+      "english": "79,999",
+      "audio": "../audio/shared/numbers/nanaman_kyuusen_kyuuhyaku_kyuujuu_kyuu.mp3"
+    }
+  ]
+}

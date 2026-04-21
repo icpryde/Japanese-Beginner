@@ -1,0 +1,223 @@
+{
+  "id": "week_01/day_03_vocabulary",
+  "kind": "image",
+  "title": "Day 3 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with hosted audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 3 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "chika",
+      "japanese": "ちか",
+      "romaji": "chika",
+      "english": "basement",
+      "image": "../images/study/week_01/day_03/chika.png",
+      "audio": "../audio/vocabulary/week_01/day_03/chika.wav",
+      "alt": "Basement"
+    },
+    {
+      "id": "chuugoku",
+      "japanese": "ちゅうごく",
+      "romaji": "chuugoku",
+      "english": "China",
+      "image": "../images/study/week_01/day_03/chuugoku.png",
+      "audio": "../audio/vocabulary/week_01/day_03/chuugoku.wav",
+      "alt": "China"
+    },
+    {
+      "id": "chuurinjou",
+      "japanese": "ちゅうりんじょう",
+      "romaji": "chuurinjou",
+      "english": "bicycle parking area",
+      "image": "../images/study/week_01/day_03/chuurinjou.png",
+      "audio": "../audio/vocabulary/week_01/day_03/chuurinjou.wav",
+      "alt": "Bicycle parking area"
+    },
+    {
+      "id": "erebeetaa",
+      "japanese": "エレベーター",
+      "romaji": "erebeetaa",
+      "english": "elevator",
+      "image": "../images/study/week_01/day_03/erebeetaa.png",
+      "audio": "../audio/vocabulary/week_01/day_03/erebeetaa.wav",
+      "alt": "Elevator"
+    },
+    {
+      "id": "eskareetaa",
+      "japanese": "エスカレーター",
+      "romaji": "eskareetaa",
+      "english": "escalator",
+      "image": "../images/study/week_01/day_03/eskareetaa.png",
+      "audio": "../audio/vocabulary/week_01/day_03/eskareetaa.wav",
+      "alt": "Escalator"
+    },
+    {
+      "id": "isu",
+      "japanese": "いす",
+      "romaji": "isu",
+      "english": "chair",
+      "image": "../images/study/week_01/day_03/isu.png",
+      "audio": "../audio/vocabulary/week_01/day_03/isu.wav",
+      "alt": "Chair"
+    },
+    {
+      "id": "jimusho",
+      "japanese": "じむしょ",
+      "romaji": "jimusho",
+      "english": "office",
+      "image": "../images/study/week_01/day_03/jimusho.png",
+      "audio": "../audio/vocabulary/week_01/day_03/jimusho.wav",
+      "alt": "Office"
+    },
+    {
+      "id": "jishuushitsu",
+      "japanese": "じしゅうしつ",
+      "romaji": "jishuushitsu",
+      "english": "self-study room",
+      "image": "../images/study/week_01/day_03/jishuushitsu.png",
+      "audio": "../audio/vocabulary/week_01/day_03/jishuushitsu.wav",
+      "alt": "Self-study room"
+    },
+    {
+      "id": "kaban",
+      "japanese": "かばん",
+      "romaji": "kaban",
+      "english": "bag",
+      "image": "../images/study/week_01/day_03/kaban.png",
+      "audio": "../audio/vocabulary/week_01/day_03/kaban.wav",
+      "alt": "Bag"
+    },
+    {
+      "id": "kaidan",
+      "japanese": "かいだん",
+      "romaji": "kaidan",
+      "english": "stairs",
+      "image": "../images/study/week_01/day_03/kaidan.png",
+      "audio": "../audio/vocabulary/week_01/day_03/kaidan.wav",
+      "alt": "Stairs"
+    },
+    {
+      "id": "kitsuenjo",
+      "japanese": "きつえんじょ",
+      "romaji": "kitsuenjo",
+      "english": "smoking area",
+      "image": "../images/study/week_01/day_03/kitsuenjo.png",
+      "audio": "../audio/vocabulary/week_01/day_03/kitsuenjo.wav",
+      "alt": "Smoking area"
+    },
+    {
+      "id": "kutsu",
+      "japanese": "くつ",
+      "romaji": "kutsu",
+      "english": "shoes",
+      "image": "../images/study/week_01/day_03/kutsu.png",
+      "audio": "../audio/vocabulary/week_01/day_03/kutsu.wav",
+      "alt": "Shoes"
+    },
+    {
+      "id": "kyooshitsu",
+      "japanese": "きょうしつ",
+      "romaji": "kyooshitsu",
+      "english": "classroom",
+      "image": "../images/study/week_01/day_03/kyooshitsu.png",
+      "audio": "../audio/vocabulary/week_01/day_03/kyooshitsu.wav",
+      "alt": "Classroom"
+    },
+    {
+      "id": "pasokon",
+      "japanese": "パソコン",
+      "romaji": "pasokon",
+      "english": "computer",
+      "image": "../images/study/week_01/day_03/pasokon.png",
+      "audio": "../audio/vocabulary/week_01/day_03/pasokon.wav",
+      "alt": "Computer"
+    },
+    {
+      "id": "reezooko",
+      "japanese": "れいぞうこ",
+      "romaji": "reezooko",
+      "english": "refrigerator",
+      "image": "../images/study/week_01/day_03/reezooko.png",
+      "audio": "../audio/vocabulary/week_01/day_03/reezooko.wav",
+      "alt": "Refrigerator"
+    },
+    {
+      "id": "risaikurushoppu",
+      "japanese": "リサイクルショップ",
+      "romaji": "risaikurushoppu",
+      "english": "recycle shop",
+      "image": "../images/study/week_01/day_03/risaikurushoppu.png",
+      "audio": "../audio/vocabulary/week_01/day_03/risaikurushoppu.wav",
+      "alt": "Recycle shop"
+    },
+    {
+      "id": "robii",
+      "japanese": "ロビー",
+      "romaji": "robii",
+      "english": "lobby",
+      "image": "../images/study/week_01/day_03/robii.png",
+      "audio": "../audio/vocabulary/week_01/day_03/robii.wav",
+      "alt": "Lobby"
+    },
+    {
+      "id": "saifu",
+      "japanese": "さいふ",
+      "romaji": "saifu",
+      "english": "wallet",
+      "image": "../images/study/week_01/day_03/saifu.png",
+      "audio": "../audio/vocabulary/week_01/day_03/saifu.wav",
+      "alt": "Wallet"
+    },
+    {
+      "id": "sumaho",
+      "japanese": "スマホ",
+      "romaji": "sumaho",
+      "english": "smartphone",
+      "image": "../images/study/week_01/day_03/sumaho.png",
+      "audio": "../audio/vocabulary/week_01/day_03/sumaho.wav",
+      "alt": "Smartphone"
+    },
+    {
+      "id": "terebi",
+      "japanese": "テレビ",
+      "romaji": "terebi",
+      "english": "television",
+      "image": "../images/study/week_01/day_03/terebi.png",
+      "audio": "../audio/vocabulary/week_01/day_03/terebi.wav",
+      "alt": "Television"
+    },
+    {
+      "id": "toire",
+      "japanese": "トイレ",
+      "romaji": "toire",
+      "english": "toilet",
+      "image": "../images/study/week_01/day_03/toire.png",
+      "audio": "../audio/vocabulary/week_01/day_03/toire.wav",
+      "alt": "Toilet"
+    },
+    {
+      "id": "tokee",
+      "japanese": "とけい",
+      "romaji": "tokee",
+      "english": "clock",
+      "image": "../images/study/week_01/day_03/tokee.png",
+      "audio": "../audio/vocabulary/week_01/day_03/tokee.wav",
+      "alt": "Clock"
+    },
+    {
+      "id": "uchi",
+      "japanese": "うち",
+      "romaji": "uchi",
+      "english": "home",
+      "image": "../images/study/week_01/day_03/uchi.png",
+      "audio": "../audio/vocabulary/week_01/day_03/uchi.wav",
+      "alt": "Home"
+    }
+  ]
+}

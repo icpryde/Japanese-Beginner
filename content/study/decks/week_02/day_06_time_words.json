@@ -1,0 +1,75 @@
+{
+  "id": "week_02/day_06_time_words",
+  "kind": "text",
+  "title": "Day 6 Time Words",
+  "context_blocks": [
+    {
+      "japanese": "ことば（言葉）",
+      "romaji": "kotoba",
+      "english": "words"
+    }
+  ],
+  "description": "Time-related vocabulary from the Day 6 sheet with hosted local audio.",
+  "learning_note": "Use these words when talking about yesterday, this year, and next month.",
+  "flashcards_title": "Day 6 Time Words Flashcards",
+  "items": [
+    {
+      "id": "ashita",
+      "japanese": "あした",
+      "romaji": "ashita",
+      "english": "tomorrow",
+      "image": "../images/study/week_01/day_04/ashita.png",
+      "audio": "../audio/vocabulary/week_02/day_06/ashita.m4a",
+      "alt": "Tomorrow"
+    },
+    {
+      "id": "kinoo",
+      "japanese": "きのう",
+      "romaji": "kinoo",
+      "english": "yesterday",
+      "audio": "../audio/vocabulary/week_02/day_06/kinoo.m4a"
+    },
+    {
+      "id": "kyonen",
+      "japanese": "きょねん",
+      "romaji": "kyonen",
+      "english": "last year",
+      "audio": "../audio/vocabulary/week_02/day_06/kyonen.m4a"
+    },
+    {
+      "id": "kotoshi",
+      "japanese": "ことし",
+      "romaji": "kotoshi",
+      "english": "this year",
+      "audio": "../audio/vocabulary/week_02/day_06/kotoshi.m4a"
+    },
+    {
+      "id": "rainen",
+      "japanese": "らいねん",
+      "romaji": "rainen",
+      "english": "next year",
+      "audio": "../audio/vocabulary/week_02/day_06/rainen.m4a"
+    },
+    {
+      "id": "sengetsu",
+      "japanese": "せんげつ",
+      "romaji": "sengetsu",
+      "english": "last month",
+      "audio": "../audio/vocabulary/week_02/day_06/sengetsu.m4a"
+    },
+    {
+      "id": "kongetsu",
+      "japanese": "こんげつ",
+      "romaji": "kongetsu",
+      "english": "this month",
+      "audio": "../audio/vocabulary/week_02/day_06/kongetsu.m4a"
+    },
+    {
+      "id": "raigetsu",
+      "japanese": "らいげつ",
+      "romaji": "raigetsu",
+      "english": "next month",
+      "audio": "../audio/vocabulary/week_02/day_06/raigetsu.m4a"
+    }
+  ]
+}

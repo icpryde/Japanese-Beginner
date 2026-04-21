@@ -1,0 +1,142 @@
+{
+  "id": "week_02/day_07_vocabulary",
+  "kind": "image",
+  "title": "Day 7 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with hosted audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 7 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "tanjoobi",
+      "japanese": "たんじょうび",
+      "romaji": "tanjoobi",
+      "english": "birthday",
+      "image": "../images/study/week_02/day_07/tanjoobi.png",
+      "audio": "../audio/vocabulary/week_02/day_07/tanjoobi.m4a",
+      "alt": "Birthday"
+    },
+    {
+      "id": "onaidoshi",
+      "japanese": "おないどし",
+      "romaji": "onaidoshi",
+      "english": "the same age",
+      "image": "../images/study/week_02/day_07/onaidoshi.png",
+      "audio": "../audio/vocabulary/week_02/day_07/Onaidoshi.m4a",
+      "alt": "Same age"
+    },
+    {
+      "id": "nihon",
+      "japanese": "にほん",
+      "romaji": "nihon",
+      "english": "Japan",
+      "image": "../images/study/week_02/day_07/nihon.png",
+      "audio": "../audio/vocabulary/week_02/day_07/nihon.m4a",
+      "alt": "Japan"
+    },
+    {
+      "id": "kimasu",
+      "japanese": "きます",
+      "romaji": "kimasu",
+      "english": "to come",
+      "image": "../images/study/week_02/day_07/kimas.png",
+      "audio": "../audio/vocabulary/week_02/day_07/kimas.m4a",
+      "alt": "To come"
+    },
+    {
+      "id": "kuni",
+      "japanese": "くに",
+      "romaji": "kuni",
+      "english": "country",
+      "image": "../images/study/week_02/day_07/kuni.png",
+      "audio": "../audio/vocabulary/week_02/day_07/kuni.m4a",
+      "alt": "Country"
+    },
+    {
+      "id": "kaerimasu",
+      "japanese": "かえります",
+      "romaji": "kaerimasu",
+      "english": "to return (home)",
+      "image": "../images/study/week_02/day_07/kaerimas.png",
+      "audio": "../audio/vocabulary/week_02/day_07/kaerimas.m4a",
+      "alt": "To return home"
+    },
+    {
+      "id": "gohan",
+      "japanese": "ごはん",
+      "romaji": "gohan",
+      "english": "meal (dinner in this lesson)",
+      "image": "../images/study/week_02/day_07/gohan.png",
+      "audio": "../audio/vocabulary/week_02/day_07/gohan.m4a",
+      "alt": "Meal"
+    },
+    {
+      "id": "tabemasu",
+      "japanese": "たべます",
+      "romaji": "tabemasu",
+      "english": "to eat",
+      "image": "../images/study/week_02/day_07/tabemas.png",
+      "audio": "../audio/vocabulary/week_02/day_07/tabemas.m4a",
+      "alt": "To eat"
+    },
+    {
+      "id": "tenisu",
+      "japanese": "テニス",
+      "romaji": "tenisu",
+      "english": "tennis",
+      "image": "../images/study/week_02/day_07/tenis.png",
+      "audio": "../audio/vocabulary/week_02/day_07/tenisu.m4a",
+      "alt": "Tennis"
+    },
+    {
+      "id": "eega",
+      "japanese": "えいが",
+      "romaji": "eega",
+      "english": "movie",
+      "image": "../images/study/week_02/day_07/eega.png",
+      "audio": "../audio/vocabulary/week_02/day_07/eega.m4a",
+      "alt": "Movie"
+    },
+    {
+      "id": "mimasu",
+      "japanese": "みます",
+      "romaji": "mimasu",
+      "english": "to watch",
+      "image": "../images/study/week_02/day_07/mimas.png",
+      "audio": "../audio/vocabulary/week_02/day_07/mimas.m4a",
+      "alt": "To watch"
+    },
+    {
+      "id": "testo",
+      "japanese": "テスト",
+      "romaji": "testo",
+      "english": "test",
+      "image": "../images/study/week_02/day_07/testo.png",
+      "audio": "../audio/vocabulary/week_02/day_07/testo.m4a",
+      "alt": "Test"
+    },
+    {
+      "id": "eego",
+      "japanese": "えいご",
+      "romaji": "eego",
+      "english": "English",
+      "image": "../images/study/week_02/day_07/eego.png",
+      "audio": "../audio/vocabulary/week_02/day_07/eego.m4a",
+      "alt": "English language"
+    },
+    {
+      "id": "hanami",
+      "japanese": "はなみ",
+      "romaji": "hanami",
+      "english": "flower viewing",
+      "image": "../images/study/week_02/day_07/hanami.png",
+      "audio": "../audio/vocabulary/week_02/day_07/hanami.m4a",
+      "alt": "Flower viewing"
+    }
+  ]
+}

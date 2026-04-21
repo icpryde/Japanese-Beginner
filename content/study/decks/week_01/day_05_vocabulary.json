@@ -1,0 +1,106 @@
+{
+  "id": "week_01/day_05_vocabulary",
+  "kind": "image",
+  "title": "Day 5 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with hosted audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 5 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "sensee",
+      "japanese": "せんせい",
+      "romaji": "sensee",
+      "english": "teacher",
+      "image": "../images/study/week_01/day_05/sensee.png",
+      "audio": "../audio/vocabulary/week_01/day_05/sensee.wav",
+      "alt": "Teacher"
+    },
+    {
+      "id": "testo",
+      "japanese": "テスト",
+      "romaji": "testo",
+      "english": "test",
+      "image": "../images/study/week_01/day_05/testo.png",
+      "audio": "../audio/vocabulary/week_01/day_05/testo.m4a",
+      "alt": "Test"
+    },
+    {
+      "id": "ginkoo",
+      "japanese": "ぎんこう",
+      "romaji": "ginkoo",
+      "english": "bank",
+      "image": "../images/study/week_01/day_05/ginkoo.png",
+      "audio": "../audio/vocabulary/week_01/day_05/ginkoo.wav",
+      "alt": "Bank"
+    },
+    {
+      "id": "suupaa",
+      "japanese": "スーパー",
+      "romaji": "suupaa",
+      "english": "supermarket",
+      "image": "../images/study/week_01/day_05/suupaa.png",
+      "audio": "../audio/vocabulary/week_01/day_05/suupaa.wav",
+      "alt": "Supermarket"
+    },
+    {
+      "id": "yuubinkyoku",
+      "japanese": "ゆうびんきょく",
+      "romaji": "yuubinkyoku",
+      "english": "post office",
+      "image": "../images/study/week_01/day_05/yuubinkyoku.png",
+      "audio": "../audio/vocabulary/week_01/day_05/yuubinkyoku.m4a",
+      "alt": "Post office"
+    },
+    {
+      "id": "nemasu",
+      "japanese": "ねます",
+      "romaji": "nemasu",
+      "english": "to sleep",
+      "image": "../images/study/week_01/day_05/nemas.png",
+      "audio": "../audio/vocabulary/week_01/day_05/nemasu.wav",
+      "alt": "To sleep"
+    },
+    {
+      "id": "okimasu",
+      "japanese": "おきます",
+      "romaji": "okimasu",
+      "english": "to wake up",
+      "image": "../images/study/week_01/day_05/okimas.png",
+      "audio": "../audio/vocabulary/week_01/day_05/okimasu.wav",
+      "alt": "To wake up"
+    },
+    {
+      "id": "ima",
+      "japanese": "いま",
+      "romaji": "ima",
+      "english": "now",
+      "image": "../images/study/week_01/day_05/ima.png",
+      "audio": "../audio/vocabulary/week_01/day_05/ima.wav",
+      "alt": "Now"
+    },
+    {
+      "id": "benkyooshimasu",
+      "japanese": "べんきょうします",
+      "romaji": "benkyoo shimasu",
+      "english": "to study",
+      "image": "../images/study/week_01/day_05/benkyoo-shimas.png",
+      "audio": "../audio/vocabulary/week_01/day_05/benkyoo-shimas.wav",
+      "alt": "To study"
+    },
+    {
+      "id": "hatarakimasu",
+      "japanese": "はたらきます",
+      "romaji": "hatarakimasu",
+      "english": "to work",
+      "image": "../images/study/week_01/day_05/hatarakimas.png",
+      "audio": "../audio/vocabulary/week_01/day_05/hatarakimas.wav",
+      "alt": "To work"
+    }
+  ]
+}

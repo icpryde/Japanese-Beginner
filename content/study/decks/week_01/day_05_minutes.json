@@ -1,0 +1,115 @@
+{
+  "id": "week_01/day_05_minutes",
+  "kind": "text",
+  "title": "Day 5 Minutes",
+  "context_blocks": [
+    {
+      "japanese": "じかん（時間）",
+      "romaji": "jikan",
+      "english": "time"
+    }
+  ],
+  "description": "Minute reading practice from the Day 5 vocabulary sheet.",
+  "learning_note": "Use these forms after the hour; han is also used for half past.",
+  "flashcards_title": "Day 5 Minutes Flashcards",
+  "items": [
+    {
+      "id": "ippun",
+      "japanese": "いっぷん",
+      "romaji": "ippun",
+      "english": "1 minute",
+      "audio": "../audio/vocabulary/week_01/day_05/minutes/ippun.m4a"
+    },
+    {
+      "id": "nihun",
+      "japanese": "にふん",
+      "romaji": "nihun",
+      "english": "2 minutes",
+      "audio": "../audio/vocabulary/week_01/day_05/minutes/nihun.m4a"
+    },
+    {
+      "id": "sanpun",
+      "japanese": "さんぷん",
+      "romaji": "sanpun",
+      "english": "3 minutes",
+      "audio": "../audio/vocabulary/week_01/day_05/minutes/sanpun.m4a"
+    },
+    {
+      "id": "yonpun",
+      "japanese": "よんぷん",
+      "romaji": "yonpun",
+      "english": "4 minutes",
+      "audio": "../audio/vocabulary/week_01/day_05/minutes/yonpun.m4a"
+    },
+    {
+      "id": "gohun",
+      "japanese": "ごふん",
+      "romaji": "gohun",
+      "english": "5 minutes",
+      "audio": "../audio/vocabulary/week_01/day_05/minutes/gohun.m4a"
+    },
+    {
+      "id": "roppun",
+      "japanese": "ろっぷん",
+      "romaji": "roppun",
+      "english": "6 minutes",
+      "audio": "../audio/vocabulary/week_01/day_05/minutes/roppun.m4a"
+    },
+    {
+      "id": "nanahun",
+      "japanese": "ななふん",
+      "romaji": "nanahun",
+      "english": "7 minutes",
+      "audio": "../audio/vocabulary/week_01/day_05/minutes/nanahun.m4a"
+    },
+    {
+      "id": "happun",
+      "japanese": "はっぷん",
+      "romaji": "happun",
+      "english": "8 minutes",
+      "audio": "../audio/vocabulary/week_01/day_05/minutes/happun.m4a"
+    },
+    {
+      "id": "kyuuhun",
+      "japanese": "きゅうふん",
+      "romaji": "kyuuhun",
+      "english": "9 minutes",
+      "audio": "../audio/vocabulary/week_01/day_05/minutes/kyuuhun.m4a"
+    },
+    {
+      "id": "juppun",
+      "japanese": "じゅっぷん",
+      "romaji": "juppun",
+      "english": "10 minutes",
+      "audio": "../audio/vocabulary/week_01/day_05/minutes/juppun.m4a"
+    },
+    {
+      "id": "nijuppun",
+      "japanese": "にじゅっぷん",
+      "romaji": "nijuppun",
+      "english": "20 minutes",
+      "audio": "../audio/vocabulary/week_01/day_05/minutes/nijuppun.m4a"
+    },
+    {
+      "id": "sanjuppun",
+      "japanese": "さんじゅっぷん",
+      "romaji": "sanjuppun / han",
+      "english": "30 minutes / half past",
+      "audio": "../audio/vocabulary/week_01/day_05/minutes/sanjuppun.m4a"
+    },
+    {
+      "id": "yonjuppun",
+      "japanese": "よんじゅっぷん",
+      "romaji": "yonjuppun",
+      "english": "40 minutes",
+      "audio": "../audio/vocabulary/week_01/day_05/minutes/yonjuppun.m4a"
+    },
+    {
+      "id": "gojuppun",
+      "japanese": "ごじゅっぷん",
+      "romaji": "gojuppun",
+      "english": "50 minutes",
+      "audio": "../audio/vocabulary/week_01/day_05/minutes/gojuppun.m4a"
+    }
+  ]
+}

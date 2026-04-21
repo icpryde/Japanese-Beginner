@@ -1149,6 +1149,174 @@
   };
 
   // ═══════════════════════════════════════════
+  // Study Module
+  // ═══════════════════════════════════════════
+  const Study = {
+    init() {
+      this.root = document.querySelector('.lesson-body');
+      this.decks = Array.from(document.querySelectorAll('[data-study-flashcards]'));
+      if (!this.root || !document.querySelector('.study-section')) return;
+
+      this.deckState = new WeakMap();
+      this.audio = new Audio();
+      this.audio.preload = 'none';
+      this.currentButton = null;
+      this.currentButtonLabel = '';
+
+      this.audio.addEventListener('ended', () => this.resetPlayingButton());
+      this.audio.addEventListener('pause', () => {
+        if (this.audio.ended || this.audio.currentTime > 0) {
+          this.resetPlayingButton();
+        }
+      });
+
+      this.decks.forEach(deck => {
+        this.deckState.set(deck, { index: 0, revealed: false });
+        this.renderDeck(deck);
+      });
+
+      this.root.addEventListener('click', (e) => {
+        const audioBtn = e.target.closest('.study-audio-btn');
+        if (audioBtn) {
+          this.play(audioBtn, audioBtn.dataset.studyAudioSrc);
+          return;
+        }
+
+        const deck = e.target.closest('[data-study-flashcards]');
+        if (!deck) return;
+
+        if (e.target.closest('[data-study-prev]')) {
+          this.move(deck, -1);
+          return;
+        }
+
+        if (e.target.closest('[data-study-next]')) {
+          this.move(deck, 1);
+          return;
+        }
+
+        if (e.target.closest('[data-study-reveal]')) {
+          this.toggleReveal(deck);
+          return;
+        }
+
+        const playCurrentBtn = e.target.closest('[data-study-play-current]');
+        if (playCurrentBtn) {
+          this.playCurrentCard(deck, playCurrentBtn);
+        }
+      });
+    },
+
+    getDeckState(deck) {
+      return this.deckState.get(deck) || { index: 0, revealed: false };
+    },
+
+    getCards(deck) {
+      return Array.from(deck.querySelectorAll('[data-study-card]'));
+    },
+
+    play(button, src) {
+      if (!button || !src || !this.audio) return;
+
+      const absoluteSrc = new URL(src, window.location.href).href;
+      const isSameTrack = this.currentButton === button && this.audio.src === absoluteSrc && !this.audio.paused;
+      if (isSameTrack) {
+        this.audio.currentTime = 0;
+        return;
+      }
+
+      this.resetPlayingButton();
+      this.audio.pause();
+      this.audio.src = absoluteSrc;
+      this.audio.currentTime = 0;
+
+      button.dataset.defaultLabel = button.dataset.defaultLabel || button.textContent;
+      this.currentButton = button;
+      this.currentButtonLabel = button.dataset.defaultLabel;
+      button.textContent = 'Playing...';
+      button.classList.add('is-playing');
+
+      const playPromise = this.audio.play();
+      if (playPromise && typeof playPromise.catch === 'function') {
+        playPromise.catch(() => {
+          this.resetPlayingButton();
+          button.disabled = true;
+          button.textContent = 'Audio unavailable';
+          window.setTimeout(() => {
+            button.disabled = false;
+            button.textContent = button.dataset.defaultLabel || 'Play Audio';
+          }, 1600);
+        });
+      }
+    },
+
+    resetPlayingButton() {
+      if (!this.currentButton) return;
+      this.currentButton.classList.remove('is-playing');
+      this.currentButton.textContent = this.currentButton.dataset.defaultLabel || this.currentButtonLabel || 'Play Audio';
+      this.currentButton = null;
+      this.currentButtonLabel = '';
+    },
+
+    renderDeck(deck) {
+      const state = this.getDeckState(deck);
+      const cards = this.getCards(deck);
+      const activeCard = cards[state.index];
+
+      cards.forEach((card, index) => {
+        const isActive = index === state.index;
+        card.classList.toggle('is-active', isActive);
+        card.hidden = !isActive;
+
+        const front = card.querySelector('.study-flashcard-front');
+        const back = card.querySelector('.study-flashcard-back');
+        if (front) front.hidden = !isActive || state.revealed;
+        if (back) back.hidden = !isActive || !state.revealed;
+      });
+
+      const prevBtn = deck.querySelector('[data-study-prev]');
+      const nextBtn = deck.querySelector('[data-study-next]');
+      const revealBtn = deck.querySelector('[data-study-reveal]');
+      const playBtn = deck.querySelector('[data-study-play-current]');
+      const counter = deck.querySelector('[data-study-counter]');
+
+      if (prevBtn) prevBtn.disabled = state.index === 0;
+      if (nextBtn) nextBtn.disabled = state.index >= cards.length - 1;
+      if (revealBtn) revealBtn.textContent = state.revealed ? 'Hide Answer' : 'Reveal Answer';
+      if (playBtn) playBtn.disabled = !activeCard || !activeCard.dataset.studyAudioSrc;
+      if (counter) counter.textContent = (cards.length ? state.index + 1 : 0) + ' / ' + cards.length;
+    },
+
+    move(deck, delta) {
+      const cards = this.getCards(deck);
+      if (!cards.length) return;
+
+      const state = this.getDeckState(deck);
+      const nextIndex = Math.max(0, Math.min(cards.length - 1, state.index + delta));
+      if (nextIndex === state.index) return;
+
+      state.index = nextIndex;
+      state.revealed = false;
+      this.deckState.set(deck, state);
+      this.renderDeck(deck);
+    },
+
+    toggleReveal(deck) {
+      const state = this.getDeckState(deck);
+      state.revealed = !state.revealed;
+      this.deckState.set(deck, state);
+      this.renderDeck(deck);
+    },
+
+    playCurrentCard(deck, button) {
+      const state = this.getDeckState(deck);
+      const activeCard = this.getCards(deck)[state.index];
+      if (!activeCard) return;
+      this.play(button, activeCard.dataset.studyAudioSrc);
+    }
+  };
+
+  // ═══════════════════════════════════════════
   // Week 3 Review Quiz Module
   // ═══════════════════════════════════════════
   const Week3ReviewQuiz = {
@@ -1996,6 +2164,7 @@
     Notes.init();
     Bookmarks.init();
     Resume.init();
+    Study.init();
     registerSW();
   });
 })();

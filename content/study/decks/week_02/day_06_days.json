@@ -1,0 +1,66 @@
+{
+  "id": "week_02/day_06_days",
+  "kind": "text",
+  "title": "Day 6 Days of the Week",
+  "context_blocks": [
+    {
+      "japanese": "【なんようび？】",
+      "romaji": "nan yoobi?",
+      "english": "What day?"
+    }
+  ],
+  "description": "Day-of-the-week practice from the Day 6 sheet.",
+  "learning_note": "Use these words to talk about which day of the week something happens on.",
+  "flashcards_title": "Day 6 Days Flashcards",
+  "items": [
+    {
+      "id": "getsuyoobi",
+      "japanese": "げつようび",
+      "romaji": "getsuyoobi",
+      "english": "Monday",
+      "audio": "../audio/vocabulary/week_02/day_06/Days/getsuyoobi.m4a"
+    },
+    {
+      "id": "kayoobi",
+      "japanese": "かようび",
+      "romaji": "kayoobi",
+      "english": "Tuesday",
+      "audio": "../audio/vocabulary/week_02/day_06/Days/kayoobi.m4a"
+    },
+    {
+      "id": "suiyoobi",
+      "japanese": "すいようび",
+      "romaji": "suiyoobi",
+      "english": "Wednesday",
+      "audio": "../audio/vocabulary/week_02/day_06/Days/suiyoobi.m4a"
+    },
+    {
+      "id": "mokuyoobi",
+      "japanese": "もくようび",
+      "romaji": "mokuyoobi",
+      "english": "Thursday",
+      "audio": "../audio/vocabulary/week_02/day_06/Days/mokuyoobi.m4a"
+    },
+    {
+      "id": "kinyoobi",
+      "japanese": "きんようび",
+      "romaji": "kinyoobi",
+      "english": "Friday",
+      "audio": "../audio/vocabulary/week_02/day_06/Days/kinyoobi.m4a"
+    },
+    {
+      "id": "doyoobi",
+      "japanese": "どようび",
+      "romaji": "doyoobi",
+      "english": "Saturday",
+      "audio": "../audio/vocabulary/week_02/day_06/Days/doyoobi.m4a"
+    },
+    {
+      "id": "nichiyoobi",
+      "japanese": "にちようび",
+      "romaji": "nichiyoobi",
+      "english": "Sunday",
+      "audio": "../audio/vocabulary/week_02/day_06/Days/nichiyoobi.m4a"
+    }
+  ]
+}

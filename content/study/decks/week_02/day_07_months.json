@@ -1,0 +1,101 @@
+{
+  "id": "week_02/day_07_months",
+  "kind": "text",
+  "title": "Day 7 Months",
+  "context_blocks": [
+    {
+      "japanese": "【なんがつ？】",
+      "romaji": "nan-gatsu?",
+      "english": "What month?"
+    }
+  ],
+  "description": "Month names from the Day 7 date sheet.",
+  "learning_note": "The original export did not include the month clips, so these pronunciations were generated locally with the macOS Japanese voice.",
+  "flashcards_title": "Day 7 Months Flashcards",
+  "items": [
+    {
+      "id": "ichigatsu",
+      "japanese": "いちがつ",
+      "romaji": "ichi-gatsu",
+      "english": "January",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/months/ichigatsu.m4a"
+    },
+    {
+      "id": "nigatsu",
+      "japanese": "にがつ",
+      "romaji": "ni-gatsu",
+      "english": "February",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/months/nigatsu.m4a"
+    },
+    {
+      "id": "sangatsu",
+      "japanese": "さんがつ",
+      "romaji": "san-gatsu",
+      "english": "March",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/months/sangatsu.m4a"
+    },
+    {
+      "id": "shigatsu",
+      "japanese": "しがつ",
+      "romaji": "shi-gatsu",
+      "english": "April",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/months/shigatsu.m4a"
+    },
+    {
+      "id": "gogatsu",
+      "japanese": "ごがつ",
+      "romaji": "go-gatsu",
+      "english": "May",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/months/gogatsu.m4a"
+    },
+    {
+      "id": "rokugatsu",
+      "japanese": "ろくがつ",
+      "romaji": "roku-gatsu",
+      "english": "June",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/months/rokugatsu.m4a"
+    },
+    {
+      "id": "shichigatsu",
+      "japanese": "しちがつ",
+      "romaji": "shichi-gatsu",
+      "english": "July",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/months/shichigatsu.m4a"
+    },
+    {
+      "id": "hachigatsu",
+      "japanese": "はちがつ",
+      "romaji": "hachi-gatsu",
+      "english": "August",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/months/hachigatsu.m4a"
+    },
+    {
+      "id": "kugatsu",
+      "japanese": "くがつ",
+      "romaji": "ku-gatsu",
+      "english": "September",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/months/kugatsu.m4a"
+    },
+    {
+      "id": "juugatsu",
+      "japanese": "じゅうがつ",
+      "romaji": "juu-gatsu",
+      "english": "October",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/months/juugatsu.m4a"
+    },
+    {
+      "id": "juuichigatsu",
+      "japanese": "じゅういちがつ",
+      "romaji": "juuichi-gatsu",
+      "english": "November",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/months/juuichigatsu.m4a"
+    },
+    {
+      "id": "juunigatsu",
+      "japanese": "じゅうにがつ",
+      "romaji": "juuni-gatsu",
+      "english": "December",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/months/juunigatsu.m4a"
+    }
+  ]
+}

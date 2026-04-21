@@ -1,0 +1,452 @@
+{
+  "defaults": {
+    "provider": "macos_say",
+    "voice_id": "Kyoko",
+    "rate": 145,
+    "output_format": "m4a",
+    "language_code": "ja-JP"
+  },
+  "items": [
+    {
+      "deck_path": "content/study/decks/week_02/day_07_age.json",
+      "item_id": "issai",
+      "text": "いっさい",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/age/issai.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/age/issai.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_age.json",
+      "item_id": "nisai",
+      "text": "にさい",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/age/nisai.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/age/nisai.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_age.json",
+      "item_id": "sansai",
+      "text": "さんさい",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/age/sansai.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/age/sansai.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_age.json",
+      "item_id": "yonsai",
+      "text": "よんさい",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/age/yonsai.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/age/yonsai.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_age.json",
+      "item_id": "gosai",
+      "text": "ごさい",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/age/gosai.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/age/gosai.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_age.json",
+      "item_id": "rokusai",
+      "text": "ろくさい",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/age/rokusai.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/age/rokusai.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_age.json",
+      "item_id": "nanasai",
+      "text": "ななさい",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/age/nanasai.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/age/nanasai.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_age.json",
+      "item_id": "hassai",
+      "text": "はっさい",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/age/hassai.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/age/hassai.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_age.json",
+      "item_id": "kyuusai",
+      "text": "きゅうさい",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/age/kyuusai.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/age/kyuusai.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_age.json",
+      "item_id": "jussai",
+      "text": "じゅっさい",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/age/jussai.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/age/jussai.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_age.json",
+      "item_id": "hatachi",
+      "text": "はたち",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/age/hatachi.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/age/hatachi.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_age.json",
+      "item_id": "nijuunisai",
+      "text": "にじゅうにさい",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/age/nijuunisai.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/age/nijuunisai.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_age.json",
+      "item_id": "sanjuusansai",
+      "text": "さんじゅうさんさい",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/age/sanjuusansai.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/age/sanjuusansai.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_age.json",
+      "item_id": "yonjuuyonsai",
+      "text": "よんじゅうよんさい",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/age/yonjuuyonsai.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/age/yonjuuyonsai.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_age.json",
+      "item_id": "gojuugosai",
+      "text": "ごじゅうごさい",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/age/gojuugosai.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/age/gojuugosai.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_age.json",
+      "item_id": "rokujuurokusai",
+      "text": "ろくじゅうろくさい",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/age/rokujuurokusai.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/age/rokujuurokusai.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_age.json",
+      "item_id": "nanajuunanasai",
+      "text": "ななじゅうななさい",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/age/nanajuunanasai.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/age/nanajuunanasai.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_age.json",
+      "item_id": "hachijuuhassai",
+      "text": "はちじゅうはっさい",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/age/hachijuuhassai.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/age/hachijuuhassai.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_age.json",
+      "item_id": "kyuujuukyuusai",
+      "text": "きゅうじゅうきゅうさい",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/age/kyuujuukyuusai.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/age/kyuujuukyuusai.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_age.json",
+      "item_id": "hyakusai",
+      "text": "ひゃくさい",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/age/hyakusai.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/age/hyakusai.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_months.json",
+      "item_id": "ichigatsu",
+      "text": "いちがつ",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/months/ichigatsu.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/months/ichigatsu.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_months.json",
+      "item_id": "nigatsu",
+      "text": "にがつ",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/months/nigatsu.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/months/nigatsu.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_months.json",
+      "item_id": "sangatsu",
+      "text": "さんがつ",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/months/sangatsu.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/months/sangatsu.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_months.json",
+      "item_id": "shigatsu",
+      "text": "しがつ",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/months/shigatsu.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/months/shigatsu.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_months.json",
+      "item_id": "gogatsu",
+      "text": "ごがつ",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/months/gogatsu.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/months/gogatsu.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_months.json",
+      "item_id": "rokugatsu",
+      "text": "ろくがつ",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/months/rokugatsu.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/months/rokugatsu.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_months.json",
+      "item_id": "shichigatsu",
+      "text": "しちがつ",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/months/shichigatsu.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/months/shichigatsu.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_months.json",
+      "item_id": "hachigatsu",
+      "text": "はちがつ",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/months/hachigatsu.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/months/hachigatsu.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_months.json",
+      "item_id": "kugatsu",
+      "text": "くがつ",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/months/kugatsu.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/months/kugatsu.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_months.json",
+      "item_id": "juugatsu",
+      "text": "じゅうがつ",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/months/juugatsu.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/months/juugatsu.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_months.json",
+      "item_id": "juuichigatsu",
+      "text": "じゅういちがつ",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/months/juuichigatsu.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/months/juuichigatsu.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_months.json",
+      "item_id": "juunigatsu",
+      "text": "じゅうにがつ",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/months/juunigatsu.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/months/juunigatsu.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_days_of_month.json",
+      "item_id": "tsuitachi",
+      "text": "ついたち",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/days_of_month/tsuitachi.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/days_of_month/tsuitachi.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_days_of_month.json",
+      "item_id": "futsuka",
+      "text": "ふつか",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/days_of_month/futsuka.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/days_of_month/futsuka.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_days_of_month.json",
+      "item_id": "mikka",
+      "text": "みっか",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/days_of_month/mikka.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/days_of_month/mikka.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_days_of_month.json",
+      "item_id": "yokka",
+      "text": "よっか",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/days_of_month/yokka.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/days_of_month/yokka.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_days_of_month.json",
+      "item_id": "itsuka",
+      "text": "いつか",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/days_of_month/itsuka.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/days_of_month/itsuka.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_days_of_month.json",
+      "item_id": "muika",
+      "text": "むいか",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/days_of_month/muika.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/days_of_month/muika.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_days_of_month.json",
+      "item_id": "nanoka",
+      "text": "なのか",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/days_of_month/nanoka.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/days_of_month/nanoka.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_days_of_month.json",
+      "item_id": "yooka",
+      "text": "ようか",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/days_of_month/yooka.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/days_of_month/yooka.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_days_of_month.json",
+      "item_id": "kokonoka",
+      "text": "ここのか",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/days_of_month/kokonoka.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/days_of_month/kokonoka.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_days_of_month.json",
+      "item_id": "tooka",
+      "text": "とおか",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/days_of_month/tooka.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/days_of_month/tooka.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_days_of_month.json",
+      "item_id": "juuichi_nichi",
+      "text": "じゅういちにち",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/days_of_month/juuichi_nichi.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/days_of_month/juuichi_nichi.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_days_of_month.json",
+      "item_id": "juuni_nichi",
+      "text": "じゅうににち",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/days_of_month/juuni_nichi.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/days_of_month/juuni_nichi.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_days_of_month.json",
+      "item_id": "juusan_nichi",
+      "text": "じゅうさんにち",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/days_of_month/juusan_nichi.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/days_of_month/juusan_nichi.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_days_of_month.json",
+      "item_id": "juuyokka",
+      "text": "じゅうよっか",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/days_of_month/juuyokka.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/days_of_month/juuyokka.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_days_of_month.json",
+      "item_id": "juugo_nichi",
+      "text": "じゅうごにち",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/days_of_month/juugo_nichi.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/days_of_month/juugo_nichi.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_days_of_month.json",
+      "item_id": "juuroku_nichi",
+      "text": "じゅうろくにち",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/days_of_month/juuroku_nichi.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/days_of_month/juuroku_nichi.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_days_of_month.json",
+      "item_id": "juushichi_nichi",
+      "text": "じゅうしちにち",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/days_of_month/juushichi_nichi.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/days_of_month/juushichi_nichi.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_days_of_month.json",
+      "item_id": "juuhachi_nichi",
+      "text": "じゅうはちにち",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/days_of_month/juuhachi_nichi.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/days_of_month/juuhachi_nichi.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_days_of_month.json",
+      "item_id": "juukyuu_nichi",
+      "text": "じゅうくにち",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/days_of_month/juukyuu_nichi.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/days_of_month/juukyuu_nichi.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_days_of_month.json",
+      "item_id": "hatsuka",
+      "text": "はつか",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/days_of_month/hatsuka.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/days_of_month/hatsuka.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_days_of_month.json",
+      "item_id": "nijuuichi_nichi",
+      "text": "にじゅういちにち",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/days_of_month/nijuuichi_nichi.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/days_of_month/nijuuichi_nichi.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_days_of_month.json",
+      "item_id": "nijuuni_nichi",
+      "text": "にじゅうににち",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/days_of_month/nijuuni_nichi.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/days_of_month/nijuuni_nichi.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_days_of_month.json",
+      "item_id": "nijuusan_nichi",
+      "text": "にじゅうさんにち",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/days_of_month/nijuusan_nichi.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/days_of_month/nijuusan_nichi.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_days_of_month.json",
+      "item_id": "nijuuyokka",
+      "text": "にじゅうよっか",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/days_of_month/nijuuyokka.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/days_of_month/nijuuyokka.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_days_of_month.json",
+      "item_id": "nijuugo_nichi",
+      "text": "にじゅうごにち",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/days_of_month/nijuugo_nichi.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/days_of_month/nijuugo_nichi.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_days_of_month.json",
+      "item_id": "nijuuroku_nichi",
+      "text": "にじゅうろくにち",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/days_of_month/nijuuroku_nichi.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/days_of_month/nijuuroku_nichi.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_days_of_month.json",
+      "item_id": "nijuushichi_nichi",
+      "text": "にじゅうしちにち",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/days_of_month/nijuushichi_nichi.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/days_of_month/nijuushichi_nichi.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_days_of_month.json",
+      "item_id": "nijuuhachi_nichi",
+      "text": "にじゅうはちにち",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/days_of_month/nijuuhachi_nichi.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/days_of_month/nijuuhachi_nichi.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_days_of_month.json",
+      "item_id": "nijuukyuu_nichi",
+      "text": "にじゅうくにち",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/days_of_month/nijuukyuu_nichi.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/days_of_month/nijuukyuu_nichi.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_days_of_month.json",
+      "item_id": "sanjuu_nichi",
+      "text": "さんじゅうにち",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/days_of_month/sanjuu_nichi.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/days_of_month/sanjuu_nichi.mp3"
+    },
+    {
+      "deck_path": "content/study/decks/week_02/day_07_days_of_month.json",
+      "item_id": "sanjuuichi_nichi",
+      "text": "さんじゅういちにち",
+      "output_path": "content/audio/vocabulary/week_02/day_07/generated/days_of_month/sanjuuichi_nichi.mp3",
+      "audio_href": "../audio/vocabulary/week_02/day_07/generated/days_of_month/sanjuuichi_nichi.mp3"
+    }
+  ]
+}

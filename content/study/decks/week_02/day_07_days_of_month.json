@@ -1,0 +1,234 @@
+{
+  "id": "week_02/day_07_days_of_month",
+  "kind": "text",
+  "title": "Day 7 Days of the Month",
+  "context_blocks": [
+    {
+      "japanese": "【なんにち？】",
+      "romaji": "nan-nichi?",
+      "english": "What day of the month?"
+    }
+  ],
+  "description": "Day-of-the-month readings from the Day 7 date sheet.",
+  "learning_note": "The original export did not include the date clips, so these pronunciations were generated locally with the macOS Japanese voice.",
+  "flashcards_title": "Day 7 Dates Flashcards",
+  "items": [
+    {
+      "id": "tsuitachi",
+      "japanese": "ついたち",
+      "romaji": "tsuitachi",
+      "english": "1st",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/days_of_month/tsuitachi.m4a"
+    },
+    {
+      "id": "futsuka",
+      "japanese": "ふつか",
+      "romaji": "futsuka",
+      "english": "2nd",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/days_of_month/futsuka.m4a"
+    },
+    {
+      "id": "mikka",
+      "japanese": "みっか",
+      "romaji": "mikka",
+      "english": "3rd",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/days_of_month/mikka.m4a"
+    },
+    {
+      "id": "yokka",
+      "japanese": "よっか",
+      "romaji": "yokka",
+      "english": "4th",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/days_of_month/yokka.m4a"
+    },
+    {
+      "id": "itsuka",
+      "japanese": "いつか",
+      "romaji": "itsuka",
+      "english": "5th",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/days_of_month/itsuka.m4a"
+    },
+    {
+      "id": "muika",
+      "japanese": "むいか",
+      "romaji": "muika",
+      "english": "6th",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/days_of_month/muika.m4a"
+    },
+    {
+      "id": "nanoka",
+      "japanese": "なのか",
+      "romaji": "nanoka",
+      "english": "7th",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/days_of_month/nanoka.m4a"
+    },
+    {
+      "id": "yooka",
+      "japanese": "ようか",
+      "romaji": "yooka",
+      "english": "8th",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/days_of_month/yooka.m4a"
+    },
+    {
+      "id": "kokonoka",
+      "japanese": "ここのか",
+      "romaji": "kokonoka",
+      "english": "9th",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/days_of_month/kokonoka.m4a"
+    },
+    {
+      "id": "tooka",
+      "japanese": "とおか",
+      "romaji": "tooka",
+      "english": "10th",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/days_of_month/tooka.m4a"
+    },
+    {
+      "id": "juuichi_nichi",
+      "japanese": "じゅういちにち",
+      "romaji": "juuichi-nichi",
+      "english": "11th",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/days_of_month/juuichi_nichi.m4a"
+    },
+    {
+      "id": "juuni_nichi",
+      "japanese": "じゅうににち",
+      "romaji": "juuni-nichi",
+      "english": "12th",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/days_of_month/juuni_nichi.m4a"
+    },
+    {
+      "id": "juusan_nichi",
+      "japanese": "じゅうさんにち",
+      "romaji": "juusan-nichi",
+      "english": "13th",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/days_of_month/juusan_nichi.m4a"
+    },
+    {
+      "id": "juuyokka",
+      "japanese": "じゅうよっか",
+      "romaji": "juuyokka",
+      "english": "14th",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/days_of_month/juuyokka.m4a"
+    },
+    {
+      "id": "juugo_nichi",
+      "japanese": "じゅうごにち",
+      "romaji": "juugo-nichi",
+      "english": "15th",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/days_of_month/juugo_nichi.m4a"
+    },
+    {
+      "id": "juuroku_nichi",
+      "japanese": "じゅうろくにち",
+      "romaji": "juuroku-nichi",
+      "english": "16th",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/days_of_month/juuroku_nichi.m4a"
+    },
+    {
+      "id": "juushichi_nichi",
+      "japanese": "じゅうしちにち",
+      "romaji": "juushichi-nichi",
+      "english": "17th",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/days_of_month/juushichi_nichi.m4a"
+    },
+    {
+      "id": "juuhachi_nichi",
+      "japanese": "じゅうはちにち",
+      "romaji": "juuhachi-nichi",
+      "english": "18th",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/days_of_month/juuhachi_nichi.m4a"
+    },
+    {
+      "id": "juukyuu_nichi",
+      "japanese": "じゅうくにち",
+      "romaji": "juukyuu-nichi",
+      "english": "19th",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/days_of_month/juukyuu_nichi.m4a"
+    },
+    {
+      "id": "hatsuka",
+      "japanese": "はつか",
+      "romaji": "hatsuka",
+      "english": "20th",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/days_of_month/hatsuka.m4a"
+    },
+    {
+      "id": "nijuuichi_nichi",
+      "japanese": "にじゅういちにち",
+      "romaji": "nijuuichi-nichi",
+      "english": "21st",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/days_of_month/nijuuichi_nichi.m4a"
+    },
+    {
+      "id": "nijuuni_nichi",
+      "japanese": "にじゅうににち",
+      "romaji": "nijuuni-nichi",
+      "english": "22nd",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/days_of_month/nijuuni_nichi.m4a"
+    },
+    {
+      "id": "nijuusan_nichi",
+      "japanese": "にじゅうさんにち",
+      "romaji": "nijuusan-nichi",
+      "english": "23rd",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/days_of_month/nijuusan_nichi.m4a"
+    },
+    {
+      "id": "nijuuyokka",
+      "japanese": "にじゅうよっか",
+      "romaji": "nijuuyokka",
+      "english": "24th",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/days_of_month/nijuuyokka.m4a"
+    },
+    {
+      "id": "nijuugo_nichi",
+      "japanese": "にじゅうごにち",
+      "romaji": "nijuugo-nichi",
+      "english": "25th",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/days_of_month/nijuugo_nichi.m4a"
+    },
+    {
+      "id": "nijuuroku_nichi",
+      "japanese": "にじゅうろくにち",
+      "romaji": "nijuuroku-nichi",
+      "english": "26th",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/days_of_month/nijuuroku_nichi.m4a"
+    },
+    {
+      "id": "nijuushichi_nichi",
+      "japanese": "にじゅうしちにち",
+      "romaji": "nijuushichi-nichi",
+      "english": "27th",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/days_of_month/nijuushichi_nichi.m4a"
+    },
+    {
+      "id": "nijuuhachi_nichi",
+      "japanese": "にじゅうはちにち",
+      "romaji": "nijuuhachi-nichi",
+      "english": "28th",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/days_of_month/nijuuhachi_nichi.m4a"
+    },
+    {
+      "id": "nijuukyuu_nichi",
+      "japanese": "にじゅうくにち",
+      "romaji": "nijuukyuu-nichi",
+      "english": "29th",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/days_of_month/nijuukyuu_nichi.m4a"
+    },
+    {
+      "id": "sanjuu_nichi",
+      "japanese": "さんじゅうにち",
+      "romaji": "sanjuu-nichi",
+      "english": "30th",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/days_of_month/sanjuu_nichi.m4a"
+    },
+    {
+      "id": "sanjuuichi_nichi",
+      "japanese": "さんじゅういちにち",
+      "romaji": "sanjuuichi-nichi",
+      "english": "31st",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/days_of_month/sanjuuichi_nichi.m4a"
+    }
+  ]
+}

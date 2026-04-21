@@ -1,0 +1,94 @@
+{
+  "id": "week_01/day_03_large_numbers",
+  "kind": "text",
+  "title": "Day 3 Large Numbers",
+  "context_blocks": [
+    {
+      "japanese": "かず（数）",
+      "romaji": "kazu",
+      "english": "numbers"
+    }
+  ],
+  "description": "Text-only large-number practice from the Day 3 vocabulary sheet, using the shared numbers audio hosted in the app.",
+  "learning_note": "Use these forms when reading larger numbers such as bigger quantities and price-like values.",
+  "flashcards_title": "Day 3 Large Numbers Flashcards",
+  "items": [
+    {
+      "id": "sen",
+      "japanese": "せん",
+      "romaji": "sen",
+      "english": "1,000",
+      "audio": "../audio/shared/numbers/sen.mp3"
+    },
+    {
+      "id": "nisen",
+      "japanese": "にせん",
+      "romaji": "nisen",
+      "english": "2,000",
+      "audio": "../audio/shared/numbers/nisen.mp3"
+    },
+    {
+      "id": "sanzen",
+      "japanese": "さんぜん",
+      "romaji": "sanzen",
+      "english": "3,000",
+      "audio": "../audio/shared/numbers/sanzen.mp3"
+    },
+    {
+      "id": "yonsen",
+      "japanese": "よんせん",
+      "romaji": "yonsen",
+      "english": "4,000",
+      "audio": "../audio/shared/numbers/yonsen.m4a"
+    },
+    {
+      "id": "gosen",
+      "japanese": "ごせん",
+      "romaji": "gosen",
+      "english": "5,000",
+      "audio": "../audio/shared/numbers/gosen.m4a"
+    },
+    {
+      "id": "rokusen",
+      "japanese": "ろくせん",
+      "romaji": "rokusen",
+      "english": "6,000",
+      "audio": "../audio/shared/numbers/rokusen.mp3"
+    },
+    {
+      "id": "nanasen",
+      "japanese": "ななせん",
+      "romaji": "nanasen",
+      "english": "7,000",
+      "audio": "../audio/shared/numbers/nanasen.m4a"
+    },
+    {
+      "id": "hassen",
+      "japanese": "はっせん",
+      "romaji": "hassen",
+      "english": "8,000",
+      "audio": "../audio/shared/numbers/hassen.mp3"
+    },
+    {
+      "id": "kyuusen",
+      "japanese": "きゅうせん",
+      "romaji": "kyuusen",
+      "english": "9,000",
+      "audio": "../audio/shared/numbers/kyuusen.m4a"
+    },
+    {
+      "id": "ichiman",
+      "japanese": "いちまん",
+      "romaji": "ichiman",
+      "english": "10,000",
+      "audio": "../audio/shared/numbers/ichiman.mp3"
+    },
+    {
+      "id": "yonman_sanzen_happyaku_nijuu_go",
+      "japanese": "よんまんさんぜんはっぴゃくにじゅうご",
+      "romaji": "yonman sanzen happyaku nijuu go",
+      "english": "43,825",
+      "audio": "../audio/shared/numbers/yonman_sanzen_happyaku_nijuu_go.m4a"
+    }
+  ]
+}

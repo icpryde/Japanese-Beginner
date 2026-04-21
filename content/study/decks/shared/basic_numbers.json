@@ -1,0 +1,157 @@
+{
+  "id": "shared/basic_numbers",
+  "kind": "text",
+  "title": "Numbers Practice",
+  "context_blocks": [
+    {
+      "japanese": "かず（数）",
+      "romaji": "kazu",
+      "english": "numbers"
+    }
+  ],
+  "description": "Shared number audio hosted in the app for repeat listening and quick review.",
+  "learning_note": "Use these basic number words when counting from 0 up through the tens.",
+  "flashcards_title": "Numbers Flashcards",
+  "items": [
+    {
+      "id": "rei",
+      "japanese": "れい",
+      "romaji": "rei",
+      "english": "0",
+      "audio": "../audio/shared/numbers/rei.mp3"
+    },
+    {
+      "id": "ichi",
+      "japanese": "いち",
+      "romaji": "ichi",
+      "english": "1",
+      "audio": "../audio/shared/numbers/ichi.mp3"
+    },
+    {
+      "id": "ni",
+      "japanese": "に",
+      "romaji": "ni",
+      "english": "2",
+      "audio": "../audio/shared/numbers/ni.mp3"
+    },
+    {
+      "id": "san",
+      "japanese": "さん",
+      "romaji": "san",
+      "english": "3",
+      "audio": "../audio/shared/numbers/san.mp3"
+    },
+    {
+      "id": "yon",
+      "japanese": "よん",
+      "romaji": "yon",
+      "english": "4",
+      "audio": "../audio/shared/numbers/yon.mp3"
+    },
+    {
+      "id": "go",
+      "japanese": "ご",
+      "romaji": "go",
+      "english": "5",
+      "audio": "../audio/shared/numbers/go.mp3"
+    },
+    {
+      "id": "roku",
+      "japanese": "ろく",
+      "romaji": "roku",
+      "english": "6",
+      "audio": "../audio/shared/numbers/roku.mp3"
+    },
+    {
+      "id": "nana",
+      "japanese": "なな",
+      "romaji": "nana",
+      "english": "7",
+      "audio": "../audio/shared/numbers/nana.mp3"
+    },
+    {
+      "id": "hachi",
+      "japanese": "はち",
+      "romaji": "hachi",
+      "english": "8",
+      "audio": "../audio/shared/numbers/hachi.mp3"
+    },
+    {
+      "id": "kyuu",
+      "japanese": "きゅう",
+      "romaji": "kyuu",
+      "english": "9",
+      "audio": "../audio/shared/numbers/kyuu.mp3"
+    },
+    {
+      "id": "juu",
+      "japanese": "じゅう",
+      "romaji": "juu",
+      "english": "10",
+      "audio": "../audio/shared/numbers/juu.mp3"
+    },
+    {
+      "id": "nijuu",
+      "japanese": "にじゅう",
+      "romaji": "nijuu",
+      "english": "20",
+      "audio": "../audio/shared/numbers/nijuu.mp3"
+    },
+    {
+      "id": "sanjuu",
+      "japanese": "さんじゅう",
+      "romaji": "sanjuu",
+      "english": "30",
+      "audio": "../audio/shared/numbers/sanjuu.mp3"
+    },
+    {
+      "id": "yonjuu",
+      "japanese": "よんじゅう",
+      "romaji": "yonjuu",
+      "english": "40",
+      "audio": "../audio/shared/numbers/yonjuu.mp3"
+    },
+    {
+      "id": "gojuu",
+      "japanese": "ごじゅう",
+      "romaji": "gojuu",
+      "english": "50",
+      "audio": "../audio/shared/numbers/gojuu.mp3"
+    },
+    {
+      "id": "rokujuu",
+      "japanese": "ろくじゅう",
+      "romaji": "rokujuu",
+      "english": "60",
+      "audio": "../audio/shared/numbers/rokujuu.mp3"
+    },
+    {
+      "id": "nanajuu",
+      "japanese": "ななじゅう",
+      "romaji": "nanajuu",
+      "english": "70",
+      "audio": "../audio/shared/numbers/nanajuu.mp3"
+    },
+    {
+      "id": "hachijuu",
+      "japanese": "はちじゅう",
+      "romaji": "hachijuu",
+      "english": "80",
+      "audio": "../audio/shared/numbers/hachijuu.mp3"
+    },
+    {
+      "id": "kyuujuu",
+      "japanese": "きゅうじゅう",
+      "romaji": "kyuujuu",
+      "english": "90",
+      "audio": "../audio/shared/numbers/kyuujuu.mp3"
+    },
+    {
+      "id": "hyaku",
+      "japanese": "ひゃく",
+      "romaji": "hyaku",
+      "english": "100",
+      "audio": "../audio/shared/numbers/hyaku.mp3"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "week_02/day_07_extra_words",
+  "kind": "text",
+  "title": "Day 7 Extra Words",
+  "context_blocks": [
+    {
+      "japanese": "ことば（言葉）",
+      "romaji": "kotoba",
+      "english": "words"
+    }
+  ],
+  "description": "Supplemental vocabulary from the Day 7 sheet, using local audio and reusing earlier lesson audio when the same word already exists.",
+  "learning_note": "Some repeated words reuse earlier cutout images and audio when the Day 7 cutout or audio folder intentionally omits them.",
+  "flashcards_title": "Day 7 Extra Words Flashcards",
+  "items": [
+    {
+      "id": "rainen",
+      "japanese": "らいねん",
+      "romaji": "rainen",
+      "english": "next year",
+      "audio": "../audio/vocabulary/week_02/day_07/rainen.m4a"
+    },
+    {
+      "id": "kyooto",
+      "japanese": "きょうと",
+      "romaji": "kyooto",
+      "english": "Kyoto",
+      "image": "../images/study/week_02/day_06/kyooto.png",
+      "audio": "../audio/vocabulary/week_02/day_06/kyooto.m4a"
+    },
+    {
+      "id": "raishuu",
+      "japanese": "らいしゅう",
+      "romaji": "raishuu",
+      "english": "next week",
+      "audio": "../audio/vocabulary/week_02/day_07/Raishuu.wav"
+    },
+    {
+      "id": "konban",
+      "japanese": "こんばん",
+      "romaji": "konban",
+      "english": "this evening",
+      "image": "../images/study/week_01/day_04/konban.png",
+      "audio": "../audio/vocabulary/week_02/day_07/konban.m4a"
+    },
+    {
+      "id": "kondo",
+      "japanese": "こんど",
+      "romaji": "kondo",
+      "english": "this time",
+      "audio": "../audio/vocabulary/week_02/day_07/kondo.m4a"
+    },
+    {
+      "id": "shimasu",
+      "japanese": "します",
+      "romaji": "shimasu",
+      "english": "to do",
+      "audio": "../audio/vocabulary/week_02/day_07/shimas.m4a"
+    },
+    {
+      "id": "haruyasumi",
+      "japanese": "はるやすみ",
+      "romaji": "haruyasumi",
+      "english": "spring vacation",
+      "image": "../images/study/week_02/day_06/haruyasmi.png",
+      "audio": "../audio/vocabulary/week_02/day_06/haruyasmi.m4a"
+    },
+    {
+      "id": "syuumatsu",
+      "japanese": "しゅうまつ",
+      "romaji": "syuumatsu",
+      "english": "weekend",
+      "audio": "../audio/vocabulary/week_02/day_07/syuumats.m4a"
+    },
+    {
+      "id": "shinjuku",
+      "japanese": "しんじゅく",
+      "romaji": "shinjuku",
+      "english": "Shinjuku (Tokyo district)",
+      "audio": "../audio/vocabulary/week_02/day_07/shinjuku.m4a"
+    },
+    {
+      "id": "ikimasu",
+      "japanese": "いきます",
+      "romaji": "ikimasu",
+      "english": "to go",
+      "image": "../images/study/week_02/day_06/ikimas.png",
+      "audio": "../audio/vocabulary/week_02/day_07/ikimas.m4a"
+    }
+  ]
+}

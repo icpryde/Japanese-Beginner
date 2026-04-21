@@ -1,0 +1,50 @@
+{
+  "12645335": [
+    "shared/basic_numbers",
+    "shared/large_numbers"
+  ],
+  "12645338": [
+    "week_01/day_01_vocabulary",
+    "shared/basic_numbers"
+  ],
+  "12645357": [
+    "week_01/day_02_vocabulary",
+    "week_01/day_02_numbers"
+  ],
+  "12645378": [
+    "week_01/day_03_vocabulary",
+    "week_01/day_03_large_numbers",
+    "week_01/day_03_floors",
+    "week_01/day_03_ikutsu"
+  ],
+  "12645382": [
+    "shared/floors"
+  ],
+  "12645386": [
+    "shared/large_numbers"
+  ],
+  "12645393": [
+    "shared/ikutsu"
+  ],
+  "12645400": [
+    "week_01/day_04_vocabulary"
+  ],
+  "12645419": [
+    "week_01/day_05_vocabulary",
+    "week_01/day_05_time_words",
+    "week_01/day_05_hours",
+    "week_01/day_05_minutes"
+  ],
+  "12645441": [
+    "week_02/day_06_vocabulary",
+    "week_02/day_06_time_words",
+    "week_02/day_06_days"
+  ],
+  "12645458": [
+    "week_02/day_07_vocabulary",
+    "week_02/day_07_extra_words",
+    "week_02/day_07_age",
+    "week_02/day_07_months",
+    "week_02/day_07_days_of_month"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "shared/ikutsu",
+  "kind": "text",
+  "title": "How Many Practice",
+  "description": "Shared ひとつ to とお quantity audio hosted in the app for repeat listening and quick review.",
+  "flashcards_title": "How Many Flashcards",
+  "items": [
+    {
+      "id": "hitotsu",
+      "japanese": "ひとつ",
+      "romaji": "hitotsu",
+      "english": "1 item",
+      "audio": "../audio/shared/ikutsu/hitotsu.mp3"
+    },
+    {
+      "id": "futatsu",
+      "japanese": "ふたつ",
+      "romaji": "futatsu",
+      "english": "2 items",
+      "audio": "../audio/shared/ikutsu/futatsu.m4a"
+    },
+    {
+      "id": "mittsu",
+      "japanese": "みっつ",
+      "romaji": "mittsu",
+      "english": "3 items",
+      "audio": "../audio/shared/ikutsu/mittsu.mp3"
+    },
+    {
+      "id": "yottsu",
+      "japanese": "よっつ",
+      "romaji": "yottsu",
+      "english": "4 items",
+      "audio": "../audio/shared/ikutsu/yottsu.mp3"
+    },
+    {
+      "id": "itsutsu",
+      "japanese": "いつつ",
+      "romaji": "itsutsu",
+      "english": "5 items",
+      "audio": "../audio/shared/ikutsu/itsutsu.mp3"
+    },
+    {
+      "id": "muttsu",
+      "japanese": "むっつ",
+      "romaji": "muttsu",
+      "english": "6 items",
+      "audio": "../audio/shared/ikutsu/muttsu.mp3"
+    },
+    {
+      "id": "nanatsu",
+      "japanese": "ななつ",
+      "romaji": "nanatsu",
+      "english": "7 items",
+      "audio": "../audio/shared/ikutsu/nanatsu.mp3"
+    },
+    {
+      "id": "yattsu",
+      "japanese": "やっつ",
+      "romaji": "yattsu",
+      "english": "8 items",
+      "audio": "../audio/shared/ikutsu/yattsu.mp3"
+    },
+    {
+      "id": "kokonotsu",
+      "japanese": "ここのつ",
+      "romaji": "kokonotsu",
+      "english": "9 items",
+      "audio": "../audio/shared/ikutsu/kokonotsu.mp3"
+    },
+    {
+      "id": "too",
+      "japanese": "とお",
+      "romaji": "too",
+      "english": "10 items",
+      "audio": "../audio/shared/ikutsu/too.m4a"
+    }
+  ]
+}

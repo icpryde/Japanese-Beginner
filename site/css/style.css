@@ -963,6 +963,316 @@ body {
   border-radius: var(--radius);
 }
 
+/* --- Study Decks --- */
+.study-section {
+  margin: 0 0 28px;
+  padding: 22px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: 0 12px 24px var(--shadow);
+}
+
+.study-section-header {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.study-section-context {
+  display: block;
+  padding: 10px 12px;
+  background: color-mix(in srgb, var(--bg-tertiary) 55%, var(--bg-secondary));
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: 12px;
+}
+
+.study-section-context-line,
+.study-item-line,
+.study-flashcard-answer,
+.study-section-context-japanese,
+.study-section-context-romaji,
+.study-section-context-english,
+.study-section-note {
+  margin: 0;
+}
+
+.study-section-context-line,
+.study-item-line,
+.study-flashcard-answer {
+  line-height: 1.6;
+}
+
+.study-section-context-line-japanese,
+.study-item-line-japanese,
+.study-flashcard-answer-japanese {
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+.study-section-context-line-romaji,
+.study-item-line-romaji,
+.study-flashcard-answer-romaji {
+  color: var(--text-secondary);
+}
+
+.study-section-context-line-divider,
+.study-item-line-divider,
+.study-flashcard-answer-divider {
+  color: var(--text-muted);
+}
+
+.study-section-context-line-english,
+.study-item-line-english {
+  color: var(--text-muted);
+}
+
+.study-flashcard-answer {
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+}
+
+.study-flashcard-answer-english {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.study-section-context-japanese {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.study-section-context-romaji {
+  color: var(--text-secondary);
+  font-size: 0.84rem;
+}
+
+.study-section-context-english {
+  color: var(--text-muted);
+  font-size: 0.84rem;
+}
+
+.study-section-header h2,
+.study-flashcards-header h3 {
+  margin: 0;
+}
+
+.study-section-description {
+  margin: 0;
+  color: var(--text-secondary);
+}
+
+.study-section-note {
+  color: var(--text-secondary);
+  font-size: 0.92rem;
+}
+
+.study-items {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.study-section-text .study-items {
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+}
+
+.study-item {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  min-height: 100%;
+  padding: 16px;
+  background: var(--bg-primary);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+}
+
+.study-item.is-text {
+  justify-content: space-between;
+}
+
+.study-item-media,
+.study-flashcard-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: var(--bg-secondary);
+  border-radius: 12px;
+}
+
+.study-item-media {
+  aspect-ratio: 4 / 3;
+}
+
+.study-flashcard-media {
+  width: min(100%, 260px);
+  aspect-ratio: 4 / 3;
+}
+
+.study-item-media img,
+.study-flashcard-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  margin: 0;
+}
+
+.study-item-copy {
+  display: grid;
+  gap: 6px;
+  text-align: center;
+}
+
+.study-item-line {
+  font-size: 1rem;
+}
+
+.study-item-japanese,
+.study-flashcard-japanese {
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.study-item-japanese {
+  font-size: 1.35rem;
+}
+
+.study-flashcard-japanese {
+  font-size: clamp(1.65rem, 3vw, 2.15rem);
+}
+
+.study-item-romaji,
+.study-flashcard-romaji {
+  margin: 0;
+  color: var(--text-secondary);
+}
+
+.study-item-english,
+.study-flashcard-english {
+  margin: 0;
+  color: var(--text-muted);
+}
+
+.study-flashcard-english {
+  color: var(--text-primary);
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.study-item-actions {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.study-audio-btn,
+.study-flashcard-btn {
+  appearance: none;
+  border: none;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  font-family: var(--font-sans);
+  font-size: 0.86rem;
+  font-weight: 600;
+  line-height: 1.2;
+  padding: 10px 16px;
+  transition: transform var(--transition), box-shadow var(--transition), background var(--transition), opacity var(--transition);
+  box-shadow: 0 10px 24px color-mix(in srgb, var(--accent) 22%, transparent);
+}
+
+.study-audio-btn:hover,
+.study-flashcard-btn:hover {
+  background: var(--accent-hover);
+  transform: translateY(-1px);
+}
+
+.study-audio-btn:disabled,
+.study-flashcard-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+  transform: none;
+  box-shadow: none;
+}
+
+.study-audio-btn.is-playing,
+.study-flashcard-btn.is-playing {
+  background: var(--accent-hover);
+}
+
+.study-flashcards {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+}
+
+.study-flashcards-header {
+  margin-bottom: 12px;
+}
+
+.study-flashcards-viewport {
+  min-height: 320px;
+}
+
+.study-flashcard {
+  display: none;
+  min-height: 320px;
+  padding: 24px;
+  background:
+    radial-gradient(circle at top right, color-mix(in srgb, var(--accent) 10%, transparent), transparent 42%),
+    linear-gradient(180deg, color-mix(in srgb, var(--bg-tertiary) 70%, var(--bg-secondary)), var(--bg-secondary));
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  box-shadow: inset 0 1px 0 color-mix(in srgb, #ffffff 20%, transparent);
+}
+
+.study-flashcard.is-active {
+  display: grid;
+  align-content: center;
+}
+
+.study-flashcard-face {
+  display: grid;
+  gap: 14px;
+  justify-items: center;
+  text-align: center;
+}
+
+.study-flashcard-face[hidden] {
+  display: none;
+}
+
+.study-flashcard-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 14px;
+}
+
+.study-flashcard-counter {
+  color: var(--text-secondary);
+  font-size: 0.92rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.study-flashcard-btn[data-study-reveal] {
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
+  box-shadow: none;
+}
+
+.study-flashcard-btn[data-study-reveal]:hover {
+  background: color-mix(in srgb, var(--bg-tertiary) 80%, var(--accent-light));
+}
+
 /* --- Downloads --- */
 .lesson-downloads {
   margin-bottom: 32px;
@@ -1819,6 +2129,27 @@ body {
     flex-direction: column;
   }
 
+  .study-section {
+    padding: 18px;
+  }
+
+  .study-items {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .study-section-text .study-items {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .study-flashcard-controls {
+    justify-content: stretch;
+  }
+
+  .study-flashcard-counter {
+    width: 100%;
+    text-align: center;
+  }
+
   .worksheet-card {
     flex-direction: column;
     align-items: flex-start;
@@ -1832,6 +2163,30 @@ body {
 
   .lesson-header h1 {
     font-size: 1.2rem;
+  }
+
+  .study-items,
+  .study-section-text .study-items {
+    grid-template-columns: 1fr;
+  }
+
+  .study-flashcard {
+    min-height: 280px;
+    padding: 18px;
+  }
+
+  .study-flashcards-viewport {
+    min-height: 280px;
+  }
+
+  .study-audio-btn,
+  .study-flashcard-btn {
+    width: 100%;
+  }
+
+  .study-flashcard-controls {
+    flex-direction: column;
+    align-items: stretch;
   }
 }
 

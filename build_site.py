@@ -8,6 +8,7 @@ importer and generates a modern PWA study site in the site/ directory.
 import json
 import re
 import shutil
+from html import escape
 from pathlib import Path
 from collections import OrderedDict
 from datetime import datetime, timezone
@@ -20,6 +21,9 @@ PROJECT_ROOT = Path(__file__).parent
 CONTENT_DIR = PROJECT_ROOT / "content"
 LESSONS_DIR = CONTENT_DIR / "lessons"
 MANIFEST_PATH = CONTENT_DIR / "manifest.json"
+STUDY_DIR = CONTENT_DIR / "study"
+STUDY_DECKS_DIR = STUDY_DIR / "decks"
+STUDY_MAP_PATH = STUDY_DIR / "lesson_study_map.json"
 SITE_DIR = PROJECT_ROOT / "site"
 
 
@@ -134,8 +138,274 @@ def normalize_vocabulary_image_layout(html: str, lesson_title: str) -> str:
 
   return str(soup) if changed else html
 
-def build_course_structure(manifest: dict) -> dict:
+
+def strip_study_slide_images(html: str) -> str:
+  """Remove legacy vocabulary slide image blocks when a study deck replaces them."""
+  if not html:
+    return html
+
+  soup = BeautifulSoup(html, "html.parser")
+  changed = False
+
+  for para in list(soup.find_all("p")):
+    imgs = para.find_all("img")
+    if not imgs:
+      continue
+
+    if all("vocabulary_day_" in img.get("src", "").lower() for img in imgs):
+      para.decompose()
+      changed = True
+
+  for para in list(soup.find_all("p")):
+    if para.find(["img", "iframe", "audio", "video"]):
+      continue
+    if para.get_text(" ", strip=True):
+      continue
+    para.decompose()
+    changed = True
+
+  return str(soup) if changed else html
+
+
+def load_study_library() -> tuple[dict, dict]:
+  """Load lesson-to-deck mappings and cached deck manifests."""
+  if not STUDY_MAP_PATH.exists():
+    return {}, {}
+
+  with open(STUDY_MAP_PATH, encoding="utf-8") as f:
+    raw_map = json.load(f)
+
+  study_map = {}
+  deck_ids = set()
+  for lesson_id, deck_list in raw_map.items():
+    ids = [str(deck_id) for deck_id in deck_list if str(deck_id).strip()]
+    if not ids:
+      continue
+    study_map[str(lesson_id)] = ids
+    deck_ids.update(ids)
+
+  deck_cache = {}
+  for deck_id in sorted(deck_ids):
+    deck_path = STUDY_DECKS_DIR / f"{deck_id}.json"
+    if not deck_path.exists():
+      print(f"  Warning: Study deck not found for '{deck_id}': {deck_path}")
+      continue
+    with open(deck_path, encoding="utf-8") as f:
+      deck_cache[deck_id] = json.load(f)
+
+  return study_map, deck_cache
+
+
+def render_compact_study_line(japanese: str, romaji: str, english: str, line_class: str) -> str:
+  """Render Japanese, romaji, and English as one compact line."""
+  pieces = []
+
+  if japanese:
+    pieces.append(
+      f'<span class="{line_class}-japanese">{escape(japanese)}</span>'
+    )
+
+  if romaji:
+    romaji_text = f'({escape(romaji)})' if japanese else escape(romaji)
+    pieces.append(
+      f'<span class="{line_class}-romaji">{romaji_text}</span>'
+    )
+
+  if english:
+    if japanese or romaji:
+      pieces.append(f'<span class="{line_class}-divider">-</span>')
+    pieces.append(
+      f'<span class="{line_class}-english">{escape(english)}</span>'
+    )
+
+  if not pieces:
+    return ""
+
+  return f'<p class="{line_class}">{" ".join(pieces)}</p>'
+
+
+def render_study_item(item: dict, deck_kind: str) -> str:
+  """Render a single study card or row."""
+  item_classes = ["study-item"]
+  if item.get("image"):
+    item_classes.append("has-image")
+  if deck_kind == "text":
+    item_classes.append("is-text")
+
+  media_html = ""
+  if item.get("image"):
+    media_html = (
+      '<div class="study-item-media">'
+      f'<img src="{escape(item["image"], quote=True)}" '
+      f'alt="{escape(item.get("alt", item.get("english", item.get("japanese", "Study item"))), quote=True)}" '
+      'loading="lazy">'
+      '</div>'
+    )
+
+  audio_html = ""
+  if item.get("audio"):
+    label = item.get("japanese") or item.get("english") or item.get("romaji") or "this item"
+    audio_html = (
+      '<div class="study-item-actions">'
+      f'<button type="button" class="study-audio-btn" data-study-audio-src="{escape(item["audio"], quote=True)}" '
+      f'aria-label="Play audio for {escape(label, quote=True)}">Play Audio</button>'
+      '</div>'
+    )
+
+  copy_html = render_compact_study_line(
+    item.get("japanese", ""),
+    item.get("romaji", ""),
+    item.get("english", ""),
+    "study-item-line",
+  )
+
+  return (
+    f'<article class="{" ".join(item_classes)}">'
+    f'{media_html}'
+    '<div class="study-item-copy">'
+    f'{copy_html}'
+    '</div>'
+    f'{audio_html}'
+    '</article>'
+  )
+
+
+def render_flashcards(deck: dict) -> str:
+  """Render a static flashcard shell that JS can enhance later."""
+  items = deck.get("items", [])
+  if not items:
+    return ""
+
+  cards = []
+  for index, item in enumerate(items):
+    card_classes = ["study-flashcard"]
+    if index == 0:
+      card_classes.append("is-active")
+
+    card_attrs = [
+      'data-study-card',
+      f'data-card-index="{index}"',
+    ]
+    if item.get("audio"):
+      card_attrs.append(
+        f'data-study-audio-src="{escape(item["audio"], quote=True)}"'
+      )
+
+    front_media = ""
+    if item.get("image"):
+      front_media = (
+        '<div class="study-flashcard-media">'
+        f'<img src="{escape(item["image"], quote=True)}" '
+        f'alt="{escape(item.get("alt", item.get("english", item.get("japanese", "Study item"))), quote=True)}" '
+        'loading="lazy">'
+        '</div>'
+      )
+
+    answer_html = render_compact_study_line(
+      item.get("japanese", ""),
+      item.get("romaji", ""),
+      item.get("english", ""),
+      "study-flashcard-answer",
+    )
+
+    cards.append(
+      f'<article class="{" ".join(card_classes)}" {" ".join(card_attrs)}>'
+      '<div class="study-flashcard-face study-flashcard-front">'
+      f'{front_media}'
+      f'<p class="study-flashcard-japanese">{escape(item.get("japanese", ""))}</p>'
+      '</div>'
+      '<div class="study-flashcard-face study-flashcard-back" hidden>'
+      f'{answer_html}'
+      '</div>'
+      '</article>'
+    )
+
+  controls = (
+    '<div class="study-flashcard-controls">'
+    '<button type="button" class="study-flashcard-btn" data-study-prev>Previous</button>'
+    '<button type="button" class="study-flashcard-btn" data-study-reveal>Reveal Answer</button>'
+    '<button type="button" class="study-flashcard-btn" data-study-play-current>Play Audio</button>'
+    '<button type="button" class="study-flashcard-btn" data-study-next>Next</button>'
+    f'<span class="study-flashcard-counter" data-study-counter>1 / {len(items)}</span>'
+    '</div>'
+  )
+
+  return (
+    f'<section class="study-flashcards" data-study-flashcards data-study-deck-id="{escape(deck.get("id", ""), quote=True)}">'
+    f'<div class="study-flashcards-header"><h3>{escape(deck.get("flashcards_title", "Flashcards"))}</h3></div>'
+    f'<div class="study-flashcards-viewport">{"".join(cards)}</div>'
+    f'{controls}'
+    '</section>'
+  )
+
+
+def render_study_context_blocks(deck: dict) -> str:
+  """Render optional contextual study header blocks from deck metadata."""
+  rendered_blocks = []
+
+  for block in deck.get("context_blocks", []):
+    if not isinstance(block, dict):
+      continue
+
+    line_html = render_compact_study_line(
+      block.get("japanese", ""),
+      block.get("romaji", ""),
+      block.get("english", ""),
+      "study-section-context-line",
+    )
+
+    if line_html:
+      rendered_blocks.append(
+        f'<div class="study-section-context">{line_html}</div>'
+      )
+
+  return "".join(rendered_blocks)
+
+
+def render_study_deck(deck: dict) -> str:
+  """Render a full study section for one deck."""
+  items = deck.get("items", [])
+  if not items:
+    return ""
+
+  deck_kind = str(deck.get("kind", "text")).lower()
+  section_classes = ["study-section", f"study-section-{deck_kind}"]
+  item_html = "".join(render_study_item(item, deck_kind) for item in items)
+  flashcards_html = render_flashcards(deck)
+  context_blocks_html = render_study_context_blocks(deck)
+  description = deck.get("description", "")
+  description_html = f'<p class="study-section-description">{escape(description)}</p>' if description else ""
+  learning_note = deck.get("learning_note", "")
+  learning_note_html = f'<p class="study-section-note">{escape(learning_note)}</p>' if learning_note else ""
+
+  return (
+    f'<section class="{" ".join(section_classes)}" data-study-deck="{escape(deck.get("id", ""), quote=True)}">'
+    '<div class="study-section-header">'
+    f'{context_blocks_html}'
+    f'<h2>{escape(deck.get("title", "Study"))}</h2>'
+    f'{description_html}'
+    f'{learning_note_html}'
+    '</div>'
+    f'<div class="study-items">{item_html}</div>'
+    f'{flashcards_html}'
+    '</section>'
+  )
+
+
+def render_study_html(deck_ids: list[str], deck_cache: dict) -> str:
+  """Render the combined study HTML for one lesson."""
+  sections = []
+  for deck_id in deck_ids:
+    deck = deck_cache.get(deck_id)
+    if not deck:
+      continue
+    sections.append(render_study_deck(deck))
+  return "".join(sections)
+
+def build_course_structure(manifest: dict, study_map: dict | None = None, deck_cache: dict | None = None) -> dict:
     """Organize flat lesson list into a hierarchical structure."""
+    study_map = study_map or {}
+    deck_cache = deck_cache or {}
     structure = OrderedDict()
     structure["intro"] = {
         "title": "Course Introduction",
@@ -161,6 +431,20 @@ def build_course_structure(manifest: dict) -> dict:
         else:
             data = {}
 
+        lesson_html = normalize_vocabulary_image_layout(
+          strip_redundant_vocabulary_label(
+            strip_srcset(rewrite_internal_lesson_links(normalize_embedded_asset_paths(data.get("html", "")))),
+            title,
+          ),
+          title,
+        )
+
+        study_html = ""
+        mapped_decks = study_map.get(str(lid), [])
+        if mapped_decks:
+            lesson_html = strip_study_slide_images(lesson_html)
+            study_html = render_study_html(mapped_decks, deck_cache)
+
         lesson_entry = {
             "id": lid,
             "title": title,
@@ -169,13 +453,8 @@ def build_course_structure(manifest: dict) -> dict:
             "section_type": section_type,
             "week": week,
             "day": day,
-            "html": normalize_vocabulary_image_layout(
-              strip_redundant_vocabulary_label(
-                strip_srcset(rewrite_internal_lesson_links(normalize_embedded_asset_paths(data.get("html", "")))),
-                title,
-              ),
-              title,
-            ),
+            "html": lesson_html,
+            "study_html": study_html,
             "videos": data.get("videos", []),
             "downloads": [
                 {**dl, "title": clean_download_title(dl, title)}
@@ -548,6 +827,9 @@ LESSON_CONTENT = r"""
   </div>
 
   <div class="lesson-body">
+    {% if lesson.study_html %}
+    {{ lesson.study_html | safe }}
+    {% endif %}
     {% if lesson.html %}
     {{ lesson.html | safe }}
     {% else %}
@@ -1583,7 +1865,11 @@ def generate_site():
     with open(MANIFEST_PATH) as f:
         manifest = json.load(f)
 
-    structure = build_course_structure(manifest)
+    study_map, study_decks = load_study_library()
+    if study_decks:
+        print(f"  Loaded {len(study_decks)} study decks for {len(study_map)} mapped lesson(s)")
+
+    structure = build_course_structure(manifest, study_map=study_map, deck_cache=study_decks)
     ordered_lessons = collect_ordered_lessons(structure)
     downloads = collect_all_downloads(structure)
     total_lessons = len(ordered_lessons)
@@ -1636,10 +1922,9 @@ def generate_site():
     audio_src = CONTENT_DIR / "audio"
     audio_dst = SITE_DIR / "audio"
     if audio_src.exists() and any(audio_src.iterdir()):
-      audio_dst.mkdir(exist_ok=True)
-      for f in audio_src.iterdir():
-        if f.is_file():
-          shutil.copy2(f, audio_dst / f.name)
+      if audio_dst.exists():
+        shutil.rmtree(audio_dst)
+      shutil.copytree(audio_src, audio_dst)
 
     build_id = datetime.now(timezone.utc).strftime("%Y%m%d%H%M%S")
 

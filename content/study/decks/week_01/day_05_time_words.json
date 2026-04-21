@@ -1,0 +1,73 @@
+{
+  "id": "week_01/day_05_time_words",
+  "kind": "text",
+  "title": "Day 5 Time Words",
+  "context_blocks": [
+    {
+      "japanese": "ことば（言葉）",
+      "romaji": "kotoba",
+      "english": "words"
+    }
+  ],
+  "description": "Additional time-related vocabulary from the Day 5 source sheet, using hosted audio for review.",
+  "learning_note": "Use these words to talk about when something happens, such as yesterday, this week, or around a certain time.",
+  "flashcards_title": "Day 5 Time Words Flashcards",
+  "items": [
+    {
+      "id": "raishuu",
+      "japanese": "らいしゅう",
+      "romaji": "raishuu",
+      "english": "next week",
+      "audio": "../audio/vocabulary/week_01/day_05/raishuu.wav"
+    },
+    {
+      "id": "goro",
+      "japanese": "〜ごろ",
+      "romaji": "goro",
+      "english": "around",
+      "audio": "../audio/vocabulary/week_01/day_05/goro.wav"
+    },
+    {
+      "id": "kinoo",
+      "japanese": "きのう",
+      "romaji": "kinoo",
+      "english": "yesterday",
+      "audio": "../audio/vocabulary/week_01/day_05/kinoo.wav"
+    },
+    {
+      "id": "kesa",
+      "japanese": "けさ",
+      "romaji": "kesa",
+      "english": "this morning",
+      "audio": "../audio/vocabulary/week_01/day_05/kesa.wav"
+    },
+    {
+      "id": "ototoi",
+      "japanese": "おととい",
+      "romaji": "ototoi",
+      "english": "day before yesterday",
+      "audio": "../audio/vocabulary/week_01/day_05/ototoi.wav"
+    },
+    {
+      "id": "senshuu",
+      "japanese": "せんしゅう",
+      "romaji": "senshuu",
+      "english": "last week",
+      "audio": "../audio/vocabulary/week_01/day_05/senshuu.wav"
+    },
+    {
+      "id": "konshuu",
+      "japanese": "こんしゅう",
+      "romaji": "konshuu",
+      "english": "this week",
+      "audio": "../audio/vocabulary/week_01/day_05/konshuu.wav"
+    },
+    {
+      "id": "maishuu",
+      "japanese": "まいしゅう",
+      "romaji": "maishuu",
+      "english": "every week",
+      "audio": "../audio/vocabulary/week_01/day_05/maishuu.wav"
+    }
+  ]
+}

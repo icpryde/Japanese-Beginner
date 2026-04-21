@@ -1,0 +1,157 @@
+{
+  "id": "week_02/day_07_age",
+  "kind": "text",
+  "title": "Day 7 Age",
+  "context_blocks": [
+    {
+      "japanese": "【おいくつですか。（なんさいですか。）】",
+      "romaji": "Oikutsu desu ka? (Nansai desu ka?)",
+      "english": "How old are you?"
+    }
+  ],
+  "description": "Age words from the Day 7 sheet.",
+  "learning_note": "The original export did not include the individual age clips, so these pronunciations were generated locally with the macOS Japanese voice.",
+  "flashcards_title": "Day 7 Age Flashcards",
+  "items": [
+    {
+      "id": "issai",
+      "japanese": "いっさい",
+      "romaji": "issai",
+      "english": "1 year old",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/age/issai.m4a"
+    },
+    {
+      "id": "nisai",
+      "japanese": "にさい",
+      "romaji": "nisai",
+      "english": "2 years old",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/age/nisai.m4a"
+    },
+    {
+      "id": "sansai",
+      "japanese": "さんさい",
+      "romaji": "sansai",
+      "english": "3 years old",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/age/sansai.m4a"
+    },
+    {
+      "id": "yonsai",
+      "japanese": "よんさい",
+      "romaji": "yonsai",
+      "english": "4 years old",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/age/yonsai.m4a"
+    },
+    {
+      "id": "gosai",
+      "japanese": "ごさい",
+      "romaji": "gosai",
+      "english": "5 years old",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/age/gosai.m4a"
+    },
+    {
+      "id": "rokusai",
+      "japanese": "ろくさい",
+      "romaji": "rokusai",
+      "english": "6 years old",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/age/rokusai.m4a"
+    },
+    {
+      "id": "nanasai",
+      "japanese": "ななさい",
+      "romaji": "nanasai",
+      "english": "7 years old",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/age/nanasai.m4a"
+    },
+    {
+      "id": "hassai",
+      "japanese": "はっさい",
+      "romaji": "hassai",
+      "english": "8 years old",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/age/hassai.m4a"
+    },
+    {
+      "id": "kyuusai",
+      "japanese": "きゅうさい",
+      "romaji": "kyuusai",
+      "english": "9 years old",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/age/kyuusai.m4a"
+    },
+    {
+      "id": "jussai",
+      "japanese": "じゅっさい",
+      "romaji": "jussai",
+      "english": "10 years old",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/age/jussai.m4a"
+    },
+    {
+      "id": "hatachi",
+      "japanese": "はたち",
+      "romaji": "hatachi",
+      "english": "20 years old",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/age/hatachi.m4a"
+    },
+    {
+      "id": "nijuunisai",
+      "japanese": "にじゅうにさい",
+      "romaji": "nijuunisai",
+      "english": "22 years old",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/age/nijuunisai.m4a"
+    },
+    {
+      "id": "sanjuusansai",
+      "japanese": "さんじゅうさんさい",
+      "romaji": "sanjuusansai",
+      "english": "33 years old",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/age/sanjuusansai.m4a"
+    },
+    {
+      "id": "yonjuuyonsai",
+      "japanese": "よんじゅうよんさい",
+      "romaji": "yonjuuyonsai",
+      "english": "44 years old",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/age/yonjuuyonsai.m4a"
+    },
+    {
+      "id": "gojuugosai",
+      "japanese": "ごじゅうごさい",
+      "romaji": "gojuugosai",
+      "english": "55 years old",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/age/gojuugosai.m4a"
+    },
+    {
+      "id": "rokujuurokusai",
+      "japanese": "ろくじゅうろくさい",
+      "romaji": "rokujuurokusai",
+      "english": "66 years old",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/age/rokujuurokusai.m4a"
+    },
+    {
+      "id": "nanajuunanasai",
+      "japanese": "ななじゅうななさい",
+      "romaji": "nanajuunanasai",
+      "english": "77 years old",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/age/nanajuunanasai.m4a"
+    },
+    {
+      "id": "hachijuuhassai",
+      "japanese": "はちじゅうはっさい",
+      "romaji": "hachijuuhassai",
+      "english": "88 years old",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/age/hachijuuhassai.m4a"
+    },
+    {
+      "id": "kyuujuukyuusai",
+      "japanese": "きゅうじゅうきゅうさい",
+      "romaji": "kyuujuukyuusai",
+      "english": "99 years old",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/age/kyuujuukyuusai.m4a"
+    },
+    {
+      "id": "hyakusai",
+      "japanese": "ひゃくさい",
+      "romaji": "hyakusai",
+      "english": "100 years old",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/age/hyakusai.m4a"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "week_01/day_01_vocabulary",
+  "kind": "image",
+  "title": "Day 1 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with hosted audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 1 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "daigaku",
+      "japanese": "だいがく",
+      "romaji": "daigaku",
+      "english": "university",
+      "image": "../images/study/week_01/day_01/daigaku.png",
+      "audio": "../audio/vocabulary/week_01/day_01/daigaku.wav",
+      "alt": "University building"
+    },
+    {
+      "id": "daigakuinsei",
+      "japanese": "だいがくいんせい",
+      "romaji": "daigakuinsei",
+      "english": "graduate student",
+      "image": "../images/study/week_01/day_01/daigakuinsei.png",
+      "audio": "../audio/vocabulary/week_01/day_01/daigakuinsei.wav",
+      "alt": "Graduate student"
+    },
+    {
+      "id": "gakusei",
+      "japanese": "がくせい",
+      "romaji": "gakusei",
+      "english": "student",
+      "image": "../images/study/week_01/day_01/gakusei.png",
+      "audio": "../audio/vocabulary/week_01/day_01/gakusei.wav",
+      "alt": "Student at a desk"
+    },
+    {
+      "id": "koocha",
+      "japanese": "こうちゃ",
+      "romaji": "koocha",
+      "english": "black tea",
+      "image": "../images/study/week_01/day_01/koocha.png",
+      "audio": "../audio/vocabulary/week_01/day_01/koocha.wav",
+      "alt": "Cup of black tea"
+    },
+    {
+      "id": "koohii",
+      "japanese": "コーヒー",
+      "romaji": "koohii",
+      "english": "coffee",
+      "image": "../images/study/week_01/day_01/koohii.png",
+      "audio": "../audio/vocabulary/week_01/day_01/koohii.wav",
+      "alt": "Cup of coffee"
+    },
+    {
+      "id": "nihongo",
+      "japanese": "にほんご",
+      "romaji": "nihongo",
+      "english": "Japanese language",
+      "image": "../images/study/week_01/day_01/nihongo.png",
+      "audio": "../audio/vocabulary/week_01/day_01/nihongo.wav",
+      "alt": "Person studying Japanese"
+    },
+    {
+      "id": "omuraisu",
+      "japanese": "オムライス",
+      "romaji": "omuraisu",
+      "english": "omelette rice",
+      "image": "../images/study/week_01/day_01/omuraisu.png",
+      "audio": "../audio/vocabulary/week_01/day_01/omuraisu.wav",
+      "alt": "Plate of omelette rice"
+    },
+    {
+      "id": "omuretsu",
+      "japanese": "オムレツ",
+      "romaji": "omuretsu",
+      "english": "omelette",
+      "image": "../images/study/week_01/day_01/omuretsu.png",
+      "audio": "../audio/vocabulary/week_01/day_01/omuretsu.wav",
+      "alt": "Plate with an omelette"
+    },
+    {
+      "id": "oosaka",
+      "japanese": "おおさか",
+      "romaji": "oosaka",
+      "english": "Osaka",
+      "image": "../images/study/week_01/day_01/oosaka.png",
+      "audio": "../audio/vocabulary/week_01/day_01/oosaka.wav",
+      "alt": "Osaka landmarks"
+    },
+    {
+      "id": "rosenzu",
+      "japanese": "ろせんず",
+      "romaji": "rosenzu",
+      "english": "route map",
+      "image": "../images/study/week_01/day_01/rosenzu.png",
+      "audio": "../audio/vocabulary/week_01/day_01/rosenzu.wav",
+      "alt": "Transit route map"
+    },
+    {
+      "id": "senmon",
+      "japanese": "せんもん",
+      "romaji": "senmon",
+      "english": "major",
+      "image": "../images/study/week_01/day_01/senmon.png",
+      "audio": "../audio/vocabulary/week_01/day_01/senmon.wav",
+      "alt": "School subject icons"
+    },
+    {
+      "id": "tokyo",
+      "japanese": "とうきょう",
+      "romaji": "tokyo",
+      "english": "Tokyo",
+      "image": "../images/study/week_01/day_01/tokyo.png",
+      "audio": "../audio/vocabulary/week_01/day_01/tokyo.wav",
+      "alt": "Tokyo landmarks"
+    }
+  ]
+}
