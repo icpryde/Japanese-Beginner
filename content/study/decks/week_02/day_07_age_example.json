@@ -1,0 +1,24 @@
+{
+  "id": "week_02/day_07_age_example",
+  "kind": "text",
+  "title": "Day 7 Age Example",
+  "description": "Special reading and model sentence from the Day 7 sheet.",
+  "learning_note": "20さい is read as はたち.",
+  "show_flashcards": false,
+  "items": [
+    {
+      "id": "twenty_special_reading",
+      "japanese": "20さい = はたち",
+      "romaji": "hatachi",
+      "english": "20 years old",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/age/hatachi.m4a"
+    },
+    {
+      "id": "watashi_wa_hatachi_desu",
+      "japanese": "わたしは はたち です。",
+      "romaji": "watashi wa hatachi desu.",
+      "english": "I am 20 years old.",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/examples/watashi_wa_hatachi_desu.m4a"
+    }
+  ]
+}

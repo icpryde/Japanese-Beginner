@@ -1,0 +1,23 @@
+{
+  "id": "week_02/day_07_date_example",
+  "kind": "text",
+  "title": "Day 7 Date Example",
+  "context_blocks": [
+    {
+      "japanese": "日付",
+      "romaji": "hizuke",
+      "english": "Date"
+    }
+  ],
+  "description": "Example sentence from the Day 7 sheet showing how to say a full date.",
+  "show_flashcards": false,
+  "items": [
+    {
+      "id": "kyou_wa_2020nen_4gatsu_21nichi_kayoubi_desu",
+      "japanese": "きょうは 2020ねん 4がつ 21にち かようび です。",
+      "romaji": "kyou wa nisen nijuu nen shigatsu nijuuichi nichi kayoubi desu.",
+      "english": "Today is Tuesday, 21st of April 2020.",
+      "audio": "../audio/vocabulary/week_02/day_07/generated/examples/kyou_wa_2020nen_4gatsu_21nichi_kayoubi_desu.m4a"
+    }
+  ]
+}

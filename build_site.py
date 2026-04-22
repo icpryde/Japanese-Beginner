@@ -371,7 +371,7 @@ def render_study_deck(deck: dict) -> str:
   deck_kind = str(deck.get("kind", "text")).lower()
   section_classes = ["study-section", f"study-section-{deck_kind}"]
   item_html = "".join(render_study_item(item, deck_kind) for item in items)
-  flashcards_html = render_flashcards(deck)
+  flashcards_html = render_flashcards(deck) if deck.get("show_flashcards", True) else ""
   context_blocks_html = render_study_context_blocks(deck)
   description = deck.get("description", "")
   description_html = f'<p class="study-section-description">{escape(description)}</p>' if description else ""
