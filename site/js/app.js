@@ -2142,10 +2142,24 @@
   // Service Worker Registration
   // ═══════════════════════════════════════════
   function registerSW() {
-    if ('serviceWorker' in navigator) {
-      const root = window.location.pathname.includes('/lessons/') ? '../' : '';
-      navigator.serviceWorker.register(root + 'sw.js').catch(() => {});
+    if (!('serviceWorker' in navigator)) return;
+
+    const hostname = window.location.hostname;
+    const isLocalDev =
+      hostname === 'localhost' ||
+      hostname === '127.0.0.1' ||
+      hostname === '::1';
+
+    if (isLocalDev) {
+      // Avoid stale-cache confusion during local development.
+      navigator.serviceWorker.getRegistrations()
+        .then((registrations) => Promise.all(registrations.map((r) => r.unregister())))
+        .catch(() => {});
+      return;
     }
+
+    const root = window.location.pathname.includes('/lessons/') ? '../' : '';
+    navigator.serviceWorker.register(root + 'sw.js').catch(() => {});
   }
 
   // ═══════════════════════════════════════════
