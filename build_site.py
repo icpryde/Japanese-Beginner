@@ -1881,6 +1881,8 @@ def generate_site():
 
     SITE_DIR.mkdir(parents=True, exist_ok=True)
     lessons_out = SITE_DIR / "lessons"
+    if lessons_out.exists():
+      shutil.rmtree(lessons_out)
     lessons_out.mkdir(exist_ok=True)
 
     # Copy static assets

@@ -2,7 +2,7 @@
   "course_name": "Akamonkai 12-Week Beginner Course",
   "imported_at": "2026-04-02T09:29:37.535648+00:00",
   "source": "/Users/kurisu/Documents/AI Apps/Akamonkai Japanese 12 Week Beginner Course - content",
-  "total_lessons": 1207,
+  "total_lessons": 1216,
   "sections": [
     {
       "order": 1,
@@ -146,7 +146,7 @@
       "section_type": "day",
       "week": 4,
       "day": 16,
-      "lesson_count": 24
+      "lesson_count": 26
     },
     {
       "order": 19,
@@ -154,7 +154,7 @@
       "section_type": "day",
       "week": 4,
       "day": 17,
-      "lesson_count": 26
+      "lesson_count": 29
     },
     {
       "order": 20,
@@ -162,7 +162,7 @@
       "section_type": "day",
       "week": 4,
       "day": 18,
-      "lesson_count": 15
+      "lesson_count": 16
     },
     {
       "order": 21,
@@ -170,7 +170,7 @@
       "section_type": "day",
       "week": 4,
       "day": 19,
-      "lesson_count": 22
+      "lesson_count": 24
     },
     {
       "order": 22,
@@ -178,7 +178,7 @@
       "section_type": "day",
       "week": 4,
       "day": 20,
-      "lesson_count": 17
+      "lesson_count": 18
     },
     {
       "order": 23,
@@ -3588,8 +3588,17 @@
       "day": 16
     },
     {
-      "id": "gs_placeholder_d16",
-      "title": "Day 16 - Grammar Slides (Placeholder)",
+      "id": "gs_w03_d16_l01_p1",
+      "title": "Day 16 Lesson 1 - Grammar Slides Part 1",
+      "type": "reference",
+      "section": "Week 4 - Day 16",
+      "section_type": "day",
+      "week": 4,
+      "day": 16
+    },
+    {
+      "id": "gs_w03_d16_l01_p2",
+      "title": "Day 16 Lesson 1 - Grammar Slides Part 2",
       "type": "reference",
       "section": "Week 4 - Day 16",
       "section_type": "day",
@@ -3663,6 +3672,15 @@
       "id": "13242882",
       "title": "Day 16 Lesson 2 ( Video )Asking about the new room someone has moved to",
       "type": "video",
+      "section": "Week 4 - Day 16",
+      "section_type": "day",
+      "week": 4,
+      "day": 16
+    },
+    {
+      "id": "gs_w03_d16_l02",
+      "title": "Day 16 Lesson 2 - Grammar Slides",
+      "type": "reference",
       "section": "Week 4 - Day 16",
       "section_type": "day",
       "week": 4,
@@ -3777,8 +3795,8 @@
       "day": 17
     },
     {
-      "id": "gs_placeholder_d17",
-      "title": "Day 17 - Grammar Slides (Placeholder)",
+      "id": "gs_w03_d17_l01",
+      "title": "Day 17 Lesson 1 - Grammar Slides",
       "type": "reference",
       "section": "Week 4 - Day 17",
       "section_type": "day",
@@ -3840,6 +3858,15 @@
       "day": 17
     },
     {
+      "id": "gs_w03_d17_l02",
+      "title": "Day 17 Lesson 2 - Grammar Slides",
+      "type": "reference",
+      "section": "Week 4 - Day 17",
+      "section_type": "day",
+      "week": 4,
+      "day": 17
+    },
+    {
       "id": "13244991",
       "title": "Day 17 Lesson 2 - Video Repetition",
       "type": "video",
@@ -3870,6 +3897,15 @@
       "id": "13245130",
       "title": "Day 17 Lesson 3 ( Video )Asking how much time something took",
       "type": "video",
+      "section": "Week 4 - Day 17",
+      "section_type": "day",
+      "week": 4,
+      "day": 17
+    },
+    {
+      "id": "gs_w03_d17_l03",
+      "title": "Day 17 Lesson 3 - Grammar Slides",
+      "type": "reference",
       "section": "Week 4 - Day 17",
       "section_type": "day",
       "week": 4,
@@ -3915,6 +3951,15 @@
       "id": "13245190",
       "title": "Day 17 Lesson 4 ( Video )Asking how much time it took- and reply",
       "type": "video",
+      "section": "Week 4 - Day 17",
+      "section_type": "day",
+      "week": 4,
+      "day": 17
+    },
+    {
+      "id": "gs_w03_d17_l04",
+      "title": "Day 17 Lesson 4 - Grammar Slides",
+      "type": "reference",
       "section": "Week 4 - Day 17",
       "section_type": "day",
       "week": 4,
@@ -4011,8 +4056,8 @@
       "day": 18
     },
     {
-      "id": "gs_placeholder_d18",
-      "title": "Day 18 - Grammar Slides (Placeholder)",
+      "id": "gs_w03_d18_l01",
+      "title": "Day 18 Lesson 1 - Grammar Slides",
       "type": "reference",
       "section": "Week 4 - Day 18",
       "section_type": "day",
@@ -4059,6 +4104,15 @@
       "id": "13245996",
       "title": "Day 18 Lesson 2 ( Video )Inviting someone to a curry place for lunch",
       "type": "video",
+      "section": "Week 4 - Day 18",
+      "section_type": "day",
+      "week": 4,
+      "day": 18
+    },
+    {
+      "id": "gs_w03_d18_l02",
+      "title": "Day 18 Lesson 2 - Grammar Slides",
+      "type": "reference",
       "section": "Week 4 - Day 18",
       "section_type": "day",
       "week": 4,
@@ -4146,8 +4200,8 @@
       "day": 19
     },
     {
-      "id": "gs_placeholder_d19",
-      "title": "Day 19 - Grammar Slides (Placeholder)",
+      "id": "gs_w03_d19_l01",
+      "title": "Day 19 Lesson 1 - Grammar Slides",
       "type": "reference",
       "section": "Week 4 - Day 19",
       "section_type": "day",
@@ -4203,6 +4257,15 @@
       "id": "13246211",
       "title": "Day 19 Lesson 2 ( Video )Talking about what to do during summer holidays",
       "type": "video",
+      "section": "Week 4 - Day 19",
+      "section_type": "day",
+      "week": 4,
+      "day": 19
+    },
+    {
+      "id": "gs_w03_d19_l02",
+      "title": "Day 19 Lesson 2 - Grammar Slides",
+      "type": "reference",
       "section": "Week 4 - Day 19",
       "section_type": "day",
       "week": 4,
@@ -4266,6 +4329,15 @@
       "id": "13246439",
       "title": "Day 19 Lesson 3 ( Video )During overtime",
       "type": "video",
+      "section": "Week 4 - Day 19",
+      "section_type": "day",
+      "week": 4,
+      "day": 19
+    },
+    {
+      "id": "gs_w03_d19_l03",
+      "title": "Day 19 Lesson 3 - Grammar Slides",
+      "type": "reference",
       "section": "Week 4 - Day 19",
       "section_type": "day",
       "week": 4,
@@ -4344,8 +4416,8 @@
       "day": 20
     },
     {
-      "id": "gs_placeholder_d20",
-      "title": "Day 20 - Grammar Slides (Placeholder)",
+      "id": "gs_w03_d20_l01",
+      "title": "Day 20 Lesson 1 - Grammar Slides",
       "type": "reference",
       "section": "Week 4 - Day 20",
       "section_type": "day",
@@ -4374,6 +4446,15 @@
       "id": "13246603",
       "title": "Day 20 Lesson 2 ( Video )Asking about coming to Japan",
       "type": "video",
+      "section": "Week 4 - Day 20",
+      "section_type": "day",
+      "week": 4,
+      "day": 20
+    },
+    {
+      "id": "gs_w03_d20_l02",
+      "title": "Day 20 Lesson 2 - Grammar Slides",
+      "type": "reference",
       "section": "Week 4 - Day 20",
       "section_type": "day",
       "week": 4,

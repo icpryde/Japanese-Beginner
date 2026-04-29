@@ -104,7 +104,34 @@ REAL_SLIDE_ENTRIES = [
     {"id": "gs_w02_d15_l01", "day": 15, "title": "Day 15 Lesson 1 - Grammar Slides", "folder": "Week 2/Day 15/1. Day 15 Lesson 1", "anchor_id": "12645646"},
     {"id": "gs_w02_d15_l02", "day": 15, "title": "Day 15 Lesson 2 - Grammar Slides", "folder": "Week 2/Day 15/2. Day 15 Lesson 2", "anchor_id": "12645651"},
     {"id": "gs_w02_d15_l03", "day": 15, "title": "Day 15 Lesson 3 - Grammar Slides", "folder": "Week 2/Day 15/3. Day 15 Lesson 3", "anchor_id": "12645655"},
+    # Day 16
+    {"id": "gs_w03_d16_l01_p1", "day": 16, "title": "Day 16 Lesson 1 - Grammar Slides Part 1", "folder": "Week 4/Day 16/1. Day 16 Lesson 1 pt 1", "anchor_id": "13242740"},
+    {"id": "gs_w03_d16_l01_p2", "day": 16, "title": "Day 16 Lesson 1 - Grammar Slides Part 2", "folder": "Week 4/Day 16/2. Day 16 Lesson 1 pt 2", "anchor_id": "13242740"},
+    {"id": "gs_w03_d16_l02", "day": 16, "title": "Day 16 Lesson 2 - Grammar Slides", "folder": "Week 4/Day 16/3. Day 16 lesson 2", "anchor_id": "13242882"},
+    # Day 17
+    {"id": "gs_w03_d17_l01", "day": 17, "title": "Day 17 Lesson 1 - Grammar Slides", "folder": "Week 4/Day 17/1. Day 17 Lesson 1", "anchor_id": "13244720"},
+    {"id": "gs_w03_d17_l02", "day": 17, "title": "Day 17 Lesson 2 - Grammar Slides", "folder": "Week 4/Day 17/2. Day 17 Lesson 2", "anchor_id": "13244877"},
+    {"id": "gs_w03_d17_l03", "day": 17, "title": "Day 17 Lesson 3 - Grammar Slides", "folder": "Week 4/Day 17/3. Day 17 Lesson 3", "anchor_id": "13245130"},
+    {"id": "gs_w03_d17_l04", "day": 17, "title": "Day 17 Lesson 4 - Grammar Slides", "folder": "Week 4/Day 17/4. Day 17 Lesson 4", "anchor_id": "13245190"},
+    # Day 18
+    {"id": "gs_w03_d18_l01", "day": 18, "title": "Day 18 Lesson 1 - Grammar Slides", "folder": "Week 4/Day 18/1. Day 18 Lesson 1", "anchor_id": "13245805"},
+    {"id": "gs_w03_d18_l02", "day": 18, "title": "Day 18 Lesson 2 - Grammar Slides", "folder": "Week 4/Day 18/2. Day 18 Lesson 2", "anchor_id": "13245996"},
+    # Day 19
+    {"id": "gs_w03_d19_l01", "day": 19, "title": "Day 19 Lesson 1 - Grammar Slides", "folder": "Week 4/Day 19/1. Day 19 Lesson 1", "anchor_id": "13246171"},
+    {"id": "gs_w03_d19_l02", "day": 19, "title": "Day 19 Lesson 2 - Grammar Slides", "folder": "Week 4/Day 19/2. Day 19 Lesson 2", "anchor_id": "13246211"},
+    {"id": "gs_w03_d19_l03", "day": 19, "title": "Day 19 Lesson 3 - Grammar Slides", "folder": "Week 4/Day 19/3. Day 19 Lesson 3", "anchor_id": "13246439"},
+    # Day 20
+    {"id": "gs_w03_d20_l01", "day": 20, "title": "Day 20 Lesson 1 - Grammar Slides", "folder": "Week 4/Day 20/1. Day 20 Lesson 1", "anchor_id": "13246563"},
+    {"id": "gs_w03_d20_l02", "day": 20, "title": "Day 20 Lesson 2 - Grammar Slides", "folder": "Week 4/Day 20/2. Day 20 Lesson 2", "anchor_id": "13246603"},
 ]
+
+# Explicit per-lesson page-index to audio-index mapping for multi-audio lessons.
+# This takes precedence over filename-based parsing for mapped pages.
+PAGE_AUDIO_MAP_OVERRIDES: dict[str, dict[int, int]] = {
+    "gs_w03_d17_l03": {0: 0, 1: 0, 2: 1},
+    "gs_w03_d18_l01": {0: 0, 1: 0, 2: 1, 3: 1},
+    "gs_w03_d18_l02": {0: 0, 1: 0, 2: 1, 3: 1},
+}
 
 
 def normalize_name(name: str) -> str:
@@ -127,6 +154,50 @@ def page_key(path: Path):
 
 def extract_page_numbers(name: str) -> list[int]:
     return [int(n) for n in re.findall(r"page__([0-9]+)", name)]
+
+
+def build_page_audio_map(
+    lesson_id: str,
+    image_pages: list[int],
+    audio_files: list[Path],
+) -> dict[int, int]:
+    page_audio_map: dict[int, int] = {}
+
+    # Fallback mapping for older lessons inferred from filenames.
+    image_page_set = set(image_pages)
+    page_number_to_audio_idx: dict[int, int] = {}
+    for audio_idx, audio_src in enumerate(audio_files):
+        nums = extract_page_numbers(audio_src.name)
+        for n in nums:
+            if n in image_page_set:
+                page_number_to_audio_idx[n] = audio_idx
+            elif (n - 1) in image_page_set:
+                # Handles folders where audio names are 1-based but image pages are 0-based.
+                page_number_to_audio_idx[n - 1] = audio_idx
+
+    for idx, page_num in enumerate(image_pages):
+        if page_num in page_number_to_audio_idx:
+            page_audio_map[idx] = page_number_to_audio_idx[page_num]
+
+    # Explicit override takes priority when configured for a lesson.
+    override = PAGE_AUDIO_MAP_OVERRIDES.get(lesson_id)
+    if override:
+        for page_idx, audio_idx in override.items():
+            page_i = int(page_idx)
+            audio_i = int(audio_idx)
+            if page_i < 0 or page_i >= len(image_pages):
+                raise ValueError(
+                    f"Invalid page index override {page_i} for lesson {lesson_id}; "
+                    f"expected 0..{max(len(image_pages) - 1, 0)}"
+                )
+            if audio_i < 0 or audio_i >= len(audio_files):
+                raise ValueError(
+                    f"Invalid audio index override {audio_i} for lesson {lesson_id}; "
+                    f"expected 0..{max(len(audio_files) - 1, 0)}"
+                )
+            page_audio_map[page_i] = audio_i
+
+    return page_audio_map
 
 
 def make_slide_html(
@@ -317,7 +388,7 @@ def import_real_slides(manifest: dict) -> tuple[list[dict], dict[str, list[dict]
         audio_priority = {".m4a": 0, ".mp3": 1, ".wav": 2}
         audio = sorted(audio, key=lambda p: (audio_priority.get(p.suffix.lower(), 9), p.name.lower()))
         if len(audio) > 1:
-            print(f"Warning: multiple audio files in {folder}; using {audio[0].name}")
+            print(f"Info: multiple audio files in {folder}; keeping all {len(audio)} files")
 
         copied_images = []
         image_pages = []
@@ -336,21 +407,7 @@ def import_real_slides(manifest: dict) -> tuple[list[dict], dict[str, list[dict]
             shutil.copy2(audio_src, AUDIO_DIR / audio_name)
             copied_audio.append(audio_name)
 
-        page_audio_map: dict[int, int] = {}
-        image_page_set = set(image_pages)
-        page_number_to_audio_idx: dict[int, int] = {}
-        for audio_idx, audio_src in enumerate(audio):
-            nums = extract_page_numbers(audio_src.name)
-            for n in nums:
-                if n in image_page_set:
-                    page_number_to_audio_idx[n] = audio_idx
-                elif (n - 1) in image_page_set:
-                    # Handles folders where audio names are 1-based but image pages are 0-based.
-                    page_number_to_audio_idx[n - 1] = audio_idx
-
-        for idx, page_num in enumerate(image_pages):
-            if page_num in page_number_to_audio_idx:
-                page_audio_map[idx] = page_number_to_audio_idx[page_num]
+        page_audio_map = build_page_audio_map(entry["id"], image_pages, audio)
 
         html = make_slide_html(entry["id"], entry["title"], copied_images, copied_audio, page_audio_map)
         write_lesson_json(
@@ -504,6 +561,11 @@ def main():
         if real_day is not None:
             days_with_real.add(real_day)
 
+    for day in sorted(days_with_real):
+        placeholder_lesson_json = LESSONS_DIR / f"gs_placeholder_d{day:02d}.json"
+        if placeholder_lesson_json.exists():
+            placeholder_lesson_json.unlink()
+
     # Replace placeholders with real entries for days that now have imported slide assets.
     removed_by_day: dict[int, int] = {}
     base_lessons = []
@@ -512,6 +574,9 @@ def main():
         day = int(lesson.get("day", 0))
         if lesson_id.startswith("gs_placeholder_d") and day in days_with_real:
             removed_by_day[day] = removed_by_day.get(day, 0) + 1
+            placeholder_lesson_json = LESSONS_DIR / f"{lesson_id}.json"
+            if placeholder_lesson_json.exists():
+                placeholder_lesson_json.unlink()
             continue
         base_lessons.append(lesson)
 

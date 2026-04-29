@@ -3,7 +3,7 @@
  * Cache-first strategy for offline PWA support
  */
 
-const BUILD_ID = '20260422000139';
+const BUILD_ID = '20260429093419';
 const CACHE_NAME = `akamonkai-${BUILD_ID}`;
 
 // Core files to precache
