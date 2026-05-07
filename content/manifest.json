@@ -4605,24 +4605,6 @@
       "day": 21
     },
     {
-      "id": "gs_w04_d21_l02",
-      "title": "Day 21 Lesson 2 - Grammar Slides",
-      "type": "reference",
-      "section": "Week 5 - Day 21",
-      "section_type": "day",
-      "week": 5,
-      "day": 21
-    },
-    {
-      "id": "gs_w04_d21_l03",
-      "title": "Day 21 Lesson 3 - Grammar Slides",
-      "type": "reference",
-      "section": "Week 5 - Day 21",
-      "section_type": "day",
-      "week": 5,
-      "day": 21
-    },
-    {
       "id": "13433220",
       "title": "Day 21 Lesson 1 - Video Repetition",
       "type": "video",
@@ -4659,6 +4641,15 @@
       "day": 21
     },
     {
+      "id": "gs_w04_d21_l02",
+      "title": "Day 21 Lesson 2 - Grammar Slides",
+      "type": "reference",
+      "section": "Week 5 - Day 21",
+      "section_type": "day",
+      "week": 5,
+      "day": 21
+    },
+    {
       "id": "13433259",
       "title": "Day 21 Lesson 2 - Video Repetition",
       "type": "video",
@@ -4680,6 +4671,15 @@
       "id": "13433315",
       "title": "Day 21 Lesson 3 ( Video )Offering to teach something",
       "type": "video",
+      "section": "Week 5 - Day 21",
+      "section_type": "day",
+      "week": 5,
+      "day": 21
+    },
+    {
+      "id": "gs_w04_d21_l03",
+      "title": "Day 21 Lesson 3 - Grammar Slides",
+      "type": "reference",
       "section": "Week 5 - Day 21",
       "section_type": "day",
       "week": 5,
@@ -4767,15 +4767,6 @@
       "day": 22
     },
     {
-      "id": "gs_w04_d22_l02",
-      "title": "Day 22 Lesson 2 - Grammar Slides",
-      "type": "reference",
-      "section": "Week 5 - Day 22",
-      "section_type": "day",
-      "week": 5,
-      "day": 22
-    },
-    {
       "id": "13433433",
       "title": "Day 22 Lesson 1 - Video Repetition",
       "type": "video",
@@ -4815,6 +4806,15 @@
       "id": "13433445",
       "title": "Day 22 Lesson 2 ( Video )Self introduction",
       "type": "video",
+      "section": "Week 5 - Day 22",
+      "section_type": "day",
+      "week": 5,
+      "day": 22
+    },
+    {
+      "id": "gs_w04_d22_l02",
+      "title": "Day 22 Lesson 2 - Grammar Slides",
+      "type": "reference",
       "section": "Week 5 - Day 22",
       "section_type": "day",
       "week": 5,
@@ -4947,24 +4947,6 @@
       "day": 23
     },
     {
-      "id": "gs_w04_d23_l02",
-      "title": "Day 23 Lesson 2 - Grammar Slides",
-      "type": "reference",
-      "section": "Week 5 - Day 23",
-      "section_type": "day",
-      "week": 5,
-      "day": 23
-    },
-    {
-      "id": "gs_w04_d23_l03",
-      "title": "Day 23 Lesson 3 - Grammar Slides",
-      "type": "reference",
-      "section": "Week 5 - Day 23",
-      "section_type": "day",
-      "week": 5,
-      "day": 23
-    },
-    {
       "id": "13433605",
       "title": "Day 23 Lesson 1 - Grammar Video",
       "type": "video",
@@ -5010,6 +4992,15 @@
       "day": 23
     },
     {
+      "id": "gs_w04_d23_l02",
+      "title": "Day 23 Lesson 2 - Grammar Slides",
+      "type": "reference",
+      "section": "Week 5 - Day 23",
+      "section_type": "day",
+      "week": 5,
+      "day": 23
+    },
+    {
       "id": "13433794",
       "title": "Day 23 Lesson 2 - Video Repetition",
       "type": "video",
@@ -5049,6 +5040,15 @@
       "id": "13433806",
       "title": "Day 23 Lesson 3 ( Video )Talking about preparing for something",
       "type": "video",
+      "section": "Week 5 - Day 23",
+      "section_type": "day",
+      "week": 5,
+      "day": 23
+    },
+    {
+      "id": "gs_w04_d23_l03",
+      "title": "Day 23 Lesson 3 - Grammar Slides",
+      "type": "reference",
       "section": "Week 5 - Day 23",
       "section_type": "day",
       "week": 5,
@@ -5172,24 +5172,6 @@
       "day": 24
     },
     {
-      "id": "gs_w04_d24_l02",
-      "title": "Day 24 Lesson 2 - Grammar Slides",
-      "type": "reference",
-      "section": "Week 5 - Day 24",
-      "section_type": "day",
-      "week": 5,
-      "day": 24
-    },
-    {
-      "id": "gs_w04_d24_l03",
-      "title": "Day 24 Lesson 3 - Grammar Slides",
-      "type": "reference",
-      "section": "Week 5 - Day 24",
-      "section_type": "day",
-      "week": 5,
-      "day": 24
-    },
-    {
       "id": "13433904",
       "title": "Day 24 Lesson 1 - Video Repetition",
       "type": "video",
@@ -5211,6 +5193,15 @@
       "id": "13433919",
       "title": "Day 24 Lesson 2 ( Video )Asking about plans for the weekend",
       "type": "video",
+      "section": "Week 5 - Day 24",
+      "section_type": "day",
+      "week": 5,
+      "day": 24
+    },
+    {
+      "id": "gs_w04_d24_l02",
+      "title": "Day 24 Lesson 2 - Grammar Slides",
+      "type": "reference",
       "section": "Week 5 - Day 24",
       "section_type": "day",
       "week": 5,
@@ -5274,6 +5265,15 @@
       "id": "13433965",
       "title": "Day 24 Lesson 3 ( Video )Asking whether you can do something",
       "type": "video",
+      "section": "Week 5 - Day 24",
+      "section_type": "day",
+      "week": 5,
+      "day": 24
+    },
+    {
+      "id": "gs_w04_d24_l03",
+      "title": "Day 24 Lesson 3 - Grammar Slides",
+      "type": "reference",
       "section": "Week 5 - Day 24",
       "section_type": "day",
       "week": 5,
@@ -5370,15 +5370,6 @@
       "day": 25
     },
     {
-      "id": "gs_w04_d25_l02",
-      "title": "Day 25 Lesson 2 - Grammar Slides",
-      "type": "reference",
-      "section": "Week 5 - Day 25",
-      "section_type": "day",
-      "week": 5,
-      "day": 25
-    },
-    {
       "id": "13434215",
       "title": "Day 25 Lesson 1 - Video Repetition",
       "type": "video",
@@ -5409,6 +5400,15 @@
       "id": "13434242",
       "title": "Day 25 Lesson 2 ( Video )Talking on the phone about what you are doing now",
       "type": "video",
+      "section": "Week 5 - Day 25",
+      "section_type": "day",
+      "week": 5,
+      "day": 25
+    },
+    {
+      "id": "gs_w04_d25_l02",
+      "title": "Day 25 Lesson 2 - Grammar Slides",
+      "type": "reference",
       "section": "Week 5 - Day 25",
       "section_type": "day",
       "week": 5,
