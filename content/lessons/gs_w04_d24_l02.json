@@ -1,0 +1,31 @@
+{
+  "id": "gs_w04_d24_l02",
+  "title": "Day 24 Lesson 2 - Grammar Slides",
+  "primary_type": "reference",
+  "section": "Week 5 - Day 24",
+  "section_type": "day",
+  "week": 5,
+  "day": 24,
+  "html": "<div class=\"fr-view\"><h3>Day 24 Lesson 2 - Grammar Slides</h3><div id=\"viewer-gs_w04_d24_l02\" class=\"grammar-slide-viewer\"><img src=\"../../images/gs_w04_d24_l02_p01.jpg\" class=\"gs-page\" data-page=\"1\" style=\"display:block; max-width:100%; margin:0 auto;\" /><img src=\"../../images/gs_w04_d24_l02_p02.jpg\" class=\"gs-page\" data-page=\"2\" style=\"display:none; max-width:100%; margin:0 auto;\" /><div style=\"display:flex; gap:10px; align-items:center; justify-content:center; margin-top:12px;\"><button type=\"button\" class=\"gs-prev\">Prev</button><span class=\"gs-counter\">1 / 2</span><button type=\"button\" class=\"gs-next\">Next</button></div></div><div style=\"margin-top:14px; text-align:center;\"><audio controls preload=\"metadata\" src=\"../audio/gs_w04_d24_l02.wav\"></audio></div><script>(function(){  const root=document.getElementById('viewer-gs_w04_d24_l02');  if(!root){return;}  const pages=Array.from(root.querySelectorAll('.gs-page'));  if(!pages.length){return;}  const prev=root.querySelector('.gs-prev');  const next=root.querySelector('.gs-next');  const counter=root.querySelector('.gs-counter');  let idx=0;  function render(){    pages.forEach((p,i)=>{p.style.display = i===idx ? 'block' : 'none';});    counter.textContent = `${idx+1} / ${pages.length}`;    prev.disabled = idx===0;    next.disabled = idx===pages.length-1;  }  prev.addEventListener('click', ()=>{if(idx>0){idx-=1; render();}});  next.addEventListener('click', ()=>{if(idx<pages.length-1){idx+=1; render();}});  const audio=root.querySelector('audio');  const audioFiles=[\"gs_w04_d24_l02.wav\"];  const pageToAudio={};  function updateAudio(){    if(!audio || !audioFiles.length){return;}    const key = String(idx);    const targetIdx = Object.prototype.hasOwnProperty.call(pageToAudio, key) ? pageToAudio[key] : 0;    const target = audioFiles[targetIdx] || audioFiles[0];    const expectedSrc = `../audio/${target}`;    if(!audio.getAttribute('src') || !audio.getAttribute('src').endsWith(target)){      audio.setAttribute('src', expectedSrc);      audio.load();    }  }  const _render = render;  render = function(){ _render(); updateAudio(); };  render();})();</script></div>",
+  "videos": [],
+  "downloads": [
+    {
+      "type": "audio",
+      "filename": "gs_w04_d24_l02.wav",
+      "title": "Lesson audio",
+      "local": true
+    }
+  ],
+  "images": [
+    {
+      "local": "gs_w04_d24_l02_p01.jpg"
+    },
+    {
+      "local": "gs_w04_d24_l02_p02.jpg"
+    }
+  ],
+  "has_video": false,
+  "has_images": true,
+  "has_downloads": true,
+  "placeholder": false
+}

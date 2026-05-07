@@ -2,7 +2,7 @@
   "course_name": "Akamonkai 12-Week Beginner Course",
   "imported_at": "2026-04-02T09:29:37.535648+00:00",
   "source": "/Users/kurisu/Documents/AI Apps/Akamonkai Japanese 12 Week Beginner Course - content",
-  "total_lessons": 1216,
+  "total_lessons": 1224,
   "sections": [
     {
       "order": 1,
@@ -186,7 +186,7 @@
       "section_type": "day",
       "week": 5,
       "day": 21,
-      "lesson_count": 18
+      "lesson_count": 20
     },
     {
       "order": 24,
@@ -194,7 +194,7 @@
       "section_type": "day",
       "week": 5,
       "day": 22,
-      "lesson_count": 19
+      "lesson_count": 20
     },
     {
       "order": 25,
@@ -202,7 +202,7 @@
       "section_type": "day",
       "week": 5,
       "day": 23,
-      "lesson_count": 23
+      "lesson_count": 25
     },
     {
       "order": 26,
@@ -210,7 +210,7 @@
       "section_type": "day",
       "week": 5,
       "day": 24,
-      "lesson_count": 20
+      "lesson_count": 22
     },
     {
       "order": 27,
@@ -218,7 +218,7 @@
       "section_type": "day",
       "week": 5,
       "day": 25,
-      "lesson_count": 16
+      "lesson_count": 17
     },
     {
       "order": 28,
@@ -4596,8 +4596,26 @@
       "day": 21
     },
     {
-      "id": "gs_placeholder_d21",
-      "title": "Day 21 - Grammar Slides (Placeholder)",
+      "id": "gs_w04_d21_l01",
+      "title": "Day 21 Lesson 1 - Grammar Slides",
+      "type": "reference",
+      "section": "Week 5 - Day 21",
+      "section_type": "day",
+      "week": 5,
+      "day": 21
+    },
+    {
+      "id": "gs_w04_d21_l02",
+      "title": "Day 21 Lesson 2 - Grammar Slides",
+      "type": "reference",
+      "section": "Week 5 - Day 21",
+      "section_type": "day",
+      "week": 5,
+      "day": 21
+    },
+    {
+      "id": "gs_w04_d21_l03",
+      "title": "Day 21 Lesson 3 - Grammar Slides",
       "type": "reference",
       "section": "Week 5 - Day 21",
       "section_type": "day",
@@ -4740,8 +4758,17 @@
       "day": 22
     },
     {
-      "id": "gs_placeholder_d22",
-      "title": "Day 22 - Grammar Slides (Placeholder)",
+      "id": "gs_w04_d22_l01",
+      "title": "Day 22 Lesson 1 - Grammar Slides",
+      "type": "reference",
+      "section": "Week 5 - Day 22",
+      "section_type": "day",
+      "week": 5,
+      "day": 22
+    },
+    {
+      "id": "gs_w04_d22_l02",
+      "title": "Day 22 Lesson 2 - Grammar Slides",
       "type": "reference",
       "section": "Week 5 - Day 22",
       "section_type": "day",
@@ -4911,8 +4938,26 @@
       "day": 23
     },
     {
-      "id": "gs_placeholder_d23",
-      "title": "Day 23 - Grammar Slides (Placeholder)",
+      "id": "gs_w04_d23_l01",
+      "title": "Day 23 Lesson 1 - Grammar Slides",
+      "type": "reference",
+      "section": "Week 5 - Day 23",
+      "section_type": "day",
+      "week": 5,
+      "day": 23
+    },
+    {
+      "id": "gs_w04_d23_l02",
+      "title": "Day 23 Lesson 2 - Grammar Slides",
+      "type": "reference",
+      "section": "Week 5 - Day 23",
+      "section_type": "day",
+      "week": 5,
+      "day": 23
+    },
+    {
+      "id": "gs_w04_d23_l03",
+      "title": "Day 23 Lesson 3 - Grammar Slides",
       "type": "reference",
       "section": "Week 5 - Day 23",
       "section_type": "day",
@@ -5118,8 +5163,26 @@
       "day": 24
     },
     {
-      "id": "gs_placeholder_d24",
-      "title": "Day 24 - Grammar Slides (Placeholder)",
+      "id": "gs_w04_d24_l01",
+      "title": "Day 24 Lesson 1 - Grammar Slides",
+      "type": "reference",
+      "section": "Week 5 - Day 24",
+      "section_type": "day",
+      "week": 5,
+      "day": 24
+    },
+    {
+      "id": "gs_w04_d24_l02",
+      "title": "Day 24 Lesson 2 - Grammar Slides",
+      "type": "reference",
+      "section": "Week 5 - Day 24",
+      "section_type": "day",
+      "week": 5,
+      "day": 24
+    },
+    {
+      "id": "gs_w04_d24_l03",
+      "title": "Day 24 Lesson 3 - Grammar Slides",
       "type": "reference",
       "section": "Week 5 - Day 24",
       "section_type": "day",
@@ -5298,8 +5361,17 @@
       "day": 25
     },
     {
-      "id": "gs_placeholder_d25",
-      "title": "Day 25 - Grammar Slides (Placeholder)",
+      "id": "gs_w04_d25_l01",
+      "title": "Day 25 Lesson 1 - Grammar Slides",
+      "type": "reference",
+      "section": "Week 5 - Day 25",
+      "section_type": "day",
+      "week": 5,
+      "day": 25
+    },
+    {
+      "id": "gs_w04_d25_l02",
+      "title": "Day 25 Lesson 2 - Grammar Slides",
       "type": "reference",
       "section": "Week 5 - Day 25",
       "section_type": "day",

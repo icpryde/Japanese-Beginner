@@ -123,6 +123,24 @@ REAL_SLIDE_ENTRIES = [
     # Day 20
     {"id": "gs_w03_d20_l01", "day": 20, "title": "Day 20 Lesson 1 - Grammar Slides", "folder": "Week 4/Day 20/1. Day 20 Lesson 1", "anchor_id": "13246563"},
     {"id": "gs_w03_d20_l02", "day": 20, "title": "Day 20 Lesson 2 - Grammar Slides", "folder": "Week 4/Day 20/2. Day 20 Lesson 2", "anchor_id": "13246603"},
+    # Day 21
+    {"id": "gs_w04_d21_l01", "day": 21, "title": "Day 21 Lesson 1 - Grammar Slides", "folder": "Week 5/Day 21/1. Day 21 Lesson 1", "anchor_id": "13432933"},
+    {"id": "gs_w04_d21_l02", "day": 21, "title": "Day 21 Lesson 2 - Grammar Slides", "folder": "Week 5/Day 21/2. Day 21 Lesson 2", "anchor_id": "13432933"},
+    {"id": "gs_w04_d21_l03", "day": 21, "title": "Day 21 Lesson 3 - Grammar Slides", "folder": "Week 5/Day 21/3. Day 21 Lesson 3", "anchor_id": "13432933"},
+    # Day 22
+    {"id": "gs_w04_d22_l01", "day": 22, "title": "Day 22 Lesson 1 - Grammar Slides", "folder": "Week 5/Day 22/1. Day 22 Lesson 1", "anchor_id": "13433424"},
+    {"id": "gs_w04_d22_l02", "day": 22, "title": "Day 22 Lesson 2 - Grammar Slides", "folder": "Week 5/Day 22/2. Day 22 Lesson 2", "anchor_id": "13433424"},
+    # Day 23
+    {"id": "gs_w04_d23_l01", "day": 23, "title": "Day 23 Lesson 1 - Grammar Slides", "folder": "Week 5/Day 23/1. Day 23 Lesson 1", "anchor_id": "13433601"},
+    {"id": "gs_w04_d23_l02", "day": 23, "title": "Day 23 Lesson 2 - Grammar Slides", "folder": "Week 5/Day 23/2. Day 23 Lesson 2", "anchor_id": "13433601"},
+    {"id": "gs_w04_d23_l03", "day": 23, "title": "Day 23 Lesson 3 - Grammar Slides", "folder": "Week 5/Day 23/3. Day 23 Lesson 3", "anchor_id": "13433601"},
+    # Day 24
+    {"id": "gs_w04_d24_l01", "day": 24, "title": "Day 24 Lesson 1 - Grammar Slides", "folder": "Week 5/Day 24/1. Day 24 Lesson 1", "anchor_id": "13433881"},
+    {"id": "gs_w04_d24_l02", "day": 24, "title": "Day 24 Lesson 2 - Grammar Slides", "folder": "Week 5/Day 24/2. Lesson 24 Lesson 2", "anchor_id": "13433881"},
+    {"id": "gs_w04_d24_l03", "day": 24, "title": "Day 24 Lesson 3 - Grammar Slides", "folder": "Week 5/Day 24/3. Day 24 Lesson 3", "anchor_id": "13433881"},
+    # Day 25
+    {"id": "gs_w04_d25_l01", "day": 25, "title": "Day 25 Lesson 1 - Grammar Slides", "folder": "Week 5/Day 25/1. Day 25 Lesson 1", "anchor_id": "13434207"},
+    {"id": "gs_w04_d25_l02", "day": 25, "title": "Day 25 Lesson 2 - Grammar Slides", "folder": "Week 5/Day 25/2. Day 25 lesson 2", "anchor_id": "13434207"},
 ]
 
 # Explicit per-lesson page-index to audio-index mapping for multi-audio lessons.
@@ -131,6 +149,7 @@ PAGE_AUDIO_MAP_OVERRIDES: dict[str, dict[int, int]] = {
     "gs_w03_d17_l03": {0: 0, 1: 0, 2: 1},
     "gs_w03_d18_l01": {0: 0, 1: 0, 2: 1, 3: 1},
     "gs_w03_d18_l02": {0: 0, 1: 0, 2: 1, 3: 1},
+    "gs_w04_d22_l01": {0: 0, 1: 0, 2: 1, 3: 1},
 }
 
 
