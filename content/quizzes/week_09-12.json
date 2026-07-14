@@ -1,0 +1,1304 @@
+{
+ "quiz": {
+  "id": 957922,
+  "pass_fail": false,
+  "show_explanation": false,
+  "passing_score": null,
+  "question_ids": [
+   5263758,
+   5263759,
+   5263760,
+   5263761,
+   5263762,
+   5263763,
+   5263764,
+   5263765,
+   5263766,
+   5263767,
+   5263768,
+   5263769,
+   5263770,
+   5263771,
+   5263772,
+   5263773,
+   5263774,
+   5263775,
+   5263776,
+   5263777,
+   5263778,
+   5263779,
+   5263780,
+   5263781,
+   5263782,
+   5263783,
+   5263784,
+   5263785,
+   5263786,
+   5263787
+  ]
+ },
+ "choices": [
+  {
+   "id": 18238873,
+   "text": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/3e3/827/972/w9-12test_q1-c1.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/3e3/827/972/w9-12test_q1-c1.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "credited": "ODd0cnVlNTY=",
+   "question_id": 5263758,
+   "position": 0
+  },
+  {
+   "id": 18238874,
+   "text": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/e9b/385/0ae/w9-12test_q1-c2.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/e9b/385/0ae/w9-12test_q1-c2.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "credited": "OThmYWxzZTUw",
+   "question_id": 5263758,
+   "position": 1
+  },
+  {
+   "id": 18238875,
+   "text": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/7a9/5ad/015/w9-12test_q1-c3.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/7a9/5ad/015/w9-12test_q1-c3.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "credited": "OTdmYWxzZTU3",
+   "question_id": 5263758,
+   "position": 2
+  },
+  {
+   "id": 18238876,
+   "text": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/1a8/303/282/w9-12test_q1-c4.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/1a8/303/282/w9-12test_q1-c4.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "credited": "NzlmYWxzZTQy",
+   "question_id": 5263758,
+   "position": 3
+  },
+  {
+   "id": 18238877,
+   "text": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/e83/aa1/14e/w9-12test_q2-c1.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/2f7/b1b/5ac/w9-12test_q2.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "credited": "MGZhbHNlNzE=",
+   "question_id": 5263759,
+   "position": 0
+  },
+  {
+   "id": 18238878,
+   "text": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/894/082/a29/w9-12test_q2-c2.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/894/082/a29/w9-12test_q2-c2.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "credited": "NDl0cnVlODA=",
+   "question_id": 5263759,
+   "position": 1
+  },
+  {
+   "id": 18238879,
+   "text": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/c2d/6e1/28c/w9-12test_q2-c3.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/c2d/6e1/28c/w9-12test_q2-c3.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "credited": "MTdmYWxzZTk=",
+   "question_id": 5263759,
+   "position": 2
+  },
+  {
+   "id": 18238880,
+   "text": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/1a8/256/474/w9-12test_q2-c4.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/1a8/256/474/w9-12test_q2-c4.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "credited": "MjZmYWxzZTUy",
+   "question_id": 5263759,
+   "position": 3
+  },
+  {
+   "id": 18238881,
+   "text": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/ab9/f90/6ee/w9-12test_q3-c1.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/ab9/f90/6ee/w9-12test_q3-c1.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "credited": "MjNmYWxzZTk2",
+   "question_id": 5263760,
+   "position": 0
+  },
+  {
+   "id": 18238882,
+   "text": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/48f/79f/50c/w9-12test_q3-c2.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/48f/79f/50c/w9-12test_q3-c2.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "credited": "NjF0cnVlNzU=",
+   "question_id": 5263760,
+   "position": 1
+  },
+  {
+   "id": 18238883,
+   "text": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/9b0/466/ba3/w9-12test_q3-c3.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/9b0/466/ba3/w9-12test_q3-c3.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "credited": "MjdmYWxzZTM2",
+   "question_id": 5263760,
+   "position": 2
+  },
+  {
+   "id": 18238884,
+   "text": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/e25/92d/d0b/w9-12test_q3-c4.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/e25/92d/d0b/w9-12test_q3-c4.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "credited": "MWZhbHNlOA==",
+   "question_id": 5263760,
+   "position": 3
+  },
+  {
+   "id": 18238885,
+   "text": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/630/083/e24/w9-12test_q4-c1.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/630/083/e24/w9-12test_q4-c1.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "credited": "Mzl0cnVlODI=",
+   "question_id": 5263761,
+   "position": 0
+  },
+  {
+   "id": 18238886,
+   "text": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/bca/1e5/c0e/w9-12test_q4-c2.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/bca/1e5/c0e/w9-12test_q4-c2.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "credited": "OThmYWxzZTQ1",
+   "question_id": 5263761,
+   "position": 1
+  },
+  {
+   "id": 18238887,
+   "text": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/68e/904/636/w9-12test_q4-c3.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/68e/904/636/w9-12test_q4-c3.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "credited": "MjR0cnVlNzg=",
+   "question_id": 5263761,
+   "position": 2
+  },
+  {
+   "id": 18238888,
+   "text": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/330/db2/4c8/w9-12test_q4-c4.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/330/db2/4c8/w9-12test_q4-c4.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "credited": "MzNmYWxzZTc5",
+   "question_id": 5263761,
+   "position": 3
+  },
+  {
+   "id": 18238889,
+   "text": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/eb8/6f5/f71/w9-12test_q5-c1.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/eb8/6f5/f71/w9-12test_q5-c1.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "credited": "NzFmYWxzZTcz",
+   "question_id": 5263762,
+   "position": 0
+  },
+  {
+   "id": 18238890,
+   "text": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/cf2/dfe/f5c/w9-12test_q5-c2.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/cf2/dfe/f5c/w9-12test_q5-c2.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "credited": "OTVmYWxzZTY5",
+   "question_id": 5263762,
+   "position": 1
+  },
+  {
+   "id": 18238891,
+   "text": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/a18/66c/81f/w9-12test_q5-c3.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/a18/66c/81f/w9-12test_q5-c3.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "credited": "MzZ0cnVlNzM=",
+   "question_id": 5263762,
+   "position": 2
+  },
+  {
+   "id": 18238892,
+   "text": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/1d6/694/518/w9-12test_q5-c4.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/1d6/694/518/w9-12test_q5-c4.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "credited": "NDZmYWxzZTY5",
+   "question_id": 5263762,
+   "position": 3
+  },
+  {
+   "id": 18238893,
+   "text": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/5f5/ba0/cfa/w9-12test_q6-c1.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/5f5/ba0/cfa/w9-12test_q6-c1.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "credited": "NjNmYWxzZTgz",
+   "question_id": 5263763,
+   "position": 0
+  },
+  {
+   "id": 18238894,
+   "text": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/b50/364/147/w9-12test_q6-c2.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/b50/364/147/w9-12test_q6-c2.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "credited": "Mzh0cnVlODQ=",
+   "question_id": 5263763,
+   "position": 1
+  },
+  {
+   "id": 18238895,
+   "text": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/624/979/25f/w9-12test_q6-c3.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/624/979/25f/w9-12test_q6-c3.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "credited": "NDR0cnVlNw==",
+   "question_id": 5263763,
+   "position": 2
+  },
+  {
+   "id": 18238896,
+   "text": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/a99/9fb/dea/w9-12test_q6-c4.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/a99/9fb/dea/w9-12test_q6-c4.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "credited": "NzRmYWxzZTM=",
+   "question_id": 5263763,
+   "position": 3
+  },
+  {
+   "id": 18238897,
+   "text": "<p><br></p><p><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/409/96c/879/w9-12test_q7-c1.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></p>",
+   "credited": "NjBmYWxzZTE4",
+   "question_id": 5263764,
+   "position": 0
+  },
+  {
+   "id": 18238898,
+   "text": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/b30/477/2a5/w4-8test_q7-c2.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/b30/477/2a5/w4-8test_q7-c2.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "credited": "M2ZhbHNlMTI=",
+   "question_id": 5263764,
+   "position": 1
+  },
+  {
+   "id": 18238899,
+   "text": "<p><br></p><p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/7fb/28b/cf7/w9-12test_q7-c3.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/7fb/28b/cf7/w9-12test_q7-c3.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "credited": "OThmYWxzZTgy",
+   "question_id": 5263764,
+   "position": 2
+  },
+  {
+   "id": 18238900,
+   "text": "<p><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/063/25f/3c8/w9-12test_q7-c4.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></p>",
+   "credited": "OTR0cnVlODc=",
+   "question_id": 5263764,
+   "position": 3
+  },
+  {
+   "id": 18238901,
+   "text": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/4ec/73c/9ed/w9-12test_q8-c1.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/4ec/73c/9ed/w9-12test_q8-c1.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "credited": "MTFmYWxzZTgw",
+   "question_id": 5263765,
+   "position": 0
+  },
+  {
+   "id": 18238902,
+   "text": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/0c6/fcc/e7c/w9-12test_q8-c2.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/0c6/fcc/e7c/w9-12test_q8-c2.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "credited": "NDhmYWxzZTE5",
+   "question_id": 5263765,
+   "position": 1
+  },
+  {
+   "id": 18238903,
+   "text": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/5e8/787/0bb/w9-12test_q8-c3.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/5e8/787/0bb/w9-12test_q8-c3.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "credited": "NDJ0cnVlODM=",
+   "question_id": 5263765,
+   "position": 2
+  },
+  {
+   "id": 18238904,
+   "text": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/87e/3b9/9d8/w9-12test_q8-c4.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/87e/3b9/9d8/w9-12test_q8-c4.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "credited": "NzRmYWxzZTc=",
+   "question_id": 5263765,
+   "position": 3
+  },
+  {
+   "id": 18238905,
+   "text": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/7f0/566/95c/w9-12test_q9-c1%E4%BF%AE%E6%AD%A3.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/7f0/566/95c/w9-12test_q9-c1%E4%BF%AE%E6%AD%A3.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "credited": "MTR0cnVlNzA=",
+   "question_id": 5263766,
+   "position": 0
+  },
+  {
+   "id": 18238906,
+   "text": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/694/b18/c8a/w9-12test_q9-c2%E4%BF%AE%E6%AD%A3.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/694/b18/c8a/w9-12test_q9-c2%E4%BF%AE%E6%AD%A3.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "credited": "OTZmYWxzZTQ2",
+   "question_id": 5263766,
+   "position": 1
+  },
+  {
+   "id": 18238907,
+   "text": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/b83/f23/c51/w9-12test_q9-c3.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/b83/f23/c51/w9-12test_q9-c3.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "credited": "NjVmYWxzZTcy",
+   "question_id": 5263766,
+   "position": 2
+  },
+  {
+   "id": 18238908,
+   "text": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/14e/1cc/f20/w9-12test_q9-c4.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/14e/1cc/f20/w9-12test_q9-c4.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "credited": "NTRmYWxzZTQ1",
+   "question_id": 5263766,
+   "position": 3
+  },
+  {
+   "id": 18238909,
+   "text": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/0cb/c0e/227/w9-12test_q10-c1.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/0cb/c0e/227/w9-12test_q10-c1.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "credited": "MGZhbHNlMzQ=",
+   "question_id": 5263767,
+   "position": 0
+  },
+  {
+   "id": 18238910,
+   "text": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/477/02e/e21/w9-12test_q10-c2.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/477/02e/e21/w9-12test_q10-c2.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "credited": "OTNmYWxzZTUx",
+   "question_id": 5263767,
+   "position": 1
+  },
+  {
+   "id": 18238911,
+   "text": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/4d8/39d/ccf/w9-12test_q10-c3.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/4d8/39d/ccf/w9-12test_q10-c3.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "credited": "OHRydWU0",
+   "question_id": 5263767,
+   "position": 2
+  },
+  {
+   "id": 18238912,
+   "text": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/45c/8bd/7e3/w9-12test_q10-c4.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/45c/8bd/7e3/w9-12test_q10-c4.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "credited": "NDNmYWxzZTk5",
+   "question_id": 5263767,
+   "position": 3
+  },
+  {
+   "id": 18238913,
+   "text": "<div class=\"fr-view\"><p>B：よかったですね。</p></div>",
+   "credited": "ODFmYWxzZTcx",
+   "question_id": 5263768,
+   "position": 0
+  },
+  {
+   "id": 18238914,
+   "text": "<div class=\"fr-view\"><p>B：また今度（こんど）お願（ねが）いします。</p></div>",
+   "credited": "NzZmYWxzZTY4",
+   "question_id": 5263768,
+   "position": 1
+  },
+  {
+   "id": 18238915,
+   "text": "<div class=\"fr-view\"><p>B：重（おも）かったでしょう。</p></div>",
+   "credited": "OTB0cnVlNTI=",
+   "question_id": 5263768,
+   "position": 2
+  },
+  {
+   "id": 18238916,
+   "text": "<div class=\"fr-view\"><p>B：大変（たいへん）でしたね。</p></div>",
+   "credited": "NTh0cnVlMjk=",
+   "question_id": 5263768,
+   "position": 3
+  },
+  {
+   "id": 18238917,
+   "text": "B：大丈夫（だいじょうぶ）ですか。",
+   "credited": "MWZhbHNlMjY=",
+   "question_id": 5263769,
+   "position": 0
+  },
+  {
+   "id": 18238918,
+   "text": "B：どうぞ。",
+   "credited": "NDBmYWxzZTc2",
+   "question_id": 5263769,
+   "position": 1
+  },
+  {
+   "id": 18238919,
+   "text": "B：まっすぐです。",
+   "credited": "OTVmYWxzZTc1",
+   "question_id": 5263769,
+   "position": 2
+  },
+  {
+   "id": 18238920,
+   "text": "B：いいですよ。",
+   "credited": "MXRydWUzMw==",
+   "question_id": 5263769,
+   "position": 3
+  },
+  {
+   "id": 18238921,
+   "text": "B：買（か）ってくれて、ありがとう。",
+   "credited": "NDFmYWxzZTEw",
+   "question_id": 5263770,
+   "position": 0
+  },
+  {
+   "id": 18238922,
+   "text": "B：インターネットで買（か）うかもしれません。",
+   "credited": "MzBmYWxzZTU5",
+   "question_id": 5263770,
+   "position": 1
+  },
+  {
+   "id": 18238923,
+   "text": "B：インターネットで探（さが）したら、どうですか。",
+   "credited": "NDB0cnVlMjQ=",
+   "question_id": 5263770,
+   "position": 2
+  },
+  {
+   "id": 18238924,
+   "text": "B：インターネットで探（さが）したら、いいですよ。",
+   "credited": "NjJ0cnVlODc=",
+   "question_id": 5263770,
+   "position": 3
+  },
+  {
+   "id": 18238925,
+   "text": "B：ええ、また今度（こんど）行（い）きましょう。",
+   "credited": "NzlmYWxzZTM2",
+   "question_id": 5263771,
+   "position": 0
+  },
+  {
+   "id": 18238926,
+   "text": "B：すみません。今（いま）のどが痛（いた）いんです。",
+   "credited": "NTZ0cnVlMQ==",
+   "question_id": 5263771,
+   "position": 1
+  },
+  {
+   "id": 18238927,
+   "text": "B：お先（さき）にどうぞ。",
+   "credited": "NzJmYWxzZTkw",
+   "question_id": 5263771,
+   "position": 2
+  },
+  {
+   "id": 18238928,
+   "text": "B：いいですね。行（い）ってみます。",
+   "credited": "NDZmYWxzZTE4",
+   "question_id": 5263771,
+   "position": 3
+  },
+  {
+   "id": 18238929,
+   "text": "B：じゃ、お酒（さけ）は飲（の）まないほうがいいですよ。",
+   "credited": "OTd0cnVlMzQ=",
+   "question_id": 5263772,
+   "position": 0
+  },
+  {
+   "id": 18238930,
+   "text": "B：早（はや）く起（お）きたほうがいいですよ。",
+   "credited": "NjdmYWxzZTU1",
+   "question_id": 5263772,
+   "position": 1
+  },
+  {
+   "id": 18238931,
+   "text": "B：じゃ、今晩（こんばん）早（はや）く寝（ね）たほうがいいですよ。",
+   "credited": "NjV0cnVlMzY=",
+   "question_id": 5263772,
+   "position": 2
+  },
+  {
+   "id": 18238932,
+   "text": "B：早（はや）く起（お）きたらどうですか。",
+   "credited": "MTlmYWxzZTYy",
+   "question_id": 5263772,
+   "position": 3
+  },
+  {
+   "id": 18238933,
+   "text": "B：ちょっと、休憩（きゅうけい）しましょうか。",
+   "credited": "OTh0cnVlNzE=",
+   "question_id": 5263773,
+   "position": 0
+  },
+  {
+   "id": 18238934,
+   "text": "B：そうだね。どこかで休（やす）もう。",
+   "credited": "Mjd0cnVlNjc=",
+   "question_id": 5263773,
+   "position": 1
+  },
+  {
+   "id": 18238935,
+   "text": "B：休（やす）むかもしれません。",
+   "credited": "ODRmYWxzZTE4",
+   "question_id": 5263773,
+   "position": 2
+  },
+  {
+   "id": 18238936,
+   "text": "B：休（やす）みながら休憩（きゅうけい）しましょう",
+   "credited": "NTVmYWxzZTc=",
+   "question_id": 5263773,
+   "position": 3
+  },
+  {
+   "id": 18238937,
+   "text": "B：へー、おいしかった？",
+   "credited": "NjNmYWxzZTI5",
+   "question_id": 5263774,
+   "position": 0
+  },
+  {
+   "id": 18238938,
+   "text": "B：もう全部（ぜんぶ）食（た）べた？",
+   "credited": "OTZmYWxzZTg5",
+   "question_id": 5263774,
+   "position": 1
+  },
+  {
+   "id": 18238939,
+   "text": "B：わからないけど、食（た）べる？",
+   "credited": "NTB0cnVlNzI=",
+   "question_id": 5263774,
+   "position": 2
+  },
+  {
+   "id": 18238940,
+   "text": "B：本当（ほんとう）においしいの？",
+   "credited": "NTFmYWxzZTc5",
+   "question_id": 5263774,
+   "position": 3
+  },
+  {
+   "id": 18238941,
+   "text": "B：やせるんじゃないですか。",
+   "credited": "OTBmYWxzZTcx",
+   "question_id": 5263775,
+   "position": 0
+  },
+  {
+   "id": 18238942,
+   "text": "B：あっ、そうだ！",
+   "credited": "MjdmYWxzZTE5",
+   "question_id": 5263775,
+   "position": 1
+  },
+  {
+   "id": 18238943,
+   "text": "B：えー！ほんと？それだけで。",
+   "credited": "MTB0cnVlOTk=",
+   "question_id": 5263775,
+   "position": 2
+  },
+  {
+   "id": 18238944,
+   "text": "B：やせようと思（おも）っています。",
+   "credited": "N2ZhbHNlMTY=",
+   "question_id": 5263775,
+   "position": 3
+  },
+  {
+   "id": 18238945,
+   "text": "B：はい、もうあります。",
+   "credited": "MmZhbHNlNzM=",
+   "question_id": 5263776,
+   "position": 0
+  },
+  {
+   "id": 18238946,
+   "text": "B：いいえ、まだありません。",
+   "credited": "MzBmYWxzZTU4",
+   "question_id": 5263776,
+   "position": 1
+  },
+  {
+   "id": 18238947,
+   "text": "B：まだ全部（ぜんぶ）使（つか）ってしまったんじゃないですか。",
+   "credited": "NDlmYWxzZTI4",
+   "question_id": 5263776,
+   "position": 2
+  },
+  {
+   "id": 18238948,
+   "text": "B：もう全部（ぜんぶ）使（つか）ってしまったんじゃないですか。",
+   "credited": "MTd0cnVlMw==",
+   "question_id": 5263776,
+   "position": 3
+  },
+  {
+   "id": 18238949,
+   "text": "B：そこに置（お）いてありますよ。",
+   "credited": "MzF0cnVlNzU=",
+   "question_id": 5263777,
+   "position": 0
+  },
+  {
+   "id": 18238950,
+   "text": "B：引（ひ）き出（だ）しにしまっておきましたよ。",
+   "credited": "NzN0cnVlOTg=",
+   "question_id": 5263777,
+   "position": 1
+  },
+  {
+   "id": 18238951,
+   "text": "B：さっきカバンに入（い）れたでしょう。",
+   "credited": "ODd0cnVlMTU=",
+   "question_id": 5263777,
+   "position": 2
+  },
+  {
+   "id": 18238952,
+   "text": "B：そこに置（お）いていますよ。",
+   "credited": "MzZmYWxzZTc0",
+   "question_id": 5263777,
+   "position": 3
+  },
+  {
+   "id": 18238953,
+   "text": "Q：使用中（しようちゅう）はどういう意味（いみ）ですか。",
+   "credited": "NDN0cnVlOTA=",
+   "question_id": 5263778,
+   "position": 0
+  },
+  {
+   "id": 18238954,
+   "text": "Q：立入禁止（たちいりきんし）はどういう意味（いみ）ですか。",
+   "credited": "NzVmYWxzZTM5",
+   "question_id": 5263778,
+   "position": 1
+  },
+  {
+   "id": 18238955,
+   "text": "Q：火気厳禁（かきげんきん）はどういう意味（いみ）ですか。",
+   "credited": "MGZhbHNlNTY=",
+   "question_id": 5263778,
+   "position": 2
+  },
+  {
+   "id": 18238956,
+   "text": "Q：学生割引（がくせいわりびき）はどういう意味（いみ）ですか。",
+   "credited": "MjRmYWxzZTIz",
+   "question_id": 5263778,
+   "position": 3
+  },
+  {
+   "id": 18238957,
+   "text": "Q：日本語（にほんご）で話（はな）してください。",
+   "credited": "NDBmYWxzZTgw",
+   "question_id": 5263779,
+   "position": 0
+  },
+  {
+   "id": 18238958,
+   "text": "Q：日本語（にほんご）が話（はな）せますか。",
+   "credited": "MHRydWU2OA==",
+   "question_id": 5263779,
+   "position": 1
+  },
+  {
+   "id": 18238959,
+   "text": "Q：日本語（にほんご）で話（はな）してもいいですか。",
+   "credited": "OTFmYWxzZTY1",
+   "question_id": 5263779,
+   "position": 2
+  },
+  {
+   "id": 18238960,
+   "text": "Q：日本語（にほんご）でお願（ねが）いします。",
+   "credited": "NjNmYWxzZTUw",
+   "question_id": 5263779,
+   "position": 3
+  },
+  {
+   "id": 18238961,
+   "text": "Q：もう少（すこ）し歩（ある）きましょうか。",
+   "credited": "NTBmYWxzZTk1",
+   "question_id": 5263780,
+   "position": 0
+  },
+  {
+   "id": 18238962,
+   "text": "Q：いっしょに行（い）こう。",
+   "credited": "NzhmYWxzZTQx",
+   "question_id": 5263780,
+   "position": 1
+  },
+  {
+   "id": 18238963,
+   "text": "Q：どうしたんですか。",
+   "credited": "ODd0cnVlMjE=",
+   "question_id": 5263780,
+   "position": 2
+  },
+  {
+   "id": 18238964,
+   "text": "Q：いつ着（つ）きますか。",
+   "credited": "NDFmYWxzZTI=",
+   "question_id": 5263780,
+   "position": 3
+  },
+  {
+   "id": 18238965,
+   "text": "Q：道（みち）が込（こ）んでいますね。",
+   "credited": "ODF0cnVlODM=",
+   "question_id": 5263781,
+   "position": 0
+  },
+  {
+   "id": 18238966,
+   "text": "Q：道（みち）が混（こ）んでいるかな。",
+   "credited": "NjRmYWxzZTk0",
+   "question_id": 5263781,
+   "position": 1
+  },
+  {
+   "id": 18238967,
+   "text": "Q：田中（たなか）さんは遅（おく）れると言（い）っていました。",
+   "credited": "OTRmYWxzZTMx",
+   "question_id": 5263781,
+   "position": 2
+  },
+  {
+   "id": 18238968,
+   "text": "Q：田中（たなか）さんは行（い）かないと言っていました。",
+   "credited": "NzNmYWxzZTU2",
+   "question_id": 5263781,
+   "position": 3
+  },
+  {
+   "id": 18238969,
+   "text": "Q：鈴木（すずき）さんはどこですか。",
+   "credited": "NjZmYWxzZTEy",
+   "question_id": 5263782,
+   "position": 0
+  },
+  {
+   "id": 18238970,
+   "text": "Q：どうして食（た）べないんですか。",
+   "credited": "NTN0cnVlNw==",
+   "question_id": 5263782,
+   "position": 1
+  },
+  {
+   "id": 18238971,
+   "text": "Q：何（なに）をしているんですか。",
+   "credited": "ODdmYWxzZTgy",
+   "question_id": 5263782,
+   "position": 2
+  },
+  {
+   "id": 18238972,
+   "text": "Q：今（いま）忙（いそが）しいですか。",
+   "credited": "ODhmYWxzZTk5",
+   "question_id": 5263782,
+   "position": 3
+  },
+  {
+   "id": 18238973,
+   "text": "私（わたし）は田中（たなか）さんにチケットをあげました。",
+   "credited": "MTZmYWxzZTI5",
+   "question_id": 5263783,
+   "position": 0
+  },
+  {
+   "id": 18238974,
+   "text": "私（わたし）は田中（たなか）さんにチケットをもらいました。",
+   "credited": "OTl0cnVlNTA=",
+   "question_id": 5263783,
+   "position": 1
+  },
+  {
+   "id": 18238975,
+   "text": "田中（たなか）さんは私（わたし）にチケットをくれました。",
+   "credited": "MzV0cnVlODk=",
+   "question_id": 5263783,
+   "position": 2
+  },
+  {
+   "id": 18238976,
+   "text": "田中（たなか）さんは私（わたし）にチケットをもらいました。",
+   "credited": "NTZmYWxzZTcw",
+   "question_id": 5263783,
+   "position": 3
+  },
+  {
+   "id": 18238977,
+   "text": "私（わたし）は彼（かれ）に花束（はなたば）をもらいました。",
+   "credited": "MTZ0cnVlODE=",
+   "question_id": 5263784,
+   "position": 0
+  },
+  {
+   "id": 18238978,
+   "text": "私（わたし）は彼（かれ）に花束（はなたば）をあげました。",
+   "credited": "MjhmYWxzZTYy",
+   "question_id": 5263784,
+   "position": 1
+  },
+  {
+   "id": 18238979,
+   "text": "彼（かれ）は私（わたし）に花束（はなたば）をくれました。",
+   "credited": "MjZ0cnVlODQ=",
+   "question_id": 5263784,
+   "position": 2
+  },
+  {
+   "id": 18238980,
+   "text": "彼（かれ）は私（わたし）に花束（はなたば）をあげました。",
+   "credited": "M2ZhbHNlMTI=",
+   "question_id": 5263784,
+   "position": 3
+  },
+  {
+   "id": 18238981,
+   "text": "雪（ゆき）で電車（でんしゃ）が止（と）まりました。",
+   "credited": "OTB0cnVlOTE=",
+   "question_id": 5263785,
+   "position": 0
+  },
+  {
+   "id": 18238982,
+   "text": "雪（ゆき）が降（ふ）ったとき、電車（でんしゃ）が止（と）まりました。",
+   "credited": "NjN0cnVlNw==",
+   "question_id": 5263785,
+   "position": 1
+  },
+  {
+   "id": 18238983,
+   "text": "雪（ゆき）ので電車（でんしゃ）が止（と）まりました。",
+   "credited": "OTdmYWxzZTU3",
+   "question_id": 5263785,
+   "position": 2
+  },
+  {
+   "id": 18238984,
+   "text": "雪（ゆき）が降（ふ）るとき、電車（でんしゃ）が止（と）まりました。",
+   "credited": "MTJmYWxzZTQ4",
+   "question_id": 5263785,
+   "position": 3
+  },
+  {
+   "id": 18238985,
+   "text": "リンさんは来年（らいねん）国（くに）へ帰（かえ）ると思（おも）っています。",
+   "credited": "MzdmYWxzZTUx",
+   "question_id": 5263786,
+   "position": 0
+  },
+  {
+   "id": 18238986,
+   "text": "リンさんは来年（らいねん）国（くに）へ帰（かえ）るって言（い）ってたよ。",
+   "credited": "NTV0cnVlOA==",
+   "question_id": 5263786,
+   "position": 1
+  },
+  {
+   "id": 18238987,
+   "text": "リンさんは来年（らいねん）国（くに）へ帰（かえ）ると思（おも）います。",
+   "credited": "NTFmYWxzZTU0",
+   "question_id": 5263786,
+   "position": 2
+  },
+  {
+   "id": 18238988,
+   "text": "リンさんは来年（らいねん）国（くに）へ帰（かえ）ると言（い）っていました。",
+   "credited": "MjJ0cnVlMzY=",
+   "question_id": 5263786,
+   "position": 3
+  },
+  {
+   "id": 18238989,
+   "text": "テレビを見（み）たあとで、ご飯（はん）を食（た）べます。",
+   "credited": "NWZhbHNlNTI=",
+   "question_id": 5263787,
+   "position": 0
+  },
+  {
+   "id": 18238990,
+   "text": "テレビを見（み）て、ご飯（はん）を食（た）べます。",
+   "credited": "MTdmYWxzZTQ4",
+   "question_id": 5263787,
+   "position": 1
+  },
+  {
+   "id": 18238991,
+   "text": "ご飯（はん）を食（た）べながら、テレビを見（み）ます。",
+   "credited": "NjN0cnVlMA==",
+   "question_id": 5263787,
+   "position": 2
+  },
+  {
+   "id": 18238992,
+   "text": "テレビを見（み）ながら、ご飯（はん）を食（た）べます。",
+   "credited": "MTB0cnVlNDY=",
+   "question_id": 5263787,
+   "position": 3
+  }
+ ],
+ "questions": [
+  {
+   "id": 5263758,
+   "prompt": "<div class=\"fr-view\"><p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/483/9aa/4da/w9-12test_q1.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/483/9aa/4da/w9-12test_q1.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a>Please select all the correct answers.&nbsp;</p></div>",
+   "text_explanation": "",
+   "quiz_id": 957922,
+   "position": 0,
+   "display_type": "checkbox",
+   "choice_ids": [
+    18238873,
+    18238874,
+    18238875,
+    18238876
+   ]
+  },
+  {
+   "id": 5263759,
+   "prompt": "<div class=\"fr-view\"><p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/2f7/b1b/5ac/w9-12test_q2.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/2f7/b1b/5ac/w9-12test_q2.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a>Please select all the correct answers.</p></div>",
+   "text_explanation": "",
+   "quiz_id": 957922,
+   "position": 1,
+   "display_type": "checkbox",
+   "choice_ids": [
+    18238877,
+    18238878,
+    18238879,
+    18238880
+   ]
+  },
+  {
+   "id": 5263760,
+   "prompt": "<div class=\"fr-view\"><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/f97/d65/06e/w9-12test_q3.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/f97/d65/06e/w9-12test_q3.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a>Please select all the correct answers. &nbsp;</div>",
+   "text_explanation": "",
+   "quiz_id": 957922,
+   "position": 2,
+   "display_type": "checkbox",
+   "choice_ids": [
+    18238881,
+    18238882,
+    18238883,
+    18238884
+   ]
+  },
+  {
+   "id": 5263761,
+   "prompt": "<div class=\"fr-view\"><p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/eef/23c/d2f/w9-12test_q4.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/eef/23c/d2f/w9-12test_q4.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a>Please select all the correct answers.</p></div>",
+   "text_explanation": "",
+   "quiz_id": 957922,
+   "position": 3,
+   "display_type": "checkbox",
+   "choice_ids": [
+    18238885,
+    18238886,
+    18238887,
+    18238888
+   ]
+  },
+  {
+   "id": 5263762,
+   "prompt": "<div class=\"fr-view\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/039/69b/26a/w9-12test_q5.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span>Please select all the correct answers.</div>",
+   "text_explanation": "",
+   "quiz_id": 957922,
+   "position": 4,
+   "display_type": "checkbox",
+   "choice_ids": [
+    18238889,
+    18238890,
+    18238891,
+    18238892
+   ]
+  },
+  {
+   "id": 5263763,
+   "prompt": "<div class=\"fr-view\">Please select all the correct answers.<a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/733/705/715/w9-12test_q6.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/733/705/715/w9-12test_q6.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a>&nbsp;</div>",
+   "text_explanation": "",
+   "quiz_id": 957922,
+   "position": 5,
+   "display_type": "checkbox",
+   "choice_ids": [
+    18238893,
+    18238894,
+    18238895,
+    18238896
+   ]
+  },
+  {
+   "id": 5263764,
+   "prompt": "<div class=\"fr-view\"><p>Please select all the correct answers.</p></div><p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/37a/e26/9e3/w9-12test_q7.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/37a/e26/9e3/w9-12test_q7.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p>",
+   "text_explanation": "",
+   "quiz_id": 957922,
+   "position": 6,
+   "display_type": "checkbox",
+   "choice_ids": [
+    18238897,
+    18238898,
+    18238899,
+    18238900
+   ]
+  },
+  {
+   "id": 5263765,
+   "prompt": "<div class=\"fr-view\"><p>Please select all the correct answers.</p><p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/e33/3b8/ea1/w9-12test_q8.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/e33/3b8/ea1/w9-12test_q8.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p></div>",
+   "text_explanation": "",
+   "quiz_id": 957922,
+   "position": 7,
+   "display_type": "checkbox",
+   "choice_ids": [
+    18238901,
+    18238902,
+    18238903,
+    18238904
+   ]
+  },
+  {
+   "id": 5263766,
+   "prompt": "<div class=\"fr-view\"><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/15d/63f/0e0/w9-12test_q9%E4%BF%AE%E6%AD%A3.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/15d/63f/0e0/w9-12test_q9%E4%BF%AE%E6%AD%A3.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a>Please select all the correct answers.&nbsp;</div>",
+   "text_explanation": "",
+   "quiz_id": 957922,
+   "position": 8,
+   "display_type": "checkbox",
+   "choice_ids": [
+    18238905,
+    18238906,
+    18238907,
+    18238908
+   ]
+  },
+  {
+   "id": 5263767,
+   "prompt": "<div class=\"fr-view\"><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/e2e/40c/782/w9-12test_q10.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/e2e/40c/782/w9-12test_q10.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a>Please select all the correct answers.&nbsp;</div>",
+   "text_explanation": "",
+   "quiz_id": 957922,
+   "position": 9,
+   "display_type": "checkbox",
+   "choice_ids": [
+    18238909,
+    18238910,
+    18238911,
+    18238912
+   ]
+  },
+  {
+   "id": 5263768,
+   "prompt": "<div class=\"fr-view\"><p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/2d2/54d/522/w9-12test_q11.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/2d2/54d/522/w9-12test_q11.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a>Listen to the conversation from Ms. A and choose all the correct answers from Mr.B that match the conversation.</p></div>",
+   "text_explanation": "",
+   "quiz_id": 957922,
+   "position": 10,
+   "display_type": "checkbox",
+   "choice_ids": [
+    18238913,
+    18238914,
+    18238915,
+    18238916
+   ]
+  },
+  {
+   "id": 5263769,
+   "prompt": "<div class=\"fr-view\"><p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/dc9/f6b/c79/w9-12test_q12.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/dc9/f6b/c79/w9-12test_q12.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a>Listen to the conversation from Ms. A and choose all the correct answers from Mr.B that match the conversation.</p></div>",
+   "text_explanation": "",
+   "quiz_id": 957922,
+   "position": 11,
+   "display_type": "checkbox",
+   "choice_ids": [
+    18238917,
+    18238918,
+    18238919,
+    18238920
+   ]
+  },
+  {
+   "id": 5263770,
+   "prompt": "<div class=\"fr-view\"><p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/e9a/26b/d28/w9-12test_q13.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/e9a/26b/d28/w9-12test_q13.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a>Listen to the conversation from Ms. A and choose all the correct answers from Mr.B that match the conversation.&nbsp;</p></div>",
+   "text_explanation": "",
+   "quiz_id": 957922,
+   "position": 12,
+   "display_type": "checkbox",
+   "choice_ids": [
+    18238921,
+    18238922,
+    18238923,
+    18238924
+   ]
+  },
+  {
+   "id": 5263771,
+   "prompt": "<div class=\"fr-view\"><p>Listen to the conversation from Ms. A and choose all the correct answers from Mr.B that match the conversation.</p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/a58/927/da2/w9-12test_q14.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/a58/927/da2/w9-12test_q14.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></div>",
+   "text_explanation": "",
+   "quiz_id": 957922,
+   "position": 13,
+   "display_type": "checkbox",
+   "choice_ids": [
+    18238925,
+    18238926,
+    18238927,
+    18238928
+   ]
+  },
+  {
+   "id": 5263772,
+   "prompt": "<div class=\"fr-view\"><p>Listen to the conversation from Ms. A and choose all the correct answers from Mr.B that match the conversation.</p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/bbc/f6a/029/w9-12test_q15.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/bbc/f6a/029/w9-12test_q15.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></div>",
+   "text_explanation": "",
+   "quiz_id": 957922,
+   "position": 14,
+   "display_type": "checkbox",
+   "choice_ids": [
+    18238929,
+    18238930,
+    18238931,
+    18238932
+   ]
+  },
+  {
+   "id": 5263773,
+   "prompt": "<div class=\"fr-view\"><p>Listen to the conversation from Ms. A and choose all the correct answers from Mr.B that match the conversation.</p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/7eb/88c/69b/w9-12test_q16.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/7eb/88c/69b/w9-12test_q16.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></div>",
+   "text_explanation": "",
+   "quiz_id": 957922,
+   "position": 15,
+   "display_type": "checkbox",
+   "choice_ids": [
+    18238933,
+    18238934,
+    18238935,
+    18238936
+   ]
+  },
+  {
+   "id": 5263774,
+   "prompt": "<div class=\"fr-view\"><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/ea0/89a/90e/w9-12test_q17.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/ea0/89a/90e/w9-12test_q17.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a>Listen to the conversation from Ms. A and choose all the correct answers from Mr.B that match the conversation.&nbsp;</div>",
+   "text_explanation": "",
+   "quiz_id": 957922,
+   "position": 16,
+   "display_type": "checkbox",
+   "choice_ids": [
+    18238937,
+    18238938,
+    18238939,
+    18238940
+   ]
+  },
+  {
+   "id": 5263775,
+   "prompt": "<div class=\"fr-view\"><p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/fef/444/b2b/w9-12test_q18.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/fef/444/b2b/w9-12test_q18.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a>Listen to the conversation from Ms. A and choose all the correct answers from Mr.B that match the conversation.</p></div>",
+   "text_explanation": "",
+   "quiz_id": 957922,
+   "position": 17,
+   "display_type": "checkbox",
+   "choice_ids": [
+    18238941,
+    18238942,
+    18238943,
+    18238944
+   ]
+  },
+  {
+   "id": 5263776,
+   "prompt": "<div class=\"fr-view\"><p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/80c/35b/f77/w9-12test_q19.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/80c/35b/f77/w9-12test_q19.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a>Listen to the conversation from Ms. A and choose all the correct answers from Mr.B that match the conversation.</p></div>",
+   "text_explanation": "",
+   "quiz_id": 957922,
+   "position": 18,
+   "display_type": "checkbox",
+   "choice_ids": [
+    18238945,
+    18238946,
+    18238947,
+    18238948
+   ]
+  },
+  {
+   "id": 5263777,
+   "prompt": "<div class=\"fr-view\"><p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/e66/1fb/b04/w9-12test_q20.wav\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/e66/1fb/b04/w9-12test_q20.wav\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a>Listen to the conversation from Ms. A and choose all the correct answers from Mr.B that match the conversation.</p></div>",
+   "text_explanation": "",
+   "quiz_id": 957922,
+   "position": 19,
+   "display_type": "checkbox",
+   "choice_ids": [
+    18238949,
+    18238950,
+    18238951,
+    18238952
+   ]
+  },
+  {
+   "id": 5263778,
+   "prompt": "Please choose one correct question for the following answer.\r\nA：今（いま）使（つか）っているという意味（いみ）です。",
+   "text_explanation": "",
+   "quiz_id": 957922,
+   "position": 20,
+   "display_type": "radio",
+   "choice_ids": [
+    18238953,
+    18238954,
+    18238955,
+    18238956
+   ]
+  },
+  {
+   "id": 5263779,
+   "prompt": "Please choose one correct question for the following answer.\r\nA：はい、少（すこ）し話（はな）せます。",
+   "text_explanation": "",
+   "quiz_id": 957922,
+   "position": 21,
+   "display_type": "radio",
+   "choice_ids": [
+    18238957,
+    18238958,
+    18238959,
+    18238960
+   ]
+  },
+  {
+   "id": 5263780,
+   "prompt": "Please choose one correct question for the following answer.\r\nA：道（みち）に迷（まよ）ってしまったんです。",
+   "text_explanation": "",
+   "quiz_id": 957922,
+   "position": 22,
+   "display_type": "radio",
+   "choice_ids": [
+    18238961,
+    18238962,
+    18238963,
+    18238964
+   ]
+  },
+  {
+   "id": 5263781,
+   "prompt": "Please choose one correct question for the following answer.\r\nA：約束（やくそく）の時間（じかん）に間（ま）に合（あ）わないかもしれません。",
+   "text_explanation": "",
+   "quiz_id": 957922,
+   "position": 23,
+   "display_type": "radio",
+   "choice_ids": [
+    18238965,
+    18238966,
+    18238967,
+    18238968
+   ]
+  },
+  {
+   "id": 5263782,
+   "prompt": "Please choose one correct question for the following answer.\r\nA：今（いま）ダイエットをしているんです。",
+   "text_explanation": "",
+   "quiz_id": 957922,
+   "position": 24,
+   "display_type": "radio",
+   "choice_ids": [
+    18238969,
+    18238970,
+    18238971,
+    18238972
+   ]
+  },
+  {
+   "id": 5263783,
+   "prompt": "<div class=\"fr-view\">\n<p>Look at the picture and select all the sentences that match the picture.</p>\n<p><img src=\"https://files.cdn.thinkific.com/file_uploads/259518/images/71f/dd8/69a/w9-12test_q26.png\" style=\"width: 300px;\" class=\"fr-fic fr-dib fr-fil\" srcset=\"https://files.cdn.thinkific.com/file_uploads/259518/images/71f/dd8/69a/w9-12test_q26.png?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/259518/images/71f/dd8/69a/w9-12test_q26.png?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/259518/images/71f/dd8/69a/w9-12test_q26.png?width=1920&amp;dpr=3 3x\"></p>\n</div>",
+   "text_explanation": "",
+   "quiz_id": 957922,
+   "position": 25,
+   "display_type": "checkbox",
+   "choice_ids": [
+    18238973,
+    18238974,
+    18238975,
+    18238976
+   ]
+  },
+  {
+   "id": 5263784,
+   "prompt": "<div class=\"fr-view\">\n<p>Look at the picture and select all the sentences that match the picture.</p>\n<p><img src=\"https://files.cdn.thinkific.com/file_uploads/259518/images/52c/bd6/79b/w9-12test_q27.png\" style=\"width: 300px;\" class=\"fr-fic fr-dib fr-fil\" srcset=\"https://files.cdn.thinkific.com/file_uploads/259518/images/52c/bd6/79b/w9-12test_q27.png?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/259518/images/52c/bd6/79b/w9-12test_q27.png?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/259518/images/52c/bd6/79b/w9-12test_q27.png?width=1920&amp;dpr=3 3x\"></p>\n</div>",
+   "text_explanation": "",
+   "quiz_id": 957922,
+   "position": 26,
+   "display_type": "checkbox",
+   "choice_ids": [
+    18238977,
+    18238978,
+    18238979,
+    18238980
+   ]
+  },
+  {
+   "id": 5263785,
+   "prompt": "<div class=\"fr-view\">\n<p>Look at the picture and select all the sentences that match the picture.</p>\n<p><img src=\"https://files.cdn.thinkific.com/file_uploads/259518/images/586/e09/dca/w9-12test_q28.png\" style=\"width: 300px;\" class=\"fr-fic fr-dib fr-fil\" srcset=\"https://files.cdn.thinkific.com/file_uploads/259518/images/586/e09/dca/w9-12test_q28.png?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/259518/images/586/e09/dca/w9-12test_q28.png?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/259518/images/586/e09/dca/w9-12test_q28.png?width=1920&amp;dpr=3 3x\"></p>\n</div>",
+   "text_explanation": "",
+   "quiz_id": 957922,
+   "position": 27,
+   "display_type": "checkbox",
+   "choice_ids": [
+    18238981,
+    18238982,
+    18238983,
+    18238984
+   ]
+  },
+  {
+   "id": 5263786,
+   "prompt": "<div class=\"fr-view\">\n<p>Look at the picture and select all the sentences that match the picture.</p>\n<p><img src=\"https://files.cdn.thinkific.com/file_uploads/259518/images/ebf/77b/753/w9-12test_q29.png\" style=\"width: 300px;\" class=\"fr-fic fr-dib fr-fil\" srcset=\"https://files.cdn.thinkific.com/file_uploads/259518/images/ebf/77b/753/w9-12test_q29.png?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/259518/images/ebf/77b/753/w9-12test_q29.png?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/259518/images/ebf/77b/753/w9-12test_q29.png?width=1920&amp;dpr=3 3x\"></p>\n</div>",
+   "text_explanation": "",
+   "quiz_id": 957922,
+   "position": 28,
+   "display_type": "checkbox",
+   "choice_ids": [
+    18238985,
+    18238986,
+    18238987,
+    18238988
+   ]
+  },
+  {
+   "id": 5263787,
+   "prompt": "<div class=\"fr-view\">\n<p>Look at the picture and select all the sentences that match the picture.</p>\n<p><img src=\"https://files.cdn.thinkific.com/file_uploads/259518/images/661/787/b07/w9-12test_q30.png\" style=\"width: 300px;\" class=\"fr-fic fr-dib fr-fil\" srcset=\"https://files.cdn.thinkific.com/file_uploads/259518/images/661/787/b07/w9-12test_q30.png?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/259518/images/661/787/b07/w9-12test_q30.png?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/259518/images/661/787/b07/w9-12test_q30.png?width=1920&amp;dpr=3 3x\"></p>\n</div>",
+   "text_explanation": "",
+   "quiz_id": 957922,
+   "position": 29,
+   "display_type": "checkbox",
+   "choice_ids": [
+    18238989,
+    18238990,
+    18238991,
+    18238992
+   ]
+  }
+ ]
+}

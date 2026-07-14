@@ -3,5 +3,8 @@
 __pycache__/
 .DS_Store
 .yt-dlp-cookies.txt
+gogonihon-cookies.txt
+*cookies*.txt
 cloudflare_sync/.wrangler/
 .wrangler/
+.grammar_curriculum_cache.json

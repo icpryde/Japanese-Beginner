@@ -153,6 +153,19 @@ PAGE_AUDIO_MAP_OVERRIDES: dict[str, dict[int, int]] = {
 }
 
 
+# Auto-generated entries for API-extracted days (gen_grammar_entries.py -> extract_grammar_slides.py).
+_EXTRA_ENTRIES_PATH = PROJECT_ROOT / "grammar_slide_entries_extra.json"
+if _EXTRA_ENTRIES_PATH.exists():
+    _extra = json.loads(_EXTRA_ENTRIES_PATH.read_text(encoding="utf-8"))
+    _known = {e["id"] for e in REAL_SLIDE_ENTRIES}
+    for _e in _extra.get("entries", []):
+        if _e["id"] not in _known:
+            REAL_SLIDE_ENTRIES.append(_e)
+            _known.add(_e["id"])
+    for _k, _v in _extra.get("overrides", {}).items():
+        PAGE_AUDIO_MAP_OVERRIDES[_k] = {int(_kk): _vv for _kk, _vv in _v.items()}
+
+
 def normalize_name(name: str) -> str:
     return re.sub(r"[^a-zA-Z0-9._-]+", "_", name.strip())
 

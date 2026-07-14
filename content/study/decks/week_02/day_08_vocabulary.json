@@ -1,0 +1,253 @@
+{
+  "id": "week_02/day_08_vocabulary",
+  "kind": "image",
+  "title": "Day 8 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 8 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "onaka_ga_sukimashita",
+      "japanese": "おなかがすきました",
+      "romaji": "onaka ga sukimashita",
+      "english": "I'm hungry",
+      "image": "../images/study/week_02/day_08/onaka_ga_sukimashita.png",
+      "audio": "../audio/vocabulary/week_02/day_08/onaka_ga_sukimashita.m4a",
+      "alt": "Hungry"
+    },
+    {
+      "id": "hirugohan",
+      "japanese": "ひるごはん",
+      "romaji": "hirugohan",
+      "english": "lunch",
+      "image": "../images/study/week_02/day_08/hirugohan.png",
+      "audio": "../audio/vocabulary/week_02/day_08/hirugohan.m4a",
+      "alt": "Lunch"
+    },
+    {
+      "id": "tabemasu",
+      "japanese": "たべます",
+      "romaji": "tabemasu",
+      "english": "to eat",
+      "image": "../images/study/week_02/day_08/tabemasu.png",
+      "audio": "../audio/vocabulary/week_02/day_08/tabemasu.m4a",
+      "alt": "To eat"
+    },
+    {
+      "id": "ikimasu",
+      "japanese": "いきます",
+      "romaji": "ikimasu",
+      "english": "to go",
+      "image": "../images/study/week_02/day_08/ikimasu.png",
+      "audio": "../audio/vocabulary/week_02/day_08/ikimasu.m4a",
+      "alt": "To go"
+    },
+    {
+      "id": "raamen",
+      "japanese": "ラーメン（らーめん）",
+      "romaji": "raamen",
+      "english": "ramen",
+      "image": "../images/study/week_02/day_08/raamen.png",
+      "audio": "../audio/vocabulary/week_02/day_08/raamen.m4a",
+      "alt": "Ramen"
+    },
+    {
+      "id": "mise",
+      "japanese": "みせ",
+      "romaji": "mise",
+      "english": "store",
+      "image": "../images/study/week_02/day_08/mise.png",
+      "audio": "../audio/vocabulary/week_02/day_08/mise.m4a",
+      "alt": "Store"
+    },
+    {
+      "id": "benkyoo",
+      "japanese": "べんきょう",
+      "romaji": "benkyoo",
+      "english": "study",
+      "image": "../images/study/week_02/day_08/benkyoo.png",
+      "audio": "../audio/vocabulary/week_02/day_08/benkyoo.m4a",
+      "alt": "Study"
+    },
+    {
+      "id": "sensee",
+      "japanese": "せんせい",
+      "romaji": "sensee",
+      "english": "teacher",
+      "image": "../images/study/week_02/day_08/sensee.png",
+      "audio": "../audio/vocabulary/week_02/day_08/sensee.m4a",
+      "alt": "Teacher"
+    },
+    {
+      "id": "ryoo",
+      "japanese": "りょう",
+      "romaji": "ryoo",
+      "english": "dormitory",
+      "image": "../images/study/week_02/day_08/ryoo.png",
+      "audio": "../audio/vocabulary/week_02/day_08/ryoo.m4a",
+      "alt": "Dormitory"
+    },
+    {
+      "id": "heya",
+      "japanese": "へや",
+      "romaji": "heya",
+      "english": "room",
+      "image": "../images/study/week_02/day_08/heya.png",
+      "audio": "../audio/vocabulary/week_02/day_08/heya.m4a",
+      "alt": "Room"
+    },
+    {
+      "id": "gyuudon",
+      "japanese": "ぎゅうどん",
+      "romaji": "gyuudon",
+      "english": "beef bowl",
+      "image": "../images/study/week_02/day_08/gyuudon.png",
+      "audio": "../audio/vocabulary/week_02/day_08/gyuudon.m4a",
+      "alt": "Beef bowl"
+    },
+    {
+      "id": "sushi",
+      "japanese": "すし",
+      "romaji": "sushi",
+      "english": "sushi",
+      "image": "../images/study/week_02/day_08/sushi.png",
+      "audio": "../audio/vocabulary/week_02/day_08/sushi.m4a",
+      "alt": "Sushi"
+    },
+    {
+      "id": "ryoori",
+      "japanese": "りょうり",
+      "romaji": "ryoori",
+      "english": "food",
+      "image": "../images/study/week_02/day_08/ryoori.png",
+      "audio": "../audio/vocabulary/week_02/day_08/ryoori.m4a",
+      "alt": "Food"
+    },
+    {
+      "id": "oishii",
+      "japanese": "おいしい",
+      "romaji": "oishii",
+      "english": "delicious",
+      "audio": "../audio/vocabulary/week_02/day_08/oishii.m4a",
+      "alt": "Delicious"
+    },
+    {
+      "id": "shizukana",
+      "japanese": "しずか（な）",
+      "romaji": "shizuka(na)",
+      "english": "quiet",
+      "audio": "../audio/vocabulary/week_02/day_08/shizukana.m4a",
+      "alt": "Quiet"
+    },
+    {
+      "id": "takai",
+      "japanese": "たかい",
+      "romaji": "takai",
+      "english": "expensive; tall",
+      "audio": "../audio/vocabulary/week_02/day_08/takai.m4a",
+      "alt": "Expensive"
+    },
+    {
+      "id": "ookii",
+      "japanese": "おおきい",
+      "romaji": "ookii",
+      "english": "big",
+      "audio": "../audio/vocabulary/week_02/day_08/ookii.m4a",
+      "alt": "Big"
+    },
+    {
+      "id": "muzukashii",
+      "japanese": "むずかしい",
+      "romaji": "muzukashii",
+      "english": "difficult",
+      "audio": "../audio/vocabulary/week_02/day_08/muzukashii.m4a",
+      "alt": "Difficult"
+    },
+    {
+      "id": "omoshiroi",
+      "japanese": "おもしろい",
+      "romaji": "omoshiroi",
+      "english": "interesting; fun",
+      "audio": "../audio/vocabulary/week_02/day_08/omoshiroi.m4a",
+      "alt": "Interesting"
+    },
+    {
+      "id": "nigiyakana",
+      "japanese": "にぎやか（な）",
+      "romaji": "nigiyaka(na)",
+      "english": "lively (busy)",
+      "audio": "../audio/vocabulary/week_02/day_08/nigiyakana.m4a",
+      "alt": "Lively"
+    },
+    {
+      "id": "shinsetsuna",
+      "japanese": "しんせつ（な）",
+      "romaji": "shinsetsu(na)",
+      "english": "kind",
+      "audio": "../audio/vocabulary/week_02/day_08/shinsetsuna.m4a",
+      "alt": "Kind"
+    },
+    {
+      "id": "kireena",
+      "japanese": "きれい（な）",
+      "romaji": "kiree(na)",
+      "english": "beautiful; clean",
+      "audio": "../audio/vocabulary/week_02/day_08/kireena.m4a",
+      "alt": "Beautiful"
+    },
+    {
+      "id": "yuumeena",
+      "japanese": "ゆうめい（な）",
+      "romaji": "yuumee(na)",
+      "english": "famous",
+      "audio": "../audio/vocabulary/week_02/day_08/yuumeena.m4a",
+      "alt": "Famous"
+    },
+    {
+      "id": "shoppai",
+      "japanese": "しょっぱい",
+      "romaji": "shoppai",
+      "english": "salty",
+      "audio": "../audio/vocabulary/week_02/day_08/shoppai.m4a",
+      "alt": "Salty"
+    },
+    {
+      "id": "hiroi",
+      "japanese": "ひろい",
+      "romaji": "hiroi",
+      "english": "wide",
+      "audio": "../audio/vocabulary/week_02/day_08/hiroi.m4a",
+      "alt": "Wide"
+    },
+    {
+      "id": "semai",
+      "japanese": "せまい",
+      "romaji": "semai",
+      "english": "narrow",
+      "audio": "../audio/vocabulary/week_02/day_08/semai.m4a",
+      "alt": "Narrow"
+    },
+    {
+      "id": "totemo",
+      "japanese": "とても",
+      "romaji": "totemo",
+      "english": "very much",
+      "audio": "../audio/vocabulary/week_02/day_08/totemo.m4a",
+      "alt": "Very much"
+    },
+    {
+      "id": "amari",
+      "japanese": "あまり",
+      "romaji": "amari",
+      "english": "not really",
+      "audio": "../audio/vocabulary/week_02/day_08/amari.m4a",
+      "alt": "Not really"
+    }
+  ]
+}

@@ -1,0 +1,1304 @@
+{
+ "quiz": {
+  "id": 863670,
+  "pass_fail": true,
+  "show_explanation": false,
+  "passing_score": 90,
+  "question_ids": [
+   4588375,
+   4588376,
+   4588377,
+   4588378,
+   4588379,
+   4588380,
+   4588381,
+   4588382,
+   4588383,
+   4588384,
+   4588385,
+   4588386,
+   4588387,
+   4588388,
+   4588389,
+   4588390,
+   4588391,
+   4588392,
+   4588393,
+   4588394,
+   4588395,
+   4588396,
+   4588397,
+   4588398,
+   4588399,
+   4588400,
+   4588401,
+   4588402,
+   4588403,
+   4588404
+  ]
+ },
+ "choices": [
+  {
+   "id": 15828580,
+   "text": "タブレットです。",
+   "credited": "NjJmYWxzZTYy",
+   "question_id": 4588375,
+   "position": 0
+  },
+  {
+   "id": 15828581,
+   "text": "アンナさんのです。",
+   "credited": "MTNmYWxzZTMx",
+   "question_id": 4588375,
+   "position": 1
+  },
+  {
+   "id": 15828582,
+   "text": "ろせんずです",
+   "credited": "MTd0cnVlOTA=",
+   "question_id": 4588375,
+   "position": 2
+  },
+  {
+   "id": 15828583,
+   "text": "アンナさんです",
+   "credited": "NDJmYWxzZTM2",
+   "question_id": 4588375,
+   "position": 3
+  },
+  {
+   "id": 15828584,
+   "text": "たなかせんせいです。",
+   "credited": "Mzh0cnVlOTA=",
+   "question_id": 4588376,
+   "position": 0
+  },
+  {
+   "id": 15828585,
+   "text": "たなかは　せんせいです。",
+   "credited": "NmZhbHNlNTI=",
+   "question_id": 4588376,
+   "position": 1
+  },
+  {
+   "id": 15828586,
+   "text": "たなかの　せんせいです。",
+   "credited": "NTJmYWxzZTEw",
+   "question_id": 4588376,
+   "position": 2
+  },
+  {
+   "id": 15828587,
+   "text": "せんせいの　たなかです。",
+   "credited": "ODFmYWxzZTU2",
+   "question_id": 4588376,
+   "position": 3
+  },
+  {
+   "id": 15828588,
+   "text": "リンさんの　ほんです。",
+   "credited": "OGZhbHNlMzk=",
+   "question_id": 4588377,
+   "position": 0
+  },
+  {
+   "id": 15828589,
+   "text": "このほんは　えいごです。",
+   "credited": "MTAwZmFsc2U4Nw==",
+   "question_id": 4588377,
+   "position": 1
+  },
+  {
+   "id": 15828590,
+   "text": "このほんは　リンさんです。",
+   "credited": "ODlmYWxzZTQz",
+   "question_id": 4588377,
+   "position": 2
+  },
+  {
+   "id": 15828591,
+   "text": "えいごの　ほんです。",
+   "credited": "MjF0cnVlMjI=",
+   "question_id": 4588377,
+   "position": 3
+  },
+  {
+   "id": 15828592,
+   "text": "としょしつは　どこですか。",
+   "credited": "NzR0cnVlNDc=",
+   "question_id": 4588378,
+   "position": 0
+  },
+  {
+   "id": 15828593,
+   "text": "としょしつは　どれですか。",
+   "credited": "MTRmYWxzZTEx",
+   "question_id": 4588378,
+   "position": 1
+  },
+  {
+   "id": 15828594,
+   "text": "としょしつは　どこのですか。",
+   "credited": "NmZhbHNlMTU=",
+   "question_id": 4588378,
+   "position": 2
+  },
+  {
+   "id": 15828595,
+   "text": "としょしつは　どのですか。",
+   "credited": "NzhmYWxzZTEx",
+   "question_id": 4588378,
+   "position": 3
+  },
+  {
+   "id": 15828596,
+   "text": "へやは　あまり　きれいくないです。",
+   "credited": "NzRmYWxzZTgw",
+   "question_id": 4588379,
+   "position": 0
+  },
+  {
+   "id": 15828597,
+   "text": "とうきょうだいがくは　あまり　おおきいです。",
+   "credited": "NmZhbHNlNjQ=",
+   "question_id": 4588379,
+   "position": 1
+  },
+  {
+   "id": 15828598,
+   "text": "すしは　とても　おいしいです。",
+   "credited": "NTd0cnVlNzk=",
+   "question_id": 4588379,
+   "position": 2
+  },
+  {
+   "id": 15828599,
+   "text": "ふじさんは　とても　ゆうめいじゃありません。",
+   "credited": "NjhmYWxzZTQ4",
+   "question_id": 4588379,
+   "position": 3
+  },
+  {
+   "id": 15828600,
+   "text": "おもしろいです。　それから、　むずかしいです。",
+   "credited": "NzFmYWxzZTU4",
+   "question_id": 4588380,
+   "position": 0
+  },
+  {
+   "id": 15828601,
+   "text": "おもしろいですが、　むずかしいです。",
+   "credited": "MTd0cnVlNTI=",
+   "question_id": 4588380,
+   "position": 1
+  },
+  {
+   "id": 15828602,
+   "text": "おもしろいです。そして　むずかしいです。",
+   "credited": "NDdmYWxzZTY3",
+   "question_id": 4588380,
+   "position": 2
+  },
+  {
+   "id": 15828603,
+   "text": "ふるい　まち",
+   "credited": "MjZ0cnVlNTA=",
+   "question_id": 4588381,
+   "position": 0
+  },
+  {
+   "id": 15828604,
+   "text": "しずかな　まち",
+   "credited": "NDNmYWxzZTQ1",
+   "question_id": 4588381,
+   "position": 1
+  },
+  {
+   "id": 15828605,
+   "text": "おおきい　まち",
+   "credited": "OGZhbHNlNA==",
+   "question_id": 4588381,
+   "position": 2
+  },
+  {
+   "id": 15828606,
+   "text": "きれいな　まち",
+   "credited": "OThmYWxzZTM2",
+   "question_id": 4588381,
+   "position": 3
+  },
+  {
+   "id": 15828607,
+   "text": "あなたの　くには　どうですか。",
+   "credited": "NjRmYWxzZTg2",
+   "question_id": 4588382,
+   "position": 0
+  },
+  {
+   "id": 15828608,
+   "text": "あなたの　くには　どんなですか。",
+   "credited": "OThmYWxzZTkw",
+   "question_id": 4588382,
+   "position": 1
+  },
+  {
+   "id": 15828609,
+   "text": "あなたの　くには　どんなくにですか。",
+   "credited": "MzZ0cnVlNzA=",
+   "question_id": 4588382,
+   "position": 2
+  },
+  {
+   "id": 15828610,
+   "text": "あなたの　くには　どのくにですか。",
+   "credited": "NDlmYWxzZTUw",
+   "question_id": 4588382,
+   "position": 3
+  },
+  {
+   "id": 15828611,
+   "text": "どんな　スポーツが　すきですか。",
+   "credited": "OXRydWU5OQ==",
+   "question_id": 4588383,
+   "position": 0
+  },
+  {
+   "id": 15828612,
+   "text": "どんな　サッカーが　すきですか。",
+   "credited": "NTFmYWxzZTU3",
+   "question_id": 4588383,
+   "position": 1
+  },
+  {
+   "id": 15828613,
+   "text": "どう　スポーツが　すきですか。",
+   "credited": "NTZmYWxzZTQx",
+   "question_id": 4588383,
+   "position": 2
+  },
+  {
+   "id": 15828614,
+   "text": "どれ　スポーツが　すきですか。",
+   "credited": "MzNmYWxzZTc5",
+   "question_id": 4588383,
+   "position": 3
+  },
+  {
+   "id": 15828615,
+   "text": "にほんごを　べんきょうしますから。",
+   "credited": "NzhmYWxzZTM5",
+   "question_id": 4588384,
+   "position": 0
+  },
+  {
+   "id": 15828616,
+   "text": "にほんごの　べんきょうは　おもしろいですから。",
+   "credited": "NDJ0cnVlNjk=",
+   "question_id": 4588384,
+   "position": 1
+  },
+  {
+   "id": 15828617,
+   "text": "にほんごの　べんきょうは　おもしろくないですから。",
+   "credited": "NzdmYWxzZTg3",
+   "question_id": 4588384,
+   "position": 2
+  },
+  {
+   "id": 15828618,
+   "text": "にほんごを　べんきょうしませんから。",
+   "credited": "NDlmYWxzZTU=",
+   "question_id": 4588384,
+   "position": 3
+  },
+  {
+   "id": 15828619,
+   "text": "ともだちと　たべます。",
+   "credited": "MzNmYWxzZTU2",
+   "question_id": 4588385,
+   "position": 0
+  },
+  {
+   "id": 15828620,
+   "text": "はしを　たべます。",
+   "credited": "OGZhbHNlNjM=",
+   "question_id": 4588385,
+   "position": 1
+  },
+  {
+   "id": 15828621,
+   "text": "てで　たべます。",
+   "credited": "MXRydWUxNA==",
+   "question_id": 4588385,
+   "position": 2
+  },
+  {
+   "id": 15828622,
+   "text": "うちで　たべます。",
+   "credited": "NjRmYWxzZTMz",
+   "question_id": 4588385,
+   "position": 3
+  },
+  {
+   "id": 15828623,
+   "text": "でんしゃは バスより はやいですか。",
+   "credited": "NDVmYWxzZTgy",
+   "question_id": 4588386,
+   "position": 0
+  },
+  {
+   "id": 15828624,
+   "text": "でんしゃと　バスと　どちらが　はやいですか。",
+   "credited": "MjR0cnVlNzM=",
+   "question_id": 4588386,
+   "position": 1
+  },
+  {
+   "id": 15828625,
+   "text": "ひこうきと しんかんせんと どちらより はやいですか。",
+   "credited": "NDJmYWxzZTgx",
+   "question_id": 4588386,
+   "position": 2
+  },
+  {
+   "id": 15828626,
+   "text": "バスは　でんしゃより　はやいですか。",
+   "credited": "NDNmYWxzZTcw",
+   "question_id": 4588386,
+   "position": 3
+  },
+  {
+   "id": 15828627,
+   "text": "いちまんはせんろくひゃく　えんです。",
+   "credited": "NTRmYWxzZTQ5",
+   "question_id": 4588387,
+   "position": 0
+  },
+  {
+   "id": 15828628,
+   "text": "いちまんはっせんろくひゃく　えんです。",
+   "credited": "ODRmYWxzZTQ=",
+   "question_id": 4588387,
+   "position": 1
+  },
+  {
+   "id": 15828629,
+   "text": "いちまんはっせんろっぴゃく　えんです。",
+   "credited": "Mjd0cnVlMg==",
+   "question_id": 4588387,
+   "position": 2
+  },
+  {
+   "id": 15828630,
+   "text": "いちまんはせんろっぴゃく　えんです。",
+   "credited": "OTNmYWxzZTM4",
+   "question_id": 4588387,
+   "position": 3
+  },
+  {
+   "id": 15828631,
+   "text": "ななじ　よんじゅうふんです。",
+   "credited": "NTdmYWxzZTk=",
+   "question_id": 4588388,
+   "position": 0
+  },
+  {
+   "id": 15828632,
+   "text": "しちじ　よんじゅっぷんです。",
+   "credited": "MzV0cnVlNDQ=",
+   "question_id": 4588388,
+   "position": 1
+  },
+  {
+   "id": 15828633,
+   "text": "しちじ　よんじゅうふんです。",
+   "credited": "NjJmYWxzZTEy",
+   "question_id": 4588388,
+   "position": 2
+  },
+  {
+   "id": 15828634,
+   "text": "ななじ　よんじゅっぷんです。",
+   "credited": "N2ZhbHNlODg=",
+   "question_id": 4588388,
+   "position": 3
+  },
+  {
+   "id": 15828635,
+   "text": "ほんやの　みぎに　あります。",
+   "credited": "NTdmYWxzZTY5",
+   "question_id": 4588389,
+   "position": 0
+  },
+  {
+   "id": 15828636,
+   "text": "こうえんの　みぎに　あります。",
+   "credited": "MTAwdHJ1ZTY5",
+   "question_id": 4588389,
+   "position": 1
+  },
+  {
+   "id": 15828637,
+   "text": "デパートの　うしろに　あります。",
+   "credited": "OGZhbHNlMzc=",
+   "question_id": 4588389,
+   "position": 2
+  },
+  {
+   "id": 15828638,
+   "text": "スーパーはありません。",
+   "credited": "MjNmYWxzZTA=",
+   "question_id": 4588389,
+   "position": 3
+  },
+  {
+   "id": 15828639,
+   "text": "ケーキを　ふだつ、シャツを　さんまい　かいます。",
+   "credited": "MzJmYWxzZTMx",
+   "question_id": 4588390,
+   "position": 0
+  },
+  {
+   "id": 15828640,
+   "text": "ケーキをふたつ、シャツを　さんつ　かいます。",
+   "credited": "NjNmYWxzZTM4",
+   "question_id": 4588390,
+   "position": 1
+  },
+  {
+   "id": 15828641,
+   "text": "ケーキをふたつ、　シャツを　さんまい　かいます。",
+   "credited": "MjJ0cnVlOTM=",
+   "question_id": 4588390,
+   "position": 2
+  },
+  {
+   "id": 15828642,
+   "text": "ケーキを　につ、　シャツを　さんつ　かいます。",
+   "credited": "NjhmYWxzZTk=",
+   "question_id": 4588390,
+   "position": 3
+  },
+  {
+   "id": 15828643,
+   "text": "かんじのほうが　むずかしいです。",
+   "credited": "ODRmYWxzZTc5",
+   "question_id": 4588391,
+   "position": 0
+  },
+  {
+   "id": 15828644,
+   "text": "どちらも　むずかしいです。",
+   "credited": "MjNmYWxzZTM0",
+   "question_id": 4588391,
+   "position": 1
+  },
+  {
+   "id": 15828645,
+   "text": "どちらも　むずかしくないです。",
+   "credited": "MjNmYWxzZTY=",
+   "question_id": 4588391,
+   "position": 2
+  },
+  {
+   "id": 15828646,
+   "text": "カタカナのほうが　むずかしいです。",
+   "credited": "NTB0cnVlNjQ=",
+   "question_id": 4588391,
+   "position": 3
+  },
+  {
+   "id": 15828647,
+   "text": "はい、そうです。",
+   "credited": "NjJ0cnVlMzg=",
+   "question_id": 4588392,
+   "position": 0
+  },
+  {
+   "id": 15828648,
+   "text": "いいえ、やまださんのじゃありません",
+   "credited": "MjV0cnVlMzE=",
+   "question_id": 4588392,
+   "position": 1
+  },
+  {
+   "id": 15828649,
+   "text": "はい、やまださんのじゃありません",
+   "credited": "NzBmYWxzZTI1",
+   "question_id": 4588392,
+   "position": 2
+  },
+  {
+   "id": 15828650,
+   "text": "いいえ、やまださんのです。",
+   "credited": "NzdmYWxzZTE0",
+   "question_id": 4588392,
+   "position": 3
+  },
+  {
+   "id": 15828651,
+   "text": "わたしのです。",
+   "credited": "MjNmYWxzZTkw",
+   "question_id": 4588393,
+   "position": 0
+  },
+  {
+   "id": 15828652,
+   "text": "Sonyのです。",
+   "credited": "OTN0cnVlMjI=",
+   "question_id": 4588393,
+   "position": 1
+  },
+  {
+   "id": 15828653,
+   "text": "80000えんです。",
+   "credited": "NjlmYWxzZTI3",
+   "question_id": 4588393,
+   "position": 2
+  },
+  {
+   "id": 15828654,
+   "text": "にほんのです。",
+   "credited": "NzV0cnVlMg==",
+   "question_id": 4588393,
+   "position": 3
+  },
+  {
+   "id": 15828655,
+   "text": "なにも　たべません。",
+   "credited": "NDB0cnVlNTI=",
+   "question_id": 4588394,
+   "position": 0
+  },
+  {
+   "id": 15828656,
+   "text": "パンと　たまごを　たべました。",
+   "credited": "NjFmYWxzZTg2",
+   "question_id": 4588394,
+   "position": 1
+  },
+  {
+   "id": 15828657,
+   "text": "パンと　たまごを　たべます。",
+   "credited": "NnRydWU5Ng==",
+   "question_id": 4588394,
+   "position": 2
+  },
+  {
+   "id": 15828658,
+   "text": "なにも　たべます。",
+   "credited": "MjJmYWxzZTgy",
+   "question_id": 4588394,
+   "position": 3
+  },
+  {
+   "id": 15828659,
+   "text": "しぶやへ　いきます。",
+   "credited": "NzRmYWxzZTg0",
+   "question_id": 4588395,
+   "position": 0
+  },
+  {
+   "id": 15828660,
+   "text": "しぶやへ　いきました。",
+   "credited": "NTl0cnVlNzI=",
+   "question_id": 4588395,
+   "position": 1
+  },
+  {
+   "id": 15828661,
+   "text": "どこも　いきました。",
+   "credited": "OWZhbHNlNTA=",
+   "question_id": 4588395,
+   "position": 2
+  },
+  {
+   "id": 15828662,
+   "text": "どこも　いきませんでした。",
+   "credited": "NzF0cnVlNjg=",
+   "question_id": 4588395,
+   "position": 3
+  },
+  {
+   "id": 15828663,
+   "text": "きょねん　きました",
+   "credited": "Njd0cnVlOTg=",
+   "question_id": 4588396,
+   "position": 0
+  },
+  {
+   "id": 15828664,
+   "text": "じゅうがつとおかに　きました。",
+   "credited": "MjN0cnVlMTE=",
+   "question_id": 4588396,
+   "position": 1
+  },
+  {
+   "id": 15828665,
+   "text": "きょねんに　きました。",
+   "credited": "NjVmYWxzZTMy",
+   "question_id": 4588396,
+   "position": 2
+  },
+  {
+   "id": 15828666,
+   "text": "じゅうがつ　とおか　きました。",
+   "credited": "OTRmYWxzZTYy",
+   "question_id": 4588396,
+   "position": 3
+  },
+  {
+   "id": 15828667,
+   "text": "すみません。らいしゅうの　どようびは　やくそくがあります。",
+   "credited": "NjN0cnVlOTY=",
+   "question_id": 4588397,
+   "position": 0
+  },
+  {
+   "id": 15828668,
+   "text": "いいですね。わたしは　おさけがすきじゃありません。",
+   "credited": "MzFmYWxzZTg0",
+   "question_id": 4588397,
+   "position": 1
+  },
+  {
+   "id": 15828669,
+   "text": "にほんの　おさけを　のみました。",
+   "credited": "MzdmYWxzZTkx",
+   "question_id": 4588397,
+   "position": 2
+  },
+  {
+   "id": 15828670,
+   "text": "すみません。らいしゅうの　どようびはちょっと…",
+   "credited": "NjV0cnVlOTc=",
+   "question_id": 4588397,
+   "position": 3
+  },
+  {
+   "id": 15828671,
+   "text": "はい、　すこし　わかります。",
+   "credited": "MjJ0cnVlNjg=",
+   "question_id": 4588398,
+   "position": 0
+  },
+  {
+   "id": 15828672,
+   "text": "いいえ、よく　わかります。",
+   "credited": "OTlmYWxzZTM4",
+   "question_id": 4588398,
+   "position": 1
+  },
+  {
+   "id": 15828673,
+   "text": "はい、とても　わかりません。",
+   "credited": "NDJmYWxzZTMw",
+   "question_id": 4588398,
+   "position": 2
+  },
+  {
+   "id": 15828674,
+   "text": "いいえ、ぜんぜん　わかりません。",
+   "credited": "MzJ0cnVlMzM=",
+   "question_id": 4588398,
+   "position": 3
+  },
+  {
+   "id": 15828675,
+   "text": "すみません。きょうは　じかんが　ありませんから、さきにかえります。",
+   "credited": "OTR0cnVlMg==",
+   "question_id": 4588399,
+   "position": 0
+  },
+  {
+   "id": 15828676,
+   "text": "すみません。さきにかえりますから、やくそくがあります。",
+   "credited": "MjVmYWxzZTcz",
+   "question_id": 4588399,
+   "position": 1
+  },
+  {
+   "id": 15828677,
+   "text": "すみません。さきにかえりますから、じかんがあります。",
+   "credited": "NzJmYWxzZTc2",
+   "question_id": 4588399,
+   "position": 2
+  },
+  {
+   "id": 15828678,
+   "text": "すみません。きょうは　やくそくがありますから、さきに　かえります。",
+   "credited": "NDl0cnVlNzQ=",
+   "question_id": 4588399,
+   "position": 3
+  },
+  {
+   "id": 15828679,
+   "text": "やまださんも　アンナさんも　がくせいです。",
+   "credited": "NjZ0cnVlMQ==",
+   "question_id": 4588400,
+   "position": 0
+  },
+  {
+   "id": 15828680,
+   "text": "アンナさんは　がくせいじゃありません。",
+   "credited": "MGZhbHNlMTE=",
+   "question_id": 4588400,
+   "position": 1
+  },
+  {
+   "id": 15828681,
+   "text": "アンナさんの　せんもんは　ＩＴです。",
+   "credited": "NDV0cnVlNDQ=",
+   "question_id": 4588400,
+   "position": 2
+  },
+  {
+   "id": 15828682,
+   "text": "やまださんの　せんもんも　ＩＴです。",
+   "credited": "MzNmYWxzZTUz",
+   "question_id": 4588400,
+   "position": 3
+  },
+  {
+   "id": 15828683,
+   "text": "コーヒーを　のみます。それから　テレビを　みます。",
+   "credited": "NDdmYWxzZTMy",
+   "question_id": 4588401,
+   "position": 0
+  },
+  {
+   "id": 15828684,
+   "text": "べんきょうします。それから　コーヒーを　のみます。",
+   "credited": "MXRydWUxMg==",
+   "question_id": 4588401,
+   "position": 1
+  },
+  {
+   "id": 15828685,
+   "text": "ねます。　それから　コーヒーを　のみます。",
+   "credited": "NGZhbHNlNzg=",
+   "question_id": 4588401,
+   "position": 2
+  },
+  {
+   "id": 15828686,
+   "text": "テレビを　みます。それから　べんきょうします。",
+   "credited": "NDV0cnVlOTM=",
+   "question_id": 4588401,
+   "position": 3
+  },
+  {
+   "id": 15828687,
+   "text": "きのう　かぞくと　あるいて　スーパーへ　いきました。",
+   "credited": "MzFmYWxzZTE=",
+   "question_id": 4588402,
+   "position": 0
+  },
+  {
+   "id": 15828688,
+   "text": "らいげつ　ひこうきで　ほっかいどうへ　いきました。",
+   "credited": "NDBmYWxzZTU3",
+   "question_id": 4588402,
+   "position": 1
+  },
+  {
+   "id": 15828689,
+   "text": "らいげつ　ひこうきで　ほっかいどうへ　いきます。",
+   "credited": "NDV0cnVlNzE=",
+   "question_id": 4588402,
+   "position": 2
+  },
+  {
+   "id": 15828690,
+   "text": "きのう　ひとりで　あるいて　スーパーへいきました。",
+   "credited": "NTN0cnVlOTY=",
+   "question_id": 4588402,
+   "position": 3
+  },
+  {
+   "id": 15828691,
+   "text": "らいげつ　ひとりで　ほっかいどうへ　いきます。",
+   "credited": "NDlmYWxzZTI1",
+   "question_id": 4588402,
+   "position": 4
+  },
+  {
+   "id": 15828692,
+   "text": "いすの　うえに　ねこがいます",
+   "credited": "NjdmYWxzZTg1",
+   "question_id": 4588403,
+   "position": 0
+  },
+  {
+   "id": 15828693,
+   "text": "ドアの　みぎに　おとこのひとが　います",
+   "credited": "NThmYWxzZTI1",
+   "question_id": 4588403,
+   "position": 1
+  },
+  {
+   "id": 15828694,
+   "text": "ドアの　まえに　おとこのひとが　います",
+   "credited": "ODN0cnVlNTY=",
+   "question_id": 4588403,
+   "position": 2
+  },
+  {
+   "id": 15828695,
+   "text": "いすの　したに　ねこが　います",
+   "credited": "NXRydWUw",
+   "question_id": 4588403,
+   "position": 3
+  },
+  {
+   "id": 15828696,
+   "text": "Ａさんは　Ｂさんに　ボールペンを　かりました。",
+   "credited": "Mzl0cnVlNjM=",
+   "question_id": 4588404,
+   "position": 0
+  },
+  {
+   "id": 15828697,
+   "text": "Ａさんは　Ｂさんに　ボールペンを　かしました。",
+   "credited": "MzdmYWxzZTQ5",
+   "question_id": 4588404,
+   "position": 1
+  },
+  {
+   "id": 15828698,
+   "text": "Ｂさんは　Ａさんに　ボールペンを　かりました。",
+   "credited": "MjNmYWxzZTkz",
+   "question_id": 4588404,
+   "position": 2
+  },
+  {
+   "id": 15828699,
+   "text": "Ｂさんは　Ａさんに　ボールペンを　かしました。",
+   "credited": "OTF0cnVlNzU=",
+   "question_id": 4588404,
+   "position": 3
+  }
+ ],
+ "questions": [
+  {
+   "id": 4588375,
+   "prompt": "<div class=\"fr-view\">\n<p>Please choose the correct answer to this question:</p>\n<p><span class=\"fr-video fr-fvc fr-dvb fr-draggable fr-active\" contenteditable=\"false\" draggable=\"true\"><iframe src=\"https://japaneseonline.gogonihon.com/api/course_player/v2/contents/13399082/play/3411981\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"D1L4Q1.mp4 - 00:01\" name=\"videoproxy_embed\" allowfullscreen=\"\"></iframe></span><br></p>\n<p><br></p>\n</div>",
+   "text_explanation": "",
+   "quiz_id": 863670,
+   "position": 0,
+   "display_type": "radio",
+   "choice_ids": [
+    15828580,
+    15828581,
+    15828582,
+    15828583
+   ]
+  },
+  {
+   "id": 4588376,
+   "prompt": "<div class=\"fr-view\">\n<p>Please choose the correct answer to this question:</p>\n<p><span class=\"fr-video fr-fvc fr-dvb fr-draggable fr-active\" contenteditable=\"false\" draggable=\"true\" style=\"padding-bottom: 56.25%; padding-top: 25px; display: block; position: relative;\"><iframe src=\"https://japaneseonline.gogonihon.com/api/course_player/v2/contents/13399082/play/3252292\" scrolling=\"no\" class=\"videoproxy_embed\" title=\"D2 L3 R1 - 00:02\" name=\"videoproxy_embed\" allowfullscreen=\"\" style=\"position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;\"></iframe></span><br></p>\n<p><br></p>\n</div>",
+   "text_explanation": "",
+   "quiz_id": 863670,
+   "position": 1,
+   "display_type": "radio",
+   "choice_ids": [
+    15828584,
+    15828585,
+    15828586,
+    15828587
+   ]
+  },
+  {
+   "id": 4588377,
+   "prompt": "<div class=\"fr-view\"><p>Please choose the correct answer to this question:</p><p>Ｑ：この　ほんは　なんの　ほんですか。</p></div>",
+   "text_explanation": "",
+   "quiz_id": 863670,
+   "position": 2,
+   "display_type": "radio",
+   "choice_ids": [
+    15828588,
+    15828589,
+    15828590,
+    15828591
+   ]
+  },
+  {
+   "id": 4588378,
+   "prompt": "<div class=\"fr-view\"><p>Please choose the correct question for this answer: </p><p>Ａ：ちか　いっかいです。</p></div>",
+   "text_explanation": "",
+   "quiz_id": 863670,
+   "position": 3,
+   "display_type": "radio",
+   "choice_ids": [
+    15828592,
+    15828593,
+    15828594,
+    15828595
+   ]
+  },
+  {
+   "id": 4588379,
+   "prompt": "Please select the correct sentence in Japanese.",
+   "text_explanation": "",
+   "quiz_id": 863670,
+   "position": 4,
+   "display_type": "radio",
+   "choice_ids": [
+    15828596,
+    15828597,
+    15828598,
+    15828599
+   ]
+  },
+  {
+   "id": 4588380,
+   "prompt": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/9e9/5c6/5be/3week_test_audio_question6.mp3\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center;\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/9e9/5c6/5be/3week_test_audio_question6.mp3\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a>Listen to the audio, please choose the answer from the below.</p><p><br></p>",
+   "text_explanation": "",
+   "quiz_id": 863670,
+   "position": 5,
+   "display_type": "radio",
+   "choice_ids": [
+    15828600,
+    15828601,
+    15828602
+   ]
+  },
+  {
+   "id": 4588381,
+   "prompt": "<div class=\"fr-view\"><p>Please select the sentence that has the opposite meaning of this sentence: &nbsp;あたらしい　まち</p></div>",
+   "text_explanation": "",
+   "quiz_id": 863670,
+   "position": 6,
+   "display_type": "radio",
+   "choice_ids": [
+    15828603,
+    15828604,
+    15828605,
+    15828606
+   ]
+  },
+  {
+   "id": 4588382,
+   "prompt": "<div class=\"fr-view\"><p>Please choose the correct question from the below to receive this answer: おおきい　くにです。</p></div>",
+   "text_explanation": "",
+   "quiz_id": 863670,
+   "position": 7,
+   "display_type": "radio",
+   "choice_ids": [
+    15828607,
+    15828608,
+    15828609,
+    15828610
+   ]
+  },
+  {
+   "id": 4588383,
+   "prompt": "<div class=\"fr-view\"><p>Please choose the correct question from the below to receive this answer: サッカーがすきです。</p></div>",
+   "text_explanation": "",
+   "quiz_id": 863670,
+   "position": 8,
+   "display_type": "radio",
+   "choice_ids": [
+    15828611,
+    15828612,
+    15828613,
+    15828614
+   ]
+  },
+  {
+   "id": 4588384,
+   "prompt": "<div class=\"fr-view\"><p>Please choose the correct answer to this question：どうして　にほんごを　べんきょうしますか。</p></div>",
+   "text_explanation": "",
+   "quiz_id": 863670,
+   "position": 9,
+   "display_type": "radio",
+   "choice_ids": [
+    15828615,
+    15828616,
+    15828617,
+    15828618
+   ]
+  },
+  {
+   "id": 4588385,
+   "prompt": "<div class=\"fr-view\"><p>Please choose the correct answer to this question：にほんじんは　なんで　すしを　たべますか。</p></div>",
+   "text_explanation": "",
+   "quiz_id": 863670,
+   "position": 10,
+   "display_type": "radio",
+   "choice_ids": [
+    15828619,
+    15828620,
+    15828621,
+    15828622
+   ]
+  },
+  {
+   "id": 4588386,
+   "prompt": "<div class=\"fr-view\"><p>Please choose the correct question to receive this answer: でんしゃの　ほうが　はやいです。</p></div>",
+   "text_explanation": "",
+   "quiz_id": 863670,
+   "position": 11,
+   "display_type": "radio",
+   "choice_ids": [
+    15828623,
+    15828624,
+    15828625,
+    15828626
+   ]
+  },
+  {
+   "id": 4588387,
+   "prompt": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/d2b/b67/2bf/3week_test_audio_question13.mp3\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center;\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/d2b/b67/2bf/3week_test_audio_question13.mp3\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a>Please listen to the audio and look at the picture, and then choose the correct answer.</p><div class=\"fr-view\"><p><img src=\"https://files.cdn.thinkific.com/file_uploads/259518/images/f2a/fde/e1d/week3_test_question13.jpg\" style=\"width: 300px;\" class=\"fr-fic fr-dib fr-fil\" srcset=\"https://files.cdn.thinkific.com/file_uploads/259518/images/f2a/fde/e1d/week3_test_question13.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/259518/images/f2a/fde/e1d/week3_test_question13.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/259518/images/f2a/fde/e1d/week3_test_question13.jpg?width=1920&amp;dpr=3 3x\"></p></div><p><br></p>",
+   "text_explanation": "",
+   "quiz_id": 863670,
+   "position": 12,
+   "display_type": "radio",
+   "choice_ids": [
+    15828627,
+    15828628,
+    15828629,
+    15828630
+   ]
+  },
+  {
+   "id": 4588388,
+   "prompt": "<div class=\"fr-view\"><p>Look at the picture and select the right answer to this question: いま　なんじですか。<img src=\"https://files.cdn.thinkific.com/file_uploads/259518/images/ff8/40f/4e9/week3_test_question14.jpg\" style=\"width: 300px;\" class=\"fr-fic fr-dib fr-fil\" srcset=\"https://files.cdn.thinkific.com/file_uploads/259518/images/ff8/40f/4e9/week3_test_question14.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/259518/images/ff8/40f/4e9/week3_test_question14.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/259518/images/ff8/40f/4e9/week3_test_question14.jpg?width=1920&amp;dpr=3 3x\"></p></div>",
+   "text_explanation": "",
+   "quiz_id": 863670,
+   "position": 13,
+   "display_type": "radio",
+   "choice_ids": [
+    15828631,
+    15828632,
+    15828633,
+    15828634
+   ]
+  },
+  {
+   "id": 4588389,
+   "prompt": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/911/00d/df8/3week_test_audio_question15.mp3\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/911/00d/df8/3week_test_audio_question15.mp3\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p><p>Please<strong> listen to the audio and look at the picture</strong> and then choose the correct answer.</p><div class=\"fr-view\"><p><img src=\"https://files.cdn.thinkific.com/file_uploads/259518/images/325/921/e40/week3_test_question15.jpg\" style=\"width: 300px;\" class=\"fr-fic fr-dib fr-fil\" srcset=\"https://files.cdn.thinkific.com/file_uploads/259518/images/325/921/e40/week3_test_question15.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/259518/images/325/921/e40/week3_test_question15.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/259518/images/325/921/e40/week3_test_question15.jpg?width=1920&amp;dpr=3 3x\"></p></div>",
+   "text_explanation": "",
+   "quiz_id": 863670,
+   "position": 14,
+   "display_type": "radio",
+   "choice_ids": [
+    15828635,
+    15828636,
+    15828637,
+    15828638
+   ]
+  },
+  {
+   "id": 4588390,
+   "prompt": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/826/8da/55e/3week_test_audio_question16.mp3\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/826/8da/55e/3week_test_audio_question16.mp3\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a></p><p>Please<strong> listen to the audio and look at the picture</strong> and then choose the correct answer.</p><div class=\"fr-view\">\n<p> </p>\n<p><img src=\"https://files.cdn.thinkific.com/file_uploads/259518/images/dde/fa9/e0e/week3_test_question16.jpg\" style=\"width: 300px;\" class=\"fr-fic fr-dib fr-fil\" srcset=\"https://files.cdn.thinkific.com/file_uploads/259518/images/dde/fa9/e0e/week3_test_question16.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/259518/images/dde/fa9/e0e/week3_test_question16.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/259518/images/dde/fa9/e0e/week3_test_question16.jpg?width=1920&amp;dpr=3 3x\"></p>\n</div>",
+   "text_explanation": "",
+   "quiz_id": 863670,
+   "position": 15,
+   "display_type": "radio",
+   "choice_ids": [
+    15828639,
+    15828640,
+    15828641,
+    15828642
+   ]
+  },
+  {
+   "id": 4588391,
+   "prompt": "<p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/123/9a7/5f1/3week_test_audio_question17.mp3\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/123/9a7/5f1/3week_test_audio_question17.mp3\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a>Please<strong> listen to the audio and look at the picture</strong> and then choose the correct answer.</p><div class=\"fr-view\">\n<p><br></p>\n<p><img src=\"https://files.cdn.thinkific.com/file_uploads/259518/images/aa3/c16/9fc/week3_test_question17.jpg\" style=\"width: 300px;\" class=\"fr-fic fr-dib fr-fil\" srcset=\"https://files.cdn.thinkific.com/file_uploads/259518/images/aa3/c16/9fc/week3_test_question17.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/259518/images/aa3/c16/9fc/week3_test_question17.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/259518/images/aa3/c16/9fc/week3_test_question17.jpg?width=1920&amp;dpr=3 3x\"></p>\n</div><p><br></p>",
+   "text_explanation": "",
+   "quiz_id": 863670,
+   "position": 16,
+   "display_type": "radio",
+   "choice_ids": [
+    15828643,
+    15828644,
+    15828645,
+    15828646
+   ]
+  },
+  {
+   "id": 4588392,
+   "prompt": "<div class=\"fr-view\"><p>Please select all options that answer this question correctly: これは　やまださんのですか。</p></div>",
+   "text_explanation": "",
+   "quiz_id": 863670,
+   "position": 17,
+   "display_type": "checkbox",
+   "choice_ids": [
+    15828647,
+    15828648,
+    15828649,
+    15828650
+   ]
+  },
+  {
+   "id": 4588393,
+   "prompt": "<div class=\"fr-view\"><p>Please select all options that answer this question correctly：その　パソコンは　どこのですか。</p></div>",
+   "text_explanation": "",
+   "quiz_id": 863670,
+   "position": 18,
+   "display_type": "checkbox",
+   "choice_ids": [
+    15828651,
+    15828652,
+    15828653,
+    15828654
+   ]
+  },
+  {
+   "id": 4588394,
+   "prompt": "<div class=\"fr-view\"><p>Please select all options that answer this question correctly：まいあさ　なにを　たべますか。</p></div>",
+   "text_explanation": "",
+   "quiz_id": 863670,
+   "position": 19,
+   "display_type": "checkbox",
+   "choice_ids": [
+    15828655,
+    15828656,
+    15828657,
+    15828658
+   ]
+  },
+  {
+   "id": 4588395,
+   "prompt": "<div class=\"fr-view\"><p>Please select all options that answer this question correctly：にちようび　どこへ　いきましたか。</p></div>",
+   "text_explanation": "",
+   "quiz_id": 863670,
+   "position": 20,
+   "display_type": "checkbox",
+   "choice_ids": [
+    15828659,
+    15828660,
+    15828661,
+    15828662
+   ]
+  },
+  {
+   "id": 4588396,
+   "prompt": "<div class=\"fr-view\"><p>Please select all options that answer this question correctly：いつ　にほんへ　きましたか。</p></div>",
+   "text_explanation": "",
+   "quiz_id": 863670,
+   "position": 21,
+   "display_type": "checkbox",
+   "choice_ids": [
+    15828663,
+    15828664,
+    15828665,
+    15828666
+   ]
+  },
+  {
+   "id": 4588397,
+   "prompt": "<div class=\"fr-view\"><p>Please select all options that answer this question correctly：らいしゅうの　どようび　いっしょに　おさけを　のみませんか。</p></div>",
+   "text_explanation": "",
+   "quiz_id": 863670,
+   "position": 22,
+   "display_type": "checkbox",
+   "choice_ids": [
+    15828667,
+    15828668,
+    15828669,
+    15828670
+   ]
+  },
+  {
+   "id": 4588398,
+   "prompt": "<p>Listen to the audio, and please choose the correct answer</p><p><a class=\"fr-file\" href=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/5a8/0be/58f/3week_test_audio_question24.mp3\" target=\"_blank\"><span class=\"fr-audio\" contenteditable=\"false\" style=\"display: block; text-align: center;\"><audio controls=\"\" src=\"https://files.cdn.thinkific.com/file_uploads/259518/attachments/5a8/0be/58f/3week_test_audio_question24.mp3\">If you are reading this, it is because your browser does not support the audio element.</audio></span></a>Listen to the audio and please choose the correct answer.</p>",
+   "text_explanation": "",
+   "quiz_id": 863670,
+   "position": 23,
+   "display_type": "checkbox",
+   "choice_ids": [
+    15828671,
+    15828672,
+    15828673,
+    15828674
+   ]
+  },
+  {
+   "id": 4588399,
+   "prompt": "<div class=\"fr-view\"><p>Please select all options that answer this question correctly: Bさん、いっしょに　かえりませんか。</p></div>",
+   "text_explanation": "",
+   "quiz_id": 863670,
+   "position": 24,
+   "display_type": "checkbox",
+   "choice_ids": [
+    15828675,
+    15828676,
+    15828677,
+    15828678
+   ]
+  },
+  {
+   "id": 4588400,
+   "prompt": "<div class=\"fr-view\">\n<p>Look at the picture and please choose all the relevant sentences. </p>\n<p><img src=\"https://files.cdn.thinkific.com/file_uploads/259518/images/78f/cbe/1b7/week3_test_question26.jpg\" style=\"width: 300px;\" class=\"fr-fic fr-dib fr-fil\" srcset=\"https://files.cdn.thinkific.com/file_uploads/259518/images/78f/cbe/1b7/week3_test_question26.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/259518/images/78f/cbe/1b7/week3_test_question26.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/259518/images/78f/cbe/1b7/week3_test_question26.jpg?width=1920&amp;dpr=3 3x\"></p>\n</div>",
+   "text_explanation": "",
+   "quiz_id": 863670,
+   "position": 25,
+   "display_type": "checkbox",
+   "choice_ids": [
+    15828679,
+    15828680,
+    15828681,
+    15828682
+   ]
+  },
+  {
+   "id": 4588401,
+   "prompt": "<div class=\"fr-view\">\n<p>Look at the picture and please choose all the relevant sentences. </p>\n<p><img src=\"https://files.cdn.thinkific.com/file_uploads/259518/images/e0b/ac8/3e5/week3_test_question27.jpg\" style=\"width: 300px;\" class=\"fr-fic fr-dib fr-fil\" srcset=\"https://files.cdn.thinkific.com/file_uploads/259518/images/e0b/ac8/3e5/week3_test_question27.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/259518/images/e0b/ac8/3e5/week3_test_question27.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/259518/images/e0b/ac8/3e5/week3_test_question27.jpg?width=1920&amp;dpr=3 3x\"></p>\n</div>",
+   "text_explanation": "",
+   "quiz_id": 863670,
+   "position": 26,
+   "display_type": "checkbox",
+   "choice_ids": [
+    15828683,
+    15828684,
+    15828685,
+    15828686
+   ]
+  },
+  {
+   "id": 4588402,
+   "prompt": "<div class=\"fr-view\">\n<p>Look at the picture and please choose all the relevant sentences. </p>\n<p><img src=\"https://files.cdn.thinkific.com/file_uploads/259518/images/2d0/e3c/294/week3_test_question28.jpg\" style=\"width: 300px;\" class=\"fr-fic fr-dib fr-fil\" srcset=\"https://files.cdn.thinkific.com/file_uploads/259518/images/2d0/e3c/294/week3_test_question28.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/259518/images/2d0/e3c/294/week3_test_question28.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/259518/images/2d0/e3c/294/week3_test_question28.jpg?width=1920&amp;dpr=3 3x\"></p>\n</div>",
+   "text_explanation": "",
+   "quiz_id": 863670,
+   "position": 27,
+   "display_type": "checkbox",
+   "choice_ids": [
+    15828687,
+    15828688,
+    15828689,
+    15828690,
+    15828691
+   ]
+  },
+  {
+   "id": 4588403,
+   "prompt": "<div class=\"fr-view\">\n<p>Look at the picture and please choose all the relevant sentences. </p>\n<p><img src=\"https://files.cdn.thinkific.com/file_uploads/259518/images/370/280/a95/week3_test_question29.jpg\" style=\"width: 300px;\" class=\"fr-fic fr-dib fr-fil\" srcset=\"https://files.cdn.thinkific.com/file_uploads/259518/images/370/280/a95/week3_test_question29.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/259518/images/370/280/a95/week3_test_question29.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/259518/images/370/280/a95/week3_test_question29.jpg?width=1920&amp;dpr=3 3x\"></p>\n</div>",
+   "text_explanation": "",
+   "quiz_id": 863670,
+   "position": 28,
+   "display_type": "checkbox",
+   "choice_ids": [
+    15828692,
+    15828693,
+    15828694,
+    15828695
+   ]
+  },
+  {
+   "id": 4588404,
+   "prompt": "<div class=\"fr-view\">\n<p>Look at the picture and please choose all the relevant sentences.</p>\n<p><img src=\"https://files.cdn.thinkific.com/file_uploads/259518/images/4be/2a1/1ee/week3_test_question30.jpg\" style=\"width: 300px;\" class=\"fr-fic fr-dib fr-fil\" srcset=\"https://files.cdn.thinkific.com/file_uploads/259518/images/4be/2a1/1ee/week3_test_question30.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/259518/images/4be/2a1/1ee/week3_test_question30.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/259518/images/4be/2a1/1ee/week3_test_question30.jpg?width=1920&amp;dpr=3 3x\"></p>\n</div>",
+   "text_explanation": "",
+   "quiz_id": 863670,
+   "position": 29,
+   "display_type": "checkbox",
+   "choice_ids": [
+    15828696,
+    15828697,
+    15828698,
+    15828699
+   ]
+  }
+ ]
+}
