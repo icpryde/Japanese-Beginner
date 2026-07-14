@@ -1,0 +1,233 @@
+{
+  "id": "week_11/day_52_vocabulary",
+  "kind": "image",
+  "title": "Day 52 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 52 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "robii",
+      "japanese": "ロビー",
+      "romaji": "robii",
+      "english": "lobby",
+      "image": "../images/study/week_11/day_52/robii.png",
+      "audio": "../audio/vocabulary/week_11/day_52/robii.wav",
+      "alt": "The interior of a hotel lobby"
+    },
+    {
+      "id": "poppukoon",
+      "japanese": "ポップコーン",
+      "romaji": "poppukoon",
+      "english": "pop corn",
+      "image": "../images/study/week_11/day_52/poppukoon.png",
+      "audio": "../audio/vocabulary/week_11/day_52/poppukoon.wav",
+      "alt": "A striped tub full of popcorn"
+    },
+    {
+      "id": "jogingu",
+      "japanese": "ジョギング",
+      "romaji": "jogingu",
+      "english": "jogging",
+      "image": "../images/study/week_11/day_52/jogingu.png",
+      "audio": "../audio/vocabulary/week_11/day_52/jogingu.wav",
+      "alt": "A man in a cap jogging"
+    },
+    {
+      "id": "memo_shimasu",
+      "japanese": "メモします【Ⅲ】",
+      "romaji": "memo shimasu",
+      "english": "to take notes",
+      "image": "../images/study/week_11/day_52/memo_shimasu.png",
+      "audio": "../audio/vocabulary/week_11/day_52/memo_shimasu.wav",
+      "alt": "A man in a suit writing a memo in a small notebook"
+    },
+    {
+      "id": "yume",
+      "japanese": "夢",
+      "romaji": "yume",
+      "english": "dream",
+      "image": "../images/study/week_11/day_52/yume.png",
+      "audio": "../audio/vocabulary/week_11/day_52/yume.wav",
+      "alt": "Children dreaming about their future careers"
+    },
+    {
+      "id": "mise_o_hirakimasu",
+      "japanese": "（店を）開きます【Ⅰ】",
+      "romaji": "(mise o) hirakimasu",
+      "english": "to open (a shop)",
+      "image": "../images/study/week_11/day_52/mise_o_hirakimasu.png",
+      "audio": "../audio/vocabulary/week_11/day_52/mise_o_hirakimasu.wav",
+      "alt": "A chef standing in front of his newly opened shop"
+    },
+    {
+      "id": "kenkyuu_shimasu",
+      "japanese": "研究します【Ⅲ】",
+      "romaji": "kenkyuu shimasu",
+      "english": "to research",
+      "image": "../images/study/week_11/day_52/kenkyuu_shimasu.png",
+      "audio": "../audio/vocabulary/week_11/day_52/kenkyuu_shimasu.wav",
+      "alt": "A researcher in a lab coat using a microscope"
+    },
+    {
+      "id": "otaku",
+      "japanese": "お宅",
+      "romaji": "otaku",
+      "english": "your house",
+      "image": "../images/study/week_11/day_52/otaku.png",
+      "audio": "../audio/vocabulary/week_11/day_52/otaku.wav",
+      "alt": "A two-story house with a brown roof"
+    },
+    {
+      "id": "yuujin",
+      "japanese": "友人",
+      "romaji": "yuujin",
+      "english": "friend",
+      "image": "../images/study/week_11/day_52/yuujin.png",
+      "audio": "../audio/vocabulary/week_11/day_52/yuujin.wav",
+      "alt": "Two women walking together as friends"
+    },
+    {
+      "id": "tsurete_ikimasu",
+      "japanese": "連れて行きます【Ⅰ】",
+      "romaji": "tsurete ikimasu",
+      "english": "to take (somewhere)",
+      "image": "../images/study/week_11/day_52/tsurete_ikimasu.png",
+      "audio": "../audio/vocabulary/week_11/day_52/tsurete_ikimasu.wav",
+      "alt": "A father taking his child along by the hand"
+    },
+    {
+      "id": "raisu",
+      "japanese": "ライス",
+      "romaji": "raisu",
+      "english": "rice",
+      "image": "../images/study/week_11/day_52/raisu.png",
+      "audio": "../audio/vocabulary/week_11/day_52/raisu.wav",
+      "alt": "A plate of white rice"
+    },
+    {
+      "id": "korokke",
+      "japanese": "コロッケ",
+      "romaji": "korokke",
+      "english": "croquette",
+      "image": "../images/study/week_11/day_52/korokke.png",
+      "audio": "../audio/vocabulary/week_11/day_52/korokke.wav",
+      "alt": "Croquettes on a plate with shredded cabbage"
+    },
+    {
+      "id": "chiizu",
+      "japanese": "チーズ",
+      "romaji": "chiizu",
+      "english": "cheese",
+      "image": "../images/study/week_11/day_52/chiizu.png",
+      "audio": "../audio/vocabulary/week_11/day_52/chiizu.wav",
+      "alt": "A wedge of yellow cheese with holes"
+    },
+    {
+      "id": "ato",
+      "japanese": "後",
+      "romaji": "ato",
+      "english": "after",
+      "audio": "../audio/vocabulary/week_11/day_52/ato.wav",
+      "alt": "After"
+    },
+    {
+      "id": "soodan_shimasu",
+      "japanese": "相談します【Ⅲ】",
+      "romaji": "soodan shimasu",
+      "english": "to ask for consultation",
+      "audio": "../audio/vocabulary/week_11/day_52/soodan_shimasu.wav",
+      "alt": "To ask for consultation"
+    },
+    {
+      "id": "yotei",
+      "japanese": "予定",
+      "romaji": "yotei",
+      "english": "plans",
+      "audio": "../audio/vocabulary/week_11/day_52/yotei.wav",
+      "alt": "Plans"
+    },
+    {
+      "id": "nagara_tabenagara",
+      "japanese": "～ながら Ex)食べながら",
+      "romaji": "~nagara Ex. tabenagara",
+      "english": "while~ Ex. while eating",
+      "audio": "../audio/vocabulary/week_11/day_52/nagara_tabenagara.wav",
+      "alt": "While doing, e.g. while eating"
+    },
+    {
+      "id": "yukkuri",
+      "japanese": "ゆっくり（急がないで）",
+      "romaji": "yukkuri (isoganaide)",
+      "english": "slowly",
+      "audio": "../audio/vocabulary/week_11/day_52/yukkuri.wav",
+      "alt": "Slowly, without hurrying"
+    },
+    {
+      "id": "daigakuin",
+      "japanese": "大学院",
+      "romaji": "daigakuin",
+      "english": "graduate school",
+      "audio": "../audio/vocabulary/week_11/day_52/daigakuin.wav",
+      "alt": "Graduate school"
+    },
+    {
+      "id": "tashika",
+      "japanese": "確か",
+      "romaji": "tashika",
+      "english": "sure",
+      "audio": "../audio/vocabulary/week_11/day_52/tashika.wav",
+      "alt": "Sure"
+    },
+    {
+      "id": "himitsu",
+      "japanese": "秘密",
+      "romaji": "himitsu",
+      "english": "secret",
+      "audio": "../audio/vocabulary/week_11/day_52/himitsu.wav",
+      "alt": "Secret"
+    },
+    {
+      "id": "kita",
+      "japanese": "北",
+      "romaji": "kita",
+      "english": "north",
+      "image": "../images/study/week_11/day_52/kita.png",
+      "audio": "../audio/vocabulary/week_11/day_52/kita.wav",
+      "alt": "A compass rose pointing north"
+    },
+    {
+      "id": "minami",
+      "japanese": "南",
+      "romaji": "minami",
+      "english": "south",
+      "image": "../images/study/week_11/day_52/minami.png",
+      "audio": "../audio/vocabulary/week_11/day_52/minami.wav",
+      "alt": "A compass rose pointing south"
+    },
+    {
+      "id": "higashi",
+      "japanese": "東",
+      "romaji": "higashi",
+      "english": "east",
+      "image": "../images/study/week_11/day_52/higashi.png",
+      "audio": "../audio/vocabulary/week_11/day_52/higashi.wav",
+      "alt": "A compass rose pointing east"
+    },
+    {
+      "id": "nishi",
+      "japanese": "西",
+      "romaji": "nishi",
+      "english": "west",
+      "image": "../images/study/week_11/day_52/nishi.png",
+      "audio": "../audio/vocabulary/week_11/day_52/nishi.wav",
+      "alt": "A compass rose pointing west"
+    }
+  ]
+}

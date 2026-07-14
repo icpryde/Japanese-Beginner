@@ -1,0 +1,393 @@
+{
+ "week": 3,
+ "day": 15,
+ "lesson_id": "12645645",
+ "title": "Day 15 Vocabulary",
+ "raw_audio_dir": "17. Week 3 - Day 15/3.Day 15 - VocabularyText/Day 15 - Vocabulary Audio",
+ "pages": [
+  "Vocabulary_Day_15_png1.png",
+  "Vocabulary_Day_15_png2.png",
+  "Vocabulary_Day_15_hayai.png"
+ ],
+ "detect": {"min_colored": 80, "merge_gap": 25},
+ "words": [
+  {
+   "id": "nihon",
+   "japanese": "にほん",
+   "romaji": "nihon",
+   "english": "Japan",
+   "alt": "A green map of Japan",
+   "audio": "にほん.m4a",
+   "img": true
+  },
+  {
+   "id": "seekatsu",
+   "japanese": "せいかつ",
+   "romaji": "seekatsu",
+   "english": "living",
+   "alt": "Scenes of daily life from morning to night",
+   "audio": "せいかつ.m4a",
+   "img": true
+  },
+  {
+   "id": "bukka",
+   "japanese": "ぶっか",
+   "romaji": "bukka",
+   "english": "cost of living",
+   "alt": "A shopper checking prices at a store",
+   "audio": "ぶっか.m4a",
+   "img": true
+  },
+  {
+   "id": "chuugoku",
+   "japanese": "ちゅうごく",
+   "romaji": "chuugoku",
+   "english": "China",
+   "alt": "A green map of China",
+   "audio": "ちゅうごく.m4a",
+   "img": true
+  },
+  {
+   "id": "hokkaidoo",
+   "japanese": "ほっかいどう",
+   "romaji": "hokkaidoo",
+   "english": "Hokkaido",
+   "alt": "A green map of Hokkaido",
+   "audio": "ほっかいどう.m4a",
+   "img": true
+  },
+  {
+   "id": "yuki",
+   "japanese": "ゆき",
+   "romaji": "yuki",
+   "english": "snow",
+   "alt": "A snowy landscape with a small house",
+   "audio": "ゆき.m4a",
+   "img": true
+  },
+  {
+   "id": "oosaka",
+   "japanese": "おおさか",
+   "romaji": "oosaka",
+   "english": "Osaka",
+   "alt": "Tsutenkaku tower in Osaka",
+   "audio": "おおさか.m4a",
+   "img": true
+  },
+  {
+   "id": "tabemono",
+   "japanese": "たべもの",
+   "romaji": "tabemono",
+   "english": "food",
+   "alt": "Rice, vegetables, meat and fish",
+   "audio": "たべもの.m4a",
+   "img": true
+  },
+  {
+   "id": "okinawa",
+   "japanese": "おきなわ",
+   "romaji": "okinawa",
+   "english": "Okinawa",
+   "alt": "A map of Japan with Okinawa circled",
+   "audio": "おきなわ.m4a",
+   "img": true
+  },
+  {
+   "id": "umi",
+   "japanese": "うみ",
+   "romaji": "umi",
+   "english": "sea",
+   "alt": "A beach with the sea and sky",
+   "audio": "うみ.m4a",
+   "img": true
+  },
+  {
+   "id": "machi",
+   "japanese": "まち",
+   "romaji": "machi",
+   "english": "town",
+   "alt": "A colourful town with buildings, cars and a plane",
+   "audio": "まち.m4a",
+   "img": true
+  },
+  {
+   "id": "tookyoo",
+   "japanese": "とうきょう",
+   "romaji": "tookyoo",
+   "english": "Tokyo",
+   "alt": "Tokyo Station and Tokyo Tower",
+   "audio": "とうきょう.m4a",
+   "img": true
+  },
+  {
+   "id": "igirisu",
+   "japanese": "イギリス",
+   "romaji": "igirisu",
+   "english": "England",
+   "alt": "A green map of Great Britain",
+   "audio": "イギリス.m4a",
+   "img": true
+  },
+  {
+   "id": "ane",
+   "japanese": "あね",
+   "romaji": "ane",
+   "english": "older sister",
+   "alt": "An older sister with her younger sister, marked by an arrow",
+   "audio": "あね.m4a",
+   "img": true
+  },
+  {
+   "id": "ani",
+   "japanese": "あに",
+   "romaji": "ani",
+   "english": "older brother",
+   "alt": "An older brother with his younger brother, marked by an arrow",
+   "audio": "あに.m4a",
+   "img": true
+  },
+  {
+   "id": "uta",
+   "japanese": "うた",
+   "romaji": "uta",
+   "english": "song",
+   "alt": "A group of people singing together",
+   "audio": "うた.m4a",
+   "img": true
+  },
+  {
+   "id": "ryoori",
+   "japanese": "りょうり",
+   "romaji": "ryoori",
+   "english": "cooking/cuisine",
+   "alt": "A man cooking a pot of food",
+   "audio": "りょうり.m4a",
+   "img": true
+  },
+  {
+   "id": "katakana",
+   "japanese": "カタカナ",
+   "romaji": "katakana",
+   "english": "katakana",
+   "alt": "A pink chart of katakana characters",
+   "audio": "カタカナ.m4a",
+   "img": true
+  },
+  {
+   "id": "kanji",
+   "japanese": "かんじ",
+   "romaji": "kanji",
+   "english": "kanji",
+   "alt": "Kanji calligraphy written with a brush",
+   "audio": "かんじ.m4a",
+   "img": true
+  },
+  {
+   "id": "hikooki",
+   "japanese": "ひこうき",
+   "romaji": "hikooki",
+   "english": "airplane",
+   "alt": "An airplane in flight",
+   "audio": "ひこうき.m4a",
+   "img": true
+  },
+  {
+   "id": "shinkansen",
+   "japanese": "しんかんせん",
+   "romaji": "shinkansen",
+   "english": "bullet train",
+   "alt": "A shinkansen bullet train",
+   "audio": "しんかんせん.m4a",
+   "img": true
+  },
+  {
+   "id": "koocha",
+   "japanese": "こうちゃ",
+   "romaji": "koocha",
+   "english": "black tea",
+   "alt": "A steaming cup of black tea",
+   "audio": "こうちゃ.m4a",
+   "img": true
+  },
+  {
+   "id": "koohii",
+   "japanese": "コーヒー",
+   "romaji": "koohii",
+   "english": "coffee",
+   "alt": "A steaming cup of coffee",
+   "audio": "コーヒー.m4a",
+   "img": true
+  },
+  {
+   "id": "inu",
+   "japanese": "いぬ",
+   "romaji": "inu",
+   "english": "dog",
+   "alt": "A happy brown dog",
+   "audio": "いぬ.m4a",
+   "img": true
+  },
+  {
+   "id": "neko",
+   "japanese": "ねこ",
+   "romaji": "neko",
+   "english": "cat",
+   "alt": "A smiling grey cat",
+   "audio": "ねこ.m4a",
+   "img": true
+  },
+  {
+   "id": "kuni",
+   "japanese": "くに",
+   "romaji": "kuni",
+   "english": "country",
+   "alt": "A string of international flags",
+   "audio": "くに.m4a",
+   "img": true
+  },
+  {
+   "id": "dochira",
+   "japanese": "どちら",
+   "romaji": "dochira",
+   "english": "which way",
+   "alt": "A man deciding between two signposts",
+   "audio": "どちら.m4a",
+   "img": true
+  },
+  {
+   "id": "tanoshii",
+   "japanese": "たのしい",
+   "romaji": "tanoshii",
+   "english": "fun",
+   "alt": "Fun",
+   "audio": "たのしい.m4a",
+   "img": false
+  },
+  {
+   "id": "takai",
+   "japanese": "たかい",
+   "romaji": "takai",
+   "english": "expensive; high",
+   "alt": "Expensive or high",
+   "audio": "たかい.m4a",
+   "img": false
+  },
+  {
+   "id": "ooi",
+   "japanese": "おおい",
+   "romaji": "ooi",
+   "english": "many",
+   "alt": "Many",
+   "audio": "おおい.m4a",
+   "img": false
+  },
+  {
+   "id": "oishii",
+   "japanese": "おいしい",
+   "romaji": "oishii",
+   "english": "delicious",
+   "alt": "Delicious",
+   "audio": "おいしい.m4a",
+   "img": false
+  },
+  {
+   "id": "kiree_na",
+   "japanese": "きれい（な）",
+   "romaji": "kiree(na)",
+   "english": "beautiful; clean",
+   "alt": "Beautiful or clean",
+   "audio": "きれいな.m4a",
+   "img": false
+  },
+  {
+   "id": "yasui",
+   "japanese": "やすい",
+   "romaji": "yasui",
+   "english": "cheap",
+   "alt": "Cheap",
+   "audio": "やすい.m4a",
+   "img": false
+  },
+  {
+   "id": "ani_2",
+   "japanese": "あに",
+   "romaji": "ani",
+   "english": "older brother",
+   "alt": "Older brother",
+   "audio": "あに.m4a",
+   "img": false
+  },
+  {
+   "id": "ane_2",
+   "japanese": "あね",
+   "romaji": "ane",
+   "english": "older sister",
+   "alt": "Older sister",
+   "audio": "あね.m4a",
+   "img": false
+  },
+  {
+   "id": "samui",
+   "japanese": "さむい",
+   "romaji": "samui",
+   "english": "cold",
+   "alt": "Cold",
+   "audio": "さむい.m4a",
+   "img": false
+  },
+  {
+   "id": "ookii",
+   "japanese": "おおきい",
+   "romaji": "ookii",
+   "english": "big",
+   "alt": "Big",
+   "audio": "おおきい.m4a",
+   "img": false
+  },
+  {
+   "id": "joozu_na",
+   "japanese": "じょうず（な）",
+   "romaji": "joozu(na)",
+   "english": "good (at)",
+   "alt": "Good at something",
+   "audio": "じょうずな.m4a",
+   "img": false
+  },
+  {
+   "id": "muzukashii",
+   "japanese": "むずかしい",
+   "romaji": "muzukashii",
+   "english": "difficult",
+   "alt": "Difficult",
+   "audio": "むずかしい.m4a",
+   "img": false
+  },
+  {
+   "id": "hayai",
+   "japanese": "はやい",
+   "romaji": "hayai",
+   "english": "early",
+   "alt": "Early",
+   "audio": "はやい.m4a",
+   "img": false
+  },
+  {
+   "id": "ski_na",
+   "japanese": "すき（な）",
+   "romaji": "ski(na)",
+   "english": "liked",
+   "alt": "Liked",
+   "audio": "すきな.m4a",
+   "img": false
+  },
+  {
+   "id": "zutto",
+   "japanese": "ずっと",
+   "romaji": "zutto",
+   "english": "continuously; the whole time",
+   "alt": "Continuously, the whole time",
+   "audio": "ずっと.m4a",
+   "img": false
+  }
+ ]
+}

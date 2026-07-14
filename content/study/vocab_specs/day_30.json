@@ -1,0 +1,249 @@
+{
+ "week": 6,
+ "day": 30,
+ "lesson_id": "13622779",
+ "title": "Day 30 Vocabulary",
+ "raw_audio_dir": "32. Week 6 - Day 30/3.Day 30 - VocabularyText/Day 30 - Vocabulary Audio",
+ "pages": [
+  "Vocabulary_Day_30_1.jpg",
+  "Vocabulary_Day_30_2.jpg"
+ ],
+ "detect": {"merge_gap": 15},
+ "words": [
+  {
+   "id": "omiyage",
+   "japanese": "おみやげ",
+   "romaji": "omiyage",
+   "english": "souvenir",
+   "alt": "A purple souvenir box tied with a wrapping band",
+   "audio": "おみやげ.wav",
+   "img": true
+  },
+  {
+   "id": "moraimasu",
+   "japanese": "もらいます【Ｉ】（サンタクロースにプレゼントを～）",
+   "romaji": "moraimasu",
+   "english": "to receive (a present from Santa Claus)",
+   "alt": "A boy receiving a present from Santa Claus",
+   "audio": "もらいます.wav",
+   "img": true
+  },
+  {
+   "id": "shashin",
+   "japanese": "写真",
+   "romaji": "shashin",
+   "english": "photo",
+   "alt": "A scattered pile of family photographs",
+   "audio": "写真.wav",
+   "img": true
+  },
+  {
+   "id": "torimasu",
+   "japanese": "とります【Ｉ】",
+   "romaji": "torimasu",
+   "english": "to take",
+   "alt": "A woman taking a photo of a baby with a camera",
+   "audio": "とります.wav",
+   "img": true
+  },
+  {
+   "id": "sukii",
+   "japanese": "スキー",
+   "romaji": "sukii",
+   "english": "skiing",
+   "alt": "A skier in blue gear going downhill",
+   "audio": "スキー.wav",
+   "img": true
+  },
+  {
+   "id": "aimasu",
+   "japanese": "会います【Ｉ】",
+   "romaji": "aimasu",
+   "english": "to meet",
+   "alt": "Two people meeting across an office desk",
+   "audio": "会います.wav",
+   "img": true
+  },
+  {
+   "id": "daietto",
+   "japanese": "ダイエット",
+   "romaji": "daietto",
+   "english": "diet",
+   "alt": "A slim woman holding out the waistband of her now-loose trousers",
+   "audio": "ダイエット.wav",
+   "img": true
+  },
+  {
+   "id": "naraimasu",
+   "japanese": "習います【Ｉ】",
+   "romaji": "naraimasu",
+   "english": "to learn",
+   "alt": "Students learning at desks in a classroom",
+   "audio": "習います.wav",
+   "img": true
+  },
+  {
+   "id": "sumou",
+   "japanese": "相撲",
+   "romaji": "sumou",
+   "english": "sumo",
+   "alt": "Sumo wrestlers grappling while spectators watch",
+   "audio": "相撲.wav",
+   "img": true
+  },
+  {
+   "id": "hatarakimasu",
+   "japanese": "働きます【Ｉ】",
+   "romaji": "hatarakimasu",
+   "english": "to work",
+   "alt": "A man in a suit working at a laptop",
+   "audio": "働きます.wav",
+   "img": true
+  },
+  {
+   "id": "uma",
+   "japanese": "馬",
+   "romaji": "uma",
+   "english": "horse",
+   "alt": "A standing brown horse",
+   "audio": "馬.wav",
+   "img": true
+  },
+  {
+   "id": "norimasu",
+   "japanese": "乗ります【Ｉ】",
+   "romaji": "norimasu",
+   "english": "to get on",
+   "alt": "A boy riding on a horse",
+   "audio": "乗ります.wav",
+   "img": true
+  },
+  {
+   "id": "kinkakuji",
+   "japanese": "金閣寺",
+   "romaji": "kinkakuji",
+   "english": "Kinkakuji",
+   "alt": "The golden pavilion of Kinkakuji temple",
+   "audio": "金閣寺.wav",
+   "img": true
+  },
+  {
+   "id": "kengaku_shimasu",
+   "japanese": "見学します【Ⅲ】",
+   "romaji": "kengaku shimasu",
+   "english": "to study by observation, to go on a field trip",
+   "alt": "Visitors observing workers behind a partition on a field trip",
+   "audio": "見学します.wav",
+   "img": true
+  },
+  {
+   "id": "sukaitsurii",
+   "japanese": "スカイツリー",
+   "romaji": "sukaitsurii",
+   "english": "Skytree",
+   "alt": "The Tokyo Skytree tower with clouds",
+   "audio": "スカイツリー.wav",
+   "img": true
+  },
+  {
+   "id": "noborimasu",
+   "japanese": "登ります【Ｉ】",
+   "romaji": "noborimasu",
+   "english": "to climb",
+   "alt": "A man climbing up a steep slope",
+   "audio": "登ります.wav",
+   "img": true
+  },
+  {
+   "id": "kabuki",
+   "japanese": "歌舞伎",
+   "romaji": "kabuki",
+   "english": "Kabuki theatre",
+   "alt": "A kabuki actor in traditional costume and face paint",
+   "audio": "歌舞伎.wav",
+   "img": true
+  },
+  {
+   "id": "umi",
+   "japanese": "海",
+   "romaji": "umi",
+   "english": "sea",
+   "alt": "A beach with a palm tree and an OPEN sign by the sea",
+   "audio": "海.wav",
+   "img": true
+  },
+  {
+   "id": "oyogimasu",
+   "japanese": "泳ぎます【Ｉ】",
+   "romaji": "oyogimasu",
+   "english": "to swim",
+   "alt": "A person swimming the crawl in a pool",
+   "audio": "泳ぎます.wav",
+   "img": true
+  },
+  {
+   "id": "kono_mae",
+   "japanese": "この前",
+   "romaji": "kono mae",
+   "english": "some time ago",
+   "alt": "Some time ago, the other day",
+   "audio": "この前.wav"
+  },
+  {
+   "id": "dizuniirando",
+   "japanese": "ディズニーランド",
+   "romaji": "dizuniirando",
+   "english": "Disneyland",
+   "alt": "Disneyland theme park",
+   "audio": "ディスニーランド.wav"
+  },
+  {
+   "id": "ikimasu",
+   "japanese": "行きます",
+   "romaji": "ikimasu",
+   "english": "to go",
+   "alt": "To go",
+   "audio": "行きます.wav"
+  },
+  {
+   "id": "purinsesu",
+   "japanese": "プリンセス",
+   "romaji": "purinsesu",
+   "english": "princess",
+   "alt": "Princess",
+   "audio": "プリンセス.wav"
+  },
+  {
+   "id": "nomimasu",
+   "japanese": "飲みます【Ｉ】",
+   "romaji": "nomimasu",
+   "english": "to drink",
+   "alt": "To drink",
+   "audio": "飲みます.wav"
+  },
+  {
+   "id": "mimasu",
+   "japanese": "見ます【Ⅱ】",
+   "romaji": "mimasu",
+   "english": "to look",
+   "alt": "To look, to see",
+   "audio": "見ます.wav"
+  },
+  {
+   "id": "nihon",
+   "japanese": "日本",
+   "romaji": "nihon",
+   "english": "Japan",
+   "alt": "Japan, the country",
+   "audio": "日本.wav"
+  },
+  {
+   "id": "faasutokurasu",
+   "japanese": "ファーストクラス",
+   "romaji": "faasutokurasu",
+   "english": "first-class",
+   "alt": "First-class (airline seating class)",
+   "audio": "ファーストクラス.wav"
+  }
+ ]
+}

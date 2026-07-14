@@ -1,0 +1,168 @@
+{
+  "id": "week_11/day_55_vocabulary",
+  "kind": "image",
+  "title": "Day 55 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 55 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "neboo_shimasu",
+      "japanese": "寝坊します【Ⅲ】",
+      "romaji": "neboo shimasu",
+      "english": "to oversleep",
+      "image": "../images/study/week_11/day_55/neboo_shimasu.png",
+      "audio": "../audio/vocabulary/week_11/day_55/neboo_shimasu.wav",
+      "alt": "A man oversleeping in bed, glaring at his ringing alarm clock"
+    },
+    {
+      "id": "mayoimasu",
+      "japanese": "迷います【Ⅰ】",
+      "romaji": "mayoimasu",
+      "english": "to get lost",
+      "image": "../images/study/week_11/day_55/mayoimasu.png",
+      "audio": "../audio/vocabulary/week_11/day_55/mayoimasu.wav",
+      "alt": "A worried woman standing at a fork in the road between two signposts"
+    },
+    {
+      "id": "otoshimasu",
+      "japanese": "落とします【Ⅰ】",
+      "romaji": "otoshimasu",
+      "english": "to drop",
+      "image": "../images/study/week_11/day_55/otoshimasu.png",
+      "audio": "../audio/vocabulary/week_11/day_55/otoshimasu.wav",
+      "alt": "A panicked man dropping his smartphone over a ledge"
+    },
+    {
+      "id": "panku_shimasu",
+      "japanese": "パンクします【Ⅲ】",
+      "romaji": "panku shimasu",
+      "english": "to get a flat tire",
+      "image": "../images/study/week_11/day_55/panku_shimasu.png",
+      "audio": "../audio/vocabulary/week_11/day_55/panku_shimasu.wav",
+      "alt": "A blue bicycle with air puffing out of its flat tires"
+    },
+    {
+      "id": "sakki",
+      "japanese": "さっき",
+      "romaji": "sakki",
+      "english": "a moment ago",
+      "audio": "../audio/vocabulary/week_11/day_55/sakki.wav",
+      "alt": "A moment ago"
+    },
+    {
+      "id": "deeta",
+      "japanese": "データ",
+      "romaji": "deeta",
+      "english": "data",
+      "audio": "../audio/vocabulary/week_11/day_55/deeta.wav",
+      "alt": "Data"
+    },
+    {
+      "id": "matomemasu",
+      "japanese": "まとめます【Ⅱ】",
+      "romaji": "matomemasu",
+      "english": "to put together",
+      "audio": "../audio/vocabulary/week_11/day_55/matomemasu.wav",
+      "alt": "To put together"
+    },
+    {
+      "id": "hookokusho",
+      "japanese": "報告書",
+      "romaji": "hookokusho",
+      "english": "written report",
+      "audio": "../audio/vocabulary/week_11/day_55/hookokusho.wav",
+      "alt": "Written report"
+    },
+    {
+      "id": "torihikisaki",
+      "japanese": "取引先",
+      "romaji": "torihikisaki",
+      "english": "customer",
+      "audio": "../audio/vocabulary/week_11/day_55/torihikisaki.wav",
+      "alt": "Customer"
+    },
+    {
+      "id": "oritatami",
+      "japanese": "折り畳み",
+      "romaji": "oritatami",
+      "english": "folding",
+      "audio": "../audio/vocabulary/week_11/day_55/oritatami.wav",
+      "alt": "Folding"
+    },
+    {
+      "id": "shuuten",
+      "japanese": "終点",
+      "romaji": "shuuten",
+      "english": "last stop",
+      "audio": "../audio/vocabulary/week_11/day_55/shuuten.wav",
+      "alt": "Last stop"
+    },
+    {
+      "id": "teikiken",
+      "japanese": "定期券",
+      "romaji": "teikiken",
+      "english": "commuter pass",
+      "audio": "../audio/vocabulary/week_11/day_55/teikiken.wav",
+      "alt": "Commuter pass"
+    },
+    {
+      "id": "furiizu_shimasu",
+      "japanese": "フリーズします【Ⅲ】",
+      "romaji": "furiizu shimasu",
+      "english": "to freeze",
+      "audio": "../audio/vocabulary/week_11/day_55/furiizu_shimasu.wav",
+      "alt": "To freeze (a computer)"
+    },
+    {
+      "id": "gurafu",
+      "japanese": "グラフ",
+      "romaji": "gurafu",
+      "english": "graph",
+      "image": "../images/study/week_11/day_55/gurafu.png",
+      "audio": "../audio/vocabulary/week_11/day_55/gurafu.wav",
+      "alt": "A pie chart, a line graph and a rising bar chart"
+    },
+    {
+      "id": "ic_kaado",
+      "japanese": "ＩＣカード",
+      "romaji": "IC kaado",
+      "english": "IC card",
+      "image": "../images/study/week_11/day_55/ic_kaado.png",
+      "audio": "../audio/vocabulary/week_11/day_55/ic_kaado.wav",
+      "alt": "Several IC transit smart cards"
+    },
+    {
+      "id": "kaisuuken",
+      "japanese": "回数券",
+      "romaji": "kaisuuken",
+      "english": "book of tickets",
+      "image": "../images/study/week_11/day_55/kaisuuken.png",
+      "audio": "../audio/vocabulary/week_11/day_55/kaisuuken.wav",
+      "alt": "A fanned-out book of green tickets"
+    },
+    {
+      "id": "higasa",
+      "japanese": "日傘",
+      "romaji": "higasa",
+      "english": "parasol",
+      "image": "../images/study/week_11/day_55/higasa.png",
+      "audio": "../audio/vocabulary/week_11/day_55/higasa.wav",
+      "alt": "A woman shading herself with a parasol under the blazing sun"
+    },
+    {
+      "id": "hyoo",
+      "japanese": "表",
+      "romaji": "hyoo",
+      "english": "table, chart",
+      "audio": "../audio/vocabulary/week_11/day_55/hyoo.wav",
+      "alt": "Table, chart"
+    }
+  ]
+}

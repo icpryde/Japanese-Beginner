@@ -1,0 +1,452 @@
+{
+  "id": "week_04/day_17_vocabulary",
+  "kind": "image",
+  "title": "Day 17 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 17 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "tanoshii",
+      "japanese": "たのしい",
+      "romaji": "tanoshii",
+      "english": "fun",
+      "image": "../images/study/week_04/day_17/tanoshii.png",
+      "audio": "../audio/vocabulary/week_04/day_17/tanoshii.wav",
+      "alt": "Two children jumping with joy"
+    },
+    {
+      "id": "omoshiroi",
+      "japanese": "おもしろい",
+      "romaji": "omoshiroi",
+      "english": "funny",
+      "image": "../images/study/week_04/day_17/omoshiroi.png",
+      "audio": "../audio/vocabulary/week_04/day_17/omoshiroi.wav",
+      "alt": "A woman laughing hard with tears of joy"
+    },
+    {
+      "id": "oishii",
+      "japanese": "おいしい",
+      "romaji": "oishii",
+      "english": "delicious",
+      "image": "../images/study/week_04/day_17/oishii.png",
+      "audio": "../audio/vocabulary/week_04/day_17/oishii.wav",
+      "alt": "A man happily eating with chopsticks"
+    },
+    {
+      "id": "ii",
+      "japanese": "いい",
+      "romaji": "ii",
+      "english": "good",
+      "image": "../images/study/week_04/day_17/ii.png",
+      "audio": "../audio/vocabulary/week_04/day_17/ii.wav",
+      "alt": "A businessman giving a thumbs up saying good"
+    },
+    {
+      "id": "samui",
+      "japanese": "さむい",
+      "romaji": "samui",
+      "english": "cold",
+      "image": "../images/study/week_04/day_17/samui.png",
+      "audio": "../audio/vocabulary/week_04/day_17/samui.wav",
+      "alt": "A person shivering in winter clothes"
+    },
+    {
+      "id": "tesuto",
+      "japanese": "テスト",
+      "romaji": "tesuto",
+      "english": "test",
+      "image": "../images/study/week_04/day_17/tesuto.png",
+      "audio": "../audio/vocabulary/week_04/day_17/tesuto.wav",
+      "alt": "Students taking a test at their desks"
+    },
+    {
+      "id": "muzukashii",
+      "japanese": "むずかしい",
+      "romaji": "muzukashii",
+      "english": "difficult",
+      "image": "../images/study/week_04/day_17/muzukashii.png",
+      "alt": "A boy puzzling over homework with question marks"
+    },
+    {
+      "id": "hanami",
+      "japanese": "はなみ",
+      "romaji": "hanami",
+      "english": "flower viewing",
+      "image": "../images/study/week_04/day_17/hanami.png",
+      "audio": "../audio/vocabulary/week_04/day_17/hanami.wav",
+      "alt": "People picnicking under falling cherry blossom petals"
+    },
+    {
+      "id": "kaigi",
+      "japanese": "かいぎ",
+      "romaji": "kaigi",
+      "english": "meeting",
+      "image": "../images/study/week_04/day_17/kaigi.png",
+      "audio": "../audio/vocabulary/week_04/day_17/kaigi.wav",
+      "alt": "A business meeting with a presenter at a whiteboard"
+    },
+    {
+      "id": "nagai",
+      "japanese": "ながい",
+      "romaji": "nagai",
+      "english": "long",
+      "image": "../images/study/week_04/day_17/nagai.png",
+      "audio": "../audio/vocabulary/week_04/day_17/nagai.wav",
+      "alt": "A giraffe with an arrow along its long neck"
+    },
+    {
+      "id": "tenki",
+      "japanese": "てんき",
+      "romaji": "tenki",
+      "english": "weather",
+      "image": "../images/study/week_04/day_17/tenki.png",
+      "audio": "../audio/vocabulary/week_04/day_17/tenki.wav",
+      "alt": "Sun, cloud and umbrella weather symbols"
+    },
+    {
+      "id": "ame",
+      "japanese": "あめ",
+      "romaji": "ame",
+      "english": "rain",
+      "image": "../images/study/week_04/day_17/ame.png",
+      "audio": "../audio/vocabulary/week_04/day_17/ame.wav",
+      "alt": "A blue umbrella in the rain"
+    },
+    {
+      "id": "sakura",
+      "japanese": "さくら",
+      "romaji": "sakura",
+      "english": "cherry blossom",
+      "image": "../images/study/week_04/day_17/sakura.png",
+      "audio": "../audio/vocabulary/week_04/day_17/sakura.wav",
+      "alt": "A cherry blossom tree in full bloom"
+    },
+    {
+      "id": "kiree_na",
+      "japanese": "きれい（な）",
+      "romaji": "kiree(na)",
+      "english": "beautiful",
+      "image": "../images/study/week_04/day_17/kiree_na.png",
+      "audio": "../audio/vocabulary/week_04/day_17/kiree_na.wav",
+      "alt": "A sparkling beautiful woman"
+    },
+    {
+      "id": "genki_na",
+      "japanese": "げんき（な）",
+      "romaji": "genki(na)",
+      "english": "energetic; in good health",
+      "image": "../images/study/week_04/day_17/genki_na.png",
+      "audio": "../audio/vocabulary/week_04/day_17/genki_na.wav",
+      "alt": "An energetic boy cheering with sparkles"
+    },
+    {
+      "id": "shinsetsu_na",
+      "japanese": "しんせつ（な）",
+      "romaji": "shinsetsu(na)",
+      "english": "kind",
+      "image": "../images/study/week_04/day_17/shinsetsu_na.png",
+      "audio": "../audio/vocabulary/week_04/day_17/shinsetsu_na.wav",
+      "alt": "A man kindly giving up his train seat to an elderly woman"
+    },
+    {
+      "id": "ii_tenki",
+      "japanese": "いいてんき",
+      "romaji": "ii tenki",
+      "english": "nice weather",
+      "image": "../images/study/week_04/day_17/ii_tenki.png",
+      "audio": "../audio/vocabulary/week_04/day_17/ii_tenki.wav",
+      "alt": "A clear blue sky with white clouds"
+    },
+    {
+      "id": "arubaito",
+      "japanese": "アルバイト",
+      "romaji": "arubaito",
+      "english": "part-time job",
+      "image": "../images/study/week_04/day_17/arubaito.png",
+      "audio": "../audio/vocabulary/week_04/day_17/arubaito.wav",
+      "alt": "A part-time worker carrying mugs of beer"
+    },
+    {
+      "id": "taihen_na",
+      "japanese": "たいへん（な）",
+      "romaji": "taihen(na)",
+      "english": "hard",
+      "image": "../images/study/week_04/day_17/taihen_na.png",
+      "audio": "../audio/vocabulary/week_04/day_17/taihen_na.wav",
+      "alt": "A worker struggling under heavy boxes while being scolded"
+    },
+    {
+      "id": "shibuya",
+      "japanese": "しぶや",
+      "romaji": "shibuya",
+      "english": "Shibuya",
+      "image": "../images/study/week_04/day_17/shibuya.png",
+      "audio": "../audio/vocabulary/week_04/day_17/shibuya.wav",
+      "alt": "Shibuya with the Hachiko statue and buildings"
+    },
+    {
+      "id": "nigiyaka_na",
+      "japanese": "にぎやか（な）",
+      "romaji": "nigiyaka(na)",
+      "english": "bustling",
+      "image": "../images/study/week_04/day_17/nigiyaka_na.png",
+      "audio": "../audio/vocabulary/week_04/day_17/nigiyaka_na.wav",
+      "alt": "A bustling shopping street full of people"
+    },
+    {
+      "id": "umi",
+      "japanese": "うみ",
+      "romaji": "umi",
+      "english": "sea",
+      "image": "../images/study/week_04/day_17/umi.png",
+      "audio": "../audio/vocabulary/week_04/day_17/umi.wav",
+      "alt": "A beach with the blue sea"
+    },
+    {
+      "id": "terebi",
+      "japanese": "テレビ",
+      "romaji": "terebi",
+      "english": "tv",
+      "image": "../images/study/week_04/day_17/terebi.png",
+      "audio": "../audio/vocabulary/week_04/day_17/terebi.wav",
+      "alt": "A flat-screen television"
+    },
+    {
+      "id": "mimasu",
+      "japanese": "みます",
+      "romaji": "mimasu",
+      "english": "to watch",
+      "image": "../images/study/week_04/day_17/mimasu.png",
+      "audio": "../audio/vocabulary/week_04/day_17/mimasu.wav",
+      "alt": "A boy watching a robot show on television"
+    },
+    {
+      "id": "hatarakimasu",
+      "japanese": "はたらきます",
+      "romaji": "hatarakimasu",
+      "english": "to work",
+      "image": "../images/study/week_04/day_17/hatarakimasu.png",
+      "audio": "../audio/vocabulary/week_04/day_17/hatarakimasu.wav",
+      "alt": "Workers of different professions lined up"
+    },
+    {
+      "id": "pusan",
+      "japanese": "プサン",
+      "romaji": "pusan",
+      "english": "Busan",
+      "image": "../images/study/week_04/day_17/pusan.png",
+      "audio": "../audio/vocabulary/week_04/day_17/pusan.wav",
+      "alt": "The South Korean flag"
+    },
+    {
+      "id": "hikooki",
+      "japanese": "ひこうき",
+      "romaji": "hikooki",
+      "english": "airplane",
+      "image": "../images/study/week_04/day_17/hikooki.png",
+      "audio": "../audio/vocabulary/week_04/day_17/hikooki.wav",
+      "alt": "A blue and white airplane"
+    },
+    {
+      "id": "machi",
+      "japanese": "まち",
+      "romaji": "machi",
+      "english": "town",
+      "image": "../images/study/week_04/day_17/machi.png",
+      "audio": "../audio/vocabulary/week_04/day_17/machi.wav",
+      "alt": "A townscape with houses and buildings"
+    },
+    {
+      "id": "rooma",
+      "japanese": "ローマ",
+      "romaji": "rooma",
+      "english": "Rome",
+      "image": "../images/study/week_04/day_17/rooma.png",
+      "alt": "The Italian flag and the Colosseum"
+    },
+    {
+      "id": "eki",
+      "japanese": "えき",
+      "romaji": "eki",
+      "english": "station",
+      "image": "../images/study/week_04/day_17/eki.png",
+      "audio": "../audio/vocabulary/week_04/day_17/eki.wav",
+      "alt": "A train station building"
+    },
+    {
+      "id": "aruite",
+      "japanese": "あるいて",
+      "romaji": "aruite",
+      "english": "walking",
+      "image": "../images/study/week_04/day_17/aruite.png",
+      "audio": "../audio/vocabulary/week_04/day_17/aruite.wav",
+      "alt": "A woman walking"
+    },
+    {
+      "id": "hakata",
+      "japanese": "はかた",
+      "romaji": "hakata",
+      "english": "Hakata",
+      "image": "../images/study/week_04/day_17/hakata.png",
+      "audio": "../audio/vocabulary/week_04/day_17/hakata.wav",
+      "alt": "Hakata landmarks with a festival float and a map"
+    },
+    {
+      "id": "shinkansen",
+      "japanese": "しんかんせん",
+      "romaji": "shinkansen",
+      "english": "bullet train",
+      "image": "../images/study/week_04/day_17/shinkansen.png",
+      "audio": "../audio/vocabulary/week_04/day_17/shinkansen.wav",
+      "alt": "A white bullet train"
+    },
+    {
+      "id": "konbini",
+      "japanese": "コンビニ",
+      "romaji": "konbini",
+      "english": "convenience store",
+      "image": "../images/study/week_04/day_17/konbini.png",
+      "audio": "../audio/vocabulary/week_04/day_17/konbini.wav",
+      "alt": "A 24-hour convenience store"
+    },
+    {
+      "id": "jitensha",
+      "japanese": "じてんしゃ",
+      "romaji": "jitensha",
+      "english": "bicycle",
+      "image": "../images/study/week_04/day_17/jitensha.png",
+      "audio": "../audio/vocabulary/week_04/day_17/jitensha.wav",
+      "alt": "A man riding a bicycle"
+    },
+    {
+      "id": "suupaa",
+      "japanese": "スーパー",
+      "romaji": "suupaa",
+      "english": "supermarket",
+      "image": "../images/study/week_04/day_17/suupaa.png",
+      "audio": "../audio/vocabulary/week_04/day_17/suupaa.wav",
+      "alt": "A supermarket storefront with shopping carts"
+    },
+    {
+      "id": "hajimete",
+      "japanese": "はじめて",
+      "romaji": "hajimete",
+      "english": "for the first time",
+      "audio": "../audio/vocabulary/week_04/day_17/hajimete.wav",
+      "alt": "Adverb meaning for the first time"
+    },
+    {
+      "id": "senshuu",
+      "japanese": "せんしゅう",
+      "romaji": "senshuu",
+      "english": "last week",
+      "audio": "../audio/vocabulary/week_04/day_17/senshuu.wav",
+      "alt": "Last week"
+    },
+    {
+      "id": "totemo",
+      "japanese": "とても",
+      "romaji": "totemo",
+      "english": "very",
+      "audio": "../audio/vocabulary/week_04/day_17/totemo.wav",
+      "alt": "Adverb meaning very"
+    },
+    {
+      "id": "kinoo",
+      "japanese": "きのう",
+      "romaji": "kinoo",
+      "english": "yesterday",
+      "audio": "../audio/vocabulary/week_04/day_17/kinoo.wav",
+      "alt": "Yesterday"
+    },
+    {
+      "id": "amari",
+      "japanese": "あまり",
+      "romaji": "amari",
+      "english": "not very",
+      "audio": "../audio/vocabulary/week_04/day_17/amari.wav",
+      "alt": "Adverb meaning not very (with a negative)"
+    },
+    {
+      "id": "shuumatsu",
+      "japanese": "しゅうまつ",
+      "romaji": "shuumatsu",
+      "english": "weekend",
+      "audio": "../audio/vocabulary/week_04/day_17/shuumatsu.wav",
+      "alt": "Weekend"
+    },
+    {
+      "id": "dono_kurai",
+      "japanese": "どのくらい",
+      "romaji": "dono kurai",
+      "english": "how long",
+      "audio": "../audio/vocabulary/week_04/day_17/dono_kurai.wav",
+      "alt": "Question phrase meaning how long"
+    },
+    {
+      "id": "hontooni",
+      "japanese": "ほんとうに",
+      "romaji": "hontooni",
+      "english": "really",
+      "audio": "../audio/vocabulary/week_04/day_17/hontooni.wav",
+      "alt": "Adverb meaning really"
+    },
+    {
+      "id": "gurai",
+      "japanese": "～ぐらい",
+      "romaji": "~gurai",
+      "english": "around",
+      "audio": "../audio/vocabulary/week_04/day_17/gurai.wav",
+      "alt": "Suffix meaning around or about"
+    },
+    {
+      "id": "kakarimasu",
+      "japanese": "かかります",
+      "romaji": "kakarimasu",
+      "english": "to take (time)",
+      "audio": "../audio/vocabulary/week_04/day_17/kakarimasu.wav",
+      "alt": "Verb meaning to take time"
+    },
+    {
+      "id": "chotto",
+      "japanese": "ちょっと",
+      "romaji": "chotto",
+      "english": "a little",
+      "audio": "../audio/vocabulary/week_04/day_17/chotto.wav",
+      "alt": "A little"
+    },
+    {
+      "id": "nikki",
+      "japanese": "にっき",
+      "romaji": "nikki",
+      "english": "diary",
+      "image": "../images/study/week_04/day_17/nikki.png",
+      "audio": "../audio/vocabulary/week_04/day_17/nikki.wav",
+      "alt": "A green diary notebook"
+    },
+    {
+      "id": "ryokan",
+      "japanese": "りょかん",
+      "romaji": "ryokan",
+      "english": "Japanese inn",
+      "image": "../images/study/week_04/day_17/ryokan.png",
+      "alt": "A traditional Japanese inn building"
+    },
+    {
+      "id": "narita_kuukoo",
+      "japanese": "なりたくうこう",
+      "romaji": "narita kuukoo",
+      "english": "Narita airport",
+      "image": "../images/study/week_04/day_17/narita_kuukoo.png",
+      "audio": "../audio/vocabulary/week_04/day_17/narita_kuukoo.wav",
+      "alt": "Narita airport terminal with an airplane"
+    }
+  ]
+}

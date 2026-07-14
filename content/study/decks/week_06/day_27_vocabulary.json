@@ -1,0 +1,258 @@
+{
+  "id": "week_06/day_27_vocabulary",
+  "kind": "image",
+  "title": "Day 27 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 27 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "shabu_shabu",
+      "japanese": "しゃぶしゃぶ",
+      "romaji": "shabu shabu",
+      "english": "shabu shabu",
+      "image": "../images/study/week_06/day_27/shabu_shabu.png",
+      "audio": "../audio/vocabulary/week_06/day_27/shabu_shabu.wav",
+      "alt": "A shabu shabu hot pot with chopsticks dipping a slice of meat"
+    },
+    {
+      "id": "itadakimasu",
+      "japanese": "いただきます",
+      "romaji": "itadakimasu",
+      "english": "to receive",
+      "image": "../images/study/week_06/day_27/itadakimasu.png",
+      "audio": "../audio/vocabulary/week_06/day_27/itadakimasu.wav",
+      "alt": "A boy with hands together saying itadakimasu before a meal"
+    },
+    {
+      "id": "pettobotoru",
+      "japanese": "ペットボトル",
+      "romaji": "pettobotoru",
+      "english": "PET bottle",
+      "image": "../images/study/week_06/day_27/pettobotoru.png",
+      "audio": "../audio/vocabulary/week_06/day_27/pettobotoru.wav",
+      "alt": "A clear plastic PET bottle"
+    },
+    {
+      "id": "fairu",
+      "japanese": "ファイル",
+      "romaji": "fairu",
+      "english": "file",
+      "image": "../images/study/week_06/day_27/fairu.png",
+      "audio": "../audio/vocabulary/week_06/day_27/fairu.wav",
+      "alt": "A fan of colourful clear file folders"
+    },
+    {
+      "id": "pasupooto",
+      "japanese": "パスポート",
+      "romaji": "pasupooto",
+      "english": "passport",
+      "image": "../images/study/week_06/day_27/pasupooto.png",
+      "audio": "../audio/vocabulary/week_06/day_27/pasupooto.wav",
+      "alt": "A red passport with an open page beside it"
+    },
+    {
+      "id": "fuutou",
+      "japanese": "封筒",
+      "romaji": "fuutou",
+      "english": "envelope",
+      "image": "../images/study/week_06/day_27/fuutou.png",
+      "audio": "../audio/vocabulary/week_06/day_27/fuutou.wav",
+      "alt": "A brown manila envelope"
+    },
+    {
+      "id": "shimemasu",
+      "japanese": "閉めます【Ⅱ】",
+      "romaji": "shimemasu",
+      "english": "to close",
+      "image": "../images/study/week_06/day_27/shimemasu.png",
+      "audio": "../audio/vocabulary/week_06/day_27/shimemasu.wav",
+      "alt": "A boy closing a sliding window"
+    },
+    {
+      "id": "hairimasu",
+      "japanese": "入ります【Ⅰ】",
+      "romaji": "hairimasu",
+      "english": "to enter",
+      "image": "../images/study/week_06/day_27/hairimasu.png",
+      "audio": "../audio/vocabulary/week_06/day_27/hairimasu.wav",
+      "alt": "A family entering a school gate under falling petals"
+    },
+    {
+      "id": "doumo",
+      "japanese": "どうも",
+      "romaji": "doumo",
+      "english": "thank you",
+      "audio": "../audio/vocabulary/week_06/day_27/doumo.wav",
+      "alt": "Thank you"
+    },
+    {
+      "id": "okimasu",
+      "japanese": "置きます【Ⅰ】",
+      "romaji": "okimasu",
+      "english": "to put; to leave",
+      "audio": "../audio/vocabulary/week_06/day_27/okimasu.wav",
+      "alt": "To put or to leave something"
+    },
+    {
+      "id": "kachou",
+      "japanese": "課長",
+      "romaji": "kachou",
+      "english": "section manager",
+      "audio": "../audio/vocabulary/week_06/day_27/kachou.wav",
+      "alt": "Section manager"
+    },
+    {
+      "id": "shiryou",
+      "japanese": "資料",
+      "romaji": "shiryou",
+      "english": "document",
+      "audio": "../audio/vocabulary/week_06/day_27/shiryou.wav",
+      "alt": "Document"
+    },
+    {
+      "id": "iriguchi",
+      "japanese": "入口",
+      "romaji": "iriguchi",
+      "english": "entrance",
+      "audio": "../audio/vocabulary/week_06/day_27/iriguchi.wav",
+      "alt": "Entrance"
+    },
+    {
+      "id": "watashimasu",
+      "japanese": "渡します【Ⅰ】",
+      "romaji": "watashimasu",
+      "english": "to hand over",
+      "audio": "../audio/vocabulary/week_06/day_27/watashimasu.wav",
+      "alt": "To hand over"
+    },
+    {
+      "id": "misemasu",
+      "japanese": "見せます【Ⅱ】",
+      "romaji": "misemasu",
+      "english": "to show",
+      "audio": "../audio/vocabulary/week_06/day_27/misemasu.wav",
+      "alt": "To show"
+    },
+    {
+      "id": "dashimasu",
+      "japanese": "出します【Ⅰ】",
+      "romaji": "dashimasu",
+      "english": "to submit; to take out",
+      "audio": "../audio/vocabulary/week_06/day_27/dashimasu.wav",
+      "alt": "To submit or to take out"
+    },
+    {
+      "id": "sugu",
+      "japanese": "すぐ",
+      "romaji": "sugu",
+      "english": "immediately",
+      "audio": "../audio/vocabulary/week_06/day_27/sugu.wav",
+      "alt": "Immediately"
+    },
+    {
+      "id": "hayaku",
+      "japanese": "早く",
+      "romaji": "hayaku",
+      "english": "quickly",
+      "audio": "../audio/vocabulary/week_06/day_27/hayaku.wav",
+      "alt": "Quickly"
+    },
+    {
+      "id": "torimasu",
+      "japanese": "取ります【Ⅰ】",
+      "romaji": "torimasu",
+      "english": "to take",
+      "audio": "../audio/vocabulary/week_06/day_27/torimasu.wav",
+      "alt": "To take"
+    },
+    {
+      "id": "iimasu",
+      "japanese": "言います【Ⅰ】",
+      "romaji": "iimasu",
+      "english": "to say",
+      "audio": "../audio/vocabulary/week_06/day_27/iimasu.wav",
+      "alt": "To say"
+    },
+    {
+      "id": "mou_ichido",
+      "japanese": "もう一度",
+      "romaji": "mou ichido",
+      "english": "one more time",
+      "audio": "../audio/vocabulary/week_06/day_27/mou_ichido.wav",
+      "alt": "One more time"
+    },
+    {
+      "id": "oisogashii",
+      "japanese": "お忙しい",
+      "romaji": "oisogashii",
+      "english": "busy",
+      "audio": "../audio/vocabulary/week_06/day_27/oisogashii.wav",
+      "alt": "Busy"
+    },
+    {
+      "id": "jitsu_wa",
+      "japanese": "実は",
+      "romaji": "jitsu wa",
+      "english": "as a matter of fact",
+      "audio": "../audio/vocabulary/week_06/day_27/jitsu_wa.wav",
+      "alt": "As a matter of fact"
+    },
+    {
+      "id": "suisensho",
+      "japanese": "推薦書",
+      "romaji": "suisensho",
+      "english": "recommendation",
+      "audio": "../audio/vocabulary/week_06/day_27/suisensho.wav",
+      "alt": "Recommendation letter"
+    },
+    {
+      "id": "kan",
+      "japanese": "缶",
+      "romaji": "kan",
+      "english": "can",
+      "image": "../images/study/week_06/day_27/kan.png",
+      "audio": "../audio/vocabulary/week_06/day_27/kan.wav",
+      "alt": "Three colourful drink cans"
+    },
+    {
+      "id": "bin",
+      "japanese": "瓶",
+      "romaji": "bin",
+      "english": "bottle",
+      "image": "../images/study/week_06/day_27/bin.png",
+      "audio": "../audio/vocabulary/week_06/day_27/bin.wav",
+      "alt": "A green glass bottle"
+    },
+    {
+      "id": "shachou",
+      "japanese": "社長",
+      "romaji": "shachou",
+      "english": "company president",
+      "audio": "../audio/vocabulary/week_06/day_27/shachou.wav",
+      "alt": "Company president"
+    },
+    {
+      "id": "shunin",
+      "japanese": "主任",
+      "romaji": "shunin",
+      "english": "person in charge",
+      "audio": "../audio/vocabulary/week_06/day_27/shunin.wav",
+      "alt": "Person in charge"
+    },
+    {
+      "id": "deguchi",
+      "japanese": "出口",
+      "romaji": "deguchi",
+      "english": "exit",
+      "audio": "../audio/vocabulary/week_06/day_27/deguchi.wav",
+      "alt": "Exit"
+    }
+  ]
+}

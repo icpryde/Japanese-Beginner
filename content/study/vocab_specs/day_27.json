@@ -1,0 +1,274 @@
+{
+ "week": 6,
+ "day": 27,
+ "lesson_id": "13622655",
+ "title": "Day 27 Vocabulary",
+ "raw_audio_dir": "29. Week 6 - Day 27/3.Day 27 - VocabularyText/Day 27 - Vocabulary Audio",
+ "pages": [
+  "Vocabulary_Day_27.png",
+  "Vocabulary_Day_27_png2.png"
+ ],
+ "words": [
+  {
+   "id": "shabu_shabu",
+   "japanese": "しゃぶしゃぶ",
+   "romaji": "shabu shabu",
+   "english": "shabu shabu",
+   "alt": "A shabu shabu hot pot with chopsticks dipping a slice of meat",
+   "audio": "しゃぶしゃぶ.wav",
+   "img": true
+  },
+  {
+   "id": "itadakimasu",
+   "japanese": "いただきます",
+   "romaji": "itadakimasu",
+   "english": "to receive",
+   "alt": "A boy with hands together saying itadakimasu before a meal",
+   "audio": "いただきます.wav",
+   "img": true
+  },
+  {
+   "id": "pettobotoru",
+   "japanese": "ペットボトル",
+   "romaji": "pettobotoru",
+   "english": "PET bottle",
+   "alt": "A clear plastic PET bottle",
+   "audio": "ペットボトル.wav",
+   "img": true
+  },
+  {
+   "id": "fairu",
+   "japanese": "ファイル",
+   "romaji": "fairu",
+   "english": "file",
+   "alt": "A fan of colourful clear file folders",
+   "audio": "ファイル.wav",
+   "img": true
+  },
+  {
+   "id": "pasupooto",
+   "japanese": "パスポート",
+   "romaji": "pasupooto",
+   "english": "passport",
+   "alt": "A red passport with an open page beside it",
+   "audio": "パスポート.wav",
+   "img": true
+  },
+  {
+   "id": "fuutou",
+   "japanese": "封筒",
+   "romaji": "fuutou",
+   "english": "envelope",
+   "alt": "A brown manila envelope",
+   "audio": "封筒.wav",
+   "img": true
+  },
+  {
+   "id": "shimemasu",
+   "japanese": "閉めます【Ⅱ】",
+   "romaji": "shimemasu",
+   "english": "to close",
+   "alt": "A boy closing a sliding window",
+   "audio": "閉めます.wav",
+   "img": true
+  },
+  {
+   "id": "hairimasu",
+   "japanese": "入ります【Ⅰ】",
+   "romaji": "hairimasu",
+   "english": "to enter",
+   "alt": "A family entering a school gate under falling petals",
+   "audio": "入ります.wav",
+   "img": true
+  },
+  {
+   "id": "doumo",
+   "japanese": "どうも",
+   "romaji": "doumo",
+   "english": "thank you",
+   "alt": "Thank you",
+   "audio": "どうも.wav",
+   "img": false
+  },
+  {
+   "id": "okimasu",
+   "japanese": "置きます【Ⅰ】",
+   "romaji": "okimasu",
+   "english": "to put; to leave",
+   "alt": "To put or to leave something",
+   "audio": "置きます.wav",
+   "img": false
+  },
+  {
+   "id": "kachou",
+   "japanese": "課長",
+   "romaji": "kachou",
+   "english": "section manager",
+   "alt": "Section manager",
+   "audio": "課長.wav",
+   "img": false
+  },
+  {
+   "id": "shiryou",
+   "japanese": "資料",
+   "romaji": "shiryou",
+   "english": "document",
+   "alt": "Document",
+   "audio": "資料.wav",
+   "img": false
+  },
+  {
+   "id": "iriguchi",
+   "japanese": "入口",
+   "romaji": "iriguchi",
+   "english": "entrance",
+   "alt": "Entrance",
+   "audio": "入口.wav",
+   "img": false
+  },
+  {
+   "id": "watashimasu",
+   "japanese": "渡します【Ⅰ】",
+   "romaji": "watashimasu",
+   "english": "to hand over",
+   "alt": "To hand over",
+   "audio": "渡します.wav",
+   "img": false
+  },
+  {
+   "id": "misemasu",
+   "japanese": "見せます【Ⅱ】",
+   "romaji": "misemasu",
+   "english": "to show",
+   "alt": "To show",
+   "audio": "見せます.wav",
+   "img": false
+  },
+  {
+   "id": "dashimasu",
+   "japanese": "出します【Ⅰ】",
+   "romaji": "dashimasu",
+   "english": "to submit; to take out",
+   "alt": "To submit or to take out",
+   "audio": "出します.wav",
+   "img": false
+  },
+  {
+   "id": "sugu",
+   "japanese": "すぐ",
+   "romaji": "sugu",
+   "english": "immediately",
+   "alt": "Immediately",
+   "audio": "すぐ.wav",
+   "img": false
+  },
+  {
+   "id": "hayaku",
+   "japanese": "早く",
+   "romaji": "hayaku",
+   "english": "quickly",
+   "alt": "Quickly",
+   "audio": "早く.wav",
+   "img": false
+  },
+  {
+   "id": "torimasu",
+   "japanese": "取ります【Ⅰ】",
+   "romaji": "torimasu",
+   "english": "to take",
+   "alt": "To take",
+   "audio": "取ります.wav",
+   "img": false
+  },
+  {
+   "id": "iimasu",
+   "japanese": "言います【Ⅰ】",
+   "romaji": "iimasu",
+   "english": "to say",
+   "alt": "To say",
+   "audio": "言います.wav",
+   "img": false
+  },
+  {
+   "id": "mou_ichido",
+   "japanese": "もう一度",
+   "romaji": "mou ichido",
+   "english": "one more time",
+   "alt": "One more time",
+   "audio": "もう一度.wav",
+   "img": false
+  },
+  {
+   "id": "oisogashii",
+   "japanese": "お忙しい",
+   "romaji": "oisogashii",
+   "english": "busy",
+   "alt": "Busy",
+   "audio": "お忙しい.wav",
+   "img": false
+  },
+  {
+   "id": "jitsu_wa",
+   "japanese": "実は",
+   "romaji": "jitsu wa",
+   "english": "as a matter of fact",
+   "alt": "As a matter of fact",
+   "audio": "実は.wav",
+   "img": false
+  },
+  {
+   "id": "suisensho",
+   "japanese": "推薦書",
+   "romaji": "suisensho",
+   "english": "recommendation",
+   "alt": "Recommendation letter",
+   "audio": "推薦書.wav",
+   "img": false
+  },
+  {
+   "id": "kan",
+   "japanese": "缶",
+   "romaji": "kan",
+   "english": "can",
+   "alt": "Three colourful drink cans",
+   "audio": "缶.wav",
+   "img": true
+  },
+  {
+   "id": "bin",
+   "japanese": "瓶",
+   "romaji": "bin",
+   "english": "bottle",
+   "alt": "A green glass bottle",
+   "audio": "瓶.wav",
+   "img": true
+  },
+  {
+   "id": "shachou",
+   "japanese": "社長",
+   "romaji": "shachou",
+   "english": "company president",
+   "alt": "Company president",
+   "audio": "社長.wav",
+   "img": false
+  },
+  {
+   "id": "shunin",
+   "japanese": "主任",
+   "romaji": "shunin",
+   "english": "person in charge",
+   "alt": "Person in charge",
+   "audio": "主任.wav",
+   "img": false
+  },
+  {
+   "id": "deguchi",
+   "japanese": "出口",
+   "romaji": "deguchi",
+   "english": "exit",
+   "alt": "Exit",
+   "audio": "出口.wav",
+   "img": false
+  }
+ ]
+}

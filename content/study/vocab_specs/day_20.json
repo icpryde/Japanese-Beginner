@@ -1,0 +1,320 @@
+{
+ "week": 4,
+ "day": 20,
+ "lesson_id": "13246560",
+ "title": "Day 20 Vocabulary",
+ "raw_audio_dir": "22. Week 4 - Day 20/3.Day 20 - VocabularyText/Day 20 - Vocabulary Audio",
+ "detect": {"merge_gap": 25},
+ "pages": [
+  "Vocabulary_Day_20_1.jpg",
+  "Vocabulary_Day_20_2.jpg",
+  "Vocabulary_Day_20_3.jpg"
+ ],
+ "words": [
+  {
+   "id": "tenki",
+   "japanese": "てんき",
+   "romaji": "tenki",
+   "english": "weather",
+   "alt": "A red sun, a blue umbrella and a cloud",
+   "img": true
+  },
+  {
+   "id": "ikimasu",
+   "japanese": "いきます",
+   "romaji": "ikimasu",
+   "english": "to go",
+   "alt": "A man leaving through the front door with a bag",
+   "audio": "いきます.wav",
+   "img": true
+  },
+  {
+   "id": "onaka_ga_sukimashita",
+   "japanese": "おなかが　すきました",
+   "romaji": "onaka ga sukimashita",
+   "english": "I'm hungry",
+   "alt": "A hungry boy imagining a bowl of rice",
+   "audio": "おなかがすきました.wav",
+   "img": true
+  },
+  {
+   "id": "kaeshimasu",
+   "japanese": "かえします",
+   "romaji": "kaeshimasu",
+   "english": "to return",
+   "alt": "A boy returning a book to a librarian",
+   "audio": "かえします.wav",
+   "img": true
+  },
+  {
+   "id": "asobimasu",
+   "japanese": "あそびます",
+   "romaji": "asobimasu",
+   "english": "to play",
+   "alt": "Two children playing with water guns",
+   "audio": "あそびます.wav",
+   "img": true
+  },
+  {
+   "id": "kaerimasu",
+   "japanese": "かえります",
+   "romaji": "kaerimasu",
+   "english": "to come back",
+   "alt": "A father arriving home at night, greeted at the door",
+   "audio": "かえります.wav",
+   "img": true
+  },
+  {
+   "id": "aimasu",
+   "japanese": "あいます",
+   "romaji": "aimasu",
+   "english": "to meet",
+   "alt": "Two women meeting and greeting each other",
+   "audio": "あいます.wav",
+   "img": true
+  },
+  {
+   "id": "kimasu",
+   "japanese": "きます",
+   "romaji": "kimasu",
+   "english": "to come",
+   "alt": "A boy in a blue shirt running towards the viewer",
+   "audio": "きます.wav",
+   "img": true
+  },
+  {
+   "id": "bijutsu",
+   "japanese": "びじゅつ",
+   "romaji": "bijutsu",
+   "english": "art",
+   "alt": "A woman admiring a framed painting",
+   "audio": "びじゅつ.wav",
+   "img": true
+  },
+  {
+   "id": "hanami",
+   "japanese": "はなみ",
+   "romaji": "hanami",
+   "english": "flower viewing",
+   "alt": "People picnicking under a blooming cherry tree",
+   "audio": "はなみ.wav",
+   "img": true
+  },
+  {
+   "id": "ryokoo",
+   "japanese": "りょこう",
+   "romaji": "ryokoo",
+   "english": "travel",
+   "alt": "A man walking cheerfully with a suitcase",
+   "audio": "りょこう.wav",
+   "img": true
+  },
+  {
+   "id": "kooen",
+   "japanese": "こうえん",
+   "romaji": "kooen",
+   "english": "park",
+   "alt": "A playground with a slide and climbing frame",
+   "audio": "こうえん.wav",
+   "img": true
+  },
+  {
+   "id": "sanpo",
+   "japanese": "さんぽ",
+   "romaji": "sanpo",
+   "english": "walk",
+   "alt": "A man taking a walk",
+   "audio": "さんぽ.wav",
+   "img": true
+  },
+  {
+   "id": "sukii",
+   "japanese": "スキー",
+   "romaji": "sukii",
+   "english": "skiing",
+   "alt": "A skier in a red hat crouching on skis",
+   "audio": "スキー.wav",
+   "img": true
+  },
+  {
+   "id": "bungaku",
+   "japanese": "ぶんがく",
+   "romaji": "bungaku",
+   "english": "literature",
+   "alt": "A green novel with a stack of books",
+   "audio": "ぶんがく.wav",
+   "img": true
+  },
+  {
+   "id": "kenkyuu",
+   "japanese": "けんきゅう",
+   "romaji": "kenkyuu",
+   "english": "research",
+   "alt": "A researcher in a lab coat with a microscope",
+   "audio": "けんきゅう.wav",
+   "img": true
+  },
+  {
+   "id": "shokuji",
+   "japanese": "しょくじ",
+   "romaji": "shokuji",
+   "english": "meal",
+   "alt": "A family eating a meal together at a table",
+   "audio": "しょくじ.wav",
+   "img": true
+  },
+  {
+   "id": "kuukoo",
+   "japanese": "くうこう",
+   "romaji": "kuukoo",
+   "english": "airport",
+   "alt": "An airport terminal building with a plane",
+   "audio": "くうこう.wav",
+   "img": true
+  },
+  {
+   "id": "mukaemasu",
+   "japanese": "むかえます",
+   "romaji": "mukaemasu",
+   "english": "to pick up someone",
+   "alt": "A person waving to greet an arriving traveller",
+   "audio": "むかえます.wav",
+   "img": true
+  },
+  {
+   "id": "obentoo",
+   "japanese": "（お）べんとう",
+   "romaji": "(o)bentoo",
+   "english": "Japanese lunch box",
+   "alt": "A Japanese lunch box with rice and side dishes",
+   "audio": "おべんとう.wav",
+   "img": true
+  },
+  {
+   "id": "oyogimasu",
+   "japanese": "およぎます",
+   "romaji": "oyogimasu",
+   "english": "to swim",
+   "alt": "A swimmer in a cap doing the front crawl",
+   "audio": "およぎます.wav",
+   "img": true
+  },
+  {
+   "id": "jimu",
+   "japanese": "ジム",
+   "romaji": "jimu",
+   "english": "gym",
+   "alt": "A man and woman exercising on gym machines",
+   "audio": "ジム.wav",
+   "img": true
+  },
+  {
+   "id": "puuru",
+   "japanese": "プール",
+   "romaji": "puuru",
+   "english": "pool",
+   "alt": "A swimming pool with bunting flags",
+   "audio": "プール.wav",
+   "img": true
+  },
+  {
+   "id": "kaimono",
+   "japanese": "かいもの",
+   "romaji": "kaimono",
+   "english": "shopping",
+   "alt": "A smiling woman carrying shopping bags",
+   "audio": "かいもの.wav",
+   "img": true
+  },
+  {
+   "id": "dokoka",
+   "japanese": "どこか",
+   "romaji": "dokoka",
+   "english": "somewhere",
+   "alt": "Somewhere",
+   "audio": "どこか.wav",
+   "img": false
+  },
+  {
+   "id": "dareka",
+   "japanese": "だれか",
+   "romaji": "dareka",
+   "english": "someone",
+   "alt": "Someone",
+   "audio": "だれか.wav",
+   "img": false
+  },
+  {
+   "id": "nanika",
+   "japanese": "なにか",
+   "romaji": "nanika",
+   "english": "something",
+   "alt": "Something",
+   "audio": "なにか.wav",
+   "img": false
+  },
+  {
+   "id": "isshoni",
+   "japanese": "いっしょに",
+   "romaji": "isshoni",
+   "english": "together",
+   "alt": "Together",
+   "audio": "いっしょに.wav",
+   "img": false
+  },
+  {
+   "id": "demo",
+   "japanese": "でも",
+   "romaji": "demo",
+   "english": "but",
+   "alt": "But",
+   "audio": "でも.wav",
+   "img": false
+  },
+  {
+   "id": "kyonen",
+   "japanese": "きょねん",
+   "romaji": "kyonen",
+   "english": "last year",
+   "alt": "Last year",
+   "audio": "きょねん.wav",
+   "img": false
+  },
+  {
+   "id": "itsuka",
+   "japanese": "いつか",
+   "romaji": "itsuka",
+   "english": "someday",
+   "alt": "Someday",
+   "audio": "いつか.wav",
+   "img": false
+  },
+  {
+   "id": "itsumo",
+   "japanese": "いつも",
+   "romaji": "itsumo",
+   "english": "always",
+   "alt": "Always",
+   "audio": "いつも.wav",
+   "img": false
+  },
+  {
+   "id": "shuumatsu",
+   "japanese": "しゅうまつ",
+   "romaji": "shuumatsu",
+   "english": "weekend",
+   "alt": "Weekend",
+   "audio": "しゅうまつ.wav",
+   "img": false
+  },
+  {
+   "id": "chuugokugo",
+   "japanese": "ちゅうごくご",
+   "romaji": "chuugokugo",
+   "english": "Chinese language",
+   "alt": "A woman reading a book with Chinese characters",
+   "audio": "ちゅうごくご.wav",
+   "img": true
+  }
+ ]
+}

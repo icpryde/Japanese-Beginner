@@ -1,0 +1,336 @@
+{
+  "id": "week_04/day_16_vocabulary",
+  "kind": "image",
+  "title": "Day 16 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 16 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "tabemono",
+      "japanese": "たべもの",
+      "romaji": "tabemono",
+      "english": "food",
+      "image": "../images/study/week_04/day_16/tabemono.png",
+      "audio": "../audio/vocabulary/week_04/day_16/tabemono.wav",
+      "alt": "A plate of spaghetti, sushi and a hamburger steak"
+    },
+    {
+      "id": "raamenya",
+      "japanese": "ラーメンや",
+      "romaji": "raamenya",
+      "english": "ramen shop",
+      "image": "../images/study/week_04/day_16/raamenya.png",
+      "alt": "A ramen shop storefront with a red sign"
+    },
+    {
+      "id": "kudamono",
+      "japanese": "くだもの",
+      "romaji": "kudamono",
+      "english": "fruit",
+      "image": "../images/study/week_04/day_16/kudamono.png",
+      "alt": "A basket full of assorted fruit"
+    },
+    {
+      "id": "suika",
+      "japanese": "すいか",
+      "romaji": "suika",
+      "english": "watermelon",
+      "image": "../images/study/week_04/day_16/suika.png",
+      "alt": "A watermelon with a cut slice"
+    },
+    {
+      "id": "kazoku",
+      "japanese": "かぞく",
+      "romaji": "kazoku",
+      "english": "family",
+      "image": "../images/study/week_04/day_16/kazoku.png",
+      "alt": "A large three-generation family group"
+    },
+    {
+      "id": "ryoori",
+      "japanese": "りょうり",
+      "romaji": "ryoori",
+      "english": "cuisine/cooking",
+      "image": "../images/study/week_04/day_16/ryoori.png",
+      "alt": "A chef tossing food in a frying pan"
+    },
+    {
+      "id": "kisetsu",
+      "japanese": "きせつ",
+      "romaji": "kisetsu",
+      "english": "season",
+      "image": "../images/study/week_04/day_16/kisetsu.png",
+      "alt": "Four small scenes of spring, summer, autumn and winter"
+    },
+    {
+      "id": "haru",
+      "japanese": "はる",
+      "romaji": "haru",
+      "english": "spring",
+      "image": "../images/study/week_04/day_16/haru.png",
+      "audio": "../audio/vocabulary/week_04/day_16/haru.wav",
+      "alt": "A cherry blossom tree in full bloom"
+    },
+    {
+      "id": "supootsu",
+      "japanese": "スポーツ",
+      "romaji": "supootsu",
+      "english": "sports",
+      "image": "../images/study/week_04/day_16/supootsu.png",
+      "audio": "../audio/vocabulary/week_04/day_16/supootsu.wav",
+      "alt": "Children playing baseball, soccer and tennis"
+    },
+    {
+      "id": "yakyuu",
+      "japanese": "やきゅう",
+      "romaji": "yakyuu",
+      "english": "baseball",
+      "image": "../images/study/week_04/day_16/yakyuu.png",
+      "audio": "../audio/vocabulary/week_04/day_16/yakyuu.wav",
+      "alt": "A baseball player swinging a bat"
+    },
+    {
+      "id": "hito",
+      "japanese": "ひと",
+      "romaji": "hito",
+      "english": "person",
+      "audio": "../audio/vocabulary/week_04/day_16/hito.wav",
+      "alt": "Person"
+    },
+    {
+      "id": "ame",
+      "japanese": "あめ",
+      "romaji": "ame",
+      "english": "rain",
+      "image": "../images/study/week_04/day_16/ame.png",
+      "audio": "../audio/vocabulary/week_04/day_16/ame.wav",
+      "alt": "A blue umbrella in the rain"
+    },
+    {
+      "id": "resutoran",
+      "japanese": "レストラン",
+      "romaji": "resutoran",
+      "english": "restaurant",
+      "image": "../images/study/week_04/day_16/resutoran.png",
+      "audio": "../audio/vocabulary/week_04/day_16/resutoran.wav",
+      "alt": "A restaurant building with a large sign"
+    },
+    {
+      "id": "heya",
+      "japanese": "へや",
+      "romaji": "heya",
+      "english": "room",
+      "image": "../images/study/week_04/day_16/heya.png",
+      "audio": "../audio/vocabulary/week_04/day_16/heya.wav",
+      "alt": "A living room with a sofa and television"
+    },
+    {
+      "id": "kooen",
+      "japanese": "こうえん",
+      "romaji": "kooen",
+      "english": "park",
+      "image": "../images/study/week_04/day_16/kooen.png",
+      "audio": "../audio/vocabulary/week_04/day_16/kooen.wav",
+      "alt": "A park with a slide and climbing frame"
+    },
+    {
+      "id": "pasokon",
+      "japanese": "パソコン",
+      "romaji": "pasokon",
+      "english": "computer",
+      "image": "../images/study/week_04/day_16/pasokon.png",
+      "audio": "../audio/vocabulary/week_04/day_16/pasokon.wav",
+      "alt": "A laptop computer"
+    },
+    {
+      "id": "mise",
+      "japanese": "みせ",
+      "romaji": "mise",
+      "english": "shop",
+      "image": "../images/study/week_04/day_16/mise.png",
+      "audio": "../audio/vocabulary/week_04/day_16/mise.wav",
+      "alt": "A small shop with a striped awning"
+    },
+    {
+      "id": "dansu",
+      "japanese": "ダンス",
+      "romaji": "dansu",
+      "english": "dance",
+      "image": "../images/study/week_04/day_16/dansu.png",
+      "audio": "../audio/vocabulary/week_04/day_16/dansu.wav",
+      "alt": "A breakdancer doing a one-handed handstand"
+    },
+    {
+      "id": "machi",
+      "japanese": "まち",
+      "romaji": "machi",
+      "english": "town",
+      "image": "../images/study/week_04/day_16/machi.png",
+      "audio": "../audio/vocabulary/week_04/day_16/machi.wav",
+      "alt": "A townscape with houses and buildings"
+    },
+    {
+      "id": "midori",
+      "japanese": "みどり",
+      "romaji": "midori",
+      "english": "green",
+      "image": "../images/study/week_04/day_16/midori.png",
+      "audio": "../audio/vocabulary/week_04/day_16/midori.wav",
+      "alt": "A leafy green tree"
+    },
+    {
+      "id": "ichiban",
+      "japanese": "いちばん",
+      "romaji": "ichiban",
+      "english": "most/first",
+      "audio": "../audio/vocabulary/week_04/day_16/ichiban.wav",
+      "alt": "Most or first"
+    },
+    {
+      "id": "sega_takai",
+      "japanese": "せが　たかい",
+      "romaji": "sega takai",
+      "english": "tall (of a person)",
+      "audio": "../audio/vocabulary/week_04/day_16/sega_takai.wav",
+      "alt": "Tall (of a person)"
+    },
+    {
+      "id": "ooi",
+      "japanese": "おおい",
+      "romaji": "ooi",
+      "english": "many",
+      "audio": "../audio/vocabulary/week_04/day_16/ooi.wav",
+      "alt": "Many"
+    },
+    {
+      "id": "hiroi",
+      "japanese": "ひろい",
+      "romaji": "hiroi",
+      "english": "wide",
+      "audio": "../audio/vocabulary/week_04/day_16/hiroi.wav",
+      "alt": "Wide"
+    },
+    {
+      "id": "akarui",
+      "japanese": "あかるい",
+      "romaji": "akarui",
+      "english": "bright",
+      "audio": "../audio/vocabulary/week_04/day_16/akarui.wav",
+      "alt": "Bright"
+    },
+    {
+      "id": "chikaku",
+      "japanese": "ちかく",
+      "romaji": "chikaku",
+      "english": "near",
+      "audio": "../audio/vocabulary/week_04/day_16/chikaku.wav",
+      "alt": "Near"
+    },
+    {
+      "id": "atamaga_ii",
+      "japanese": "あたまが　いい",
+      "romaji": "atamaga ii",
+      "english": "intelligent",
+      "audio": "../audio/vocabulary/week_04/day_16/atamaga_ii.wav",
+      "alt": "Intelligent"
+    },
+    {
+      "id": "majime_na",
+      "japanese": "まじめ（な）",
+      "romaji": "majime(na)",
+      "english": "serious",
+      "audio": "../audio/vocabulary/week_04/day_16/majime_na.wav",
+      "alt": "Serious"
+    },
+    {
+      "id": "suteki_na",
+      "japanese": "すてき（な）",
+      "romaji": "suteki(na)",
+      "english": "lovely",
+      "audio": "../audio/vocabulary/week_04/day_16/suteki_na.wav",
+      "alt": "Lovely"
+    },
+    {
+      "id": "ryuugaksee",
+      "japanese": "りゅうがくせい",
+      "romaji": "ryuugaksee",
+      "english": "study abroad student",
+      "audio": "../audio/vocabulary/week_04/day_16/ryuugaksee.wav",
+      "alt": "Study abroad student"
+    },
+    {
+      "id": "dokushin",
+      "japanese": "どくしん",
+      "romaji": "dokushin",
+      "english": "single",
+      "audio": "../audio/vocabulary/week_04/day_16/dokushin.wav",
+      "alt": "Single (unmarried)"
+    },
+    {
+      "id": "karui",
+      "japanese": "かるい",
+      "romaji": "karui",
+      "english": "light",
+      "audio": "../audio/vocabulary/week_04/day_16/karui.wav",
+      "alt": "Light (in weight)"
+    },
+    {
+      "id": "benri_na",
+      "japanese": "べんり（な）",
+      "romaji": "benri(na)",
+      "english": "convenient",
+      "audio": "../audio/vocabulary/week_04/day_16/benri_na.wav",
+      "alt": "Convenient"
+    },
+    {
+      "id": "yasui",
+      "japanese": "やすい",
+      "romaji": "yasui",
+      "english": "cheap",
+      "audio": "../audio/vocabulary/week_04/day_16/yasui.wav",
+      "alt": "Cheap"
+    },
+    {
+      "id": "tokoro",
+      "japanese": "ところ",
+      "romaji": "tokoro",
+      "english": "place",
+      "audio": "../audio/vocabulary/week_04/day_16/tokoro.wav",
+      "alt": "Place"
+    },
+    {
+      "id": "natsu",
+      "japanese": "なつ",
+      "romaji": "natsu",
+      "english": "summer",
+      "image": "../images/study/week_04/day_16/natsu.png",
+      "audio": "../audio/vocabulary/week_04/day_16/natsu.wav",
+      "alt": "A beach parasol and ball on the sand"
+    },
+    {
+      "id": "aki",
+      "japanese": "あき",
+      "romaji": "aki",
+      "english": "autumn",
+      "image": "../images/study/week_04/day_16/aki.png",
+      "audio": "../audio/vocabulary/week_04/day_16/aki.wav",
+      "alt": "Trees with red and yellow autumn leaves"
+    },
+    {
+      "id": "fuyu",
+      "japanese": "ふゆ",
+      "romaji": "fuyu",
+      "english": "winter",
+      "image": "../images/study/week_04/day_16/fuyu.png",
+      "audio": "../audio/vocabulary/week_04/day_16/fuyu.wav",
+      "alt": "A snowman in a snowy night landscape"
+    }
+  ]
+}

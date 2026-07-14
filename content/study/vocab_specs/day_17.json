@@ -1,0 +1,464 @@
+{
+ "week": 4,
+ "day": 17,
+ "lesson_id": "13244628",
+ "title": "Day 17 Vocabulary",
+ "raw_audio_dir": "19. Week 4 - Day 17/3.Day 17 - VocabularyText/Vocabulary Audio - Day 17",
+ "pages": [
+  "Vocabulary_Day_17_png1.png",
+  "Vocabulary_Day_17_png2.png",
+  "Vocabulary_Day_17_png3.png",
+  "Vocabulary_Day_17_png4.png",
+  "Vocabulary_Day_17_modified_last_page.png",
+  "Vocabulary_Day_17_png5.png"
+ ],
+ "words": [
+  {
+   "id": "tanoshii",
+   "japanese": "たのしい",
+   "romaji": "tanoshii",
+   "english": "fun",
+   "alt": "Two children jumping with joy",
+   "audio": "たのしい.wav",
+   "img": true
+  },
+  {
+   "id": "omoshiroi",
+   "japanese": "おもしろい",
+   "romaji": "omoshiroi",
+   "english": "funny",
+   "alt": "A woman laughing hard with tears of joy",
+   "audio": "おもしろい.wav",
+   "img": true
+  },
+  {
+   "id": "oishii",
+   "japanese": "おいしい",
+   "romaji": "oishii",
+   "english": "delicious",
+   "alt": "A man happily eating with chopsticks",
+   "audio": "おいしい.wav",
+   "img": true
+  },
+  {
+   "id": "ii",
+   "japanese": "いい",
+   "romaji": "ii",
+   "english": "good",
+   "alt": "A businessman giving a thumbs up saying good",
+   "audio": "いい.wav",
+   "img": true
+  },
+  {
+   "id": "samui",
+   "japanese": "さむい",
+   "romaji": "samui",
+   "english": "cold",
+   "alt": "A person shivering in winter clothes",
+   "audio": "さむい.wav",
+   "img": true
+  },
+  {
+   "id": "tesuto",
+   "japanese": "テスト",
+   "romaji": "tesuto",
+   "english": "test",
+   "alt": "Students taking a test at their desks",
+   "audio": "テスト.wav",
+   "img": true
+  },
+  {
+   "id": "muzukashii",
+   "japanese": "むずかしい",
+   "romaji": "muzukashii",
+   "english": "difficult",
+   "alt": "A boy puzzling over homework with question marks",
+   "img": true
+  },
+  {
+   "id": "hanami",
+   "japanese": "はなみ",
+   "romaji": "hanami",
+   "english": "flower viewing",
+   "alt": "People picnicking under falling cherry blossom petals",
+   "audio": "はなみ.wav",
+   "img": true
+  },
+  {
+   "id": "kaigi",
+   "japanese": "かいぎ",
+   "romaji": "kaigi",
+   "english": "meeting",
+   "alt": "A business meeting with a presenter at a whiteboard",
+   "audio": "かいぎ.wav",
+   "img": true
+  },
+  {
+   "id": "nagai",
+   "japanese": "ながい",
+   "romaji": "nagai",
+   "english": "long",
+   "alt": "A giraffe with an arrow along its long neck",
+   "audio": "ながい.wav",
+   "img": true
+  },
+  {
+   "id": "tenki",
+   "japanese": "てんき",
+   "romaji": "tenki",
+   "english": "weather",
+   "alt": "Sun, cloud and umbrella weather symbols",
+   "audio": "てんき.wav",
+   "img": true
+  },
+  {
+   "id": "ame",
+   "japanese": "あめ",
+   "romaji": "ame",
+   "english": "rain",
+   "alt": "A blue umbrella in the rain",
+   "audio": "あめ.wav",
+   "img": true
+  },
+  {
+   "id": "sakura",
+   "japanese": "さくら",
+   "romaji": "sakura",
+   "english": "cherry blossom",
+   "alt": "A cherry blossom tree in full bloom",
+   "audio": "さくら.wav",
+   "img": true
+  },
+  {
+   "id": "kiree_na",
+   "japanese": "きれい（な）",
+   "romaji": "kiree(na)",
+   "english": "beautiful",
+   "alt": "A sparkling beautiful woman",
+   "audio": "きれいな.wav",
+   "img": true
+  },
+  {
+   "id": "genki_na",
+   "japanese": "げんき（な）",
+   "romaji": "genki(na)",
+   "english": "energetic; in good health",
+   "alt": "An energetic boy cheering with sparkles",
+   "audio": "げんき.wav",
+   "img": true
+  },
+  {
+   "id": "shinsetsu_na",
+   "japanese": "しんせつ（な）",
+   "romaji": "shinsetsu(na)",
+   "english": "kind",
+   "alt": "A man kindly giving up his train seat to an elderly woman",
+   "audio": "しんせつな.wav",
+   "img": true
+  },
+  {
+   "id": "ii_tenki",
+   "japanese": "いいてんき",
+   "romaji": "ii tenki",
+   "english": "nice weather",
+   "alt": "A clear blue sky with white clouds",
+   "audio": "いいてんき.wav",
+   "img": true
+  },
+  {
+   "id": "arubaito",
+   "japanese": "アルバイト",
+   "romaji": "arubaito",
+   "english": "part-time job",
+   "alt": "A part-time worker carrying mugs of beer",
+   "audio": "アルバイト.wav",
+   "img": true
+  },
+  {
+   "id": "taihen_na",
+   "japanese": "たいへん（な）",
+   "romaji": "taihen(na)",
+   "english": "hard",
+   "alt": "A worker struggling under heavy boxes while being scolded",
+   "audio": "たいへんな.wav",
+   "img": true
+  },
+  {
+   "id": "shibuya",
+   "japanese": "しぶや",
+   "romaji": "shibuya",
+   "english": "Shibuya",
+   "alt": "Shibuya with the Hachiko statue and buildings",
+   "audio": "しぶや.wav",
+   "img": true
+  },
+  {
+   "id": "nigiyaka_na",
+   "japanese": "にぎやか（な）",
+   "romaji": "nigiyaka(na)",
+   "english": "bustling",
+   "alt": "A bustling shopping street full of people",
+   "audio": "にぎやかな.wav",
+   "img": true
+  },
+  {
+   "id": "umi",
+   "japanese": "うみ",
+   "romaji": "umi",
+   "english": "sea",
+   "alt": "A beach with the blue sea",
+   "audio": "うみ.wav",
+   "img": true
+  },
+  {
+   "id": "terebi",
+   "japanese": "テレビ",
+   "romaji": "terebi",
+   "english": "tv",
+   "alt": "A flat-screen television",
+   "audio": "テレビ.wav",
+   "img": true
+  },
+  {
+   "id": "mimasu",
+   "japanese": "みます",
+   "romaji": "mimasu",
+   "english": "to watch",
+   "alt": "A boy watching a robot show on television",
+   "audio": "みます.wav",
+   "img": true
+  },
+  {
+   "id": "hatarakimasu",
+   "japanese": "はたらきます",
+   "romaji": "hatarakimasu",
+   "english": "to work",
+   "alt": "Workers of different professions lined up",
+   "audio": "はたらきます.wav",
+   "img": true
+  },
+  {
+   "id": "pusan",
+   "japanese": "プサン",
+   "romaji": "pusan",
+   "english": "Busan",
+   "alt": "The South Korean flag",
+   "audio": "プサン.wav",
+   "img": true
+  },
+  {
+   "id": "hikooki",
+   "japanese": "ひこうき",
+   "romaji": "hikooki",
+   "english": "airplane",
+   "alt": "A blue and white airplane",
+   "audio": "ひこうき.wav",
+   "img": true
+  },
+  {
+   "id": "machi",
+   "japanese": "まち",
+   "romaji": "machi",
+   "english": "town",
+   "alt": "A townscape with houses and buildings",
+   "audio": "まち.wav",
+   "img": true
+  },
+  {
+   "id": "rooma",
+   "japanese": "ローマ",
+   "romaji": "rooma",
+   "english": "Rome",
+   "alt": "The Italian flag and the Colosseum",
+   "img": true
+  },
+  {
+   "id": "eki",
+   "japanese": "えき",
+   "romaji": "eki",
+   "english": "station",
+   "alt": "A train station building",
+   "audio": "えき.wav",
+   "img": true
+  },
+  {
+   "id": "aruite",
+   "japanese": "あるいて",
+   "romaji": "aruite",
+   "english": "walking",
+   "alt": "A woman walking",
+   "audio": "あるいて.wav",
+   "img": true
+  },
+  {
+   "id": "hakata",
+   "japanese": "はかた",
+   "romaji": "hakata",
+   "english": "Hakata",
+   "alt": "Hakata landmarks with a festival float and a map",
+   "audio": "はかた.wav",
+   "img": true
+  },
+  {
+   "id": "shinkansen",
+   "japanese": "しんかんせん",
+   "romaji": "shinkansen",
+   "english": "bullet train",
+   "alt": "A white bullet train",
+   "audio": "しんかんせん.wav",
+   "img": true
+  },
+  {
+   "id": "konbini",
+   "japanese": "コンビニ",
+   "romaji": "konbini",
+   "english": "convenience store",
+   "alt": "A 24-hour convenience store",
+   "audio": "コンビニ.wav",
+   "img": true
+  },
+  {
+   "id": "jitensha",
+   "japanese": "じてんしゃ",
+   "romaji": "jitensha",
+   "english": "bicycle",
+   "alt": "A man riding a bicycle",
+   "audio": "じてんしゃ.wav",
+   "img": true
+  },
+  {
+   "id": "suupaa",
+   "japanese": "スーパー",
+   "romaji": "suupaa",
+   "english": "supermarket",
+   "alt": "A supermarket storefront with shopping carts",
+   "audio": "スーパー.wav",
+   "img": true
+  },
+  {
+   "id": "hajimete",
+   "japanese": "はじめて",
+   "romaji": "hajimete",
+   "english": "for the first time",
+   "alt": "Adverb meaning for the first time",
+   "audio": "はじめて.wav",
+   "img": false
+  },
+  {
+   "id": "senshuu",
+   "japanese": "せんしゅう",
+   "romaji": "senshuu",
+   "english": "last week",
+   "alt": "Last week",
+   "audio": "せんしゅう.wav",
+   "img": false
+  },
+  {
+   "id": "totemo",
+   "japanese": "とても",
+   "romaji": "totemo",
+   "english": "very",
+   "alt": "Adverb meaning very",
+   "audio": "とても.wav",
+   "img": false
+  },
+  {
+   "id": "kinoo",
+   "japanese": "きのう",
+   "romaji": "kinoo",
+   "english": "yesterday",
+   "alt": "Yesterday",
+   "audio": "きのう.wav",
+   "img": false
+  },
+  {
+   "id": "amari",
+   "japanese": "あまり",
+   "romaji": "amari",
+   "english": "not very",
+   "alt": "Adverb meaning not very (with a negative)",
+   "audio": "あまり.wav",
+   "img": false
+  },
+  {
+   "id": "shuumatsu",
+   "japanese": "しゅうまつ",
+   "romaji": "shuumatsu",
+   "english": "weekend",
+   "alt": "Weekend",
+   "audio": "しゅうまつ.wav",
+   "img": false
+  },
+  {
+   "id": "dono_kurai",
+   "japanese": "どのくらい",
+   "romaji": "dono kurai",
+   "english": "how long",
+   "alt": "Question phrase meaning how long",
+   "audio": "どのぐらい’.wav",
+   "img": false
+  },
+  {
+   "id": "hontooni",
+   "japanese": "ほんとうに",
+   "romaji": "hontooni",
+   "english": "really",
+   "alt": "Adverb meaning really",
+   "audio": "ほんとうに.wav",
+   "img": false
+  },
+  {
+   "id": "gurai",
+   "japanese": "～ぐらい",
+   "romaji": "~gurai",
+   "english": "around",
+   "alt": "Suffix meaning around or about",
+   "audio": "ぐらい.wav",
+   "img": false
+  },
+  {
+   "id": "kakarimasu",
+   "japanese": "かかります",
+   "romaji": "kakarimasu",
+   "english": "to take (time)",
+   "alt": "Verb meaning to take time",
+   "audio": "かかります.wav",
+   "img": false
+  },
+  {
+   "id": "chotto",
+   "japanese": "ちょっと",
+   "romaji": "chotto",
+   "english": "a little",
+   "alt": "A little",
+   "audio": "ちょっと.wav",
+   "img": false
+  },
+  {
+   "id": "nikki",
+   "japanese": "にっき",
+   "romaji": "nikki",
+   "english": "diary",
+   "alt": "A green diary notebook",
+   "audio": "にっき.wav",
+   "img": true
+  },
+  {
+   "id": "ryokan",
+   "japanese": "りょかん",
+   "romaji": "ryokan",
+   "english": "Japanese inn",
+   "alt": "A traditional Japanese inn building",
+   "img": true
+  },
+  {
+   "id": "narita_kuukoo",
+   "japanese": "なりたくうこう",
+   "romaji": "narita kuukoo",
+   "english": "Narita airport",
+   "alt": "Narita airport terminal with an airplane",
+   "audio": "なりたくうこう.wav",
+   "img": true
+  }
+ ]
+}

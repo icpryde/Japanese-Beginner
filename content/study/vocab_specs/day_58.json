@@ -1,0 +1,167 @@
+{
+ "week": 12,
+ "day": 58,
+ "lesson_id": "14711102",
+ "title": "Day 58 Vocabulary",
+ "raw_audio_dir": "61. Week 12 - Day 58/3.Day 58 - VocabularyText/Day 58 - Vocabulary Audio",
+ "pages": [
+  "Vocabulary_Day_58_1.jpg",
+  "Vocabulary_Day_58_2.jpg"
+ ],
+ "detect": {"merge_gap": 5},
+ "words": [
+  {
+   "id": "tsumetai",
+   "japanese": "冷たい",
+   "romaji": "tsumetai",
+   "english": "cold",
+   "alt": "A triple-scoop ice cream cone",
+   "audio": "冷たい.wav",
+   "img": true
+  },
+  {
+   "id": "kyuukei_shimasu",
+   "japanese": "休憩します【Ⅲ】",
+   "romaji": "kyuukei shimasu",
+   "english": "to rest",
+   "alt": "A woman resting on a bench drinking water",
+   "audio": "休憩します.wav",
+   "img": true
+  },
+  {
+   "id": "benchi",
+   "japanese": "ベンチ",
+   "romaji": "benchi",
+   "english": "bench",
+   "alt": "A yellow arrow pointing at the bench a woman sits on",
+   "audio": "ベンチ.wav",
+   "img": true
+  },
+  {
+   "id": "mooshikomimasu",
+   "japanese": "申し込みます【Ⅰ】",
+   "romaji": "mooshikomimasu",
+   "english": "to apply",
+   "alt": "To apply",
+   "audio": "申し込むます.wav",
+   "img": false
+  },
+  {
+   "id": "katazukemasu",
+   "japanese": "片付けます【Ⅱ】",
+   "romaji": "katazukemasu",
+   "english": "to tidy up",
+   "alt": "A tidy living room with a TV and green sofa",
+   "audio": "片付けます.wav",
+   "img": true
+  },
+  {
+   "id": "inu_o_kaimasu",
+   "japanese": "（犬を）飼います【Ⅰ】",
+   "romaji": "(inu o) kaimasu",
+   "english": "to have (a dog)",
+   "alt": "A girl happily hugging her pet dog",
+   "audio": "犬を飼います.wav",
+   "img": true
+  },
+  {
+   "id": "sotsugyoo_shimasu",
+   "japanese": "卒業します【Ⅲ】",
+   "romaji": "sotsugyoo shimasu",
+   "english": "to graduate",
+   "alt": "A graduate shaking hands while receiving a diploma",
+   "audio": "卒業します.wav",
+   "img": true
+  },
+  {
+   "id": "umaremasu",
+   "japanese": "生まれます【Ⅱ】",
+   "romaji": "umaremasu",
+   "english": "to be born",
+   "alt": "A nurse holding a newborn baby",
+   "audio": "生まれます.wav",
+   "img": true
+  },
+  {
+   "id": "omocha",
+   "japanese": "おもちゃ",
+   "romaji": "omocha",
+   "english": "toy",
+   "alt": "A toy box with a teddy bear, balloon and toy car",
+   "audio": "おもちゃ.wav",
+   "img": true
+  },
+  {
+   "id": "omuraisu_ni_shimasu",
+   "japanese": "（オムライス）に します【Ⅲ】",
+   "romaji": "(omuraisu) ni shimasu",
+   "english": "to have (an omurice)",
+   "alt": "To have (an omurice)",
+   "audio": "オムライスにします.wav",
+   "img": false
+  },
+  {
+   "id": "yukkuri_shimasu",
+   "japanese": "ゆっくりします【Ⅲ】",
+   "romaji": "yukkuri shimasu",
+   "english": "to take it easy",
+   "alt": "To take it easy",
+   "audio": "ゆっくりします.wav",
+   "img": false
+  },
+  {
+   "id": "demo_koohii_demo",
+   "japanese": "～でも Ex) コーヒーでも",
+   "romaji": "~demo Ex. koohii demo",
+   "english": "... or something Ex. a coffee or something",
+   "alt": "Or something, e.g. a coffee or something",
+   "audio": "コーヒーでも.wav",
+   "img": false
+  },
+  {
+   "id": "mitsukemasu",
+   "japanese": "見つけます【Ⅱ】",
+   "romaji": "mitsukemasu",
+   "english": "to discover",
+   "alt": "To discover",
+   "audio": "見つけます.wav",
+   "img": false
+  },
+  {
+   "id": "yasumi_o_torimasu",
+   "japanese": "（休みを）取ります",
+   "romaji": "(yasumi o) torimasu",
+   "english": "to take (time off)",
+   "alt": "To take (time off)",
+   "audio": "休みを取ります.wav",
+   "img": false
+  },
+  {
+   "id": "motto",
+   "japanese": "もっと",
+   "romaji": "motto",
+   "english": "more",
+   "alt": "More",
+   "audio": "もっと.wav",
+   "img": false
+  },
+  {
+   "id": "dekirudake",
+   "japanese": "できるだけ",
+   "romaji": "dekirudake",
+   "english": "as much as possible",
+   "alt": "As much as possible",
+   "audio": "できるだけ.wav",
+   "img": false
+  },
+  {
+   "id": "shoorai",
+   "japanese": "将来",
+   "romaji": "shoorai",
+   "english": "future",
+   "alt": "Future",
+   "audio": "将来.wav",
+   "img": false
+  }
+ ]
+}

@@ -1,0 +1,168 @@
+{
+  "id": "week_11/day_54_vocabulary",
+  "kind": "image",
+  "title": "Day 54 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 54 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "hotto",
+      "japanese": "ホット",
+      "romaji": "hotto",
+      "english": "hot",
+      "image": "../images/study/week_11/day_54/hotto.png",
+      "audio": "../audio/vocabulary/week_11/day_54/hotto.wav",
+      "alt": "Steaming hot takoyaki on a red grill"
+    },
+    {
+      "id": "satoo",
+      "japanese": "砂糖",
+      "romaji": "satoo",
+      "english": "sugar",
+      "image": "../images/study/week_11/day_54/satoo.png",
+      "audio": "../audio/vocabulary/week_11/day_54/satoo.wav",
+      "alt": "A jar of sugar with a pink spoon"
+    },
+    {
+      "id": "miruku",
+      "japanese": "ミルク",
+      "romaji": "miruku",
+      "english": "milk",
+      "audio": "../audio/vocabulary/week_11/day_54/miruku.wav",
+      "alt": "A metal pitcher of milk"
+    },
+    {
+      "id": "burakku_koohii",
+      "japanese": "ブラックコーヒー",
+      "romaji": "burakku koohii",
+      "english": "black coffee",
+      "image": "../images/study/week_11/day_54/burakku_koohii.png",
+      "audio": "../audio/vocabulary/week_11/day_54/burakku_koohii.wav",
+      "alt": "A cup of black coffee on a saucer"
+    },
+    {
+      "id": "kasa",
+      "japanese": "傘",
+      "romaji": "kasa",
+      "english": "umbrella",
+      "image": "../images/study/week_11/day_54/kasa.png",
+      "audio": "../audio/vocabulary/week_11/day_54/kasa.wav",
+      "alt": "A woman walking with a clear umbrella"
+    },
+    {
+      "id": "kasa_o_sashimasu",
+      "japanese": "（傘を）さします【Ⅰ】",
+      "romaji": "(kasa o) sashimasu",
+      "english": "to hold up (an umbrella)",
+      "image": "../images/study/week_11/day_54/kasa_o_sashimasu.png",
+      "audio": "../audio/vocabulary/week_11/day_54/kasa_o_sashimasu.wav",
+      "alt": "A woman holding up an umbrella as she walks"
+    },
+    {
+      "id": "soosu",
+      "japanese": "ソース",
+      "romaji": "soosu",
+      "english": "sauce",
+      "image": "../images/study/week_11/day_54/soosu.png",
+      "audio": "../audio/vocabulary/week_11/day_54/soosu.wav",
+      "alt": "A man dipping food into sauce on a plate"
+    },
+    {
+      "id": "soosu_o_tsukemasu",
+      "japanese": "（ソースを）つけます【Ⅱ】",
+      "romaji": "(soosu o) tsukemasu",
+      "english": "to dip (in the sauce)",
+      "image": "../images/study/week_11/day_54/soosu_o_tsukemasu.png",
+      "audio": "../audio/vocabulary/week_11/day_54/soosu_o_tsukemasu.wav",
+      "alt": "A man dipping his food in the sauce"
+    },
+    {
+      "id": "banana",
+      "japanese": "バナナ",
+      "romaji": "banana",
+      "english": "banana",
+      "image": "../images/study/week_11/day_54/banana.png",
+      "audio": "../audio/vocabulary/week_11/day_54/banana.wav",
+      "alt": "A peeled banana"
+    },
+    {
+      "id": "nigai",
+      "japanese": "苦い",
+      "romaji": "nigai",
+      "english": "bitter",
+      "audio": "../audio/vocabulary/week_11/day_54/nigai.wav",
+      "alt": "Bitter"
+    },
+    {
+      "id": "kimasu",
+      "japanese": "着ます【Ⅱ】",
+      "romaji": "kimasu",
+      "english": "to wear",
+      "audio": "../audio/vocabulary/week_11/day_54/kimasu.wav",
+      "alt": "To wear"
+    },
+    {
+      "id": "suwarimasu",
+      "japanese": "座ります【Ⅰ】",
+      "romaji": "suwarimasu",
+      "english": "to sit",
+      "audio": "../audio/vocabulary/week_11/day_54/suwarimasu.wav",
+      "alt": "To sit"
+    },
+    {
+      "id": "kyookasho",
+      "japanese": "教科書",
+      "romaji": "kyookasho",
+      "english": "textbook",
+      "audio": "../audio/vocabulary/week_11/day_54/kyookasho.wav",
+      "alt": "Textbook"
+    },
+    {
+      "id": "hirakimasu",
+      "japanese": "開きます【Ⅰ】",
+      "romaji": "hirakimasu",
+      "english": "to open",
+      "audio": "../audio/vocabulary/week_11/day_54/hirakimasu.wav",
+      "alt": "To open"
+    },
+    {
+      "id": "shitsumon",
+      "japanese": "質問",
+      "romaji": "shitsumon",
+      "english": "question",
+      "audio": "../audio/vocabulary/week_11/day_54/shitsumon.wav",
+      "alt": "Question"
+    },
+    {
+      "id": "kenkooshindan",
+      "japanese": "健康診断",
+      "romaji": "kenkooshindan",
+      "english": "physical examination",
+      "audio": "../audio/vocabulary/week_11/day_54/kenkooshindan.wav",
+      "alt": "Physical examination"
+    },
+    {
+      "id": "yasemasu",
+      "japanese": "痩せます【Ⅱ】",
+      "romaji": "yasemasu",
+      "english": "to lose weight",
+      "audio": "../audio/vocabulary/week_11/day_54/yasemasu.wav",
+      "alt": "To lose weight"
+    },
+    {
+      "id": "kiro_10_kiro",
+      "japanese": "～キロ Ex) 10キロ",
+      "romaji": "~kiro Ex. 10 kiro",
+      "english": "~kilo Ex. 10 kilos",
+      "audio": "../audio/vocabulary/week_11/day_54/kiro_10_kiro.wav",
+      "alt": "Kilo counter, e.g. 10 kilos"
+    }
+  ]
+}

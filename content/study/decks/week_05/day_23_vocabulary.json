@@ -1,0 +1,359 @@
+{
+  "id": "week_05/day_23_vocabulary",
+  "kind": "image",
+  "title": "Day 23 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 23 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "hanabi",
+      "japanese": "花火",
+      "romaji": "hanabi",
+      "english": "fireworks",
+      "image": "../images/study/week_05/day_23/hanabi.png",
+      "audio": "../audio/vocabulary/week_05/day_23/hanabi.wav",
+      "alt": "Fireworks bursting in a night sky and a sparkler"
+    },
+    {
+      "id": "kakigoori",
+      "japanese": "かき氷",
+      "romaji": "kakigoori",
+      "english": "shaved ice",
+      "image": "../images/study/week_05/day_23/kakigoori.png",
+      "audio": "../audio/vocabulary/week_05/day_23/kakigoori.wav",
+      "alt": "A bowl of shaved ice topped with red syrup"
+    },
+    {
+      "id": "wataame",
+      "japanese": "綿あめ",
+      "romaji": "wataame",
+      "english": "cotton candy",
+      "image": "../images/study/week_05/day_23/wataame.png",
+      "audio": "../audio/vocabulary/week_05/day_23/wataame.wav",
+      "alt": "A girl holding fluffy cotton candy on a stick"
+    },
+    {
+      "id": "orinpikku",
+      "japanese": "オリンピック",
+      "romaji": "orinpikku",
+      "english": "Olympics",
+      "image": "../images/study/week_05/day_23/orinpikku.png",
+      "audio": "../audio/vocabulary/week_05/day_23/orinpikku.wav",
+      "alt": "A blue Olympics sign with colourful stripes"
+    },
+    {
+      "id": "paatii",
+      "japanese": "パーティー",
+      "romaji": "paatii",
+      "english": "party",
+      "image": "../images/study/week_05/day_23/paatii.png",
+      "audio": "../audio/vocabulary/week_05/day_23/paatii.wav",
+      "alt": "Animals celebrating a party with confetti"
+    },
+    {
+      "id": "otera",
+      "japanese": "お寺",
+      "romaji": "otera",
+      "english": "temple",
+      "image": "../images/study/week_05/day_23/otera.png",
+      "audio": "../audio/vocabulary/week_05/day_23/otera.wav",
+      "alt": "A Japanese Buddhist temple building"
+    },
+    {
+      "id": "biru",
+      "japanese": "ビル",
+      "romaji": "biru",
+      "english": "building",
+      "image": "../images/study/week_05/day_23/biru.png",
+      "audio": "../audio/vocabulary/week_05/day_23/biru.wav",
+      "alt": "A tall blue office building"
+    },
+    {
+      "id": "shinbun",
+      "japanese": "新聞",
+      "romaji": "shinbun",
+      "english": "newspaper",
+      "audio": "../audio/vocabulary/week_05/day_23/shinbun.wav",
+      "alt": "Newspaper"
+    },
+    {
+      "id": "sotsugyoo_shimasu",
+      "japanese": "卒業します【Ⅲ】",
+      "romaji": "sotsugyoo shimasu",
+      "english": "to graduate",
+      "image": "../images/study/week_05/day_23/sotsugyoo_shimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_23/sotsugyoo_shimasu.wav",
+      "alt": "A graduate in cap and gown in front of a school"
+    },
+    {
+      "id": "noborimasu",
+      "japanese": "登ります【Ⅰ】",
+      "romaji": "noborimasu",
+      "english": "to climb",
+      "image": "../images/study/week_05/day_23/noborimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_23/noborimasu.wav",
+      "alt": "A hiker with a backpack climbing a slope"
+    },
+    {
+      "id": "tozan",
+      "japanese": "登山",
+      "romaji": "tozan",
+      "english": "mountain climbing",
+      "image": "../images/study/week_05/day_23/tozan.png",
+      "audio": "../audio/vocabulary/week_05/day_23/tozan.wav",
+      "alt": "A climber with a stick walking up a green mountain"
+    },
+    {
+      "id": "toreeningu",
+      "japanese": "トレーニング",
+      "romaji": "toreeningu",
+      "english": "training",
+      "image": "../images/study/week_05/day_23/toreeningu.png",
+      "audio": "../audio/vocabulary/week_05/day_23/toreeningu.wav",
+      "alt": "A woman bench-pressing a barbell"
+    },
+    {
+      "id": "hitsuyoo_na",
+      "japanese": "必要（な）",
+      "romaji": "hitsuyoo(na)",
+      "english": "necessary",
+      "image": "../images/study/week_05/day_23/hitsuyoo_na.png",
+      "audio": "../audio/vocabulary/week_05/day_23/hitsuyoo_na.wav",
+      "alt": "A pregnant woman imagining baby items she needs"
+    },
+    {
+      "id": "denwa_shimasu",
+      "japanese": "電話します【Ⅲ】",
+      "romaji": "denwa shimasu",
+      "english": "to make a phone call",
+      "image": "../images/study/week_05/day_23/denwa_shimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_23/denwa_shimasu.wav",
+      "alt": "A man talking on a mobile phone"
+    },
+    {
+      "id": "norimasu",
+      "japanese": "乗ります【Ⅰ】",
+      "romaji": "norimasu",
+      "english": "to get on",
+      "image": "../images/study/week_05/day_23/norimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_23/norimasu.wav",
+      "alt": "A woman boarding a green train"
+    },
+    {
+      "id": "eakon",
+      "japanese": "エアコン",
+      "romaji": "eakon",
+      "english": "air conditioner",
+      "audio": "../audio/vocabulary/week_05/day_23/eakon.wav",
+      "alt": "Air conditioner"
+    },
+    {
+      "id": "araimasu",
+      "japanese": "洗います【Ⅰ】",
+      "romaji": "araimasu",
+      "english": "to wash",
+      "image": "../images/study/week_05/day_23/araimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_23/araimasu.wav",
+      "alt": "Hands being washed with water"
+    },
+    {
+      "id": "shawaa",
+      "japanese": "シャワー",
+      "romaji": "shawaa",
+      "english": "shower",
+      "image": "../images/study/week_05/day_23/shawaa.png",
+      "audio": "../audio/vocabulary/week_05/day_23/shawaa.wav",
+      "alt": "A shower head spraying water"
+    },
+    {
+      "id": "abimasu",
+      "japanese": "浴びます【Ⅱ】",
+      "romaji": "abimasu",
+      "english": "to take a shower",
+      "image": "../images/study/week_05/day_23/abimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_23/abimasu.wav",
+      "alt": "A boy happily taking a shower"
+    },
+    {
+      "id": "kusuri",
+      "japanese": "薬",
+      "romaji": "kusuri",
+      "english": "medicine",
+      "image": "../images/study/week_05/day_23/kusuri.png",
+      "audio": "../audio/vocabulary/week_05/day_23/kusuri.wav",
+      "alt": "A bottle of medicine with a red cross label"
+    },
+    {
+      "id": "deeto",
+      "japanese": "デート",
+      "romaji": "deeto",
+      "english": "date",
+      "image": "../images/study/week_05/day_23/deeto.png",
+      "audio": "../audio/vocabulary/week_05/day_23/deeto.wav",
+      "alt": "A couple on a date with hearts around them"
+    },
+    {
+      "id": "taikai",
+      "japanese": "大会",
+      "romaji": "taikai",
+      "english": "gathering",
+      "audio": "../audio/vocabulary/week_05/day_23/taikai.wav",
+      "alt": "Gathering"
+    },
+    {
+      "id": "owari",
+      "japanese": "終わり",
+      "romaji": "owari",
+      "english": "end",
+      "audio": "../audio/vocabulary/week_05/day_23/owari.wav",
+      "alt": "End"
+    },
+    {
+      "id": "zehi",
+      "japanese": "ぜひ",
+      "romaji": "zehi",
+      "english": "certainly",
+      "audio": "../audio/vocabulary/week_05/day_23/zehi.wav",
+      "alt": "Certainly"
+    },
+    {
+      "id": "annai",
+      "japanese": "案内",
+      "romaji": "annai",
+      "english": "guidance, information",
+      "audio": "../audio/vocabulary/week_05/day_23/annai.wav",
+      "alt": "Guidance, information"
+    },
+    {
+      "id": "shiai",
+      "japanese": "試合",
+      "romaji": "shiai",
+      "english": "match",
+      "audio": "../audio/vocabulary/week_05/day_23/shiai.wav",
+      "alt": "Match"
+    },
+    {
+      "id": "kotoba",
+      "japanese": "言葉",
+      "romaji": "kotoba",
+      "english": "word",
+      "audio": "../audio/vocabulary/week_05/day_23/kotoba.wav",
+      "alt": "Word"
+    },
+    {
+      "id": "hajimemasu",
+      "japanese": "始めます【Ⅱ】",
+      "romaji": "hajimemasu",
+      "english": "to start",
+      "audio": "../audio/vocabulary/week_05/day_23/hajimemasu.wav",
+      "alt": "To start"
+    },
+    {
+      "id": "kookoo",
+      "japanese": "高校",
+      "romaji": "kookoo",
+      "english": "high school",
+      "audio": "../audio/vocabulary/week_05/day_23/kookoo.wav",
+      "alt": "High school"
+    },
+    {
+      "id": "mono",
+      "japanese": "物",
+      "romaji": "mono",
+      "english": "thing",
+      "audio": "../audio/vocabulary/week_05/day_23/mono.wav",
+      "alt": "Thing"
+    },
+    {
+      "id": "keshimasu",
+      "japanese": "消します【Ⅰ】",
+      "romaji": "keshimasu",
+      "english": "to turn off, to delete",
+      "audio": "../audio/vocabulary/week_05/day_23/keshimasu.wav",
+      "alt": "To turn off, to delete"
+    },
+    {
+      "id": "dekakemasu",
+      "japanese": "出かけます【Ⅱ】",
+      "romaji": "dekakemasu",
+      "english": "to go out",
+      "audio": "../audio/vocabulary/week_05/day_23/dekakemasu.wav",
+      "alt": "To go out"
+    },
+    {
+      "id": "jinja",
+      "japanese": "神社",
+      "romaji": "jinja",
+      "english": "shrine",
+      "image": "../images/study/week_05/day_23/jinja.png",
+      "audio": "../audio/vocabulary/week_05/day_23/jinja.wav",
+      "alt": "A Shinto shrine with a red torii gate"
+    },
+    {
+      "id": "nyuugaku_shimasu",
+      "japanese": "入学します【Ⅲ】",
+      "romaji": "nyuugaku shimasu",
+      "english": "to enroll in school or university",
+      "image": "../images/study/week_05/day_23/nyuugaku_shimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_23/nyuugaku_shimasu.wav",
+      "alt": "Parents and a child at a school entrance ceremony"
+    },
+    {
+      "id": "orimasu",
+      "japanese": "降ります【Ⅱ】",
+      "romaji": "orimasu",
+      "english": "to get off",
+      "image": "../images/study/week_05/day_23/orimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_23/orimasu.wav",
+      "alt": "A woman stepping off a green train"
+    },
+    {
+      "id": "tsukemasu",
+      "japanese": "つけます【Ⅱ】",
+      "romaji": "tsukemasu",
+      "english": "to turn on",
+      "image": "../images/study/week_05/day_23/tsukemasu.png",
+      "audio": "../audio/vocabulary/week_05/day_23/tsukemasu.wav",
+      "alt": "A man turning on an air conditioner with a remote"
+    },
+    {
+      "id": "hajime",
+      "japanese": "初め",
+      "romaji": "hajime",
+      "english": "beginning",
+      "audio": "../audio/vocabulary/week_05/day_23/hajime.wav",
+      "alt": "Beginning"
+    },
+    {
+      "id": "owarimasu",
+      "japanese": "終わります【Ⅰ】",
+      "romaji": "owarimasu",
+      "english": "to finish",
+      "audio": "../audio/vocabulary/week_05/day_23/owarimasu.wav",
+      "alt": "To finish"
+    },
+    {
+      "id": "shoogakkoo",
+      "japanese": "小学校",
+      "romaji": "shoogakkoo",
+      "english": "elementary school",
+      "audio": "../audio/vocabulary/week_05/day_23/shoogakkoo.wav",
+      "alt": "Elementary school"
+    },
+    {
+      "id": "chuugakkoo",
+      "japanese": "中学校",
+      "romaji": "chuugakkoo",
+      "english": "junior high school",
+      "audio": "../audio/vocabulary/week_05/day_23/chuugakkoo.wav",
+      "alt": "Junior high school"
+    }
+  ]
+}

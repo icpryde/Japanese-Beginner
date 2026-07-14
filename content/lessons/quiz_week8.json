@@ -1,0 +1,17 @@
+{
+  "id": "quiz_week8",
+  "title": "Week 8 Review Quiz",
+  "primary_type": "reference",
+  "section": "Week 8 - Day 40",
+  "section_type": "day",
+  "week": 8,
+  "day": 40,
+  "html": "<div class=\"fr-view\">\n<p>This cumulative review test covers everything from the previous weeks —\nlistening comprehension, reading, grammar, and vocabulary. Audio questions use\nthe original course recordings. You can retake it as many times as you like.</p>\n<a href=\"../weeks/week8-test.html\" class=\"test-link-card\">\n  <span class=\"test-link-icon\">📝</span>\n  <div class=\"test-link-info\">\n    <h3>Take the Week 8 Test</h3>\n    <p>30 questions — cumulative review of Weeks 4–8 · listening, reading, and grammar</p>\n  </div>\n  <span class=\"test-link-arrow\">→</span>\n</a>\n</div>",
+  "videos": [],
+  "downloads": [],
+  "images": [],
+  "has_video": false,
+  "has_images": false,
+  "has_downloads": false,
+  "placeholder": false
+}

@@ -1,0 +1,345 @@
+{
+  "id": "week_09/day_45_vocabulary",
+  "kind": "image",
+  "title": "Day 45 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 45 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "gitaa",
+      "japanese": "ギター",
+      "romaji": "gitaa",
+      "english": "guitar",
+      "image": "../images/study/week_09/day_45/gitaa.png",
+      "audio": "../audio/vocabulary/week_09/day_45/gitaa.wav",
+      "alt": "An acoustic guitar"
+    },
+    {
+      "id": "hikimasu",
+      "japanese": "弾きます【Ⅰ】",
+      "romaji": "hikimasu",
+      "english": "to play",
+      "image": "../images/study/week_09/day_45/hikimasu.png",
+      "audio": "../audio/vocabulary/week_09/day_45/hikimasu.wav",
+      "alt": "A boy playing an electric guitar"
+    },
+    {
+      "id": "shoogakusee",
+      "japanese": "小学生",
+      "romaji": "shoogakusee",
+      "english": "elementary school student",
+      "image": "../images/study/week_09/day_45/shoogakusee.png",
+      "audio": "../audio/vocabulary/week_09/day_45/shoogakusee.wav",
+      "alt": "Elementary school children walking in a group"
+    },
+    {
+      "id": "sabishii",
+      "japanese": "寂しい",
+      "romaji": "sabishii",
+      "english": "lonely",
+      "image": "../images/study/week_09/day_45/sabishii.png",
+      "audio": "../audio/vocabulary/week_09/day_45/sabishii.wav",
+      "alt": "A person eating alone in a dim room"
+    },
+    {
+      "id": "itai",
+      "japanese": "痛い",
+      "romaji": "itai",
+      "english": "painful",
+      "image": "../images/study/week_09/day_45/itai.png",
+      "audio": "../audio/vocabulary/week_09/day_45/itai.wav",
+      "alt": "A woman wincing with a throbbing headache"
+    },
+    {
+      "id": "nemui",
+      "japanese": "眠い",
+      "romaji": "nemui",
+      "english": "sleepy",
+      "image": "../images/study/week_09/day_45/nemui.png",
+      "audio": "../audio/vocabulary/week_09/day_45/nemui.wav",
+      "alt": "A sleepy man with drooping eyes in the morning"
+    },
+    {
+      "id": "ame",
+      "japanese": "雨",
+      "romaji": "ame",
+      "english": "rain",
+      "image": "../images/study/week_09/day_45/ame.png",
+      "audio": "../audio/vocabulary/week_09/day_45/ame.wav",
+      "alt": "Rain falling from a cloud onto an umbrella"
+    },
+    {
+      "id": "shoosetsu",
+      "japanese": "小説",
+      "romaji": "shoosetsu",
+      "english": "novel",
+      "image": "../images/study/week_09/day_45/shoosetsu.png",
+      "audio": "../audio/vocabulary/week_09/day_45/shoosetsu.wav",
+      "alt": "A green book labelled NOVEL"
+    },
+    {
+      "id": "watarimasu",
+      "japanese": "渡ります【Ⅰ】",
+      "romaji": "watarimasu",
+      "english": "to cross",
+      "image": "../images/study/week_09/day_45/watarimasu.png",
+      "audio": "../audio/vocabulary/week_09/day_45/watarimasu.wav",
+      "alt": "A man crossing the road at a crosswalk"
+    },
+    {
+      "id": "maibaggu",
+      "japanese": "マイバッグ",
+      "romaji": "maibaggu",
+      "english": "reusable shopping bag",
+      "image": "../images/study/week_09/day_45/maibaggu.png",
+      "audio": "../audio/vocabulary/week_09/day_45/maibaggu.wav",
+      "alt": "A woman carrying groceries in her own shopping bag"
+    },
+    {
+      "id": "tsuma",
+      "japanese": "妻",
+      "romaji": "tsuma",
+      "english": "wife",
+      "image": "../images/study/week_09/day_45/tsuma.png",
+      "audio": "../audio/vocabulary/week_09/day_45/tsuma.wav",
+      "alt": "A family photo with an arrow pointing to the wife"
+    },
+    {
+      "id": "yooshi",
+      "japanese": "用紙",
+      "romaji": "yooshi",
+      "english": "sheet of paper",
+      "audio": "../audio/vocabulary/week_09/day_45/yooshi.wav",
+      "alt": "A stack of blank sheets of paper"
+    },
+    {
+      "id": "otto",
+      "japanese": "夫",
+      "romaji": "otto",
+      "english": "husband",
+      "image": "../images/study/week_09/day_45/otto.png",
+      "audio": "../audio/vocabulary/week_09/day_45/otto.wav",
+      "alt": "A family photo with an arrow pointing to the husband"
+    },
+    {
+      "id": "yubiwa",
+      "japanese": "指輪",
+      "romaji": "yubiwa",
+      "english": "ring",
+      "image": "../images/study/week_09/day_45/yubiwa.png",
+      "audio": "../audio/vocabulary/week_09/day_45/yubiwa.wav",
+      "alt": "A ring with a red gemstone"
+    },
+    {
+      "id": "keshimasu",
+      "japanese": "消します【Ⅰ】",
+      "romaji": "keshimasu",
+      "english": "to turn off",
+      "image": "../images/study/week_09/day_45/keshimasu.png",
+      "audio": "../audio/vocabulary/week_09/day_45/keshimasu.wav",
+      "alt": "A woman flipping a light switch off"
+    },
+    {
+      "id": "nakushimasu",
+      "japanese": "なくします【Ⅰ】",
+      "romaji": "nakushimasu",
+      "english": "to lose",
+      "image": "../images/study/week_09/day_45/nakushimasu.png",
+      "audio": "../audio/vocabulary/week_09/day_45/nakushimasu.wav",
+      "alt": "A distressed man who has lost his phone"
+    },
+    {
+      "id": "tachiirikinshi",
+      "japanese": "立入禁止",
+      "romaji": "tachiirikinshi",
+      "english": "no entry",
+      "image": "../images/study/week_09/day_45/tachiirikinshi.png",
+      "audio": "../audio/vocabulary/week_09/day_45/tachiirikinshi.wav",
+      "alt": "A police officer standing behind a no-entry sign"
+    },
+    {
+      "id": "shiyoochuu",
+      "japanese": "使用中",
+      "romaji": "shiyoochuu",
+      "english": "occupied",
+      "image": "../images/study/week_09/day_45/shiyoochuu.png",
+      "audio": "../audio/vocabulary/week_09/day_45/shiyoochuu.wav",
+      "alt": "A red occupied sign reading 使用中"
+    },
+    {
+      "id": "waribiki",
+      "japanese": "割引",
+      "romaji": "waribiki",
+      "english": "discount",
+      "image": "../images/study/week_09/day_45/waribiki.png",
+      "audio": "../audio/vocabulary/week_09/day_45/waribiki.wav",
+      "alt": "A 5% off discount badge"
+    },
+    {
+      "id": "shitazumi",
+      "japanese": "下積み",
+      "romaji": "shitazumi",
+      "english": "lower layer",
+      "image": "../images/study/week_09/day_45/shitazumi.png",
+      "audio": "../audio/vocabulary/week_09/day_45/shitazumi.wav",
+      "alt": "A cardboard box stamped with a do-not-stack-under notice"
+    },
+    {
+      "id": "genkin",
+      "japanese": "厳禁",
+      "romaji": "genkin",
+      "english": "ban",
+      "image": "../images/study/week_09/day_45/genkin.png",
+      "audio": "../audio/vocabulary/week_09/day_45/genkin.wav",
+      "alt": "A red prohibition circle with a slash"
+    },
+    {
+      "id": "okimasu",
+      "japanese": "置きます【Ⅰ】",
+      "romaji": "okimasu",
+      "english": "to put",
+      "image": "../images/study/week_09/day_45/okimasu.png",
+      "audio": "../audio/vocabulary/week_09/day_45/okimasu.wav",
+      "alt": "A delivery man placing a box by a door"
+    },
+    {
+      "id": "gohan",
+      "japanese": "ご飯",
+      "romaji": "gohan",
+      "english": "rice",
+      "image": "../images/study/week_09/day_45/gohan.png",
+      "audio": "../audio/vocabulary/week_09/day_45/gohan.wav",
+      "alt": "A bowl of white rice"
+    },
+    {
+      "id": "kaki",
+      "japanese": "火気",
+      "romaji": "kaki",
+      "english": "trace of fire",
+      "image": "../images/study/week_09/day_45/kaki.png",
+      "audio": "../audio/vocabulary/week_09/day_45/kaki.wav",
+      "alt": "A burning flame"
+    },
+    {
+      "id": "shimekiri",
+      "japanese": "締め切り",
+      "romaji": "shimekiri",
+      "english": "deadline",
+      "image": "../images/study/week_09/day_45/shimekiri.png",
+      "audio": "../audio/vocabulary/week_09/day_45/shimekiri.wav",
+      "alt": "People rushing to meet a deadline"
+    },
+    {
+      "id": "okuremasu",
+      "japanese": "遅れます【Ⅱ】",
+      "romaji": "okuremasu",
+      "english": "to be late",
+      "image": "../images/study/week_09/day_45/okuremasu.png",
+      "audio": "../audio/vocabulary/week_09/day_45/okuremasu.wav",
+      "alt": "A flustered businessman running late with a briefcase"
+    },
+    {
+      "id": "hajimemasu",
+      "japanese": "始めます【Ⅱ】",
+      "romaji": "hajimemasu",
+      "english": "to start",
+      "audio": "../audio/vocabulary/week_09/day_45/hajimemasu.wav",
+      "alt": "To start"
+    },
+    {
+      "id": "taitee",
+      "japanese": "たいてい",
+      "romaji": "taitee",
+      "english": "mostly",
+      "audio": "../audio/vocabulary/week_09/day_45/taitee.wav",
+      "alt": "Mostly"
+    },
+    {
+      "id": "kotoba",
+      "japanese": "言葉",
+      "romaji": "kotoba",
+      "english": "word",
+      "audio": "../audio/vocabulary/week_09/day_45/kotoba.wav",
+      "alt": "Word"
+    },
+    {
+      "id": "ruumumeito",
+      "japanese": "ルームメイト",
+      "romaji": "ruumumeito",
+      "english": "roommate",
+      "audio": "../audio/vocabulary/week_09/day_45/ruumumeito.wav",
+      "alt": "Roommate"
+    },
+    {
+      "id": "ki_o_tsukemasu",
+      "japanese": "気を つけます【Ⅱ】",
+      "romaji": "ki o tsukemasu",
+      "english": "to be careful",
+      "audio": "../audio/vocabulary/week_09/day_45/ki_o_tsukemasu.wav",
+      "alt": "To be careful"
+    },
+    {
+      "id": "irimasu",
+      "japanese": "要ります【Ⅰ】",
+      "romaji": "irimasu",
+      "english": "to be needed",
+      "audio": "../audio/vocabulary/week_09/day_45/irimasu.wav",
+      "alt": "To be needed"
+    },
+    {
+      "id": "saizu",
+      "japanese": "サイズ",
+      "romaji": "saizu",
+      "english": "size",
+      "audio": "../audio/vocabulary/week_09/day_45/saizu.wav",
+      "alt": "Size"
+    },
+    {
+      "id": "kaemasu",
+      "japanese": "変えます【Ⅱ】",
+      "romaji": "kaemasu",
+      "english": "to change",
+      "audio": "../audio/vocabulary/week_09/day_45/kaemasu.wav",
+      "alt": "To change"
+    },
+    {
+      "id": "mukaemasu",
+      "japanese": "迎えます【Ⅱ】",
+      "romaji": "mukaemasu",
+      "english": "to welcome",
+      "audio": "../audio/vocabulary/week_09/day_45/mukaemasu.wav",
+      "alt": "To welcome"
+    },
+    {
+      "id": "imi",
+      "japanese": "意味",
+      "romaji": "imi",
+      "english": "meaning",
+      "audio": "../audio/vocabulary/week_09/day_45/imi.wav",
+      "alt": "Meaning"
+    },
+    {
+      "id": "okawari",
+      "japanese": "おかわり",
+      "romaji": "okawari",
+      "english": "end",
+      "audio": "../audio/vocabulary/week_09/day_45/okawari.wav",
+      "alt": "Another helping (refill)"
+    },
+    {
+      "id": "muryoo",
+      "japanese": "無料",
+      "romaji": "muryoo",
+      "english": "free of charge",
+      "audio": "../audio/vocabulary/week_09/day_45/muryoo.wav",
+      "alt": "Free of charge"
+    }
+  ]
+}

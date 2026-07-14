@@ -1,0 +1,303 @@
+{
+ "week": 5,
+ "day": 22,
+ "lesson_id": "13432712",
+ "title": "Day 22 Vocabulary",
+ "raw_audio_dir": "24. Week 5 - Day 22/3.Day 22 - VocabularyText/Day 22 - Vocabulary Audio",
+ "pages": [
+  "Vocabulary_Day_22_png1.png",
+  "Vocabulary_Day_22_png2.png",
+  "Vocabulary_Day_22_png3.png"
+ ],
+ "detect": {"merge_gap": 15},
+ "words": [
+  {
+   "id": "supein",
+   "japanese": "スペイン",
+   "romaji": "supein",
+   "english": "Spain",
+   "alt": "The flag of Spain",
+   "audio": "スペイン.wav",
+   "img": true
+  },
+  {
+   "id": "kimasu",
+   "japanese": "来ます【Ⅲ】",
+   "romaji": "kimasu",
+   "english": "to come",
+   "alt": "A traveller arriving beside a map of Japan",
+   "audio": "来ます.wav",
+   "img": true
+  },
+  {
+   "id": "shashin",
+   "japanese": "写真",
+   "romaji": "shashin",
+   "english": "photo",
+   "alt": "A pile of family photographs",
+   "audio": "写真.wav",
+   "img": true
+  },
+  {
+   "id": "torimasu",
+   "japanese": "撮ります【Ⅰ】",
+   "romaji": "torimasu",
+   "english": "to take (a photo)",
+   "alt": "Two women taking photos with their phones",
+   "audio": "撮ります.wav",
+   "img": true
+  },
+  {
+   "id": "hana",
+   "japanese": "花",
+   "romaji": "hana",
+   "english": "flower",
+   "alt": "Rows of smiling potted flowers",
+   "audio": "花.wav",
+   "img": true
+  },
+  {
+   "id": "ryoori",
+   "japanese": "料理",
+   "romaji": "ryoori",
+   "english": "cuisine",
+   "alt": "A woman stir-frying food in a wok",
+   "audio": "料理.wav",
+   "img": true
+  },
+  {
+   "id": "ryokoo",
+   "japanese": "旅行",
+   "romaji": "ryokoo",
+   "english": "travel",
+   "alt": "A happy family riding an airplane",
+   "audio": "旅行.wav",
+   "img": true
+  },
+  {
+   "id": "sanpo",
+   "japanese": "散歩",
+   "romaji": "sanpo",
+   "english": "walk",
+   "alt": "A couple strolling under a leafy tree",
+   "audio": "散歩.wav",
+   "img": true
+  },
+  {
+   "id": "saikuringu",
+   "japanese": "サイクリング",
+   "romaji": "saikuringu",
+   "english": "cycling",
+   "alt": "A man and woman riding bicycles",
+   "audio": "サイクリング.wav",
+   "img": true
+  },
+  {
+   "id": "kosupure",
+   "japanese": "コスプレ",
+   "romaji": "kosupure",
+   "english": "cosplay",
+   "alt": "A photographer taking pictures of a cosplayer",
+   "audio": "コスプレ.wav",
+   "img": true
+  },
+  {
+   "id": "shoppingu",
+   "japanese": "ショッピング",
+   "romaji": "shoppingu",
+   "english": "shopping",
+   "alt": "A woman pushing a full shopping cart",
+   "audio": "ショッピング.wav",
+   "img": true
+  },
+  {
+   "id": "doraibu",
+   "japanese": "ドライブ",
+   "romaji": "doraibu",
+   "english": "drive, trip by car",
+   "alt": "A family waving from a blue car",
+   "audio": "ドライブ.wav",
+   "img": true
+  },
+  {
+   "id": "kintore",
+   "japanese": "筋トレ",
+   "romaji": "kintore",
+   "english": "weight training",
+   "alt": "Two people lifting weights at the gym",
+   "audio": "筋トレ.wav",
+   "img": true
+  },
+  {
+   "id": "neko",
+   "japanese": "猫",
+   "romaji": "neko",
+   "english": "cat",
+   "alt": "A brown tabby cat winking",
+   "audio": "猫.wav",
+   "img": true
+  },
+  {
+   "id": "neko_kafe",
+   "japanese": "猫カフェ",
+   "romaji": "neko kafe",
+   "english": "cat cafe",
+   "alt": "A woman relaxing with cats at a cafe",
+   "audio": "猫カフェ.wav",
+   "img": true
+  },
+  {
+   "id": "tabemasu",
+   "japanese": "食べます【Ⅱ】",
+   "romaji": "tabemasu",
+   "english": "to eat",
+   "alt": "A girl happily eating watermelon",
+   "audio": "食べます.wav",
+   "img": true
+  },
+  {
+   "id": "benkyoo_shimasu",
+   "japanese": "勉強します【Ⅲ】",
+   "romaji": "benkyoo shimasu",
+   "english": "to study",
+   "alt": "A boy studying hard at his desk at night",
+   "audio": "勉強します.wav",
+   "img": true
+  },
+  {
+   "id": "kikimasu",
+   "japanese": "聞きます【Ⅰ】",
+   "romaji": "kikimasu",
+   "english": "to listen to",
+   "alt": "A woman listening to music with headphones",
+   "audio": "聞きます.wav",
+   "img": true
+  },
+  {
+   "id": "mimasu",
+   "japanese": "見ます【Ⅱ】",
+   "romaji": "mimasu",
+   "english": "to look",
+   "alt": "A couple looking at a smartphone together",
+   "audio": "見ます.wav",
+   "img": true
+  },
+  {
+   "id": "manga",
+   "japanese": "マンガ",
+   "romaji": "manga",
+   "english": "manga",
+   "alt": "Open manga comics with a stack of volumes",
+   "audio": "マンガ.wav",
+   "img": true
+  },
+  {
+   "id": "yomimasu",
+   "japanese": "読みます【Ⅰ】",
+   "romaji": "yomimasu",
+   "english": "to read",
+   "alt": "A boy lying down reading a book",
+   "audio": "読みます.wav",
+   "img": true
+  },
+  {
+   "id": "figyua",
+   "japanese": "フィギュア",
+   "romaji": "figyua",
+   "english": "figure",
+   "alt": "A man playing with collectible figures",
+   "audio": "フィギュア.wav",
+   "img": true
+  },
+  {
+   "id": "piano",
+   "japanese": "ピアノ",
+   "romaji": "piano",
+   "english": "piano",
+   "alt": "A girl at a grand piano with an arrow pointing to the piano",
+   "audio": "ピアノ.wav",
+   "img": true
+  },
+  {
+   "id": "gitaa",
+   "japanese": "ギター",
+   "romaji": "gitaa",
+   "english": "guitar",
+   "alt": "An acoustic guitar",
+   "audio": "ギター.wav",
+   "img": true
+  },
+  {
+   "id": "hikimasu",
+   "japanese": "弾きます【Ⅰ】",
+   "romaji": "hikimasu",
+   "english": "to play (a stringed or keyboard instrument)",
+   "alt": "A girl playing the piano with an arrow pointing to her playing",
+   "audio": "弾きます.wav",
+   "img": true
+  },
+  {
+   "id": "haha",
+   "japanese": "母",
+   "romaji": "haha",
+   "english": "mother",
+   "alt": "A girl giving flowers to her mother, an arrow pointing to the mother",
+   "audio": "母.wav",
+   "img": true
+  },
+  {
+   "id": "okashi",
+   "japanese": "おかし",
+   "romaji": "okashi",
+   "english": "sweets",
+   "alt": "A girl holding up a jar of assorted sweets",
+   "audio": "おかし.wav",
+   "img": true
+  },
+  {
+   "id": "dezaato",
+   "japanese": "デザート",
+   "romaji": "dezaato",
+   "english": "dessert",
+   "alt": "An assortment of desserts including pudding and cake",
+   "audio": "デザート.wav",
+   "img": true
+  },
+  {
+   "id": "tomodachi",
+   "japanese": "友達",
+   "romaji": "tomodachi",
+   "english": "friends",
+   "alt": "Two friends laughing arm in arm",
+   "audio": "友達.wav",
+   "img": true
+  },
+  {
+   "id": "atsumemasu",
+   "japanese": "集めます【Ⅱ】",
+   "romaji": "atsumemasu",
+   "english": "to collect",
+   "alt": "To collect",
+   "audio": "集めます.wav",
+   "img": false
+  },
+  {
+   "id": "ikimasu",
+   "japanese": "行きます【Ⅰ】",
+   "romaji": "ikimasu",
+   "english": "to go",
+   "alt": "To go",
+   "audio": "行きます.wav",
+   "img": false
+  },
+  {
+   "id": "gaikoku",
+   "japanese": "外国",
+   "romaji": "gaikoku",
+   "english": "foreign country",
+   "alt": "Foreign country",
+   "audio": "外国.wav",
+   "img": false
+  }
+ ]
+}

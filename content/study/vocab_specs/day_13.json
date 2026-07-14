@@ -1,0 +1,476 @@
+{
+  "week": 3,
+  "day": 13,
+  "lesson_id": "12645601",
+  "title": "Day 13 Vocabulary",
+  "raw_audio_dir": "15. Week 3 - Day 13/3.Day 13 - VocabularyText/Day 13 - Vocabulary Audio",
+  "pages": [
+    "Vocabulary_Day_13_png.png",
+    "Vocabulary_Day_13_png2.png",
+    "Vocabulary_Day_13_png_3.png",
+    "Vocabulary_Day_13_png4.png",
+    "Vocabulary_Day_13_png_5.png"
+  ],
+  "detect": {
+    "min_colored": 1500
+  },
+  "words": [
+    {
+      "id": "sushi",
+      "japanese": "すし",
+      "romaji": "sushi",
+      "english": "sushi",
+      "alt": "Sushi",
+      "audio": "すし.m4a",
+      "img": true
+    },
+    {
+      "id": "tabemas",
+      "japanese": "たべます",
+      "romaji": "tabemas",
+      "english": "to eat",
+      "alt": "To eat",
+      "audio": "たべます.m4a",
+      "img": true
+    },
+    {
+      "id": "hashi",
+      "japanese": "はし",
+      "romaji": "hashi",
+      "english": "chopsticks",
+      "alt": "Chopsticks",
+      "audio": "はし.m4a",
+      "img": true
+    },
+    {
+      "id": "te",
+      "japanese": "て",
+      "romaji": "te",
+      "english": "hand",
+      "alt": "Hand",
+      "audio": "て.m4a",
+      "img": true
+    },
+    {
+      "id": "gohan",
+      "japanese": "ごはん",
+      "romaji": "gohan",
+      "english": "meal",
+      "alt": "Meal",
+      "audio": "ごはん.m4a",
+      "img": true
+    },
+    {
+      "id": "supuun",
+      "japanese": "スプーン",
+      "romaji": "supuun",
+      "english": "spoon",
+      "alt": "Spoon",
+      "audio": "スプーン.m4a",
+      "img": false
+    },
+    {
+      "id": "hwooku",
+      "japanese": "フォーク",
+      "romaji": "hwooku",
+      "english": "fork",
+      "alt": "Fork",
+      "audio": "フォーク.m4a",
+      "img": false
+    },
+    {
+      "id": "shashin",
+      "japanese": "しゃしん",
+      "romaji": "shashin",
+      "english": "photo",
+      "alt": "Photo",
+      "audio": "しゃしん.m4a",
+      "img": true
+    },
+    {
+      "id": "torimas",
+      "japanese": "とります（しゃしんを～）",
+      "romaji": "torimas",
+      "english": "to take (a photo)",
+      "alt": "To take a photo",
+      "audio": "とります.m4a",
+      "img": true
+    },
+    {
+      "id": "dejikame",
+      "japanese": "デジカメ（デジタルカメラ）",
+      "romaji": "dejikame",
+      "english": "digital camera",
+      "alt": "Digital camera",
+      "audio": "デジカメ.m4a",
+      "img": true
+    },
+    {
+      "id": "tegami",
+      "japanese": "てがみ",
+      "romaji": "tegami",
+      "english": "letter",
+      "alt": "Letter",
+      "audio": "てがみ.m4a",
+      "img": true
+    },
+    {
+      "id": "kakimas",
+      "japanese": "かきます",
+      "romaji": "kakimas",
+      "english": "to write",
+      "alt": "To write",
+      "audio": "かきます.m4a",
+      "img": true
+    },
+    {
+      "id": "boorupen",
+      "japanese": "ボールペン",
+      "romaji": "boorupen",
+      "english": "ball-point pen",
+      "alt": "Ball-point pen",
+      "audio": "ボールペン.m4a",
+      "img": false
+    },
+    {
+      "id": "nihonjin",
+      "japanese": "にほんじん",
+      "romaji": "nihonjin",
+      "english": "Japanese person",
+      "alt": "Japanese person",
+      "audio": "にほんじん.m4a",
+      "img": true
+    },
+    {
+      "id": "onigiri",
+      "japanese": "おにぎり",
+      "romaji": "onigiri",
+      "english": "onigiri",
+      "alt": "Onigiri rice ball",
+      "audio": "おにぎり.m4a",
+      "img": false
+    },
+    {
+      "id": "nihongo",
+      "japanese": "にほんご",
+      "romaji": "nihongo",
+      "english": "Japanese",
+      "alt": "Japanese language",
+      "audio": "にほんご.m4a",
+      "img": true
+    },
+    {
+      "id": "shuusee_teepu",
+      "japanese": "しゅうせいテープ",
+      "romaji": "shuusee teepu",
+      "english": "correction tape",
+      "alt": "Correction tape",
+      "audio": "しゅうせいテープ.m4a",
+      "img": true
+    },
+    {
+      "id": "oshiemas",
+      "japanese": "おしえます",
+      "romaji": "oshiemas",
+      "english": "to teach",
+      "alt": "To teach",
+      "audio": "おしえます.m4a",
+      "img": true
+    },
+    {
+      "id": "nahuda",
+      "japanese": "なふだ",
+      "romaji": "nahuda",
+      "english": "name tag",
+      "alt": "Name tag",
+      "audio": "なふだ.m4a",
+      "img": true
+    },
+    {
+      "id": "eego",
+      "japanese": "えいご",
+      "romaji": "eego",
+      "english": "English",
+      "alt": "English language",
+      "audio": "えいご.m4a",
+      "img": true
+    },
+    {
+      "id": "okaasan",
+      "japanese": "おかあさん",
+      "romaji": "okaasan",
+      "english": "mother",
+      "alt": "Mother",
+      "audio": "おかあさん.m4a",
+      "img": true
+    },
+    {
+      "id": "purezento",
+      "japanese": "プレゼント",
+      "romaji": "purezento",
+      "english": "present",
+      "alt": "Present",
+      "audio": "プレゼント.m4a",
+      "img": true
+    },
+    {
+      "id": "hana",
+      "japanese": "はな",
+      "romaji": "hana",
+      "english": "flower",
+      "alt": "Flower",
+      "audio": "はな.m4a",
+      "img": true
+    },
+    {
+      "id": "agemas",
+      "japanese": "あげます",
+      "romaji": "agemas",
+      "english": "to give",
+      "alt": "To give",
+      "audio": "あげます.m4a",
+      "img": true
+    },
+    {
+      "id": "otoosan",
+      "japanese": "おとうさん",
+      "romaji": "otoosan",
+      "english": "father",
+      "alt": "Father",
+      "audio": "おとうさん.m4a",
+      "img": true
+    },
+    {
+      "id": "sensee",
+      "japanese": "せんせい",
+      "romaji": "sensee",
+      "english": "teacher",
+      "alt": "Teacher",
+      "audio": "せんせい.m4a",
+      "img": true
+    },
+    {
+      "id": "ojiisan",
+      "japanese": "おじいさん",
+      "romaji": "ojiisan",
+      "english": "grandfather",
+      "alt": "Grandfather",
+      "audio": "おじいさん.m4a",
+      "img": true
+    },
+    {
+      "id": "tanjoobi",
+      "japanese": "たんじょうび",
+      "romaji": "tanjoobi",
+      "english": "birthday",
+      "alt": "Birthday",
+      "audio": "たんじょうび.m4a",
+      "img": true
+    },
+    {
+      "id": "booshi",
+      "japanese": "ぼうし",
+      "romaji": "booshi",
+      "english": "hat",
+      "alt": "Hat",
+      "audio": "ぼうし.m4a",
+      "img": false
+    },
+    {
+      "id": "kurisumas",
+      "japanese": "クリスマス",
+      "romaji": "kurisumas",
+      "english": "Christmas",
+      "alt": "Christmas",
+      "audio": "クリスマス.m4a",
+      "img": true
+    },
+    {
+      "id": "ruumumeito",
+      "japanese": "ルームメイト",
+      "romaji": "ruumumeito",
+      "english": "roommate",
+      "alt": "Roommate",
+      "audio": "ルームメイト.m4a",
+      "img": true
+    },
+    {
+      "id": "koibito",
+      "japanese": "こいびと",
+      "romaji": "koibito",
+      "english": "lover",
+      "alt": "Lover",
+      "audio": "こいびと.m4a",
+      "img": true
+    },
+    {
+      "id": "mahuraa",
+      "japanese": "マフラー",
+      "romaji": "mahuraa",
+      "english": "muffler",
+      "alt": "Muffler scarf",
+      "audio": "マフラー.m4a",
+      "img": true
+    },
+    {
+      "id": "barentaindee",
+      "japanese": "バレンタインデー",
+      "romaji": "Barentaindee",
+      "english": "Valentine's day",
+      "alt": "Valentine's Day",
+      "audio": "バレンタインデー.m4a",
+      "img": true
+    },
+    {
+      "id": "tomodachi",
+      "japanese": "ともだち",
+      "romaji": "tomodachi",
+      "english": "friend",
+      "alt": "Friend",
+      "audio": "ともだち.m4a",
+      "img": true
+    },
+    {
+      "id": "okane",
+      "japanese": "おかね",
+      "romaji": "okane",
+      "english": "money",
+      "alt": "Money",
+      "audio": "おかね.m4a",
+      "img": true
+    },
+    {
+      "id": "kashimas",
+      "japanese": "かします",
+      "romaji": "kashimas",
+      "english": "to lend",
+      "alt": "To lend",
+      "audio": "かします.m4a",
+      "img": true
+    },
+    {
+      "id": "meeru",
+      "japanese": "メール",
+      "romaji": "meeru",
+      "english": "email",
+      "alt": "Email",
+      "audio": "メール.m4a",
+      "img": true
+    },
+    {
+      "id": "okurimas",
+      "japanese": "おくります（メールを～）",
+      "romaji": "okurimas",
+      "english": "to send (an email)",
+      "alt": "To send an email",
+      "audio": "おくります.m4a",
+      "img": true
+    },
+    {
+      "id": "denwa",
+      "japanese": "でんわ",
+      "romaji": "denwa",
+      "english": "telephone",
+      "alt": "Telephone",
+      "audio": "でんわ.m4a",
+      "img": false
+    },
+    {
+      "id": "kakemas",
+      "japanese": "かけます（でんわを～）",
+      "romaji": "kakemas",
+      "english": "to make (a call)",
+      "alt": "To make a phone call",
+      "audio": "かけます.m4a",
+      "img": true
+    },
+    {
+      "id": "hajimete",
+      "japanese": "はじめて",
+      "romaji": "hajimete",
+      "english": "first time",
+      "alt": "First time",
+      "audio": "はじめて.m4a"
+    },
+    {
+      "id": "indoneshia",
+      "japanese": "インドネシア",
+      "romaji": "indoneshia",
+      "english": "Indonesia",
+      "alt": "Indonesia",
+      "audio": "インドネシア.m4a"
+    },
+    {
+      "id": "itsumo",
+      "japanese": "いつも",
+      "romaji": "itsumo",
+      "english": "always",
+      "alt": "Always",
+      "audio": "いつも.m4a"
+    },
+    {
+      "id": "muzukashii",
+      "japanese": "むずかしい",
+      "romaji": "muzukashii",
+      "english": "difficult",
+      "alt": "Difficult",
+      "audio": "むずかしい.m4a"
+    },
+    {
+      "id": "itsudemo",
+      "japanese": "いつでも",
+      "romaji": "itsudemo",
+      "english": "anytime",
+      "alt": "Anytime",
+      "audio": "いつでも.m4a"
+    },
+    {
+      "id": "daijoobu_na",
+      "japanese": "だいじょうぶ（な）",
+      "romaji": "daijoobu(na)",
+      "english": "alright",
+      "alt": "Alright",
+      "audio": "だいじょうぶな.m4a"
+    },
+    {
+      "id": "raishuu",
+      "japanese": "らいしゅう",
+      "romaji": "raishuu",
+      "english": "next week",
+      "alt": "Next week",
+      "audio": "らいしゅう.m4a"
+    },
+    {
+      "id": "nichiyoobi",
+      "japanese": "にちようび",
+      "romaji": "nichiyoobi",
+      "english": "Sunday",
+      "alt": "Sunday",
+      "audio": "にちようび.m4a"
+    },
+    {
+      "id": "hahanohi",
+      "japanese": "ははのひ",
+      "romaji": "hahanohi",
+      "english": "Mother's Day",
+      "alt": "Mother's Day",
+      "audio": "ははのひ.m4a"
+    },
+    {
+      "id": "kyonen",
+      "japanese": "きょねん",
+      "romaji": "kyonen",
+      "english": "last year",
+      "alt": "Last year",
+      "audio": "きょねん.m4a"
+    },
+    {
+      "id": "mainichi",
+      "japanese": "まいにち",
+      "romaji": "mainichi",
+      "english": "every day",
+      "alt": "Every day",
+      "audio": "まいにち.m4a"
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+ "week": 8,
+ "day": 36,
+ "lesson_id": "13962879",
+ "title": "Day 36 Vocabulary",
+ "raw_audio_dir": "39. Week 8 - Day 36/5.Day 36 - VocabularyText/Day 36 - Vocabulary Audio",
+ "pages": [
+  "Vocabulary_Day_36_1.jpg",
+  "Vocabulary_Day_36_2.jpg"
+ ],
+ "detect": {"merge_gap": 18},
+ "words": [
+  {
+   "id": "byooin",
+   "japanese": "病院",
+   "romaji": "byooin",
+   "english": "hospital",
+   "alt": "A hospital building with a red cross sign",
+   "audio": "病院.wav",
+   "img": true
+  },
+  {
+   "id": "iimasu",
+   "japanese": "言います【Ⅰ】",
+   "romaji": "iimasu",
+   "english": "to say",
+   "alt": "A woman speaking with a speech bubble",
+   "audio": "言います.wav",
+   "img": true
+  },
+  {
+   "id": "kaze",
+   "japanese": "かぜ",
+   "romaji": "kaze",
+   "english": "cold",
+   "alt": "A man with a cold wearing a face mask",
+   "audio": "かぜ.wav",
+   "img": true
+  },
+  {
+   "id": "yasumimasu",
+   "japanese": "休みます【Ⅰ】",
+   "romaji": "yasumimasu",
+   "english": "to rest",
+   "alt": "A boy lying on the grass resting",
+   "audio": "休みます.wav",
+   "img": true
+  },
+  {
+   "id": "arubaito",
+   "japanese": "アルバイト",
+   "romaji": "arubaito",
+   "english": "part-time job",
+   "alt": "A woman carrying beer mugs at a part-time job",
+   "audio": "アルバイト.wav",
+   "img": true
+  },
+  {
+   "id": "naorimasu",
+   "japanese": "治ります【Ⅰ】",
+   "romaji": "naorimasu",
+   "english": "to be healed",
+   "alt": "A healthy boy jumping energetically",
+   "audio": "治ります.wav",
+   "img": true
+  },
+  {
+   "id": "kusuri_o_nomimasu",
+   "japanese": "（薬を）飲みます【Ⅰ】",
+   "romaji": "(kusuri o) nomimasu",
+   "english": "to take a medicine",
+   "alt": "A man taking medicine with a glass of water",
+   "audio": "薬を飲みます.wav",
+   "img": true
+  },
+  {
+   "id": "junbi_shimasu",
+   "japanese": "準備します【Ⅲ】",
+   "romaji": "junbi shimasu",
+   "english": "to prepare",
+   "alt": "A student preparing her school bag",
+   "audio": "準備します.wav",
+   "img": true
+  },
+  {
+   "id": "baabekyuu",
+   "japanese": "バーベキュー",
+   "romaji": "baabekyuu",
+   "english": "BBQ",
+   "alt": "A family having a barbecue",
+   "audio": "バーベキュー.wav",
+   "img": true
+  },
+  {
+   "id": "chaaji_shimasu",
+   "japanese": "チャージします【Ⅲ】",
+   "romaji": "chaaji shimasu",
+   "english": "to charge (a card)",
+   "alt": "A green IC transport card",
+   "audio": "チャージします.wav",
+   "img": true
+  },
+  {
+   "id": "kooban",
+   "japanese": "交番",
+   "romaji": "kooban",
+   "english": "police box",
+   "alt": "A small police box building",
+   "audio": "交番.wav",
+   "img": true
+  },
+  {
+   "id": "sensei_ni_kikimasu",
+   "japanese": "（先生に）聞きます【Ⅰ】",
+   "romaji": "(sensei ni) kikimasu",
+   "english": "to ask (a teacher)",
+   "alt": "A student asking a teacher a question at a desk",
+   "audio": "先生に聞きます.wav",
+   "img": true
+  },
+  {
+   "id": "panfuretto",
+   "japanese": "パンフレット",
+   "romaji": "panfuretto",
+   "english": "pamphlet",
+   "alt": "A rack filled with pamphlets",
+   "audio": "パンフレット.wav",
+   "img": true
+  },
+  {
+   "id": "kopii_shimasu",
+   "japanese": "コピーします【Ⅲ】",
+   "romaji": "kopii shimasu",
+   "english": "to make a copy",
+   "alt": "A man making a copy at a photocopier",
+   "audio": "コピーします.wav",
+   "img": true
+  },
+  {
+   "id": "kaigishitsu",
+   "japanese": "会議室",
+   "romaji": "kaigishitsu",
+   "english": "meeting room",
+   "alt": "People having a meeting around a table",
+   "audio": "会議室.wav",
+   "img": true
+  },
+  {
+   "id": "katazukemasu",
+   "japanese": "片づけます【Ⅱ】",
+   "romaji": "katazukemasu",
+   "english": "to tidy up",
+   "alt": "A woman tidying up a desk",
+   "audio": "片付けます.wav",
+   "img": true
+  },
+  {
+   "id": "korekara",
+   "japanese": "これから",
+   "romaji": "korekara",
+   "english": "after this",
+   "alt": "After this",
+   "audio": "これから.wav",
+   "img": false
+  },
+  {
+   "id": "kaeri",
+   "japanese": "帰り",
+   "romaji": "kaeri",
+   "english": "return",
+   "alt": "Return",
+   "audio": "帰り.wav",
+   "img": false
+  },
+  {
+   "id": "odaijini",
+   "japanese": "お大事に",
+   "romaji": "odaijini",
+   "english": "get well soon",
+   "alt": "Get well soon",
+   "audio": "お大事に.wav",
+   "img": false
+  },
+  {
+   "id": "yasumi",
+   "japanese": "休み",
+   "romaji": "yasumi",
+   "english": "rest",
+   "alt": "Rest",
+   "audio": "休み.wav",
+   "img": false
+  },
+  {
+   "id": "infuruenza",
+   "japanese": "インフルエンザ",
+   "romaji": "infuruenza",
+   "english": "influenza",
+   "alt": "Influenza",
+   "audio": "インフルエンザ.wav",
+   "img": false
+  },
+  {
+   "id": "bu",
+   "japanese": "～部",
+   "romaji": "~bu",
+   "english": "counter of copies of paper material",
+   "alt": "Counter of copies of paper material",
+   "audio": "部.wav",
+   "img": false
+  }
+ ]
+}

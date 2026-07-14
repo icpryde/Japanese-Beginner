@@ -1,0 +1,216 @@
+{
+  "id": "week_07/day_34_vocabulary",
+  "kind": "image",
+  "title": "Day 34 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 34 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "omuraisu",
+      "japanese": "オムライス",
+      "romaji": "omuraisu",
+      "english": "omurice",
+      "image": "../images/study/week_07/day_34/omuraisu.png",
+      "audio": "../audio/vocabulary/week_07/day_34/omuraisu.wav",
+      "alt": "A plate of omurice topped with ketchup"
+    },
+    {
+      "id": "supagetii",
+      "japanese": "スパゲティー",
+      "romaji": "supagetii",
+      "english": "spaghetti",
+      "image": "../images/study/week_07/day_34/supagetii.png",
+      "audio": "../audio/vocabulary/week_07/day_34/supagetii.wav",
+      "alt": "A plate of spaghetti with meat sauce"
+    },
+    {
+      "id": "dekakemasu",
+      "japanese": "出かけます【Ⅱ】",
+      "romaji": "dekakemasu",
+      "english": "to go out",
+      "image": "../images/study/week_07/day_34/dekakemasu.png",
+      "audio": "../audio/vocabulary/week_07/day_34/dekakemasu.wav",
+      "alt": "A woman locking the front door as she goes out"
+    },
+    {
+      "id": "kekkon",
+      "japanese": "結婚",
+      "romaji": "kekkon",
+      "english": "marriage",
+      "image": "../images/study/week_07/day_34/kekkon.png",
+      "audio": "../audio/vocabulary/week_07/day_34/kekkon.wav",
+      "alt": "A bride and groom at their wedding"
+    },
+    {
+      "id": "abimasu",
+      "japanese": "浴びます【Ⅱ】",
+      "romaji": "abimasu",
+      "english": "to take (a shower)",
+      "image": "../images/study/week_07/day_34/abimasu.png",
+      "audio": "../audio/vocabulary/week_07/day_34/abimasu.wav",
+      "alt": "A boy taking a shower"
+    },
+    {
+      "id": "wasuremasu",
+      "japanese": "忘れます【Ⅱ】",
+      "romaji": "wasuremasu",
+      "english": "to forget",
+      "image": "../images/study/week_07/day_34/wasuremasu.png",
+      "audio": "../audio/vocabulary/week_07/day_34/wasuremasu.wav",
+      "alt": "A man scratching his head after forgetting something"
+    },
+    {
+      "id": "tsukaimasu",
+      "japanese": "使います【Ⅰ】",
+      "romaji": "tsukaimasu",
+      "english": "to use",
+      "image": "../images/study/week_07/day_34/tsukaimasu.png",
+      "audio": "../audio/vocabulary/week_07/day_34/tsukaimasu.wav",
+      "alt": "A girl using a tablet"
+    },
+    {
+      "id": "tsukaremasu",
+      "japanese": "疲れます【Ⅱ】",
+      "romaji": "tsukaremasu",
+      "english": "to get tired",
+      "image": "../images/study/week_07/day_34/tsukaremasu.png",
+      "audio": "../audio/vocabulary/week_07/day_34/tsukaremasu.wav",
+      "alt": "A tired businessman with a briefcase"
+    },
+    {
+      "id": "matsuri",
+      "japanese": "祭り",
+      "romaji": "matsuri",
+      "english": "festival",
+      "image": "../images/study/week_07/day_34/matsuri.png",
+      "audio": "../audio/vocabulary/week_07/day_34/matsuri.wav",
+      "alt": "People gathered at a festival stall"
+    },
+    {
+      "id": "hanabi",
+      "japanese": "花火",
+      "romaji": "hanabi",
+      "english": "fireworks",
+      "image": "../images/study/week_07/day_34/hanabi.png",
+      "audio": "../audio/vocabulary/week_07/day_34/hanabi.wav",
+      "alt": "A family watching fireworks in the night sky"
+    },
+    {
+      "id": "e",
+      "japanese": "絵",
+      "romaji": "e",
+      "english": "drawing",
+      "image": "../images/study/week_07/day_34/e.png",
+      "audio": "../audio/vocabulary/week_07/day_34/e.wav",
+      "alt": "A person hanging a framed picture on the wall"
+    },
+    {
+      "id": "peeji",
+      "japanese": "ページ",
+      "romaji": "peeji",
+      "english": "page",
+      "image": "../images/study/week_07/day_34/peeji.png",
+      "audio": "../audio/vocabulary/week_07/day_34/peeji.wav",
+      "alt": "An open book with an arrow pointing to a page"
+    },
+    {
+      "id": "noborimasu",
+      "japanese": "登ります【Ⅰ】",
+      "romaji": "noborimasu",
+      "english": "to climb, to go up",
+      "image": "../images/study/week_07/day_34/noborimasu.png",
+      "audio": "../audio/vocabulary/week_07/day_34/noborimasu.wav",
+      "alt": "A woman climbing up stairs"
+    },
+    {
+      "id": "zangyoo",
+      "japanese": "残業",
+      "romaji": "zangyoo",
+      "english": "overtime work",
+      "image": "../images/study/week_07/day_34/zangyoo.png",
+      "audio": "../audio/vocabulary/week_07/day_34/zangyoo.wav",
+      "alt": "A man sweating while working overtime at a laptop"
+    },
+    {
+      "id": "isogimasu",
+      "japanese": "急ぎます【Ⅰ】",
+      "romaji": "isogimasu",
+      "english": "to hurry",
+      "image": "../images/study/week_07/day_34/isogimasu.png",
+      "audio": "../audio/vocabulary/week_07/day_34/isogimasu.wav",
+      "alt": "A woman hurrying with a suitcase, her hat flying off"
+    },
+    {
+      "id": "kusuri",
+      "japanese": "薬",
+      "romaji": "kusuri",
+      "english": "medicine",
+      "image": "../images/study/week_07/day_34/kusuri.png",
+      "audio": "../audio/vocabulary/week_07/day_34/kusuri.wav",
+      "alt": "A red medicine bottle with a white cross"
+    },
+    {
+      "id": "dekimasu",
+      "japanese": "できます【Ⅱ】",
+      "romaji": "dekimasu",
+      "english": "to be able",
+      "audio": "../audio/vocabulary/week_07/day_34/dekimasu.wav",
+      "alt": "To be able"
+    },
+    {
+      "id": "hajimete",
+      "japanese": "はじめて",
+      "romaji": "hajimete",
+      "english": "for the first time",
+      "audio": "../audio/vocabulary/week_07/day_34/hajimete.wav",
+      "alt": "For the first time"
+    },
+    {
+      "id": "kutsu",
+      "japanese": "靴",
+      "romaji": "kutsu",
+      "english": "shoes",
+      "audio": "../audio/vocabulary/week_07/day_34/kutsu.wav",
+      "alt": "Shoes"
+    },
+    {
+      "id": "onaka",
+      "japanese": "お腹",
+      "romaji": "onaka",
+      "english": "belly",
+      "audio": "../audio/vocabulary/week_07/day_34/onaka.wav",
+      "alt": "Belly"
+    },
+    {
+      "id": "itai",
+      "japanese": "痛い",
+      "romaji": "itai",
+      "english": "painful",
+      "audio": "../audio/vocabulary/week_07/day_34/itai.wav",
+      "alt": "Painful"
+    },
+    {
+      "id": "futari_de",
+      "japanese": "ふたりで",
+      "romaji": "futari de",
+      "english": "between us, the two of us",
+      "audio": "../audio/vocabulary/week_07/day_34/futari_de.wav",
+      "alt": "Between us, the two of us"
+    },
+    {
+      "id": "shumi",
+      "japanese": "趣味",
+      "romaji": "shumi",
+      "english": "hobby",
+      "audio": "../audio/vocabulary/week_07/day_34/shumi.wav",
+      "alt": "Hobby"
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+ "week": 11,
+ "day": 52,
+ "lesson_id": "14528346",
+ "title": "Day 52 Vocabulary",
+ "raw_audio_dir": "55. Week 11 - Day 52/3.Day 52 - VocabularyText/Day 52 - Vocabulary Audio",
+ "pages": [
+  "Vocabulary_Day_52_1.jpg",
+  "Vocabulary_Day_52_2.jpg"
+ ],
+ "detect": {
+  "merge_gap": 10,
+  "min_colored": 30
+ },
+ "words": [
+  {
+   "id": "robii",
+   "japanese": "ロビー",
+   "romaji": "robii",
+   "english": "lobby",
+   "alt": "The interior of a hotel lobby",
+   "audio": "ロビー.wav",
+   "img": true
+  },
+  {
+   "id": "poppukoon",
+   "japanese": "ポップコーン",
+   "romaji": "poppukoon",
+   "english": "pop corn",
+   "alt": "A striped tub full of popcorn",
+   "audio": "ポップコーン.wav",
+   "img": true
+  },
+  {
+   "id": "jogingu",
+   "japanese": "ジョギング",
+   "romaji": "jogingu",
+   "english": "jogging",
+   "alt": "A man in a cap jogging",
+   "audio": "ジョキング.wav",
+   "img": true
+  },
+  {
+   "id": "memo_shimasu",
+   "japanese": "メモします【Ⅲ】",
+   "romaji": "memo shimasu",
+   "english": "to take notes",
+   "alt": "A man in a suit writing a memo in a small notebook",
+   "audio": "メモします.wav",
+   "img": true
+  },
+  {
+   "id": "yume",
+   "japanese": "夢",
+   "romaji": "yume",
+   "english": "dream",
+   "alt": "Children dreaming about their future careers",
+   "audio": "夢.wav",
+   "img": true
+  },
+  {
+   "id": "mise_o_hirakimasu",
+   "japanese": "（店を）開きます【Ⅰ】",
+   "romaji": "(mise o) hirakimasu",
+   "english": "to open (a shop)",
+   "alt": "A chef standing in front of his newly opened shop",
+   "audio": "店を開きます.wav",
+   "img": true
+  },
+  {
+   "id": "kenkyuu_shimasu",
+   "japanese": "研究します【Ⅲ】",
+   "romaji": "kenkyuu shimasu",
+   "english": "to research",
+   "alt": "A researcher in a lab coat using a microscope",
+   "audio": "研究します.wav",
+   "img": true
+  },
+  {
+   "id": "otaku",
+   "japanese": "お宅",
+   "romaji": "otaku",
+   "english": "your house",
+   "alt": "A two-story house with a brown roof",
+   "audio": "お宅.wav",
+   "img": true
+  },
+  {
+   "id": "yuujin",
+   "japanese": "友人",
+   "romaji": "yuujin",
+   "english": "friend",
+   "alt": "Two women walking together as friends",
+   "audio": "友人.wav",
+   "img": true
+  },
+  {
+   "id": "tsurete_ikimasu",
+   "japanese": "連れて行きます【Ⅰ】",
+   "romaji": "tsurete ikimasu",
+   "english": "to take (somewhere)",
+   "alt": "A father taking his child along by the hand",
+   "audio": "連れて行きます.wav",
+   "img": true
+  },
+  {
+   "id": "raisu",
+   "japanese": "ライス",
+   "romaji": "raisu",
+   "english": "rice",
+   "alt": "A plate of white rice",
+   "audio": "ライス.wav",
+   "img": true
+  },
+  {
+   "id": "korokke",
+   "japanese": "コロッケ",
+   "romaji": "korokke",
+   "english": "croquette",
+   "alt": "Croquettes on a plate with shredded cabbage",
+   "audio": "コロッケ.wav",
+   "img": true
+  },
+  {
+   "id": "chiizu",
+   "japanese": "チーズ",
+   "romaji": "chiizu",
+   "english": "cheese",
+   "alt": "A wedge of yellow cheese with holes",
+   "audio": "チーズ.wav",
+   "img": true
+  },
+  {
+   "id": "ato",
+   "japanese": "後",
+   "romaji": "ato",
+   "english": "after",
+   "alt": "After",
+   "audio": "後.wav",
+   "img": false
+  },
+  {
+   "id": "soodan_shimasu",
+   "japanese": "相談します【Ⅲ】",
+   "romaji": "soodan shimasu",
+   "english": "to ask for consultation",
+   "alt": "To ask for consultation",
+   "audio": "相談します.wav",
+   "img": false
+  },
+  {
+   "id": "yotei",
+   "japanese": "予定",
+   "romaji": "yotei",
+   "english": "plans",
+   "alt": "Plans",
+   "audio": "予定.wav",
+   "img": false
+  },
+  {
+   "id": "nagara_tabenagara",
+   "japanese": "～ながら Ex)食べながら",
+   "romaji": "~nagara Ex. tabenagara",
+   "english": "while~ Ex. while eating",
+   "alt": "While doing, e.g. while eating",
+   "audio": "食べながら.wav",
+   "img": false
+  },
+  {
+   "id": "yukkuri",
+   "japanese": "ゆっくり（急がないで）",
+   "romaji": "yukkuri (isoganaide)",
+   "english": "slowly",
+   "alt": "Slowly, without hurrying",
+   "audio": "ゆっくり.wav",
+   "img": false
+  },
+  {
+   "id": "daigakuin",
+   "japanese": "大学院",
+   "romaji": "daigakuin",
+   "english": "graduate school",
+   "alt": "Graduate school",
+   "audio": "大学院.wav",
+   "img": false
+  },
+  {
+   "id": "tashika",
+   "japanese": "確か",
+   "romaji": "tashika",
+   "english": "sure",
+   "alt": "Sure",
+   "audio": "確か.wav",
+   "img": false
+  },
+  {
+   "id": "himitsu",
+   "japanese": "秘密",
+   "romaji": "himitsu",
+   "english": "secret",
+   "alt": "Secret",
+   "audio": "秘密.wav",
+   "img": false
+  },
+  {
+   "id": "kita",
+   "japanese": "北",
+   "romaji": "kita",
+   "english": "north",
+   "alt": "A compass rose pointing north",
+   "audio": "北.wav",
+   "img": true
+  },
+  {
+   "id": "minami",
+   "japanese": "南",
+   "romaji": "minami",
+   "english": "south",
+   "alt": "A compass rose pointing south",
+   "audio": "南.wav",
+   "img": true
+  },
+  {
+   "id": "higashi",
+   "japanese": "東",
+   "romaji": "higashi",
+   "english": "east",
+   "alt": "A compass rose pointing east",
+   "audio": "東.wav",
+   "img": true
+  },
+  {
+   "id": "nishi",
+   "japanese": "西",
+   "romaji": "nishi",
+   "english": "west",
+   "alt": "A compass rose pointing west",
+   "audio": "西.wav",
+   "img": true
+  }
+ ]
+}

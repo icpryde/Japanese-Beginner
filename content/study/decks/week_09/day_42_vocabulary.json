@@ -1,0 +1,168 @@
+{
+  "id": "week_09/day_42_vocabulary",
+  "kind": "image",
+  "title": "Day 42 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 42 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "okashi",
+      "japanese": "お菓子",
+      "romaji": "okashi",
+      "english": "candies",
+      "image": "../images/study/week_09/day_42/okashi.png",
+      "audio": "../audio/vocabulary/week_09/day_42/okashi.wav",
+      "alt": "Colorful assorted candies, chocolates and a lollipop"
+    },
+    {
+      "id": "amai",
+      "japanese": "甘い",
+      "romaji": "amai",
+      "english": "sweet",
+      "image": "../images/study/week_09/day_42/amai.png",
+      "audio": "../audio/vocabulary/week_09/day_42/amai.wav",
+      "alt": "A thought bubble filled with ice cream, chocolate and cake"
+    },
+    {
+      "id": "hanataba",
+      "japanese": "花束",
+      "romaji": "hanataba",
+      "english": "bouquet of flowers",
+      "image": "../images/study/week_09/day_42/hanataba.png",
+      "audio": "../audio/vocabulary/week_09/day_42/hanataba.wav",
+      "alt": "A bouquet of red roses tied with a red ribbon"
+    },
+    {
+      "id": "kado",
+      "japanese": "角",
+      "romaji": "kado",
+      "english": "corner",
+      "image": "../images/study/week_09/day_42/kado.png",
+      "audio": "../audio/vocabulary/week_09/day_42/kado.wav",
+      "alt": "A street corner with a red arrow rounding the bend"
+    },
+    {
+      "id": "magarimasu",
+      "japanese": "曲がります【Ⅰ】",
+      "romaji": "magarimasu",
+      "english": "to turn",
+      "image": "../images/study/week_09/day_42/magarimasu.png",
+      "audio": "../audio/vocabulary/week_09/day_42/magarimasu.wav",
+      "alt": "A red arrow turning around a street corner"
+    },
+    {
+      "id": "setsumee",
+      "japanese": "説明",
+      "romaji": "setsumee",
+      "english": "explanation",
+      "image": "../images/study/week_09/day_42/setsumee.png",
+      "audio": "../audio/vocabulary/week_09/day_42/setsumee.wav",
+      "alt": "A man explaining a document to a woman"
+    },
+    {
+      "id": "annai",
+      "japanese": "案内",
+      "romaji": "annai",
+      "english": "information",
+      "image": "../images/study/week_09/day_42/annai.png",
+      "audio": "../audio/vocabulary/week_09/day_42/annai.wav",
+      "alt": "A police officer giving directions to an elderly woman with a map"
+    },
+    {
+      "id": "shuuri",
+      "japanese": "修理",
+      "romaji": "shuuri",
+      "english": "repair",
+      "image": "../images/study/week_09/day_42/shuuri.png",
+      "audio": "../audio/vocabulary/week_09/day_42/shuuri.wav",
+      "alt": "A man repairing a shoe with tools"
+    },
+    {
+      "id": "rifuresshu",
+      "japanese": "リフレッシュ",
+      "romaji": "rifuresshu",
+      "english": "refresh",
+      "audio": "../audio/vocabulary/week_09/day_42/rifuresshu.wav",
+      "alt": "Refresh"
+    },
+    {
+      "id": "kuremasu",
+      "japanese": "くれます【Ⅱ】",
+      "romaji": "kuremasu",
+      "english": "to give",
+      "audio": "../audio/vocabulary/week_09/day_42/kuremasu.wav",
+      "alt": "To give"
+    },
+    {
+      "id": "naoshimasu",
+      "japanese": "直します【Ⅰ】",
+      "romaji": "naoshimasu",
+      "english": "to fix",
+      "audio": "../audio/vocabulary/week_09/day_42/naoshimasu.wav",
+      "alt": "To fix"
+    },
+    {
+      "id": "itadakimasu",
+      "japanese": "いただきます【Ⅰ】",
+      "romaji": "itadakimasu",
+      "english": "to receive",
+      "audio": "../audio/vocabulary/week_09/day_42/itadakimasu.wav",
+      "alt": "To receive"
+    },
+    {
+      "id": "mou_hitotsu",
+      "japanese": "もう～ Ex)もうひとつ",
+      "romaji": "mou~ Ex. mou hitotsu",
+      "english": "more～ Ex. one more",
+      "audio": "../audio/vocabulary/week_09/day_42/mou_hitotsu.wav",
+      "alt": "More, e.g. one more"
+    },
+    {
+      "id": "nishiguchi",
+      "japanese": "西口",
+      "romaji": "nishiguchi",
+      "english": "west entrance",
+      "audio": "../audio/vocabulary/week_09/day_42/nishiguchi.wav",
+      "alt": "West entrance"
+    },
+    {
+      "id": "itoko",
+      "japanese": "いとこ",
+      "romaji": "itoko",
+      "english": "cousin",
+      "audio": "../audio/vocabulary/week_09/day_42/itoko.wav",
+      "alt": "Cousin"
+    },
+    {
+      "id": "shookai",
+      "japanese": "紹介",
+      "romaji": "shookai",
+      "english": "introduction",
+      "audio": "../audio/vocabulary/week_09/day_42/shookai.wav",
+      "alt": "Introduction"
+    },
+    {
+      "id": "higashiguchi",
+      "japanese": "東口",
+      "romaji": "higashiguchi",
+      "english": "east entrance",
+      "audio": "../audio/vocabulary/week_09/day_42/higashiguchi.wav",
+      "alt": "East entrance"
+    },
+    {
+      "id": "tsurete_ikimasu",
+      "japanese": "連れて行きます【Ⅰ】",
+      "romaji": "tsurete ikimasu",
+      "english": "to take someone along",
+      "audio": "../audio/vocabulary/week_09/day_42/tsurete_ikimasu.wav",
+      "alt": "To take someone along"
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "id": "week_08/day_39_vocabulary",
+  "kind": "image",
+  "title": "Day 39 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 39 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "hoomupeeji",
+      "japanese": "ホームページ",
+      "romaji": "hoomupeeji",
+      "english": "homepage",
+      "image": "../images/study/week_08/day_39/hoomupeeji.png",
+      "audio": "../audio/vocabulary/week_08/day_39/hoomupeeji.wav",
+      "alt": "A website homepage shown on a computer screen"
+    },
+    {
+      "id": "chansu",
+      "japanese": "チャンス",
+      "romaji": "chansu",
+      "english": "chance",
+      "image": "../images/study/week_08/day_39/chansu.png",
+      "audio": "../audio/vocabulary/week_08/day_39/chansu.wav",
+      "alt": "A boy reaching out to grab a glowing chance sign"
+    },
+    {
+      "id": "yamemasu",
+      "japanese": "辞めます【Ⅱ】",
+      "romaji": "yamemasu",
+      "english": "to leave (one's job)",
+      "image": "../images/study/week_08/day_39/yamemasu.png",
+      "audio": "../audio/vocabulary/week_08/day_39/yamemasu.wav",
+      "alt": "A woman holding a bouquet as colleagues applaud her leaving"
+    },
+    {
+      "id": "byooki",
+      "japanese": "病気",
+      "romaji": "byooki",
+      "english": "illness",
+      "image": "../images/study/week_08/day_39/byooki.png",
+      "audio": "../audio/vocabulary/week_08/day_39/byooki.wav",
+      "alt": "A sick child in bed with worried family and germ characters"
+    },
+    {
+      "id": "zutsuu",
+      "japanese": "頭痛",
+      "romaji": "zutsuu",
+      "english": "headache",
+      "image": "../images/study/week_08/day_39/zutsuu.png",
+      "audio": "../audio/vocabulary/week_08/day_39/zutsuu.wav",
+      "alt": "A man pressing his head with a throbbing headache"
+    },
+    {
+      "id": "torekkingu_shuuzu",
+      "japanese": "トレッキングシューズ",
+      "romaji": "torekkingu shuuzu",
+      "english": "trekking shoes",
+      "image": "../images/study/week_08/day_39/torekkingu_shuuzu.png",
+      "audio": "../audio/vocabulary/week_08/day_39/torekkingu_shuuzu.wav",
+      "alt": "A sturdy orange trekking boot"
+    },
+    {
+      "id": "shujutsu",
+      "japanese": "手術",
+      "romaji": "shujutsu",
+      "english": "surgery",
+      "image": "../images/study/week_08/day_39/shujutsu.png",
+      "audio": "../audio/vocabulary/week_08/day_39/shujutsu.wav",
+      "alt": "Surgeons operating on a patient in an operating room"
+    },
+    {
+      "id": "tsuaa",
+      "japanese": "ツアー",
+      "romaji": "tsuaa",
+      "english": "tour",
+      "audio": "../audio/vocabulary/week_08/day_39/tsuaa.wav",
+      "alt": "Tour"
+    },
+    {
+      "id": "chuushi",
+      "japanese": "中止",
+      "romaji": "chuushi",
+      "english": "suspension",
+      "audio": "../audio/vocabulary/week_08/day_39/chuushi.wav",
+      "alt": "Suspension (calling something off)"
+    },
+    {
+      "id": "warui",
+      "japanese": "悪い",
+      "romaji": "warui",
+      "english": "bad",
+      "audio": "../audio/vocabulary/week_08/day_39/warui.wav",
+      "alt": "Bad"
+    },
+    {
+      "id": "umaremasu",
+      "japanese": "生まれます／産まれます【Ⅱ】",
+      "romaji": "umaremasu",
+      "english": "to be born",
+      "audio": "../audio/vocabulary/week_08/day_39/umaremasu.wav",
+      "alt": "To be born"
+    },
+    {
+      "id": "chooshi",
+      "japanese": "調子",
+      "romaji": "chooshi",
+      "english": "condition",
+      "audio": "../audio/vocabulary/week_08/day_39/chooshi.wav",
+      "alt": "Condition"
+    },
+    {
+      "id": "tatemasu",
+      "japanese": "建てます【Ⅱ】",
+      "romaji": "tatemasu",
+      "english": "to build",
+      "audio": "../audio/vocabulary/week_08/day_39/tatemasu.wav",
+      "alt": "To build"
+    },
+    {
+      "id": "naorimasu",
+      "japanese": "治ります【Ⅰ】",
+      "romaji": "naorimasu",
+      "english": "to get healed",
+      "audio": "../audio/vocabulary/week_08/day_39/naorimasu.wav",
+      "alt": "To get healed"
+    },
+    {
+      "id": "atama",
+      "japanese": "頭",
+      "romaji": "atama",
+      "english": "head",
+      "audio": "../audio/vocabulary/week_08/day_39/atama.wav",
+      "alt": "Head"
+    },
+    {
+      "id": "keeken",
+      "japanese": "経験",
+      "romaji": "keeken",
+      "english": "experience",
+      "audio": "../audio/vocabulary/week_08/day_39/keeken.wav",
+      "alt": "Experience"
+    },
+    {
+      "id": "keekensha",
+      "japanese": "経験者",
+      "romaji": "keekensha",
+      "english": "person who had a particular experience",
+      "audio": "../audio/vocabulary/week_08/day_39/keekensha.wav",
+      "alt": "Person who had a particular experience"
+    },
+    {
+      "id": "sonna_ni",
+      "japanese": "そんなに",
+      "romaji": "sonna ni",
+      "english": "so much",
+      "audio": "../audio/vocabulary/week_08/day_39/sonna_ni.wav",
+      "alt": "So much"
+    },
+    {
+      "id": "amai",
+      "japanese": "甘い",
+      "romaji": "amai",
+      "english": "sweet",
+      "audio": "../audio/vocabulary/week_08/day_39/amai.wav",
+      "alt": "Sweet"
+    },
+    {
+      "id": "yasemasu",
+      "japanese": "やせます【Ⅱ】",
+      "romaji": "yasemasu",
+      "english": "to become thin",
+      "audio": "../audio/vocabulary/week_08/day_39/yasemasu.wav",
+      "alt": "To become thin"
+    },
+    {
+      "id": "ukemasu",
+      "japanese": "受けます【Ⅱ】",
+      "romaji": "ukemasu",
+      "english": "to receive",
+      "audio": "../audio/vocabulary/week_08/day_39/ukemasu.wav",
+      "alt": "To receive"
+    },
+    {
+      "id": "kuyakusho",
+      "japanese": "区役所",
+      "romaji": "kuyakusho",
+      "english": "ward office",
+      "audio": "../audio/vocabulary/week_08/day_39/kuyakusho.wav",
+      "alt": "Ward office"
+    },
+    {
+      "id": "mata",
+      "japanese": "また",
+      "romaji": "mata",
+      "english": "still",
+      "audio": "../audio/vocabulary/week_08/day_39/mata.wav",
+      "alt": "Still"
+    },
+    {
+      "id": "gaido",
+      "japanese": "ガイド",
+      "romaji": "gaido",
+      "english": "tour guide",
+      "image": "../images/study/week_08/day_39/gaido.png",
+      "audio": "../audio/vocabulary/week_08/day_39/gaido.wav",
+      "alt": "A tour guide in uniform holding up a flag"
+    },
+    {
+      "id": "fukutsuu",
+      "japanese": "腹痛",
+      "romaji": "fukutsuu",
+      "english": "stomach ache",
+      "image": "../images/study/week_08/day_39/fukutsuu.png",
+      "audio": "../audio/vocabulary/week_08/day_39/fukutsuu.wav",
+      "alt": "A man crouching and clutching his aching stomach"
+    },
+    {
+      "id": "onaka",
+      "japanese": "お腹",
+      "romaji": "onaka",
+      "english": "belly",
+      "audio": "../audio/vocabulary/week_08/day_39/onaka.wav",
+      "alt": "Belly"
+    },
+    {
+      "id": "futorimasu",
+      "japanese": "太ります【Ⅰ】",
+      "romaji": "futorimasu",
+      "english": "to put on weight",
+      "audio": "../audio/vocabulary/week_08/day_39/futorimasu.wav",
+      "alt": "To put on weight"
+    },
+    {
+      "id": "enki",
+      "japanese": "延期",
+      "romaji": "enki",
+      "english": "postponement",
+      "audio": "../audio/vocabulary/week_08/day_39/enki.wav",
+      "alt": "Postponement"
+    }
+  ]
+}

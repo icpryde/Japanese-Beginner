@@ -1,0 +1,190 @@
+{
+  "id": "week_09/day_43_vocabulary",
+  "kind": "image",
+  "title": "Day 43 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 43 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "shookai_shimasu",
+      "japanese": "紹介します【Ⅲ】",
+      "romaji": "shookai shimasu",
+      "english": "to introduce (someone)",
+      "image": "../images/study/week_09/day_43/shookai_shimasu.png",
+      "audio": "../audio/vocabulary/week_09/day_43/shookai_shimasu.wav",
+      "alt": "Businesspeople shaking hands as one person introduces another"
+    },
+    {
+      "id": "eki_made_okurimasu",
+      "japanese": "（駅まで）送ります【Ⅰ】",
+      "romaji": "(eki made) okurimasu",
+      "english": "to escort (to the station)",
+      "image": "../images/study/week_09/day_43/eki_made_okurimasu.png",
+      "audio": "../audio/vocabulary/week_09/day_43/eki_made_okurimasu.wav",
+      "alt": "A driver taking a passenger somewhere in a van"
+    },
+    {
+      "id": "kukkii",
+      "japanese": "クッキー",
+      "romaji": "kukkii",
+      "english": "cookie",
+      "image": "../images/study/week_09/day_43/kukkii.png",
+      "audio": "../audio/vocabulary/week_09/day_43/kukkii.wav",
+      "alt": "Assorted chocolate chip cookies"
+    },
+    {
+      "id": "purezenteeshon",
+      "japanese": "プレゼンテーション",
+      "romaji": "purezenteeshon",
+      "english": "presentation",
+      "image": "../images/study/week_09/day_43/purezenteeshon.png",
+      "audio": "../audio/vocabulary/week_09/day_43/purezenteeshon.wav",
+      "alt": "A woman giving a presentation while pointing at a chart"
+    },
+    {
+      "id": "tetsuya",
+      "japanese": "徹夜",
+      "romaji": "tetsuya",
+      "english": "staying up all night",
+      "image": "../images/study/week_09/day_43/tetsuya.png",
+      "audio": "../audio/vocabulary/week_09/day_43/tetsuya.wav",
+      "alt": "A man playing video games late at night under the moon"
+    },
+    {
+      "id": "okosan",
+      "japanese": "お子さん",
+      "romaji": "okosan",
+      "english": "children",
+      "image": "../images/study/week_09/day_43/okosan.png",
+      "audio": "../audio/vocabulary/week_09/day_43/okosan.wav",
+      "alt": "A group of happy children raising their hands"
+    },
+    {
+      "id": "mooshimasu",
+      "japanese": "申します【Ⅰ】",
+      "romaji": "mooshimasu",
+      "english": "to say, to be called",
+      "audio": "../audio/vocabulary/week_09/day_43/mooshimasu.wav",
+      "alt": "To say, to be called (humble)"
+    },
+    {
+      "id": "nihongo_kyooshitsu",
+      "japanese": "～教室 Ex)日本語教室",
+      "romaji": "~kyooshitsu Ex. nihongo kyooshitsu",
+      "english": "～classroom Ex. Japanese classroom",
+      "audio": "../audio/vocabulary/week_09/day_43/nihongo_kyooshitsu.wav",
+      "alt": "Classroom, e.g. Japanese classroom"
+    },
+    {
+      "id": "kuwashii",
+      "japanese": "詳しい",
+      "romaji": "kuwashii",
+      "english": "detailed",
+      "audio": "../audio/vocabulary/week_09/day_43/kuwashii.wav",
+      "alt": "Detailed"
+    },
+    {
+      "id": "hikkoshi",
+      "japanese": "引っ越し",
+      "romaji": "hikkoshi",
+      "english": "moving",
+      "audio": "../audio/vocabulary/week_09/day_43/hikkoshi.wav",
+      "alt": "Moving (house)"
+    },
+    {
+      "id": "kono_aida",
+      "japanese": "この間",
+      "romaji": "kono aida",
+      "english": "the other day",
+      "audio": "../audio/vocabulary/week_09/day_43/kono_aida.wav",
+      "alt": "The other day"
+    },
+    {
+      "id": "toruko",
+      "japanese": "トルコ",
+      "romaji": "toruko",
+      "english": "Turkey",
+      "audio": "../audio/vocabulary/week_09/day_43/toruko.wav",
+      "alt": "Turkey (the country)"
+    },
+    {
+      "id": "moo",
+      "japanese": "もう",
+      "romaji": "moo",
+      "english": "already",
+      "audio": "../audio/vocabulary/week_09/day_43/moo.wav",
+      "alt": "Already"
+    },
+    {
+      "id": "mada",
+      "japanese": "まだ",
+      "romaji": "mada",
+      "english": "not yet",
+      "audio": "../audio/vocabulary/week_09/day_43/mada.wav",
+      "alt": "Not yet"
+    },
+    {
+      "id": "shimekiri",
+      "japanese": "締切",
+      "romaji": "shimekiri",
+      "english": "deadline",
+      "audio": "../audio/vocabulary/week_09/day_43/shimekiri.wav",
+      "alt": "Deadline"
+    },
+    {
+      "id": "yarimasu",
+      "japanese": "やります【Ⅰ】",
+      "romaji": "yarimasu",
+      "english": "to do",
+      "audio": "../audio/vocabulary/week_09/day_43/yarimasu.wav",
+      "alt": "To do"
+    },
+    {
+      "id": "mooshikomimasu",
+      "japanese": "申し込みます【Ⅰ】",
+      "romaji": "mooshikomimasu",
+      "english": "to make an application",
+      "audio": "../audio/vocabulary/week_09/day_43/mooshikomimasu.wav",
+      "alt": "To make an application"
+    },
+    {
+      "id": "kimemasu",
+      "japanese": "決めます【Ⅱ】",
+      "romaji": "kimemasu",
+      "english": "to decide",
+      "audio": "../audio/vocabulary/week_09/day_43/kimemasu.wav",
+      "alt": "To decide"
+    },
+    {
+      "id": "oboemasu",
+      "japanese": "覚えます【Ⅱ】",
+      "romaji": "oboemasu",
+      "english": "to remember",
+      "audio": "../audio/vocabulary/week_09/day_43/oboemasu.wav",
+      "alt": "To remember"
+    },
+    {
+      "id": "kyanseru_shimasu",
+      "japanese": "キャンセルします【Ⅲ】",
+      "romaji": "kyanseru shimasu",
+      "english": "to cancel",
+      "audio": "../audio/vocabulary/week_09/day_43/kyanseru_shimasu.wav",
+      "alt": "To cancel"
+    },
+    {
+      "id": "wasuremasu",
+      "japanese": "忘れます【Ⅱ】",
+      "romaji": "wasuremasu",
+      "english": "to forget",
+      "audio": "../audio/vocabulary/week_09/day_43/wasuremasu.wav",
+      "alt": "To forget"
+    }
+  ]
+}

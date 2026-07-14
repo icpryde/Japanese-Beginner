@@ -1,0 +1,261 @@
+{
+  "id": "week_07/day_33_vocabulary",
+  "kind": "image",
+  "title": "Day 33 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 33 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "ensoku",
+      "japanese": "遠足",
+      "romaji": "ensoku",
+      "english": "excursion",
+      "image": "../images/study/week_07/day_33/ensoku.png",
+      "audio": "../audio/vocabulary/week_07/day_33/ensoku.wav",
+      "alt": "Children walking on an excursion with backpacks"
+    },
+    {
+      "id": "kamakura",
+      "japanese": "鎌倉",
+      "romaji": "kamakura",
+      "english": "Kamakura",
+      "image": "../images/study/week_07/day_33/kamakura.png",
+      "audio": "../audio/vocabulary/week_07/day_33/kamakura.wav",
+      "alt": "The Great Buddha of Kamakura"
+    },
+    {
+      "id": "tanoshimi",
+      "japanese": "楽しみ",
+      "romaji": "tanoshimi",
+      "english": "enjoyment",
+      "image": "../images/study/week_07/day_33/tanoshimi.png",
+      "audio": "../audio/vocabulary/week_07/day_33/tanoshimi.wav",
+      "alt": "Two people excitedly imagining a present"
+    },
+    {
+      "id": "kaeshimasu",
+      "japanese": "返します【Ⅰ】",
+      "romaji": "kaeshimasu",
+      "english": "to return (something)",
+      "image": "../images/study/week_07/day_33/kaeshimasu.png",
+      "audio": "../audio/vocabulary/week_07/day_33/kaeshimasu.wav",
+      "alt": "A boy returning an item to a woman"
+    },
+    {
+      "id": "haraimasu",
+      "japanese": "払います【Ⅰ】",
+      "romaji": "haraimasu",
+      "english": "to pay",
+      "image": "../images/study/week_07/day_33/haraimasu.png",
+      "audio": "../audio/vocabulary/week_07/day_33/haraimasu.wav",
+      "alt": "A man paying at a cash register"
+    },
+    {
+      "id": "shiitoberuto",
+      "japanese": "シートベルト",
+      "romaji": "shiitoberuto",
+      "english": "seat belt",
+      "image": "../images/study/week_07/day_33/shiitoberuto.png",
+      "audio": "../audio/vocabulary/week_07/day_33/shiitoberuto.wav",
+      "alt": "A driver wearing a seat belt"
+    },
+    {
+      "id": "buchoo",
+      "japanese": "部長",
+      "romaji": "buchoo",
+      "english": "head of a department",
+      "image": "../images/study/week_07/day_33/buchoo.png",
+      "audio": "../audio/vocabulary/week_07/day_33/buchoo.wav",
+      "alt": "A department head sitting at his desk"
+    },
+    {
+      "id": "kyoka",
+      "japanese": "許可",
+      "romaji": "kyoka",
+      "english": "permission",
+      "image": "../images/study/week_07/day_33/kyoka.png",
+      "audio": "../audio/vocabulary/week_07/day_33/kyoka.wav",
+      "alt": "A business permit certificate document"
+    },
+    {
+      "id": "dvd",
+      "japanese": "ＤＶＤ",
+      "romaji": "DVD",
+      "english": "DVD",
+      "image": "../images/study/week_07/day_33/dvd.png",
+      "audio": "../audio/vocabulary/week_07/day_33/dvd.wav",
+      "alt": "A DVD movie case"
+    },
+    {
+      "id": "dashimasu",
+      "japanese": "出します【Ⅰ】",
+      "romaji": "dashimasu",
+      "english": "to submit",
+      "image": "../images/study/week_07/day_33/dashimasu.png",
+      "audio": "../audio/vocabulary/week_07/day_33/dashimasu.wav",
+      "alt": "A man submitting documents at a desk"
+    },
+    {
+      "id": "kusuri",
+      "japanese": "薬",
+      "romaji": "kusuri",
+      "english": "medicine",
+      "image": "../images/study/week_07/day_33/kusuri.png",
+      "audio": "../audio/vocabulary/week_07/day_33/kusuri.wav",
+      "alt": "Assorted medicine pills, capsules and a syringe"
+    },
+    {
+      "id": "junbi_shimasu",
+      "japanese": "準備します【Ⅲ】",
+      "romaji": "junbi shimasu",
+      "english": "to prepare",
+      "image": "../images/study/week_07/day_33/junbi_shimasu.png",
+      "audio": "../audio/vocabulary/week_07/day_33/junbi_shimasu.wav",
+      "alt": "A student packing her school bag"
+    },
+    {
+      "id": "motte_ikimasu",
+      "japanese": "持って行きます【Ⅰ】",
+      "romaji": "motte ikimasu",
+      "english": "to carry (something) away",
+      "image": "../images/study/week_07/day_33/motte_ikimasu.png",
+      "audio": "../audio/vocabulary/week_07/day_33/motte_ikimasu.wav",
+      "alt": "A man carrying away a suitcase"
+    },
+    {
+      "id": "hokenshoo",
+      "japanese": "保険証",
+      "romaji": "hokenshoo",
+      "english": "insurance card",
+      "image": "../images/study/week_07/day_33/hokenshoo.png",
+      "audio": "../audio/vocabulary/week_07/day_33/hokenshoo.wav",
+      "alt": "A health insurance card"
+    },
+    {
+      "id": "juusho",
+      "japanese": "住所",
+      "romaji": "juusho",
+      "english": "address",
+      "image": "../images/study/week_07/day_33/juusho.png",
+      "audio": "../audio/vocabulary/week_07/day_33/juusho.wav",
+      "alt": "A street map showing an address"
+    },
+    {
+      "id": "kutsu",
+      "japanese": "靴",
+      "romaji": "kutsu",
+      "english": "shoes",
+      "image": "../images/study/week_07/day_33/kutsu.png",
+      "audio": "../audio/vocabulary/week_07/day_33/kutsu.wav",
+      "alt": "A pair of leather shoes"
+    },
+    {
+      "id": "nugimasu",
+      "japanese": "脱ぎます【Ⅰ】",
+      "romaji": "nugimasu",
+      "english": "to take off (shoes, clothes, etc.)",
+      "image": "../images/study/week_07/day_33/nugimasu.png",
+      "audio": "../audio/vocabulary/week_07/day_33/nugimasu.wav",
+      "alt": "A boy taking off his shoes"
+    },
+    {
+      "id": "seifuku",
+      "japanese": "制服",
+      "romaji": "seifuku",
+      "english": "uniform",
+      "image": "../images/study/week_07/day_33/seifuku.png",
+      "audio": "../audio/vocabulary/week_07/day_33/seifuku.wav",
+      "alt": "Workers wearing different uniforms"
+    },
+    {
+      "id": "kimasu",
+      "japanese": "着ます【Ⅱ】",
+      "romaji": "kimasu",
+      "english": "to wear",
+      "image": "../images/study/week_07/day_33/kimasu.png",
+      "audio": "../audio/vocabulary/week_07/day_33/kimasu.wav",
+      "alt": "A boy putting on his clothes"
+    },
+    {
+      "id": "inkan",
+      "japanese": "印鑑",
+      "romaji": "inkan",
+      "english": "stamp, seal",
+      "image": "../images/study/week_07/day_33/inkan.png",
+      "audio": "../audio/vocabulary/week_07/day_33/inkan.wav",
+      "alt": "A personal name stamp (hanko)"
+    },
+    {
+      "id": "oshimasu",
+      "japanese": "押します【Ⅰ】",
+      "romaji": "oshimasu",
+      "english": "to press",
+      "image": "../images/study/week_07/day_33/oshimasu.png",
+      "audio": "../audio/vocabulary/week_07/day_33/oshimasu.wav",
+      "alt": "A man pressing a stamp onto a document"
+    },
+    {
+      "id": "shuugoo",
+      "japanese": "集合",
+      "romaji": "shuugoo",
+      "english": "gathering",
+      "audio": "../audio/vocabulary/week_07/day_33/shuugoo.wav",
+      "alt": "Gathering"
+    },
+    {
+      "id": "made_ni",
+      "japanese": "～までに",
+      "romaji": "~made ni",
+      "english": "by, not later than",
+      "audio": "../audio/vocabulary/week_07/day_33/made_ni.wav",
+      "alt": "By, not later than"
+    },
+    {
+      "id": "kanarazu",
+      "japanese": "必ず",
+      "romaji": "kanarazu",
+      "english": "without exception",
+      "audio": "../audio/vocabulary/week_07/day_33/kanarazu.wav",
+      "alt": "Without exception"
+    },
+    {
+      "id": "tsukimasu",
+      "japanese": "着きます【Ⅰ】",
+      "romaji": "tsukimasu",
+      "english": "to arrive",
+      "audio": "../audio/vocabulary/week_07/day_33/tsukimasu.wav",
+      "alt": "To arrive"
+    },
+    {
+      "id": "namae",
+      "japanese": "名前",
+      "romaji": "namae",
+      "english": "name",
+      "audio": "../audio/vocabulary/week_07/day_33/namae.wav",
+      "alt": "Name"
+    },
+    {
+      "id": "hayaku",
+      "japanese": "早く",
+      "romaji": "hayaku",
+      "english": "early",
+      "audio": "../audio/vocabulary/week_07/day_33/hayaku.wav",
+      "alt": "Early"
+    },
+    {
+      "id": "zenbu",
+      "japanese": "全部",
+      "romaji": "zenbu",
+      "english": "all",
+      "audio": "../audio/vocabulary/week_07/day_33/zenbu.wav",
+      "alt": "All"
+    }
+  ]
+}

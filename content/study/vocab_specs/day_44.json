@@ -1,0 +1,276 @@
+{
+ "week": 9,
+ "day": 44,
+ "lesson_id": "14229296",
+ "title": "Day 44 Vocabulary",
+ "raw_audio_dir": "47. Week 9 - Day 44/3.Day 44 - VocabularyText/Day 44 - Vocabulary Audio",
+ "pages": [
+  "Vocabulary_Day_44_copy.png",
+  "Vocabulary_Day_44_2.jpg",
+  "Vocabulary_Day_44_3.jpg"
+ ],
+ "detect": {"merge_gap": 15},
+ "words": [
+  {
+   "id": "jama_na",
+   "japanese": "邪魔（な）",
+   "romaji": "jama (na)",
+   "english": "obstructive, annoying",
+   "alt": "A man standing in the way of two people sitting on steps",
+   "audio": "邪魔な.wav",
+   "img": true
+  },
+  {
+   "id": "gakkoo_o_yasumimasu",
+   "japanese": "（学校を）休みます【Ⅰ】",
+   "romaji": "(gakkoo o) yasumimasu",
+   "english": "to be absent (from school)",
+   "alt": "A sick girl in bed phoning her school",
+   "audio": "学校を休みます.wav",
+   "img": true
+  },
+  {
+   "id": "sootai_shimasu",
+   "japanese": "早退します【Ⅲ】",
+   "romaji": "sootai shimasu",
+   "english": "to leave early",
+   "alt": "A woman leaving an office building early",
+   "audio": "早退します.wav",
+   "img": true
+  },
+  {
+   "id": "jiko",
+   "japanese": "事故",
+   "romaji": "jiko",
+   "english": "accident",
+   "alt": "Two cars crashing into each other",
+   "audio": "事故.wav",
+   "img": true
+  },
+  {
+   "id": "tomarimasu",
+   "japanese": "止まります【Ⅰ】",
+   "romaji": "tomarimasu",
+   "english": "to stop",
+   "alt": "A train marked with a red X because it has stopped",
+   "audio": "止まります.wav",
+   "img": true
+  },
+  {
+   "id": "renraku_shimasu",
+   "japanese": "連絡します【Ⅲ】",
+   "romaji": "renraku shimasu",
+   "english": "to contact",
+   "alt": "A businessman contacting someone by phone",
+   "audio": "連絡します.wav",
+   "img": true
+  },
+  {
+   "id": "kaji",
+   "japanese": "火事",
+   "romaji": "kaji",
+   "english": "fire",
+   "alt": "A building on fire",
+   "audio": "火事.wav",
+   "img": true
+  },
+  {
+   "id": "ie_ga_yakemasu",
+   "japanese": "（家が）焼けます【Ⅱ】",
+   "romaji": "(ie ga) yakemasu",
+   "english": "to burn (the house)",
+   "alt": "A house burning in flames",
+   "audio": "家が焼けます.wav",
+   "img": true
+  },
+  {
+   "id": "jishin",
+   "japanese": "地震",
+   "romaji": "jishin",
+   "english": "earthquake",
+   "alt": "Houses and a utility pole shaken by an earthquake",
+   "audio": "地震.wav",
+   "img": true
+  },
+  {
+   "id": "taoremasu",
+   "japanese": "倒れます【Ⅱ】",
+   "romaji": "taoremasu",
+   "english": "to fall down",
+   "alt": "A building toppling over, with an arrow showing it falling",
+   "audio": "倒れます.wav",
+   "img": true
+  },
+  {
+   "id": "taifuu",
+   "japanese": "台風",
+   "romaji": "taifuu",
+   "english": "typhoon",
+   "alt": "A typhoon with strong wind and rain over houses",
+   "audio": "台風.wav",
+   "img": true
+  },
+  {
+   "id": "kaminari",
+   "japanese": "雷",
+   "romaji": "kaminari",
+   "english": "lightning",
+   "alt": "Storm clouds with bolts of lightning",
+   "audio": "雷.wav",
+   "img": true
+  },
+  {
+   "id": "denkiya",
+   "japanese": "～屋 Ex)電気屋",
+   "romaji": "~ya Ex. denkiya",
+   "english": "～store Ex. Electric appliance store",
+   "alt": "The storefront of an electric appliance store",
+   "audio": "電気屋.wav",
+   "img": true
+  },
+  {
+   "id": "shuuri_shimasu",
+   "japanese": "修理します【Ⅲ】",
+   "romaji": "shuuri shimasu",
+   "english": "to repair",
+   "alt": "A man repairing a small device at a workbench",
+   "audio": "修理します.wav",
+   "img": true
+  },
+  {
+   "id": "koshoo",
+   "japanese": "故障",
+   "romaji": "koshoo",
+   "english": "damage",
+   "alt": "A broken-down car emitting smoke",
+   "audio": "故障.wav",
+   "img": true
+  },
+  {
+   "id": "ma_ni_aimasu",
+   "japanese": "間に合います【Ⅰ】",
+   "romaji": "ma ni aimasu",
+   "english": "to be in time (for)",
+   "alt": "A woman just making it onto a train in time",
+   "audio": "間に合います.wav",
+   "img": true
+  },
+  {
+   "id": "michi",
+   "japanese": "道",
+   "romaji": "michi",
+   "english": "street",
+   "alt": "A winding dirt road through the grass",
+   "audio": "道.wav",
+   "img": true
+  },
+  {
+   "id": "toorimasu",
+   "japanese": "通ります【Ⅰ】",
+   "romaji": "toorimasu",
+   "english": "to go by",
+   "alt": "A car passing by a pedestrian",
+   "audio": "通ります.wav",
+   "img": true
+  },
+  {
+   "id": "shiai_ni_demasu",
+   "japanese": "（試合に）出ます【Ⅱ】",
+   "romaji": "(shiai ni) demasu",
+   "english": "to take part (in the match)",
+   "alt": "Children playing in a soccer match",
+   "audio": "試合に出ます.wav",
+   "img": true
+  },
+  {
+   "id": "kega",
+   "japanese": "けが",
+   "romaji": "kega",
+   "english": "injury",
+   "alt": "An injured man with a bandaged leg on crutches",
+   "audio": "けが.wav",
+   "img": true
+  },
+  {
+   "id": "shiken",
+   "japanese": "試験",
+   "romaji": "shiken",
+   "english": "exam",
+   "alt": "Students taking an exam at their desks",
+   "audio": "試験.wav",
+   "img": true
+  },
+  {
+   "id": "fukimasu",
+   "japanese": "ふきます【Ⅰ】",
+   "romaji": "fukimasu",
+   "english": "to wipe",
+   "alt": "A woman wiping a table with a cloth",
+   "audio": "ふきます.wav",
+   "img": true
+  },
+  {
+   "id": "osara",
+   "japanese": "（お）皿",
+   "romaji": "(o)sara",
+   "english": "dishes",
+   "alt": "A stack of plates",
+   "audio": "お皿.wav",
+   "img": false
+  },
+  {
+   "id": "shooyu_o_kakemasu",
+   "japanese": "（しょうゆを）かけます【Ⅱ】",
+   "romaji": "(shooyu o) kakemasu",
+   "english": "to put (soy sauce)",
+   "alt": "A bottle of soy sauce being poured",
+   "audio": "しょうゆをかけます.wav",
+   "img": true
+  },
+  {
+   "id": "moosugu",
+   "japanese": "もうすぐ",
+   "romaji": "moosugu",
+   "english": "soon",
+   "alt": "Soon",
+   "audio": "もうすぐ.wav",
+   "img": false
+  },
+  {
+   "id": "kimatsu_shiken",
+   "japanese": "期末試験",
+   "romaji": "kimatsu shiken",
+   "english": "final exam",
+   "alt": "Final exam",
+   "audio": "期末試験.wav",
+   "img": false
+  },
+  {
+   "id": "oozei",
+   "japanese": "大勢",
+   "romaji": "oozei",
+   "english": "crowd of people",
+   "alt": "Crowd of people",
+   "audio": "大勢.wav",
+   "img": false
+  },
+  {
+   "id": "koshoochuu",
+   "japanese": "～中 Ex)故障中",
+   "romaji": "~chuu Ex. koshoochuu",
+   "english": "during/under～ Ex. out-of-order",
+   "alt": "During/under, e.g. out of order",
+   "audio": "故障中.wav",
+   "img": false
+  },
+  {
+   "id": "senjitsu",
+   "japanese": "先日",
+   "romaji": "senjitsu",
+   "english": "the other day",
+   "alt": "The other day",
+   "audio": "先日.wav",
+   "img": false
+  }
+ ]
+}

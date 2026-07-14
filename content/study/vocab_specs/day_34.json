@@ -1,0 +1,221 @@
+{
+ "week": 7,
+ "day": 34,
+ "lesson_id": "13834554",
+ "title": "Day 34 Vocabulary",
+ "raw_audio_dir": "37. Week 7 - Day 34/3.Day 34 - VocabularyText/Day34 - Vocabulary Audio",
+ "pages": [
+  "Vocabulary_Day_34_1.jpg",
+  "Vocabulary_Day_34_2.jpg"
+ ],
+ "detect": {"merge_gap": 15},
+ "words": [
+  {
+   "id": "omuraisu",
+   "japanese": "オムライス",
+   "romaji": "omuraisu",
+   "english": "omurice",
+   "alt": "A plate of omurice topped with ketchup",
+   "audio": "オムライス.wav",
+   "img": true
+  },
+  {
+   "id": "supagetii",
+   "japanese": "スパゲティー",
+   "romaji": "supagetii",
+   "english": "spaghetti",
+   "alt": "A plate of spaghetti with meat sauce",
+   "audio": "スパゲティー.wav",
+   "img": true
+  },
+  {
+   "id": "dekakemasu",
+   "japanese": "出かけます【Ⅱ】",
+   "romaji": "dekakemasu",
+   "english": "to go out",
+   "alt": "A woman locking the front door as she goes out",
+   "audio": "出かけます.wav",
+   "img": true
+  },
+  {
+   "id": "kekkon",
+   "japanese": "結婚",
+   "romaji": "kekkon",
+   "english": "marriage",
+   "alt": "A bride and groom at their wedding",
+   "audio": "結婚.wav",
+   "img": true
+  },
+  {
+   "id": "abimasu",
+   "japanese": "浴びます【Ⅱ】",
+   "romaji": "abimasu",
+   "english": "to take (a shower)",
+   "alt": "A boy taking a shower",
+   "audio": "浴びます.wav",
+   "img": true
+  },
+  {
+   "id": "wasuremasu",
+   "japanese": "忘れます【Ⅱ】",
+   "romaji": "wasuremasu",
+   "english": "to forget",
+   "alt": "A man scratching his head after forgetting something",
+   "audio": "忘れます.wav",
+   "img": true
+  },
+  {
+   "id": "tsukaimasu",
+   "japanese": "使います【Ⅰ】",
+   "romaji": "tsukaimasu",
+   "english": "to use",
+   "alt": "A girl using a tablet",
+   "audio": "使います.wav",
+   "img": true
+  },
+  {
+   "id": "tsukaremasu",
+   "japanese": "疲れます【Ⅱ】",
+   "romaji": "tsukaremasu",
+   "english": "to get tired",
+   "alt": "A tired businessman with a briefcase",
+   "audio": "疲れます.wav",
+   "img": true
+  },
+  {
+   "id": "matsuri",
+   "japanese": "祭り",
+   "romaji": "matsuri",
+   "english": "festival",
+   "alt": "People gathered at a festival stall",
+   "audio": "祭り.wav",
+   "img": true
+  },
+  {
+   "id": "hanabi",
+   "japanese": "花火",
+   "romaji": "hanabi",
+   "english": "fireworks",
+   "alt": "A family watching fireworks in the night sky",
+   "audio": "花火.wav",
+   "img": true
+  },
+  {
+   "id": "e",
+   "japanese": "絵",
+   "romaji": "e",
+   "english": "drawing",
+   "alt": "A person hanging a framed picture on the wall",
+   "audio": "絵.wav",
+   "img": true
+  },
+  {
+   "id": "peeji",
+   "japanese": "ページ",
+   "romaji": "peeji",
+   "english": "page",
+   "alt": "An open book with an arrow pointing to a page",
+   "audio": "ページ.wav",
+   "img": true
+  },
+  {
+   "id": "noborimasu",
+   "japanese": "登ります【Ⅰ】",
+   "romaji": "noborimasu",
+   "english": "to climb, to go up",
+   "alt": "A woman climbing up stairs",
+   "audio": "登ります.wav",
+   "img": true
+  },
+  {
+   "id": "zangyoo",
+   "japanese": "残業",
+   "romaji": "zangyoo",
+   "english": "overtime work",
+   "alt": "A man sweating while working overtime at a laptop",
+   "audio": "残業.wav",
+   "img": true
+  },
+  {
+   "id": "isogimasu",
+   "japanese": "急ぎます【Ⅰ】",
+   "romaji": "isogimasu",
+   "english": "to hurry",
+   "alt": "A woman hurrying with a suitcase, her hat flying off",
+   "audio": "急ぎます.wav",
+   "img": true
+  },
+  {
+   "id": "kusuri",
+   "japanese": "薬",
+   "romaji": "kusuri",
+   "english": "medicine",
+   "alt": "A red medicine bottle with a white cross",
+   "audio": "薬.wav",
+   "img": true
+  },
+  {
+   "id": "dekimasu",
+   "japanese": "できます【Ⅱ】",
+   "romaji": "dekimasu",
+   "english": "to be able",
+   "alt": "To be able",
+   "audio": "できます.wav",
+   "img": false
+  },
+  {
+   "id": "hajimete",
+   "japanese": "はじめて",
+   "romaji": "hajimete",
+   "english": "for the first time",
+   "alt": "For the first time",
+   "audio": "はじめて.wav",
+   "img": false
+  },
+  {
+   "id": "kutsu",
+   "japanese": "靴",
+   "romaji": "kutsu",
+   "english": "shoes",
+   "alt": "Shoes",
+   "audio": "靴.wav",
+   "img": false
+  },
+  {
+   "id": "onaka",
+   "japanese": "お腹",
+   "romaji": "onaka",
+   "english": "belly",
+   "alt": "Belly",
+   "audio": "お腹.wav",
+   "img": false
+  },
+  {
+   "id": "itai",
+   "japanese": "痛い",
+   "romaji": "itai",
+   "english": "painful",
+   "alt": "Painful",
+   "audio": "痛い.wav",
+   "img": false
+  },
+  {
+   "id": "futari_de",
+   "japanese": "ふたりで",
+   "romaji": "futari de",
+   "english": "between us, the two of us",
+   "alt": "Between us, the two of us",
+   "audio": "ふたりで.wav",
+   "img": false
+  },
+  {
+   "id": "shumi",
+   "japanese": "趣味",
+   "romaji": "shumi",
+   "english": "hobby",
+   "alt": "Hobby",
+   "audio": "趣味.wav",
+   "img": false
+  }
+ ]
+}

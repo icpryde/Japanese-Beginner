@@ -1,0 +1,341 @@
+{
+  "week": 2,
+  "day": 10,
+  "lesson_id": "12645520",
+  "title": "Day 10 Vocabulary",
+  "raw_audio_dir": "12. Week 2 - Day 10/3.Day 10 - VocabularyText/Day 10 - Vocabulary Audio",
+  "pages": [
+    "Vocabulary_Day_10_png.png",
+    "Vocabulary_Day_10_png_2.png",
+    "Vocabulary_Day_10_png_3.png"
+  ],
+  "words": [
+    {
+      "id": "sensee",
+      "japanese": "せんせい",
+      "romaji": "sensee",
+      "english": "teacher",
+      "alt": "Teacher",
+      "audio": "sensee.m4a",
+      "img": true
+    },
+    {
+      "id": "restoran",
+      "japanese": "レストラン",
+      "romaji": "restoran",
+      "english": "restaurant",
+      "alt": "Restaurant",
+      "audio": "restoran.m4a",
+      "img": true
+    },
+    {
+      "id": "kissaten",
+      "japanese": "きっさてん",
+      "romaji": "kissaten",
+      "english": "coffee shop",
+      "alt": "Coffee shop",
+      "audio": "kissaten.m4a",
+      "img": true
+    },
+    {
+      "id": "konbini",
+      "japanese": "コンビニ",
+      "romaji": "konbini",
+      "english": "convenience store",
+      "alt": "Convenience store",
+      "audio": "konbini.m4a",
+      "img": true
+    },
+    {
+      "id": "suupaa",
+      "japanese": "スーパー",
+      "romaji": "suupaa",
+      "english": "supermarket",
+      "alt": "Supermarket",
+      "audio": "suupaa.m4a",
+      "img": true
+    },
+    {
+      "id": "ryoo",
+      "japanese": "りょう",
+      "romaji": "ryoo",
+      "english": "dormitory",
+      "alt": "Dormitory",
+      "audio": "ryoo.m4a",
+      "img": true
+    },
+    {
+      "id": "tomodachi",
+      "japanese": "ともだち",
+      "romaji": "tomodachi",
+      "english": "friends",
+      "alt": "Friends",
+      "audio": "tomodachi.m4a",
+      "img": true
+    },
+    {
+      "id": "shashin",
+      "japanese": "しゃしん",
+      "romaji": "shashin",
+      "english": "photo",
+      "alt": "Photo",
+      "audio": "shashin.m4a",
+      "img": true
+    },
+    {
+      "id": "itaria",
+      "japanese": "イタリア",
+      "romaji": "itaria",
+      "english": "Italy",
+      "alt": "Italy",
+      "audio": "itaria.m4a",
+      "img": true
+    },
+    {
+      "id": "gaksee",
+      "japanese": "がくせい",
+      "romaji": "gaksee",
+      "english": "student",
+      "alt": "Student",
+      "audio": "gaksee.m4a",
+      "img": true
+    },
+    {
+      "id": "chuugoku",
+      "japanese": "ちゅうごく",
+      "romaji": "chuugoku",
+      "english": "China",
+      "alt": "China",
+      "audio": "chuugoku.m4a",
+      "img": true
+    },
+    {
+      "id": "kodomo",
+      "japanese": "こども",
+      "romaji": "kodomo",
+      "english": "children",
+      "alt": "Children",
+      "audio": "kodomo.m4a",
+      "img": true
+    },
+    {
+      "id": "inu",
+      "japanese": "いぬ",
+      "romaji": "inu",
+      "english": "dog",
+      "alt": "Dog",
+      "audio": "inu.m4a",
+      "img": true
+    },
+    {
+      "id": "gomibako",
+      "japanese": "ごみばこ",
+      "romaji": "gomibako",
+      "english": "trash can",
+      "alt": "Trash can",
+      "audio": "gomibako.m4a",
+      "img": true
+    },
+    {
+      "id": "jidoo_hanbaiki",
+      "japanese": "じどうはんばいき",
+      "romaji": "jidoo hanbaiki",
+      "english": "vending machine",
+      "alt": "Vending machine",
+      "audio": "jidoo hanbaiki.m4a",
+      "img": true
+    },
+    {
+      "id": "otoko_no_hito",
+      "japanese": "おとこのひと",
+      "romaji": "otoko no hito",
+      "english": "man",
+      "alt": "Man",
+      "audio": "otoko no hito.m4a",
+      "img": true
+    },
+    {
+      "id": "doa",
+      "japanese": "ドア",
+      "romaji": "doa",
+      "english": "door",
+      "alt": "Door",
+      "audio": "doa.m4a",
+      "img": true
+    },
+    {
+      "id": "onna_no_hito",
+      "japanese": "おんなのひと",
+      "romaji": "onna no hito",
+      "english": "woman",
+      "alt": "Woman",
+      "audio": "onna no hito.m4a",
+      "img": true
+    },
+    {
+      "id": "kuruma",
+      "japanese": "くるま",
+      "romaji": "kuruma",
+      "english": "car",
+      "alt": "Car",
+      "audio": "kuruma.m4a",
+      "img": true
+    },
+    {
+      "id": "neko",
+      "japanese": "ねこ",
+      "romaji": "neko",
+      "english": "cat",
+      "alt": "Cat",
+      "audio": "neko.m4a",
+      "img": true
+    },
+    {
+      "id": "ki",
+      "japanese": "き",
+      "romaji": "ki",
+      "english": "tree",
+      "alt": "Tree",
+      "audio": "ki.m4a",
+      "img": true
+    },
+    {
+      "id": "ue",
+      "japanese": "うえ",
+      "romaji": "ue",
+      "english": "up",
+      "alt": "Up",
+      "audio": "ue.m4a",
+      "img": true
+    },
+    {
+      "id": "chikaku",
+      "japanese": "ちかく",
+      "romaji": "chikaku",
+      "english": "near",
+      "alt": "Near",
+      "audio": "chikaku.m4a",
+      "img": true
+    },
+    {
+      "id": "tonari",
+      "japanese": "となり",
+      "romaji": "tonari",
+      "english": "next to",
+      "alt": "Next to",
+      "audio": "tonari.m4a",
+      "img": true
+    },
+    {
+      "id": "mae",
+      "japanese": "まえ",
+      "romaji": "mae",
+      "english": "in front (before)",
+      "alt": "In front",
+      "audio": "mae.m4a",
+      "img": true
+    },
+    {
+      "id": "ushiro",
+      "japanese": "うしろ",
+      "romaji": "ushiro",
+      "english": "behind",
+      "alt": "Behind",
+      "audio": "ushiro.m4a",
+      "img": true
+    },
+    {
+      "id": "taksan",
+      "japanese": "たくさん",
+      "romaji": "taksan",
+      "english": "many",
+      "alt": "Many",
+      "audio": "takusan.m4a"
+    },
+    {
+      "id": "chiisai",
+      "japanese": "ちいさい",
+      "romaji": "chiisai",
+      "english": "small",
+      "alt": "Small",
+      "audio": "chiisai.m4a"
+    },
+    {
+      "id": "kawaii",
+      "japanese": "かわいい",
+      "romaji": "kawaii",
+      "english": "cute",
+      "alt": "Cute",
+      "audio": "kawaii.m4a"
+    },
+    {
+      "id": "shita",
+      "japanese": "した",
+      "romaji": "shita",
+      "english": "down",
+      "alt": "Down",
+      "audio": "shita.m4a",
+      "img": true
+    },
+    {
+      "id": "naka",
+      "japanese": "なか",
+      "romaji": "naka",
+      "english": "inside",
+      "alt": "Inside",
+      "audio": "naka.m4a",
+      "img": true
+    },
+    {
+      "id": "soto",
+      "japanese": "そと",
+      "romaji": "soto",
+      "english": "outside",
+      "alt": "Outside",
+      "audio": "soto.m4a",
+      "img": true
+    },
+    {
+      "id": "nan_nin",
+      "japanese": "なんにん？",
+      "romaji": "nan nin",
+      "english": "How many people?",
+      "alt": "How many people"
+    },
+    {
+      "id": "hitori",
+      "japanese": "ひとり",
+      "romaji": "hitori",
+      "english": "one person",
+      "alt": "One person"
+    },
+    {
+      "id": "futari",
+      "japanese": "ふたり",
+      "romaji": "futari",
+      "english": "two people",
+      "alt": "Two people"
+    },
+    {
+      "id": "sannin",
+      "japanese": "さんにん",
+      "romaji": "sannin",
+      "english": "three people",
+      "alt": "Three people"
+    },
+    {
+      "id": "yonin",
+      "japanese": "よにん",
+      "romaji": "yonin",
+      "english": "four people",
+      "alt": "Four people"
+    },
+    {
+      "id": "gonin",
+      "japanese": "ごにん",
+      "romaji": "gonin",
+      "english": "five people",
+      "alt": "Five people"
+    }
+  ]
+}

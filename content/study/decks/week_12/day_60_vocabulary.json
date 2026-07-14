@@ -1,0 +1,205 @@
+{
+  "id": "week_12/day_60_vocabulary",
+  "kind": "image",
+  "title": "Day 60 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 60 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "rasshu",
+      "japanese": "ラッシュ",
+      "romaji": "rasshu",
+      "english": "rush",
+      "image": "../images/study/week_12/day_60/rasshu.png",
+      "audio": "../audio/vocabulary/week_12/day_60/rasshu.wav",
+      "alt": "Commuters crammed into a packed rush-hour train"
+    },
+    {
+      "id": "sakubun",
+      "japanese": "作文",
+      "romaji": "sakubun",
+      "english": "essay",
+      "image": "../images/study/week_12/day_60/sakubun.png",
+      "audio": "../audio/vocabulary/week_12/day_60/sakubun.wav",
+      "alt": "A handwritten essay on Japanese composition paper"
+    },
+    {
+      "id": "sodatemasu",
+      "japanese": "育てます【Ⅱ】",
+      "romaji": "sodatemasu",
+      "english": "to raise, to rear",
+      "image": "../images/study/week_12/day_60/sodatemasu.png",
+      "audio": "../audio/vocabulary/week_12/day_60/sodatemasu.wav",
+      "alt": "A woman watering and tending a planter of vegetables"
+    },
+    {
+      "id": "seiri_shimasu",
+      "japanese": "整理します【Ⅲ】",
+      "romaji": "seiri shimasu",
+      "english": "to put in order",
+      "image": "../images/study/week_12/day_60/seiri_shimasu.png",
+      "audio": "../audio/vocabulary/week_12/day_60/seiri_shimasu.wav",
+      "alt": "A woman tidying and organizing clothes into boxes"
+    },
+    {
+      "id": "erabimasu",
+      "japanese": "選びます【Ⅰ】",
+      "romaji": "erabimasu",
+      "english": "to choose",
+      "image": "../images/study/week_12/day_60/erabimasu.png",
+      "audio": "../audio/vocabulary/week_12/day_60/erabimasu.wav",
+      "alt": "A woman choosing an item from a catalogue"
+    },
+    {
+      "id": "hashirimasu",
+      "japanese": "走ります【Ⅰ】",
+      "romaji": "hashirimasu",
+      "english": "to run",
+      "image": "../images/study/week_12/day_60/hashirimasu.png",
+      "audio": "../audio/vocabulary/week_12/day_60/hashirimasu.wav",
+      "alt": "A boy running energetically"
+    },
+    {
+      "id": "hikidashi",
+      "japanese": "引き出し",
+      "romaji": "hikidashi",
+      "english": "drawer",
+      "image": "../images/study/week_12/day_60/hikidashi.png",
+      "audio": "../audio/vocabulary/week_12/day_60/hikidashi.wav",
+      "alt": "A chest of drawers with one drawer imagined open"
+    },
+    {
+      "id": "shimaimasu",
+      "japanese": "しまいます【Ⅰ】",
+      "romaji": "shimaimasu",
+      "english": "to put away",
+      "image": "../images/study/week_12/day_60/shimaimasu.png",
+      "audio": "../audio/vocabulary/week_12/day_60/shimaimasu.wav",
+      "alt": "A woman putting something away into a cupboard"
+    },
+    {
+      "id": "kagi_o_kakemasu",
+      "japanese": "（鍵を）かけます【Ⅱ】",
+      "romaji": "(kagi o) kakemasu",
+      "english": "to lock",
+      "image": "../images/study/week_12/day_60/kagi_o_kakemasu.png",
+      "audio": "../audio/vocabulary/week_12/day_60/kagi_o_kakemasu.wav",
+      "alt": "A woman locking a door with a key"
+    },
+    {
+      "id": "gookaku_shimasu",
+      "japanese": "合格します【Ⅲ】",
+      "romaji": "gookaku shimasu",
+      "english": "to pass",
+      "image": "../images/study/week_12/day_60/gookaku_shimasu.png",
+      "audio": "../audio/vocabulary/week_12/day_60/gookaku_shimasu.wav",
+      "alt": "Students celebrating in front of an exam results board"
+    },
+    {
+      "id": "nyuuin_shimasu",
+      "japanese": "入院します【Ⅲ】",
+      "romaji": "nyuuin shimasu",
+      "english": "to be hospitalized",
+      "image": "../images/study/week_12/day_60/nyuuin_shimasu.png",
+      "audio": "../audio/vocabulary/week_12/day_60/nyuuin_shimasu.wav",
+      "alt": "A doctor and nurse beside a patient in a hospital bed"
+    },
+    {
+      "id": "jiko_ga_arimasu",
+      "japanese": "（事故が）あります【Ⅰ】",
+      "romaji": "(jiko ga) arimasu",
+      "english": "there is (an accident)",
+      "image": "../images/study/week_12/day_60/jiko_ga_arimasu.png",
+      "audio": "../audio/vocabulary/week_12/day_60/jiko_ga_arimasu.wav",
+      "alt": "Two cars in a traffic collision"
+    },
+    {
+      "id": "taiin_shimasu",
+      "japanese": "退院します【Ⅲ】",
+      "romaji": "taiin shimasu",
+      "english": "to leave the hospital",
+      "image": "../images/study/week_12/day_60/taiin_shimasu.png",
+      "audio": "../audio/vocabulary/week_12/day_60/taiin_shimasu.wav",
+      "alt": "A cheerful patient leaving the hospital as staff wave goodbye"
+    },
+    {
+      "id": "kimochi_ga_ii",
+      "japanese": "気持ちが　いい",
+      "romaji": "kimochi ga ii",
+      "english": "feeling good",
+      "audio": "../audio/vocabulary/week_12/day_60/kimochi_ga_ii.wav",
+      "alt": "Feeling good, pleasant"
+    },
+    {
+      "id": "muri_na",
+      "japanese": "無理（な）",
+      "romaji": "muri (na)",
+      "english": "impossible",
+      "audio": "../audio/vocabulary/week_12/day_60/muri_na.wav",
+      "alt": "Impossible, unreasonable"
+    },
+    {
+      "id": "koto",
+      "japanese": "こと",
+      "romaji": "koto",
+      "english": "thing",
+      "audio": "../audio/vocabulary/week_12/day_60/koto.wav",
+      "alt": "Thing, matter"
+    },
+    {
+      "id": "tsuzukemasu",
+      "japanese": "続けます【Ⅱ】",
+      "romaji": "tsuzukemasu",
+      "english": "to continue",
+      "audio": "../audio/vocabulary/week_12/day_60/tsuzukemasu.wav",
+      "alt": "To continue doing something"
+    },
+    {
+      "id": "hayai",
+      "japanese": "速い",
+      "romaji": "hayai",
+      "english": "fast",
+      "audio": "../audio/vocabulary/week_12/day_60/hayai.wav",
+      "alt": "Fast, quick"
+    },
+    {
+      "id": "ikenai",
+      "japanese": "いけない",
+      "romaji": "ikenai",
+      "english": "not good",
+      "audio": "../audio/vocabulary/week_12/day_60/ikenai.wav",
+      "alt": "Not good, must not do"
+    },
+    {
+      "id": "osaki_ni_shitsurei_shimasu",
+      "japanese": "お先に　失礼します",
+      "romaji": "osaki ni shitsurei shimasu",
+      "english": "pardon me for leaving first",
+      "audio": "../audio/vocabulary/week_12/day_60/osaki_ni_shitsurei_shimasu.wav",
+      "alt": "Polite phrase said when leaving before others"
+    },
+    {
+      "id": "oiwai",
+      "japanese": "お祝い",
+      "romaji": "oiwai",
+      "english": "celebration",
+      "audio": "../audio/vocabulary/week_12/day_60/oiwai.wav",
+      "alt": "Celebration, congratulatory gift"
+    },
+    {
+      "id": "tai",
+      "japanese": "タイ",
+      "romaji": "Tai",
+      "english": "Thailand",
+      "audio": "../audio/vocabulary/week_12/day_60/tai.wav",
+      "alt": "Thailand"
+    }
+  ]
+}

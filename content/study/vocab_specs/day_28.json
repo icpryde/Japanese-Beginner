@@ -1,0 +1,279 @@
+{
+ "week": 6,
+ "day": 28,
+ "lesson_id": "13622710",
+ "title": "Day 28 Vocabulary",
+ "raw_audio_dir": "30. Week 6 - Day 28/3.Day 28 - VocabularyText/Day 28 - Vocabulary Audio",
+ "pages": [
+  "Vocabulary_Day_28_1.jpg",
+  "Vocabulary_Day_28_2.jpg",
+  "Vocabulary_Day_28_3.jpg"
+ ],
+ "detect": {"merge_gap": 8, "min_colored": 60},
+ "words": [
+  {
+   "id": "tonari",
+   "japanese": "隣",
+   "romaji": "tonari",
+   "english": "next to",
+   "alt": "Two people sitting next to each other on a dark sofa",
+   "audio": "隣.wav",
+   "img": true
+  },
+  {
+   "id": "suwarimasu",
+   "japanese": "座ります【Ⅰ】",
+   "romaji": "suwarimasu",
+   "english": "to sit",
+   "alt": "A boy sitting down on a chair",
+   "audio": "座ります.wav",
+   "img": true
+  },
+  {
+   "id": "akemasu",
+   "japanese": "開けます【Ⅱ】",
+   "romaji": "akemasu",
+   "english": "to open",
+   "alt": "A girl opening a window, with an arrow pointing right",
+   "audio": "開けます.wav",
+   "img": true
+  },
+  {
+   "id": "wakarimasu",
+   "japanese": "わかります【Ⅰ】",
+   "romaji": "wakarimasu",
+   "english": "to understand",
+   "alt": "Students at desks, one confused with question marks overhead",
+   "audio": "わかります.wav",
+   "img": true
+  },
+  {
+   "id": "keshimasu",
+   "japanese": "消します【Ⅰ】",
+   "romaji": "keshimasu",
+   "english": "to turn off",
+   "alt": "A woman pressing a remote control with an OFF speech bubble",
+   "audio": "消します.wav",
+   "img": true
+  },
+  {
+   "id": "jisho",
+   "japanese": "辞書",
+   "romaji": "jisho",
+   "english": "dictionary",
+   "alt": "A thick green dictionary book",
+   "audio": "辞書.wav",
+   "img": true
+  },
+  {
+   "id": "kaaten",
+   "japanese": "カーテン",
+   "romaji": "kaaten",
+   "english": "curtain",
+   "alt": "Pink curtains hanging on a window",
+   "audio": "カーテン.wav",
+   "img": true
+  },
+  {
+   "id": "shimemasu",
+   "japanese": "閉めます【Ⅱ】",
+   "romaji": "shimemasu",
+   "english": "to close",
+   "alt": "A boy closing a window, with an arrow pointing left",
+   "audio": "閉めます.wav",
+   "img": true
+  },
+  {
+   "id": "tsukemasu",
+   "japanese": "つけます【Ⅱ】",
+   "romaji": "tsukemasu",
+   "english": "to turn on",
+   "alt": "A woman pressing a remote control with an ON speech bubble",
+   "audio": "つけます.wav",
+   "img": true
+  },
+  {
+   "id": "nimotsu",
+   "japanese": "荷物",
+   "romaji": "nimotsu",
+   "english": "package",
+   "alt": "A sealed cardboard box package",
+   "audio": "荷物.wav",
+   "img": true
+  },
+  {
+   "id": "okimasu",
+   "japanese": "置きます【Ⅰ】",
+   "romaji": "okimasu",
+   "english": "to place",
+   "alt": "A delivery man placing a box beside a door",
+   "audio": "置きます.wav",
+   "img": true
+  },
+  {
+   "id": "bijutsukan",
+   "japanese": "美術館",
+   "romaji": "bijutsukan",
+   "english": "art museum",
+   "alt": "A museum wall lined with framed paintings",
+   "audio": "美術館.wav",
+   "img": true
+  },
+  {
+   "id": "nomimono",
+   "japanese": "飲み物",
+   "romaji": "nomimono",
+   "english": "drinks",
+   "alt": "A coffee cup, a water bottle and a carton of milk",
+   "audio": "飲み物.wav",
+   "img": true
+  },
+  {
+   "id": "gomi",
+   "japanese": "ごみ",
+   "romaji": "gomi",
+   "english": "trash",
+   "alt": "A pile of trash bags by a wall",
+   "audio": "ごみ.wav",
+   "img": true
+  },
+  {
+   "id": "sutemasu",
+   "japanese": "捨てます【Ⅱ】",
+   "romaji": "sutemasu",
+   "english": "to throw away",
+   "alt": "A man carelessly throwing away a can",
+   "audio": "捨てます.wav",
+   "img": true
+  },
+  {
+   "id": "sawarimasu",
+   "japanese": "触ります【Ⅰ】",
+   "romaji": "sawarimasu",
+   "english": "to touch",
+   "alt": "A woman reaching out to touch a red ball",
+   "audio": "触ります.wav",
+   "img": true
+  },
+  {
+   "id": "koe",
+   "japanese": "声",
+   "romaji": "koe",
+   "english": "voice",
+   "alt": "A man shouting with a loud voice",
+   "audio": "声.wav",
+   "img": true
+  },
+  {
+   "id": "hairimasu",
+   "japanese": "入ります【Ⅰ】",
+   "romaji": "hairimasu",
+   "english": "to enter",
+   "alt": "A man entering through a doorway",
+   "audio": "入ります.wav",
+   "img": true
+  },
+  {
+   "id": "tomemasu",
+   "japanese": "止めます【Ⅱ】",
+   "romaji": "tomemasu",
+   "english": "to stop",
+   "alt": "A yellow car coming to a stop",
+   "audio": "止めます.wav",
+   "img": true
+  },
+  {
+   "id": "kakemasu",
+   "japanese": "かけます【Ⅱ】",
+   "romaji": "kakemasu",
+   "english": "to make (a call)",
+   "alt": "A man talking on a smartphone",
+   "audio": "かけます.wav",
+   "img": true
+  },
+  {
+   "id": "pen",
+   "japanese": "ペン",
+   "romaji": "pen",
+   "english": "pen",
+   "alt": "A black and white ballpoint pen",
+   "audio": "ペン.wav",
+   "img": true
+  },
+  {
+   "id": "kotae",
+   "japanese": "答え",
+   "romaji": "kotae",
+   "english": "answer",
+   "alt": "A boy writing an answer on a test at a desk",
+   "audio": "答え.wav",
+   "img": true
+  },
+  {
+   "id": "gamu",
+   "japanese": "ガム",
+   "romaji": "gamu",
+   "english": "gum",
+   "alt": "A green pack of chewing gum",
+   "audio": "ガム.wav",
+   "img": true
+  },
+  {
+   "id": "kamimasu",
+   "japanese": "かみます【Ⅰ】",
+   "romaji": "kamimasu",
+   "english": "to bite",
+   "alt": "A dog biting a man's arm while a woman panics",
+   "audio": "かみます.wav",
+   "img": true
+  },
+  {
+   "id": "sukoshi",
+   "japanese": "少し",
+   "romaji": "sukoshi",
+   "english": "a little",
+   "alt": "A little, a small amount",
+   "audio": "少し.wav"
+  },
+  {
+   "id": "sumimasen",
+   "japanese": "すみません",
+   "romaji": "sumimasen",
+   "english": "sorry",
+   "alt": "Sorry, excuse me",
+   "audio": "すみません.wav"
+  },
+  {
+   "id": "suteki_na",
+   "japanese": "すてき（な）",
+   "romaji": "suteki (na)",
+   "english": "lovely",
+   "alt": "Lovely, wonderful (na-adjective)",
+   "audio": "すてきな.wav"
+  },
+  {
+   "id": "hora",
+   "japanese": "ほら",
+   "romaji": "hora",
+   "english": "look!",
+   "alt": "Look! (interjection to draw attention)",
+   "audio": "ほら.wav"
+  },
+  {
+   "id": "hontou",
+   "japanese": "本当",
+   "romaji": "hontou",
+   "english": "right, true",
+   "alt": "Right, true, really",
+   "audio": "本当.wav"
+  },
+  {
+   "id": "minasan",
+   "japanese": "皆さん",
+   "romaji": "minasan",
+   "english": "everybody",
+   "alt": "Everybody, everyone (polite)",
+   "audio": "皆さん.wav"
+  }
+ ]
+}

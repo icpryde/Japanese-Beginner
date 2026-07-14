@@ -1,0 +1,211 @@
+{
+  "id": "week_12/day_56_vocabulary",
+  "kind": "image",
+  "title": "Day 56 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 56 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "seki",
+      "japanese": "せき",
+      "romaji": "seki",
+      "english": "cough",
+      "image": "../images/study/week_12/day_56/seki.png",
+      "audio": "../audio/vocabulary/week_12/day_56/seki.wav",
+      "alt": "An elderly woman coughing into her hand"
+    },
+    {
+      "id": "yakedo",
+      "japanese": "やけど",
+      "romaji": "yakedo",
+      "english": "burn",
+      "image": "../images/study/week_12/day_56/yakedo.png",
+      "audio": "../audio/vocabulary/week_12/day_56/yakedo.wav",
+      "alt": "A woman burning her hand on a hot pot while cooking"
+    },
+    {
+      "id": "hiyashimasu",
+      "japanese": "冷やします【Ⅰ】",
+      "romaji": "hiyashimasu",
+      "english": "to cool",
+      "image": "../images/study/week_12/day_56/hiyashimasu.png",
+      "audio": "../audio/vocabulary/week_12/day_56/hiyashimasu.wav",
+      "alt": "A woman cooling her hand under running tap water"
+    },
+    {
+      "id": "kaze",
+      "japanese": "風",
+      "romaji": "kaze",
+      "english": "wind",
+      "image": "../images/study/week_12/day_56/kaze.png",
+      "audio": "../audio/vocabulary/week_12/day_56/kaze.wav",
+      "alt": "A woman caught in a strong wind blowing leaves around"
+    },
+    {
+      "id": "kooto",
+      "japanese": "コート",
+      "romaji": "kooto",
+      "english": "coat",
+      "image": "../images/study/week_12/day_56/kooto.png",
+      "audio": "../audio/vocabulary/week_12/day_56/kooto.wav",
+      "alt": "A long brown coat"
+    },
+    {
+      "id": "komimasu",
+      "japanese": "込みます【Ⅰ】",
+      "romaji": "komimasu",
+      "english": "to be crowded",
+      "image": "../images/study/week_12/day_56/komimasu.png",
+      "audio": "../audio/vocabulary/week_12/day_56/komimasu.wav",
+      "alt": "A packed train car crowded with commuters"
+    },
+    {
+      "id": "sutoresu",
+      "japanese": "ストレス",
+      "romaji": "sutoresu",
+      "english": "stress",
+      "image": "../images/study/week_12/day_56/sutoresu.png",
+      "audio": "../audio/vocabulary/week_12/day_56/sutoresu.wav",
+      "alt": "A stressed man crouching under the word stress"
+    },
+    {
+      "id": "enjin",
+      "japanese": "エンジン",
+      "romaji": "enjin",
+      "english": "engine",
+      "audio": "../audio/vocabulary/week_12/day_56/enjin.wav",
+      "alt": "A metal car engine"
+    },
+    {
+      "id": "oto",
+      "japanese": "音",
+      "romaji": "oto",
+      "english": "sound",
+      "image": "../images/study/week_12/day_56/oto.png",
+      "audio": "../audio/vocabulary/week_12/day_56/oto.wav",
+      "alt": "Colourful musical notes"
+    },
+    {
+      "id": "koshoo",
+      "japanese": "故障",
+      "romaji": "koshoo",
+      "english": "damage",
+      "image": "../images/study/week_12/day_56/koshoo.png",
+      "audio": "../audio/vocabulary/week_12/day_56/koshoo.wav",
+      "alt": "A broken-down car with smoke rising from it"
+    },
+    {
+      "id": "kumo",
+      "japanese": "雲",
+      "romaji": "kumo",
+      "english": "cloud",
+      "image": "../images/study/week_12/day_56/kumo.png",
+      "audio": "../audio/vocabulary/week_12/day_56/kumo.wav",
+      "alt": "White clouds in a blue sky"
+    },
+    {
+      "id": "uremasu",
+      "japanese": "売れます【Ⅱ】",
+      "romaji": "uremasu",
+      "english": "to sell",
+      "image": "../images/study/week_12/day_56/uremasu.png",
+      "audio": "../audio/vocabulary/week_12/day_56/uremasu.wav",
+      "alt": "A shop shelf lined with products for sale"
+    },
+    {
+      "id": "kaoiro",
+      "japanese": "顔色",
+      "romaji": "kaoiro",
+      "english": "complexion",
+      "audio": "../audio/vocabulary/week_12/day_56/kaoiro.wav",
+      "alt": "Complexion"
+    },
+    {
+      "id": "yukkuri",
+      "japanese": "ゆっくり",
+      "romaji": "yukkuri",
+      "english": "calmly, peacefully",
+      "audio": "../audio/vocabulary/week_12/day_56/yukkuri.wav",
+      "alt": "Calmly, peacefully"
+    },
+    {
+      "id": "osoku",
+      "japanese": "遅く",
+      "romaji": "osoku",
+      "english": "late",
+      "audio": "../audio/vocabulary/week_12/day_56/osoku.wav",
+      "alt": "Late"
+    },
+    {
+      "id": "sonnani",
+      "japanese": "そんなに",
+      "romaji": "sonnani",
+      "english": "so much",
+      "audio": "../audio/vocabulary/week_12/day_56/sonnani.wav",
+      "alt": "So much"
+    },
+    {
+      "id": "enoshima",
+      "japanese": "江の島",
+      "romaji": "enoshima",
+      "english": "Enoshima",
+      "audio": "../audio/vocabulary/week_12/day_56/enoshima.wav",
+      "alt": "Enoshima island"
+    },
+    {
+      "id": "tsuyoi",
+      "japanese": "強い",
+      "romaji": "tsuyoi",
+      "english": "strong",
+      "audio": "../audio/vocabulary/week_12/day_56/tsuyoi.wav",
+      "alt": "Strong"
+    },
+    {
+      "id": "tsuzukimasu",
+      "japanese": "続きます【Ⅰ】",
+      "romaji": "tsuzukimasu",
+      "english": "to continue",
+      "audio": "../audio/vocabulary/week_12/day_56/tsuzukimasu.wav",
+      "alt": "To continue"
+    },
+    {
+      "id": "tochuu_de",
+      "japanese": "途中で",
+      "romaji": "tochuu de",
+      "english": "in the middle of",
+      "audio": "../audio/vocabulary/week_12/day_56/tochuu_de.wav",
+      "alt": "In the middle of"
+    },
+    {
+      "id": "okashii",
+      "japanese": "おかしい",
+      "romaji": "okashii",
+      "english": "strange",
+      "audio": "../audio/vocabulary/week_12/day_56/okashii.wav",
+      "alt": "Strange"
+    },
+    {
+      "id": "jama_na",
+      "japanese": "邪魔（な）",
+      "romaji": "jama (na)",
+      "english": "annoying",
+      "audio": "../audio/vocabulary/week_12/day_56/jama_na.wav",
+      "alt": "Annoying, obstructive"
+    },
+    {
+      "id": "yowai",
+      "japanese": "弱い",
+      "romaji": "yowai",
+      "english": "weak",
+      "audio": "../audio/vocabulary/week_12/day_56/yowai.wav",
+      "alt": "Weak"
+    }
+  ]
+}

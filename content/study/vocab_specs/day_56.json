@@ -1,0 +1,223 @@
+{
+ "week": 12,
+ "day": 56,
+ "lesson_id": "14710313",
+ "title": "Day 56 Vocabulary",
+ "raw_audio_dir": "59. Week 12 - Day 56/5.Day 56 - VocabularyText/Day 56 - Vocabulary Audio",
+ "pages": [
+  "Vocabulary_Day_56_1.jpg",
+  "Vocabulary_Day_56_2.jpg"
+ ],
+ "detect": {
+  "merge_gap": 10
+ },
+ "words": [
+  {
+   "id": "seki",
+   "japanese": "せき",
+   "romaji": "seki",
+   "english": "cough",
+   "alt": "An elderly woman coughing into her hand",
+   "audio": "せき.wav",
+   "img": true
+  },
+  {
+   "id": "yakedo",
+   "japanese": "やけど",
+   "romaji": "yakedo",
+   "english": "burn",
+   "alt": "A woman burning her hand on a hot pot while cooking",
+   "audio": "やけど.wav",
+   "img": true
+  },
+  {
+   "id": "hiyashimasu",
+   "japanese": "冷やします【Ⅰ】",
+   "romaji": "hiyashimasu",
+   "english": "to cool",
+   "alt": "A woman cooling her hand under running tap water",
+   "audio": "冷やします.wav",
+   "img": true
+  },
+  {
+   "id": "kaze",
+   "japanese": "風",
+   "romaji": "kaze",
+   "english": "wind",
+   "alt": "A woman caught in a strong wind blowing leaves around",
+   "audio": "風.wav",
+   "img": true
+  },
+  {
+   "id": "kooto",
+   "japanese": "コート",
+   "romaji": "kooto",
+   "english": "coat",
+   "alt": "A long brown coat",
+   "audio": "コート.wav",
+   "img": true
+  },
+  {
+   "id": "komimasu",
+   "japanese": "込みます【Ⅰ】",
+   "romaji": "komimasu",
+   "english": "to be crowded",
+   "alt": "A packed train car crowded with commuters",
+   "audio": "込みます.wav",
+   "img": true
+  },
+  {
+   "id": "sutoresu",
+   "japanese": "ストレス",
+   "romaji": "sutoresu",
+   "english": "stress",
+   "alt": "A stressed man crouching under the word stress",
+   "audio": "ストレス.wav",
+   "img": true
+  },
+  {
+   "id": "enjin",
+   "japanese": "エンジン",
+   "romaji": "enjin",
+   "english": "engine",
+   "alt": "A metal car engine",
+   "audio": "エンジン.wav",
+   "img": false
+  },
+  {
+   "id": "oto",
+   "japanese": "音",
+   "romaji": "oto",
+   "english": "sound",
+   "alt": "Colourful musical notes",
+   "audio": "音.wav",
+   "img": true
+  },
+  {
+   "id": "koshoo",
+   "japanese": "故障",
+   "romaji": "koshoo",
+   "english": "damage",
+   "alt": "A broken-down car with smoke rising from it",
+   "audio": "故障.wav",
+   "img": true
+  },
+  {
+   "id": "kumo",
+   "japanese": "雲",
+   "romaji": "kumo",
+   "english": "cloud",
+   "alt": "White clouds in a blue sky",
+   "audio": "雲.wav",
+   "img": true
+  },
+  {
+   "id": "uremasu",
+   "japanese": "売れます【Ⅱ】",
+   "romaji": "uremasu",
+   "english": "to sell",
+   "alt": "A shop shelf lined with products for sale",
+   "audio": "売れます.wav",
+   "img": true
+  },
+  {
+   "id": "kaoiro",
+   "japanese": "顔色",
+   "romaji": "kaoiro",
+   "english": "complexion",
+   "alt": "Complexion",
+   "audio": "顔色.wav",
+   "img": false
+  },
+  {
+   "id": "yukkuri",
+   "japanese": "ゆっくり",
+   "romaji": "yukkuri",
+   "english": "calmly, peacefully",
+   "alt": "Calmly, peacefully",
+   "audio": "ゆっくり.wav",
+   "img": false
+  },
+  {
+   "id": "osoku",
+   "japanese": "遅く",
+   "romaji": "osoku",
+   "english": "late",
+   "alt": "Late",
+   "audio": "遅く.wav",
+   "img": false
+  },
+  {
+   "id": "sonnani",
+   "japanese": "そんなに",
+   "romaji": "sonnani",
+   "english": "so much",
+   "alt": "So much",
+   "audio": "そんなに.wav",
+   "img": false
+  },
+  {
+   "id": "enoshima",
+   "japanese": "江の島",
+   "romaji": "enoshima",
+   "english": "Enoshima",
+   "alt": "Enoshima island",
+   "audio": "江の島.wav",
+   "img": false
+  },
+  {
+   "id": "tsuyoi",
+   "japanese": "強い",
+   "romaji": "tsuyoi",
+   "english": "strong",
+   "alt": "Strong",
+   "audio": "強い.wav",
+   "img": false
+  },
+  {
+   "id": "tsuzukimasu",
+   "japanese": "続きます【Ⅰ】",
+   "romaji": "tsuzukimasu",
+   "english": "to continue",
+   "alt": "To continue",
+   "audio": "続きます.wav",
+   "img": false
+  },
+  {
+   "id": "tochuu_de",
+   "japanese": "途中で",
+   "romaji": "tochuu de",
+   "english": "in the middle of",
+   "alt": "In the middle of",
+   "audio": "途中で.wav",
+   "img": false
+  },
+  {
+   "id": "okashii",
+   "japanese": "おかしい",
+   "romaji": "okashii",
+   "english": "strange",
+   "alt": "Strange",
+   "audio": "おかしい.wav",
+   "img": false
+  },
+  {
+   "id": "jama_na",
+   "japanese": "邪魔（な）",
+   "romaji": "jama (na)",
+   "english": "annoying",
+   "alt": "Annoying, obstructive",
+   "audio": "邪魔な.wav",
+   "img": false
+  },
+  {
+   "id": "yowai",
+   "japanese": "弱い",
+   "romaji": "yowai",
+   "english": "weak",
+   "alt": "Weak",
+   "audio": "弱い.wav",
+   "img": false
+  }
+ ]
+}

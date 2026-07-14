@@ -1,0 +1,259 @@
+{
+  "id": "week_10/day_49_vocabulary",
+  "kind": "image",
+  "title": "Day 49 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 49 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "isu",
+      "japanese": "いす",
+      "romaji": "isu",
+      "english": "chair",
+      "image": "../images/study/week_10/day_49/isu.png",
+      "audio": "../audio/vocabulary/week_10/day_49/isu.wav",
+      "alt": "A blue office chair"
+    },
+    {
+      "id": "sutemasu",
+      "japanese": "捨てます【Ⅱ】",
+      "romaji": "sutemasu",
+      "english": "to throw away",
+      "image": "../images/study/week_10/day_49/sutemasu.png",
+      "audio": "../audio/vocabulary/week_10/day_49/sutemasu.wav",
+      "alt": "A man throwing away an empty can"
+    },
+    {
+      "id": "gomi_o_dashimasu",
+      "japanese": "（ごみを）出します【Ⅰ】",
+      "romaji": "(gomi o) dashimasu",
+      "english": "to take out (garbage)",
+      "image": "../images/study/week_10/day_49/gomi_o_dashimasu.png",
+      "audio": "../audio/vocabulary/week_10/day_49/gomi_o_dashimasu.wav",
+      "alt": "A man taking garbage bags out to a collection point"
+    },
+    {
+      "id": "sodai_gomi",
+      "japanese": "粗大ゴミ",
+      "romaji": "sodai gomi",
+      "english": "large-size refuse",
+      "image": "../images/study/week_10/day_49/sodai_gomi.png",
+      "audio": "../audio/vocabulary/week_10/day_49/sodai_gomi.wav",
+      "alt": "A pile of large refuse with a sofa, drawers and a bicycle"
+    },
+    {
+      "id": "undoo_shimasu",
+      "japanese": "運動します【Ⅲ】",
+      "romaji": "undoo shimasu",
+      "english": "to work out",
+      "image": "../images/study/week_10/day_49/undoo_shimasu.png",
+      "audio": "../audio/vocabulary/week_10/day_49/undoo_shimasu.wav",
+      "alt": "A woman working out with dumbbells"
+    },
+    {
+      "id": "jimu",
+      "japanese": "ジム",
+      "romaji": "jimu",
+      "english": "gym",
+      "image": "../images/study/week_10/day_49/jimu.png",
+      "audio": "../audio/vocabulary/week_10/day_49/jimu.wav",
+      "alt": "A man exercising on a machine at the gym"
+    },
+    {
+      "id": "shutchoo",
+      "japanese": "出張",
+      "romaji": "shutchoo",
+      "english": "business trip",
+      "image": "../images/study/week_10/day_49/shutchoo.png",
+      "audio": "../audio/vocabulary/week_10/day_49/shutchoo.wav",
+      "alt": "A businessman with a rolling suitcase and briefcase"
+    },
+    {
+      "id": "deeto",
+      "japanese": "デート",
+      "romaji": "deeto",
+      "english": "date",
+      "image": "../images/study/week_10/day_49/deeto.png",
+      "audio": "../audio/vocabulary/week_10/day_49/deeto.wav",
+      "alt": "A happy couple on a date"
+    },
+    {
+      "id": "baabekyuu",
+      "japanese": "バーベキュー",
+      "romaji": "baabekyuu",
+      "english": "barbecue",
+      "image": "../images/study/week_10/day_49/baabekyuu.png",
+      "audio": "../audio/vocabulary/week_10/day_49/baabekyuu.wav",
+      "alt": "People grilling food at a barbecue"
+    },
+    {
+      "id": "supagetii",
+      "japanese": "スパゲティー",
+      "romaji": "supagetii",
+      "english": "spaghetti",
+      "image": "../images/study/week_10/day_49/supagetii.png",
+      "audio": "../audio/vocabulary/week_10/day_49/supagetii.wav",
+      "alt": "A plate of spaghetti"
+    },
+    {
+      "id": "tenchoo",
+      "japanese": "店長",
+      "romaji": "tenchoo",
+      "english": "shop manager",
+      "image": "../images/study/week_10/day_49/tenchoo.png",
+      "audio": "../audio/vocabulary/week_10/day_49/tenchoo.wav",
+      "alt": "A shop manager wearing a green apron"
+    },
+    {
+      "id": "piza",
+      "japanese": "ピザ",
+      "romaji": "piza",
+      "english": "pizza",
+      "image": "../images/study/week_10/day_49/piza.png",
+      "audio": "../audio/vocabulary/week_10/day_49/piza.wav",
+      "alt": "A whole pizza with tomato and cheese"
+    },
+    {
+      "id": "soobetsukai",
+      "japanese": "送別会",
+      "romaji": "soobetsukai",
+      "english": "farewell party",
+      "image": "../images/study/week_10/day_49/soobetsukai.png",
+      "audio": "../audio/vocabulary/week_10/day_49/soobetsukai.wav",
+      "alt": "People toasting at a farewell party"
+    },
+    {
+      "id": "zemi",
+      "japanese": "ゼミ",
+      "romaji": "zemi",
+      "english": "seminar",
+      "image": "../images/study/week_10/day_49/zemi.png",
+      "audio": "../audio/vocabulary/week_10/day_49/zemi.wav",
+      "alt": "Students discussing around a table in a seminar"
+    },
+    {
+      "id": "konsaato",
+      "japanese": "コンサート",
+      "romaji": "konsaato",
+      "english": "concert",
+      "image": "../images/study/week_10/day_49/konsaato.png",
+      "audio": "../audio/vocabulary/week_10/day_49/konsaato.wav",
+      "alt": "An excited crowd cheering at a concert"
+    },
+    {
+      "id": "chiketto",
+      "japanese": "チケット",
+      "romaji": "chiketto",
+      "english": "ticket",
+      "image": "../images/study/week_10/day_49/chiketto.png",
+      "audio": "../audio/vocabulary/week_10/day_49/chiketto.wav",
+      "alt": "A green ticket"
+    },
+    {
+      "id": "atarimasu",
+      "japanese": "当たります【Ⅰ】",
+      "romaji": "atarimasu",
+      "english": "to win (a lottery)",
+      "image": "../images/study/week_10/day_49/atarimasu.png",
+      "audio": "../audio/vocabulary/week_10/day_49/atarimasu.wav",
+      "alt": "A delighted woman winning a ticket on her laptop"
+    },
+    {
+      "id": "chiketto_o_torimasu",
+      "japanese": "（チケットを）取ります【Ⅰ】",
+      "romaji": "(chiketto o) torimasu",
+      "english": "to book (a ticket)",
+      "image": "../images/study/week_10/day_49/chiketto_o_torimasu.png",
+      "audio": "../audio/vocabulary/week_10/day_49/chiketto_o_torimasu.wav",
+      "alt": "A man booking a ticket on his computer"
+    },
+    {
+      "id": "hikkoshi_shimasu",
+      "japanese": "引っ越しします【Ⅲ】",
+      "romaji": "hikkoshi shimasu",
+      "english": "to move (to a new house)",
+      "image": "../images/study/week_10/day_49/hikkoshi_shimasu.png",
+      "audio": "../audio/vocabulary/week_10/day_49/hikkoshi_shimasu.wav",
+      "alt": "A woman celebrating in front of a moving truck"
+    },
+    {
+      "id": "shusseki_shimasu",
+      "japanese": "出席します【Ⅲ】",
+      "romaji": "shusseki shimasu",
+      "english": "to attend",
+      "audio": "../audio/vocabulary/week_10/day_49/shusseki_shimasu.wav",
+      "alt": "To attend"
+    },
+    {
+      "id": "senpai",
+      "japanese": "先輩",
+      "romaji": "senpai",
+      "english": "senior (at school or work)",
+      "audio": "../audio/vocabulary/week_10/day_49/senpai.wav",
+      "alt": "Senior at school or work"
+    },
+    {
+      "id": "akimasu",
+      "japanese": "空きます",
+      "romaji": "akimasu",
+      "english": "to be empty",
+      "audio": "../audio/vocabulary/week_10/day_49/akimasu.wav",
+      "alt": "To be empty"
+    },
+    {
+      "id": "toku_ni",
+      "japanese": "特に",
+      "romaji": "toku ni",
+      "english": "especially",
+      "audio": "../audio/vocabulary/week_10/day_49/toku_ni.wav",
+      "alt": "Especially"
+    },
+    {
+      "id": "anna",
+      "japanese": "あんな～ Ex)あんな 人気がある 店",
+      "romaji": "anna~ Ex. anna ninki ga aru mise",
+      "english": "such~ Ex. Such a popular shop",
+      "audio": "../audio/vocabulary/week_10/day_49/anna.wav",
+      "alt": "Such, e.g. such a popular shop"
+    },
+    {
+      "id": "ninki",
+      "japanese": "人気",
+      "romaji": "ninki",
+      "english": "popularity",
+      "audio": "../audio/vocabulary/week_10/day_49/ninki.wav",
+      "alt": "Popularity"
+    },
+    {
+      "id": "nakanaka",
+      "japanese": "なかなか",
+      "romaji": "nakanaka",
+      "english": "quite, very",
+      "audio": "../audio/vocabulary/week_10/day_49/nakanaka.wav",
+      "alt": "Quite, very"
+    },
+    {
+      "id": "konna",
+      "japanese": "こんな～ Ex)こんな 帽子",
+      "romaji": "konna~ Ex. konna booshi",
+      "english": "this kind of~ Ex. this kind of hat",
+      "audio": "../audio/vocabulary/week_10/day_49/konna.wav",
+      "alt": "This kind of, e.g. this kind of hat"
+    },
+    {
+      "id": "sonna",
+      "japanese": "そんな～ Ex)そんな くつ",
+      "romaji": "sonna~ Ex. sonna kutsu",
+      "english": "such ~ Ex. such shoes",
+      "audio": "../audio/vocabulary/week_10/day_49/sonna.wav",
+      "alt": "Such, e.g. such shoes"
+    }
+  ]
+}

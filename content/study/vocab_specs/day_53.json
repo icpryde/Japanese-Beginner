@@ -1,0 +1,348 @@
+{
+ "week": 11,
+ "day": 53,
+ "lesson_id": "14528453",
+ "title": "Day 53 Vocabulary",
+ "raw_audio_dir": "56. Week 11 - Day 53/3.Day 53 - VocabularyText/Day 53 - Vocabulary Audio",
+ "pages": [
+  "Vocabulary_Day_53_1.jpg",
+  "Vocabulary_Day_53_2.jpg",
+  "Vocabulary_Day_53_3.jpg"
+ ],
+ "detect": {"merge_gap": 10},
+ "words": [
+  {
+   "id": "paatii",
+   "japanese": "パーティー",
+   "romaji": "paatii",
+   "english": "party",
+   "alt": "Three party guests in cone hats celebrating at a table",
+   "audio": "パーティー.wav",
+   "img": true
+  },
+  {
+   "id": "nomimono",
+   "japanese": "飲み物",
+   "romaji": "nomimono",
+   "english": "drink",
+   "alt": "An orange drink carton labelled DRINK",
+   "audio": "飲み物.wav",
+   "img": true
+  },
+  {
+   "id": "reizooko",
+   "japanese": "冷蔵庫",
+   "romaji": "reizooko",
+   "english": "refrigerator",
+   "alt": "A white refrigerator with both doors open showing food inside",
+   "audio": "冷蔵庫.wav",
+   "img": true
+  },
+  {
+   "id": "iremasu",
+   "japanese": "入れます【Ⅱ】",
+   "romaji": "iremasu",
+   "english": "to put in",
+   "alt": "A woman putting food into a refrigerator",
+   "audio": "入れます.wav",
+   "img": true
+  },
+  {
+   "id": "narabemasu",
+   "japanese": "並べます【Ⅱ】",
+   "romaji": "narabemasu",
+   "english": "to set up",
+   "alt": "A table place setting with plate, fork and knife",
+   "audio": "並べます.wav",
+   "img": true
+  },
+  {
+   "id": "katazukemasu",
+   "japanese": "片づけます【Ⅱ】",
+   "romaji": "katazukemasu",
+   "english": "to tidy up",
+   "alt": "A mother and child tidying up after a picnic",
+   "audio": "片付けます.wav",
+   "img": true
+  },
+  {
+   "id": "hiyashimasu",
+   "japanese": "冷やします【Ⅱ】",
+   "romaji": "hiyashimasu",
+   "english": "to cool",
+   "alt": "A bowl filled with ice cubes and water",
+   "audio": "冷やします.wav",
+   "img": true
+  },
+  {
+   "id": "osara",
+   "japanese": "（お）皿",
+   "romaji": "(o)sara",
+   "english": "plate",
+   "alt": "A plain white round plate",
+   "audio": "皿.wav",
+   "img": false
+  },
+  {
+   "id": "araimasu",
+   "japanese": "洗います【Ⅰ】",
+   "romaji": "araimasu",
+   "english": "to wash",
+   "alt": "A woman washing dishes at a sink",
+   "audio": "洗います.wav",
+   "img": true
+  },
+  {
+   "id": "junbi",
+   "japanese": "準備",
+   "romaji": "junbi",
+   "english": "preparation",
+   "alt": "A boy preparing his packed bag beside his bed at night",
+   "audio": "準備.wav",
+   "img": true
+  },
+  {
+   "id": "chiketto_o_torimasu",
+   "japanese": "（チケットを）取ります【Ⅰ】",
+   "romaji": "(chiketto o) torimasu",
+   "english": "to book (a ticket)",
+   "alt": "A man booking a ticket on his computer",
+   "audio": "チケットを取ります.wav",
+   "img": true
+  },
+  {
+   "id": "hasami",
+   "japanese": "はさみ",
+   "romaji": "hasami",
+   "english": "scissors",
+   "alt": "A pair of scissors with blue handles",
+   "audio": "はさみ.wav",
+   "img": true
+  },
+  {
+   "id": "hikidashi",
+   "japanese": "引き出し",
+   "romaji": "hikidashi",
+   "english": "drawer",
+   "alt": "A wooden desk with drawers",
+   "audio": "引き出し.wav",
+   "img": true
+  },
+  {
+   "id": "tana",
+   "japanese": "棚",
+   "romaji": "tana",
+   "english": "shelf",
+   "alt": "A wooden shelf filled with books and boxes",
+   "audio": "棚.wav",
+   "img": true
+  },
+  {
+   "id": "modoshimasu",
+   "japanese": "戻します【Ⅰ】",
+   "romaji": "modoshimasu",
+   "english": "to put back",
+   "alt": "A woman putting dishes back into a cupboard",
+   "audio": "戻します.wav",
+   "img": true
+  },
+  {
+   "id": "koppu",
+   "japanese": "コップ",
+   "romaji": "koppu",
+   "english": "glass (drinking vessel)",
+   "alt": "An empty clear drinking glass",
+   "audio": "コップ.wav",
+   "img": false
+  },
+  {
+   "id": "daidokoro",
+   "japanese": "台所",
+   "romaji": "daidokoro",
+   "english": "kitchen",
+   "alt": "A kitchen with counters and cupboards",
+   "audio": "台所.wav",
+   "img": true
+  },
+  {
+   "id": "purezen",
+   "japanese": "プレゼン",
+   "romaji": "purezen",
+   "english": "presentation",
+   "alt": "A woman giving a presentation to an audience",
+   "audio": "プレゼン.wav",
+   "img": true
+  },
+  {
+   "id": "purojekutaa",
+   "japanese": "プロジェクター",
+   "romaji": "purojekutaa",
+   "english": "projector",
+   "alt": "A grey video projector",
+   "audio": "プロジェクター.wav",
+   "img": true
+  },
+  {
+   "id": "keeburu",
+   "japanese": "ケーブル",
+   "romaji": "keeburu",
+   "english": "cable",
+   "alt": "A coiled black cable with a USB plug",
+   "audio": "ケーブル.wav",
+   "img": false
+  },
+  {
+   "id": "fukimasu",
+   "japanese": "ふきます【Ⅰ】",
+   "romaji": "fukimasu",
+   "english": "to wipe",
+   "alt": "A woman wiping a table with a cloth",
+   "audio": "ふきます.wav",
+   "img": true
+  },
+  {
+   "id": "posutaa",
+   "japanese": "ポスター",
+   "romaji": "posutaa",
+   "english": "poster",
+   "alt": "A poster with a man's face on it",
+   "audio": "ポスター.wav",
+   "img": true
+  },
+  {
+   "id": "kabe",
+   "japanese": "壁",
+   "romaji": "kabe",
+   "english": "wall",
+   "alt": "A plain grey wall",
+   "audio": "壁.wav",
+   "img": true
+  },
+  {
+   "id": "harimasu",
+   "japanese": "貼ります【Ⅰ】",
+   "romaji": "harimasu",
+   "english": "to stick",
+   "alt": "A person sticking a poster on a wall",
+   "audio": "貼ります.wav",
+   "img": true
+  },
+  {
+   "id": "kazarimasu",
+   "japanese": "飾ります【Ⅰ】",
+   "romaji": "kazarimasu",
+   "english": "to decorate",
+   "alt": "A person hanging a framed picture on a wall",
+   "audio": "飾ります.wav",
+   "img": true
+  },
+  {
+   "id": "koohii_o_iremasu",
+   "japanese": "（コーヒーを）いれます【Ⅱ】",
+   "romaji": "(koohii o) iremasu",
+   "english": "to pour (coffee)",
+   "alt": "A coffee machine pouring coffee into a cup",
+   "audio": "コーヒーをいれます.wav",
+   "img": true
+  },
+  {
+   "id": "menyuu",
+   "japanese": "メニュー",
+   "romaji": "menyuu",
+   "english": "menu",
+   "alt": "A yellow restaurant menu with food pictures",
+   "audio": "メニュー.wav",
+   "img": true
+  },
+  {
+   "id": "sukuriin",
+   "japanese": "スクリーン",
+   "romaji": "sukuriin",
+   "english": "screen",
+   "alt": "A pull-down projector screen",
+   "audio": "スクリーン.wav",
+   "img": false
+  },
+  {
+   "id": "owarimasu",
+   "japanese": "終わります【Ⅰ】",
+   "romaji": "owarimasu",
+   "english": "to finish",
+   "alt": "To finish",
+   "audio": "終わります.wav",
+   "img": false
+  },
+  {
+   "id": "daijoobu_na",
+   "japanese": "大丈夫（な）",
+   "romaji": "daijoobu (na)",
+   "english": "secure",
+   "alt": "Secure",
+   "audio": "大丈夫な.wav",
+   "img": false
+  },
+  {
+   "id": "juubun_na",
+   "japanese": "十分（な）",
+   "romaji": "juubun (na)",
+   "english": "enough",
+   "alt": "Enough",
+   "audio": "十分な.wav",
+   "img": false
+  },
+  {
+   "id": "matomemasu",
+   "japanese": "まとめます【Ⅱ】",
+   "romaji": "matomemasu",
+   "english": "to put together",
+   "alt": "To put together",
+   "audio": "まとめます.wav",
+   "img": false
+  },
+  {
+   "id": "kankoochi",
+   "japanese": "観光地",
+   "romaji": "kankoochi",
+   "english": "sightseeing area",
+   "alt": "Sightseeing area",
+   "audio": "観光地.wav",
+   "img": false
+  },
+  {
+   "id": "kaiten",
+   "japanese": "開店",
+   "romaji": "kaiten",
+   "english": "opening a shop",
+   "alt": "Opening a shop",
+   "audio": "開店.wav",
+   "img": false
+  },
+  {
+   "id": "sonomama_ni_shimasu",
+   "japanese": "そのままに します【Ⅲ】",
+   "romaji": "sonomama ni shimasu",
+   "english": "to leave as it is",
+   "alt": "To leave as it is",
+   "audio": "そのままにします.wav",
+   "img": false
+  },
+  {
+   "id": "yarimasu",
+   "japanese": "やります【Ⅰ】",
+   "romaji": "yarimasu",
+   "english": "to do",
+   "alt": "To do",
+   "audio": "やります.wav",
+   "img": false
+  },
+  {
+   "id": "seiri_shimasu",
+   "japanese": "整理します【Ⅲ】",
+   "romaji": "seiri shimasu",
+   "english": "To organize; to sort",
+   "alt": "A woman sorting and organizing folded clothes",
+   "audio": "整理します.wav",
+   "img": true
+  }
+ ]
+}

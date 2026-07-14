@@ -1,0 +1,366 @@
+{
+ "week": 4,
+ "day": 18,
+ "lesson_id": "13245791",
+ "title": "Day 18 Vocabulary",
+ "raw_audio_dir": "20. Week 4 - Day 18/3.Day 18 - VocabularyText/Day 18 - Vocabulary Audio",
+ "pages": [
+  "Vocabulary_Day_18_png.png",
+  "Vocabulary_Day_18_png_2.png",
+  "Vocabulary_Day_18_png3.png"
+ ],
+ "detect": {"merge_gap": 6},
+ "words": [
+  {
+   "id": "onaka_ga_sukimashita",
+   "japanese": "おなかが すきました",
+   "romaji": "onaka ga sukimashita",
+   "english": "I'm hungry",
+   "alt": "A hungry woman daydreaming about a rice ball",
+   "audio": "おなかがすいた.wav",
+   "img": true
+  },
+  {
+   "id": "raamen",
+   "japanese": "ラーメン",
+   "romaji": "raamen",
+   "english": "ramen",
+   "alt": "A bowl of ramen with egg and toppings",
+   "audio": "ラーメン.wav",
+   "img": true
+  },
+  {
+   "id": "tabemas",
+   "japanese": "たべます",
+   "romaji": "tabemas",
+   "english": "to eat",
+   "alt": "A boy eating a bowl of rice with chopsticks",
+   "audio": "たべます.wav",
+   "img": true
+  },
+  {
+   "id": "ikimas",
+   "japanese": "いきます",
+   "romaji": "ikimas",
+   "english": "to go",
+   "alt": "A man walking",
+   "audio": "いきます.wav",
+   "img": true
+  },
+  {
+   "id": "ryokoo",
+   "japanese": "りょこう",
+   "romaji": "ryokoo",
+   "english": "travel",
+   "alt": "A family riding on an airplane",
+   "audio": "りょこう.wav",
+   "img": true
+  },
+  {
+   "id": "tenki",
+   "japanese": "てんき",
+   "romaji": "tenki",
+   "english": "weather",
+   "alt": "Weather icons of a sun, umbrella and snowman",
+   "audio": "てんき.wav",
+   "img": true
+  },
+  {
+   "id": "kaban",
+   "japanese": "かばん",
+   "romaji": "kaban",
+   "english": "bag",
+   "alt": "Two sparkling handbags",
+   "audio": "かばん.wav",
+   "img": true
+  },
+  {
+   "id": "ekimae",
+   "japanese": "えきまえ",
+   "romaji": "ekimae",
+   "english": "in front of a station",
+   "alt": "Cars circled in front of a station building",
+   "audio": "えきまえ.wav",
+   "img": true
+  },
+  {
+   "id": "kareeya",
+   "japanese": "カレーや",
+   "romaji": "kareeya",
+   "english": "curry restaurant",
+   "alt": "A curry restaurant storefront",
+   "audio": "カレーや.wav",
+   "img": true
+  },
+  {
+   "id": "karee",
+   "japanese": "カレー",
+   "romaji": "karee",
+   "english": "curry",
+   "alt": "A plate of curry and rice",
+   "audio": "カレー.wav",
+   "img": true
+  },
+  {
+   "id": "mise",
+   "japanese": "みせ",
+   "romaji": "mise",
+   "english": "shop",
+   "alt": "A small shop with a striped awning",
+   "audio": "みせ.wav",
+   "img": true
+  },
+  {
+   "id": "chiizukaree",
+   "japanese": "チーズカレー",
+   "romaji": "chiizukaree",
+   "english": "cheese curry",
+   "alt": "A pot of baked cheese curry",
+   "audio": "チーズカレー.wav",
+   "img": true
+  },
+  {
+   "id": "sooseejikaree",
+   "japanese": "ソーセージカレー",
+   "romaji": "sooseejikaree",
+   "english": "curry with sausages",
+   "alt": "Sausages above a plate of curry rice",
+   "audio": "ソーセージカレー.wav",
+   "img": true
+  },
+  {
+   "id": "toppingu",
+   "japanese": "トッピング",
+   "romaji": "toppingu",
+   "english": "topping",
+   "alt": "Assorted ramen toppings",
+   "audio": "トッピング.wav",
+   "img": true
+  },
+  {
+   "id": "muryoo",
+   "japanese": "むりょう",
+   "romaji": "muryoo",
+   "english": "free",
+   "alt": "A taxi with a FREE sign and a yellow arrow",
+   "audio": "むりょう.wav",
+   "img": true
+  },
+  {
+   "id": "osake",
+   "japanese": "おさけ",
+   "romaji": "osake",
+   "english": "alcohol",
+   "alt": "A drunk man surrounded by circled bottles",
+   "audio": "おさけ.wav",
+   "img": true
+  },
+  {
+   "id": "tesuto",
+   "japanese": "テスト",
+   "romaji": "tesuto",
+   "english": "test",
+   "alt": "A stack of test papers",
+   "audio": "テスト.wav",
+   "img": false
+  },
+  {
+   "id": "ame",
+   "japanese": "あめ",
+   "romaji": "ame",
+   "english": "rain",
+   "alt": "A blue umbrella in the rain",
+   "audio": "あめ.wav",
+   "img": true
+  },
+  {
+   "id": "eki",
+   "japanese": "えき",
+   "romaji": "eki",
+   "english": "station",
+   "alt": "A station building with a STATION sign",
+   "audio": "えき.wav",
+   "img": true
+  },
+  {
+   "id": "pan",
+   "japanese": "パン",
+   "romaji": "pan",
+   "english": "bread",
+   "alt": "An assortment of bread loaves",
+   "audio": "パン.wav",
+   "img": true
+  },
+  {
+   "id": "senshuu",
+   "japanese": "せんしゅう",
+   "romaji": "senshuu",
+   "english": "last week",
+   "alt": "Last week",
+   "audio": "せんしゅう.wav",
+   "img": false
+  },
+  {
+   "id": "saabis",
+   "japanese": "サービス",
+   "romaji": "saabis",
+   "english": "service",
+   "alt": "Service",
+   "audio": "サービス.wav",
+   "img": false
+  },
+  {
+   "id": "ii",
+   "japanese": "いい",
+   "romaji": "ii",
+   "english": "good",
+   "alt": "Good",
+   "audio": "いい.wav",
+   "img": false
+  },
+  {
+   "id": "amari",
+   "japanese": "あまり",
+   "romaji": "amari",
+   "english": "not very",
+   "alt": "Not very",
+   "audio": "あまり.wav",
+   "img": false
+  },
+  {
+   "id": "ooi",
+   "japanese": "おおい",
+   "romaji": "ooi",
+   "english": "many",
+   "alt": "Many",
+   "audio": "おおい.wav",
+   "img": false
+  },
+  {
+   "id": "karai",
+   "japanese": "からい",
+   "romaji": "karai",
+   "english": "spicy",
+   "alt": "Spicy",
+   "audio": "からい.wav",
+   "img": false
+  },
+  {
+   "id": "atatakai",
+   "japanese": "あたたかい",
+   "romaji": "atatakai",
+   "english": "warm",
+   "alt": "Warm",
+   "audio": "あたたかい.wav",
+   "img": false
+  },
+  {
+   "id": "kinoo",
+   "japanese": "きのう",
+   "romaji": "kinoo",
+   "english": "yesterday",
+   "alt": "Yesterday",
+   "audio": "きのう.wav",
+   "img": false
+  },
+  {
+   "id": "samui",
+   "japanese": "さむい",
+   "romaji": "samui",
+   "english": "cold",
+   "alt": "Cold",
+   "audio": "さむい.wav",
+   "img": false
+  },
+  {
+   "id": "tanoshii",
+   "japanese": "たのしい",
+   "romaji": "tanoshii",
+   "english": "fun",
+   "alt": "Fun",
+   "audio": "たのしい.wav",
+   "img": false
+  },
+  {
+   "id": "isshoni",
+   "japanese": "いっしょに",
+   "romaji": "isshoni",
+   "english": "together",
+   "alt": "Together",
+   "audio": "いっしょに.wav",
+   "img": false
+  },
+  {
+   "id": "kiree_na",
+   "japanese": "きれい（な）",
+   "romaji": "kiree(na)",
+   "english": "beautiful",
+   "alt": "Beautiful",
+   "audio": "きれいな.wav",
+   "img": false
+  },
+  {
+   "id": "nigiyaka_na",
+   "japanese": "にぎやか（な）",
+   "romaji": "nigiyaka(na)",
+   "english": "lively",
+   "alt": "Lively",
+   "audio": "にぎやかな.wav",
+   "img": false
+  },
+  {
+   "id": "ski_na",
+   "japanese": "すき（な）",
+   "romaji": "ski(na)",
+   "english": "liked",
+   "alt": "Liked",
+   "audio": "すきな.wav",
+   "img": false
+  },
+  {
+   "id": "kantan_na",
+   "japanese": "かんたん（な）",
+   "romaji": "kantan(na)",
+   "english": "easy",
+   "alt": "Easy",
+   "audio": "かんたんな.wav",
+   "img": false
+  },
+  {
+   "id": "tooi",
+   "japanese": "とおい",
+   "romaji": "tooi",
+   "english": "far",
+   "alt": "Far",
+   "audio": "とおい.wav",
+   "img": false
+  },
+  {
+   "id": "isogashii",
+   "japanese": "いそがしい",
+   "romaji": "isogashii",
+   "english": "busy",
+   "alt": "Busy",
+   "audio": "いそがしい.wav",
+   "img": false
+  },
+  {
+   "id": "kyoo",
+   "japanese": "きょう",
+   "romaji": "kyoo",
+   "english": "today",
+   "alt": "Today",
+   "audio": "きょう.wav",
+   "img": false
+  },
+  {
+   "id": "asagohan",
+   "japanese": "あさごはん",
+   "romaji": "asagohan",
+   "english": "breakfast",
+   "alt": "Breakfast",
+   "audio": "あさごはん.wav",
+   "img": false
+  }
+ ]
+}

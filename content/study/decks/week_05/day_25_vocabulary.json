@@ -1,0 +1,436 @@
+{
+  "id": "week_05/day_25_vocabulary",
+  "kind": "image",
+  "title": "Day 25 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 25 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "repooto",
+      "japanese": "レポート",
+      "romaji": "repooto",
+      "english": "report",
+      "audio": "../audio/vocabulary/week_05/day_25/repooto.wav",
+      "alt": "A white report booklet with the word REPORT on the cover"
+    },
+    {
+      "id": "kakimasu",
+      "japanese": "書きます【Ⅰ】",
+      "romaji": "kakimasu",
+      "english": "to write",
+      "image": "../images/study/week_05/day_25/kakimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_25/kakimasu.wav",
+      "alt": "A man writing on paper at a desk"
+    },
+    {
+      "id": "kimasu",
+      "japanese": "来ます【Ⅲ】",
+      "romaji": "kimasu",
+      "english": "to come",
+      "image": "../images/study/week_05/day_25/kimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_25/kimasu.wav",
+      "alt": "A businesswoman coming in through a door"
+    },
+    {
+      "id": "tabemasu",
+      "japanese": "食べます【Ⅱ】",
+      "romaji": "tabemasu",
+      "english": "to eat",
+      "image": "../images/study/week_05/day_25/tabemasu.png",
+      "audio": "../audio/vocabulary/week_05/day_25/tabemasu.wav",
+      "alt": "A happy woman eating a steak with a knife and fork"
+    },
+    {
+      "id": "nemasu",
+      "japanese": "寝ます【Ⅱ】",
+      "romaji": "nemasu",
+      "english": "to sleep",
+      "image": "../images/study/week_05/day_25/nemasu.png",
+      "audio": "../audio/vocabulary/week_05/day_25/nemasu.wav",
+      "alt": "A person sleeping under a blue flowered futon"
+    },
+    {
+      "id": "okimasu",
+      "japanese": "起きます【Ⅱ】",
+      "romaji": "okimasu",
+      "english": "to get up",
+      "image": "../images/study/week_05/day_25/okimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_25/okimasu.wav",
+      "alt": "A woman stretching as she wakes up in a pink bed"
+    },
+    {
+      "id": "karimasu",
+      "japanese": "借ります【Ⅱ】",
+      "romaji": "karimasu",
+      "english": "to borrow",
+      "image": "../images/study/week_05/day_25/karimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_25/karimasu.wav",
+      "alt": "A worried woman asking another to borrow money"
+    },
+    {
+      "id": "kakemasu",
+      "japanese": "かけます【Ⅱ】",
+      "romaji": "kakemasu",
+      "english": "to make (a call)",
+      "image": "../images/study/week_05/day_25/kakemasu.png",
+      "audio": "../audio/vocabulary/week_05/day_25/kakemasu.wav",
+      "alt": "A man talking on a smartphone"
+    },
+    {
+      "id": "mimasu",
+      "japanese": "見ます【Ⅱ】",
+      "romaji": "mimasu",
+      "english": "to watch",
+      "image": "../images/study/week_05/day_25/mimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_25/mimasu.wav",
+      "alt": "A boy sitting and watching a robot show on TV"
+    },
+    {
+      "id": "motte_kimasu",
+      "japanese": "持って来ます【Ⅲ】",
+      "romaji": "motte kimasu",
+      "english": "to take (something) along",
+      "image": "../images/study/week_05/day_25/motte_kimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_25/motte_kimasu.wav",
+      "alt": "A man hurriedly carrying a cardboard box with an arrow pointing left"
+    },
+    {
+      "id": "isogimasu",
+      "japanese": "急ぎます【Ⅰ】",
+      "romaji": "isogimasu",
+      "english": "to hurry",
+      "image": "../images/study/week_05/day_25/isogimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_25/isogimasu.wav",
+      "alt": "A man dashing in a hurry with a spinning dust cloud"
+    },
+    {
+      "id": "yobimasu",
+      "japanese": "呼びます【Ⅰ】",
+      "romaji": "yobimasu",
+      "english": "to call",
+      "image": "../images/study/week_05/day_25/yobimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_25/yobimasu.wav",
+      "alt": "A customer raising her hand to call a waiter"
+    },
+    {
+      "id": "shinimasu",
+      "japanese": "死にます【Ⅰ】",
+      "romaji": "shinimasu",
+      "english": "to die",
+      "image": "../images/study/week_05/day_25/shinimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_25/shinimasu.wav",
+      "alt": "A sad family gathered around a dog lying down"
+    },
+    {
+      "id": "kaimasu",
+      "japanese": "買います【Ⅰ】",
+      "romaji": "kaimasu",
+      "english": "to buy",
+      "image": "../images/study/week_05/day_25/kaimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_25/kaimasu.wav",
+      "alt": "A woman paying money at a shop counter"
+    },
+    {
+      "id": "mochimasu",
+      "japanese": "持ちます【Ⅰ】",
+      "romaji": "mochimasu",
+      "english": "to carry",
+      "image": "../images/study/week_05/day_25/mochimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_25/mochimasu.wav",
+      "alt": "A smiling man carrying a shopping bag in each hand"
+    },
+    {
+      "id": "kaerimasu",
+      "japanese": "帰ります【Ⅰ】",
+      "romaji": "kaerimasu",
+      "english": "to come back",
+      "image": "../images/study/week_05/day_25/kaerimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_25/kaerimasu.wav",
+      "alt": "A father coming home at night greeted by his family"
+    },
+    {
+      "id": "kashimasu",
+      "japanese": "貸します【Ⅰ】",
+      "romaji": "kashimasu",
+      "english": "to lend",
+      "image": "../images/study/week_05/day_25/kashimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_25/kashimasu.wav",
+      "alt": "A smiling woman in red holding out her hand"
+    },
+    {
+      "id": "ikimasu",
+      "japanese": "行きます【Ⅰ】",
+      "romaji": "ikimasu",
+      "english": "to go",
+      "image": "../images/study/week_05/day_25/ikimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_25/ikimasu.wav",
+      "alt": "A woman in a pink sweater walking forward"
+    },
+    {
+      "id": "hatarakimasu",
+      "japanese": "働きます【Ⅰ】",
+      "romaji": "hatarakimasu",
+      "english": "to work",
+      "image": "../images/study/week_05/day_25/hatarakimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_25/hatarakimasu.wav",
+      "alt": "A group of workers in different job uniforms"
+    },
+    {
+      "id": "oyogimasu",
+      "japanese": "泳ぎます【Ⅰ】",
+      "romaji": "oyogimasu",
+      "english": "to swim",
+      "image": "../images/study/week_05/day_25/oyogimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_25/oyogimasu.wav",
+      "alt": "A person in a green cap swimming the front crawl"
+    },
+    {
+      "id": "yomimasu",
+      "japanese": "読みます【Ⅰ】",
+      "romaji": "yomimasu",
+      "english": "to read",
+      "image": "../images/study/week_05/day_25/yomimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_25/yomimasu.wav",
+      "alt": "A woman reading a big red book"
+    },
+    {
+      "id": "asobimasu",
+      "japanese": "遊びます【Ⅰ】",
+      "romaji": "asobimasu",
+      "english": "to play",
+      "image": "../images/study/week_05/day_25/asobimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_25/asobimasu.wav",
+      "alt": "Children playing on a jungle gym"
+    },
+    {
+      "id": "aimasu",
+      "japanese": "会います【Ⅰ】",
+      "romaji": "aimasu",
+      "english": "to meet",
+      "image": "../images/study/week_05/day_25/aimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_25/aimasu.wav",
+      "alt": "Two women meeting and smiling together"
+    },
+    {
+      "id": "machimasu",
+      "japanese": "待ちます【Ⅰ】",
+      "romaji": "machimasu",
+      "english": "to hold",
+      "image": "../images/study/week_05/day_25/machimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_25/machimasu.wav",
+      "alt": "A woman in a suit checking her watch while waiting"
+    },
+    {
+      "id": "okurimasu",
+      "japanese": "送ります【Ⅰ】",
+      "romaji": "okurimasu",
+      "english": "to send",
+      "image": "../images/study/week_05/day_25/okurimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_25/okurimasu.wav",
+      "alt": "A man sending an email from a laptop"
+    },
+    {
+      "id": "keshimasu",
+      "japanese": "消します【Ⅰ】",
+      "romaji": "keshimasu",
+      "english": "to turn off",
+      "image": "../images/study/week_05/day_25/keshimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_25/keshimasu.wav",
+      "alt": "A woman turning off an air conditioner with a remote"
+    },
+    {
+      "id": "kaeshimasu",
+      "japanese": "返します【Ⅰ】",
+      "romaji": "kaeshimasu",
+      "english": "to return",
+      "image": "../images/study/week_05/day_25/kaeshimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_25/kaeshimasu.wav",
+      "alt": "A boy returning a book at a counter"
+    },
+    {
+      "id": "sanpo_shimasu",
+      "japanese": "散歩します【Ⅲ】",
+      "romaji": "sanpo shimasu",
+      "english": "to walk",
+      "image": "../images/study/week_05/day_25/sanpo_shimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_25/sanpo_shimasu.wav",
+      "alt": "A woman walking a brown dog on a leash"
+    },
+    {
+      "id": "tetsudaimasu",
+      "japanese": "手伝います【Ⅰ】",
+      "romaji": "tetsudaimasu",
+      "english": "to help",
+      "image": "../images/study/week_05/day_25/tetsudaimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_25/tetsudaimasu.wav",
+      "alt": "A girl helping her mother wash dishes"
+    },
+    {
+      "id": "moshimoshi",
+      "japanese": "もしもし",
+      "romaji": "moshimoshi",
+      "english": "hello (e.g. on the phone)",
+      "image": "../images/study/week_05/day_25/moshimoshi.png",
+      "audio": "../audio/vocabulary/week_05/day_25/moshimoshi.wav",
+      "alt": "A man answering a landline telephone"
+    },
+    {
+      "id": "uchi",
+      "japanese": "うち",
+      "romaji": "uchi",
+      "english": "home",
+      "image": "../images/study/week_05/day_25/uchi.png",
+      "audio": "../audio/vocabulary/week_05/day_25/uchi.wav",
+      "alt": "A two-storey house with a blue roof"
+    },
+    {
+      "id": "nikujaga",
+      "japanese": "肉じゃが",
+      "romaji": "nikujaga",
+      "english": "nikujaga",
+      "image": "../images/study/week_05/day_25/nikujaga.png",
+      "audio": "../audio/vocabulary/week_05/day_25/nikujaga.wav",
+      "alt": "A bowl of nikujaga meat and potato stew"
+    },
+    {
+      "id": "tsukurimasu",
+      "japanese": "作ります【Ⅰ】",
+      "romaji": "tsukurimasu",
+      "english": "to make",
+      "image": "../images/study/week_05/day_25/tsukurimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_25/tsukurimasu.wav",
+      "alt": "A boy building a plastic robot model"
+    },
+    {
+      "id": "kaimono_shimasu",
+      "japanese": "買い物します【Ⅲ】",
+      "romaji": "kaimono shimasu",
+      "english": "to do shopping",
+      "image": "../images/study/week_05/day_25/kaimono_shimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_25/kaimono_shimasu.wav",
+      "alt": "A happy woman shopping surrounded by clothes and jewellery"
+    },
+    {
+      "id": "shashin",
+      "japanese": "写真",
+      "romaji": "shashin",
+      "english": "photo",
+      "image": "../images/study/week_05/day_25/shashin.png",
+      "audio": "../audio/vocabulary/week_05/day_25/shashin.wav",
+      "alt": "A scattered pile of family photographs"
+    },
+    {
+      "id": "torimasu",
+      "japanese": "撮ります【Ⅰ】",
+      "romaji": "torimasu",
+      "english": "to take (a photo)",
+      "image": "../images/study/week_05/day_25/torimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_25/torimasu.wav",
+      "alt": "A man kneeling to take a photo with a camera"
+    },
+    {
+      "id": "basu",
+      "japanese": "バス",
+      "romaji": "basu",
+      "english": "bus",
+      "image": "../images/study/week_05/day_25/basu.png",
+      "audio": "../audio/vocabulary/week_05/day_25/basu.wav",
+      "alt": "A green and white city bus"
+    },
+    {
+      "id": "pan",
+      "japanese": "パン",
+      "romaji": "pan",
+      "english": "bread",
+      "image": "../images/study/week_05/day_25/pan.png",
+      "audio": "../audio/vocabulary/week_05/day_25/pan.wav",
+      "alt": "An assortment of bread loaves and rolls"
+    },
+    {
+      "id": "tomodachi",
+      "japanese": "友達",
+      "romaji": "tomodachi",
+      "english": "friends",
+      "image": "../images/study/week_05/day_25/tomodachi.png",
+      "audio": "../audio/vocabulary/week_05/day_25/tomodachi.wav",
+      "alt": "Four boys standing together with arms around shoulders"
+    },
+    {
+      "id": "hanashimasu",
+      "japanese": "話します【Ⅰ】",
+      "romaji": "hanashimasu",
+      "english": "to talk",
+      "image": "../images/study/week_05/day_25/hanashimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_25/hanashimasu.wav",
+      "alt": "A woman and a man talking to each other"
+    },
+    {
+      "id": "ongaku",
+      "japanese": "音楽",
+      "romaji": "ongaku",
+      "english": "music",
+      "image": "../images/study/week_05/day_25/ongaku.png",
+      "audio": "../audio/vocabulary/week_05/day_25/ongaku.wav",
+      "alt": "Colourful musical notes on a staff"
+    },
+    {
+      "id": "kikimasu",
+      "japanese": "聞きます【Ⅰ】",
+      "romaji": "kikimasu",
+      "english": "to listen to",
+      "image": "../images/study/week_05/day_25/kikimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_25/kikimasu.wav",
+      "alt": "A woman listening to music with pink headphones"
+    },
+    {
+      "id": "kodomo",
+      "japanese": "子供",
+      "romaji": "kodomo",
+      "english": "kid",
+      "image": "../images/study/week_05/day_25/kodomo.png",
+      "audio": "../audio/vocabulary/week_05/day_25/kodomo.wav",
+      "alt": "Children playing with building blocks"
+    },
+    {
+      "id": "tsukaimasu",
+      "japanese": "使います【Ⅰ】",
+      "romaji": "tsukaimasu",
+      "english": "to use",
+      "image": "../images/study/week_05/day_25/tsukaimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_25/tsukaimasu.wav",
+      "alt": "A couple using a laptop together"
+    },
+    {
+      "id": "mukaemasu",
+      "japanese": "迎えます【Ⅱ】",
+      "romaji": "mukaemasu",
+      "english": "to welcome",
+      "image": "../images/study/week_05/day_25/mukaemasu.png",
+      "audio": "../audio/vocabulary/week_05/day_25/mukaemasu.wav",
+      "alt": "A family welcoming the father home at night"
+    },
+    {
+      "id": "ekimae",
+      "japanese": "駅前",
+      "romaji": "ekimae",
+      "english": "in front of a station",
+      "audio": "../audio/vocabulary/week_05/day_25/ekimae.wav",
+      "alt": "The area in front of a train station"
+    },
+    {
+      "id": "tegami",
+      "japanese": "手紙",
+      "romaji": "tegami",
+      "english": "letter",
+      "audio": "../audio/vocabulary/week_05/day_25/tegami.wav",
+      "alt": "A written letter"
+    }
+  ]
+}

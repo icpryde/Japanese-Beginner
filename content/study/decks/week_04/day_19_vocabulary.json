@@ -1,0 +1,213 @@
+{
+  "id": "week_04/day_19_vocabulary",
+  "kind": "image",
+  "title": "Day 19 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 19 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "okashi",
+      "japanese": "おかし",
+      "romaji": "okashi",
+      "english": "sweets",
+      "image": "../images/study/week_04/day_19/okashi.png",
+      "audio": "../audio/vocabulary/week_04/day_19/okashi.wav",
+      "alt": "A girl holding up a jar of assorted sweets"
+    },
+    {
+      "id": "hoshii",
+      "japanese": "ほしい",
+      "romaji": "hoshii",
+      "english": "desired",
+      "image": "../images/study/week_04/day_19/hoshii.png",
+      "audio": "../audio/vocabulary/week_04/day_19/hoshii.wav",
+      "alt": "A girl looking at her father and wanting a smartphone"
+    },
+    {
+      "id": "gamu",
+      "japanese": "ガム",
+      "romaji": "gamu",
+      "english": "gum",
+      "image": "../images/study/week_04/day_19/gamu.png",
+      "audio": "../audio/vocabulary/week_04/day_19/gamu.wav",
+      "alt": "A boy blowing a bubble with chewing gum"
+    },
+    {
+      "id": "beddo",
+      "japanese": "ベッド",
+      "romaji": "beddo",
+      "english": "bed",
+      "image": "../images/study/week_04/day_19/beddo.png",
+      "audio": "../audio/vocabulary/week_04/day_19/beddo.wav",
+      "alt": "A wooden bed with white bedding"
+    },
+    {
+      "id": "tanoshimi",
+      "japanese": "たのしみ",
+      "romaji": "tanoshimi",
+      "english": "enjoyment",
+      "image": "../images/study/week_04/day_19/tanoshimi.png",
+      "audio": "../audio/vocabulary/week_04/day_19/tanoshimi.wav",
+      "alt": "Children excitedly imagining a present"
+    },
+    {
+      "id": "okonomiyaki",
+      "japanese": "おこのみやき",
+      "romaji": "okonomiyaki",
+      "english": "okonomiyaki",
+      "image": "../images/study/week_04/day_19/okonomiyaki.png",
+      "audio": "../audio/vocabulary/week_04/day_19/okonomiyaki.wav",
+      "alt": "An okonomiyaki pancake steaming on a grill"
+    },
+    {
+      "id": "shoorai",
+      "japanese": "しょうらい",
+      "romaji": "shoorai",
+      "english": "future",
+      "image": "../images/study/week_04/day_19/shoorai.png",
+      "audio": "../audio/vocabulary/week_04/day_19/shoorai.wav",
+      "alt": "Children imagining their future careers"
+    },
+    {
+      "id": "tsukaremasu",
+      "japanese": "つかれます",
+      "romaji": "tsukaremasu",
+      "english": "to get tired",
+      "image": "../images/study/week_04/day_19/tsukaremasu.png",
+      "audio": "../audio/vocabulary/week_04/day_19/tsukaremasu.wav",
+      "alt": "An exhausted man slumped on his hands and knees"
+    },
+    {
+      "id": "onaka_ga_itai",
+      "japanese": "おなかがいたい",
+      "romaji": "onaka ga itai",
+      "english": "my stomach hurts",
+      "image": "../images/study/week_04/day_19/onaka_ga_itai.png",
+      "audio": "../audio/vocabulary/week_04/day_19/onaka_ga_itai.wav",
+      "alt": "A woman crouching and holding her aching stomach"
+    },
+    {
+      "id": "doozo",
+      "japanese": "どうぞ",
+      "romaji": "doozo",
+      "english": "please",
+      "audio": "../audio/vocabulary/week_04/day_19/doozo.wav",
+      "alt": "Please (when offering something)"
+    },
+    {
+      "id": "iroiro_na",
+      "japanese": "いろいろ（な）",
+      "romaji": "iroiro(na)",
+      "english": "various",
+      "audio": "../audio/vocabulary/week_04/day_19/iroiro_na.wav",
+      "alt": "Various"
+    },
+    {
+      "id": "katai",
+      "japanese": "かたい",
+      "romaji": "katai",
+      "english": "hard",
+      "audio": "../audio/vocabulary/week_04/day_19/katai.wav",
+      "alt": "Hard (firm)"
+    },
+    {
+      "id": "natsuyasumi",
+      "japanese": "なつやすみ",
+      "romaji": "natsuyasumi",
+      "english": "summer holidays",
+      "audio": "../audio/vocabulary/week_04/day_19/natsuyasumi.wav",
+      "alt": "Summer holidays"
+    },
+    {
+      "id": "hayameni",
+      "japanese": "はやめに",
+      "romaji": "hayameni",
+      "english": "earlier",
+      "audio": "../audio/vocabulary/week_04/day_19/hayameni.wav",
+      "alt": "Earlier (ahead of time)"
+    },
+    {
+      "id": "boonasu",
+      "japanese": "ボーナス",
+      "romaji": "boonasu",
+      "english": "bonus",
+      "audio": "../audio/vocabulary/week_04/day_19/boonasu.wav",
+      "alt": "Bonus (pay)"
+    },
+    {
+      "id": "chotto",
+      "japanese": "ちょっと",
+      "romaji": "chotto",
+      "english": "a little",
+      "audio": "../audio/vocabulary/week_04/day_19/chotto.wav",
+      "alt": "A little"
+    },
+    {
+      "id": "fuyuyasumi",
+      "japanese": "ふゆやすみ",
+      "romaji": "fuyuyasumi",
+      "english": "winter holidays",
+      "audio": "../audio/vocabulary/week_04/day_19/fuyuyasumi.wav",
+      "alt": "Winter holidays"
+    },
+    {
+      "id": "mizuumi",
+      "japanese": "みずうみ",
+      "romaji": "mizuumi",
+      "english": "lake",
+      "image": "../images/study/week_04/day_19/mizuumi.png",
+      "audio": "../audio/vocabulary/week_04/day_19/mizuumi.wav",
+      "alt": "A calm lake surrounded by green hills"
+    },
+    {
+      "id": "kawa",
+      "japanese": "かわ",
+      "romaji": "kawa",
+      "english": "river",
+      "image": "../images/study/week_04/day_19/kawa.png",
+      "audio": "../audio/vocabulary/week_04/day_19/kawa.wav",
+      "alt": "A river winding through grassy banks"
+    },
+    {
+      "id": "takoyaki",
+      "japanese": "たこやき",
+      "romaji": "takoyaki",
+      "english": "takoyaki",
+      "image": "../images/study/week_04/day_19/takoyaki.png",
+      "audio": "../audio/vocabulary/week_04/day_19/takoyaki.wav",
+      "alt": "A tray of takoyaki balls with a toothpick"
+    },
+    {
+      "id": "nodo_ga_kawakimashita",
+      "japanese": "のどがかわきました",
+      "romaji": "nodo ga kawakimashita",
+      "english": "I'm thirsty",
+      "image": "../images/study/week_04/day_19/nodo_ga_kawakimashita.png",
+      "audio": "../audio/vocabulary/week_04/day_19/nodo_ga_kawakimashita.wav",
+      "alt": "A thirsty dog dreaming of a bowl of water"
+    },
+    {
+      "id": "futtosaru",
+      "japanese": "フットサル",
+      "romaji": "futtosaru",
+      "english": "futsal",
+      "audio": "../audio/vocabulary/week_04/day_19/futtosaru.wav",
+      "alt": "Futsal"
+    },
+    {
+      "id": "yawarakai",
+      "japanese": "やわらかい",
+      "romaji": "yawarakai",
+      "english": "soft",
+      "audio": "../audio/vocabulary/week_04/day_19/yawarakai.wav",
+      "alt": "Soft"
+    }
+  ]
+}

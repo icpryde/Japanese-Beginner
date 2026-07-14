@@ -1,0 +1,220 @@
+{
+ "week": 4,
+ "day": 19,
+ "lesson_id": "13246156",
+ "title": "Day 19 Vocabulary",
+ "raw_audio_dir": "21. Week 4 - Day 19/3.Day 19 - VocabularyText/Day 19 - Vocabulary Audio",
+ "pages": [
+  "Vocabulary_Day_19.png",
+  "Vocabulary_Day_19_2.png"
+ ],
+ "words": [
+  {
+   "id": "okashi",
+   "japanese": "おかし",
+   "romaji": "okashi",
+   "english": "sweets",
+   "alt": "A girl holding up a jar of assorted sweets",
+   "audio": "おかし.wav",
+   "img": true
+  },
+  {
+   "id": "hoshii",
+   "japanese": "ほしい",
+   "romaji": "hoshii",
+   "english": "desired",
+   "alt": "A girl looking at her father and wanting a smartphone",
+   "audio": "ほしい.wav",
+   "img": true
+  },
+  {
+   "id": "gamu",
+   "japanese": "ガム",
+   "romaji": "gamu",
+   "english": "gum",
+   "alt": "A boy blowing a bubble with chewing gum",
+   "audio": "ガム.wav",
+   "img": true
+  },
+  {
+   "id": "beddo",
+   "japanese": "ベッド",
+   "romaji": "beddo",
+   "english": "bed",
+   "alt": "A wooden bed with white bedding",
+   "audio": "ベッド.wav",
+   "img": true
+  },
+  {
+   "id": "tanoshimi",
+   "japanese": "たのしみ",
+   "romaji": "tanoshimi",
+   "english": "enjoyment",
+   "alt": "Children excitedly imagining a present",
+   "audio": "たのしみ.wav",
+   "img": true
+  },
+  {
+   "id": "okonomiyaki",
+   "japanese": "おこのみやき",
+   "romaji": "okonomiyaki",
+   "english": "okonomiyaki",
+   "alt": "An okonomiyaki pancake steaming on a grill",
+   "audio": "おこのみやき.wav",
+   "img": true
+  },
+  {
+   "id": "shoorai",
+   "japanese": "しょうらい",
+   "romaji": "shoorai",
+   "english": "future",
+   "alt": "Children imagining their future careers",
+   "audio": "しょうらい.wav",
+   "img": true
+  },
+  {
+   "id": "tsukaremasu",
+   "japanese": "つかれます",
+   "romaji": "tsukaremasu",
+   "english": "to get tired",
+   "alt": "An exhausted man slumped on his hands and knees",
+   "audio": "つかれる.wav",
+   "img": true
+  },
+  {
+   "id": "onaka_ga_itai",
+   "japanese": "おなかがいたい",
+   "romaji": "onaka ga itai",
+   "english": "my stomach hurts",
+   "alt": "A woman crouching and holding her aching stomach",
+   "audio": "おなかがいたい.wav",
+   "img": true
+  },
+  {
+   "id": "doozo",
+   "japanese": "どうぞ",
+   "romaji": "doozo",
+   "english": "please",
+   "alt": "Please (when offering something)",
+   "audio": "どうぞ.wav",
+   "img": false
+  },
+  {
+   "id": "iroiro_na",
+   "japanese": "いろいろ（な）",
+   "romaji": "iroiro(na)",
+   "english": "various",
+   "alt": "Various",
+   "audio": "いろいろな.wav",
+   "img": false
+  },
+  {
+   "id": "katai",
+   "japanese": "かたい",
+   "romaji": "katai",
+   "english": "hard",
+   "alt": "Hard (firm)",
+   "audio": "かたい.wav",
+   "img": false
+  },
+  {
+   "id": "natsuyasumi",
+   "japanese": "なつやすみ",
+   "romaji": "natsuyasumi",
+   "english": "summer holidays",
+   "alt": "Summer holidays",
+   "audio": "なつやすみ.wav",
+   "img": false
+  },
+  {
+   "id": "hayameni",
+   "japanese": "はやめに",
+   "romaji": "hayameni",
+   "english": "earlier",
+   "alt": "Earlier (ahead of time)",
+   "audio": "はやめに.wav",
+   "img": false
+  },
+  {
+   "id": "boonasu",
+   "japanese": "ボーナス",
+   "romaji": "boonasu",
+   "english": "bonus",
+   "alt": "Bonus (pay)",
+   "audio": "ボーナス.wav",
+   "img": false
+  },
+  {
+   "id": "chotto",
+   "japanese": "ちょっと",
+   "romaji": "chotto",
+   "english": "a little",
+   "alt": "A little",
+   "audio": "ちょっと.wav",
+   "img": false
+  },
+  {
+   "id": "fuyuyasumi",
+   "japanese": "ふゆやすみ",
+   "romaji": "fuyuyasumi",
+   "english": "winter holidays",
+   "alt": "Winter holidays",
+   "audio": "ふゆやすみ.wav",
+   "img": false
+  },
+  {
+   "id": "mizuumi",
+   "japanese": "みずうみ",
+   "romaji": "mizuumi",
+   "english": "lake",
+   "alt": "A calm lake surrounded by green hills",
+   "audio": "みずうみ.wav",
+   "img": true
+  },
+  {
+   "id": "kawa",
+   "japanese": "かわ",
+   "romaji": "kawa",
+   "english": "river",
+   "alt": "A river winding through grassy banks",
+   "audio": "かわ.wav",
+   "img": true
+  },
+  {
+   "id": "takoyaki",
+   "japanese": "たこやき",
+   "romaji": "takoyaki",
+   "english": "takoyaki",
+   "alt": "A tray of takoyaki balls with a toothpick",
+   "audio": "たこやき.wav",
+   "img": true
+  },
+  {
+   "id": "nodo_ga_kawakimashita",
+   "japanese": "のどがかわきました",
+   "romaji": "nodo ga kawakimashita",
+   "english": "I'm thirsty",
+   "alt": "A thirsty dog dreaming of a bowl of water",
+   "audio": "のどがかわきます.wav",
+   "img": true
+  },
+  {
+   "id": "futtosaru",
+   "japanese": "フットサル",
+   "romaji": "futtosaru",
+   "english": "futsal",
+   "alt": "Futsal",
+   "audio": "フットサル.wav",
+   "img": false
+  },
+  {
+   "id": "yawarakai",
+   "japanese": "やわらかい",
+   "romaji": "yawarakai",
+   "english": "soft",
+   "alt": "Soft",
+   "audio": "やわらかい.wav",
+   "img": false
+  }
+ ]
+}

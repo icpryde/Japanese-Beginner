@@ -1,0 +1,527 @@
+{
+  "id": "week_05/day_21_vocabulary",
+  "kind": "image",
+  "title": "Day 21 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 21 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "taihen_na",
+      "japanese": "大変（な）",
+      "romaji": "taihen(na)",
+      "english": "very, serious",
+      "image": "../images/study/week_05/day_21/taihen_na.png",
+      "audio": "../audio/vocabulary/week_05/day_21/taihen_na.wav",
+      "alt": "Two children running around wildly"
+    },
+    {
+      "id": "tetsudaimasu",
+      "japanese": "手伝います",
+      "romaji": "tetsudaimasu",
+      "english": "to help",
+      "image": "../images/study/week_05/day_21/tetsudaimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_21/tetsudaimasu.wav",
+      "alt": "A woman in an apron calling out to offer help"
+    },
+    {
+      "id": "wakarimasu",
+      "japanese": "わかります",
+      "romaji": "wakarimasu",
+      "english": "to understand",
+      "image": "../images/study/week_05/day_21/wakarimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_21/wakarimasu.wav",
+      "alt": "A man having a lightbulb moment of understanding"
+    },
+    {
+      "id": "mochimasu",
+      "japanese": "持ちます",
+      "romaji": "mochimasu",
+      "english": "to hold",
+      "image": "../images/study/week_05/day_21/mochimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_21/mochimasu.wav",
+      "alt": "A boy holding shopping bags in both hands"
+    },
+    {
+      "id": "hakobimasu",
+      "japanese": "運びます",
+      "romaji": "hakobimasu",
+      "english": "to carry",
+      "image": "../images/study/week_05/day_21/hakobimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_21/hakobimasu.wav",
+      "alt": "A man carrying a heavy cardboard box"
+    },
+    {
+      "id": "oshiemasu",
+      "japanese": "教えます",
+      "romaji": "oshiemasu",
+      "english": "to teach",
+      "image": "../images/study/week_05/day_21/oshiemasu.png",
+      "audio": "../audio/vocabulary/week_05/day_21/oshiemasu.wav",
+      "alt": "A teacher teaching a class at a blackboard"
+    },
+    {
+      "id": "heya",
+      "japanese": "部屋",
+      "romaji": "heya",
+      "english": "room",
+      "image": "../images/study/week_05/day_21/heya.png",
+      "audio": "../audio/vocabulary/week_05/day_21/heya.wav",
+      "alt": "A cosy living room with a sofa and plants"
+    },
+    {
+      "id": "soojishimasu",
+      "japanese": "掃除します",
+      "romaji": "soojishimasu",
+      "english": "to clean",
+      "image": "../images/study/week_05/day_21/soojishimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_21/soojishimasu.wav",
+      "alt": "A person mopping the floor"
+    },
+    {
+      "id": "mado",
+      "japanese": "窓",
+      "romaji": "mado",
+      "english": "window",
+      "image": "../images/study/week_05/day_21/mado.png",
+      "audio": "../audio/vocabulary/week_05/day_21/mado.wav",
+      "alt": "A window with a sunny sky outside"
+    },
+    {
+      "id": "akemasu",
+      "japanese": "開けます",
+      "romaji": "akemasu",
+      "english": "to open",
+      "image": "../images/study/week_05/day_21/akemasu.png",
+      "audio": "../audio/vocabulary/week_05/day_21/akemasu.wav",
+      "alt": "A woman opening a window"
+    },
+    {
+      "id": "kasa",
+      "japanese": "傘",
+      "romaji": "kasa",
+      "english": "umbrella",
+      "image": "../images/study/week_05/day_21/kasa.png",
+      "audio": "../audio/vocabulary/week_05/day_21/kasa.wav",
+      "alt": "A closed orange umbrella"
+    },
+    {
+      "id": "kashimasu",
+      "japanese": "貸します",
+      "romaji": "kashimasu",
+      "english": "to lend",
+      "image": "../images/study/week_05/day_21/kashimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_21/kashimasu.wav",
+      "alt": "A smiling woman lending something"
+    },
+    {
+      "id": "repooto",
+      "japanese": "レポート",
+      "romaji": "repooto",
+      "english": "report",
+      "audio": "../audio/vocabulary/week_05/day_21/repooto.wav",
+      "alt": "A stapled report document"
+    },
+    {
+      "id": "owarimasu",
+      "japanese": "終わります",
+      "romaji": "owarimasu",
+      "english": "to finish",
+      "image": "../images/study/week_05/day_21/owarimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_21/owarimasu.wav",
+      "alt": "A man raising his arms in joy at finishing"
+    },
+    {
+      "id": "shashin",
+      "japanese": "写真",
+      "romaji": "shashin",
+      "english": "photo",
+      "image": "../images/study/week_05/day_21/shashin.png",
+      "audio": "../audio/vocabulary/week_05/day_21/shashin.wav",
+      "alt": "A pile of family photos"
+    },
+    {
+      "id": "torimasu",
+      "japanese": "撮ります",
+      "romaji": "torimasu",
+      "english": "to take (a photo)",
+      "image": "../images/study/week_05/day_21/torimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_21/torimasu.wav",
+      "alt": "A man kneeling to take a photo with a camera"
+    },
+    {
+      "id": "atsui",
+      "japanese": "暑い",
+      "romaji": "atsui",
+      "english": "hot",
+      "image": "../images/study/week_05/day_21/atsui.png",
+      "audio": "../audio/vocabulary/week_05/day_21/atsui.wav",
+      "alt": "A woman sweating and fanning herself in the heat"
+    },
+    {
+      "id": "eakon",
+      "japanese": "エアコン",
+      "romaji": "eakon",
+      "english": "air conditioner",
+      "audio": "../audio/vocabulary/week_05/day_21/eakon.wav",
+      "alt": "A wall-mounted air conditioner unit"
+    },
+    {
+      "id": "tsukemasu",
+      "japanese": "つけます",
+      "romaji": "tsukemasu",
+      "english": "to turn on",
+      "image": "../images/study/week_05/day_21/tsukemasu.png",
+      "audio": "../audio/vocabulary/week_05/day_21/tsukemasu.wav",
+      "alt": "A woman turning on the air conditioner with a remote"
+    },
+    {
+      "id": "byooin",
+      "japanese": "病院",
+      "romaji": "byooin",
+      "english": "hospital",
+      "image": "../images/study/week_05/day_21/byooin.png",
+      "audio": "../audio/vocabulary/week_05/day_21/byooin.wav",
+      "alt": "A large hospital building"
+    },
+    {
+      "id": "basu",
+      "japanese": "バス",
+      "romaji": "basu",
+      "english": "bus",
+      "image": "../images/study/week_05/day_21/basu.png",
+      "audio": "../audio/vocabulary/week_05/day_21/basu.wav",
+      "alt": "A green and white city bus"
+    },
+    {
+      "id": "norimasu",
+      "japanese": "乗ります",
+      "romaji": "norimasu",
+      "english": "to get on",
+      "image": "../images/study/week_05/day_21/norimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_21/norimasu.wav",
+      "alt": "A woman boarding a train"
+    },
+    {
+      "id": "noriba",
+      "japanese": "乗り場",
+      "romaji": "noriba",
+      "english": "place for boarding vehicles",
+      "image": "../images/study/week_05/day_21/noriba.png",
+      "audio": "../audio/vocabulary/week_05/day_21/noriba.wav",
+      "alt": "A bus stop pole and shelter"
+    },
+    {
+      "id": "toozaisen",
+      "japanese": "東西線",
+      "romaji": "toozaisen",
+      "english": "Tozai line",
+      "image": "../images/study/week_05/day_21/toozaisen.png",
+      "audio": "../audio/vocabulary/week_05/day_21/toozaisen.wav",
+      "alt": "A blue-striped commuter train"
+    },
+    {
+      "id": "shiyakusho",
+      "japanese": "市役所",
+      "romaji": "shiyakusho",
+      "english": "municipal office",
+      "image": "../images/study/week_05/day_21/shiyakusho.png",
+      "audio": "../audio/vocabulary/week_05/day_21/shiyakusho.wav",
+      "alt": "A municipal city hall building"
+    },
+    {
+      "id": "ikimasu",
+      "japanese": "行きます",
+      "romaji": "ikimasu",
+      "english": "to go",
+      "image": "../images/study/week_05/day_21/ikimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_21/ikimasu.wav",
+      "alt": "A woman walking along"
+    },
+    {
+      "id": "tegami",
+      "japanese": "手紙",
+      "romaji": "tegami",
+      "english": "letter",
+      "image": "../images/study/week_05/day_21/tegami.png",
+      "audio": "../audio/vocabulary/week_05/day_21/tegami.wav",
+      "alt": "A letter in an opened envelope"
+    },
+    {
+      "id": "kakimasu",
+      "japanese": "書きます",
+      "romaji": "kakimasu",
+      "english": "to write",
+      "image": "../images/study/week_05/day_21/kakimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_21/kakimasu.wav",
+      "alt": "A man writing on paper"
+    },
+    {
+      "id": "ginkoo",
+      "japanese": "銀行",
+      "romaji": "ginkoo",
+      "english": "bank",
+      "image": "../images/study/week_05/day_21/ginkoo.png",
+      "audio": "../audio/vocabulary/week_05/day_21/ginkoo.wav",
+      "alt": "A bank building"
+    },
+    {
+      "id": "denwabangoo",
+      "japanese": "電話番号",
+      "romaji": "denwabangoo",
+      "english": "telephone number",
+      "image": "../images/study/week_05/day_21/denwabangoo.png",
+      "audio": "../audio/vocabulary/week_05/day_21/denwabangoo.wav",
+      "alt": "A push-button telephone"
+    },
+    {
+      "id": "seki",
+      "japanese": "席",
+      "romaji": "seki",
+      "english": "seat",
+      "image": "../images/study/week_05/day_21/seki.png",
+      "audio": "../audio/vocabulary/week_05/day_21/seki.wav",
+      "alt": "An arrangement of brown seats"
+    },
+    {
+      "id": "yoyakushimasu",
+      "japanese": "予約します",
+      "romaji": "yoyakushimasu",
+      "english": "to make a reservation",
+      "image": "../images/study/week_05/day_21/yoyakushimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_21/yoyakushimasu.wav",
+      "alt": "A reserved sign on a restaurant table"
+    },
+    {
+      "id": "oishii",
+      "japanese": "おいしい",
+      "romaji": "oishii",
+      "english": "delicious",
+      "image": "../images/study/week_05/day_21/oishii.png",
+      "audio": "../audio/vocabulary/week_05/day_21/oishii.wav",
+      "alt": "A girl delighted by delicious food"
+    },
+    {
+      "id": "ryoori",
+      "japanese": "料理",
+      "romaji": "ryoori",
+      "english": "cuisine",
+      "image": "../images/study/week_05/day_21/ryoori.png",
+      "audio": "../audio/vocabulary/week_05/day_21/ryoori.wav",
+      "alt": "A chef presenting a plated dish"
+    },
+    {
+      "id": "nikujaga",
+      "japanese": "肉じゃが",
+      "romaji": "nikujaga",
+      "english": "nikujaga",
+      "image": "../images/study/week_05/day_21/nikujaga.png",
+      "audio": "../audio/vocabulary/week_05/day_21/nikujaga.wav",
+      "alt": "A bowl of nikujaga meat and potato stew"
+    },
+    {
+      "id": "uchi",
+      "japanese": "うち",
+      "romaji": "uchi",
+      "english": "home",
+      "image": "../images/study/week_05/day_21/uchi.png",
+      "audio": "../audio/vocabulary/week_05/day_21/uchi.wav",
+      "alt": "A two-storey house"
+    },
+    {
+      "id": "tsukurimasu",
+      "japanese": "作ります",
+      "romaji": "tsukurimasu",
+      "english": "to make",
+      "image": "../images/study/week_05/day_21/tsukurimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_21/tsukurimasu.wav",
+      "alt": "A child making things with toy blocks"
+    },
+    {
+      "id": "tabemasu",
+      "japanese": "食べます",
+      "romaji": "tabemasu",
+      "english": "to eat",
+      "image": "../images/study/week_05/day_21/tabemasu.png",
+      "audio": "../audio/vocabulary/week_05/day_21/tabemasu.wav",
+      "alt": "A woman happily eating a meal"
+    },
+    {
+      "id": "tsukaimasu",
+      "japanese": "使います",
+      "romaji": "tsukaimasu",
+      "english": "to use",
+      "image": "../images/study/week_05/day_21/tsukaimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_21/tsukaimasu.wav",
+      "alt": "A man using a laptop computer"
+    },
+    {
+      "id": "sukiyaki",
+      "japanese": "すき焼き",
+      "romaji": "sukiyaki",
+      "english": "sukiyaki",
+      "image": "../images/study/week_05/day_21/sukiyaki.png",
+      "audio": "../audio/vocabulary/week_05/day_21/sukiyaki.wav",
+      "alt": "A steaming pot of sukiyaki"
+    },
+    {
+      "id": "kanji",
+      "japanese": "漢字",
+      "romaji": "kanji",
+      "english": "kanji",
+      "image": "../images/study/week_05/day_21/kanji.png",
+      "audio": "../audio/vocabulary/week_05/day_21/kanji.wav",
+      "alt": "A thick kanji dictionary book"
+    },
+    {
+      "id": "yomimasu",
+      "japanese": "読みます",
+      "romaji": "yomimasu",
+      "english": "to read",
+      "image": "../images/study/week_05/day_21/yomimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_21/yomimasu.wav",
+      "alt": "A girl reading a red book"
+    },
+    {
+      "id": "taburetto",
+      "japanese": "タブレット",
+      "romaji": "taburetto",
+      "english": "tablet",
+      "image": "../images/study/week_05/day_21/taburetto.png",
+      "audio": "../audio/vocabulary/week_05/day_21/taburetto.wav",
+      "alt": "A tablet computer"
+    },
+    {
+      "id": "rirekisho",
+      "japanese": "履歴書",
+      "romaji": "rirekisho",
+      "english": "resume",
+      "audio": "../audio/vocabulary/week_05/day_21/rirekisho.wav",
+      "alt": "A blank Japanese resume form"
+    },
+    {
+      "id": "onegaishimasu",
+      "japanese": "お願いします",
+      "romaji": "onegaishimasu",
+      "english": "please",
+      "audio": "../audio/vocabulary/week_05/day_21/onegaishimasu.wav",
+      "alt": "Please (when requesting something)"
+    },
+    {
+      "id": "iki",
+      "japanese": "～行き",
+      "romaji": "~iki",
+      "english": "bound for ～",
+      "audio": "../audio/vocabulary/week_05/day_21/iki.wav",
+      "alt": "Suffix for a destination-bound service"
+    },
+    {
+      "id": "ban",
+      "japanese": "～番",
+      "romaji": "~ban",
+      "english": "number ～",
+      "audio": "../audio/vocabulary/week_05/day_21/ban.wav",
+      "alt": "Suffix for numbering"
+    },
+    {
+      "id": "shirimasu",
+      "japanese": "知ります",
+      "romaji": "shirimasu",
+      "english": "to know",
+      "audio": "../audio/vocabulary/week_05/day_21/shirimasu.wav",
+      "alt": "To get to know something"
+    },
+    {
+      "id": "kondo",
+      "japanese": "今度",
+      "romaji": "kondo",
+      "english": "another time, this time",
+      "audio": "../audio/vocabulary/week_05/day_21/kondo.wav",
+      "alt": "Another time or this time"
+    },
+    {
+      "id": "kekkoo",
+      "japanese": "けっこう",
+      "romaji": "kekkoo",
+      "english": "well enough",
+      "audio": "../audio/vocabulary/week_05/day_21/kekkoo.wav",
+      "alt": "Well enough, fairly"
+    },
+    {
+      "id": "kantan_na",
+      "japanese": "簡単（な）",
+      "romaji": "kantan(na)",
+      "english": "simple",
+      "audio": "../audio/vocabulary/week_05/day_21/kantan_na.wav",
+      "alt": "Simple, easy"
+    },
+    {
+      "id": "hon",
+      "japanese": "～本（ほん、ぼん、ぽん）",
+      "romaji": "~hon",
+      "english": "counter for long cylindrical things",
+      "image": "../images/study/week_05/day_21/hon.png",
+      "alt": "An umbrella, a pen and a bottle - long cylindrical objects"
+    },
+    {
+      "id": "reizooko",
+      "japanese": "冷蔵庫",
+      "romaji": "reizooko",
+      "english": "refrigerator",
+      "image": "../images/study/week_05/day_21/reizooko.png",
+      "audio": "../audio/vocabulary/week_05/day_21/reizooko.wav",
+      "alt": "An open refrigerator full of food"
+    },
+    {
+      "id": "nimotsu",
+      "japanese": "荷物",
+      "romaji": "nimotsu",
+      "english": "package, luggage",
+      "image": "../images/study/week_05/day_21/nimotsu.png",
+      "audio": "../audio/vocabulary/week_05/day_21/nimotsu.wav",
+      "alt": "A courier handing a package to a woman"
+    },
+    {
+      "id": "ooidesu",
+      "japanese": "多いです",
+      "romaji": "ooidesu",
+      "english": "many",
+      "image": "../images/study/week_05/day_21/ooidesu.png",
+      "audio": "../audio/vocabulary/week_05/day_21/ooidesu.wav",
+      "alt": "A woman carrying many things at once"
+    },
+    {
+      "id": "buchoo",
+      "japanese": "部長",
+      "romaji": "buchoo",
+      "english": "head of a department",
+      "image": "../images/study/week_05/day_21/buchoo.png",
+      "audio": "../audio/vocabulary/week_05/day_21/buchoo.wav",
+      "alt": "A department head sitting at his desk"
+    },
+    {
+      "id": "karimasu",
+      "japanese": "借ります",
+      "romaji": "karimasu",
+      "english": "to borrow",
+      "image": "../images/study/week_05/day_21/karimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_21/karimasu.wav",
+      "alt": "A child borrowing a book from a woman"
+    },
+    {
+      "id": "annai",
+      "japanese": "案内",
+      "romaji": "annai",
+      "english": "guidance, information",
+      "image": "../images/study/week_05/day_21/annai.png",
+      "audio": "../audio/vocabulary/week_05/day_21/annai.wav",
+      "alt": "A woman guiding at an information desk"
+    }
+  ]
+}

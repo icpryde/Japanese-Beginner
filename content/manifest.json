@@ -2,7 +2,7 @@
   "course_name": "Akamonkai 12-Week Beginner Course",
   "imported_at": "2026-04-02T09:29:37.535648+00:00",
   "source": "/Users/kurisu/Documents/AI Apps/Akamonkai Japanese 12 Week Beginner Course - content",
-  "total_lessons": 1291,
+  "total_lessons": 1293,
   "sections": [
     {
       "order": 1,
@@ -346,7 +346,7 @@
       "section_type": "day",
       "week": 8,
       "day": 40,
-      "lesson_count": 23
+      "lesson_count": 24
     },
     {
       "order": 44,
@@ -506,7 +506,7 @@
       "section_type": "day",
       "week": 12,
       "day": 60,
-      "lesson_count": 31
+      "lesson_count": 32
     },
     {
       "order": 64,
@@ -8358,6 +8358,15 @@
       "day": 40
     },
     {
+      "id": "quiz_week8",
+      "title": "Week 8 Review Quiz",
+      "type": "reference",
+      "section": "Week 8 - Day 40",
+      "section_type": "day",
+      "week": 8,
+      "day": 40
+    },
+    {
       "id": "pdf_44_1",
       "title": "Day 41 - Previous Day Grammar Homework Answer",
       "type": "download",
@@ -12086,6 +12095,15 @@
     {
       "id": "14711514",
       "title": "Week 12 Review",
+      "type": "reference",
+      "section": "Week 12 - Day 60",
+      "section_type": "day",
+      "week": 12,
+      "day": 60
+    },
+    {
+      "id": "quiz_week9_12",
+      "title": "Week 9-12 Quiz Review",
       "type": "reference",
       "section": "Week 12 - Day 60",
       "section_type": "day",

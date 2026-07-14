@@ -1,0 +1,167 @@
+{
+ "week": 10,
+ "day": 46,
+ "lesson_id": "14346496",
+ "title": "Day 46 Vocabulary",
+ "raw_audio_dir": "49. Week 10 - Day 46/5.Day 46 - VocabularyText/Day 46 - Vocabulary Audio",
+ "pages": [
+  "Vocabulary_Day_46_1.jpg",
+  "Vocabulary_Day_46_copy.png"
+ ],
+ "detect": {"merge_gap": 20},
+ "words": [
+  {
+   "id": "kangaemasu",
+   "japanese": "考えます【Ⅱ】",
+   "romaji": "kangaemasu",
+   "english": "to think",
+   "alt": "A man thinking about his future",
+   "audio": "考えます.wav",
+   "img": true
+  },
+  {
+   "id": "mikan",
+   "japanese": "みかん",
+   "romaji": "mikan",
+   "english": "mandarin",
+   "alt": "A mandarin orange",
+   "audio": "みかん.wav",
+   "img": true
+  },
+  {
+   "id": "kazoemasu",
+   "japanese": "数えます【Ⅱ】",
+   "romaji": "kazoemasu",
+   "english": "to count",
+   "alt": "Hands counting on fingers",
+   "audio": "数えます.wav",
+   "img": true
+  },
+  {
+   "id": "shirabemasu",
+   "japanese": "調べます【Ⅱ】",
+   "romaji": "shirabemasu",
+   "english": "to look up",
+   "alt": "A person looking something up on a laptop",
+   "audio": "調べます.wav",
+   "img": true
+  },
+  {
+   "id": "toochaku_shimasu",
+   "japanese": "到着します【Ⅲ】",
+   "romaji": "toochaku shimasu",
+   "english": "to arrive",
+   "alt": "An arrow pointing down at a station where a train arrives",
+   "audio": "到着します.wav",
+   "img": true
+  },
+  {
+   "id": "omote",
+   "japanese": "表",
+   "romaji": "omote",
+   "english": "surface; front",
+   "alt": "The front side of an identification card",
+   "audio": "表.wav",
+   "img": true
+  },
+  {
+   "id": "myuujikaru",
+   "japanese": "ミュージカル",
+   "romaji": "myuujikaru",
+   "english": "musical",
+   "alt": "A performer singing and dancing in a musical",
+   "audio": "ミュージカル.wav",
+   "img": true
+  },
+  {
+   "id": "hakimasu",
+   "japanese": "はきます【Ⅰ】",
+   "romaji": "hakimasu",
+   "english": "to put on (lower-body clothing)",
+   "alt": "A woman wearing lower-body clothing",
+   "audio": "はきます.wav",
+   "img": true
+  },
+  {
+   "id": "kaburimasu",
+   "japanese": "かぶります【Ⅰ】",
+   "romaji": "kaburimasu",
+   "english": "to put on (one’s head)",
+   "alt": "A person wearing a cap on their head",
+   "audio": "被ります.wav",
+   "img": true
+  },
+  {
+   "id": "hakkiri",
+   "japanese": "はっきり",
+   "romaji": "hakkiri",
+   "english": "clearly",
+   "alt": "Clearly",
+   "audio": "はっきり.wav",
+   "img": false
+  },
+  {
+   "id": "ikko",
+   "japanese": "～個 Ex)1個",
+   "romaji": "~ko Ex. ikko",
+   "english": "counter for a piece Ex. one piece",
+   "alt": "Counter for a piece, e.g. one piece",
+   "audio": "1個.wav",
+   "img": false
+  },
+  {
+   "id": "ippaku",
+   "japanese": "～泊 Ex)1泊",
+   "romaji": "~haku/paku Ex. ippaku",
+   "english": "counter for nights of a stay Ex. one night",
+   "alt": "Counter for nights of a stay, e.g. one night",
+   "audio": "1泊.wav",
+   "img": false
+  },
+  {
+   "id": "tashikamemasu",
+   "japanese": "確かめます【Ⅱ】",
+   "romaji": "tashikamemasu",
+   "english": "to make sure",
+   "alt": "To make sure",
+   "audio": "確かめます.wav",
+   "img": false
+  },
+  {
+   "id": "chokusetsu",
+   "japanese": "直接",
+   "romaji": "chokusetsu",
+   "english": "direct",
+   "alt": "Direct",
+   "audio": "直接.wav",
+   "img": false
+  },
+  {
+   "id": "adobaisu",
+   "japanese": "アドバイス",
+   "romaji": "adobaisu",
+   "english": "advice",
+   "alt": "Advice",
+   "audio": "アドバイス.wav",
+   "img": false
+  },
+  {
+   "id": "shiken_o_ukemasu",
+   "japanese": "（試験を）受けます【Ⅱ】",
+   "romaji": "(shiken o) ukemasu",
+   "english": "to take (an exam)",
+   "alt": "To take (an exam)",
+   "audio": "試験を受けます.wav",
+   "img": false
+  },
+  {
+   "id": "soodan_shimasu",
+   "japanese": "相談します【Ⅲ】",
+   "romaji": "soodan shimasu",
+   "english": "to consult (someone)",
+   "alt": "To consult (someone)",
+   "audio": "相談します.wav",
+   "img": false
+  }
+ ]
+}

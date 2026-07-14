@@ -1,0 +1,188 @@
+{
+ "week": 9,
+ "day": 41,
+ "lesson_id": "14135739",
+ "title": "Day 41 Vocabulary",
+ "raw_audio_dir": "44. Week 9 - Day 41/5.Day 41 - VocabularyText/Day 41 - Vocabulary Audio",
+ "pages": [
+  "Vocabulary_Day_41_1.jpg",
+  "Vocabulary_Day_41_copy.png"
+ ],
+ "detect": {
+  "merge_gap": 12,
+  "min_colored": 100
+ },
+ "words": [
+  {
+   "id": "tsurete_ikimasu",
+   "japanese": "連れて行きます【Ⅰ】",
+   "romaji": "tsurete ikimasu",
+   "english": "to take someone somewhere",
+   "alt": "Two people walking together, one taking the other along",
+   "audio": "連れて行きます.wav",
+   "img": true
+  },
+  {
+   "id": "nimotsu",
+   "japanese": "荷物",
+   "romaji": "nimotsu",
+   "english": "luggage",
+   "alt": "A woman struggling to close an overstuffed suitcase",
+   "audio": "荷物.wav",
+   "img": true
+  },
+  {
+   "id": "mochimasu",
+   "japanese": "持ちます【Ⅰ】",
+   "romaji": "mochimasu",
+   "english": "to carry",
+   "alt": "A man carrying shopping bags in both hands",
+   "audio": "持ちます.wav",
+   "img": true
+  },
+  {
+   "id": "hito_o_okurimasu",
+   "japanese": "（人を）送ります【Ⅰ】",
+   "romaji": "(hito o) okurimasu",
+   "english": "to escort (someone) somewhere",
+   "alt": "A car dropping someone off at a train station",
+   "audio": "人を送ります.wav",
+   "img": true
+  },
+  {
+   "id": "naoshimasu",
+   "japanese": "直します【Ⅰ】",
+   "romaji": "naoshimasu",
+   "english": "to fix",
+   "alt": "A mechanic with a wrench repairing a car",
+   "audio": "直します.wav",
+   "img": true
+  },
+  {
+   "id": "keshigomu",
+   "japanese": "消しゴム",
+   "romaji": "keshigomu",
+   "english": "eraser",
+   "alt": "A blue eraser",
+   "audio": "消しゴム.wav",
+   "img": true
+  },
+  {
+   "id": "sukaitsurii",
+   "japanese": "スカイツリー",
+   "romaji": "sukaitsurii",
+   "english": "Skytree",
+   "alt": "The Tokyo Skytree tower",
+   "audio": "スカイツリー.wav",
+   "img": true
+  },
+  {
+   "id": "hikkoshi",
+   "japanese": "引っ越し",
+   "romaji": "hikkoshi",
+   "english": "moving",
+   "alt": "An excited woman next to a moving truck",
+   "audio": "引っ越し.wav",
+   "img": true
+  },
+  {
+   "id": "tetsudaimasu",
+   "japanese": "手伝います【Ⅰ】",
+   "romaji": "tetsudaimasu",
+   "english": "to help",
+   "alt": "A child helping a parent wash dishes",
+   "audio": "手伝います.wav",
+   "img": true
+  },
+  {
+   "id": "suidoo",
+   "japanese": "水道",
+   "romaji": "suidoo",
+   "english": "water supply",
+   "alt": "Water flowing from a tap",
+   "audio": "水道.wav",
+   "img": true
+  },
+  {
+   "id": "gasu",
+   "japanese": "ガス",
+   "romaji": "gasu",
+   "english": "gas",
+   "alt": "A gas valve with a red handle",
+   "audio": "ガス.wav",
+   "img": true
+  },
+  {
+   "id": "annai_shimasu",
+   "japanese": "案内します【Ⅲ】",
+   "romaji": "annai shimasu",
+   "english": "to guide",
+   "alt": "A female guide in uniform holding a flag",
+   "audio": "案内します.wav",
+   "img": true
+  },
+  {
+   "id": "shookai_shimasu",
+   "japanese": "紹介します【Ⅲ】",
+   "romaji": "shookai shimasu",
+   "english": "to introduce (someone)",
+   "alt": "Businessmen shaking hands as one introduces another",
+   "audio": "紹介します.wav",
+   "img": true
+  },
+  {
+   "id": "kono_aida",
+   "japanese": "この間",
+   "romaji": "kono aida",
+   "english": "the other day",
+   "alt": "The other day",
+   "audio": "この間.wav",
+   "img": false
+  },
+  {
+   "id": "zenbu",
+   "japanese": "全部",
+   "romaji": "zenbu",
+   "english": "all",
+   "alt": "All",
+   "audio": "全部.wav",
+   "img": false
+  },
+  {
+   "id": "hoka_ni",
+   "japanese": "ほかに",
+   "romaji": "hoka ni",
+   "english": "in addition",
+   "alt": "In addition",
+   "audio": "ほかに.wav",
+   "img": false
+  },
+  {
+   "id": "mata",
+   "japanese": "また",
+   "romaji": "mata",
+   "english": "not yet",
+   "alt": "Not yet",
+   "audio": "また.wav",
+   "img": false
+  },
+  {
+   "id": "owarimasu",
+   "japanese": "終わります【Ⅰ】",
+   "romaji": "owarimasu",
+   "english": "to finish",
+   "alt": "To finish",
+   "audio": "終わります.wav",
+   "img": false
+  },
+  {
+   "id": "kaisha",
+   "japanese": "～会社 Ex)水道会社",
+   "romaji": "~kaisha Ex. suidoo gaisha",
+   "english": "～company Ex. water supply company",
+   "alt": "Suffix for company, e.g. water supply company",
+   "audio": "水道会社.wav",
+   "img": false
+  }
+ ]
+}

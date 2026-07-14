@@ -1,0 +1,301 @@
+{
+  "id": "week_05/day_22_vocabulary",
+  "kind": "image",
+  "title": "Day 22 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 22 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "supein",
+      "japanese": "スペイン",
+      "romaji": "supein",
+      "english": "Spain",
+      "image": "../images/study/week_05/day_22/supein.png",
+      "audio": "../audio/vocabulary/week_05/day_22/supein.wav",
+      "alt": "The flag of Spain"
+    },
+    {
+      "id": "kimasu",
+      "japanese": "来ます【Ⅲ】",
+      "romaji": "kimasu",
+      "english": "to come",
+      "image": "../images/study/week_05/day_22/kimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_22/kimasu.wav",
+      "alt": "A traveller arriving beside a map of Japan"
+    },
+    {
+      "id": "shashin",
+      "japanese": "写真",
+      "romaji": "shashin",
+      "english": "photo",
+      "image": "../images/study/week_05/day_22/shashin.png",
+      "audio": "../audio/vocabulary/week_05/day_22/shashin.wav",
+      "alt": "A pile of family photographs"
+    },
+    {
+      "id": "torimasu",
+      "japanese": "撮ります【Ⅰ】",
+      "romaji": "torimasu",
+      "english": "to take (a photo)",
+      "image": "../images/study/week_05/day_22/torimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_22/torimasu.wav",
+      "alt": "Two women taking photos with their phones"
+    },
+    {
+      "id": "hana",
+      "japanese": "花",
+      "romaji": "hana",
+      "english": "flower",
+      "image": "../images/study/week_05/day_22/hana.png",
+      "audio": "../audio/vocabulary/week_05/day_22/hana.wav",
+      "alt": "Rows of smiling potted flowers"
+    },
+    {
+      "id": "ryoori",
+      "japanese": "料理",
+      "romaji": "ryoori",
+      "english": "cuisine",
+      "image": "../images/study/week_05/day_22/ryoori.png",
+      "audio": "../audio/vocabulary/week_05/day_22/ryoori.wav",
+      "alt": "A woman stir-frying food in a wok"
+    },
+    {
+      "id": "ryokoo",
+      "japanese": "旅行",
+      "romaji": "ryokoo",
+      "english": "travel",
+      "image": "../images/study/week_05/day_22/ryokoo.png",
+      "audio": "../audio/vocabulary/week_05/day_22/ryokoo.wav",
+      "alt": "A happy family riding an airplane"
+    },
+    {
+      "id": "sanpo",
+      "japanese": "散歩",
+      "romaji": "sanpo",
+      "english": "walk",
+      "image": "../images/study/week_05/day_22/sanpo.png",
+      "audio": "../audio/vocabulary/week_05/day_22/sanpo.wav",
+      "alt": "A couple strolling under a leafy tree"
+    },
+    {
+      "id": "saikuringu",
+      "japanese": "サイクリング",
+      "romaji": "saikuringu",
+      "english": "cycling",
+      "image": "../images/study/week_05/day_22/saikuringu.png",
+      "audio": "../audio/vocabulary/week_05/day_22/saikuringu.wav",
+      "alt": "A man and woman riding bicycles"
+    },
+    {
+      "id": "kosupure",
+      "japanese": "コスプレ",
+      "romaji": "kosupure",
+      "english": "cosplay",
+      "image": "../images/study/week_05/day_22/kosupure.png",
+      "audio": "../audio/vocabulary/week_05/day_22/kosupure.wav",
+      "alt": "A photographer taking pictures of a cosplayer"
+    },
+    {
+      "id": "shoppingu",
+      "japanese": "ショッピング",
+      "romaji": "shoppingu",
+      "english": "shopping",
+      "image": "../images/study/week_05/day_22/shoppingu.png",
+      "audio": "../audio/vocabulary/week_05/day_22/shoppingu.wav",
+      "alt": "A woman pushing a full shopping cart"
+    },
+    {
+      "id": "doraibu",
+      "japanese": "ドライブ",
+      "romaji": "doraibu",
+      "english": "drive, trip by car",
+      "image": "../images/study/week_05/day_22/doraibu.png",
+      "audio": "../audio/vocabulary/week_05/day_22/doraibu.wav",
+      "alt": "A family waving from a blue car"
+    },
+    {
+      "id": "kintore",
+      "japanese": "筋トレ",
+      "romaji": "kintore",
+      "english": "weight training",
+      "image": "../images/study/week_05/day_22/kintore.png",
+      "audio": "../audio/vocabulary/week_05/day_22/kintore.wav",
+      "alt": "Two people lifting weights at the gym"
+    },
+    {
+      "id": "neko",
+      "japanese": "猫",
+      "romaji": "neko",
+      "english": "cat",
+      "image": "../images/study/week_05/day_22/neko.png",
+      "audio": "../audio/vocabulary/week_05/day_22/neko.wav",
+      "alt": "A brown tabby cat winking"
+    },
+    {
+      "id": "neko_kafe",
+      "japanese": "猫カフェ",
+      "romaji": "neko kafe",
+      "english": "cat cafe",
+      "image": "../images/study/week_05/day_22/neko_kafe.png",
+      "audio": "../audio/vocabulary/week_05/day_22/neko_kafe.wav",
+      "alt": "A woman relaxing with cats at a cafe"
+    },
+    {
+      "id": "tabemasu",
+      "japanese": "食べます【Ⅱ】",
+      "romaji": "tabemasu",
+      "english": "to eat",
+      "image": "../images/study/week_05/day_22/tabemasu.png",
+      "audio": "../audio/vocabulary/week_05/day_22/tabemasu.wav",
+      "alt": "A girl happily eating watermelon"
+    },
+    {
+      "id": "benkyoo_shimasu",
+      "japanese": "勉強します【Ⅲ】",
+      "romaji": "benkyoo shimasu",
+      "english": "to study",
+      "image": "../images/study/week_05/day_22/benkyoo_shimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_22/benkyoo_shimasu.wav",
+      "alt": "A boy studying hard at his desk at night"
+    },
+    {
+      "id": "kikimasu",
+      "japanese": "聞きます【Ⅰ】",
+      "romaji": "kikimasu",
+      "english": "to listen to",
+      "image": "../images/study/week_05/day_22/kikimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_22/kikimasu.wav",
+      "alt": "A woman listening to music with headphones"
+    },
+    {
+      "id": "mimasu",
+      "japanese": "見ます【Ⅱ】",
+      "romaji": "mimasu",
+      "english": "to look",
+      "image": "../images/study/week_05/day_22/mimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_22/mimasu.wav",
+      "alt": "A couple looking at a smartphone together"
+    },
+    {
+      "id": "manga",
+      "japanese": "マンガ",
+      "romaji": "manga",
+      "english": "manga",
+      "image": "../images/study/week_05/day_22/manga.png",
+      "audio": "../audio/vocabulary/week_05/day_22/manga.wav",
+      "alt": "Open manga comics with a stack of volumes"
+    },
+    {
+      "id": "yomimasu",
+      "japanese": "読みます【Ⅰ】",
+      "romaji": "yomimasu",
+      "english": "to read",
+      "image": "../images/study/week_05/day_22/yomimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_22/yomimasu.wav",
+      "alt": "A boy lying down reading a book"
+    },
+    {
+      "id": "figyua",
+      "japanese": "フィギュア",
+      "romaji": "figyua",
+      "english": "figure",
+      "image": "../images/study/week_05/day_22/figyua.png",
+      "audio": "../audio/vocabulary/week_05/day_22/figyua.wav",
+      "alt": "A man playing with collectible figures"
+    },
+    {
+      "id": "piano",
+      "japanese": "ピアノ",
+      "romaji": "piano",
+      "english": "piano",
+      "image": "../images/study/week_05/day_22/piano.png",
+      "audio": "../audio/vocabulary/week_05/day_22/piano.wav",
+      "alt": "A girl at a grand piano with an arrow pointing to the piano"
+    },
+    {
+      "id": "gitaa",
+      "japanese": "ギター",
+      "romaji": "gitaa",
+      "english": "guitar",
+      "image": "../images/study/week_05/day_22/gitaa.png",
+      "audio": "../audio/vocabulary/week_05/day_22/gitaa.wav",
+      "alt": "An acoustic guitar"
+    },
+    {
+      "id": "hikimasu",
+      "japanese": "弾きます【Ⅰ】",
+      "romaji": "hikimasu",
+      "english": "to play (a stringed or keyboard instrument)",
+      "image": "../images/study/week_05/day_22/hikimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_22/hikimasu.wav",
+      "alt": "A girl playing the piano with an arrow pointing to her playing"
+    },
+    {
+      "id": "haha",
+      "japanese": "母",
+      "romaji": "haha",
+      "english": "mother",
+      "image": "../images/study/week_05/day_22/haha.png",
+      "audio": "../audio/vocabulary/week_05/day_22/haha.wav",
+      "alt": "A girl giving flowers to her mother, an arrow pointing to the mother"
+    },
+    {
+      "id": "okashi",
+      "japanese": "おかし",
+      "romaji": "okashi",
+      "english": "sweets",
+      "image": "../images/study/week_05/day_22/okashi.png",
+      "audio": "../audio/vocabulary/week_05/day_22/okashi.wav",
+      "alt": "A girl holding up a jar of assorted sweets"
+    },
+    {
+      "id": "dezaato",
+      "japanese": "デザート",
+      "romaji": "dezaato",
+      "english": "dessert",
+      "image": "../images/study/week_05/day_22/dezaato.png",
+      "audio": "../audio/vocabulary/week_05/day_22/dezaato.wav",
+      "alt": "An assortment of desserts including pudding and cake"
+    },
+    {
+      "id": "tomodachi",
+      "japanese": "友達",
+      "romaji": "tomodachi",
+      "english": "friends",
+      "image": "../images/study/week_05/day_22/tomodachi.png",
+      "audio": "../audio/vocabulary/week_05/day_22/tomodachi.wav",
+      "alt": "Two friends laughing arm in arm"
+    },
+    {
+      "id": "atsumemasu",
+      "japanese": "集めます【Ⅱ】",
+      "romaji": "atsumemasu",
+      "english": "to collect",
+      "audio": "../audio/vocabulary/week_05/day_22/atsumemasu.wav",
+      "alt": "To collect"
+    },
+    {
+      "id": "ikimasu",
+      "japanese": "行きます【Ⅰ】",
+      "romaji": "ikimasu",
+      "english": "to go",
+      "audio": "../audio/vocabulary/week_05/day_22/ikimasu.wav",
+      "alt": "To go"
+    },
+    {
+      "id": "gaikoku",
+      "japanese": "外国",
+      "romaji": "gaikoku",
+      "english": "foreign country",
+      "audio": "../audio/vocabulary/week_05/day_22/gaikoku.wav",
+      "alt": "Foreign country"
+    }
+  ]
+}

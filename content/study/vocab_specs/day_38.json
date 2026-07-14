@@ -1,0 +1,186 @@
+{
+ "week": 8,
+ "day": 38,
+ "lesson_id": "13962930",
+ "title": "Day 38 Vocabulary",
+ "raw_audio_dir": "41. Week 8 - Day 38/3.Day 38 - VocabularyText/Day 38 - Vocabulary Audio",
+ "pages": [
+  "Vocabulary_Day_38_1.jpg",
+  "Vocabulary_Day_38.png",
+  "Vocabulary_Day_38_2.jpg"
+ ],
+ "detect": {"min_band_h": 33, "merge_gap": 10},
+ "words": [
+  {
+   "id": "aki",
+   "japanese": "秋",
+   "romaji": "aki",
+   "english": "autumn",
+   "alt": "Autumn motifs: a dragonfly, mushrooms and a roasted sweet potato",
+   "audio": "秋.wav",
+   "img": true
+  },
+  {
+   "id": "rotenburo",
+   "japanese": "露天風呂",
+   "romaji": "rotenburo",
+   "english": "open air bath",
+   "alt": "A woman relaxing in an open air bath",
+   "audio": "露天風呂.wav",
+   "img": true
+  },
+  {
+   "id": "ofuro_ni_hairimasu",
+   "japanese": "（お風呂に）入ります【Ⅰ】",
+   "romaji": "(ofuro ni) hairimasu",
+   "english": "to take a bath",
+   "alt": "A boy entering the bathroom to take a bath",
+   "audio": "お風呂に入ります.wav",
+   "img": true
+  },
+  {
+   "id": "kooyoo",
+   "japanese": "紅葉",
+   "romaji": "kooyoo",
+   "english": "autumn colors",
+   "alt": "Trees with red and orange autumn leaves",
+   "audio": "紅葉.wav",
+   "img": true
+  },
+  {
+   "id": "dekakemasu",
+   "japanese": "出かけます【Ⅱ】",
+   "romaji": "dekakemasu",
+   "english": "to go out",
+   "alt": "A woman locking the front door as she goes out",
+   "audio": "出かけます.wav",
+   "img": true
+  },
+  {
+   "id": "purinto",
+   "japanese": "プリント",
+   "romaji": "purinto",
+   "english": "print, copy",
+   "alt": "Print, copy",
+   "audio": "プリント.wav",
+   "img": false
+  },
+  {
+   "id": "te",
+   "japanese": "手",
+   "romaji": "te",
+   "english": "hand",
+   "alt": "Hands in hand-washing steps with a yellow arrow",
+   "audio": "手.wav",
+   "img": true
+  },
+  {
+   "id": "araimasu",
+   "japanese": "洗います【Ⅰ】",
+   "romaji": "araimasu",
+   "english": "to wash",
+   "alt": "Hands being washed with water",
+   "audio": "洗います.wav",
+   "img": true
+  },
+  {
+   "id": "daigaku_o_demasu",
+   "japanese": "（大学を）出ます【Ⅱ】",
+   "romaji": "(daigaku o) demasu",
+   "english": "to graduate (from university)",
+   "alt": "A graduate in hakama holding her diploma",
+   "audio": "大学を出ます.wav",
+   "img": true
+  },
+  {
+   "id": "inaka",
+   "japanese": "田舎",
+   "romaji": "inaka",
+   "english": "countryside",
+   "alt": "A countryside landscape with fields, trees and a house",
+   "audio": "田舎.wav",
+   "img": true
+  },
+  {
+   "id": "hatachi",
+   "japanese": "二十歳",
+   "romaji": "hatachi",
+   "english": "20 years old",
+   "alt": "A young woman in kimono and a young man in suit at the coming-of-age ceremony",
+   "audio": "二十歳.wav",
+   "img": true
+  },
+  {
+   "id": "saikin",
+   "japanese": "最近",
+   "romaji": "saikin",
+   "english": "recently",
+   "alt": "Recently",
+   "audio": "最近.wav",
+   "img": false
+  },
+  {
+   "id": "ame_ga_furimasu",
+   "japanese": "（雨が）降ります【Ⅰ】",
+   "romaji": "(ame ga) furimasu",
+   "english": "to rain",
+   "alt": "To rain",
+   "audio": "雨が降ります.wav",
+   "img": false
+  },
+  {
+   "id": "sanpo",
+   "japanese": "散歩",
+   "romaji": "sanpo",
+   "english": "a stroll",
+   "alt": "A stroll",
+   "audio": "散歩.wav",
+   "img": false
+  },
+  {
+   "id": "tarimasu",
+   "japanese": "足ります【Ⅱ】",
+   "romaji": "tarimasu",
+   "english": "to be sufficient",
+   "alt": "To be sufficient",
+   "audio": "足ります.wav",
+   "img": false
+  },
+  {
+   "id": "oku",
+   "japanese": "～億 Ex)1億",
+   "romaji": "~oku Ex. ichioku",
+   "english": "hundred million",
+   "alt": "Hundred million, e.g. one hundred million",
+   "audio": "1億.wav",
+   "img": false
+  },
+  {
+   "id": "tsukimasu",
+   "japanese": "着きます【Ⅰ】",
+   "romaji": "tsukimasu",
+   "english": "to arrive",
+   "alt": "To arrive",
+   "audio": "着きます.wav",
+   "img": false
+  },
+  {
+   "id": "toshi",
+   "japanese": "年",
+   "romaji": "toshi",
+   "english": "year",
+   "alt": "Year",
+   "audio": "年.wav",
+   "img": false
+  },
+  {
+   "id": "toshi_o_torimasu",
+   "japanese": "（年を）取ります【Ⅰ】",
+   "romaji": "(toshi o) torimasu",
+   "english": "to grow old",
+   "alt": "To grow old",
+   "audio": "年を取ります.wav",
+   "img": false
+  }
+ ]
+}

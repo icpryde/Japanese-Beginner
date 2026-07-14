@@ -1,0 +1,267 @@
+{
+ "week": 10,
+ "day": 49,
+ "lesson_id": "14347053",
+ "title": "Day 49 Vocabulary",
+ "raw_audio_dir": "52. Week 10 - Day 49/3.Day 49 - VocabularyText/Day 49 - Vocabulary Audio",
+ "pages": [
+  "Vocabulary_Day_49_1.jpg",
+  "Vocabulary_Day_49_2.jpg",
+  "Vocabulary_Day_49_3.jpg"
+ ],
+ "detect": {"merge_gap": 5},
+ "words": [
+  {
+   "id": "isu",
+   "japanese": "いす",
+   "romaji": "isu",
+   "english": "chair",
+   "alt": "A blue office chair",
+   "audio": "いす.wav",
+   "img": true
+  },
+  {
+   "id": "sutemasu",
+   "japanese": "捨てます【Ⅱ】",
+   "romaji": "sutemasu",
+   "english": "to throw away",
+   "alt": "A man throwing away an empty can",
+   "audio": "捨てます.wav",
+   "img": true
+  },
+  {
+   "id": "gomi_o_dashimasu",
+   "japanese": "（ごみを）出します【Ⅰ】",
+   "romaji": "(gomi o) dashimasu",
+   "english": "to take out (garbage)",
+   "alt": "A man taking garbage bags out to a collection point",
+   "audio": "ごみを出します.wav",
+   "img": true
+  },
+  {
+   "id": "sodai_gomi",
+   "japanese": "粗大ゴミ",
+   "romaji": "sodai gomi",
+   "english": "large-size refuse",
+   "alt": "A pile of large refuse with a sofa, drawers and a bicycle",
+   "audio": "粗大ゴミ.wav",
+   "img": true
+  },
+  {
+   "id": "undoo_shimasu",
+   "japanese": "運動します【Ⅲ】",
+   "romaji": "undoo shimasu",
+   "english": "to work out",
+   "alt": "A woman working out with dumbbells",
+   "audio": "運動します.wav",
+   "img": true
+  },
+  {
+   "id": "jimu",
+   "japanese": "ジム",
+   "romaji": "jimu",
+   "english": "gym",
+   "alt": "A man exercising on a machine at the gym",
+   "audio": "ジム.wav",
+   "img": true
+  },
+  {
+   "id": "shutchoo",
+   "japanese": "出張",
+   "romaji": "shutchoo",
+   "english": "business trip",
+   "alt": "A businessman with a rolling suitcase and briefcase",
+   "audio": "出張.wav",
+   "img": true
+  },
+  {
+   "id": "deeto",
+   "japanese": "デート",
+   "romaji": "deeto",
+   "english": "date",
+   "alt": "A happy couple on a date",
+   "audio": "デート.wav",
+   "img": true
+  },
+  {
+   "id": "baabekyuu",
+   "japanese": "バーベキュー",
+   "romaji": "baabekyuu",
+   "english": "barbecue",
+   "alt": "People grilling food at a barbecue",
+   "audio": "バーベキュー.wav",
+   "img": true
+  },
+  {
+   "id": "supagetii",
+   "japanese": "スパゲティー",
+   "romaji": "supagetii",
+   "english": "spaghetti",
+   "alt": "A plate of spaghetti",
+   "audio": "スパゲティー.wav",
+   "img": true
+  },
+  {
+   "id": "tenchoo",
+   "japanese": "店長",
+   "romaji": "tenchoo",
+   "english": "shop manager",
+   "alt": "A shop manager wearing a green apron",
+   "audio": "店長.wav",
+   "img": true
+  },
+  {
+   "id": "piza",
+   "japanese": "ピザ",
+   "romaji": "piza",
+   "english": "pizza",
+   "alt": "A whole pizza with tomato and cheese",
+   "audio": "ピザ.wav",
+   "img": true
+  },
+  {
+   "id": "soobetsukai",
+   "japanese": "送別会",
+   "romaji": "soobetsukai",
+   "english": "farewell party",
+   "alt": "People toasting at a farewell party",
+   "audio": "送別会.wav",
+   "img": true
+  },
+  {
+   "id": "zemi",
+   "japanese": "ゼミ",
+   "romaji": "zemi",
+   "english": "seminar",
+   "alt": "Students discussing around a table in a seminar",
+   "audio": "ゼミ.wav",
+   "img": true
+  },
+  {
+   "id": "konsaato",
+   "japanese": "コンサート",
+   "romaji": "konsaato",
+   "english": "concert",
+   "alt": "An excited crowd cheering at a concert",
+   "audio": "コンサート.wav",
+   "img": true
+  },
+  {
+   "id": "chiketto",
+   "japanese": "チケット",
+   "romaji": "chiketto",
+   "english": "ticket",
+   "alt": "A green ticket",
+   "audio": "チケット.wav",
+   "img": true
+  },
+  {
+   "id": "atarimasu",
+   "japanese": "当たります【Ⅰ】",
+   "romaji": "atarimasu",
+   "english": "to win (a lottery)",
+   "alt": "A delighted woman winning a ticket on her laptop",
+   "audio": "当たります.wav",
+   "img": true
+  },
+  {
+   "id": "chiketto_o_torimasu",
+   "japanese": "（チケットを）取ります【Ⅰ】",
+   "romaji": "(chiketto o) torimasu",
+   "english": "to book (a ticket)",
+   "alt": "A man booking a ticket on his computer",
+   "audio": "チケットを取ります.wav",
+   "img": true
+  },
+  {
+   "id": "hikkoshi_shimasu",
+   "japanese": "引っ越しします【Ⅲ】",
+   "romaji": "hikkoshi shimasu",
+   "english": "to move (to a new house)",
+   "alt": "A woman celebrating in front of a moving truck",
+   "audio": "引っ越しします.wav",
+   "img": true
+  },
+  {
+   "id": "shusseki_shimasu",
+   "japanese": "出席します【Ⅲ】",
+   "romaji": "shusseki shimasu",
+   "english": "to attend",
+   "alt": "To attend",
+   "audio": "出席します.wav",
+   "img": false
+  },
+  {
+   "id": "senpai",
+   "japanese": "先輩",
+   "romaji": "senpai",
+   "english": "senior (at school or work)",
+   "alt": "Senior at school or work",
+   "audio": "先輩.wav",
+   "img": false
+  },
+  {
+   "id": "akimasu",
+   "japanese": "空きます",
+   "romaji": "akimasu",
+   "english": "to be empty",
+   "alt": "To be empty",
+   "audio": "空きます.wav",
+   "img": false
+  },
+  {
+   "id": "toku_ni",
+   "japanese": "特に",
+   "romaji": "toku ni",
+   "english": "especially",
+   "alt": "Especially",
+   "audio": "特に.wav",
+   "img": false
+  },
+  {
+   "id": "anna",
+   "japanese": "あんな～ Ex)あんな 人気がある 店",
+   "romaji": "anna~ Ex. anna ninki ga aru mise",
+   "english": "such~ Ex. Such a popular shop",
+   "alt": "Such, e.g. such a popular shop",
+   "audio": "あんな人気がある店.wav",
+   "img": false
+  },
+  {
+   "id": "ninki",
+   "japanese": "人気",
+   "romaji": "ninki",
+   "english": "popularity",
+   "alt": "Popularity",
+   "audio": "人気.wav",
+   "img": false
+  },
+  {
+   "id": "nakanaka",
+   "japanese": "なかなか",
+   "romaji": "nakanaka",
+   "english": "quite, very",
+   "alt": "Quite, very",
+   "audio": "なかなか.wav",
+   "img": false
+  },
+  {
+   "id": "konna",
+   "japanese": "こんな～ Ex)こんな 帽子",
+   "romaji": "konna~ Ex. konna booshi",
+   "english": "this kind of~ Ex. this kind of hat",
+   "alt": "This kind of, e.g. this kind of hat",
+   "audio": "こんな帽子.wav",
+   "img": false
+  },
+  {
+   "id": "sonna",
+   "japanese": "そんな～ Ex)そんな くつ",
+   "romaji": "sonna~ Ex. sonna kutsu",
+   "english": "such ~ Ex. such shoes",
+   "alt": "Such, e.g. such shoes",
+   "audio": "そんなくつ.wav",
+   "img": false
+  }
+ ]
+}

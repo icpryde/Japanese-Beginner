@@ -1,0 +1,175 @@
+{
+ "week": 11,
+ "day": 54,
+ "lesson_id": "14528558",
+ "title": "Day 54 Vocabulary",
+ "raw_audio_dir": "57. Week 11 - Day 54/3.Day 54 - VocabularyText/Day 54 - Vocabulary Audio",
+ "pages": [
+  "Vocabulary_Day_54.png",
+  "Vocabulary_Day_54_copy.png"
+ ],
+ "words": [
+  {
+   "id": "hotto",
+   "japanese": "ホット",
+   "romaji": "hotto",
+   "english": "hot",
+   "alt": "Steaming hot takoyaki on a red grill",
+   "audio": "ホット.wav",
+   "img": true
+  },
+  {
+   "id": "satoo",
+   "japanese": "砂糖",
+   "romaji": "satoo",
+   "english": "sugar",
+   "alt": "A jar of sugar with a pink spoon",
+   "audio": "砂糖.wav",
+   "img": true
+  },
+  {
+   "id": "miruku",
+   "japanese": "ミルク",
+   "romaji": "miruku",
+   "english": "milk",
+   "alt": "A metal pitcher of milk",
+   "audio": "ミルク.wav",
+   "img": false
+  },
+  {
+   "id": "burakku_koohii",
+   "japanese": "ブラックコーヒー",
+   "romaji": "burakku koohii",
+   "english": "black coffee",
+   "alt": "A cup of black coffee on a saucer",
+   "audio": "ブラックコーヒー.wav",
+   "img": true
+  },
+  {
+   "id": "kasa",
+   "japanese": "傘",
+   "romaji": "kasa",
+   "english": "umbrella",
+   "alt": "A woman walking with a clear umbrella",
+   "audio": "傘.wav",
+   "img": true
+  },
+  {
+   "id": "kasa_o_sashimasu",
+   "japanese": "（傘を）さします【Ⅰ】",
+   "romaji": "(kasa o) sashimasu",
+   "english": "to hold up (an umbrella)",
+   "alt": "A woman holding up an umbrella as she walks",
+   "audio": "傘をさします.wav",
+   "img": true
+  },
+  {
+   "id": "soosu",
+   "japanese": "ソース",
+   "romaji": "soosu",
+   "english": "sauce",
+   "alt": "A man dipping food into sauce on a plate",
+   "audio": "ソース.wav",
+   "img": true
+  },
+  {
+   "id": "soosu_o_tsukemasu",
+   "japanese": "（ソースを）つけます【Ⅱ】",
+   "romaji": "(soosu o) tsukemasu",
+   "english": "to dip (in the sauce)",
+   "alt": "A man dipping his food in the sauce",
+   "audio": "ソースをつけます.wav",
+   "img": true
+  },
+  {
+   "id": "banana",
+   "japanese": "バナナ",
+   "romaji": "banana",
+   "english": "banana",
+   "alt": "A peeled banana",
+   "audio": "バナナ.wav",
+   "img": true
+  },
+  {
+   "id": "nigai",
+   "japanese": "苦い",
+   "romaji": "nigai",
+   "english": "bitter",
+   "alt": "Bitter",
+   "audio": "苦い.wav",
+   "img": false
+  },
+  {
+   "id": "kimasu",
+   "japanese": "着ます【Ⅱ】",
+   "romaji": "kimasu",
+   "english": "to wear",
+   "alt": "To wear",
+   "audio": "着ます.wav",
+   "img": false
+  },
+  {
+   "id": "suwarimasu",
+   "japanese": "座ります【Ⅰ】",
+   "romaji": "suwarimasu",
+   "english": "to sit",
+   "alt": "To sit",
+   "audio": "座ります.wav",
+   "img": false
+  },
+  {
+   "id": "kyookasho",
+   "japanese": "教科書",
+   "romaji": "kyookasho",
+   "english": "textbook",
+   "alt": "Textbook",
+   "audio": "教科書.wav",
+   "img": false
+  },
+  {
+   "id": "hirakimasu",
+   "japanese": "開きます【Ⅰ】",
+   "romaji": "hirakimasu",
+   "english": "to open",
+   "alt": "To open",
+   "audio": "開きます.wav",
+   "img": false
+  },
+  {
+   "id": "shitsumon",
+   "japanese": "質問",
+   "romaji": "shitsumon",
+   "english": "question",
+   "alt": "Question",
+   "audio": "質問.wav",
+   "img": false
+  },
+  {
+   "id": "kenkooshindan",
+   "japanese": "健康診断",
+   "romaji": "kenkooshindan",
+   "english": "physical examination",
+   "alt": "Physical examination",
+   "audio": "健康診断.wav",
+   "img": false
+  },
+  {
+   "id": "yasemasu",
+   "japanese": "痩せます【Ⅱ】",
+   "romaji": "yasemasu",
+   "english": "to lose weight",
+   "alt": "To lose weight",
+   "audio": "痩せます.wav",
+   "img": false
+  },
+  {
+   "id": "kiro_10_kiro",
+   "japanese": "～キロ Ex) 10キロ",
+   "romaji": "~kiro Ex. 10 kiro",
+   "english": "~kilo Ex. 10 kilos",
+   "alt": "Kilo counter, e.g. 10 kilos",
+   "audio": "10キロ.wav",
+   "img": false
+  }
+ ]
+}

@@ -1,0 +1,196 @@
+{
+  "id": "week_10/day_48_vocabulary",
+  "kind": "image",
+  "title": "Day 48 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 48 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "modorimasu",
+      "japanese": "戻ります【Ⅰ】",
+      "romaji": "modorimasu",
+      "english": "to go back",
+      "image": "../images/study/week_10/day_48/modorimasu.png",
+      "audio": "../audio/vocabulary/week_10/day_48/modorimasu.wav",
+      "alt": "A man walking with a U-turn arrow above him"
+    },
+    {
+      "id": "kaze_o_hikimasu",
+      "japanese": "（かぜを）ひきます【Ⅰ】",
+      "romaji": "(kaze o) hikimasu",
+      "english": "to get (a cold)",
+      "image": "../images/study/week_10/day_48/kaze_o_hikimasu.png",
+      "audio": "../audio/vocabulary/week_10/day_48/kaze_o_hikimasu.wav",
+      "alt": "A sick man with a mask lying in bed"
+    },
+    {
+      "id": "nodo",
+      "japanese": "のど",
+      "romaji": "nodo",
+      "english": "throat",
+      "image": "../images/study/week_10/day_48/nodo.png",
+      "audio": "../audio/vocabulary/week_10/day_48/nodo.wav",
+      "alt": "A man holding his sore throat"
+    },
+    {
+      "id": "jugyoo",
+      "japanese": "授業",
+      "romaji": "jugyoo",
+      "english": "lesson",
+      "image": "../images/study/week_10/day_48/jugyoo.png",
+      "audio": "../audio/vocabulary/week_10/day_48/jugyoo.wav",
+      "alt": "A teacher giving a lesson to students at a blackboard"
+    },
+    {
+      "id": "hajimarimasu",
+      "japanese": "始まります【Ⅰ】",
+      "romaji": "hajimarimasu",
+      "english": "to start",
+      "image": "../images/study/week_10/day_48/hajimarimasu.png",
+      "audio": "../audio/vocabulary/week_10/day_48/hajimarimasu.wav",
+      "alt": "A theater stage with red curtains opening"
+    },
+    {
+      "id": "sagarimasu",
+      "japanese": "下がります【Ⅰ】",
+      "romaji": "sagarimasu",
+      "english": "to go down",
+      "image": "../images/study/week_10/day_48/sagarimasu.png",
+      "audio": "../audio/vocabulary/week_10/day_48/sagarimasu.wav",
+      "alt": "A bar chart declining with an orange downward arrow"
+    },
+    {
+      "id": "kafunshoo",
+      "japanese": "花粉症",
+      "romaji": "kafunshoo",
+      "english": "hay fever",
+      "image": "../images/study/week_10/day_48/kafunshoo.png",
+      "audio": "../audio/vocabulary/week_10/day_48/kafunshoo.wav",
+      "alt": "A man suffering from hay fever with itchy eyes and nose"
+    },
+    {
+      "id": "seki",
+      "japanese": "せき",
+      "romaji": "seki",
+      "english": "cough",
+      "image": "../images/study/week_10/day_48/seki.png",
+      "audio": "../audio/vocabulary/week_10/day_48/seki.wav",
+      "alt": "A woman coughing into her hand"
+    },
+    {
+      "id": "saifu",
+      "japanese": "財布",
+      "romaji": "saifu",
+      "english": "wallet",
+      "image": "../images/study/week_10/day_48/saifu.png",
+      "audio": "../audio/vocabulary/week_10/day_48/saifu.wav",
+      "alt": "A brown leather wallet"
+    },
+    {
+      "id": "kaidan",
+      "japanese": "階段",
+      "romaji": "kaidan",
+      "english": "stairs",
+      "image": "../images/study/week_10/day_48/kaidan.png",
+      "audio": "../audio/vocabulary/week_10/day_48/kaidan.wav",
+      "alt": "A flight of concrete stairs"
+    },
+    {
+      "id": "korobimasu",
+      "japanese": "転びます【Ⅰ】",
+      "romaji": "korobimasu",
+      "english": "to fall down",
+      "image": "../images/study/week_10/day_48/korobimasu.png",
+      "audio": "../audio/vocabulary/week_10/day_48/korobimasu.wav",
+      "alt": "A man tumbling down a set of stairs"
+    },
+    {
+      "id": "furiimaaketto",
+      "japanese": "フリーマーケット",
+      "romaji": "furiimaaketto",
+      "english": "flea market",
+      "image": "../images/study/week_10/day_48/furiimaaketto.png",
+      "audio": "../audio/vocabulary/week_10/day_48/furiimaaketto.wav",
+      "alt": "People browsing goods at a flea market stall"
+    },
+    {
+      "id": "otsukaresama_desu",
+      "japanese": "お疲れ様です",
+      "romaji": "otsukaresama desu",
+      "english": "Thank you for your hard work",
+      "audio": "../audio/vocabulary/week_10/day_48/otsukaresama_desu.wav",
+      "alt": "Thank you for your hard work"
+    },
+    {
+      "id": "kekkoo",
+      "japanese": "けっこう",
+      "romaji": "kekkoo",
+      "english": "fine; no thank you",
+      "audio": "../audio/vocabulary/week_10/day_48/kekkoo.wav",
+      "alt": "Fine; no thank you"
+    },
+    {
+      "id": "hitsuyoo_na",
+      "japanese": "必要（な）",
+      "romaji": "hitsuyoo (na)",
+      "english": "necessary",
+      "audio": "../audio/vocabulary/week_10/day_48/hitsuyoo_na.wav",
+      "alt": "Necessary"
+    },
+    {
+      "id": "tooi",
+      "japanese": "遠い",
+      "romaji": "tooi",
+      "english": "far",
+      "audio": "../audio/vocabulary/week_10/day_48/tooi.wav",
+      "alt": "Far"
+    },
+    {
+      "id": "jitsu_wa",
+      "japanese": "実は",
+      "romaji": "jitsu wa",
+      "english": "as a matter of fact",
+      "audio": "../audio/vocabulary/week_10/day_48/jitsu_wa.wav",
+      "alt": "As a matter of fact"
+    },
+    {
+      "id": "sorede",
+      "japanese": "それで",
+      "romaji": "sorede",
+      "english": "and then",
+      "audio": "../audio/vocabulary/week_10/day_48/sorede.wav",
+      "alt": "And then"
+    },
+    {
+      "id": "sore_wa_ikemasen_ne",
+      "japanese": "それは　いけませんね",
+      "romaji": "sore wa ikemasen ne",
+      "english": "that's too bad!",
+      "audio": "../audio/vocabulary/week_10/day_48/sore_wa_ikemasen_ne.wav",
+      "alt": "That's too bad!"
+    },
+    {
+      "id": "do_39_do",
+      "japanese": "～度 Ex)39度",
+      "romaji": "~do Ex. sanjuukyuu do",
+      "english": "～degrees Ex. 39 degrees",
+      "audio": "../audio/vocabulary/week_10/day_48/do_39_do.wav",
+      "alt": "Degrees, e.g. 39 degrees"
+    },
+    {
+      "id": "zuibun",
+      "japanese": "ずいぶん",
+      "romaji": "zuibun",
+      "english": "very",
+      "audio": "../audio/vocabulary/week_10/day_48/zuibun.wav",
+      "alt": "Very"
+    }
+  ]
+}

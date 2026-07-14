@@ -1,0 +1,208 @@
+{
+  "id": "week_08/day_36_vocabulary",
+  "kind": "image",
+  "title": "Day 36 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 36 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "byooin",
+      "japanese": "病院",
+      "romaji": "byooin",
+      "english": "hospital",
+      "image": "../images/study/week_08/day_36/byooin.png",
+      "audio": "../audio/vocabulary/week_08/day_36/byooin.wav",
+      "alt": "A hospital building with a red cross sign"
+    },
+    {
+      "id": "iimasu",
+      "japanese": "言います【Ⅰ】",
+      "romaji": "iimasu",
+      "english": "to say",
+      "image": "../images/study/week_08/day_36/iimasu.png",
+      "audio": "../audio/vocabulary/week_08/day_36/iimasu.wav",
+      "alt": "A woman speaking with a speech bubble"
+    },
+    {
+      "id": "kaze",
+      "japanese": "かぜ",
+      "romaji": "kaze",
+      "english": "cold",
+      "image": "../images/study/week_08/day_36/kaze.png",
+      "audio": "../audio/vocabulary/week_08/day_36/kaze.wav",
+      "alt": "A man with a cold wearing a face mask"
+    },
+    {
+      "id": "yasumimasu",
+      "japanese": "休みます【Ⅰ】",
+      "romaji": "yasumimasu",
+      "english": "to rest",
+      "image": "../images/study/week_08/day_36/yasumimasu.png",
+      "audio": "../audio/vocabulary/week_08/day_36/yasumimasu.wav",
+      "alt": "A boy lying on the grass resting"
+    },
+    {
+      "id": "arubaito",
+      "japanese": "アルバイト",
+      "romaji": "arubaito",
+      "english": "part-time job",
+      "image": "../images/study/week_08/day_36/arubaito.png",
+      "audio": "../audio/vocabulary/week_08/day_36/arubaito.wav",
+      "alt": "A woman carrying beer mugs at a part-time job"
+    },
+    {
+      "id": "naorimasu",
+      "japanese": "治ります【Ⅰ】",
+      "romaji": "naorimasu",
+      "english": "to be healed",
+      "image": "../images/study/week_08/day_36/naorimasu.png",
+      "audio": "../audio/vocabulary/week_08/day_36/naorimasu.wav",
+      "alt": "A healthy boy jumping energetically"
+    },
+    {
+      "id": "kusuri_o_nomimasu",
+      "japanese": "（薬を）飲みます【Ⅰ】",
+      "romaji": "(kusuri o) nomimasu",
+      "english": "to take a medicine",
+      "image": "../images/study/week_08/day_36/kusuri_o_nomimasu.png",
+      "audio": "../audio/vocabulary/week_08/day_36/kusuri_o_nomimasu.wav",
+      "alt": "A man taking medicine with a glass of water"
+    },
+    {
+      "id": "junbi_shimasu",
+      "japanese": "準備します【Ⅲ】",
+      "romaji": "junbi shimasu",
+      "english": "to prepare",
+      "image": "../images/study/week_08/day_36/junbi_shimasu.png",
+      "audio": "../audio/vocabulary/week_08/day_36/junbi_shimasu.wav",
+      "alt": "A student preparing her school bag"
+    },
+    {
+      "id": "baabekyuu",
+      "japanese": "バーベキュー",
+      "romaji": "baabekyuu",
+      "english": "BBQ",
+      "image": "../images/study/week_08/day_36/baabekyuu.png",
+      "audio": "../audio/vocabulary/week_08/day_36/baabekyuu.wav",
+      "alt": "A family having a barbecue"
+    },
+    {
+      "id": "chaaji_shimasu",
+      "japanese": "チャージします【Ⅲ】",
+      "romaji": "chaaji shimasu",
+      "english": "to charge (a card)",
+      "image": "../images/study/week_08/day_36/chaaji_shimasu.png",
+      "audio": "../audio/vocabulary/week_08/day_36/chaaji_shimasu.wav",
+      "alt": "A green IC transport card"
+    },
+    {
+      "id": "kooban",
+      "japanese": "交番",
+      "romaji": "kooban",
+      "english": "police box",
+      "image": "../images/study/week_08/day_36/kooban.png",
+      "audio": "../audio/vocabulary/week_08/day_36/kooban.wav",
+      "alt": "A small police box building"
+    },
+    {
+      "id": "sensei_ni_kikimasu",
+      "japanese": "（先生に）聞きます【Ⅰ】",
+      "romaji": "(sensei ni) kikimasu",
+      "english": "to ask (a teacher)",
+      "image": "../images/study/week_08/day_36/sensei_ni_kikimasu.png",
+      "audio": "../audio/vocabulary/week_08/day_36/sensei_ni_kikimasu.wav",
+      "alt": "A student asking a teacher a question at a desk"
+    },
+    {
+      "id": "panfuretto",
+      "japanese": "パンフレット",
+      "romaji": "panfuretto",
+      "english": "pamphlet",
+      "image": "../images/study/week_08/day_36/panfuretto.png",
+      "audio": "../audio/vocabulary/week_08/day_36/panfuretto.wav",
+      "alt": "A rack filled with pamphlets"
+    },
+    {
+      "id": "kopii_shimasu",
+      "japanese": "コピーします【Ⅲ】",
+      "romaji": "kopii shimasu",
+      "english": "to make a copy",
+      "image": "../images/study/week_08/day_36/kopii_shimasu.png",
+      "audio": "../audio/vocabulary/week_08/day_36/kopii_shimasu.wav",
+      "alt": "A man making a copy at a photocopier"
+    },
+    {
+      "id": "kaigishitsu",
+      "japanese": "会議室",
+      "romaji": "kaigishitsu",
+      "english": "meeting room",
+      "image": "../images/study/week_08/day_36/kaigishitsu.png",
+      "audio": "../audio/vocabulary/week_08/day_36/kaigishitsu.wav",
+      "alt": "People having a meeting around a table"
+    },
+    {
+      "id": "katazukemasu",
+      "japanese": "片づけます【Ⅱ】",
+      "romaji": "katazukemasu",
+      "english": "to tidy up",
+      "image": "../images/study/week_08/day_36/katazukemasu.png",
+      "audio": "../audio/vocabulary/week_08/day_36/katazukemasu.wav",
+      "alt": "A woman tidying up a desk"
+    },
+    {
+      "id": "korekara",
+      "japanese": "これから",
+      "romaji": "korekara",
+      "english": "after this",
+      "audio": "../audio/vocabulary/week_08/day_36/korekara.wav",
+      "alt": "After this"
+    },
+    {
+      "id": "kaeri",
+      "japanese": "帰り",
+      "romaji": "kaeri",
+      "english": "return",
+      "audio": "../audio/vocabulary/week_08/day_36/kaeri.wav",
+      "alt": "Return"
+    },
+    {
+      "id": "odaijini",
+      "japanese": "お大事に",
+      "romaji": "odaijini",
+      "english": "get well soon",
+      "audio": "../audio/vocabulary/week_08/day_36/odaijini.wav",
+      "alt": "Get well soon"
+    },
+    {
+      "id": "yasumi",
+      "japanese": "休み",
+      "romaji": "yasumi",
+      "english": "rest",
+      "audio": "../audio/vocabulary/week_08/day_36/yasumi.wav",
+      "alt": "Rest"
+    },
+    {
+      "id": "infuruenza",
+      "japanese": "インフルエンザ",
+      "romaji": "infuruenza",
+      "english": "influenza",
+      "audio": "../audio/vocabulary/week_08/day_36/infuruenza.wav",
+      "alt": "Influenza"
+    },
+    {
+      "id": "bu",
+      "japanese": "～部",
+      "romaji": "~bu",
+      "english": "counter of copies of paper material",
+      "audio": "../audio/vocabulary/week_08/day_36/bu.wav",
+      "alt": "Counter of copies of paper material"
+    }
+  ]
+}

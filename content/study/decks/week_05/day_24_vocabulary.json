@@ -1,0 +1,362 @@
+{
+  "id": "week_05/day_24_vocabulary",
+  "kind": "image",
+  "title": "Day 24 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 24 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "daibingu",
+      "japanese": "ダイビング",
+      "romaji": "daibingu",
+      "english": "diving",
+      "image": "../images/study/week_05/day_24/daibingu.png",
+      "audio": "../audio/vocabulary/week_05/day_24/daibingu.wav",
+      "alt": "Two scuba divers underwater"
+    },
+    {
+      "id": "dekimasu",
+      "japanese": "できます【Ⅱ】",
+      "romaji": "dekimasu",
+      "english": "to be able to do",
+      "audio": "../audio/vocabulary/week_05/day_24/dekimasu.wav",
+      "alt": "To be able to do"
+    },
+    {
+      "id": "unten",
+      "japanese": "運転",
+      "romaji": "unten",
+      "english": "to drive",
+      "image": "../images/study/week_05/day_24/unten.png",
+      "audio": "../audio/vocabulary/week_05/day_24/unten.wav",
+      "alt": "A woman driving a blue car"
+    },
+    {
+      "id": "shodoo",
+      "japanese": "書道",
+      "romaji": "shodoo",
+      "english": "calligraphy",
+      "image": "../images/study/week_05/day_24/shodoo.png",
+      "audio": "../audio/vocabulary/week_05/day_24/shodoo.wav",
+      "alt": "A man writing calligraphy with a brush"
+    },
+    {
+      "id": "naraimasu",
+      "japanese": "習います【Ⅰ】",
+      "romaji": "naraimasu",
+      "english": "to learn",
+      "image": "../images/study/week_05/day_24/naraimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_24/naraimasu.wav",
+      "alt": "A teacher teaching pupils at a blackboard"
+    },
+    {
+      "id": "hikimasu",
+      "japanese": "弾きます【Ⅰ】",
+      "romaji": "hikimasu",
+      "english": "to play (a stringed or keyboard instrument)",
+      "image": "../images/study/week_05/day_24/hikimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_24/hikimasu.wav",
+      "alt": "A man in a suit playing the violin"
+    },
+    {
+      "id": "hanashimasu",
+      "japanese": "話します【Ⅰ】",
+      "romaji": "hanashimasu",
+      "english": "to talk",
+      "image": "../images/study/week_05/day_24/hanashimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_24/hanashimasu.wav",
+      "alt": "A mother and child talking"
+    },
+    {
+      "id": "norimasu",
+      "japanese": "乗ります【Ⅰ】",
+      "romaji": "norimasu",
+      "english": "to get on (a train, a bicycle)",
+      "image": "../images/study/week_05/day_24/norimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_24/norimasu.wav",
+      "alt": "A girl riding a pink bicycle"
+    },
+    {
+      "id": "torakku",
+      "japanese": "トラック",
+      "romaji": "torakku",
+      "english": "truck",
+      "image": "../images/study/week_05/day_24/torakku.png",
+      "audio": "../audio/vocabulary/week_05/day_24/torakku.wav",
+      "alt": "A grey cargo truck"
+    },
+    {
+      "id": "utaimasu",
+      "japanese": "歌います【Ⅰ】",
+      "romaji": "utaimasu",
+      "english": "to sing",
+      "image": "../images/study/week_05/day_24/utaimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_24/utaimasu.wav",
+      "alt": "A girl singing into a microphone"
+    },
+    {
+      "id": "gitaa",
+      "japanese": "ギター",
+      "romaji": "gitaa",
+      "english": "guitar",
+      "image": "../images/study/week_05/day_24/gitaa.png",
+      "audio": "../audio/vocabulary/week_05/day_24/gitaa.wav",
+      "alt": "An acoustic guitar"
+    },
+    {
+      "id": "tenpura",
+      "japanese": "てんぷら",
+      "romaji": "tenpura",
+      "english": "tenpura",
+      "image": "../images/study/week_05/day_24/tenpura.png",
+      "audio": "../audio/vocabulary/week_05/day_24/tenpura.wav",
+      "alt": "A plate of tempura"
+    },
+    {
+      "id": "sukiyaki",
+      "japanese": "すき焼き",
+      "romaji": "sukiyaki",
+      "english": "sukiyaki",
+      "image": "../images/study/week_05/day_24/sukiyaki.png",
+      "audio": "../audio/vocabulary/week_05/day_24/sukiyaki.wav",
+      "alt": "A sukiyaki hot pot"
+    },
+    {
+      "id": "kabuki",
+      "japanese": "歌舞伎",
+      "romaji": "kabuki",
+      "english": "Kabuki",
+      "image": "../images/study/week_05/day_24/kabuki.png",
+      "audio": "../audio/vocabulary/week_05/day_24/kabuki.wav",
+      "alt": "A kabuki actor in costume and make-up"
+    },
+    {
+      "id": "chiketto",
+      "japanese": "チケット",
+      "romaji": "chiketto",
+      "english": "ticket",
+      "image": "../images/study/week_05/day_24/chiketto.png",
+      "audio": "../audio/vocabulary/week_05/day_24/chiketto.wav",
+      "alt": "A green ticket"
+    },
+    {
+      "id": "yoyaku",
+      "japanese": "予約",
+      "romaji": "yoyaku",
+      "english": "reservation",
+      "image": "../images/study/week_05/day_24/yoyaku.png",
+      "audio": "../audio/vocabulary/week_05/day_24/yoyaku.wav",
+      "alt": "A woman making a reservation by phone"
+    },
+    {
+      "id": "kaemasu",
+      "japanese": "換えます【Ⅱ】",
+      "romaji": "kaemasu",
+      "english": "to change",
+      "image": "../images/study/week_05/day_24/kaemasu.png",
+      "audio": "../audio/vocabulary/week_05/day_24/kaemasu.wav",
+      "alt": "Money bags being exchanged between dollars and yen"
+    },
+    {
+      "id": "kopii",
+      "japanese": "コピー",
+      "romaji": "kopii",
+      "english": "copy",
+      "audio": "../audio/vocabulary/week_05/day_24/kopii.wav",
+      "alt": "Copy"
+    },
+    {
+      "id": "tsukaimasu",
+      "japanese": "使います【Ⅰ】",
+      "romaji": "tsukaimasu",
+      "english": "to use",
+      "image": "../images/study/week_05/day_24/tsukaimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_24/tsukaimasu.wav",
+      "alt": "A man using a calculator at a desk"
+    },
+    {
+      "id": "intaanetto",
+      "japanese": "インターネット",
+      "romaji": "intaanetto",
+      "english": "internet",
+      "image": "../images/study/week_05/day_24/intaanetto.png",
+      "audio": "../audio/vocabulary/week_05/day_24/intaanetto.wav",
+      "alt": "A globe surrounded by national flags"
+    },
+    {
+      "id": "kaado",
+      "japanese": "カード",
+      "romaji": "kaado",
+      "english": "card",
+      "image": "../images/study/week_05/day_24/kaado.png",
+      "audio": "../audio/vocabulary/week_05/day_24/kaado.wav",
+      "alt": "A blue credit card"
+    },
+    {
+      "id": "haraimasu",
+      "japanese": "払います【Ⅰ】",
+      "romaji": "haraimasu",
+      "english": "to pay",
+      "image": "../images/study/week_05/day_24/haraimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_24/haraimasu.wav",
+      "alt": "A man paying at a counter"
+    },
+    {
+      "id": "hoteru",
+      "japanese": "ホテル",
+      "romaji": "hoteru",
+      "english": "hotel",
+      "image": "../images/study/week_05/day_24/hoteru.png",
+      "audio": "../audio/vocabulary/week_05/day_24/hoteru.wav",
+      "alt": "A blue hotel building"
+    },
+    {
+      "id": "tabako",
+      "japanese": "たばこ",
+      "romaji": "tabako",
+      "english": "tabaco",
+      "image": "../images/study/week_05/day_24/tabako.png",
+      "audio": "../audio/vocabulary/week_05/day_24/tabako.wav",
+      "alt": "An open pack of cigarettes"
+    },
+    {
+      "id": "suimasu",
+      "japanese": "吸います【Ⅰ】",
+      "romaji": "suimasu",
+      "english": "to smoke",
+      "image": "../images/study/week_05/day_24/suimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_24/suimasu.wav",
+      "alt": "A man smoking a cigarette"
+    },
+    {
+      "id": "furonto",
+      "japanese": "フロント",
+      "romaji": "furonto",
+      "english": "front desk",
+      "image": "../images/study/week_05/day_24/furonto.png",
+      "audio": "../audio/vocabulary/week_05/day_24/furonto.wav",
+      "alt": "A receptionist at a hotel front desk"
+    },
+    {
+      "id": "kuukoo",
+      "japanese": "空港",
+      "romaji": "kuukoo",
+      "english": "airport",
+      "image": "../images/study/week_05/day_24/kuukoo.png",
+      "audio": "../audio/vocabulary/week_05/day_24/kuukoo.wav",
+      "alt": "An airport terminal with a plane"
+    },
+    {
+      "id": "karimasu",
+      "japanese": "借ります【Ⅱ】",
+      "romaji": "karimasu",
+      "english": "to borrow",
+      "image": "../images/study/week_05/day_24/karimasu.png",
+      "audio": "../audio/vocabulary/week_05/day_24/karimasu.wav",
+      "alt": "A child borrowing a book from a woman"
+    },
+    {
+      "id": "sugoi",
+      "japanese": "すごい",
+      "romaji": "sugoi",
+      "english": "amazing",
+      "audio": "../audio/vocabulary/week_05/day_24/sugoi.wav",
+      "alt": "Amazing"
+    },
+    {
+      "id": "doitsugo",
+      "japanese": "ドイツ語",
+      "romaji": "doitsugo",
+      "english": "German language",
+      "audio": "../audio/vocabulary/week_05/day_24/doitsugo.wav",
+      "alt": "German language"
+    },
+    {
+      "id": "shuumatsu",
+      "japanese": "週末",
+      "romaji": "shuumatsu",
+      "english": "weekend",
+      "audio": "../audio/vocabulary/week_05/day_24/shuumatsu.wav",
+      "alt": "Weekend"
+    },
+    {
+      "id": "joozu_ni",
+      "japanese": "上手に",
+      "romaji": "joozu ni",
+      "english": "skillfully",
+      "audio": "../audio/vocabulary/week_05/day_24/joozu_ni.wav",
+      "alt": "Skillfully"
+    },
+    {
+      "id": "sama",
+      "japanese": "ー様",
+      "romaji": "sama",
+      "english": "Mr., Ms., Miss",
+      "audio": "../audio/vocabulary/week_05/day_24/sama.wav",
+      "alt": "Honorific title suffix"
+    },
+    {
+      "id": "bu",
+      "japanese": "部",
+      "romaji": "bu",
+      "english": "department",
+      "audio": "../audio/vocabulary/week_05/day_24/bu.wav",
+      "alt": "Department"
+    },
+    {
+      "id": "yoroshii",
+      "japanese": "よろしい",
+      "romaji": "yoroshii",
+      "english": "good",
+      "audio": "../audio/vocabulary/week_05/day_24/yoroshii.wav",
+      "alt": "Good"
+    },
+    {
+      "id": "onegai_shimasu",
+      "japanese": "お願いします【Ⅲ】",
+      "romaji": "onegai shimasu",
+      "english": "please",
+      "audio": "../audio/vocabulary/week_05/day_24/onegai_shimasu.wav",
+      "alt": "Please"
+    },
+    {
+      "id": "dare_demo",
+      "japanese": "誰でも",
+      "romaji": "dare demo",
+      "english": "anyone",
+      "audio": "../audio/vocabulary/week_05/day_24/dare_demo.wav",
+      "alt": "Anyone"
+    },
+    {
+      "id": "itsu_demo",
+      "japanese": "いつでも",
+      "romaji": "itsu demo",
+      "english": "any time",
+      "audio": "../audio/vocabulary/week_05/day_24/itsu_demo.wav",
+      "alt": "Any time"
+    },
+    {
+      "id": "jibun_de",
+      "japanese": "自分で",
+      "romaji": "jibun de",
+      "english": "by myself",
+      "audio": "../audio/vocabulary/week_05/day_24/jibun_de.wav",
+      "alt": "By myself"
+    },
+    {
+      "id": "ryookin",
+      "japanese": "料金",
+      "romaji": "ryookin",
+      "english": "fee",
+      "audio": "../audio/vocabulary/week_05/day_24/ryookin.wav",
+      "alt": "Fee"
+    }
+  ]
+}

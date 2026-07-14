@@ -1,0 +1,489 @@
+{
+  "id": "week_06/day_29_vocabulary",
+  "kind": "image",
+  "title": "Day 29 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 29 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "asakusa",
+      "japanese": "浅草",
+      "romaji": "asakusa",
+      "english": "Asakusa",
+      "image": "../images/study/week_06/day_29/asakusa.png",
+      "audio": "../audio/vocabulary/week_06/day_29/asakusa.wav",
+      "alt": "The red Kaminarimon gate of Asakusa with its big lantern"
+    },
+    {
+      "id": "hanabi",
+      "japanese": "花火",
+      "romaji": "hanabi",
+      "english": "fireworks",
+      "image": "../images/study/week_06/day_29/hanabi.png",
+      "audio": "../audio/vocabulary/week_06/day_29/hanabi.wav",
+      "alt": "Colourful fireworks bursting in a night sky"
+    },
+    {
+      "id": "taikai",
+      "japanese": "大会",
+      "romaji": "taikai",
+      "english": "gathering",
+      "image": "../images/study/week_06/day_29/taikai.png",
+      "audio": "../audio/vocabulary/week_06/day_29/taikai.wav",
+      "alt": "A crowd of spectators watching an event"
+    },
+    {
+      "id": "kaijou",
+      "japanese": "会場",
+      "romaji": "kaijou",
+      "english": "assembly hall",
+      "image": "../images/study/week_06/day_29/kaijou.png",
+      "audio": "../audio/vocabulary/week_06/day_29/kaijou.wav",
+      "alt": "A large event hall building"
+    },
+    {
+      "id": "jr",
+      "japanese": "ＪＲ",
+      "romaji": "JR",
+      "english": "JR company",
+      "image": "../images/study/week_06/day_29/jr.png",
+      "audio": "../audio/vocabulary/week_06/day_29/jr.wav",
+      "alt": "Three JR commuter trains stacked vertically"
+    },
+    {
+      "id": "ueno",
+      "japanese": "上野",
+      "romaji": "ueno",
+      "english": "Ueno",
+      "image": "../images/study/week_06/day_29/ueno.png",
+      "audio": "../audio/vocabulary/week_06/day_29/ueno.wav",
+      "alt": "A panda, a pond and a cherry blossom tree of Ueno"
+    },
+    {
+      "id": "chikatetsu",
+      "japanese": "地下鉄",
+      "romaji": "chikatetsu",
+      "english": "subway",
+      "image": "../images/study/week_06/day_29/chikatetsu.png",
+      "audio": "../audio/vocabulary/week_06/day_29/chikatetsu.wav",
+      "alt": "A subway train in a dark tunnel"
+    },
+    {
+      "id": "norikaemasu",
+      "japanese": "乗り換えます【Ⅱ】",
+      "romaji": "norikaemasu",
+      "english": "to change (bus or train)",
+      "image": "../images/study/week_06/day_29/norikaemasu.png",
+      "audio": "../audio/vocabulary/week_06/day_29/norikaemasu.wav",
+      "alt": "Two trains with an arrow showing a transfer between them"
+    },
+    {
+      "id": "orimasu",
+      "japanese": "降ります【Ⅱ】",
+      "romaji": "orimasu",
+      "english": "to get off",
+      "image": "../images/study/week_06/day_29/orimasu.png",
+      "audio": "../audio/vocabulary/week_06/day_29/orimasu.wav",
+      "alt": "A woman stepping off a green train"
+    },
+    {
+      "id": "aruite",
+      "japanese": "歩いて",
+      "romaji": "aruite",
+      "english": "walking",
+      "image": "../images/study/week_06/day_29/aruite.png",
+      "audio": "../audio/vocabulary/week_06/day_29/aruite.wav",
+      "alt": "A man in a blue shirt walking"
+    },
+    {
+      "id": "kuukou",
+      "japanese": "空港",
+      "romaji": "kuukou",
+      "english": "airport",
+      "image": "../images/study/week_06/day_29/kuukou.png",
+      "audio": "../audio/vocabulary/week_06/day_29/kuukou.wav",
+      "alt": "An airport terminal with a plane in front"
+    },
+    {
+      "id": "ekimae",
+      "japanese": "駅前",
+      "romaji": "ekimae",
+      "english": "in front of a station",
+      "image": "../images/study/week_06/day_29/ekimae.png",
+      "audio": "../audio/vocabulary/week_06/day_29/ekimae.wav",
+      "alt": "A blue station building with a STATION sign"
+    },
+    {
+      "id": "basu",
+      "japanese": "バス",
+      "romaji": "basu",
+      "english": "bus",
+      "image": "../images/study/week_06/day_29/basu.png",
+      "audio": "../audio/vocabulary/week_06/day_29/basu.wav",
+      "alt": "A green city bus"
+    },
+    {
+      "id": "norimasu",
+      "japanese": "乗ります【Ⅰ】",
+      "romaji": "norimasu",
+      "english": "to get on",
+      "image": "../images/study/week_06/day_29/norimasu.png",
+      "audio": "../audio/vocabulary/week_06/day_29/norimasu.wav",
+      "alt": "A person boarding a green train"
+    },
+    {
+      "id": "kao",
+      "japanese": "顔",
+      "romaji": "kao",
+      "english": "face",
+      "image": "../images/study/week_06/day_29/kao.png",
+      "audio": "../audio/vocabulary/week_06/day_29/kao.wav",
+      "alt": "A man's face framed in a mirror"
+    },
+    {
+      "id": "araimasu",
+      "japanese": "洗います【Ⅰ】",
+      "romaji": "araimasu",
+      "english": "to wash",
+      "image": "../images/study/week_06/day_29/araimasu.png",
+      "audio": "../audio/vocabulary/week_06/day_29/araimasu.wav",
+      "alt": "A boy splashing water on his face at a sink"
+    },
+    {
+      "id": "ha",
+      "japanese": "歯",
+      "romaji": "ha",
+      "english": "tooth",
+      "image": "../images/study/week_06/day_29/ha.png",
+      "audio": "../audio/vocabulary/week_06/day_29/ha.wav",
+      "alt": "A white tooth sitting in pink gums"
+    },
+    {
+      "id": "migakimasu",
+      "japanese": "磨きます【Ⅰ】",
+      "romaji": "migakimasu",
+      "english": "to brush (teeth)",
+      "image": "../images/study/week_06/day_29/migakimasu.png",
+      "audio": "../audio/vocabulary/week_06/day_29/migakimasu.wav",
+      "alt": "A woman brushing her teeth"
+    },
+    {
+      "id": "shawaa",
+      "japanese": "シャワー",
+      "romaji": "shawaa",
+      "english": "shower",
+      "image": "../images/study/week_06/day_29/shawaa.png",
+      "audio": "../audio/vocabulary/week_06/day_29/shawaa.wav",
+      "alt": "A shower head spraying water"
+    },
+    {
+      "id": "abimasu",
+      "japanese": "浴びます【Ⅱ】",
+      "romaji": "abimasu",
+      "english": "to take (a shower)",
+      "image": "../images/study/week_06/day_29/abimasu.png",
+      "audio": "../audio/vocabulary/week_06/day_29/abimasu.wav",
+      "alt": "A man washing his hair under a shower"
+    },
+    {
+      "id": "tomodachi",
+      "japanese": "友達",
+      "romaji": "tomodachi",
+      "english": "friends",
+      "image": "../images/study/week_06/day_29/tomodachi.png",
+      "audio": "../audio/vocabulary/week_06/day_29/tomodachi.wav",
+      "alt": "Four boys in colourful shirts standing together"
+    },
+    {
+      "id": "aimasu",
+      "japanese": "会います【Ⅰ】",
+      "romaji": "aimasu",
+      "english": "to meet",
+      "image": "../images/study/week_06/day_29/aimasu.png",
+      "audio": "../audio/vocabulary/week_06/day_29/aimasu.wav",
+      "alt": "Two women greeting each other"
+    },
+    {
+      "id": "osake",
+      "japanese": "お酒",
+      "romaji": "osake",
+      "english": "alcohol",
+      "image": "../images/study/week_06/day_29/osake.png",
+      "audio": "../audio/vocabulary/week_06/day_29/osake.wav",
+      "alt": "A beer mug, a wine bottle and a glass of wine"
+    },
+    {
+      "id": "nomimasu",
+      "japanese": "飲みます【Ⅰ】",
+      "romaji": "nomimasu",
+      "english": "to drink",
+      "image": "../images/study/week_06/day_29/nomimasu.png",
+      "audio": "../audio/vocabulary/week_06/day_29/nomimasu.wav",
+      "alt": "A boy drinking a glass of water"
+    },
+    {
+      "id": "bangohan",
+      "japanese": "晩ごはん",
+      "romaji": "bangohan",
+      "english": "dinner",
+      "image": "../images/study/week_06/day_29/bangohan.png",
+      "audio": "../audio/vocabulary/week_06/day_29/bangohan.wav",
+      "alt": "A family eating dinner together at a table"
+    },
+    {
+      "id": "tsukurimasu",
+      "japanese": "作ります【Ⅰ】",
+      "romaji": "tsukurimasu",
+      "english": "to make",
+      "image": "../images/study/week_06/day_29/tsukurimasu.png",
+      "audio": "../audio/vocabulary/week_06/day_29/tsukurimasu.wav",
+      "alt": "A woman preparing food on a cutting board"
+    },
+    {
+      "id": "dizuniirando",
+      "japanese": "ディズニーランド",
+      "romaji": "dizuniirando",
+      "english": "Disneyland",
+      "image": "../images/study/week_06/day_29/dizuniirando.png",
+      "audio": "../audio/vocabulary/week_06/day_29/dizuniirando.wav",
+      "alt": "A fairy-tale castle theme park"
+    },
+    {
+      "id": "yamanotesen",
+      "japanese": "山手線",
+      "romaji": "yamanotesen",
+      "english": "Yamanote line",
+      "image": "../images/study/week_06/day_29/yamanotesen.png",
+      "audio": "../audio/vocabulary/week_06/day_29/yamanotesen.wav",
+      "alt": "A green Yamanote line train"
+    },
+    {
+      "id": "keiyousen",
+      "japanese": "京葉線",
+      "romaji": "keiyousen",
+      "english": "Keiyou line",
+      "image": "../images/study/week_06/day_29/keiyousen.png",
+      "audio": "../audio/vocabulary/week_06/day_29/keiyousen.wav",
+      "alt": "A red Keiyou line train"
+    },
+    {
+      "id": "kaigi",
+      "japanese": "会議",
+      "romaji": "kaigi",
+      "english": "meeting",
+      "image": "../images/study/week_06/day_29/kaigi.png",
+      "audio": "../audio/vocabulary/week_06/day_29/kaigi.wav",
+      "alt": "People in a meeting with a presenter at a whiteboard"
+    },
+    {
+      "id": "shiryou",
+      "japanese": "資料",
+      "romaji": "shiryou",
+      "english": "documents",
+      "audio": "../audio/vocabulary/week_06/day_29/shiryou.wav",
+      "alt": "Documents"
+    },
+    {
+      "id": "muri_wo_shimasu",
+      "japanese": "無理をします【Ⅲ】",
+      "romaji": "muri wo shimasu",
+      "english": "to work too hard",
+      "image": "../images/study/week_06/day_29/muri_wo_shimasu.png",
+      "audio": "../audio/vocabulary/week_06/day_29/muri_wo_shimasu.wav",
+      "alt": "An exhausted man slumped over a desk piled with papers"
+    },
+    {
+      "id": "shigoto",
+      "japanese": "仕事",
+      "romaji": "shigoto",
+      "english": "job",
+      "image": "../images/study/week_06/day_29/shigoto.png",
+      "audio": "../audio/vocabulary/week_06/day_29/shigoto.wav",
+      "alt": "A woman working at a laptop"
+    },
+    {
+      "id": "te",
+      "japanese": "手",
+      "romaji": "te",
+      "english": "hand",
+      "image": "../images/study/week_06/day_29/te.png",
+      "audio": "../audio/vocabulary/week_06/day_29/te.wav",
+      "alt": "An open hand with the palm facing forward"
+    },
+    {
+      "id": "karada",
+      "japanese": "体",
+      "romaji": "karada",
+      "english": "body",
+      "audio": "../audio/vocabulary/week_06/day_29/karada.wav",
+      "alt": "Body"
+    },
+    {
+      "id": "ofuro",
+      "japanese": "お風呂",
+      "romaji": "ofuro",
+      "english": "bath",
+      "image": "../images/study/week_06/day_29/ofuro.png",
+      "audio": "../audio/vocabulary/week_06/day_29/ofuro.wav",
+      "alt": "A bathtub filled with water by a window"
+    },
+    {
+      "id": "hairimasu",
+      "japanese": "入ります【Ⅰ】",
+      "romaji": "hairimasu",
+      "english": "to enter, to go into",
+      "image": "../images/study/week_06/day_29/hairimasu.png",
+      "audio": "../audio/vocabulary/week_06/day_29/hairimasu.wav",
+      "alt": "A man relaxing in a wooden bathtub"
+    },
+    {
+      "id": "denwa_shimasu",
+      "japanese": "電話します【Ⅲ】",
+      "romaji": "denwa shimasu",
+      "english": "to make a call",
+      "image": "../images/study/week_06/day_29/denwa_shimasu.png",
+      "audio": "../audio/vocabulary/week_06/day_29/denwa_shimasu.wav",
+      "alt": "A man talking on a mobile phone"
+    },
+    {
+      "id": "sugu",
+      "japanese": "すぐ",
+      "romaji": "sugu",
+      "english": "immediately",
+      "audio": "../audio/vocabulary/week_06/day_29/sugu.wav",
+      "alt": "Immediately"
+    },
+    {
+      "id": "douyatte",
+      "japanese": "どうやって",
+      "romaji": "douyatte",
+      "english": "how",
+      "audio": "../audio/vocabulary/week_06/day_29/douyatte.wav",
+      "alt": "How"
+    },
+    {
+      "id": "sukairainaa",
+      "japanese": "スカイライナー",
+      "romaji": "sukairainaa",
+      "english": "Skyliner",
+      "audio": "../audio/vocabulary/week_06/day_29/sukairainaa.wav",
+      "alt": "The Skyliner airport express train"
+    },
+    {
+      "id": "ban",
+      "japanese": "～番",
+      "romaji": "~ban",
+      "english": "number~",
+      "audio": "../audio/vocabulary/week_06/day_29/ban.wav",
+      "alt": "Number counter suffix"
+    },
+    {
+      "id": "hibiya",
+      "japanese": "日比谷",
+      "romaji": "hibiya",
+      "english": "Hibiya",
+      "audio": "../audio/vocabulary/week_06/day_29/hibiya.wav",
+      "alt": "Hibiya district in Tokyo"
+    },
+    {
+      "id": "ginzasen",
+      "japanese": "銀座線",
+      "romaji": "ginzasen",
+      "english": "Ginza line",
+      "audio": "../audio/vocabulary/week_06/day_29/ginzasen.wav",
+      "alt": "The Ginza subway line"
+    },
+    {
+      "id": "maihama",
+      "japanese": "舞浜",
+      "romaji": "maihama",
+      "english": "Maihama",
+      "audio": "../audio/vocabulary/week_06/day_29/maihama.wav",
+      "alt": "Maihama station area"
+    },
+    {
+      "id": "sakini",
+      "japanese": "先に",
+      "romaji": "sakini",
+      "english": "earlier than",
+      "audio": "../audio/vocabulary/week_06/day_29/sakini.wav",
+      "alt": "Earlier than"
+    },
+    {
+      "id": "mou_sukoshi",
+      "japanese": "もう少し",
+      "romaji": "mou sukoshi",
+      "english": "a bit more",
+      "audio": "../audio/vocabulary/week_06/day_29/mou_sukoshi.wav",
+      "alt": "A bit more"
+    },
+    {
+      "id": "kabukiza",
+      "japanese": "歌舞伎座",
+      "romaji": "kabukiza",
+      "english": "Kabuki theatre",
+      "image": "../images/study/week_06/day_29/kabukiza.png",
+      "audio": "../audio/vocabulary/week_06/day_29/kabukiza.wav",
+      "alt": "A kabuki actor in costume and face paint"
+    },
+    {
+      "id": "okane",
+      "japanese": "お金",
+      "romaji": "okane",
+      "english": "money",
+      "image": "../images/study/week_06/day_29/okane.png",
+      "audio": "../audio/vocabulary/week_06/day_29/okane.wav",
+      "alt": "A money bag with a yen sign and stacks of bills"
+    },
+    {
+      "id": "oroshimasu",
+      "japanese": "下ろします【Ⅰ】",
+      "romaji": "oroshimasu",
+      "english": "to withdraw (money)",
+      "image": "../images/study/week_06/day_29/oroshimasu.png",
+      "audio": "../audio/vocabulary/week_06/day_29/oroshimasu.wav",
+      "alt": "A woman using a red ATM machine"
+    },
+    {
+      "id": "yoyaku_shimasu",
+      "japanese": "予約します【Ⅲ】",
+      "romaji": "yoyaku shimasu",
+      "english": "to make a reservation",
+      "image": "../images/study/week_06/day_29/yoyaku_shimasu.png",
+      "audio": "../audio/vocabulary/week_06/day_29/yoyaku_shimasu.wav",
+      "alt": "A round table with a reserved sign on it"
+    },
+    {
+      "id": "itadakimasu",
+      "japanese": "いただきます",
+      "romaji": "itadakimasu",
+      "english": "to receive",
+      "audio": "../audio/vocabulary/week_06/day_29/itadakimasu.wav",
+      "alt": "To receive"
+    },
+    {
+      "id": "koibito",
+      "japanese": "恋人",
+      "romaji": "koibito",
+      "english": "lover",
+      "image": "../images/study/week_06/day_29/koibito.png",
+      "audio": "../audio/vocabulary/week_06/day_29/koibito.wav",
+      "alt": "A smiling couple standing arm in arm with hearts around them"
+    },
+    {
+      "id": "deeto_shimasu",
+      "japanese": "デートします",
+      "romaji": "deeto shimasu",
+      "english": "to have a date",
+      "audio": "../audio/vocabulary/week_06/day_29/deeto_shimasu.wav",
+      "alt": "To have a date"
+    }
+  ]
+}

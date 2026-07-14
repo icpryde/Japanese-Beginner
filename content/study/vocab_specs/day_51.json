@@ -1,0 +1,256 @@
+{
+ "week": 11,
+ "day": 51,
+ "lesson_id": "14528193",
+ "title": "Day 51 Vocabulary",
+ "raw_audio_dir": "54. Week  11 - Day 51/5.Day 51 - VocabularyText/Day 51 - Vocabulary Audio",
+ "pages": [
+  "Vocabulary_Day_51.png",
+  "Vocabulary_Day_51_png2.png"
+ ],
+ "words": [
+  {
+   "id": "shinchiku",
+   "japanese": "新築",
+   "romaji": "shinchiku",
+   "english": "new building",
+   "alt": "A newly built two-story house with a blue roof",
+   "audio": "新築.wav",
+   "img": true
+  },
+  {
+   "id": "shinsen_na",
+   "japanese": "新鮮（な）",
+   "romaji": "shinsen (na)",
+   "english": "fresh",
+   "alt": "A cardboard box full of fresh vegetables",
+   "audio": "新鮮な.wav",
+   "img": true
+  },
+  {
+   "id": "onsen",
+   "japanese": "温泉",
+   "romaji": "onsen",
+   "english": "hot spring",
+   "alt": "A stone outdoor hot spring bath",
+   "audio": "温泉.wav",
+   "img": true
+  },
+  {
+   "id": "kangeikai",
+   "japanese": "歓迎会",
+   "romaji": "kangeikai",
+   "english": "welcome party",
+   "alt": "Office workers toasting with drinks at a welcome party",
+   "audio": "歓迎会.wav",
+   "img": true
+  },
+  {
+   "id": "kyuuryoo",
+   "japanese": "給料",
+   "romaji": "kyuuryoo",
+   "english": "salary",
+   "alt": "A happy man in a suit holding up his pay envelope",
+   "audio": "給料.wav",
+   "img": true
+  },
+  {
+   "id": "dorinku_baa",
+   "japanese": "ドリンクバー",
+   "romaji": "dorinku baa",
+   "english": "self-service drink area",
+   "alt": "A self-service drink bar with dispenser machines",
+   "audio": "ドリンクバー.wav",
+   "img": true
+  },
+  {
+   "id": "ldk_2ldk",
+   "japanese": "～LDK Ex）2LDK",
+   "romaji": "~LDK Ex. 2LDK",
+   "english": "～LDK Ex. 2LDK",
+   "alt": "Apartment layout counter, e.g. 2LDK",
+   "audio": "2LDK.wav",
+   "img": false
+  },
+  {
+   "id": "hiatari",
+   "japanese": "日当たり",
+   "romaji": "hiatari",
+   "english": "sunny; exposure to sunlight",
+   "alt": "Sunny; exposure to sunlight",
+   "audio": "日当たり.wav",
+   "img": false
+  },
+  {
+   "id": "soreni",
+   "japanese": "それに",
+   "romaji": "soreni",
+   "english": "besides",
+   "alt": "Besides",
+   "audio": "それに.wav",
+   "img": false
+  },
+  {
+   "id": "isshookenmei",
+   "japanese": "一生懸命",
+   "romaji": "isshookenmei",
+   "english": "with utmost effort",
+   "alt": "With utmost effort",
+   "audio": "一生懸命.wav",
+   "img": false
+  },
+  {
+   "id": "shusshinchi",
+   "japanese": "出身地",
+   "romaji": "shusshinchi",
+   "english": "birthplace",
+   "alt": "Birthplace",
+   "audio": "出身地.wav",
+   "img": false
+  },
+  {
+   "id": "kanji",
+   "japanese": "幹事",
+   "romaji": "kanji",
+   "english": "organizer",
+   "alt": "Organizer",
+   "audio": "幹事.wav",
+   "img": false
+  },
+  {
+   "id": "boku",
+   "japanese": "僕",
+   "romaji": "boku",
+   "english": "I, me (male term)",
+   "alt": "I, me (male term)",
+   "audio": "僕.wav",
+   "img": false
+  },
+  {
+   "id": "sanka_shimasu",
+   "japanese": "参加します【Ⅲ】",
+   "romaji": "sanka shimasu",
+   "english": "to participate",
+   "alt": "To participate",
+   "audio": "参加します.wav",
+   "img": false
+  },
+  {
+   "id": "zannen_na",
+   "japanese": "残念（な）",
+   "romaji": "zannen (na)",
+   "english": "unfortunate",
+   "alt": "Unfortunate",
+   "audio": "残念な.wav",
+   "img": false
+  },
+  {
+   "id": "i",
+   "japanese": "胃",
+   "romaji": "i",
+   "english": "stomach",
+   "alt": "Stomach",
+   "audio": "胃.wav",
+   "img": false
+  },
+  {
+   "id": "torihikisaki",
+   "japanese": "取引先",
+   "romaji": "torihikisaki",
+   "english": "customer",
+   "alt": "Customer",
+   "audio": "取引先.wav",
+   "img": false
+  },
+  {
+   "id": "settai",
+   "japanese": "接待",
+   "romaji": "settai",
+   "english": "entertainment (of guests)",
+   "alt": "Entertainment (of guests)",
+   "audio": "接待.wav",
+   "img": false
+  },
+  {
+   "id": "sorosoro",
+   "japanese": "そろそろ",
+   "romaji": "sorosoro",
+   "english": "soon; slowly",
+   "alt": "Soon; slowly",
+   "audio": "そろそろ.wav",
+   "img": false
+  },
+  {
+   "id": "zemi",
+   "japanese": "ゼミ",
+   "romaji": "zemi",
+   "english": "seminar",
+   "alt": "Seminar",
+   "audio": "ゼミ.wav",
+   "img": false
+  },
+  {
+   "id": "gasshuku",
+   "japanese": "合宿",
+   "romaji": "gasshuku",
+   "english": "training camp",
+   "alt": "Training camp",
+   "audio": "合宿.wav",
+   "img": false
+  },
+  {
+   "id": "osusume",
+   "japanese": "お勧め",
+   "romaji": "osusume",
+   "english": "recommendation",
+   "alt": "Recommendation",
+   "audio": "お勧め.wav",
+   "img": false
+  },
+  {
+   "id": "setsubi",
+   "japanese": "設備",
+   "romaji": "setsubi",
+   "english": "facilities",
+   "alt": "Facilities",
+   "audio": "設備.wav",
+   "img": false
+  },
+  {
+   "id": "shokuryoohin",
+   "japanese": "食料品",
+   "romaji": "shokuryoohin",
+   "english": "groceries",
+   "alt": "Groceries",
+   "audio": "食料品.wav",
+   "img": false
+  },
+  {
+   "id": "shinamono",
+   "japanese": "品物",
+   "romaji": "shinamono",
+   "english": "goods",
+   "alt": "Goods",
+   "audio": "品物.wav",
+   "img": false
+  },
+  {
+   "id": "oshare_na",
+   "japanese": "おしゃれ（な）",
+   "romaji": "oshare (na)",
+   "english": "stylish, fashionable",
+   "alt": "Stylish, fashionable",
+   "audio": "おしゃれな.wav",
+   "img": false
+  },
+  {
+   "id": "soobetsukai",
+   "japanese": "送別会",
+   "romaji": "soobetsukai",
+   "english": "farewell party",
+   "alt": "Farewell party",
+   "audio": "送別会.wav",
+   "img": false
+  }
+ ]
+}

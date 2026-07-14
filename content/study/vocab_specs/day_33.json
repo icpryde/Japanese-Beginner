@@ -1,0 +1,266 @@
+{
+ "week": 7,
+ "day": 33,
+ "lesson_id": "13834393",
+ "title": "Day 33 Vocabulary",
+ "raw_audio_dir": "36. Week 7 - Day 33/3.Day 33 - VocabularyText/Day33 - Vocabulary Audio",
+ "pages": [
+  "Vocabulary_Day_33_1.jpg",
+  "Vocabulary_Day_33_2.jpg"
+ ],
+ "detect": {"min_colored": 50, "merge_gap": 10},
+ "words": [
+  {
+   "id": "ensoku",
+   "japanese": "遠足",
+   "romaji": "ensoku",
+   "english": "excursion",
+   "alt": "Children walking on an excursion with backpacks",
+   "audio": "遠足.wav",
+   "img": true
+  },
+  {
+   "id": "kamakura",
+   "japanese": "鎌倉",
+   "romaji": "kamakura",
+   "english": "Kamakura",
+   "alt": "The Great Buddha of Kamakura",
+   "audio": "鎌倉.wav",
+   "img": true
+  },
+  {
+   "id": "tanoshimi",
+   "japanese": "楽しみ",
+   "romaji": "tanoshimi",
+   "english": "enjoyment",
+   "alt": "Two people excitedly imagining a present",
+   "audio": "楽しみ.wav",
+   "img": true
+  },
+  {
+   "id": "kaeshimasu",
+   "japanese": "返します【Ⅰ】",
+   "romaji": "kaeshimasu",
+   "english": "to return (something)",
+   "alt": "A boy returning an item to a woman",
+   "audio": "返します.wav",
+   "img": true
+  },
+  {
+   "id": "haraimasu",
+   "japanese": "払います【Ⅰ】",
+   "romaji": "haraimasu",
+   "english": "to pay",
+   "alt": "A man paying at a cash register",
+   "audio": "払います.wav",
+   "img": true
+  },
+  {
+   "id": "shiitoberuto",
+   "japanese": "シートベルト",
+   "romaji": "shiitoberuto",
+   "english": "seat belt",
+   "alt": "A driver wearing a seat belt",
+   "audio": "シートベルト.wav",
+   "img": true
+  },
+  {
+   "id": "buchoo",
+   "japanese": "部長",
+   "romaji": "buchoo",
+   "english": "head of a department",
+   "alt": "A department head sitting at his desk",
+   "audio": "部長.wav",
+   "img": true
+  },
+  {
+   "id": "kyoka",
+   "japanese": "許可",
+   "romaji": "kyoka",
+   "english": "permission",
+   "alt": "A business permit certificate document",
+   "audio": "許可.wav",
+   "img": true
+  },
+  {
+   "id": "dvd",
+   "japanese": "ＤＶＤ",
+   "romaji": "DVD",
+   "english": "DVD",
+   "alt": "A DVD movie case",
+   "audio": "DVD.wav",
+   "img": true
+  },
+  {
+   "id": "dashimasu",
+   "japanese": "出します【Ⅰ】",
+   "romaji": "dashimasu",
+   "english": "to submit",
+   "alt": "A man submitting documents at a desk",
+   "audio": "出します.wav",
+   "img": true
+  },
+  {
+   "id": "kusuri",
+   "japanese": "薬",
+   "romaji": "kusuri",
+   "english": "medicine",
+   "alt": "Assorted medicine pills, capsules and a syringe",
+   "audio": "薬.wav",
+   "img": true
+  },
+  {
+   "id": "junbi_shimasu",
+   "japanese": "準備します【Ⅲ】",
+   "romaji": "junbi shimasu",
+   "english": "to prepare",
+   "alt": "A student packing her school bag",
+   "audio": "準備します.wav",
+   "img": true
+  },
+  {
+   "id": "motte_ikimasu",
+   "japanese": "持って行きます【Ⅰ】",
+   "romaji": "motte ikimasu",
+   "english": "to carry (something) away",
+   "alt": "A man carrying away a suitcase",
+   "audio": "持って行きます.wav",
+   "img": true
+  },
+  {
+   "id": "hokenshoo",
+   "japanese": "保険証",
+   "romaji": "hokenshoo",
+   "english": "insurance card",
+   "alt": "A health insurance card",
+   "audio": "保険証.wav",
+   "img": true
+  },
+  {
+   "id": "juusho",
+   "japanese": "住所",
+   "romaji": "juusho",
+   "english": "address",
+   "alt": "A street map showing an address",
+   "audio": "住所.wav",
+   "img": true
+  },
+  {
+   "id": "kutsu",
+   "japanese": "靴",
+   "romaji": "kutsu",
+   "english": "shoes",
+   "alt": "A pair of leather shoes",
+   "audio": "靴.wav",
+   "img": true
+  },
+  {
+   "id": "nugimasu",
+   "japanese": "脱ぎます【Ⅰ】",
+   "romaji": "nugimasu",
+   "english": "to take off (shoes, clothes, etc.)",
+   "alt": "A boy taking off his shoes",
+   "audio": "脱ぎます.wav",
+   "img": true
+  },
+  {
+   "id": "seifuku",
+   "japanese": "制服",
+   "romaji": "seifuku",
+   "english": "uniform",
+   "alt": "Workers wearing different uniforms",
+   "audio": "制服.wav",
+   "img": true
+  },
+  {
+   "id": "kimasu",
+   "japanese": "着ます【Ⅱ】",
+   "romaji": "kimasu",
+   "english": "to wear",
+   "alt": "A boy putting on his clothes",
+   "audio": "着ます.wav",
+   "img": true
+  },
+  {
+   "id": "inkan",
+   "japanese": "印鑑",
+   "romaji": "inkan",
+   "english": "stamp, seal",
+   "alt": "A personal name stamp (hanko)",
+   "audio": "印鑑.wav",
+   "img": true
+  },
+  {
+   "id": "oshimasu",
+   "japanese": "押します【Ⅰ】",
+   "romaji": "oshimasu",
+   "english": "to press",
+   "alt": "A man pressing a stamp onto a document",
+   "audio": "押します.wav",
+   "img": true
+  },
+  {
+   "id": "shuugoo",
+   "japanese": "集合",
+   "romaji": "shuugoo",
+   "english": "gathering",
+   "alt": "Gathering",
+   "audio": "集合.wav",
+   "img": false
+  },
+  {
+   "id": "made_ni",
+   "japanese": "～までに",
+   "romaji": "~made ni",
+   "english": "by, not later than",
+   "alt": "By, not later than",
+   "audio": "までに.wav",
+   "img": false
+  },
+  {
+   "id": "kanarazu",
+   "japanese": "必ず",
+   "romaji": "kanarazu",
+   "english": "without exception",
+   "alt": "Without exception",
+   "audio": "必ず.wav",
+   "img": false
+  },
+  {
+   "id": "tsukimasu",
+   "japanese": "着きます【Ⅰ】",
+   "romaji": "tsukimasu",
+   "english": "to arrive",
+   "alt": "To arrive",
+   "audio": "着きます.wav",
+   "img": false
+  },
+  {
+   "id": "namae",
+   "japanese": "名前",
+   "romaji": "namae",
+   "english": "name",
+   "alt": "Name",
+   "audio": "名前.wav",
+   "img": false
+  },
+  {
+   "id": "hayaku",
+   "japanese": "早く",
+   "romaji": "hayaku",
+   "english": "early",
+   "alt": "Early",
+   "audio": "早く.wav",
+   "img": false
+  },
+  {
+   "id": "zenbu",
+   "japanese": "全部",
+   "romaji": "zenbu",
+   "english": "all",
+   "alt": "All",
+   "audio": "全部.wav",
+   "img": false
+  }
+ ]
+}

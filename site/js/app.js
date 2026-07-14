@@ -450,9 +450,14 @@
 
     handleAnswer(btn) {
       const question = this.questions[this.currentIndex];
-      const prev = question.querySelector('.q-option.selected');
-      if (prev) prev.classList.remove('selected');
-      btn.classList.add('selected');
+      if (question.dataset.multi) {
+        // Multi-answer question: toggle selections independently
+        btn.classList.toggle('selected');
+      } else {
+        const prev = question.querySelector('.q-option.selected');
+        if (prev) prev.classList.remove('selected');
+        btn.classList.add('selected');
+      }
       this.updateNav();
     },
 
@@ -472,10 +477,12 @@
         return;
       }
 
-      const selected = question.querySelector('.q-option.selected');
-      if (!selected) return;
+      const selectedAll = Array.from(question.querySelectorAll('.q-option.selected'));
+      if (!selectedAll.length) return;
 
-      const isCorrect = selected.dataset.correct === 'true';
+      const correctAll = Array.from(question.querySelectorAll('.q-option[data-correct="true"]'));
+      const isCorrect = selectedAll.length === correctAll.length &&
+        selectedAll.every(o => o.dataset.correct === 'true');
       const topic = question.dataset.topic || 'General';
       const explanation = question.dataset.explanation || '';
 
@@ -491,7 +498,9 @@
         o.classList.add('disabled');
         if (o.dataset.correct === 'true') o.classList.add('correct');
       });
-      if (!isCorrect) selected.classList.add('incorrect');
+      if (!isCorrect) selectedAll.forEach(o => {
+        if (o.dataset.correct !== 'true') o.classList.add('incorrect');
+      });
 
       // Show feedback
       const feedback = question.querySelector('.q-feedback');
@@ -500,8 +509,7 @@
           feedback.innerHTML = '✓ Correct!' + (explanation ? ' <span class="q-explanation">' + explanation + '</span>' : '');
           feedback.className = 'q-feedback show feedback-correct';
         } else {
-          const correctBtn = question.querySelector('.q-option[data-correct="true"]');
-          const correctText = correctBtn ? correctBtn.textContent : '';
+          const correctText = correctAll.map(b => b.textContent.trim()).join('  +  ');
           feedback.innerHTML = '✗ The answer is <strong>' + correctText + '</strong>' + (explanation ? '<br><span class="q-explanation">' + explanation + '</span>' : '');
           feedback.className = 'q-feedback show feedback-incorrect';
         }
@@ -547,7 +555,9 @@
 
       // Topic breakdown
       html += '<div class="quiz-topic-breakdown"><h4>Score by Topic</h4><div class="topic-bars">';
-      const topicOrder = ['Hiragana', 'Particles', 'Grammar', 'Vocabulary', 'Numbers & Counting'];
+      const baseOrder = ['Hiragana', 'Particles', 'Grammar', 'Vocabulary', 'Numbers & Counting', 'Listening', 'Reading', 'Grammar & Vocabulary'];
+      const topicOrder = baseOrder.filter(t => this.topicScores[t])
+        .concat(Object.keys(this.topicScores).filter(t => !baseOrder.includes(t)));
       for (const topic of topicOrder) {
         const s = this.topicScores[topic];
         if (!s) continue;
@@ -567,9 +577,11 @@
         const num = q.dataset.qnum;
         const topic = q.dataset.topic || '';
         const text = q.querySelector('.q-text')?.textContent || '';
-        const selected = q.querySelector('.q-option.selected');
-        const correctBtn = q.querySelector('.q-option[data-correct="true"]');
-        const isCorrect = selected && selected.dataset.correct === 'true';
+        const selectedAll = Array.from(q.querySelectorAll('.q-option.selected'));
+        const correctAll = Array.from(q.querySelectorAll('.q-option[data-correct="true"]'));
+        const isCorrect = selectedAll.length > 0 &&
+          selectedAll.length === correctAll.length &&
+          selectedAll.every(o => o.dataset.correct === 'true');
         const explanation = q.dataset.explanation || '';
 
         html += '<div class="review-item ' + (isCorrect ? 'review-correct' : 'review-incorrect') + '">';
@@ -581,8 +593,8 @@
         html += '<div class="review-question">' + text + '</div>';
         if (!isCorrect) {
           html += '<div class="review-answer-row">';
-          html += '<span class="wrong-yours">Your answer: ' + (selected ? selected.textContent : 'none') + '</span>';
-          html += '<span class="wrong-correct">Correct: ' + (correctBtn ? correctBtn.textContent : '') + '</span>';
+          html += '<span class="wrong-yours">Your answer: ' + (selectedAll.length ? selectedAll.map(o => o.textContent.trim()).join(', ') : 'none') + '</span>';
+          html += '<span class="wrong-correct">Correct: ' + correctAll.map(o => o.textContent.trim()).join(', ') + '</span>';
           html += '</div>';
         }
         if (explanation) html += '<div class="review-explanation">' + explanation + '</div>';

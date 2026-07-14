@@ -1,0 +1,180 @@
+{
+  "id": "week_12/day_59_vocabulary",
+  "kind": "image",
+  "title": "Day 59 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 59 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "chokin_shimasu",
+      "japanese": "貯金します【Ⅲ】",
+      "romaji": "chokin shimasu",
+      "english": "to save money",
+      "image": "../images/study/week_12/day_59/chokin_shimasu.png",
+      "audio": "../audio/vocabulary/week_12/day_59/chokin_shimasu.wav",
+      "alt": "A happy man tossing money into a savings jar"
+    },
+    {
+      "id": "maihoomu",
+      "japanese": "マイホーム",
+      "romaji": "maihoomu",
+      "english": "one's house",
+      "image": "../images/study/week_12/day_59/maihoomu.png",
+      "audio": "../audio/vocabulary/week_12/day_59/maihoomu.wav",
+      "alt": "A man standing proudly beside his own house and car"
+    },
+    {
+      "id": "bengoshi",
+      "japanese": "弁護士",
+      "romaji": "bengoshi",
+      "english": "lawyer",
+      "image": "../images/study/week_12/day_59/bengoshi.png",
+      "audio": "../audio/vocabulary/week_12/day_59/bengoshi.wav",
+      "alt": "A lawyer in a dark suit holding a book"
+    },
+    {
+      "id": "gaikokujin",
+      "japanese": "外国人",
+      "romaji": "gaikokujin",
+      "english": "foreigner",
+      "image": "../images/study/week_12/day_59/gaikokujin.png",
+      "audio": "../audio/vocabulary/week_12/day_59/gaikokujin.wav",
+      "alt": "A group of foreigners from different countries"
+    },
+    {
+      "id": "koibito",
+      "japanese": "恋人",
+      "romaji": "koibito",
+      "english": "lover",
+      "image": "../images/study/week_12/day_59/koibito.png",
+      "audio": "../audio/vocabulary/week_12/day_59/koibito.wav",
+      "alt": "A young couple standing close together"
+    },
+    {
+      "id": "tameiki",
+      "japanese": "ため息",
+      "romaji": "tameiki",
+      "english": "sigh",
+      "image": "../images/study/week_12/day_59/tameiki.png",
+      "audio": "../audio/vocabulary/week_12/day_59/tameiki.wav",
+      "alt": "A tired man sighing at his desk"
+    },
+    {
+      "id": "kowaremasu",
+      "japanese": "壊れます【Ⅱ】",
+      "romaji": "kowaremasu",
+      "english": "to be broken",
+      "image": "../images/study/week_12/day_59/kowaremasu.png",
+      "audio": "../audio/vocabulary/week_12/day_59/kowaremasu.wav",
+      "alt": "A camera smashed into pieces"
+    },
+    {
+      "id": "yogoremasu",
+      "japanese": "汚れます【Ⅱ】",
+      "romaji": "yogoremasu",
+      "english": "to get dirty",
+      "image": "../images/study/week_12/day_59/yogoremasu.png",
+      "audio": "../audio/vocabulary/week_12/day_59/yogoremasu.wav",
+      "alt": "Muddy, dirt-stained clothes"
+    },
+    {
+      "id": "shimaimasu",
+      "japanese": "しまいます【Ⅰ】",
+      "romaji": "shimaimasu",
+      "english": "to put away",
+      "image": "../images/study/week_12/day_59/shimaimasu.png",
+      "audio": "../audio/vocabulary/week_12/day_59/shimaimasu.wav",
+      "alt": "A woman putting things away in a closet"
+    },
+    {
+      "id": "seroteepu",
+      "japanese": "セロテープ",
+      "romaji": "seroteepu",
+      "english": "adesive tape",
+      "image": "../images/study/week_12/day_59/seroteepu.png",
+      "audio": "../audio/vocabulary/week_12/day_59/seroteepu.wav",
+      "alt": "A green dispenser of cellophane tape"
+    },
+    {
+      "id": "toirettopeepaa",
+      "japanese": "トイレットペーパー",
+      "romaji": "toirettopeepaa",
+      "english": "toilet paper",
+      "image": "../images/study/week_12/day_59/toirettopeepaa.png",
+      "audio": "../audio/vocabulary/week_12/day_59/toirettopeepaa.wav",
+      "alt": "A roll of toilet paper"
+    },
+    {
+      "id": "roon",
+      "japanese": "ローン",
+      "romaji": "roon",
+      "english": "loan",
+      "audio": "../audio/vocabulary/week_12/day_59/roon.wav",
+      "alt": "Loan"
+    },
+    {
+      "id": "hooritsu",
+      "japanese": "法律",
+      "romaji": "hooritsu",
+      "english": "law",
+      "audio": "../audio/vocabulary/week_12/day_59/hooritsu.wav",
+      "alt": "Law"
+    },
+    {
+      "id": "roomaji",
+      "japanese": "ローマ字",
+      "romaji": "roomaji",
+      "english": "Latin alphabet",
+      "audio": "../audio/vocabulary/week_12/day_59/roomaji.wav",
+      "alt": "Latin alphabet"
+    },
+    {
+      "id": "hikkoshimasu",
+      "japanese": "引っ越します【Ⅰ】",
+      "romaji": "hikkoshimasu",
+      "english": "to move",
+      "audio": "../audio/vocabulary/week_12/day_59/hikkoshimasu.wav",
+      "alt": "To move house"
+    },
+    {
+      "id": "hani",
+      "japanese": "範囲",
+      "romaji": "han'i",
+      "english": "extent, scope",
+      "audio": "../audio/vocabulary/week_12/day_59/hani.wav",
+      "alt": "Extent, scope"
+    },
+    {
+      "id": "gamuteepu",
+      "japanese": "ガムテープ",
+      "romaji": "gamuteepu",
+      "english": "packing tape",
+      "image": "../images/study/week_12/day_59/gamuteepu.png",
+      "audio": "../audio/vocabulary/week_12/day_59/gamuteepu.wav",
+      "alt": "A roll of brown packing tape"
+    },
+    {
+      "id": "seiji",
+      "japanese": "政治",
+      "romaji": "seiji",
+      "english": "politics",
+      "audio": "../audio/vocabulary/week_12/day_59/seiji.wav",
+      "alt": "Politics"
+    },
+    {
+      "id": "rekishi",
+      "japanese": "歴史",
+      "romaji": "rekishi",
+      "english": "history",
+      "audio": "../audio/vocabulary/week_12/day_59/rekishi.wav",
+      "alt": "History"
+    }
+  ]
+}

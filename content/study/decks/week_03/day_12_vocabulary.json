@@ -1,0 +1,428 @@
+{
+  "id": "week_03/day_12_vocabulary",
+  "kind": "image",
+  "title": "Day 12 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 12 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "nomimas",
+      "japanese": "のみます",
+      "romaji": "nomimas",
+      "english": "to drink",
+      "image": "../images/study/week_03/day_12/nomimas.png",
+      "audio": "../audio/vocabulary/week_03/day_12/nomimas.m4a",
+      "alt": "A man drinking a glass of water"
+    },
+    {
+      "id": "osake",
+      "japanese": "おさけ",
+      "romaji": "osake",
+      "english": "alcohol",
+      "image": "../images/study/week_03/day_12/osake.png",
+      "audio": "../audio/vocabulary/week_03/day_12/osake.m4a",
+      "alt": "A beer mug, wine bottle and glass of wine"
+    },
+    {
+      "id": "yaksoku",
+      "japanese": "やくそく",
+      "romaji": "yaksoku",
+      "english": "promise",
+      "image": "../images/study/week_03/day_12/yaksoku.png",
+      "audio": "../audio/vocabulary/week_03/day_12/yaksoku.m4a",
+      "alt": "Two businessmen making a pinky promise"
+    },
+    {
+      "id": "kaigi",
+      "japanese": "かいぎ",
+      "romaji": "kaigi",
+      "english": "meeting",
+      "image": "../images/study/week_03/day_12/kaigi.png",
+      "audio": "../audio/vocabulary/week_03/day_12/kaigi.m4a",
+      "alt": "People in a business meeting with a presentation board"
+    },
+    {
+      "id": "jikan",
+      "japanese": "じかん",
+      "romaji": "jikan",
+      "english": "time",
+      "image": "../images/study/week_03/day_12/jikan.png",
+      "audio": "../audio/vocabulary/week_03/day_12/jikan.m4a",
+      "alt": "A pocket watch flying away on wings"
+    },
+    {
+      "id": "kankokugo",
+      "japanese": "かんこくご",
+      "romaji": "kankokugo",
+      "english": "Korean",
+      "image": "../images/study/week_03/day_12/kankokugo.png",
+      "audio": "../audio/vocabulary/week_03/day_12/kankokugo.m4a",
+      "alt": "A woman reading a Korean textbook"
+    },
+    {
+      "id": "okane",
+      "japanese": "おかね",
+      "romaji": "okane",
+      "english": "money",
+      "image": "../images/study/week_03/day_12/okane.png",
+      "audio": "../audio/vocabulary/week_03/day_12/okane.m4a",
+      "alt": "A money bag with a yen sign and stacks of banknotes"
+    },
+    {
+      "id": "benkyoo",
+      "japanese": "べんきょう",
+      "romaji": "benkyoo",
+      "english": "study",
+      "image": "../images/study/week_03/day_12/benkyoo.png",
+      "audio": "../audio/vocabulary/week_03/day_12/benkyoo.m4a",
+      "alt": "A boy studying intently at a desk"
+    },
+    {
+      "id": "daigaksee",
+      "japanese": "だいがくせい",
+      "romaji": "daigaksee",
+      "english": "university student",
+      "image": "../images/study/week_03/day_12/daigaksee.png",
+      "audio": "../audio/vocabulary/week_03/day_12/daigaksee.m4a",
+      "alt": "Two university students carrying books"
+    },
+    {
+      "id": "tomodachi",
+      "japanese": "ともだち",
+      "romaji": "tomodachi",
+      "english": "friend",
+      "image": "../images/study/week_03/day_12/tomodachi.png",
+      "audio": "../audio/vocabulary/week_03/day_12/tomodachi.m4a",
+      "alt": "A group of friends with arms around each other"
+    },
+    {
+      "id": "tanjoobi",
+      "japanese": "たんじょうび",
+      "romaji": "tanjoobi",
+      "english": "birthday",
+      "image": "../images/study/week_03/day_12/tanjoobi.png",
+      "audio": "../audio/vocabulary/week_03/day_12/tanjoobi.m4a",
+      "alt": "A birthday party with a cake and presents"
+    },
+    {
+      "id": "keeki",
+      "japanese": "ケーキ",
+      "romaji": "keeki",
+      "english": "cake",
+      "image": "../images/study/week_03/day_12/keeki.png",
+      "audio": "../audio/vocabulary/week_03/day_12/keeki.m4a",
+      "alt": "A slice of strawberry shortcake"
+    },
+    {
+      "id": "kaimas",
+      "japanese": "かいます",
+      "romaji": "kaimas",
+      "english": "to buy",
+      "image": "../images/study/week_03/day_12/kaimas.png",
+      "audio": "../audio/vocabulary/week_03/day_12/kaimas.m4a",
+      "alt": "A woman shopping with a bag of groceries"
+    },
+    {
+      "id": "isogashii",
+      "japanese": "いそがしい",
+      "romaji": "isogashii",
+      "english": "busy",
+      "image": "../images/study/week_03/day_12/isogashii.png",
+      "audio": "../audio/vocabulary/week_03/day_12/isogashii.m4a",
+      "alt": "A busy businessman sweating at his desk"
+    },
+    {
+      "id": "ikimas",
+      "japanese": "いきます",
+      "romaji": "ikimas",
+      "english": "to go",
+      "image": "../images/study/week_03/day_12/ikimas.png",
+      "audio": "../audio/vocabulary/week_03/day_12/ikimas.m4a",
+      "alt": "A boy walking forward"
+    },
+    {
+      "id": "nemas",
+      "japanese": "ねます",
+      "romaji": "nemas",
+      "english": "to sleep",
+      "image": "../images/study/week_03/day_12/nemas.png",
+      "audio": "../audio/vocabulary/week_03/day_12/nemas.m4a",
+      "alt": "A person sleeping under a blue futon"
+    },
+    {
+      "id": "nemui",
+      "japanese": "ねむい",
+      "romaji": "nemui",
+      "english": "sleepy",
+      "image": "../images/study/week_03/day_12/nemui.png",
+      "audio": "../audio/vocabulary/week_03/day_12/nemui.m4a",
+      "alt": "A sleepy man yawning"
+    },
+    {
+      "id": "nihongo",
+      "japanese": "にほんご",
+      "romaji": "nihongo",
+      "english": "Japanese",
+      "image": "../images/study/week_03/day_12/nihongo.png",
+      "audio": "../audio/vocabulary/week_03/day_12/nihongo.m4a",
+      "alt": "A man studying Japanese with hiragana speech bubbles"
+    },
+    {
+      "id": "anime",
+      "japanese": "アニメ",
+      "romaji": "anime",
+      "english": "anime",
+      "image": "../images/study/week_03/day_12/anime.png",
+      "audio": "../audio/vocabulary/week_03/day_12/anime.m4a",
+      "alt": "A child watching a robot anime on TV"
+    },
+    {
+      "id": "kanji",
+      "japanese": "かんじ",
+      "romaji": "kanji",
+      "english": "kanji",
+      "image": "../images/study/week_03/day_12/kanji.png",
+      "audio": "../audio/vocabulary/week_03/day_12/kanji.m4a",
+      "alt": "A thick kanji dictionary"
+    },
+    {
+      "id": "ame",
+      "japanese": "あめ",
+      "romaji": "ame",
+      "english": "rain",
+      "image": "../images/study/week_03/day_12/ame.png",
+      "audio": "../audio/vocabulary/week_03/day_12/ame.m4a",
+      "alt": "Rain clouds and an umbrella"
+    },
+    {
+      "id": "kaerimas",
+      "japanese": "かえります",
+      "romaji": "kaerimas",
+      "english": "to come back (home)",
+      "image": "../images/study/week_03/day_12/kaerimas.png",
+      "audio": "../audio/vocabulary/week_03/day_12/kaerimas.m4a",
+      "alt": "A father coming home to his family"
+    },
+    {
+      "id": "kekkonshiki",
+      "japanese": "けっこんしき",
+      "romaji": "kekkonshiki",
+      "english": "wedding",
+      "image": "../images/study/week_03/day_12/kekkonshiki.png",
+      "audio": "../audio/vocabulary/week_03/day_12/kekkonshiki.m4a",
+      "alt": "A bride and groom at a wedding"
+    },
+    {
+      "id": "ski_na",
+      "japanese": "すき（な）",
+      "romaji": "ski(na)",
+      "english": "liked",
+      "image": "../images/study/week_03/day_12/ski_na.png",
+      "audio": "../audio/vocabulary/week_03/day_12/ski_na.m4a",
+      "alt": "A woman with heart-shaped eyes"
+    },
+    {
+      "id": "hima_na",
+      "japanese": "ひま（な）",
+      "romaji": "hima(na)",
+      "english": "free time",
+      "image": "../images/study/week_03/day_12/hima_na.png",
+      "audio": "../audio/vocabulary/week_03/day_12/hima_na.m4a",
+      "alt": "A bored man lying on a cushion"
+    },
+    {
+      "id": "tabemas",
+      "japanese": "たべます",
+      "romaji": "tabemas",
+      "english": "to eat",
+      "image": "../images/study/week_03/day_12/tabemas.png",
+      "audio": "../audio/vocabulary/week_03/day_12/tabemas.m4a",
+      "alt": "A man happily eating a meal"
+    },
+    {
+      "id": "mise",
+      "japanese": "みせ",
+      "romaji": "mise",
+      "english": "store",
+      "image": "../images/study/week_03/day_12/mise.png",
+      "audio": "../audio/vocabulary/week_03/day_12/mise.m4a",
+      "alt": "A small shop with a striped awning"
+    },
+    {
+      "id": "oishii",
+      "japanese": "おいしい",
+      "romaji": "oishii",
+      "english": "delicious",
+      "image": "../images/study/week_03/day_12/oishii.png",
+      "audio": "../audio/vocabulary/week_03/day_12/oishii.m4a",
+      "alt": "A woman delighted by delicious food"
+    },
+    {
+      "id": "aimas",
+      "japanese": "あいます",
+      "romaji": "aimas",
+      "english": "to meet",
+      "image": "../images/study/week_03/day_12/aimas.png",
+      "audio": "../audio/vocabulary/week_03/day_12/aimas.m4a",
+      "alt": "Two women meeting happily"
+    },
+    {
+      "id": "eki",
+      "japanese": "～えき",
+      "romaji": "~eki",
+      "english": "~station",
+      "image": "../images/study/week_03/day_12/eki.png",
+      "audio": "../audio/vocabulary/week_03/day_12/eki.m4a",
+      "alt": "A train station building"
+    },
+    {
+      "id": "takushii",
+      "japanese": "タクシー",
+      "romaji": "takushii",
+      "english": "taxi",
+      "image": "../images/study/week_03/day_12/takushii.png",
+      "audio": "../audio/vocabulary/week_03/day_12/takushii.m4a",
+      "alt": "A yellow taxi cab"
+    },
+    {
+      "id": "supeingo",
+      "japanese": "スペインご",
+      "romaji": "supeingo",
+      "english": "Spanish",
+      "image": "../images/study/week_03/day_12/supeingo.png",
+      "audio": "../audio/vocabulary/week_03/day_12/supeingo.m4a",
+      "alt": "A man reading a Spanish textbook"
+    },
+    {
+      "id": "musume",
+      "japanese": "むすめ",
+      "romaji": "musume",
+      "english": "daughter",
+      "image": "../images/study/week_03/day_12/musume.png",
+      "audio": "../audio/vocabulary/week_03/day_12/musume.m4a",
+      "alt": "A girl riding on her father's shoulders"
+    },
+    {
+      "id": "sakini",
+      "japanese": "さきに",
+      "romaji": "sakini",
+      "english": "first",
+      "image": "../images/study/week_03/day_12/sakini.png",
+      "audio": "../audio/vocabulary/week_03/day_12/sakini.m4a",
+      "alt": "A woman hurrying ahead and waving"
+    },
+    {
+      "id": "konban",
+      "japanese": "こんばん",
+      "romaji": "konban",
+      "english": "this evening",
+      "audio": "../audio/vocabulary/week_03/day_12/konban.m4a",
+      "alt": "This evening"
+    },
+    {
+      "id": "kondo",
+      "japanese": "こんど",
+      "romaji": "kondo",
+      "english": "next time",
+      "audio": "../audio/vocabulary/week_03/day_12/kondo.m4a",
+      "alt": "Next time"
+    },
+    {
+      "id": "taisetsu_na",
+      "japanese": "たいせつ（な）",
+      "romaji": "taisetsu(na)",
+      "english": "important",
+      "audio": "../audio/vocabulary/week_03/day_12/taisetsu_na.m4a",
+      "alt": "Important"
+    },
+    {
+      "id": "yooji",
+      "japanese": "ようじ",
+      "romaji": "yooji",
+      "english": "things to do",
+      "audio": "../audio/vocabulary/week_03/day_12/yooji.m4a",
+      "alt": "Things to do"
+    },
+    {
+      "id": "sugoi",
+      "japanese": "すごい",
+      "romaji": "sugoi",
+      "english": "great",
+      "audio": "../audio/vocabulary/week_03/day_12/sugoi.m4a",
+      "alt": "Great"
+    },
+    {
+      "id": "mainichi",
+      "japanese": "まいにち",
+      "romaji": "mainichi",
+      "english": "every day",
+      "audio": "../audio/vocabulary/week_03/day_12/mainichi.m4a",
+      "alt": "Every day"
+    },
+    {
+      "id": "daisuki_na",
+      "japanese": "だいすき（な）",
+      "romaji": "daisuki(na)",
+      "english": "favourite",
+      "audio": "../audio/vocabulary/week_03/day_12/daisuki_na.m4a",
+      "alt": "Favourite"
+    },
+    {
+      "id": "kuni",
+      "japanese": "くに",
+      "romaji": "kuni",
+      "english": "country",
+      "audio": "../audio/vocabulary/week_03/day_12/kuni.m4a",
+      "alt": "Country"
+    },
+    {
+      "id": "gohan",
+      "japanese": "ごはん",
+      "romaji": "gohan",
+      "english": "cooked rice / meal",
+      "audio": "../audio/vocabulary/week_03/day_12/gohan.m4a",
+      "alt": "Cooked rice or a meal"
+    },
+    {
+      "id": "shinjyuku",
+      "japanese": "しんじゅく",
+      "romaji": "shinjyuku",
+      "english": "Shinjuku",
+      "audio": "../audio/vocabulary/week_03/day_12/shinjyuku.m4a",
+      "alt": "Shinjuku, a district in Tokyo"
+    },
+    {
+      "id": "atode",
+      "japanese": "あとで",
+      "romaji": "atode",
+      "english": "later",
+      "audio": "../audio/vocabulary/week_03/day_12/atode.m4a",
+      "alt": "Later"
+    },
+    {
+      "id": "musuko",
+      "japanese": "むすこ",
+      "romaji": "musuko",
+      "english": "son",
+      "image": "../images/study/week_03/day_12/musuko.png",
+      "audio": "../audio/vocabulary/week_03/day_12/musuko.m4a",
+      "alt": "A mother holding her young son"
+    },
+    {
+      "id": "bunka",
+      "japanese": "ぶんか",
+      "romaji": "bunka",
+      "english": "culture",
+      "image": "../images/study/week_03/day_12/bunka.png",
+      "audio": "../audio/vocabulary/week_03/day_12/bunka.m4a",
+      "alt": "Japanese pop-culture characters and icons"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+ "week": 9,
+ "day": 42,
+ "lesson_id": "14228731",
+ "title": "Day 42 Vocabulary",
+ "raw_audio_dir": "45. Week 9 - Day 42/3.Day 42 - VocabularyText/Day42 - Vocabulary Audio",
+ "pages": [
+  "Vocabulary_Day_42_1.jpg",
+  "Vocabulary_Day_42_2.jpg"
+ ],
+ "detect": {
+  "merge_gap": 10
+ },
+ "words": [
+  {
+   "id": "okashi",
+   "japanese": "お菓子",
+   "romaji": "okashi",
+   "english": "candies",
+   "alt": "Colorful assorted candies, chocolates and a lollipop",
+   "audio": "お菓子.wav",
+   "img": true
+  },
+  {
+   "id": "amai",
+   "japanese": "甘い",
+   "romaji": "amai",
+   "english": "sweet",
+   "alt": "A thought bubble filled with ice cream, chocolate and cake",
+   "audio": "甘い.wav",
+   "img": true
+  },
+  {
+   "id": "hanataba",
+   "japanese": "花束",
+   "romaji": "hanataba",
+   "english": "bouquet of flowers",
+   "alt": "A bouquet of red roses tied with a red ribbon",
+   "audio": "花束.wav",
+   "img": true
+  },
+  {
+   "id": "kado",
+   "japanese": "角",
+   "romaji": "kado",
+   "english": "corner",
+   "alt": "A street corner with a red arrow rounding the bend",
+   "audio": "角.wav",
+   "img": true
+  },
+  {
+   "id": "magarimasu",
+   "japanese": "曲がります【Ⅰ】",
+   "romaji": "magarimasu",
+   "english": "to turn",
+   "alt": "A red arrow turning around a street corner",
+   "audio": "曲がります.wav",
+   "img": true
+  },
+  {
+   "id": "setsumee",
+   "japanese": "説明",
+   "romaji": "setsumee",
+   "english": "explanation",
+   "alt": "A man explaining a document to a woman",
+   "audio": "説明.wav",
+   "img": true
+  },
+  {
+   "id": "annai",
+   "japanese": "案内",
+   "romaji": "annai",
+   "english": "information",
+   "alt": "A police officer giving directions to an elderly woman with a map",
+   "audio": "案内.wav",
+   "img": true
+  },
+  {
+   "id": "shuuri",
+   "japanese": "修理",
+   "romaji": "shuuri",
+   "english": "repair",
+   "alt": "A man repairing a shoe with tools",
+   "audio": "修理.wav",
+   "img": true
+  },
+  {
+   "id": "rifuresshu",
+   "japanese": "リフレッシュ",
+   "romaji": "rifuresshu",
+   "english": "refresh",
+   "alt": "Refresh",
+   "audio": "リフレッシュ.wav",
+   "img": false
+  },
+  {
+   "id": "kuremasu",
+   "japanese": "くれます【Ⅱ】",
+   "romaji": "kuremasu",
+   "english": "to give",
+   "alt": "To give",
+   "audio": "くれます.wav",
+   "img": false
+  },
+  {
+   "id": "naoshimasu",
+   "japanese": "直します【Ⅰ】",
+   "romaji": "naoshimasu",
+   "english": "to fix",
+   "alt": "To fix",
+   "audio": "直します.wav",
+   "img": false
+  },
+  {
+   "id": "itadakimasu",
+   "japanese": "いただきます【Ⅰ】",
+   "romaji": "itadakimasu",
+   "english": "to receive",
+   "alt": "To receive",
+   "audio": "いただきます.wav",
+   "img": false
+  },
+  {
+   "id": "mou_hitotsu",
+   "japanese": "もう～ Ex)もうひとつ",
+   "romaji": "mou~ Ex. mou hitotsu",
+   "english": "more～ Ex. one more",
+   "alt": "More, e.g. one more",
+   "audio": "もうひとつ.wav",
+   "img": false
+  },
+  {
+   "id": "nishiguchi",
+   "japanese": "西口",
+   "romaji": "nishiguchi",
+   "english": "west entrance",
+   "alt": "West entrance",
+   "audio": "西口.wav",
+   "img": false
+  },
+  {
+   "id": "itoko",
+   "japanese": "いとこ",
+   "romaji": "itoko",
+   "english": "cousin",
+   "alt": "Cousin",
+   "audio": "いとこ.wav",
+   "img": false
+  },
+  {
+   "id": "shookai",
+   "japanese": "紹介",
+   "romaji": "shookai",
+   "english": "introduction",
+   "alt": "Introduction",
+   "audio": "紹介.wav",
+   "img": false
+  },
+  {
+   "id": "higashiguchi",
+   "japanese": "東口",
+   "romaji": "higashiguchi",
+   "english": "east entrance",
+   "alt": "East entrance",
+   "audio": "東口.wav",
+   "img": false
+  },
+  {
+   "id": "tsurete_ikimasu",
+   "japanese": "連れて行きます【Ⅰ】",
+   "romaji": "tsurete ikimasu",
+   "english": "to take someone along",
+   "alt": "To take someone along",
+   "audio": "連れて行きます.wav",
+   "img": false
+  }
+ ]
+}

@@ -1,0 +1,439 @@
+{
+ "week": 5,
+ "day": 25,
+ "lesson_id": "13432871",
+ "title": "Day 25 Vocabulary",
+ "raw_audio_dir": "27. Week 5 - Day 25/3.Day 25 - VocabularyText/Day 25 - Vocabulary Audio",
+ "pages": [
+  "Vocabulary_Day_25-1.png",
+  "Vocabulary_Day_25-2.png",
+  "Vocabulary_Day_25-3.png",
+  "Vocabulary_Day_25-4.png"
+ ],
+ "detect": {"merge_gap": 15},
+ "words": [
+  {
+   "id": "repooto",
+   "japanese": "レポート",
+   "romaji": "repooto",
+   "english": "report",
+   "alt": "A white report booklet with the word REPORT on the cover",
+   "audio": "レポート.wav",
+   "img": false
+  },
+  {
+   "id": "kakimasu",
+   "japanese": "書きます【Ⅰ】",
+   "romaji": "kakimasu",
+   "english": "to write",
+   "alt": "A man writing on paper at a desk",
+   "audio": "書きます.wav",
+   "img": true
+  },
+  {
+   "id": "kimasu",
+   "japanese": "来ます【Ⅲ】",
+   "romaji": "kimasu",
+   "english": "to come",
+   "alt": "A businesswoman coming in through a door",
+   "audio": "来ます.wav",
+   "img": true
+  },
+  {
+   "id": "tabemasu",
+   "japanese": "食べます【Ⅱ】",
+   "romaji": "tabemasu",
+   "english": "to eat",
+   "alt": "A happy woman eating a steak with a knife and fork",
+   "audio": "食べます.wav",
+   "img": true
+  },
+  {
+   "id": "nemasu",
+   "japanese": "寝ます【Ⅱ】",
+   "romaji": "nemasu",
+   "english": "to sleep",
+   "alt": "A person sleeping under a blue flowered futon",
+   "audio": "寝ます.wav",
+   "img": true
+  },
+  {
+   "id": "okimasu",
+   "japanese": "起きます【Ⅱ】",
+   "romaji": "okimasu",
+   "english": "to get up",
+   "alt": "A woman stretching as she wakes up in a pink bed",
+   "audio": "起きます.wav",
+   "img": true
+  },
+  {
+   "id": "karimasu",
+   "japanese": "借ります【Ⅱ】",
+   "romaji": "karimasu",
+   "english": "to borrow",
+   "alt": "A worried woman asking another to borrow money",
+   "audio": "借ります.wav",
+   "img": true
+  },
+  {
+   "id": "kakemasu",
+   "japanese": "かけます【Ⅱ】",
+   "romaji": "kakemasu",
+   "english": "to make (a call)",
+   "alt": "A man talking on a smartphone",
+   "audio": "かけます.wav",
+   "img": true
+  },
+  {
+   "id": "mimasu",
+   "japanese": "見ます【Ⅱ】",
+   "romaji": "mimasu",
+   "english": "to watch",
+   "alt": "A boy sitting and watching a robot show on TV",
+   "audio": "見ます.wav",
+   "img": true
+  },
+  {
+   "id": "motte_kimasu",
+   "japanese": "持って来ます【Ⅲ】",
+   "romaji": "motte kimasu",
+   "english": "to take (something) along",
+   "alt": "A man hurriedly carrying a cardboard box with an arrow pointing left",
+   "audio": "持って来ます.wav",
+   "img": true
+  },
+  {
+   "id": "isogimasu",
+   "japanese": "急ぎます【Ⅰ】",
+   "romaji": "isogimasu",
+   "english": "to hurry",
+   "alt": "A man dashing in a hurry with a spinning dust cloud",
+   "audio": "急ぎます.wav",
+   "img": true
+  },
+  {
+   "id": "yobimasu",
+   "japanese": "呼びます【Ⅰ】",
+   "romaji": "yobimasu",
+   "english": "to call",
+   "alt": "A customer raising her hand to call a waiter",
+   "audio": "呼びます.wav",
+   "img": true
+  },
+  {
+   "id": "shinimasu",
+   "japanese": "死にます【Ⅰ】",
+   "romaji": "shinimasu",
+   "english": "to die",
+   "alt": "A sad family gathered around a dog lying down",
+   "audio": "死にます.wav",
+   "img": true
+  },
+  {
+   "id": "kaimasu",
+   "japanese": "買います【Ⅰ】",
+   "romaji": "kaimasu",
+   "english": "to buy",
+   "alt": "A woman paying money at a shop counter",
+   "audio": "買います.wav",
+   "img": true
+  },
+  {
+   "id": "mochimasu",
+   "japanese": "持ちます【Ⅰ】",
+   "romaji": "mochimasu",
+   "english": "to carry",
+   "alt": "A smiling man carrying a shopping bag in each hand",
+   "audio": "持ちます.wav",
+   "img": true
+  },
+  {
+   "id": "kaerimasu",
+   "japanese": "帰ります【Ⅰ】",
+   "romaji": "kaerimasu",
+   "english": "to come back",
+   "alt": "A father coming home at night greeted by his family",
+   "audio": "帰ります.wav",
+   "img": true
+  },
+  {
+   "id": "kashimasu",
+   "japanese": "貸します【Ⅰ】",
+   "romaji": "kashimasu",
+   "english": "to lend",
+   "alt": "A smiling woman in red holding out her hand",
+   "audio": "貸します.wav",
+   "img": true
+  },
+  {
+   "id": "ikimasu",
+   "japanese": "行きます【Ⅰ】",
+   "romaji": "ikimasu",
+   "english": "to go",
+   "alt": "A woman in a pink sweater walking forward",
+   "audio": "行きます.wav",
+   "img": true
+  },
+  {
+   "id": "hatarakimasu",
+   "japanese": "働きます【Ⅰ】",
+   "romaji": "hatarakimasu",
+   "english": "to work",
+   "alt": "A group of workers in different job uniforms",
+   "audio": "働きます.wav",
+   "img": true
+  },
+  {
+   "id": "oyogimasu",
+   "japanese": "泳ぎます【Ⅰ】",
+   "romaji": "oyogimasu",
+   "english": "to swim",
+   "alt": "A person in a green cap swimming the front crawl",
+   "audio": "泳ぎます.wav",
+   "img": true
+  },
+  {
+   "id": "yomimasu",
+   "japanese": "読みます【Ⅰ】",
+   "romaji": "yomimasu",
+   "english": "to read",
+   "alt": "A woman reading a big red book",
+   "audio": "読みます.wav",
+   "img": true
+  },
+  {
+   "id": "asobimasu",
+   "japanese": "遊びます【Ⅰ】",
+   "romaji": "asobimasu",
+   "english": "to play",
+   "alt": "Children playing on a jungle gym",
+   "audio": "遊びます.wav",
+   "img": true
+  },
+  {
+   "id": "aimasu",
+   "japanese": "会います【Ⅰ】",
+   "romaji": "aimasu",
+   "english": "to meet",
+   "alt": "Two women meeting and smiling together",
+   "audio": "会います.wav",
+   "img": true
+  },
+  {
+   "id": "machimasu",
+   "japanese": "待ちます【Ⅰ】",
+   "romaji": "machimasu",
+   "english": "to hold",
+   "alt": "A woman in a suit checking her watch while waiting",
+   "audio": "待ちます.wav",
+   "img": true
+  },
+  {
+   "id": "okurimasu",
+   "japanese": "送ります【Ⅰ】",
+   "romaji": "okurimasu",
+   "english": "to send",
+   "alt": "A man sending an email from a laptop",
+   "audio": "送ります.wav",
+   "img": true
+  },
+  {
+   "id": "keshimasu",
+   "japanese": "消します【Ⅰ】",
+   "romaji": "keshimasu",
+   "english": "to turn off",
+   "alt": "A woman turning off an air conditioner with a remote",
+   "audio": "消します.wav",
+   "img": true
+  },
+  {
+   "id": "kaeshimasu",
+   "japanese": "返します【Ⅰ】",
+   "romaji": "kaeshimasu",
+   "english": "to return",
+   "alt": "A boy returning a book at a counter",
+   "audio": "返します.wav",
+   "img": true
+  },
+  {
+   "id": "sanpo_shimasu",
+   "japanese": "散歩します【Ⅲ】",
+   "romaji": "sanpo shimasu",
+   "english": "to walk",
+   "alt": "A woman walking a brown dog on a leash",
+   "audio": "散歩します.wav",
+   "img": true
+  },
+  {
+   "id": "tetsudaimasu",
+   "japanese": "手伝います【Ⅰ】",
+   "romaji": "tetsudaimasu",
+   "english": "to help",
+   "alt": "A girl helping her mother wash dishes",
+   "audio": "手伝います.wav",
+   "img": true
+  },
+  {
+   "id": "moshimoshi",
+   "japanese": "もしもし",
+   "romaji": "moshimoshi",
+   "english": "hello (e.g. on the phone)",
+   "alt": "A man answering a landline telephone",
+   "audio": "もしもし.wav",
+   "img": true
+  },
+  {
+   "id": "uchi",
+   "japanese": "うち",
+   "romaji": "uchi",
+   "english": "home",
+   "alt": "A two-storey house with a blue roof",
+   "audio": "うち.wav",
+   "img": true
+  },
+  {
+   "id": "nikujaga",
+   "japanese": "肉じゃが",
+   "romaji": "nikujaga",
+   "english": "nikujaga",
+   "alt": "A bowl of nikujaga meat and potato stew",
+   "audio": "肉じゃが.wav",
+   "img": true
+  },
+  {
+   "id": "tsukurimasu",
+   "japanese": "作ります【Ⅰ】",
+   "romaji": "tsukurimasu",
+   "english": "to make",
+   "alt": "A boy building a plastic robot model",
+   "audio": "作ります.wav",
+   "img": true
+  },
+  {
+   "id": "kaimono_shimasu",
+   "japanese": "買い物します【Ⅲ】",
+   "romaji": "kaimono shimasu",
+   "english": "to do shopping",
+   "alt": "A happy woman shopping surrounded by clothes and jewellery",
+   "audio": "買い物します.wav",
+   "img": true
+  },
+  {
+   "id": "shashin",
+   "japanese": "写真",
+   "romaji": "shashin",
+   "english": "photo",
+   "alt": "A scattered pile of family photographs",
+   "audio": "写真.wav",
+   "img": true
+  },
+  {
+   "id": "torimasu",
+   "japanese": "撮ります【Ⅰ】",
+   "romaji": "torimasu",
+   "english": "to take (a photo)",
+   "alt": "A man kneeling to take a photo with a camera",
+   "audio": "撮ります.wav",
+   "img": true
+  },
+  {
+   "id": "basu",
+   "japanese": "バス",
+   "romaji": "basu",
+   "english": "bus",
+   "alt": "A green and white city bus",
+   "audio": "バス.wav",
+   "img": true
+  },
+  {
+   "id": "pan",
+   "japanese": "パン",
+   "romaji": "pan",
+   "english": "bread",
+   "alt": "An assortment of bread loaves and rolls",
+   "audio": "パン.wav",
+   "img": true
+  },
+  {
+   "id": "tomodachi",
+   "japanese": "友達",
+   "romaji": "tomodachi",
+   "english": "friends",
+   "alt": "Four boys standing together with arms around shoulders",
+   "audio": "友達.wav",
+   "img": true
+  },
+  {
+   "id": "hanashimasu",
+   "japanese": "話します【Ⅰ】",
+   "romaji": "hanashimasu",
+   "english": "to talk",
+   "alt": "A woman and a man talking to each other",
+   "audio": "話します.wav",
+   "img": true
+  },
+  {
+   "id": "ongaku",
+   "japanese": "音楽",
+   "romaji": "ongaku",
+   "english": "music",
+   "alt": "Colourful musical notes on a staff",
+   "audio": "音楽.wav",
+   "img": true
+  },
+  {
+   "id": "kikimasu",
+   "japanese": "聞きます【Ⅰ】",
+   "romaji": "kikimasu",
+   "english": "to listen to",
+   "alt": "A woman listening to music with pink headphones",
+   "audio": "聞きます.wav",
+   "img": true
+  },
+  {
+   "id": "kodomo",
+   "japanese": "子供",
+   "romaji": "kodomo",
+   "english": "kid",
+   "alt": "Children playing with building blocks",
+   "audio": "子供.wav",
+   "img": true
+  },
+  {
+   "id": "tsukaimasu",
+   "japanese": "使います【Ⅰ】",
+   "romaji": "tsukaimasu",
+   "english": "to use",
+   "alt": "A couple using a laptop together",
+   "audio": "使います.wav",
+   "img": true
+  },
+  {
+   "id": "mukaemasu",
+   "japanese": "迎えます【Ⅱ】",
+   "romaji": "mukaemasu",
+   "english": "to welcome",
+   "alt": "A family welcoming the father home at night",
+   "audio": "迎えます.wav",
+   "img": true
+  },
+  {
+   "id": "ekimae",
+   "japanese": "駅前",
+   "romaji": "ekimae",
+   "english": "in front of a station",
+   "alt": "The area in front of a train station",
+   "audio": "駅前.wav",
+   "img": false
+  },
+  {
+   "id": "tegami",
+   "japanese": "手紙",
+   "romaji": "tegami",
+   "english": "letter",
+   "alt": "A written letter",
+   "audio": "手紙.wav",
+   "img": false
+  }
+ ]
+}

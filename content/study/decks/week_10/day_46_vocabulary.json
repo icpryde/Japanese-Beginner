@@ -1,0 +1,161 @@
+{
+  "id": "week_10/day_46_vocabulary",
+  "kind": "image",
+  "title": "Day 46 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 46 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "kangaemasu",
+      "japanese": "考えます【Ⅱ】",
+      "romaji": "kangaemasu",
+      "english": "to think",
+      "image": "../images/study/week_10/day_46/kangaemasu.png",
+      "audio": "../audio/vocabulary/week_10/day_46/kangaemasu.wav",
+      "alt": "A man thinking about his future"
+    },
+    {
+      "id": "mikan",
+      "japanese": "みかん",
+      "romaji": "mikan",
+      "english": "mandarin",
+      "image": "../images/study/week_10/day_46/mikan.png",
+      "audio": "../audio/vocabulary/week_10/day_46/mikan.wav",
+      "alt": "A mandarin orange"
+    },
+    {
+      "id": "kazoemasu",
+      "japanese": "数えます【Ⅱ】",
+      "romaji": "kazoemasu",
+      "english": "to count",
+      "image": "../images/study/week_10/day_46/kazoemasu.png",
+      "audio": "../audio/vocabulary/week_10/day_46/kazoemasu.wav",
+      "alt": "Hands counting on fingers"
+    },
+    {
+      "id": "shirabemasu",
+      "japanese": "調べます【Ⅱ】",
+      "romaji": "shirabemasu",
+      "english": "to look up",
+      "image": "../images/study/week_10/day_46/shirabemasu.png",
+      "audio": "../audio/vocabulary/week_10/day_46/shirabemasu.wav",
+      "alt": "A person looking something up on a laptop"
+    },
+    {
+      "id": "toochaku_shimasu",
+      "japanese": "到着します【Ⅲ】",
+      "romaji": "toochaku shimasu",
+      "english": "to arrive",
+      "image": "../images/study/week_10/day_46/toochaku_shimasu.png",
+      "audio": "../audio/vocabulary/week_10/day_46/toochaku_shimasu.wav",
+      "alt": "An arrow pointing down at a station where a train arrives"
+    },
+    {
+      "id": "omote",
+      "japanese": "表",
+      "romaji": "omote",
+      "english": "surface; front",
+      "image": "../images/study/week_10/day_46/omote.png",
+      "audio": "../audio/vocabulary/week_10/day_46/omote.wav",
+      "alt": "The front side of an identification card"
+    },
+    {
+      "id": "myuujikaru",
+      "japanese": "ミュージカル",
+      "romaji": "myuujikaru",
+      "english": "musical",
+      "image": "../images/study/week_10/day_46/myuujikaru.png",
+      "audio": "../audio/vocabulary/week_10/day_46/myuujikaru.wav",
+      "alt": "A performer singing and dancing in a musical"
+    },
+    {
+      "id": "hakimasu",
+      "japanese": "はきます【Ⅰ】",
+      "romaji": "hakimasu",
+      "english": "to put on (lower-body clothing)",
+      "image": "../images/study/week_10/day_46/hakimasu.png",
+      "audio": "../audio/vocabulary/week_10/day_46/hakimasu.wav",
+      "alt": "A woman wearing lower-body clothing"
+    },
+    {
+      "id": "kaburimasu",
+      "japanese": "かぶります【Ⅰ】",
+      "romaji": "kaburimasu",
+      "english": "to put on (one’s head)",
+      "image": "../images/study/week_10/day_46/kaburimasu.png",
+      "audio": "../audio/vocabulary/week_10/day_46/kaburimasu.wav",
+      "alt": "A person wearing a cap on their head"
+    },
+    {
+      "id": "hakkiri",
+      "japanese": "はっきり",
+      "romaji": "hakkiri",
+      "english": "clearly",
+      "audio": "../audio/vocabulary/week_10/day_46/hakkiri.wav",
+      "alt": "Clearly"
+    },
+    {
+      "id": "ikko",
+      "japanese": "～個 Ex)1個",
+      "romaji": "~ko Ex. ikko",
+      "english": "counter for a piece Ex. one piece",
+      "audio": "../audio/vocabulary/week_10/day_46/ikko.wav",
+      "alt": "Counter for a piece, e.g. one piece"
+    },
+    {
+      "id": "ippaku",
+      "japanese": "～泊 Ex)1泊",
+      "romaji": "~haku/paku Ex. ippaku",
+      "english": "counter for nights of a stay Ex. one night",
+      "audio": "../audio/vocabulary/week_10/day_46/ippaku.wav",
+      "alt": "Counter for nights of a stay, e.g. one night"
+    },
+    {
+      "id": "tashikamemasu",
+      "japanese": "確かめます【Ⅱ】",
+      "romaji": "tashikamemasu",
+      "english": "to make sure",
+      "audio": "../audio/vocabulary/week_10/day_46/tashikamemasu.wav",
+      "alt": "To make sure"
+    },
+    {
+      "id": "chokusetsu",
+      "japanese": "直接",
+      "romaji": "chokusetsu",
+      "english": "direct",
+      "audio": "../audio/vocabulary/week_10/day_46/chokusetsu.wav",
+      "alt": "Direct"
+    },
+    {
+      "id": "adobaisu",
+      "japanese": "アドバイス",
+      "romaji": "adobaisu",
+      "english": "advice",
+      "audio": "../audio/vocabulary/week_10/day_46/adobaisu.wav",
+      "alt": "Advice"
+    },
+    {
+      "id": "shiken_o_ukemasu",
+      "japanese": "（試験を）受けます【Ⅱ】",
+      "romaji": "(shiken o) ukemasu",
+      "english": "to take (an exam)",
+      "audio": "../audio/vocabulary/week_10/day_46/shiken_o_ukemasu.wav",
+      "alt": "To take (an exam)"
+    },
+    {
+      "id": "soodan_shimasu",
+      "japanese": "相談します【Ⅲ】",
+      "romaji": "soodan shimasu",
+      "english": "to consult (someone)",
+      "audio": "../audio/vocabulary/week_10/day_46/soodan_shimasu.wav",
+      "alt": "To consult (someone)"
+    }
+  ]
+}

@@ -1,0 +1,357 @@
+{
+ "week": 9,
+ "day": 45,
+ "lesson_id": "14229620",
+ "title": "Day 45 Vocabulary",
+ "raw_audio_dir": "48. Week 9 - Day 45/3.Day 45 - VocabularyText/Day45 - Vocabulary Audio",
+ "pages": [
+  "Vocabulary_Day_45_1.jpg",
+  "Vocabulary_Day_45_2.jpg",
+  "Vocabulary_Day_45_copy.png"
+ ],
+ "detect": {"min_colored": 180, "merge_gap": 15},
+ "words": [
+  {
+   "id": "gitaa",
+   "japanese": "ギター",
+   "romaji": "gitaa",
+   "english": "guitar",
+   "alt": "An acoustic guitar",
+   "audio": "ギター.wav",
+   "img": true
+  },
+  {
+   "id": "hikimasu",
+   "japanese": "弾きます【Ⅰ】",
+   "romaji": "hikimasu",
+   "english": "to play",
+   "alt": "A boy playing an electric guitar",
+   "audio": "弾きます.wav",
+   "img": true
+  },
+  {
+   "id": "shoogakusee",
+   "japanese": "小学生",
+   "romaji": "shoogakusee",
+   "english": "elementary school student",
+   "alt": "Elementary school children walking in a group",
+   "audio": "小学生.wav",
+   "img": true
+  },
+  {
+   "id": "sabishii",
+   "japanese": "寂しい",
+   "romaji": "sabishii",
+   "english": "lonely",
+   "alt": "A person eating alone in a dim room",
+   "audio": "寂しい.wav",
+   "img": true
+  },
+  {
+   "id": "itai",
+   "japanese": "痛い",
+   "romaji": "itai",
+   "english": "painful",
+   "alt": "A woman wincing with a throbbing headache",
+   "audio": "痛い.wav",
+   "img": true
+  },
+  {
+   "id": "nemui",
+   "japanese": "眠い",
+   "romaji": "nemui",
+   "english": "sleepy",
+   "alt": "A sleepy man with drooping eyes in the morning",
+   "audio": "眠い.wav",
+   "img": true
+  },
+  {
+   "id": "ame",
+   "japanese": "雨",
+   "romaji": "ame",
+   "english": "rain",
+   "alt": "Rain falling from a cloud onto an umbrella",
+   "audio": "雨.wav",
+   "img": true
+  },
+  {
+   "id": "shoosetsu",
+   "japanese": "小説",
+   "romaji": "shoosetsu",
+   "english": "novel",
+   "alt": "A green book labelled NOVEL",
+   "audio": "小説.wav",
+   "img": true
+  },
+  {
+   "id": "watarimasu",
+   "japanese": "渡ります【Ⅰ】",
+   "romaji": "watarimasu",
+   "english": "to cross",
+   "alt": "A man crossing the road at a crosswalk",
+   "audio": "渡ります.wav",
+   "img": true
+  },
+  {
+   "id": "maibaggu",
+   "japanese": "マイバッグ",
+   "romaji": "maibaggu",
+   "english": "reusable shopping bag",
+   "alt": "A woman carrying groceries in her own shopping bag",
+   "audio": "マイバッグ.wav",
+   "img": true
+  },
+  {
+   "id": "tsuma",
+   "japanese": "妻",
+   "romaji": "tsuma",
+   "english": "wife",
+   "alt": "A family photo with an arrow pointing to the wife",
+   "audio": "妻.wav",
+   "img": true
+  },
+  {
+   "id": "yooshi",
+   "japanese": "用紙",
+   "romaji": "yooshi",
+   "english": "sheet of paper",
+   "alt": "A stack of blank sheets of paper",
+   "audio": "用紙.wav",
+   "img": false
+  },
+  {
+   "id": "otto",
+   "japanese": "夫",
+   "romaji": "otto",
+   "english": "husband",
+   "alt": "A family photo with an arrow pointing to the husband",
+   "audio": "夫.wav",
+   "img": true
+  },
+  {
+   "id": "yubiwa",
+   "japanese": "指輪",
+   "romaji": "yubiwa",
+   "english": "ring",
+   "alt": "A ring with a red gemstone",
+   "audio": "指輪.wav",
+   "img": true
+  },
+  {
+   "id": "keshimasu",
+   "japanese": "消します【Ⅰ】",
+   "romaji": "keshimasu",
+   "english": "to turn off",
+   "alt": "A woman flipping a light switch off",
+   "audio": "消します.wav",
+   "img": true
+  },
+  {
+   "id": "nakushimasu",
+   "japanese": "なくします【Ⅰ】",
+   "romaji": "nakushimasu",
+   "english": "to lose",
+   "alt": "A distressed man who has lost his phone",
+   "audio": "なくします.wav",
+   "img": true
+  },
+  {
+   "id": "tachiirikinshi",
+   "japanese": "立入禁止",
+   "romaji": "tachiirikinshi",
+   "english": "no entry",
+   "alt": "A police officer standing behind a no-entry sign",
+   "audio": "立入禁止.wav",
+   "img": true
+  },
+  {
+   "id": "shiyoochuu",
+   "japanese": "使用中",
+   "romaji": "shiyoochuu",
+   "english": "occupied",
+   "alt": "A red occupied sign reading 使用中",
+   "audio": "使用中.wav",
+   "img": true
+  },
+  {
+   "id": "waribiki",
+   "japanese": "割引",
+   "romaji": "waribiki",
+   "english": "discount",
+   "alt": "A 5% off discount badge",
+   "audio": "割引.wav",
+   "img": true
+  },
+  {
+   "id": "shitazumi",
+   "japanese": "下積み",
+   "romaji": "shitazumi",
+   "english": "lower layer",
+   "alt": "A cardboard box stamped with a do-not-stack-under notice",
+   "audio": "下積み.wav",
+   "img": true
+  },
+  {
+   "id": "genkin",
+   "japanese": "厳禁",
+   "romaji": "genkin",
+   "english": "ban",
+   "alt": "A red prohibition circle with a slash",
+   "audio": "厳禁.wav",
+   "img": true
+  },
+  {
+   "id": "okimasu",
+   "japanese": "置きます【Ⅰ】",
+   "romaji": "okimasu",
+   "english": "to put",
+   "alt": "A delivery man placing a box by a door",
+   "audio": "置きます.wav",
+   "img": true
+  },
+  {
+   "id": "gohan",
+   "japanese": "ご飯",
+   "romaji": "gohan",
+   "english": "rice",
+   "alt": "A bowl of white rice",
+   "audio": "ご飯.wav",
+   "img": true
+  },
+  {
+   "id": "kaki",
+   "japanese": "火気",
+   "romaji": "kaki",
+   "english": "trace of fire",
+   "alt": "A burning flame",
+   "audio": "火気.wav",
+   "img": true
+  },
+  {
+   "id": "shimekiri",
+   "japanese": "締め切り",
+   "romaji": "shimekiri",
+   "english": "deadline",
+   "alt": "People rushing to meet a deadline",
+   "audio": "締め切り.wav",
+   "img": true
+  },
+  {
+   "id": "okuremasu",
+   "japanese": "遅れます【Ⅱ】",
+   "romaji": "okuremasu",
+   "english": "to be late",
+   "alt": "A flustered businessman running late with a briefcase",
+   "audio": "遅れます.wav",
+   "img": true
+  },
+  {
+   "id": "hajimemasu",
+   "japanese": "始めます【Ⅱ】",
+   "romaji": "hajimemasu",
+   "english": "to start",
+   "alt": "To start",
+   "audio": "始めます.wav",
+   "img": false
+  },
+  {
+   "id": "taitee",
+   "japanese": "たいてい",
+   "romaji": "taitee",
+   "english": "mostly",
+   "alt": "Mostly",
+   "audio": "たいてい.wav",
+   "img": false
+  },
+  {
+   "id": "kotoba",
+   "japanese": "言葉",
+   "romaji": "kotoba",
+   "english": "word",
+   "alt": "Word",
+   "audio": "言葉.wav",
+   "img": false
+  },
+  {
+   "id": "ruumumeito",
+   "japanese": "ルームメイト",
+   "romaji": "ruumumeito",
+   "english": "roommate",
+   "alt": "Roommate",
+   "audio": "ルームメイト.wav",
+   "img": false
+  },
+  {
+   "id": "ki_o_tsukemasu",
+   "japanese": "気を つけます【Ⅱ】",
+   "romaji": "ki o tsukemasu",
+   "english": "to be careful",
+   "alt": "To be careful",
+   "audio": "気をつけます.wav",
+   "img": false
+  },
+  {
+   "id": "irimasu",
+   "japanese": "要ります【Ⅰ】",
+   "romaji": "irimasu",
+   "english": "to be needed",
+   "alt": "To be needed",
+   "audio": "要ります.wav",
+   "img": false
+  },
+  {
+   "id": "saizu",
+   "japanese": "サイズ",
+   "romaji": "saizu",
+   "english": "size",
+   "alt": "Size",
+   "audio": "サイズ.wav",
+   "img": false
+  },
+  {
+   "id": "kaemasu",
+   "japanese": "変えます【Ⅱ】",
+   "romaji": "kaemasu",
+   "english": "to change",
+   "alt": "To change",
+   "audio": "変えます.wav",
+   "img": false
+  },
+  {
+   "id": "mukaemasu",
+   "japanese": "迎えます【Ⅱ】",
+   "romaji": "mukaemasu",
+   "english": "to welcome",
+   "alt": "To welcome",
+   "audio": "迎えます.wav",
+   "img": false
+  },
+  {
+   "id": "imi",
+   "japanese": "意味",
+   "romaji": "imi",
+   "english": "meaning",
+   "alt": "Meaning",
+   "audio": "意味.wav",
+   "img": false
+  },
+  {
+   "id": "okawari",
+   "japanese": "おかわり",
+   "romaji": "okawari",
+   "english": "end",
+   "alt": "Another helping (refill)",
+   "audio": "おかわり.wav",
+   "img": false
+  },
+  {
+   "id": "muryoo",
+   "japanese": "無料",
+   "romaji": "muryoo",
+   "english": "free of charge",
+   "alt": "Free of charge",
+   "audio": "無料.wav",
+   "img": false
+  }
+ ]
+}

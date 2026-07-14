@@ -1,0 +1,350 @@
+{
+ "week": 4,
+ "day": 16,
+ "lesson_id": "13242732",
+ "title": "Day 16 Vocabulary",
+ "raw_audio_dir": "18. Week 4 - Day 16/6.Day 16 - VocabularyText/Vocabulary Audio - Day 16",
+ "pages": [
+  "Vocabulary_Day_16_png1.png",
+  "Vocabulary_Day_16_png2.png",
+  "Vocabulary_Day_16_png3.png"
+ ],
+ "words": [
+  {
+   "id": "tabemono",
+   "japanese": "たべもの",
+   "romaji": "tabemono",
+   "english": "food",
+   "alt": "A plate of spaghetti, sushi and a hamburger steak",
+   "audio": "たべもの.wav",
+   "img": true
+  },
+  {
+   "id": "raamenya",
+   "japanese": "ラーメンや",
+   "romaji": "raamenya",
+   "english": "ramen shop",
+   "alt": "A ramen shop storefront with a red sign",
+   "img": true
+  },
+  {
+   "id": "kudamono",
+   "japanese": "くだもの",
+   "romaji": "kudamono",
+   "english": "fruit",
+   "alt": "A basket full of assorted fruit",
+   "img": true
+  },
+  {
+   "id": "suika",
+   "japanese": "すいか",
+   "romaji": "suika",
+   "english": "watermelon",
+   "alt": "A watermelon with a cut slice",
+   "img": true
+  },
+  {
+   "id": "kazoku",
+   "japanese": "かぞく",
+   "romaji": "kazoku",
+   "english": "family",
+   "alt": "A large three-generation family group",
+   "img": true
+  },
+  {
+   "id": "ryoori",
+   "japanese": "りょうり",
+   "romaji": "ryoori",
+   "english": "cuisine/cooking",
+   "alt": "A chef tossing food in a frying pan",
+   "img": true
+  },
+  {
+   "id": "kisetsu",
+   "japanese": "きせつ",
+   "romaji": "kisetsu",
+   "english": "season",
+   "alt": "Four small scenes of spring, summer, autumn and winter",
+   "img": true
+  },
+  {
+   "id": "haru",
+   "japanese": "はる",
+   "romaji": "haru",
+   "english": "spring",
+   "alt": "A cherry blossom tree in full bloom",
+   "audio": "はる.wav",
+   "img": true
+  },
+  {
+   "id": "supootsu",
+   "japanese": "スポーツ",
+   "romaji": "supootsu",
+   "english": "sports",
+   "alt": "Children playing baseball, soccer and tennis",
+   "audio": "スポーツ.wav",
+   "img": true
+  },
+  {
+   "id": "yakyuu",
+   "japanese": "やきゅう",
+   "romaji": "yakyuu",
+   "english": "baseball",
+   "alt": "A baseball player swinging a bat",
+   "audio": "やきゅう.wav",
+   "img": true
+  },
+  {
+   "id": "hito",
+   "japanese": "ひと",
+   "romaji": "hito",
+   "english": "person",
+   "alt": "Person",
+   "audio": "ひと.wav",
+   "img": false
+  },
+  {
+   "id": "ame",
+   "japanese": "あめ",
+   "romaji": "ame",
+   "english": "rain",
+   "alt": "A blue umbrella in the rain",
+   "audio": "あめ.wav",
+   "img": true
+  },
+  {
+   "id": "resutoran",
+   "japanese": "レストラン",
+   "romaji": "resutoran",
+   "english": "restaurant",
+   "alt": "A restaurant building with a large sign",
+   "audio": "レストラン.wav",
+   "img": true
+  },
+  {
+   "id": "heya",
+   "japanese": "へや",
+   "romaji": "heya",
+   "english": "room",
+   "alt": "A living room with a sofa and television",
+   "audio": "へや.wav",
+   "img": true
+  },
+  {
+   "id": "kooen",
+   "japanese": "こうえん",
+   "romaji": "kooen",
+   "english": "park",
+   "alt": "A park with a slide and climbing frame",
+   "audio": "こうえん.wav",
+   "img": true
+  },
+  {
+   "id": "pasokon",
+   "japanese": "パソコン",
+   "romaji": "pasokon",
+   "english": "computer",
+   "alt": "A laptop computer",
+   "audio": "パソコン.wav",
+   "img": true
+  },
+  {
+   "id": "mise",
+   "japanese": "みせ",
+   "romaji": "mise",
+   "english": "shop",
+   "alt": "A small shop with a striped awning",
+   "audio": "みせ.wav",
+   "img": true
+  },
+  {
+   "id": "dansu",
+   "japanese": "ダンス",
+   "romaji": "dansu",
+   "english": "dance",
+   "alt": "A breakdancer doing a one-handed handstand",
+   "audio": "ダンス.wav",
+   "img": true
+  },
+  {
+   "id": "machi",
+   "japanese": "まち",
+   "romaji": "machi",
+   "english": "town",
+   "alt": "A townscape with houses and buildings",
+   "audio": "まち.wav",
+   "img": true
+  },
+  {
+   "id": "midori",
+   "japanese": "みどり",
+   "romaji": "midori",
+   "english": "green",
+   "alt": "A leafy green tree",
+   "audio": "みどり.wav",
+   "img": true
+  },
+  {
+   "id": "ichiban",
+   "japanese": "いちばん",
+   "romaji": "ichiban",
+   "english": "most/first",
+   "alt": "Most or first",
+   "audio": "いちばん.wav",
+   "img": false
+  },
+  {
+   "id": "sega_takai",
+   "japanese": "せが　たかい",
+   "romaji": "sega takai",
+   "english": "tall (of a person)",
+   "alt": "Tall (of a person)",
+   "audio": "せがたかい.wav",
+   "img": false
+  },
+  {
+   "id": "ooi",
+   "japanese": "おおい",
+   "romaji": "ooi",
+   "english": "many",
+   "alt": "Many",
+   "audio": "おおい.wav",
+   "img": false
+  },
+  {
+   "id": "hiroi",
+   "japanese": "ひろい",
+   "romaji": "hiroi",
+   "english": "wide",
+   "alt": "Wide",
+   "audio": "ひろい.wav",
+   "img": false
+  },
+  {
+   "id": "akarui",
+   "japanese": "あかるい",
+   "romaji": "akarui",
+   "english": "bright",
+   "alt": "Bright",
+   "audio": "あかるい.wav",
+   "img": false
+  },
+  {
+   "id": "chikaku",
+   "japanese": "ちかく",
+   "romaji": "chikaku",
+   "english": "near",
+   "alt": "Near",
+   "audio": "ちかく.wav",
+   "img": false
+  },
+  {
+   "id": "atamaga_ii",
+   "japanese": "あたまが　いい",
+   "romaji": "atamaga ii",
+   "english": "intelligent",
+   "alt": "Intelligent",
+   "audio": "あたまがいい.wav",
+   "img": false
+  },
+  {
+   "id": "majime_na",
+   "japanese": "まじめ（な）",
+   "romaji": "majime(na)",
+   "english": "serious",
+   "alt": "Serious",
+   "audio": "まじめな.wav",
+   "img": false
+  },
+  {
+   "id": "suteki_na",
+   "japanese": "すてき（な）",
+   "romaji": "suteki(na)",
+   "english": "lovely",
+   "alt": "Lovely",
+   "audio": "すてきな.wav",
+   "img": false
+  },
+  {
+   "id": "ryuugaksee",
+   "japanese": "りゅうがくせい",
+   "romaji": "ryuugaksee",
+   "english": "study abroad student",
+   "alt": "Study abroad student",
+   "audio": "りゅうがくせい.wav",
+   "img": false
+  },
+  {
+   "id": "dokushin",
+   "japanese": "どくしん",
+   "romaji": "dokushin",
+   "english": "single",
+   "alt": "Single (unmarried)",
+   "audio": "どくしん.wav",
+   "img": false
+  },
+  {
+   "id": "karui",
+   "japanese": "かるい",
+   "romaji": "karui",
+   "english": "light",
+   "alt": "Light (in weight)",
+   "audio": "かるい.wav",
+   "img": false
+  },
+  {
+   "id": "benri_na",
+   "japanese": "べんり（な）",
+   "romaji": "benri(na)",
+   "english": "convenient",
+   "alt": "Convenient",
+   "audio": "べんりな.wav",
+   "img": false
+  },
+  {
+   "id": "yasui",
+   "japanese": "やすい",
+   "romaji": "yasui",
+   "english": "cheap",
+   "alt": "Cheap",
+   "audio": "やすい.wav",
+   "img": false
+  },
+  {
+   "id": "tokoro",
+   "japanese": "ところ",
+   "romaji": "tokoro",
+   "english": "place",
+   "alt": "Place",
+   "audio": "ところ.wav",
+   "img": false
+  },
+  {
+   "id": "natsu",
+   "japanese": "なつ",
+   "romaji": "natsu",
+   "english": "summer",
+   "alt": "A beach parasol and ball on the sand",
+   "audio": "なつ.wav",
+   "img": true
+  },
+  {
+   "id": "aki",
+   "japanese": "あき",
+   "romaji": "aki",
+   "english": "autumn",
+   "alt": "Trees with red and yellow autumn leaves",
+   "audio": "あき.wav",
+   "img": true
+  },
+  {
+   "id": "fuyu",
+   "japanese": "ふゆ",
+   "romaji": "fuyu",
+   "english": "winter",
+   "alt": "A snowman in a snowy night landscape",
+   "audio": "ふゆ.wav",
+   "img": true
+  }
+ ]
+}

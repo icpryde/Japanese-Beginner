@@ -1,0 +1,248 @@
+{
+ "week": 10,
+ "day": 47,
+ "lesson_id": "14346537",
+ "title": "Day 47 Vocabulary",
+ "raw_audio_dir": "50. Week 10 - Day 47/3.Day 47 -  VocabularyText/Day 47 - Vocabulary Audio",
+ "pages": [
+  "Vocabulary_Day_47_1.jpg",
+  "Vocabulary_Day_47_2.jpg"
+ ],
+ "detect": {"merge_gap": 25},
+ "words": [
+  {
+   "id": "entoriishiito",
+   "japanese": "エントリーシート",
+   "romaji": "entoriishiito",
+   "english": "application form",
+   "alt": "Application form",
+   "audio": "エントーリシート.wav",
+   "img": false
+  },
+  {
+   "id": "shinpai_na",
+   "japanese": "心配（な）",
+   "romaji": "shinpai (na)",
+   "english": "anxious",
+   "alt": "A worried woman with an empty thought bubble",
+   "audio": "心配な.wav",
+   "img": true
+  },
+  {
+   "id": "komyunikeeshon",
+   "japanese": "コミュニケーション",
+   "romaji": "komyunikeeshon",
+   "english": "communication",
+   "alt": "Businesspeople talking happily together",
+   "audio": "コミュニケーション.wav",
+   "img": true
+  },
+  {
+   "id": "baiorin",
+   "japanese": "バイオリン",
+   "romaji": "baiorin",
+   "english": "violin",
+   "alt": "A violin and bow",
+   "audio": "バイオリン.wav",
+   "img": true
+  },
+  {
+   "id": "netto",
+   "japanese": "ネット（＝インターネット）",
+   "romaji": "netto (= intaanetto)",
+   "english": "internet",
+   "alt": "A globe surrounded by people connected to the internet",
+   "audio": "ネット.wav",
+   "img": true
+  },
+  {
+   "id": "kurejitto_kaado",
+   "japanese": "クレジットカード",
+   "romaji": "kurejitto kaado",
+   "english": "credit card",
+   "alt": "A blue credit card with a world map design",
+   "audio": "クレジットカード.wav",
+   "img": true
+  },
+  {
+   "id": "genkin",
+   "japanese": "現金",
+   "romaji": "genkin",
+   "english": "cash",
+   "alt": "Paper banknotes and coins",
+   "audio": "現金.wav",
+   "img": true
+  },
+  {
+   "id": "biiru",
+   "japanese": "ビール",
+   "romaji": "biiru",
+   "english": "beer",
+   "alt": "A frothy mug of beer",
+   "audio": "ビール.wav",
+   "img": true
+  },
+  {
+   "id": "wain",
+   "japanese": "ワイン",
+   "romaji": "wain",
+   "english": "wine",
+   "alt": "A bottle of wine and a glass of red wine",
+   "audio": "ワイン.wav",
+   "img": true
+  },
+  {
+   "id": "hiragana",
+   "japanese": "ひらがな",
+   "romaji": "hiragana",
+   "english": "Hiragana",
+   "alt": "Hiragana",
+   "audio": "ひらがな.wav",
+   "img": false
+  },
+  {
+   "id": "shuushoku",
+   "japanese": "就職",
+   "romaji": "shuushoku",
+   "english": "finding employment",
+   "alt": "Finding employment",
+   "audio": "就職.wav",
+   "img": false
+  },
+  {
+   "id": "katsudoo",
+   "japanese": "活動",
+   "romaji": "katsudoo",
+   "english": "activity",
+   "alt": "Activity",
+   "audio": "活動.wav",
+   "img": false
+  },
+  {
+   "id": "umaku_ikimasu",
+   "japanese": "うまく いきます【Ⅰ】",
+   "romaji": "umaku ikimasu",
+   "english": "to go smoothly",
+   "alt": "To go smoothly",
+   "audio": "うまくいきます.wav",
+   "img": false
+  },
+  {
+   "id": "shika_sukoshi_shika",
+   "japanese": "～しか Ex)少ししか",
+   "romaji": "~shika Ex. sukoshi shika",
+   "english": "only Ex. (nothing) but a little",
+   "alt": "Only, e.g. (nothing) but a little",
+   "audio": "少ししか.wav",
+   "img": false
+  },
+  {
+   "id": "hoka_no",
+   "japanese": "ほかの",
+   "romaji": "hoka no",
+   "english": "another thing",
+   "alt": "Another thing",
+   "audio": "ほかの.wav",
+   "img": false
+  },
+  {
+   "id": "gaikokugo",
+   "japanese": "外国語",
+   "romaji": "gaikokugo",
+   "english": "foreign language",
+   "alt": "Foreign language",
+   "audio": "外国語.wav",
+   "img": false
+  },
+  {
+   "id": "nan_kakokugo",
+   "japanese": "何か国語",
+   "romaji": "nan kakokugo",
+   "english": "how many languages",
+   "alt": "How many languages",
+   "audio": "何か国語.wav",
+   "img": false
+  },
+  {
+   "id": "nooryoku",
+   "japanese": "能力",
+   "romaji": "nooryoku",
+   "english": "ability",
+   "alt": "Ability",
+   "audio": "能力.wav",
+   "img": false
+  },
+  {
+   "id": "daibiki",
+   "japanese": "代引き",
+   "romaji": "daibiki",
+   "english": "cash on delivery",
+   "alt": "Cash on delivery",
+   "audio": "代引き.wav",
+   "img": false
+  },
+  {
+   "id": "barai_konbini_barai",
+   "japanese": "～払い Ex)コンビニ払い",
+   "romaji": "~barai Ex. konbini barai",
+   "english": "payment Ex. payment at the konbini",
+   "alt": "Payment, e.g. payment at the convenience store",
+   "audio": "コンビニ払い.wav",
+   "img": false
+  },
+  {
+   "id": "riyoo_shimasu",
+   "japanese": "利用します【Ⅲ】",
+   "romaji": "riyoo shimasu",
+   "english": "to use",
+   "alt": "To use",
+   "audio": "利用します.wav",
+   "img": false
+  },
+  {
+   "id": "jibun",
+   "japanese": "自分",
+   "romaji": "jibun",
+   "english": "myself",
+   "alt": "Myself",
+   "audio": "自分.wav",
+   "img": false
+  },
+  {
+   "id": "mensetsu",
+   "japanese": "面接",
+   "romaji": "mensetsu",
+   "english": "interview (for a job)",
+   "alt": "Interview for a job",
+   "audio": "面接.wav",
+   "img": false
+  },
+  {
+   "id": "rikuruuto_suutsu",
+   "japanese": "リクルートスーツ",
+   "romaji": "rikuruuto suutsu",
+   "english": "formal suit worn by students during interviews",
+   "alt": "Formal suit worn by students during interviews",
+   "audio": "リクルートスーツ.wav",
+   "img": false
+  },
+  {
+   "id": "furikomi",
+   "japanese": "振込",
+   "romaji": "furikomi",
+   "english": "bank transfer",
+   "alt": "Bank transfer",
+   "audio": "振込.wav",
+   "img": false
+  },
+  {
+   "id": "kakuteru",
+   "japanese": "カクテル",
+   "romaji": "kakuteru",
+   "english": "cocktail",
+   "alt": "Cocktail",
+   "audio": "カクテル.wav",
+   "img": false
+  }
+ ]
+}

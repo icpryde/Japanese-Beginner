@@ -1,0 +1,176 @@
+{
+ "week": 11,
+ "day": 55,
+ "lesson_id": "14529225",
+ "title": "Day 55 Vocabulary",
+ "raw_audio_dir": "58. Week 11 - Day 55/3.Day 55 - VocabularyText/Day 55 - Vocabulary Audio",
+ "pages": [
+  "Vocabulary_Day_55_1.png",
+  "Vocabulary_Day_55_3.jpg"
+ ],
+ "detect": {"merge_gap": 25},
+ "words": [
+  {
+   "id": "neboo_shimasu",
+   "japanese": "寝坊します【Ⅲ】",
+   "romaji": "neboo shimasu",
+   "english": "to oversleep",
+   "alt": "A man oversleeping in bed, glaring at his ringing alarm clock",
+   "audio": "寝坊します.wav",
+   "img": true
+  },
+  {
+   "id": "mayoimasu",
+   "japanese": "迷います【Ⅰ】",
+   "romaji": "mayoimasu",
+   "english": "to get lost",
+   "alt": "A worried woman standing at a fork in the road between two signposts",
+   "audio": "迷います.wav",
+   "img": true
+  },
+  {
+   "id": "otoshimasu",
+   "japanese": "落とします【Ⅰ】",
+   "romaji": "otoshimasu",
+   "english": "to drop",
+   "alt": "A panicked man dropping his smartphone over a ledge",
+   "audio": "落とします.wav",
+   "img": true
+  },
+  {
+   "id": "panku_shimasu",
+   "japanese": "パンクします【Ⅲ】",
+   "romaji": "panku shimasu",
+   "english": "to get a flat tire",
+   "alt": "A blue bicycle with air puffing out of its flat tires",
+   "audio": "パンクします.wav",
+   "img": true
+  },
+  {
+   "id": "sakki",
+   "japanese": "さっき",
+   "romaji": "sakki",
+   "english": "a moment ago",
+   "alt": "A moment ago",
+   "audio": "さっき.wav",
+   "img": false
+  },
+  {
+   "id": "deeta",
+   "japanese": "データ",
+   "romaji": "deeta",
+   "english": "data",
+   "alt": "Data",
+   "audio": "データ.wav",
+   "img": false
+  },
+  {
+   "id": "matomemasu",
+   "japanese": "まとめます【Ⅱ】",
+   "romaji": "matomemasu",
+   "english": "to put together",
+   "alt": "To put together",
+   "audio": "まとめます.wav",
+   "img": false
+  },
+  {
+   "id": "hookokusho",
+   "japanese": "報告書",
+   "romaji": "hookokusho",
+   "english": "written report",
+   "alt": "Written report",
+   "audio": "報告書.wav",
+   "img": false
+  },
+  {
+   "id": "torihikisaki",
+   "japanese": "取引先",
+   "romaji": "torihikisaki",
+   "english": "customer",
+   "alt": "Customer",
+   "audio": "取引先.wav",
+   "img": false
+  },
+  {
+   "id": "oritatami",
+   "japanese": "折り畳み",
+   "romaji": "oritatami",
+   "english": "folding",
+   "alt": "Folding",
+   "audio": "折り畳み.wav",
+   "img": false
+  },
+  {
+   "id": "shuuten",
+   "japanese": "終点",
+   "romaji": "shuuten",
+   "english": "last stop",
+   "alt": "Last stop",
+   "audio": "終点.wav",
+   "img": false
+  },
+  {
+   "id": "teikiken",
+   "japanese": "定期券",
+   "romaji": "teikiken",
+   "english": "commuter pass",
+   "alt": "Commuter pass",
+   "audio": "定期券.wav",
+   "img": false
+  },
+  {
+   "id": "furiizu_shimasu",
+   "japanese": "フリーズします【Ⅲ】",
+   "romaji": "furiizu shimasu",
+   "english": "to freeze",
+   "alt": "To freeze (a computer)",
+   "audio": "フリーズします.wav",
+   "img": false
+  },
+  {
+   "id": "gurafu",
+   "japanese": "グラフ",
+   "romaji": "gurafu",
+   "english": "graph",
+   "alt": "A pie chart, a line graph and a rising bar chart",
+   "audio": "グラフ.wav",
+   "img": true
+  },
+  {
+   "id": "ic_kaado",
+   "japanese": "ＩＣカード",
+   "romaji": "IC kaado",
+   "english": "IC card",
+   "alt": "Several IC transit smart cards",
+   "audio": "ICカード.wav",
+   "img": true
+  },
+  {
+   "id": "kaisuuken",
+   "japanese": "回数券",
+   "romaji": "kaisuuken",
+   "english": "book of tickets",
+   "alt": "A fanned-out book of green tickets",
+   "audio": "回数券.wav",
+   "img": true
+  },
+  {
+   "id": "higasa",
+   "japanese": "日傘",
+   "romaji": "higasa",
+   "english": "parasol",
+   "alt": "A woman shading herself with a parasol under the blazing sun",
+   "audio": "日傘.wav",
+   "img": true
+  },
+  {
+   "id": "hyoo",
+   "japanese": "表",
+   "romaji": "hyoo",
+   "english": "table, chart",
+   "alt": "Table, chart",
+   "audio": "表.wav",
+   "img": false
+  }
+ ]
+}

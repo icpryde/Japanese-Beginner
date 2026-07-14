@@ -1,0 +1,656 @@
+{
+ "week": 6,
+ "day": 26,
+ "lesson_id": "13622594",
+ "title": "Day 26 Vocabulary",
+ "raw_audio_dir": "28. Week 6 - Day 26/5.Day 26 - VocabularyText/Day 26 - Vocabulary Audio",
+ "pages": [
+  "Vocabulary_Day_26_png1.png",
+  "Vocabulary_Day_26_png2.png",
+  "Vocabulary_Day_26_png3.png",
+  "Vocabulary_Day_26_png4.png",
+  "Vocabulary_Day_26_png5.png"
+ ],
+ "detect": {"merge_gap": 25},
+ "words": [
+  {
+   "id": "kakkoii",
+   "japanese": "かっこいい",
+   "romaji": "kakkoii",
+   "english": "good-looking",
+   "alt": "A girl gazing lovingly at photos of a good-looking person",
+   "audio": "かっこいい.wav",
+   "img": true
+  },
+  {
+   "id": "sumimasu",
+   "japanese": "住みます【Ⅰ】",
+   "romaji": "sumimasu",
+   "english": "to live, to reside",
+   "alt": "A family standing in front of their town at sunset",
+   "audio": "住みます.wav",
+   "img": true
+  },
+  {
+   "id": "kuruma",
+   "japanese": "車",
+   "romaji": "kuruma",
+   "english": "car",
+   "alt": "A grid of small cars in many colours",
+   "audio": "車.wav",
+   "img": true
+  },
+  {
+   "id": "mochimasu",
+   "japanese": "持ちます【Ⅰ】",
+   "romaji": "mochimasu",
+   "english": "to carry",
+   "alt": "A man happily carrying shopping bags in both hands",
+   "audio": "持ちます.wav",
+   "img": true
+  },
+  {
+   "id": "okanemochi",
+   "japanese": "お金持ち",
+   "romaji": "okanemochi",
+   "english": "rich person",
+   "alt": "A rich man in a hat sitting between bags of money",
+   "audio": "お金持ち.wav",
+   "img": false
+  },
+  {
+   "id": "okusan",
+   "japanese": "奥さん",
+   "romaji": "okusan",
+   "english": "wife",
+   "alt": "A husband sitting on a sofa with his pregnant wife",
+   "audio": "奥さん.wav",
+   "img": false
+  },
+  {
+   "id": "kekkon_shimasu",
+   "japanese": "結婚します【Ⅲ】",
+   "romaji": "kekkon shimasu",
+   "english": "to get married",
+   "alt": "A newlywed couple in tuxedo and wedding dress",
+   "audio": "結婚します.wav",
+   "img": true
+  },
+  {
+   "id": "manshon",
+   "japanese": "マンション",
+   "romaji": "manshon",
+   "english": "mansion",
+   "alt": "A multi-storey apartment building",
+   "audio": "マンション.wav",
+   "img": true
+  },
+  {
+   "id": "jitensha",
+   "japanese": "自転車",
+   "romaji": "jitensha",
+   "english": "bicycle",
+   "alt": "A grid of small bicycles in many colours",
+   "audio": "自転車.wav",
+   "img": true
+  },
+  {
+   "id": "pasupooto",
+   "japanese": "パスポート",
+   "romaji": "pasupooto",
+   "english": "passport",
+   "alt": "An open passport next to a red passport cover",
+   "audio": "パスポート.wav",
+   "img": true
+  },
+  {
+   "id": "oishii",
+   "japanese": "おいしい",
+   "romaji": "oishii",
+   "english": "delicious",
+   "alt": "A girl happily eating a delicious meal",
+   "audio": "おいしい.wav",
+   "img": true
+  },
+  {
+   "id": "tenpura",
+   "japanese": "てんぷら",
+   "romaji": "tenpura",
+   "english": "tempura",
+   "alt": "A plate of assorted tempura with shrimp",
+   "audio": "てんぷら.wav",
+   "img": true
+  },
+  {
+   "id": "ryooshin",
+   "japanese": "両親",
+   "romaji": "ryooshin",
+   "english": "parents",
+   "alt": "Parents dressed in formal black attire",
+   "audio": "両親.wav",
+   "img": true
+  },
+  {
+   "id": "omoidashimasu",
+   "japanese": "思い出します【Ⅰ】",
+   "romaji": "omoidashimasu",
+   "english": "to remember",
+   "alt": "An elderly couple looking at a photo album together",
+   "audio": "思い出します.wav",
+   "img": true
+  },
+  {
+   "id": "koojoo",
+   "japanese": "工場",
+   "romaji": "koojoo",
+   "english": "factory",
+   "alt": "A grey factory with a smoking chimney",
+   "audio": "工場.wav",
+   "img": true
+  },
+  {
+   "id": "hatarakimasu",
+   "japanese": "働きます【Ⅰ】",
+   "romaji": "hatarakimasu",
+   "english": "to work",
+   "alt": "A worker in a hard hat operating a machine",
+   "audio": "働きます.wav",
+   "img": true
+  },
+  {
+   "id": "hana",
+   "japanese": "花",
+   "romaji": "hana",
+   "english": "flower",
+   "alt": "A red flower in a brown pot",
+   "audio": "花.wav",
+   "img": true
+  },
+  {
+   "id": "suki_na",
+   "japanese": "好き（な）",
+   "romaji": "suki(na)",
+   "english": "liked",
+   "alt": "A couple sitting face to face with a heart between them",
+   "audio": "好きな.wav",
+   "img": true
+  },
+  {
+   "id": "depaato",
+   "japanese": "デパート",
+   "romaji": "depaato",
+   "english": "department store",
+   "alt": "A large department store building",
+   "audio": "デパート.wav",
+   "img": true
+  },
+  {
+   "id": "fuku",
+   "japanese": "服",
+   "romaji": "fuku",
+   "english": "clothes",
+   "alt": "A stack of neatly folded clothes",
+   "audio": "服.wav",
+   "img": true
+  },
+  {
+   "id": "urimasu",
+   "japanese": "売ります【Ⅰ】",
+   "romaji": "urimasu",
+   "english": "to sell",
+   "alt": "A vendor selling station bento boxes from a tray",
+   "audio": "売ります.wav",
+   "img": true
+  },
+  {
+   "id": "daigaku",
+   "japanese": "大学",
+   "romaji": "daigaku",
+   "english": "university",
+   "alt": "A university building with a clock tower",
+   "audio": "大学.wav",
+   "img": true
+  },
+  {
+   "id": "kenkyuu_shimasu",
+   "japanese": "研究します【Ⅲ】",
+   "romaji": "kenkyuu shimasu",
+   "english": "to research",
+   "alt": "A scientist raising a test tube in a laboratory",
+   "audio": "研究します.wav",
+   "img": true
+  },
+  {
+   "id": "kookoo",
+   "japanese": "高校",
+   "romaji": "kookoo",
+   "english": "high school",
+   "alt": "A teacher pointing at a blackboard in a classroom",
+   "audio": "高校.wav",
+   "img": true
+  },
+  {
+   "id": "eego",
+   "japanese": "英語",
+   "romaji": "eego",
+   "english": "English",
+   "alt": "A set of colourful school textbooks",
+   "audio": "英語.wav",
+   "img": true
+  },
+  {
+   "id": "oshiemasu",
+   "japanese": "教えます【Ⅱ】",
+   "romaji": "oshiemasu",
+   "english": "to teach",
+   "alt": "A teacher writing on a blackboard",
+   "audio": "教えます.wav",
+   "img": true
+  },
+  {
+   "id": "sobo",
+   "japanese": "祖母",
+   "romaji": "sobo",
+   "english": "grandmother",
+   "alt": "A smiling elderly grandmother",
+   "audio": "祖母.wav",
+   "img": true
+  },
+  {
+   "id": "osechiryoori",
+   "japanese": "お節料理",
+   "romaji": "osechiryoori",
+   "english": "food served on New Year's holidays",
+   "alt": "A black lacquered box filled with New Year's food",
+   "audio": "お節料理.wav",
+   "img": true
+  },
+  {
+   "id": "haisha",
+   "japanese": "歯医者",
+   "romaji": "haisha",
+   "english": "dentist",
+   "alt": "A dentist examining a child's teeth",
+   "audio": "歯医者.wav",
+   "img": true
+  },
+  {
+   "id": "kuriimu",
+   "japanese": "クリーム",
+   "romaji": "kuriimu",
+   "english": "cream",
+   "alt": "A light blue jar labelled cream",
+   "audio": "クリーム.wav",
+   "img": true
+  },
+  {
+   "id": "onrain",
+   "japanese": "オンライン",
+   "romaji": "onrain",
+   "english": "online",
+   "alt": "A woman taking an online lesson on a tablet",
+   "audio": "オンライン.wav",
+   "img": true
+  },
+  {
+   "id": "mise",
+   "japanese": "店",
+   "romaji": "mise",
+   "english": "shop",
+   "alt": "Shop",
+   "audio": "店.wav",
+   "img": false
+  },
+  {
+   "id": "kimasu",
+   "japanese": "来ます【Ⅲ】",
+   "romaji": "kimasu",
+   "english": "to come",
+   "alt": "To come",
+   "audio": "来ます.wav",
+   "img": false
+  },
+  {
+   "id": "isshuukan",
+   "japanese": "1週間",
+   "romaji": "isshuukan",
+   "english": "for one hour",
+   "alt": "One week",
+   "audio": "一週間.wav",
+   "img": false
+  },
+  {
+   "id": "kai",
+   "japanese": "-回",
+   "romaji": "-kai",
+   "english": "- time (counter for occurrences)",
+   "alt": "Counter for occurrences",
+   "audio": "回.wav",
+   "img": false
+  },
+  {
+   "id": "hito",
+   "japanese": "人",
+   "romaji": "hito",
+   "english": "person",
+   "alt": "Person",
+   "audio": "人.wav",
+   "img": false
+  },
+  {
+   "id": "kare",
+   "japanese": "彼",
+   "romaji": "kare",
+   "english": "he, boyfriend",
+   "alt": "He or boyfriend",
+   "audio": "彼.wav",
+   "img": false
+  },
+  {
+   "id": "minatoku",
+   "japanese": "港区",
+   "romaji": "minatoku",
+   "english": "Minato ward",
+   "alt": "Minato ward in Tokyo",
+   "audio": "港区.wav",
+   "img": false
+  },
+  {
+   "id": "takai",
+   "japanese": "高い",
+   "romaji": "takai",
+   "english": "expensive",
+   "alt": "Expensive",
+   "audio": "高い.wav",
+   "img": false
+  },
+  {
+   "id": "kiree_na",
+   "japanese": "きれい（な）",
+   "romaji": "kiree(na)",
+   "english": "beautiful",
+   "alt": "Na-adjective meaning beautiful",
+   "audio": "きれいな.wav",
+   "img": false
+  },
+  {
+   "id": "shirimasu",
+   "japanese": "知ります【Ⅰ】",
+   "romaji": "shirimasu",
+   "english": "to know",
+   "alt": "To know",
+   "audio": "知ります.wav",
+   "img": false
+  },
+  {
+   "id": "kanojo",
+   "japanese": "彼女",
+   "romaji": "kanojo",
+   "english": "she, girlfriend",
+   "alt": "She or girlfriend",
+   "audio": "彼女.wav",
+   "img": false
+  },
+  {
+   "id": "ima",
+   "japanese": "今",
+   "romaji": "ima",
+   "english": "now",
+   "alt": "Now",
+   "audio": "今.m4a",
+   "img": false
+  },
+  {
+   "id": "kaimasu",
+   "japanese": "買います【Ⅰ】",
+   "romaji": "kaimasu",
+   "english": "to buy",
+   "alt": "To buy",
+   "audio": "買います.m4a",
+   "img": false
+  },
+  {
+   "id": "kinoo",
+   "japanese": "昨日",
+   "romaji": "kinoo",
+   "english": "yesterday",
+   "alt": "Yesterday",
+   "audio": "昨日.wav",
+   "img": false
+  },
+  {
+   "id": "tsukaikata",
+   "japanese": "使い方",
+   "romaji": "tsukaikata",
+   "english": "way of using",
+   "alt": "Way of using",
+   "audio": "使い方.wav",
+   "img": false
+  },
+  {
+   "id": "kyonen",
+   "japanese": "去年",
+   "romaji": "kyonen",
+   "english": "last year",
+   "alt": "Last year",
+   "audio": "去年.wav",
+   "img": false
+  },
+  {
+   "id": "nihon",
+   "japanese": "日本",
+   "romaji": "nihon",
+   "english": "Japan",
+   "alt": "Japan",
+   "audio": "日本.wav",
+   "img": false
+  },
+  {
+   "id": "gakkoo",
+   "japanese": "学校",
+   "romaji": "gakkoo",
+   "english": "school",
+   "alt": "School",
+   "audio": "学校.wav",
+   "img": false
+  },
+  {
+   "id": "chikaku",
+   "japanese": "近く",
+   "romaji": "chikaku",
+   "english": "near",
+   "alt": "Near",
+   "audio": "近く.wav",
+   "img": false
+  },
+  {
+   "id": "denwabangoo",
+   "japanese": "電話番号",
+   "romaji": "denwabangoo",
+   "english": "phone number",
+   "alt": "Phone number",
+   "audio": "電話番号.wav",
+   "img": false
+  },
+  {
+   "id": "tsukurikata",
+   "japanese": "作り方",
+   "romaji": "tsukurikata",
+   "english": "way of making",
+   "alt": "Way of making",
+   "audio": "作り方.wav",
+   "img": false
+  },
+  {
+   "id": "ii",
+   "japanese": "いい",
+   "romaji": "ii",
+   "english": "good",
+   "alt": "Good",
+   "audio": "いい.wav",
+   "img": false
+  },
+  {
+   "id": "eega",
+   "japanese": "映画",
+   "romaji": "eega",
+   "english": "movie",
+   "alt": "Movie",
+   "audio": "映画.wav",
+   "img": false
+  },
+  {
+   "id": "dochira",
+   "japanese": "どちら",
+   "romaji": "dochira",
+   "english": "which way",
+   "alt": "Which way",
+   "audio": "どちら.wav",
+   "img": false
+  },
+  {
+   "id": "irasshaimasu",
+   "japanese": "いらっしゃいます【Ⅰ】",
+   "romaji": "irasshaimasu",
+   "english": "to come (used in a honorific speech)",
+   "alt": "To come, honorific",
+   "audio": "いらっしゃいます.wav",
+   "img": false
+  },
+  {
+   "id": "chichi",
+   "japanese": "父",
+   "romaji": "chichi",
+   "english": "father",
+   "alt": "Father",
+   "audio": "父.wav",
+   "img": false
+  },
+  {
+   "id": "mosukuwa",
+   "japanese": "モスクワ",
+   "romaji": "mosukuwa",
+   "english": "Moscow",
+   "alt": "Moscow",
+   "audio": "モスクワ.wav",
+   "img": false
+  },
+  {
+   "id": "haha",
+   "japanese": "母",
+   "romaji": "haha",
+   "english": "mother",
+   "alt": "Mother",
+   "audio": "母.wav",
+   "img": false
+  },
+  {
+   "id": "maitsuki",
+   "japanese": "毎月",
+   "romaji": "maitsuki",
+   "english": "every month",
+   "alt": "Every month",
+   "audio": "毎月.wav",
+   "img": false
+  },
+  {
+   "id": "ikebana",
+   "japanese": "生け花",
+   "romaji": "ikebana",
+   "english": "Japanese art of flower arrangement",
+   "alt": "Japanese flower arrangement",
+   "audio": "生け花.wav",
+   "img": false
+  },
+  {
+   "id": "kyooshitsu",
+   "japanese": "教室",
+   "romaji": "kyooshitsu",
+   "english": "classroom",
+   "alt": "Classroom",
+   "audio": "教室.wav",
+   "img": false
+  },
+  {
+   "id": "kayoimasu",
+   "japanese": "通います【Ⅰ】",
+   "romaji": "kayoimasu",
+   "english": "to commute, to attend",
+   "alt": "To commute or attend",
+   "audio": "通います.wav",
+   "img": false
+  },
+  {
+   "id": "keezai",
+   "japanese": "経済",
+   "romaji": "keezai",
+   "english": "economics",
+   "alt": "Economics",
+   "audio": "経済.wav",
+   "img": false
+  },
+  {
+   "id": "ani",
+   "japanese": "兄",
+   "romaji": "ani",
+   "english": "older brother",
+   "alt": "Older brother",
+   "audio": "兄.wav",
+   "img": false
+  },
+  {
+   "id": "maitoshi",
+   "japanese": "毎年",
+   "romaji": "maitoshi",
+   "english": "every year",
+   "alt": "Every year",
+   "audio": "毎年.wav",
+   "img": false
+  },
+  {
+   "id": "imooto",
+   "japanese": "妹",
+   "romaji": "imooto",
+   "english": "younger sister",
+   "alt": "Younger sister",
+   "audio": "妹.wav",
+   "img": false
+  },
+  {
+   "id": "futsuka",
+   "japanese": "2日",
+   "romaji": "futsuka",
+   "english": "second day of the month",
+   "alt": "Second day of the month",
+   "audio": "2日.wav",
+   "img": false
+  },
+  {
+   "id": "tsukaimasu",
+   "japanese": "使います【Ⅰ】",
+   "romaji": "tsukaimasu",
+   "english": "to use",
+   "alt": "To use",
+   "audio": "使います.wav",
+   "img": false
+  },
+  {
+   "id": "benkyoo_shimasu",
+   "japanese": "勉強します【Ⅲ】",
+   "romaji": "benkyoo shimasu",
+   "english": "to study",
+   "alt": "To study",
+   "audio": "勉強します.wav",
+   "img": false
+  },
+  {
+   "id": "sengetsu",
+   "japanese": "先月",
+   "romaji": "sengetsu",
+   "english": "last month",
+   "alt": "Last month",
+   "audio": "先月.wav",
+   "img": false
+  }
+ ]
+}

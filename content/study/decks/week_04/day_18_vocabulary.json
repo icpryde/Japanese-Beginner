@@ -1,0 +1,347 @@
+{
+  "id": "week_04/day_18_vocabulary",
+  "kind": "image",
+  "title": "Day 18 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 18 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "onaka_ga_sukimashita",
+      "japanese": "おなかが すきました",
+      "romaji": "onaka ga sukimashita",
+      "english": "I'm hungry",
+      "image": "../images/study/week_04/day_18/onaka_ga_sukimashita.png",
+      "audio": "../audio/vocabulary/week_04/day_18/onaka_ga_sukimashita.wav",
+      "alt": "A hungry woman daydreaming about a rice ball"
+    },
+    {
+      "id": "raamen",
+      "japanese": "ラーメン",
+      "romaji": "raamen",
+      "english": "ramen",
+      "image": "../images/study/week_04/day_18/raamen.png",
+      "audio": "../audio/vocabulary/week_04/day_18/raamen.wav",
+      "alt": "A bowl of ramen with egg and toppings"
+    },
+    {
+      "id": "tabemas",
+      "japanese": "たべます",
+      "romaji": "tabemas",
+      "english": "to eat",
+      "image": "../images/study/week_04/day_18/tabemas.png",
+      "audio": "../audio/vocabulary/week_04/day_18/tabemas.wav",
+      "alt": "A boy eating a bowl of rice with chopsticks"
+    },
+    {
+      "id": "ikimas",
+      "japanese": "いきます",
+      "romaji": "ikimas",
+      "english": "to go",
+      "image": "../images/study/week_04/day_18/ikimas.png",
+      "audio": "../audio/vocabulary/week_04/day_18/ikimas.wav",
+      "alt": "A man walking"
+    },
+    {
+      "id": "ryokoo",
+      "japanese": "りょこう",
+      "romaji": "ryokoo",
+      "english": "travel",
+      "image": "../images/study/week_04/day_18/ryokoo.png",
+      "audio": "../audio/vocabulary/week_04/day_18/ryokoo.wav",
+      "alt": "A family riding on an airplane"
+    },
+    {
+      "id": "tenki",
+      "japanese": "てんき",
+      "romaji": "tenki",
+      "english": "weather",
+      "image": "../images/study/week_04/day_18/tenki.png",
+      "audio": "../audio/vocabulary/week_04/day_18/tenki.wav",
+      "alt": "Weather icons of a sun, umbrella and snowman"
+    },
+    {
+      "id": "kaban",
+      "japanese": "かばん",
+      "romaji": "kaban",
+      "english": "bag",
+      "image": "../images/study/week_04/day_18/kaban.png",
+      "audio": "../audio/vocabulary/week_04/day_18/kaban.wav",
+      "alt": "Two sparkling handbags"
+    },
+    {
+      "id": "ekimae",
+      "japanese": "えきまえ",
+      "romaji": "ekimae",
+      "english": "in front of a station",
+      "image": "../images/study/week_04/day_18/ekimae.png",
+      "audio": "../audio/vocabulary/week_04/day_18/ekimae.wav",
+      "alt": "Cars circled in front of a station building"
+    },
+    {
+      "id": "kareeya",
+      "japanese": "カレーや",
+      "romaji": "kareeya",
+      "english": "curry restaurant",
+      "image": "../images/study/week_04/day_18/kareeya.png",
+      "audio": "../audio/vocabulary/week_04/day_18/kareeya.wav",
+      "alt": "A curry restaurant storefront"
+    },
+    {
+      "id": "karee",
+      "japanese": "カレー",
+      "romaji": "karee",
+      "english": "curry",
+      "image": "../images/study/week_04/day_18/karee.png",
+      "audio": "../audio/vocabulary/week_04/day_18/karee.wav",
+      "alt": "A plate of curry and rice"
+    },
+    {
+      "id": "mise",
+      "japanese": "みせ",
+      "romaji": "mise",
+      "english": "shop",
+      "image": "../images/study/week_04/day_18/mise.png",
+      "audio": "../audio/vocabulary/week_04/day_18/mise.wav",
+      "alt": "A small shop with a striped awning"
+    },
+    {
+      "id": "chiizukaree",
+      "japanese": "チーズカレー",
+      "romaji": "chiizukaree",
+      "english": "cheese curry",
+      "image": "../images/study/week_04/day_18/chiizukaree.png",
+      "audio": "../audio/vocabulary/week_04/day_18/chiizukaree.wav",
+      "alt": "A pot of baked cheese curry"
+    },
+    {
+      "id": "sooseejikaree",
+      "japanese": "ソーセージカレー",
+      "romaji": "sooseejikaree",
+      "english": "curry with sausages",
+      "image": "../images/study/week_04/day_18/sooseejikaree.png",
+      "audio": "../audio/vocabulary/week_04/day_18/sooseejikaree.wav",
+      "alt": "Sausages above a plate of curry rice"
+    },
+    {
+      "id": "toppingu",
+      "japanese": "トッピング",
+      "romaji": "toppingu",
+      "english": "topping",
+      "image": "../images/study/week_04/day_18/toppingu.png",
+      "audio": "../audio/vocabulary/week_04/day_18/toppingu.wav",
+      "alt": "Assorted ramen toppings"
+    },
+    {
+      "id": "muryoo",
+      "japanese": "むりょう",
+      "romaji": "muryoo",
+      "english": "free",
+      "image": "../images/study/week_04/day_18/muryoo.png",
+      "audio": "../audio/vocabulary/week_04/day_18/muryoo.wav",
+      "alt": "A taxi with a FREE sign and a yellow arrow"
+    },
+    {
+      "id": "osake",
+      "japanese": "おさけ",
+      "romaji": "osake",
+      "english": "alcohol",
+      "image": "../images/study/week_04/day_18/osake.png",
+      "audio": "../audio/vocabulary/week_04/day_18/osake.wav",
+      "alt": "A drunk man surrounded by circled bottles"
+    },
+    {
+      "id": "tesuto",
+      "japanese": "テスト",
+      "romaji": "tesuto",
+      "english": "test",
+      "audio": "../audio/vocabulary/week_04/day_18/tesuto.wav",
+      "alt": "A stack of test papers"
+    },
+    {
+      "id": "ame",
+      "japanese": "あめ",
+      "romaji": "ame",
+      "english": "rain",
+      "image": "../images/study/week_04/day_18/ame.png",
+      "audio": "../audio/vocabulary/week_04/day_18/ame.wav",
+      "alt": "A blue umbrella in the rain"
+    },
+    {
+      "id": "eki",
+      "japanese": "えき",
+      "romaji": "eki",
+      "english": "station",
+      "image": "../images/study/week_04/day_18/eki.png",
+      "audio": "../audio/vocabulary/week_04/day_18/eki.wav",
+      "alt": "A station building with a STATION sign"
+    },
+    {
+      "id": "pan",
+      "japanese": "パン",
+      "romaji": "pan",
+      "english": "bread",
+      "image": "../images/study/week_04/day_18/pan.png",
+      "audio": "../audio/vocabulary/week_04/day_18/pan.wav",
+      "alt": "An assortment of bread loaves"
+    },
+    {
+      "id": "senshuu",
+      "japanese": "せんしゅう",
+      "romaji": "senshuu",
+      "english": "last week",
+      "audio": "../audio/vocabulary/week_04/day_18/senshuu.wav",
+      "alt": "Last week"
+    },
+    {
+      "id": "saabis",
+      "japanese": "サービス",
+      "romaji": "saabis",
+      "english": "service",
+      "audio": "../audio/vocabulary/week_04/day_18/saabis.wav",
+      "alt": "Service"
+    },
+    {
+      "id": "ii",
+      "japanese": "いい",
+      "romaji": "ii",
+      "english": "good",
+      "audio": "../audio/vocabulary/week_04/day_18/ii.wav",
+      "alt": "Good"
+    },
+    {
+      "id": "amari",
+      "japanese": "あまり",
+      "romaji": "amari",
+      "english": "not very",
+      "audio": "../audio/vocabulary/week_04/day_18/amari.wav",
+      "alt": "Not very"
+    },
+    {
+      "id": "ooi",
+      "japanese": "おおい",
+      "romaji": "ooi",
+      "english": "many",
+      "audio": "../audio/vocabulary/week_04/day_18/ooi.wav",
+      "alt": "Many"
+    },
+    {
+      "id": "karai",
+      "japanese": "からい",
+      "romaji": "karai",
+      "english": "spicy",
+      "audio": "../audio/vocabulary/week_04/day_18/karai.wav",
+      "alt": "Spicy"
+    },
+    {
+      "id": "atatakai",
+      "japanese": "あたたかい",
+      "romaji": "atatakai",
+      "english": "warm",
+      "audio": "../audio/vocabulary/week_04/day_18/atatakai.wav",
+      "alt": "Warm"
+    },
+    {
+      "id": "kinoo",
+      "japanese": "きのう",
+      "romaji": "kinoo",
+      "english": "yesterday",
+      "audio": "../audio/vocabulary/week_04/day_18/kinoo.wav",
+      "alt": "Yesterday"
+    },
+    {
+      "id": "samui",
+      "japanese": "さむい",
+      "romaji": "samui",
+      "english": "cold",
+      "audio": "../audio/vocabulary/week_04/day_18/samui.wav",
+      "alt": "Cold"
+    },
+    {
+      "id": "tanoshii",
+      "japanese": "たのしい",
+      "romaji": "tanoshii",
+      "english": "fun",
+      "audio": "../audio/vocabulary/week_04/day_18/tanoshii.wav",
+      "alt": "Fun"
+    },
+    {
+      "id": "isshoni",
+      "japanese": "いっしょに",
+      "romaji": "isshoni",
+      "english": "together",
+      "audio": "../audio/vocabulary/week_04/day_18/isshoni.wav",
+      "alt": "Together"
+    },
+    {
+      "id": "kiree_na",
+      "japanese": "きれい（な）",
+      "romaji": "kiree(na)",
+      "english": "beautiful",
+      "audio": "../audio/vocabulary/week_04/day_18/kiree_na.wav",
+      "alt": "Beautiful"
+    },
+    {
+      "id": "nigiyaka_na",
+      "japanese": "にぎやか（な）",
+      "romaji": "nigiyaka(na)",
+      "english": "lively",
+      "audio": "../audio/vocabulary/week_04/day_18/nigiyaka_na.wav",
+      "alt": "Lively"
+    },
+    {
+      "id": "ski_na",
+      "japanese": "すき（な）",
+      "romaji": "ski(na)",
+      "english": "liked",
+      "audio": "../audio/vocabulary/week_04/day_18/ski_na.wav",
+      "alt": "Liked"
+    },
+    {
+      "id": "kantan_na",
+      "japanese": "かんたん（な）",
+      "romaji": "kantan(na)",
+      "english": "easy",
+      "audio": "../audio/vocabulary/week_04/day_18/kantan_na.wav",
+      "alt": "Easy"
+    },
+    {
+      "id": "tooi",
+      "japanese": "とおい",
+      "romaji": "tooi",
+      "english": "far",
+      "audio": "../audio/vocabulary/week_04/day_18/tooi.wav",
+      "alt": "Far"
+    },
+    {
+      "id": "isogashii",
+      "japanese": "いそがしい",
+      "romaji": "isogashii",
+      "english": "busy",
+      "audio": "../audio/vocabulary/week_04/day_18/isogashii.wav",
+      "alt": "Busy"
+    },
+    {
+      "id": "kyoo",
+      "japanese": "きょう",
+      "romaji": "kyoo",
+      "english": "today",
+      "audio": "../audio/vocabulary/week_04/day_18/kyoo.wav",
+      "alt": "Today"
+    },
+    {
+      "id": "asagohan",
+      "japanese": "あさごはん",
+      "romaji": "asagohan",
+      "english": "breakfast",
+      "audio": "../audio/vocabulary/week_04/day_18/asagohan.wav",
+      "alt": "Breakfast"
+    }
+  ]
+}

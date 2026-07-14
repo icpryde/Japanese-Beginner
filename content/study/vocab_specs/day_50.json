@@ -1,0 +1,112 @@
+{
+ "week": 10,
+ "day": 50,
+ "lesson_id": "14347349",
+ "title": "Day 50 Vocabulary",
+ "raw_audio_dir": "53. Week 10 - Day 50/3.Day 50 - VocabularyText/Day 50 - Vocabulary Audio",
+ "pages": [
+  "Vocabulary_Day_50_1.jpg"
+ ],
+ "detect": {"merge_gap": 15},
+ "words": [
+  {
+   "id": "paatii_doresu",
+   "japanese": "パーティードレス",
+   "romaji": "paatii doresu",
+   "english": "party dress",
+   "alt": "A woman wearing a pink party dress, highlighted by a yellow arrow",
+   "audio": "パーティードレス.wav",
+   "img": true
+  },
+  {
+   "id": "sagashimasu",
+   "japanese": "探します【Ⅰ】",
+   "romaji": "sagashimasu",
+   "english": "to search",
+   "alt": "A man patting his pockets searching for something",
+   "audio": "探します.wav",
+   "img": true
+  },
+  {
+   "id": "wanpiisu",
+   "japanese": "ワンピース",
+   "romaji": "wanpiisu",
+   "english": "dress",
+   "alt": "A light blue one-piece dress",
+   "audio": "ワンピース.wav",
+   "img": true
+  },
+  {
+   "id": "kangaemasu",
+   "japanese": "考えます【Ⅱ】",
+   "romaji": "kangaemasu",
+   "english": "to think",
+   "alt": "A man at a desk thinking about the future",
+   "audio": "考えます.wav",
+   "img": true
+  },
+  {
+   "id": "shusseki_shimasu",
+   "japanese": "出席します【Ⅲ】",
+   "romaji": "shusseki shimasu",
+   "english": "to attend",
+   "alt": "To attend",
+   "audio": "出席します.wav",
+   "img": false
+  },
+  {
+   "id": "nakushimasu",
+   "japanese": "失くします【Ⅰ】",
+   "romaji": "nakushimasu",
+   "english": "to lose (something)",
+   "alt": "To lose (something)",
+   "audio": "失くします.wav",
+   "img": false
+  },
+  {
+   "id": "naorimasu",
+   "japanese": "治ります【Ⅰ】",
+   "romaji": "naorimasu",
+   "english": "to be cured",
+   "alt": "To be cured",
+   "audio": "治ります.wav",
+   "img": false
+  },
+  {
+   "id": "juken_shimasu",
+   "japanese": "受験します【Ⅲ】",
+   "romaji": "juken shimasu",
+   "english": "to take an exam",
+   "alt": "To take an exam",
+   "audio": "受験します.wav",
+   "img": false
+  },
+  {
+   "id": "gansho",
+   "japanese": "願書",
+   "romaji": "gansho",
+   "english": "written application",
+   "alt": "Written application",
+   "audio": "願書.wav",
+   "img": false
+  },
+  {
+   "id": "zutsu_hitotsu_zutsu",
+   "japanese": "～ずつ Ex)１つずつ",
+   "romaji": "~zutsu Ex. hitotsu zutsu",
+   "english": "each, apiece Ex. one by one",
+   "alt": "Each, apiece, e.g. one by one",
+   "audio": "１つずつ.wav",
+   "img": false
+  },
+  {
+   "id": "renrakusaki",
+   "japanese": "連絡先",
+   "romaji": "renrakusaki",
+   "english": "contact address",
+   "alt": "Contact address",
+   "audio": "連絡先.wav",
+   "img": false
+  }
+ ]
+}

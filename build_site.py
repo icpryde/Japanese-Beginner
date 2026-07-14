@@ -610,12 +610,7 @@ WEEKLY_TEST_TEMPLATE = r"""
   <div class="test-header">
     <h1>📝 {{ test_title }}</h1>
     <p class="test-subtitle">{{ test_subtitle }}</p>
-    <div class="test-meta-badges">
-      <span class="test-meta-badge">Multiple Choice</span>
-      <span class="test-meta-badge">True / False</span>
-      <span class="test-meta-badge">Fill in the Particle</span>
-      <span class="test-meta-badge">Reading Match</span>
-    </div>
+    <div class="test-meta-badges">{{ meta_badges | safe }}</div>
   </div>
 
   <!-- Previous attempt banner -->
@@ -1859,6 +1854,129 @@ def get_week2_test_questions():
 '''
 
 
+# ─────────────────────────────────────────────────────────────────────────────
+# Data-driven weekly tests (from content/quizzes/*.json extracted via
+# extract_quizzes.py). Questions/choices carry media on the Thinkific CDN;
+# we rewrite those to the local copies under audio/tests and images/tests.
+# ─────────────────────────────────────────────────────────────────────────────
+
+QUIZ_PAGES = [
+    {"key": "week_08", "test_id": "week8-test", "file": "week8-test.html",
+     "title": "Week 8 Test", "subtitle": "30 questions — cumulative review of Weeks 4–8",
+     "lesson_id": "quiz_week8", "lesson_title": "Week 8 Review Quiz",
+     "week_label": "Week 8",
+     "meta_badges": '<span class="test-meta-badge">Listening</span>'
+                    '<span class="test-meta-badge">Reading</span>'
+                    '<span class="test-meta-badge">Multiple Choice</span>'},
+    {"key": "week_09-12", "test_id": "week9-12-test", "file": "week9-12-test.html",
+     "title": "Week 9–12 Test", "subtitle": "30 questions — cumulative review of Weeks 9–12",
+     "lesson_id": "quiz_week9_12", "lesson_title": "Week 9-12 Quiz Review",
+     "week_label": "Week 12",
+     "meta_badges": '<span class="test-meta-badge">Listening</span>'
+                    '<span class="test-meta-badge">Reading</span>'
+                    '<span class="test-meta-badge">Multi-Select</span>'},
+]
+
+QUIZ_EXTRA_CSS = """
+<style>
+.q-option-row{display:flex;align-items:center;gap:12px;margin:6px 0;flex-wrap:wrap}
+.q-option-row audio{height:36px;max-width:280px;flex:1 1 200px}
+.q-text audio{display:block;margin:10px auto;width:100%;max-width:420px}
+.q-text img{max-width:100%;height:auto;border-radius:8px;display:block;margin:10px auto}
+.q-text ruby rt{font-size:0.55em}
+</style>
+"""
+
+
+def _decode_quiz_credited(value) -> bool:
+    """Thinkific obfuscates the credited flag as base64('<n><true|false><n>')."""
+    import base64
+    try:
+        s = base64.b64decode(value or "").decode("utf-8", "ignore")
+        if "true" in s:
+            return True
+    except Exception:
+        pass
+    return False
+
+
+def _localize_quiz_fragment(fragment: str, key: str) -> str:
+    """Rewrite CDN media URLs to local test assets; unwrap file-download anchors."""
+    from urllib.parse import unquote
+    soup = BeautifulSoup(fragment or "", "html.parser")
+    for a in list(soup.find_all("a")):
+        href = (a.get("href") or "").split("?")[0].lower()
+        if a.find("audio") is not None:
+            a.unwrap()
+        elif href.endswith((".wav", ".mp3", ".m4a")):
+            audio = soup.new_tag("audio", controls="", preload="none", src=a.get("href"))
+            a.replace_with(audio)
+    for tag in soup.find_all(["audio", "source"]):
+        src = tag.get("src") or ""
+        if src:
+            tag["src"] = f"../audio/tests/{key}/{unquote(src.split('/')[-1])}"
+            tag["preload"] = "none"
+    for img in soup.find_all("img"):
+        src = img.get("src") or ""
+        if src:
+            img["src"] = f"../images/tests/{key}/{unquote(src.split('/')[-1])}"
+        for attr in ("srcset", "data-src"):
+            img.attrs.pop(attr, None)
+    for el in soup.find_all(attrs={"contenteditable": True}):
+        del el["contenteditable"]
+    return str(soup)
+
+
+def _render_quiz_choice(localized_html: str, idx: int, correct: bool) -> str:
+    soup = BeautifulSoup(localized_html, "html.parser")
+    audio = soup.find("audio")
+    text = " ".join(soup.get_text(" ", strip=True).split())
+    corr = "true" if correct else "false"
+    if audio is not None:
+        looks_like_filename = bool(re.search(r"\.(wav|mp3|m4a)", text, re.I))
+        label = text if (text and not looks_like_filename and len(text) < 80) else f"Clip {idx}"
+        return ('<div class="q-option-row">'
+                f'<button class="q-option" data-correct="{corr}">{escape(label)}</button>'
+                f'{str(audio)}</div>')
+    return f'<button class="q-option" data-correct="{corr}">{escape(text)}</button>'
+
+
+def get_data_quiz_questions(key: str) -> str:
+    """Render content/quizzes/<key>.json into weekly-test question markup."""
+    data = json.loads((CONTENT_DIR / "quizzes" / f"{key}.json").read_text(encoding="utf-8"))
+    questions = sorted(data.get("questions", []), key=lambda q: q.get("position", 0))
+    choices_by_q: dict = {}
+    for c in data.get("choices", []):
+        choices_by_q.setdefault(c["question_id"], []).append(c)
+
+    blocks = [QUIZ_EXTRA_CSS]
+    for i, q in enumerate(questions, 1):
+        prompt = _localize_quiz_fragment(q.get("prompt") or "", key)
+        has_audio = "<audio" in prompt
+        has_img = "<img" in prompt
+        chs = sorted(choices_by_q.get(q["id"], []), key=lambda c: c.get("position", 0))
+        rendered, n_correct = [], 0
+        for j, c in enumerate(chs, 1):
+            correct = _decode_quiz_credited(c.get("credited"))
+            n_correct += 1 if correct else 0
+            rendered.append(_render_quiz_choice(
+                _localize_quiz_fragment(c.get("text") or "", key), j, correct))
+        multi = n_correct > 1
+        topic = "Listening" if has_audio else ("Reading" if has_img else "Grammar & Vocabulary")
+        badge = f"Select {n_correct} Answers" if multi else \
+            ("Listening" if has_audio else ("Reading" if has_img else "Multiple Choice"))
+        multi_attr = f' data-multi="{n_correct}"' if multi else ""
+        blocks.append(f'''
+<div class="quiz-question" data-topic="{topic}"{multi_attr} data-explanation="" data-qnum="{i}">
+  <div class="q-number">Q{i}</div>
+  <span class="q-type-badge type-mc">{badge}</span>
+  <div class="q-text">{prompt}</div>
+  <div class="q-options">{"".join(rendered)}</div>
+  <div class="q-feedback"></div>
+</div>''')
+    return "\n".join(blocks)
+
+
 def generate_site():
     print("Building site...")
 
@@ -2023,12 +2141,17 @@ def generate_site():
     test_tpl = env.from_string(WEEKLY_TEST_TEMPLATE)
     
     # Week 1 test
+    classic_badges = ('<span class="test-meta-badge">Multiple Choice</span>'
+                      '<span class="test-meta-badge">True / False</span>'
+                      '<span class="test-meta-badge">Fill in the Particle</span>'
+                      '<span class="test-meta-badge">Reading Match</span>')
     week1_questions = get_week1_test_questions()
     test_html = test_tpl.render(
         test_id="week1-test",
         test_title="Week 1 Test",
         test_subtitle="35 questions covering Days 1–5",
-        questions_html=week1_questions
+        questions_html=week1_questions,
+        meta_badges=classic_badges,
     )
     breadcrumb = '<a href="../index.html">Dashboard</a> → Week 1 → <a href="../lessons/12645437.html">Week 1 Review</a> → Week 1 Test'
     page_html = layout_tpl.render(
@@ -2043,7 +2166,8 @@ def generate_site():
         test_id="week2-test",
         test_title="Week 2 Test",
         test_subtitle="35 questions covering Days 6–10",
-        questions_html=week2_questions
+        questions_html=week2_questions,
+        meta_badges=classic_badges,
     )
     breadcrumb = '<a href="../index.html">Dashboard</a> → Week 2 → <a href="../lessons/12645547.html">Week 2 Review</a> → Week 2 Test'
     page_html = layout_tpl.render(
@@ -2051,7 +2175,28 @@ def generate_site():
         content=test_html, structure=structure,
     )
     (weeks_out / "week2-test.html").write_text(page_html)
-    
+
+    # Data-driven test pages (Week 8, Week 9-12) from content/quizzes/*.json
+    for spec in QUIZ_PAGES:
+        quiz_path = CONTENT_DIR / "quizzes" / f"{spec['key']}.json"
+        if not quiz_path.exists():
+            print(f"  (skipping {spec['file']}: {quiz_path.name} not extracted)")
+            continue
+        test_html = test_tpl.render(
+            test_id=spec["test_id"],
+            test_title=spec["title"],
+            test_subtitle=spec["subtitle"],
+            questions_html=get_data_quiz_questions(spec["key"]),
+            meta_badges=spec["meta_badges"],
+        )
+        breadcrumb = (f'<a href="../index.html">Dashboard</a> → {spec["week_label"]} → '
+                      f'<a href="../lessons/{spec["lesson_id"]}.html">{spec["lesson_title"]}</a> → {spec["title"]}')
+        page_html = layout_tpl.render(
+            title=spec["title"], root="../", breadcrumb=breadcrumb,
+            content=test_html, structure=structure,
+        )
+        (weeks_out / spec["file"]).write_text(page_html)
+
     print("  Weekly test pages generated")
 
     print(f"Site built at: {SITE_DIR}/")

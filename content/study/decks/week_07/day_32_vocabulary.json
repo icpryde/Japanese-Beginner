@@ -1,0 +1,309 @@
+{
+  "id": "week_07/day_32_vocabulary",
+  "kind": "image",
+  "title": "Day 32 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 32 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "sensei_isha",
+      "japanese": "先生（＝医者）",
+      "romaji": "sensei (=isha)",
+      "english": "doctor",
+      "image": "../images/study/week_07/day_32/sensei_isha.png",
+      "audio": "../audio/vocabulary/week_07/day_32/sensei_isha.wav",
+      "alt": "A friendly doctor in a white coat and head mirror"
+    },
+    {
+      "id": "ofuro",
+      "japanese": "（お）ふろ",
+      "romaji": "(o)furo",
+      "english": "bath",
+      "image": "../images/study/week_07/day_32/ofuro.png",
+      "audio": "../audio/vocabulary/week_07/day_32/ofuro.wav",
+      "alt": "A white bathtub filled with water"
+    },
+    {
+      "id": "hairimasu",
+      "japanese": "（おふろに）入ります【Ｉ】",
+      "romaji": "(ofuro ni) hairimasu",
+      "english": "to enter, to go into",
+      "image": "../images/study/week_07/day_32/hairimasu.png",
+      "audio": "../audio/vocabulary/week_07/day_32/hairimasu.wav",
+      "alt": "A man relaxing in a bathtub"
+    },
+    {
+      "id": "dashimasu",
+      "japanese": "出します【Ｉ】",
+      "romaji": "dashimasu",
+      "english": "to take out",
+      "image": "../images/study/week_07/day_32/dashimasu.png",
+      "audio": "../audio/vocabulary/week_07/day_32/dashimasu.wav",
+      "alt": "A hand taking a wallet out of a bag, with an upward arrow"
+    },
+    {
+      "id": "tachimasu",
+      "japanese": "立ちます【Ｉ】",
+      "romaji": "tachimasu",
+      "english": "to stand",
+      "image": "../images/study/week_07/day_32/tachimasu.png",
+      "audio": "../audio/vocabulary/week_07/day_32/tachimasu.wav",
+      "alt": "A man standing upright"
+    },
+    {
+      "id": "asobimasu",
+      "japanese": "遊びます【Ｉ】",
+      "romaji": "asobimasu",
+      "english": "to play",
+      "image": "../images/study/week_07/day_32/asobimasu.png",
+      "audio": "../audio/vocabulary/week_07/day_32/asobimasu.wav",
+      "alt": "Children playing together with a ball"
+    },
+    {
+      "id": "machigaemasu",
+      "japanese": "間違えます【Ⅱ】",
+      "romaji": "machigaemasu",
+      "english": "to make a mistake",
+      "image": "../images/study/week_07/day_32/machigaemasu.png",
+      "audio": "../audio/vocabulary/week_07/day_32/machigaemasu.wav",
+      "alt": "A man confused after mixing up shampoo and rinse bottles"
+    },
+    {
+      "id": "abimasu",
+      "japanese": "浴びます【Ⅱ】",
+      "romaji": "abimasu",
+      "english": "to take (a shower)",
+      "image": "../images/study/week_07/day_32/abimasu.png",
+      "audio": "../audio/vocabulary/week_07/day_32/abimasu.wav",
+      "alt": "A man taking a shower with water pouring over him"
+    },
+    {
+      "id": "motte_kimasu",
+      "japanese": "持って来ます【Ⅲ】",
+      "romaji": "motte kimasu",
+      "english": "to take something along",
+      "image": "../images/study/week_07/day_32/motte_kimasu.png",
+      "audio": "../audio/vocabulary/week_07/day_32/motte_kimasu.wav",
+      "alt": "A man carrying a heavy cardboard box"
+    },
+    {
+      "id": "isogimasu",
+      "japanese": "急ぎます【Ｉ】",
+      "romaji": "isogimasu",
+      "english": "to hurry",
+      "image": "../images/study/week_07/day_32/isogimasu.png",
+      "audio": "../audio/vocabulary/week_07/day_32/isogimasu.wav",
+      "alt": "A man running in a hurry, legs in a whirl"
+    },
+    {
+      "id": "atsumemasu",
+      "japanese": "集めます【Ⅱ】",
+      "romaji": "atsumemasu",
+      "english": "to collect",
+      "image": "../images/study/week_07/day_32/atsumemasu.png",
+      "audio": "../audio/vocabulary/week_07/day_32/atsumemasu.wav",
+      "alt": "A man standing proudly beside a display case of his collection"
+    },
+    {
+      "id": "shuugou_shimasu",
+      "japanese": "集合します【Ⅲ】",
+      "romaji": "shuugou shimasu",
+      "english": "to gather",
+      "image": "../images/study/week_07/day_32/shuugou_shimasu.png",
+      "audio": "../audio/vocabulary/week_07/day_32/shuugou_shimasu.wav",
+      "alt": "A crowd of people gathered together cheering"
+    },
+    {
+      "id": "chuushajou",
+      "japanese": "駐車場",
+      "romaji": "chuushajou",
+      "english": "parking lot",
+      "image": "../images/study/week_07/day_32/chuushajou.png",
+      "audio": "../audio/vocabulary/week_07/day_32/chuushajou.wav",
+      "alt": "Cars parked in a parking lot with a P sign"
+    },
+    {
+      "id": "shinpai_shimasu",
+      "japanese": "心配します【Ⅲ】",
+      "romaji": "shinpai shimasu",
+      "english": "to be worried",
+      "image": "../images/study/week_07/day_32/shinpai_shimasu.png",
+      "audio": "../audio/vocabulary/week_07/day_32/shinpai_shimasu.wav",
+      "alt": "A worried woman resting her cheek on her hand"
+    },
+    {
+      "id": "wasuremasu",
+      "japanese": "忘れます【Ⅱ】",
+      "romaji": "wasuremasu",
+      "english": "to forget",
+      "image": "../images/study/week_07/day_32/wasuremasu.png",
+      "audio": "../audio/vocabulary/week_07/day_32/wasuremasu.wav",
+      "alt": "A woman scratching her head, having forgotten something"
+    },
+    {
+      "id": "nakushimasu",
+      "japanese": "なくします【Ｉ】",
+      "romaji": "nakushimasu",
+      "english": "to lose (something)",
+      "image": "../images/study/week_07/day_32/nakushimasu.png",
+      "audio": "../audio/vocabulary/week_07/day_32/nakushimasu.wav",
+      "alt": "An upset man thinking about his lost phone"
+    },
+    {
+      "id": "okuremasu",
+      "japanese": "遅れます【Ⅱ】",
+      "romaji": "okuremasu",
+      "english": "to be late",
+      "image": "../images/study/week_07/day_32/okuremasu.png",
+      "audio": "../audio/vocabulary/week_07/day_32/okuremasu.wav",
+      "alt": "A businessman with a briefcase running because he is late"
+    },
+    {
+      "id": "muri_o_shimasu",
+      "japanese": "無理をします【Ⅲ】",
+      "romaji": "muri o shimasu",
+      "english": "to work too hard",
+      "image": "../images/study/week_07/day_32/muri_o_shimasu.png",
+      "audio": "../audio/vocabulary/week_07/day_32/muri_o_shimasu.wav",
+      "alt": "An exhausted man overworking at a laptop beside piles of papers"
+    },
+    {
+      "id": "oshimasu",
+      "japanese": "押します【Ｉ】",
+      "romaji": "oshimasu",
+      "english": "to push",
+      "image": "../images/study/week_07/day_32/oshimasu.png",
+      "audio": "../audio/vocabulary/week_07/day_32/oshimasu.wav",
+      "alt": "One child pushing another child"
+    },
+    {
+      "id": "kinen",
+      "japanese": "禁煙",
+      "romaji": "kin'en",
+      "english": "no smoking",
+      "image": "../images/study/week_07/day_32/kinen.png",
+      "audio": "../audio/vocabulary/week_07/day_32/kinen.wav",
+      "alt": "A red no-smoking sign over a cigarette"
+    },
+    {
+      "id": "shiryou",
+      "japanese": "資料",
+      "romaji": "shiryou",
+      "english": "document",
+      "audio": "../audio/vocabulary/week_07/day_32/shiryou.wav",
+      "alt": "A scattered stack of printed documents"
+    },
+    {
+      "id": "dengen_o_kirimasu",
+      "japanese": "（電源を）切ります【Ｉ】",
+      "romaji": "(dengen o) kirimasu",
+      "english": "to turn off power",
+      "image": "../images/study/week_07/day_32/dengen_o_kirimasu.png",
+      "audio": "../audio/vocabulary/week_07/day_32/dengen_o_kirimasu.wav",
+      "alt": "A woman turning off the power of a TV with a remote"
+    },
+    {
+      "id": "ni_san",
+      "japanese": "２、３～",
+      "romaji": "ni, san ~",
+      "english": "2, 3 ~",
+      "audio": "../audio/vocabulary/week_07/day_32/ni_san.wav",
+      "alt": "Two or three (of something)"
+    },
+    {
+      "id": "ni_san_nichi",
+      "japanese": "２、３日",
+      "romaji": "ni, san nichi",
+      "english": "2, 3 days",
+      "audio": "../audio/vocabulary/week_07/day_32/ni_san_nichi.wav",
+      "alt": "Two or three days"
+    },
+    {
+      "id": "mada",
+      "japanese": "まだ",
+      "romaji": "mada",
+      "english": "not yet",
+      "audio": "../audio/vocabulary/week_07/day_32/mada.wav",
+      "alt": "Not yet"
+    },
+    {
+      "id": "basho",
+      "japanese": "場所",
+      "romaji": "basho",
+      "english": "place",
+      "audio": "../audio/vocabulary/week_07/day_32/basho.wav",
+      "alt": "Place, location"
+    },
+    {
+      "id": "abunai",
+      "japanese": "危ない",
+      "romaji": "abunai",
+      "english": "dangerous",
+      "audio": "../audio/vocabulary/week_07/day_32/abunai.wav",
+      "alt": "Dangerous"
+    },
+    {
+      "id": "nanimo",
+      "japanese": "何も",
+      "romaji": "nanimo",
+      "english": "nothing",
+      "audio": "../audio/vocabulary/week_07/day_32/nanimo.wav",
+      "alt": "Nothing (with negative verb)"
+    },
+    {
+      "id": "daijoubu_na",
+      "japanese": "大丈夫（な）",
+      "romaji": "daijoubu(na)",
+      "english": "safe, secure",
+      "audio": "../audio/vocabulary/week_07/day_32/daijoubu_na.wav",
+      "alt": "Safe, all right"
+    },
+    {
+      "id": "sugu",
+      "japanese": "すぐ",
+      "romaji": "sugu",
+      "english": "immediately",
+      "audio": "../audio/vocabulary/week_07/day_32/sugu.wav",
+      "alt": "Immediately, right away"
+    },
+    {
+      "id": "jikan",
+      "japanese": "～時間",
+      "romaji": "~jikan",
+      "english": "hour/hours ~",
+      "audio": "../audio/vocabulary/week_07/day_32/jikan.wav",
+      "alt": "Counter for hours"
+    },
+    {
+      "id": "san_yokka",
+      "japanese": "３、４日",
+      "romaji": "san, yokka",
+      "english": "3, 4 days",
+      "audio": "../audio/vocabulary/week_07/day_32/san_yokka.wav",
+      "alt": "Three or four days"
+    },
+    {
+      "id": "shuukan",
+      "japanese": "～週間",
+      "romaji": "~shuukan",
+      "english": "week/weeks ~",
+      "audio": "../audio/vocabulary/week_07/day_32/shuukan.wav",
+      "alt": "Counter for weeks"
+    },
+    {
+      "id": "dengen",
+      "japanese": "電源",
+      "romaji": "dengen",
+      "english": "power (button on TV, etc.)",
+      "audio": "../audio/vocabulary/week_07/day_32/dengen.wav",
+      "alt": "Power source, power button"
+    }
+  ]
+}

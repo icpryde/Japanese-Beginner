@@ -1,0 +1,440 @@
+{
+  "week": 8,
+  "day": 37,
+  "lesson_id": "13962900",
+  "title": "Day 37 Vocabulary",
+  "raw_audio_dir": "40. Week 8 - Day 37/3.Day 37 - VocabularyText/Day 37 - Vocabulary Audio",
+  "pages": [
+    "Vocabulary_Day_37_1.jpg",
+    "Vocabulary_Day_37_2.jpg",
+    "Vocabulary_Day_37_3.jpg"
+  ],
+  "detect": {
+    "merge_gap": 15
+  },
+  "words": [
+    {
+      "id": "yachin",
+      "japanese": "家賃",
+      "romaji": "yachin",
+      "english": "rent",
+      "alt": "A house with a red roof",
+      "audio": "家賃.wav",
+      "img": true
+    },
+    {
+      "id": "shain",
+      "japanese": "社員",
+      "romaji": "shain",
+      "english": "employee",
+      "alt": "A large group of company employees",
+      "audio": "社員.wav",
+      "img": true
+    },
+    {
+      "id": "shachou",
+      "japanese": "社長",
+      "romaji": "shachou",
+      "english": "company president",
+      "alt": "A company president sitting at his desk",
+      "audio": "社長.wav",
+      "img": true
+    },
+    {
+      "id": "yakei",
+      "japanese": "夜景",
+      "romaji": "yakei",
+      "english": "night view",
+      "alt": "A city night view with lights",
+      "audio": "夜景.wav",
+      "img": true
+    },
+    {
+      "id": "niwa",
+      "japanese": "庭",
+      "romaji": "niwa",
+      "english": "garden",
+      "alt": "A garden with a tree and a stream",
+      "audio": "庭.wav",
+      "img": true
+    },
+    {
+      "id": "zangyou",
+      "japanese": "残業",
+      "romaji": "zangyou",
+      "english": "overtime (work)",
+      "alt": "A man working overtime late at night",
+      "audio": "残業.wav",
+      "img": true
+    },
+    {
+      "id": "okinawa",
+      "japanese": "沖縄",
+      "romaji": "okinawa",
+      "english": "Okinawa",
+      "alt": "A traditional Okinawan house",
+      "audio": "沖縄.wav",
+      "img": true
+    },
+    {
+      "id": "jishuushitsu",
+      "japanese": "自習室",
+      "romaji": "jishuushitsu",
+      "english": "private study room",
+      "alt": "Students studying in a private study room",
+      "audio": "自習室.wav",
+      "img": true
+    },
+    {
+      "id": "wanpiisu",
+      "japanese": "ワンピース",
+      "romaji": "wanpiisu",
+      "english": "dress",
+      "alt": "A light blue dress",
+      "audio": "ワンピース.wav",
+      "img": true
+    },
+    {
+      "id": "moderu",
+      "japanese": "モデル",
+      "romaji": "moderu",
+      "english": "model",
+      "alt": "Fashion models posing",
+      "audio": "モデル.wav",
+      "img": true
+    },
+    {
+      "id": "joyuu",
+      "japanese": "女優",
+      "romaji": "joyuu",
+      "english": "actress",
+      "alt": "An actress surrounded by cameras",
+      "audio": "女優.wav",
+      "img": true
+    },
+    {
+      "id": "boushi",
+      "japanese": "帽子",
+      "romaji": "boushi",
+      "english": "hat",
+      "alt": "Three different hats",
+      "audio": "帽子.wav",
+      "img": true
+    },
+    {
+      "id": "kaburimasu",
+      "japanese": "かぶります【Ⅰ】",
+      "romaji": "kaburimasu",
+      "english": "to put on (a hat)",
+      "alt": "A boy putting on a green cap",
+      "audio": "かぶります.wav",
+      "img": true
+    },
+    {
+      "id": "megane",
+      "japanese": "眼鏡",
+      "romaji": "megane",
+      "english": "glasses",
+      "alt": "A pair of glasses",
+      "audio": "眼鏡.wav",
+      "img": false
+    },
+    {
+      "id": "kakemasu",
+      "japanese": "かけます【Ⅱ】",
+      "romaji": "kakemasu",
+      "english": "to put on (glasses)",
+      "alt": "A man putting on glasses",
+      "audio": "かけます.wav",
+      "img": true
+    },
+    {
+      "id": "shatsu",
+      "japanese": "シャツ",
+      "romaji": "shatsu",
+      "english": "shirt",
+      "alt": "A white shirt",
+      "audio": "シャツ.wav",
+      "img": false
+    },
+    {
+      "id": "kimasu",
+      "japanese": "着ます【Ⅱ】",
+      "romaji": "kimasu",
+      "english": "to wear",
+      "alt": "A man putting on a shirt",
+      "audio": "着ます.wav",
+      "img": true
+    },
+    {
+      "id": "nekutai",
+      "japanese": "ネクタイ",
+      "romaji": "nekutai",
+      "english": "necktie",
+      "alt": "A blue striped necktie",
+      "audio": "ネクタイ.wav",
+      "img": true
+    },
+    {
+      "id": "shimasu",
+      "japanese": "（ネクタイを）します【Ⅲ】",
+      "romaji": "(nekutai o) shimasu",
+      "english": "to put on (a necktie)",
+      "alt": "A man putting on a necktie",
+      "audio": "します.wav",
+      "img": true
+    },
+    {
+      "id": "suutsu",
+      "japanese": "スーツ",
+      "romaji": "suutsu",
+      "english": "suit",
+      "alt": "A man wearing a business suit",
+      "audio": "スーツ.wav",
+      "img": true
+    },
+    {
+      "id": "sangurasu",
+      "japanese": "サングラス",
+      "romaji": "sangurasu",
+      "english": "sunglasses",
+      "alt": "A woman wearing sunglasses",
+      "audio": "サングラス.wav",
+      "img": true
+    },
+    {
+      "id": "zubon",
+      "japanese": "ズボン",
+      "romaji": "zubon",
+      "english": "trousers",
+      "alt": "A pair of green trousers",
+      "audio": "ズボン.wav",
+      "img": true
+    },
+    {
+      "id": "piasu",
+      "japanese": "ピアス",
+      "romaji": "piasu",
+      "english": "earrings (for pierced ears)",
+      "alt": "A woman wearing pierced earrings",
+      "audio": "ピアス.wav",
+      "img": true
+    },
+    {
+      "id": "jaaji",
+      "japanese": "ジャージ",
+      "romaji": "jaaji",
+      "english": "jersey",
+      "alt": "A girl wearing a jersey tracksuit",
+      "audio": "ジャージ.wav",
+      "img": true
+    },
+    {
+      "id": "sukaato",
+      "japanese": "スカート",
+      "romaji": "sukaato",
+      "english": "skirt",
+      "alt": "A pink skirt",
+      "audio": "スカート.wav",
+      "img": true
+    },
+    {
+      "id": "paakaa",
+      "japanese": "パーカー",
+      "romaji": "paakaa",
+      "english": "hooded sweatshirt",
+      "alt": "A blue hooded sweatshirt",
+      "audio": "パーカー.wav",
+      "img": true
+    },
+    {
+      "id": "masuku",
+      "japanese": "マスク",
+      "romaji": "masuku",
+      "english": "mask",
+      "alt": "A boy wearing a face mask",
+      "audio": "マスク.wav",
+      "img": true
+    },
+    {
+      "id": "sandaru",
+      "japanese": "サンダル",
+      "romaji": "sandaru",
+      "english": "sandal",
+      "alt": "Pairs of sandals",
+      "audio": "サンダル.wav",
+      "img": true
+    },
+    {
+      "id": "nomikai",
+      "japanese": "飲み会",
+      "romaji": "nomikai",
+      "english": "drinking party",
+      "alt": "People toasting at a drinking party",
+      "audio": "飲み会.wav",
+      "img": true
+    },
+    {
+      "id": "sagashimasu",
+      "japanese": "探します【Ⅰ】",
+      "romaji": "sagashimasu",
+      "english": "to look for",
+      "alt": "A man looking around for something",
+      "audio": "探します.wav",
+      "img": true
+    },
+    {
+      "id": "urimasu",
+      "japanese": "売ります【Ⅰ】",
+      "romaji": "urimasu",
+      "english": "to sell",
+      "alt": "A vendor selling bananas at a stall",
+      "audio": "売ります.wav",
+      "img": true
+    },
+    {
+      "id": "todokimasu",
+      "japanese": "届きます【Ⅰ】",
+      "romaji": "todokimasu",
+      "english": "to arrive",
+      "alt": "A delivery worker handing a package to a woman",
+      "audio": "届きます.wav",
+      "img": true
+    },
+    {
+      "id": "suwarimasu",
+      "japanese": "座ります【Ⅰ】",
+      "romaji": "suwarimasu",
+      "english": "to sit",
+      "alt": "A man sitting on a chair",
+      "audio": "座ります.wav",
+      "img": true
+    },
+    {
+      "id": "kafe",
+      "japanese": "カフェ",
+      "romaji": "kafe",
+      "english": "cafe",
+      "alt": "A cafe storefront",
+      "audio": "カフェ.wav",
+      "img": true
+    },
+    {
+      "id": "dorama",
+      "japanese": "ドラマ",
+      "romaji": "dorama",
+      "english": "drama",
+      "alt": "A drama showing on a television",
+      "audio": "ドラマ.wav",
+      "img": true
+    },
+    {
+      "id": "ojamashimasu",
+      "japanese": "おじゃまします",
+      "romaji": "ojamashimasu",
+      "english": "greeting used when entering someone's home",
+      "alt": "Greeting used when entering someone's home",
+      "audio": "おじゃまします.wav",
+      "img": false
+    },
+    {
+      "id": "ki_ni_irimasu",
+      "japanese": "気に入ります【Ⅰ】",
+      "romaji": "ki ni irimasu",
+      "english": "to like",
+      "alt": "To like",
+      "audio": "気にい入ります.wav",
+      "img": false
+    },
+    {
+      "id": "mukashi",
+      "japanese": "昔",
+      "romaji": "mukashi",
+      "english": "olden times",
+      "alt": "Olden times",
+      "audio": "昔.wav",
+      "img": false
+    },
+    {
+      "id": "sakki",
+      "japanese": "さっき",
+      "romaji": "sakki",
+      "english": "a short while ago",
+      "alt": "A short while ago",
+      "audio": "さっき.wav",
+      "img": false
+    },
+    {
+      "id": "dono",
+      "japanese": "どの～",
+      "romaji": "dono~",
+      "english": "which～",
+      "alt": "Which",
+      "audio": "どの.wav",
+      "img": false
+    },
+    {
+      "id": "line",
+      "japanese": "LINE",
+      "romaji": "LINE",
+      "english": "LINE (instant messaging software)",
+      "alt": "LINE instant messaging software",
+      "audio": "LINE.wav",
+      "img": false
+    },
+    {
+      "id": "busho",
+      "japanese": "部署",
+      "romaji": "busho",
+      "english": "one's station",
+      "alt": "One's station",
+      "audio": "部署.wav",
+      "img": false
+    },
+    {
+      "id": "keiri",
+      "japanese": "経理",
+      "romaji": "keiri",
+      "english": "accounting",
+      "alt": "Accounting",
+      "audio": "経理.wav",
+      "img": false
+    },
+    {
+      "id": "bu_keiribu",
+      "japanese": "～部 Ex)経理部",
+      "romaji": "~bu Ex) keiribu",
+      "english": "division",
+      "alt": "Division",
+      "audio": "経理部.wav",
+      "img": false
+    },
+    {
+      "id": "seki",
+      "japanese": "席",
+      "romaji": "seki",
+      "english": "seat",
+      "alt": "Seat",
+      "audio": "席.wav",
+      "img": false
+    },
+    {
+      "id": "haiyuu",
+      "japanese": "俳優",
+      "romaji": "haiyuu",
+      "english": "actor",
+      "alt": "An actor being filmed by cameras",
+      "audio": "俳優.wav",
+      "img": false
+    },
+    {
+      "id": "kimono",
+      "japanese": "着物",
+      "romaji": "kimono",
+      "english": "kimono",
+      "alt": "A woman wearing a kimono",
+      "audio": "着物.wav",
+      "img": false
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "id": "week_02/day_10_vocabulary",
+  "kind": "image",
+  "title": "Day 10 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 10 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "sensee",
+      "japanese": "せんせい",
+      "romaji": "sensee",
+      "english": "teacher",
+      "image": "../images/study/week_02/day_10/sensee.png",
+      "audio": "../audio/vocabulary/week_02/day_10/sensee.m4a",
+      "alt": "Teacher"
+    },
+    {
+      "id": "restoran",
+      "japanese": "レストラン",
+      "romaji": "restoran",
+      "english": "restaurant",
+      "image": "../images/study/week_02/day_10/restoran.png",
+      "audio": "../audio/vocabulary/week_02/day_10/restoran.m4a",
+      "alt": "Restaurant"
+    },
+    {
+      "id": "kissaten",
+      "japanese": "きっさてん",
+      "romaji": "kissaten",
+      "english": "coffee shop",
+      "image": "../images/study/week_02/day_10/kissaten.png",
+      "audio": "../audio/vocabulary/week_02/day_10/kissaten.m4a",
+      "alt": "Coffee shop"
+    },
+    {
+      "id": "konbini",
+      "japanese": "コンビニ",
+      "romaji": "konbini",
+      "english": "convenience store",
+      "image": "../images/study/week_02/day_10/konbini.png",
+      "audio": "../audio/vocabulary/week_02/day_10/konbini.m4a",
+      "alt": "Convenience store"
+    },
+    {
+      "id": "suupaa",
+      "japanese": "スーパー",
+      "romaji": "suupaa",
+      "english": "supermarket",
+      "image": "../images/study/week_02/day_10/suupaa.png",
+      "audio": "../audio/vocabulary/week_02/day_10/suupaa.m4a",
+      "alt": "Supermarket"
+    },
+    {
+      "id": "ryoo",
+      "japanese": "りょう",
+      "romaji": "ryoo",
+      "english": "dormitory",
+      "image": "../images/study/week_02/day_10/ryoo.png",
+      "audio": "../audio/vocabulary/week_02/day_10/ryoo.m4a",
+      "alt": "Dormitory"
+    },
+    {
+      "id": "tomodachi",
+      "japanese": "ともだち",
+      "romaji": "tomodachi",
+      "english": "friends",
+      "image": "../images/study/week_02/day_10/tomodachi.png",
+      "audio": "../audio/vocabulary/week_02/day_10/tomodachi.m4a",
+      "alt": "Friends"
+    },
+    {
+      "id": "shashin",
+      "japanese": "しゃしん",
+      "romaji": "shashin",
+      "english": "photo",
+      "image": "../images/study/week_02/day_10/shashin.png",
+      "audio": "../audio/vocabulary/week_02/day_10/shashin.m4a",
+      "alt": "Photo"
+    },
+    {
+      "id": "itaria",
+      "japanese": "イタリア",
+      "romaji": "itaria",
+      "english": "Italy",
+      "image": "../images/study/week_02/day_10/itaria.png",
+      "audio": "../audio/vocabulary/week_02/day_10/itaria.m4a",
+      "alt": "Italy"
+    },
+    {
+      "id": "gaksee",
+      "japanese": "がくせい",
+      "romaji": "gaksee",
+      "english": "student",
+      "image": "../images/study/week_02/day_10/gaksee.png",
+      "audio": "../audio/vocabulary/week_02/day_10/gaksee.m4a",
+      "alt": "Student"
+    },
+    {
+      "id": "chuugoku",
+      "japanese": "ちゅうごく",
+      "romaji": "chuugoku",
+      "english": "China",
+      "image": "../images/study/week_02/day_10/chuugoku.png",
+      "audio": "../audio/vocabulary/week_02/day_10/chuugoku.m4a",
+      "alt": "China"
+    },
+    {
+      "id": "kodomo",
+      "japanese": "こども",
+      "romaji": "kodomo",
+      "english": "children",
+      "image": "../images/study/week_02/day_10/kodomo.png",
+      "audio": "../audio/vocabulary/week_02/day_10/kodomo.m4a",
+      "alt": "Children"
+    },
+    {
+      "id": "inu",
+      "japanese": "いぬ",
+      "romaji": "inu",
+      "english": "dog",
+      "image": "../images/study/week_02/day_10/inu.png",
+      "audio": "../audio/vocabulary/week_02/day_10/inu.m4a",
+      "alt": "Dog"
+    },
+    {
+      "id": "gomibako",
+      "japanese": "ごみばこ",
+      "romaji": "gomibako",
+      "english": "trash can",
+      "image": "../images/study/week_02/day_10/gomibako.png",
+      "audio": "../audio/vocabulary/week_02/day_10/gomibako.m4a",
+      "alt": "Trash can"
+    },
+    {
+      "id": "jidoo_hanbaiki",
+      "japanese": "じどうはんばいき",
+      "romaji": "jidoo hanbaiki",
+      "english": "vending machine",
+      "image": "../images/study/week_02/day_10/jidoo_hanbaiki.png",
+      "audio": "../audio/vocabulary/week_02/day_10/jidoo_hanbaiki.m4a",
+      "alt": "Vending machine"
+    },
+    {
+      "id": "otoko_no_hito",
+      "japanese": "おとこのひと",
+      "romaji": "otoko no hito",
+      "english": "man",
+      "image": "../images/study/week_02/day_10/otoko_no_hito.png",
+      "audio": "../audio/vocabulary/week_02/day_10/otoko_no_hito.m4a",
+      "alt": "Man"
+    },
+    {
+      "id": "doa",
+      "japanese": "ドア",
+      "romaji": "doa",
+      "english": "door",
+      "image": "../images/study/week_02/day_10/doa.png",
+      "audio": "../audio/vocabulary/week_02/day_10/doa.m4a",
+      "alt": "Door"
+    },
+    {
+      "id": "onna_no_hito",
+      "japanese": "おんなのひと",
+      "romaji": "onna no hito",
+      "english": "woman",
+      "image": "../images/study/week_02/day_10/onna_no_hito.png",
+      "audio": "../audio/vocabulary/week_02/day_10/onna_no_hito.m4a",
+      "alt": "Woman"
+    },
+    {
+      "id": "kuruma",
+      "japanese": "くるま",
+      "romaji": "kuruma",
+      "english": "car",
+      "image": "../images/study/week_02/day_10/kuruma.png",
+      "audio": "../audio/vocabulary/week_02/day_10/kuruma.m4a",
+      "alt": "Car"
+    },
+    {
+      "id": "neko",
+      "japanese": "ねこ",
+      "romaji": "neko",
+      "english": "cat",
+      "image": "../images/study/week_02/day_10/neko.png",
+      "audio": "../audio/vocabulary/week_02/day_10/neko.m4a",
+      "alt": "Cat"
+    },
+    {
+      "id": "ki",
+      "japanese": "き",
+      "romaji": "ki",
+      "english": "tree",
+      "image": "../images/study/week_02/day_10/ki.png",
+      "audio": "../audio/vocabulary/week_02/day_10/ki.m4a",
+      "alt": "Tree"
+    },
+    {
+      "id": "ue",
+      "japanese": "うえ",
+      "romaji": "ue",
+      "english": "up",
+      "image": "../images/study/week_02/day_10/ue.png",
+      "audio": "../audio/vocabulary/week_02/day_10/ue.m4a",
+      "alt": "Up"
+    },
+    {
+      "id": "chikaku",
+      "japanese": "ちかく",
+      "romaji": "chikaku",
+      "english": "near",
+      "image": "../images/study/week_02/day_10/chikaku.png",
+      "audio": "../audio/vocabulary/week_02/day_10/chikaku.m4a",
+      "alt": "Near"
+    },
+    {
+      "id": "tonari",
+      "japanese": "となり",
+      "romaji": "tonari",
+      "english": "next to",
+      "image": "../images/study/week_02/day_10/tonari.png",
+      "audio": "../audio/vocabulary/week_02/day_10/tonari.m4a",
+      "alt": "Next to"
+    },
+    {
+      "id": "mae",
+      "japanese": "まえ",
+      "romaji": "mae",
+      "english": "in front (before)",
+      "image": "../images/study/week_02/day_10/mae.png",
+      "audio": "../audio/vocabulary/week_02/day_10/mae.m4a",
+      "alt": "In front"
+    },
+    {
+      "id": "ushiro",
+      "japanese": "うしろ",
+      "romaji": "ushiro",
+      "english": "behind",
+      "image": "../images/study/week_02/day_10/ushiro.png",
+      "audio": "../audio/vocabulary/week_02/day_10/ushiro.m4a",
+      "alt": "Behind"
+    },
+    {
+      "id": "taksan",
+      "japanese": "たくさん",
+      "romaji": "taksan",
+      "english": "many",
+      "audio": "../audio/vocabulary/week_02/day_10/taksan.m4a",
+      "alt": "Many"
+    },
+    {
+      "id": "chiisai",
+      "japanese": "ちいさい",
+      "romaji": "chiisai",
+      "english": "small",
+      "audio": "../audio/vocabulary/week_02/day_10/chiisai.m4a",
+      "alt": "Small"
+    },
+    {
+      "id": "kawaii",
+      "japanese": "かわいい",
+      "romaji": "kawaii",
+      "english": "cute",
+      "audio": "../audio/vocabulary/week_02/day_10/kawaii.m4a",
+      "alt": "Cute"
+    },
+    {
+      "id": "shita",
+      "japanese": "した",
+      "romaji": "shita",
+      "english": "down",
+      "image": "../images/study/week_02/day_10/shita.png",
+      "audio": "../audio/vocabulary/week_02/day_10/shita.m4a",
+      "alt": "Down"
+    },
+    {
+      "id": "naka",
+      "japanese": "なか",
+      "romaji": "naka",
+      "english": "inside",
+      "image": "../images/study/week_02/day_10/naka.png",
+      "audio": "../audio/vocabulary/week_02/day_10/naka.m4a",
+      "alt": "Inside"
+    },
+    {
+      "id": "soto",
+      "japanese": "そと",
+      "romaji": "soto",
+      "english": "outside",
+      "image": "../images/study/week_02/day_10/soto.png",
+      "audio": "../audio/vocabulary/week_02/day_10/soto.m4a",
+      "alt": "Outside"
+    },
+    {
+      "id": "nan_nin",
+      "japanese": "なんにん？",
+      "romaji": "nan nin",
+      "english": "How many people?",
+      "alt": "How many people"
+    },
+    {
+      "id": "hitori",
+      "japanese": "ひとり",
+      "romaji": "hitori",
+      "english": "one person",
+      "alt": "One person"
+    },
+    {
+      "id": "futari",
+      "japanese": "ふたり",
+      "romaji": "futari",
+      "english": "two people",
+      "alt": "Two people"
+    },
+    {
+      "id": "sannin",
+      "japanese": "さんにん",
+      "romaji": "sannin",
+      "english": "three people",
+      "alt": "Three people"
+    },
+    {
+      "id": "yonin",
+      "japanese": "よにん",
+      "romaji": "yonin",
+      "english": "four people",
+      "alt": "Four people"
+    },
+    {
+      "id": "gonin",
+      "japanese": "ごにん",
+      "romaji": "gonin",
+      "english": "five people",
+      "alt": "Five people"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "id": "week_08/day_38_vocabulary",
+  "kind": "image",
+  "title": "Day 38 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 38 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "aki",
+      "japanese": "秋",
+      "romaji": "aki",
+      "english": "autumn",
+      "image": "../images/study/week_08/day_38/aki.png",
+      "audio": "../audio/vocabulary/week_08/day_38/aki.wav",
+      "alt": "Autumn motifs: a dragonfly, mushrooms and a roasted sweet potato"
+    },
+    {
+      "id": "rotenburo",
+      "japanese": "露天風呂",
+      "romaji": "rotenburo",
+      "english": "open air bath",
+      "image": "../images/study/week_08/day_38/rotenburo.png",
+      "audio": "../audio/vocabulary/week_08/day_38/rotenburo.wav",
+      "alt": "A woman relaxing in an open air bath"
+    },
+    {
+      "id": "ofuro_ni_hairimasu",
+      "japanese": "（お風呂に）入ります【Ⅰ】",
+      "romaji": "(ofuro ni) hairimasu",
+      "english": "to take a bath",
+      "image": "../images/study/week_08/day_38/ofuro_ni_hairimasu.png",
+      "audio": "../audio/vocabulary/week_08/day_38/ofuro_ni_hairimasu.wav",
+      "alt": "A boy entering the bathroom to take a bath"
+    },
+    {
+      "id": "kooyoo",
+      "japanese": "紅葉",
+      "romaji": "kooyoo",
+      "english": "autumn colors",
+      "image": "../images/study/week_08/day_38/kooyoo.png",
+      "audio": "../audio/vocabulary/week_08/day_38/kooyoo.wav",
+      "alt": "Trees with red and orange autumn leaves"
+    },
+    {
+      "id": "dekakemasu",
+      "japanese": "出かけます【Ⅱ】",
+      "romaji": "dekakemasu",
+      "english": "to go out",
+      "image": "../images/study/week_08/day_38/dekakemasu.png",
+      "audio": "../audio/vocabulary/week_08/day_38/dekakemasu.wav",
+      "alt": "A woman locking the front door as she goes out"
+    },
+    {
+      "id": "purinto",
+      "japanese": "プリント",
+      "romaji": "purinto",
+      "english": "print, copy",
+      "audio": "../audio/vocabulary/week_08/day_38/purinto.wav",
+      "alt": "Print, copy"
+    },
+    {
+      "id": "te",
+      "japanese": "手",
+      "romaji": "te",
+      "english": "hand",
+      "image": "../images/study/week_08/day_38/te.png",
+      "audio": "../audio/vocabulary/week_08/day_38/te.wav",
+      "alt": "Hands in hand-washing steps with a yellow arrow"
+    },
+    {
+      "id": "araimasu",
+      "japanese": "洗います【Ⅰ】",
+      "romaji": "araimasu",
+      "english": "to wash",
+      "image": "../images/study/week_08/day_38/araimasu.png",
+      "audio": "../audio/vocabulary/week_08/day_38/araimasu.wav",
+      "alt": "Hands being washed with water"
+    },
+    {
+      "id": "daigaku_o_demasu",
+      "japanese": "（大学を）出ます【Ⅱ】",
+      "romaji": "(daigaku o) demasu",
+      "english": "to graduate (from university)",
+      "image": "../images/study/week_08/day_38/daigaku_o_demasu.png",
+      "audio": "../audio/vocabulary/week_08/day_38/daigaku_o_demasu.wav",
+      "alt": "A graduate in hakama holding her diploma"
+    },
+    {
+      "id": "inaka",
+      "japanese": "田舎",
+      "romaji": "inaka",
+      "english": "countryside",
+      "image": "../images/study/week_08/day_38/inaka.png",
+      "audio": "../audio/vocabulary/week_08/day_38/inaka.wav",
+      "alt": "A countryside landscape with fields, trees and a house"
+    },
+    {
+      "id": "hatachi",
+      "japanese": "二十歳",
+      "romaji": "hatachi",
+      "english": "20 years old",
+      "image": "../images/study/week_08/day_38/hatachi.png",
+      "audio": "../audio/vocabulary/week_08/day_38/hatachi.wav",
+      "alt": "A young woman in kimono and a young man in suit at the coming-of-age ceremony"
+    },
+    {
+      "id": "saikin",
+      "japanese": "最近",
+      "romaji": "saikin",
+      "english": "recently",
+      "audio": "../audio/vocabulary/week_08/day_38/saikin.wav",
+      "alt": "Recently"
+    },
+    {
+      "id": "ame_ga_furimasu",
+      "japanese": "（雨が）降ります【Ⅰ】",
+      "romaji": "(ame ga) furimasu",
+      "english": "to rain",
+      "audio": "../audio/vocabulary/week_08/day_38/ame_ga_furimasu.wav",
+      "alt": "To rain"
+    },
+    {
+      "id": "sanpo",
+      "japanese": "散歩",
+      "romaji": "sanpo",
+      "english": "a stroll",
+      "audio": "../audio/vocabulary/week_08/day_38/sanpo.wav",
+      "alt": "A stroll"
+    },
+    {
+      "id": "tarimasu",
+      "japanese": "足ります【Ⅱ】",
+      "romaji": "tarimasu",
+      "english": "to be sufficient",
+      "audio": "../audio/vocabulary/week_08/day_38/tarimasu.wav",
+      "alt": "To be sufficient"
+    },
+    {
+      "id": "oku",
+      "japanese": "～億 Ex)1億",
+      "romaji": "~oku Ex. ichioku",
+      "english": "hundred million",
+      "audio": "../audio/vocabulary/week_08/day_38/oku.wav",
+      "alt": "Hundred million, e.g. one hundred million"
+    },
+    {
+      "id": "tsukimasu",
+      "japanese": "着きます【Ⅰ】",
+      "romaji": "tsukimasu",
+      "english": "to arrive",
+      "audio": "../audio/vocabulary/week_08/day_38/tsukimasu.wav",
+      "alt": "To arrive"
+    },
+    {
+      "id": "toshi",
+      "japanese": "年",
+      "romaji": "toshi",
+      "english": "year",
+      "audio": "../audio/vocabulary/week_08/day_38/toshi.wav",
+      "alt": "Year"
+    },
+    {
+      "id": "toshi_o_torimasu",
+      "japanese": "（年を）取ります【Ⅰ】",
+      "romaji": "(toshi o) torimasu",
+      "english": "to grow old",
+      "audio": "../audio/vocabulary/week_08/day_38/toshi_o_torimasu.wav",
+      "alt": "To grow old"
+    }
+  ]
+}

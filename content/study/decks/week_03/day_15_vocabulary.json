@@ -1,0 +1,379 @@
+{
+  "id": "week_03/day_15_vocabulary",
+  "kind": "image",
+  "title": "Day 15 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 15 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "nihon",
+      "japanese": "にほん",
+      "romaji": "nihon",
+      "english": "Japan",
+      "image": "../images/study/week_03/day_15/nihon.png",
+      "audio": "../audio/vocabulary/week_03/day_15/nihon.m4a",
+      "alt": "A green map of Japan"
+    },
+    {
+      "id": "seekatsu",
+      "japanese": "せいかつ",
+      "romaji": "seekatsu",
+      "english": "living",
+      "image": "../images/study/week_03/day_15/seekatsu.png",
+      "audio": "../audio/vocabulary/week_03/day_15/seekatsu.m4a",
+      "alt": "Scenes of daily life from morning to night"
+    },
+    {
+      "id": "bukka",
+      "japanese": "ぶっか",
+      "romaji": "bukka",
+      "english": "cost of living",
+      "image": "../images/study/week_03/day_15/bukka.png",
+      "audio": "../audio/vocabulary/week_03/day_15/bukka.m4a",
+      "alt": "A shopper checking prices at a store"
+    },
+    {
+      "id": "chuugoku",
+      "japanese": "ちゅうごく",
+      "romaji": "chuugoku",
+      "english": "China",
+      "image": "../images/study/week_03/day_15/chuugoku.png",
+      "audio": "../audio/vocabulary/week_03/day_15/chuugoku.m4a",
+      "alt": "A green map of China"
+    },
+    {
+      "id": "hokkaidoo",
+      "japanese": "ほっかいどう",
+      "romaji": "hokkaidoo",
+      "english": "Hokkaido",
+      "image": "../images/study/week_03/day_15/hokkaidoo.png",
+      "audio": "../audio/vocabulary/week_03/day_15/hokkaidoo.m4a",
+      "alt": "A green map of Hokkaido"
+    },
+    {
+      "id": "yuki",
+      "japanese": "ゆき",
+      "romaji": "yuki",
+      "english": "snow",
+      "image": "../images/study/week_03/day_15/yuki.png",
+      "audio": "../audio/vocabulary/week_03/day_15/yuki.m4a",
+      "alt": "A snowy landscape with a small house"
+    },
+    {
+      "id": "oosaka",
+      "japanese": "おおさか",
+      "romaji": "oosaka",
+      "english": "Osaka",
+      "image": "../images/study/week_03/day_15/oosaka.png",
+      "audio": "../audio/vocabulary/week_03/day_15/oosaka.m4a",
+      "alt": "Tsutenkaku tower in Osaka"
+    },
+    {
+      "id": "tabemono",
+      "japanese": "たべもの",
+      "romaji": "tabemono",
+      "english": "food",
+      "image": "../images/study/week_03/day_15/tabemono.png",
+      "audio": "../audio/vocabulary/week_03/day_15/tabemono.m4a",
+      "alt": "Rice, vegetables, meat and fish"
+    },
+    {
+      "id": "okinawa",
+      "japanese": "おきなわ",
+      "romaji": "okinawa",
+      "english": "Okinawa",
+      "image": "../images/study/week_03/day_15/okinawa.png",
+      "audio": "../audio/vocabulary/week_03/day_15/okinawa.m4a",
+      "alt": "A map of Japan with Okinawa circled"
+    },
+    {
+      "id": "umi",
+      "japanese": "うみ",
+      "romaji": "umi",
+      "english": "sea",
+      "image": "../images/study/week_03/day_15/umi.png",
+      "audio": "../audio/vocabulary/week_03/day_15/umi.m4a",
+      "alt": "A beach with the sea and sky"
+    },
+    {
+      "id": "machi",
+      "japanese": "まち",
+      "romaji": "machi",
+      "english": "town",
+      "image": "../images/study/week_03/day_15/machi.png",
+      "audio": "../audio/vocabulary/week_03/day_15/machi.m4a",
+      "alt": "A colourful town with buildings, cars and a plane"
+    },
+    {
+      "id": "tookyoo",
+      "japanese": "とうきょう",
+      "romaji": "tookyoo",
+      "english": "Tokyo",
+      "image": "../images/study/week_03/day_15/tookyoo.png",
+      "audio": "../audio/vocabulary/week_03/day_15/tookyoo.m4a",
+      "alt": "Tokyo Station and Tokyo Tower"
+    },
+    {
+      "id": "igirisu",
+      "japanese": "イギリス",
+      "romaji": "igirisu",
+      "english": "England",
+      "image": "../images/study/week_03/day_15/igirisu.png",
+      "audio": "../audio/vocabulary/week_03/day_15/igirisu.m4a",
+      "alt": "A green map of Great Britain"
+    },
+    {
+      "id": "ane",
+      "japanese": "あね",
+      "romaji": "ane",
+      "english": "older sister",
+      "image": "../images/study/week_03/day_15/ane.png",
+      "audio": "../audio/vocabulary/week_03/day_15/ane.m4a",
+      "alt": "An older sister with her younger sister, marked by an arrow"
+    },
+    {
+      "id": "ani",
+      "japanese": "あに",
+      "romaji": "ani",
+      "english": "older brother",
+      "image": "../images/study/week_03/day_15/ani.png",
+      "audio": "../audio/vocabulary/week_03/day_15/ani.m4a",
+      "alt": "An older brother with his younger brother, marked by an arrow"
+    },
+    {
+      "id": "uta",
+      "japanese": "うた",
+      "romaji": "uta",
+      "english": "song",
+      "image": "../images/study/week_03/day_15/uta.png",
+      "audio": "../audio/vocabulary/week_03/day_15/uta.m4a",
+      "alt": "A group of people singing together"
+    },
+    {
+      "id": "ryoori",
+      "japanese": "りょうり",
+      "romaji": "ryoori",
+      "english": "cooking/cuisine",
+      "image": "../images/study/week_03/day_15/ryoori.png",
+      "audio": "../audio/vocabulary/week_03/day_15/ryoori.m4a",
+      "alt": "A man cooking a pot of food"
+    },
+    {
+      "id": "katakana",
+      "japanese": "カタカナ",
+      "romaji": "katakana",
+      "english": "katakana",
+      "image": "../images/study/week_03/day_15/katakana.png",
+      "audio": "../audio/vocabulary/week_03/day_15/katakana.m4a",
+      "alt": "A pink chart of katakana characters"
+    },
+    {
+      "id": "kanji",
+      "japanese": "かんじ",
+      "romaji": "kanji",
+      "english": "kanji",
+      "image": "../images/study/week_03/day_15/kanji.png",
+      "audio": "../audio/vocabulary/week_03/day_15/kanji.m4a",
+      "alt": "Kanji calligraphy written with a brush"
+    },
+    {
+      "id": "hikooki",
+      "japanese": "ひこうき",
+      "romaji": "hikooki",
+      "english": "airplane",
+      "image": "../images/study/week_03/day_15/hikooki.png",
+      "audio": "../audio/vocabulary/week_03/day_15/hikooki.m4a",
+      "alt": "An airplane in flight"
+    },
+    {
+      "id": "shinkansen",
+      "japanese": "しんかんせん",
+      "romaji": "shinkansen",
+      "english": "bullet train",
+      "image": "../images/study/week_03/day_15/shinkansen.png",
+      "audio": "../audio/vocabulary/week_03/day_15/shinkansen.m4a",
+      "alt": "A shinkansen bullet train"
+    },
+    {
+      "id": "koocha",
+      "japanese": "こうちゃ",
+      "romaji": "koocha",
+      "english": "black tea",
+      "image": "../images/study/week_03/day_15/koocha.png",
+      "audio": "../audio/vocabulary/week_03/day_15/koocha.m4a",
+      "alt": "A steaming cup of black tea"
+    },
+    {
+      "id": "koohii",
+      "japanese": "コーヒー",
+      "romaji": "koohii",
+      "english": "coffee",
+      "image": "../images/study/week_03/day_15/koohii.png",
+      "audio": "../audio/vocabulary/week_03/day_15/koohii.m4a",
+      "alt": "A steaming cup of coffee"
+    },
+    {
+      "id": "inu",
+      "japanese": "いぬ",
+      "romaji": "inu",
+      "english": "dog",
+      "image": "../images/study/week_03/day_15/inu.png",
+      "audio": "../audio/vocabulary/week_03/day_15/inu.m4a",
+      "alt": "A happy brown dog"
+    },
+    {
+      "id": "neko",
+      "japanese": "ねこ",
+      "romaji": "neko",
+      "english": "cat",
+      "image": "../images/study/week_03/day_15/neko.png",
+      "audio": "../audio/vocabulary/week_03/day_15/neko.m4a",
+      "alt": "A smiling grey cat"
+    },
+    {
+      "id": "kuni",
+      "japanese": "くに",
+      "romaji": "kuni",
+      "english": "country",
+      "image": "../images/study/week_03/day_15/kuni.png",
+      "audio": "../audio/vocabulary/week_03/day_15/kuni.m4a",
+      "alt": "A string of international flags"
+    },
+    {
+      "id": "dochira",
+      "japanese": "どちら",
+      "romaji": "dochira",
+      "english": "which way",
+      "image": "../images/study/week_03/day_15/dochira.png",
+      "audio": "../audio/vocabulary/week_03/day_15/dochira.m4a",
+      "alt": "A man deciding between two signposts"
+    },
+    {
+      "id": "tanoshii",
+      "japanese": "たのしい",
+      "romaji": "tanoshii",
+      "english": "fun",
+      "audio": "../audio/vocabulary/week_03/day_15/tanoshii.m4a",
+      "alt": "Fun"
+    },
+    {
+      "id": "takai",
+      "japanese": "たかい",
+      "romaji": "takai",
+      "english": "expensive; high",
+      "audio": "../audio/vocabulary/week_03/day_15/takai.m4a",
+      "alt": "Expensive or high"
+    },
+    {
+      "id": "ooi",
+      "japanese": "おおい",
+      "romaji": "ooi",
+      "english": "many",
+      "audio": "../audio/vocabulary/week_03/day_15/ooi.m4a",
+      "alt": "Many"
+    },
+    {
+      "id": "oishii",
+      "japanese": "おいしい",
+      "romaji": "oishii",
+      "english": "delicious",
+      "audio": "../audio/vocabulary/week_03/day_15/oishii.m4a",
+      "alt": "Delicious"
+    },
+    {
+      "id": "kiree_na",
+      "japanese": "きれい（な）",
+      "romaji": "kiree(na)",
+      "english": "beautiful; clean",
+      "audio": "../audio/vocabulary/week_03/day_15/kiree_na.m4a",
+      "alt": "Beautiful or clean"
+    },
+    {
+      "id": "yasui",
+      "japanese": "やすい",
+      "romaji": "yasui",
+      "english": "cheap",
+      "audio": "../audio/vocabulary/week_03/day_15/yasui.m4a",
+      "alt": "Cheap"
+    },
+    {
+      "id": "ani_2",
+      "japanese": "あに",
+      "romaji": "ani",
+      "english": "older brother",
+      "audio": "../audio/vocabulary/week_03/day_15/ani_2.m4a",
+      "alt": "Older brother"
+    },
+    {
+      "id": "ane_2",
+      "japanese": "あね",
+      "romaji": "ane",
+      "english": "older sister",
+      "audio": "../audio/vocabulary/week_03/day_15/ane_2.m4a",
+      "alt": "Older sister"
+    },
+    {
+      "id": "samui",
+      "japanese": "さむい",
+      "romaji": "samui",
+      "english": "cold",
+      "audio": "../audio/vocabulary/week_03/day_15/samui.m4a",
+      "alt": "Cold"
+    },
+    {
+      "id": "ookii",
+      "japanese": "おおきい",
+      "romaji": "ookii",
+      "english": "big",
+      "audio": "../audio/vocabulary/week_03/day_15/ookii.m4a",
+      "alt": "Big"
+    },
+    {
+      "id": "joozu_na",
+      "japanese": "じょうず（な）",
+      "romaji": "joozu(na)",
+      "english": "good (at)",
+      "audio": "../audio/vocabulary/week_03/day_15/joozu_na.m4a",
+      "alt": "Good at something"
+    },
+    {
+      "id": "muzukashii",
+      "japanese": "むずかしい",
+      "romaji": "muzukashii",
+      "english": "difficult",
+      "audio": "../audio/vocabulary/week_03/day_15/muzukashii.m4a",
+      "alt": "Difficult"
+    },
+    {
+      "id": "hayai",
+      "japanese": "はやい",
+      "romaji": "hayai",
+      "english": "early",
+      "audio": "../audio/vocabulary/week_03/day_15/hayai.m4a",
+      "alt": "Early"
+    },
+    {
+      "id": "ski_na",
+      "japanese": "すき（な）",
+      "romaji": "ski(na)",
+      "english": "liked",
+      "audio": "../audio/vocabulary/week_03/day_15/ski_na.m4a",
+      "alt": "Liked"
+    },
+    {
+      "id": "zutto",
+      "japanese": "ずっと",
+      "romaji": "zutto",
+      "english": "continuously; the whole time",
+      "audio": "../audio/vocabulary/week_03/day_15/zutto.m4a",
+      "alt": "Continuously, the whole time"
+    }
+  ]
+}

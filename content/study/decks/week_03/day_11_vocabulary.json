@@ -1,0 +1,484 @@
+{
+  "id": "week_03/day_11_vocabulary",
+  "kind": "image",
+  "title": "Day 11 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 11 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "manjuu",
+      "japanese": "まんじゅう",
+      "romaji": "manjuu",
+      "english": "Japanese sweet bun",
+      "image": "../images/study/week_03/day_11/manjuu.png",
+      "audio": "../audio/vocabulary/week_03/day_11/manjuu.m4a",
+      "alt": "Japanese sweet buns"
+    },
+    {
+      "id": "ski",
+      "japanese": "すき（な）",
+      "romaji": "ski",
+      "english": "like",
+      "image": "../images/study/week_03/day_11/ski.png",
+      "audio": "../audio/vocabulary/week_03/day_11/ski.m4a",
+      "alt": "Woman with heart eyes"
+    },
+    {
+      "id": "omiyage",
+      "japanese": "おみやげ",
+      "romaji": "omiyage",
+      "english": "souvenir",
+      "image": "../images/study/week_03/day_11/omiyage.png",
+      "audio": "../audio/vocabulary/week_03/day_11/omiyage.m4a",
+      "alt": "Souvenir gift box"
+    },
+    {
+      "id": "anko",
+      "japanese": "あんこ",
+      "romaji": "anko",
+      "english": "sweet red bean paste",
+      "image": "../images/study/week_03/day_11/anko.png",
+      "audio": "../audio/vocabulary/week_03/day_11/anko.m4a",
+      "alt": "Bun with sweet red bean paste"
+    },
+    {
+      "id": "kirai",
+      "japanese": "きらい(な)",
+      "romaji": "kirai",
+      "english": "dislike",
+      "image": "../images/study/week_03/day_11/kirai.png",
+      "audio": "../audio/vocabulary/week_03/day_11/kirai.m4a",
+      "alt": "Boy disliking vegetables"
+    },
+    {
+      "id": "chokoreeto",
+      "japanese": "チョコレート",
+      "romaji": "chokoreeto",
+      "english": "chocolate",
+      "image": "../images/study/week_03/day_11/chokoreeto.png",
+      "audio": "../audio/vocabulary/week_03/day_11/chokoreeto.m4a",
+      "alt": "Chocolate bar"
+    },
+    {
+      "id": "eega",
+      "japanese": "えいが",
+      "romaji": "eega",
+      "english": "movie",
+      "image": "../images/study/week_03/day_11/eega.png",
+      "audio": "../audio/vocabulary/week_03/day_11/eega.m4a",
+      "alt": "Movie theatre"
+    },
+    {
+      "id": "yakyuu",
+      "japanese": "やきゅう",
+      "romaji": "yakyuu",
+      "english": "baseball",
+      "image": "../images/study/week_03/day_11/yakyuu.png",
+      "audio": "../audio/vocabulary/week_03/day_11/yakyuu.m4a",
+      "alt": "Baseball batter"
+    },
+    {
+      "id": "osake",
+      "japanese": "おさけ",
+      "romaji": "osake",
+      "english": "alcohol",
+      "image": "../images/study/week_03/day_11/osake.png",
+      "audio": "../audio/vocabulary/week_03/day_11/osake.m4a",
+      "alt": "Alcoholic drinks"
+    },
+    {
+      "id": "karaoke",
+      "japanese": "カラオケ",
+      "romaji": "karaoke",
+      "english": "karaoke",
+      "image": "../images/study/week_03/day_11/karaoke.png",
+      "audio": "../audio/vocabulary/week_03/day_11/karaoke.m4a",
+      "alt": "Woman singing karaoke"
+    },
+    {
+      "id": "terebi",
+      "japanese": "テレビ",
+      "romaji": "terebi",
+      "english": "TV",
+      "audio": "../audio/vocabulary/week_03/day_11/terebi.m4a",
+      "alt": "Television set"
+    },
+    {
+      "id": "mimas",
+      "japanese": "みます",
+      "romaji": "mimas",
+      "english": "to watch",
+      "image": "../images/study/week_03/day_11/mimas.png",
+      "audio": "../audio/vocabulary/week_03/day_11/mimas.m4a",
+      "alt": "Boy watching TV"
+    },
+    {
+      "id": "bangumi",
+      "japanese": "ばんぐみ",
+      "romaji": "bangumi",
+      "english": "TV program / show",
+      "image": "../images/study/week_03/day_11/bangumi.png",
+      "audio": "../audio/vocabulary/week_03/day_11/bangumi.m4a",
+      "alt": "TV program"
+    },
+    {
+      "id": "kuizu",
+      "japanese": "クイズ",
+      "romaji": "kuizu",
+      "english": "quiz",
+      "image": "../images/study/week_03/day_11/kuizu.png",
+      "audio": "../audio/vocabulary/week_03/day_11/kuizu.m4a",
+      "alt": "Quiz show contestants"
+    },
+    {
+      "id": "baraetii",
+      "japanese": "バラエティー",
+      "romaji": "baraetii",
+      "english": "variety show",
+      "image": "../images/study/week_03/day_11/baraetii.png",
+      "audio": "../audio/vocabulary/week_03/day_11/baraetii.m4a",
+      "alt": "Variety show"
+    },
+    {
+      "id": "kudamono",
+      "japanese": "くだもの",
+      "romaji": "kudamono",
+      "english": "fruit",
+      "image": "../images/study/week_03/day_11/kudamono.png",
+      "audio": "../audio/vocabulary/week_03/day_11/kudamono.m4a",
+      "alt": "Basket of fruit"
+    },
+    {
+      "id": "ringo",
+      "japanese": "りんご",
+      "romaji": "ringo",
+      "english": "apple",
+      "image": "../images/study/week_03/day_11/ringo.png",
+      "audio": "../audio/vocabulary/week_03/day_11/ringo.m4a",
+      "alt": "Red apple"
+    },
+    {
+      "id": "ongaku",
+      "japanese": "おんがく",
+      "romaji": "ongaku",
+      "english": "music",
+      "image": "../images/study/week_03/day_11/ongaku.png",
+      "audio": "../audio/vocabulary/week_03/day_11/ongaku.m4a",
+      "alt": "Man listening to music"
+    },
+    {
+      "id": "kurashikku",
+      "japanese": "クラシック",
+      "romaji": "kurashikku",
+      "english": "classical music",
+      "image": "../images/study/week_03/day_11/kurashikku.png",
+      "audio": "../audio/vocabulary/week_03/day_11/kurashikku.m4a",
+      "alt": "Orchestra"
+    },
+    {
+      "id": "supootsu",
+      "japanese": "スポーツ",
+      "romaji": "supootsu",
+      "english": "sports",
+      "image": "../images/study/week_03/day_11/supootsu.png",
+      "audio": "../audio/vocabulary/week_03/day_11/supootsu.m4a",
+      "alt": "People playing sports"
+    },
+    {
+      "id": "e",
+      "japanese": "え",
+      "romaji": "e",
+      "english": "picture / drawing",
+      "image": "../images/study/week_03/day_11/e.png",
+      "audio": "../audio/vocabulary/week_03/day_11/e.m4a",
+      "alt": "Girl holding a drawing"
+    },
+    {
+      "id": "joozuna",
+      "japanese": "じょうず(な)",
+      "romaji": "joozu(na)",
+      "english": "good at",
+      "image": "../images/study/week_03/day_11/joozuna.png",
+      "audio": "../audio/vocabulary/week_03/day_11/joozuna.m4a",
+      "alt": "Skilled cook"
+    },
+    {
+      "id": "kazoku",
+      "japanese": "かぞく",
+      "romaji": "kazoku",
+      "english": "family",
+      "image": "../images/study/week_03/day_11/kazoku.png",
+      "audio": "../audio/vocabulary/week_03/day_11/kazoku.m4a",
+      "alt": "Family"
+    },
+    {
+      "id": "manga",
+      "japanese": "マンガ",
+      "romaji": "manga",
+      "english": "manga / comics",
+      "image": "../images/study/week_03/day_11/manga.png",
+      "audio": "../audio/vocabulary/week_03/day_11/manga.m4a",
+      "alt": "Manga comic books"
+    },
+    {
+      "id": "ane_oneesan",
+      "japanese": "あね/おねえさん",
+      "romaji": "ane/oneesan",
+      "english": "older sister",
+      "image": "../images/study/week_03/day_11/ane_oneesan.png",
+      "audio": "../audio/vocabulary/week_03/day_11/ane_oneesan.m4a",
+      "alt": "Older sister with little brother"
+    },
+    {
+      "id": "otooto",
+      "japanese": "おとうと",
+      "romaji": "otooto",
+      "english": "younger brother",
+      "image": "../images/study/week_03/day_11/otooto.png",
+      "audio": "../audio/vocabulary/week_03/day_11/otooto.m4a",
+      "alt": "Younger brother"
+    },
+    {
+      "id": "heta",
+      "japanese": "へた(な)",
+      "romaji": "heta",
+      "english": "not good at / bad at",
+      "image": "../images/study/week_03/day_11/heta.png",
+      "audio": "../audio/vocabulary/week_03/day_11/heta.m4a",
+      "alt": "Bad cook burning food"
+    },
+    {
+      "id": "ryoori",
+      "japanese": "りょうり",
+      "romaji": "ryoori",
+      "english": "cooking / cuisine",
+      "image": "../images/study/week_03/day_11/ryoori.png",
+      "audio": "../audio/vocabulary/week_03/day_11/ryoori.m4a",
+      "alt": "People cooking"
+    },
+    {
+      "id": "ani_oniisan",
+      "japanese": "あに/おにいさん",
+      "romaji": "ani/oniisan",
+      "english": "older brother",
+      "image": "../images/study/week_03/day_11/ani_oniisan.png",
+      "audio": "../audio/vocabulary/week_03/day_11/ani_oniisan.m4a",
+      "alt": "Older brother with little brother"
+    },
+    {
+      "id": "piano",
+      "japanese": "ピアノ",
+      "romaji": "piano",
+      "english": "piano",
+      "image": "../images/study/week_03/day_11/piano.png",
+      "audio": "../audio/vocabulary/week_03/day_11/piano.m4a",
+      "alt": "Grand piano"
+    },
+    {
+      "id": "haha_okaasan",
+      "japanese": "はは/おかあさん",
+      "romaji": "haha/okaasan",
+      "english": "mother",
+      "image": "../images/study/week_03/day_11/haha_okaasan.png",
+      "audio": "../audio/vocabulary/week_03/day_11/haha_okaasan.m4a",
+      "alt": "Mother with daughter"
+    },
+    {
+      "id": "chichi_otoosan",
+      "japanese": "ちち/おとうさん",
+      "romaji": "chichi/otoosan",
+      "english": "father",
+      "image": "../images/study/week_03/day_11/chichi_otoosan.png",
+      "audio": "../audio/vocabulary/week_03/day_11/chichi_otoosan.m4a",
+      "alt": "Father carrying child"
+    },
+    {
+      "id": "uta",
+      "japanese": "うた",
+      "romaji": "uta",
+      "english": "song",
+      "image": "../images/study/week_03/day_11/uta.png",
+      "audio": "../audio/vocabulary/week_03/day_11/uta.m4a",
+      "alt": "Girl singing"
+    },
+    {
+      "id": "dansu",
+      "japanese": "ダンス",
+      "romaji": "dansu",
+      "english": "dance",
+      "image": "../images/study/week_03/day_11/dansu.png",
+      "audio": "../audio/vocabulary/week_03/day_11/dansu.m4a",
+      "alt": "Dancing couple"
+    },
+    {
+      "id": "nyuusu",
+      "japanese": "ニュース",
+      "romaji": "nyuusu",
+      "english": "news",
+      "image": "../images/study/week_03/day_11/nyuusu.png",
+      "audio": "../audio/vocabulary/week_03/day_11/nyuusu.m4a",
+      "alt": "News broadcast"
+    },
+    {
+      "id": "nihongo",
+      "japanese": "にほんご",
+      "romaji": "nihongo",
+      "english": "Japanese language",
+      "image": "../images/study/week_03/day_11/nihongo.png",
+      "alt": "Student reading a Japanese book"
+    },
+    {
+      "id": "wakarimas",
+      "japanese": "わかります",
+      "romaji": "wakarimas",
+      "english": "to understand",
+      "image": "../images/study/week_03/day_11/wakarimas.png",
+      "audio": "../audio/vocabulary/week_03/day_11/wakarimas.m4a",
+      "alt": "Woman having an idea"
+    },
+    {
+      "id": "muzukashii",
+      "japanese": "むずかしい",
+      "romaji": "muzukashii",
+      "english": "difficult",
+      "image": "../images/study/week_03/day_11/muzukashii.png",
+      "audio": "../audio/vocabulary/week_03/day_11/muzukashii.m4a",
+      "alt": "Student struggling at desk"
+    },
+    {
+      "id": "benkyoo",
+      "japanese": "べんきょう",
+      "romaji": "benkyoo",
+      "english": "study",
+      "image": "../images/study/week_03/day_11/benkyoo.png",
+      "audio": "../audio/vocabulary/week_03/day_11/benkyoo.m4a",
+      "alt": "Man studying"
+    },
+    {
+      "id": "ganbarimas",
+      "japanese": "がんばります",
+      "romaji": "ganbarimas",
+      "english": "do one's best / try hard",
+      "image": "../images/study/week_03/day_11/ganbarimas.png",
+      "audio": "../audio/vocabulary/week_03/day_11/ganbarimas.m4a",
+      "alt": "People cheering with fists up"
+    },
+    {
+      "id": "katakana",
+      "japanese": "カタカナ",
+      "romaji": "katakana",
+      "english": "katakana",
+      "image": "../images/study/week_03/day_11/katakana.png",
+      "audio": "../audio/vocabulary/week_03/day_11/katakana.m4a",
+      "alt": "Katakana chart"
+    },
+    {
+      "id": "jugyoo",
+      "japanese": "じゅぎょう",
+      "romaji": "jugyoo",
+      "english": "class / lesson",
+      "image": "../images/study/week_03/day_11/jugyoo.png",
+      "audio": "../audio/vocabulary/week_03/day_11/jugyoo.m4a",
+      "alt": "Classroom lesson"
+    },
+    {
+      "id": "indoneshiago",
+      "japanese": "インドネシアご",
+      "romaji": "indoneshiago",
+      "english": "Indonesian language",
+      "image": "../images/study/week_03/day_11/indoneshiago.png",
+      "audio": "../audio/vocabulary/week_03/day_11/indoneshiago.m4a",
+      "alt": "Indonesian flag and dancer"
+    },
+    {
+      "id": "supeingo",
+      "japanese": "スペインご",
+      "romaji": "supeingo",
+      "english": "Spanish language",
+      "image": "../images/study/week_03/day_11/supeingo.png",
+      "audio": "../audio/vocabulary/week_03/day_11/supeingo.m4a",
+      "alt": "Man reading a Spanish book"
+    },
+    {
+      "id": "kanji",
+      "japanese": "かんじ",
+      "romaji": "kanji",
+      "english": "kanji",
+      "image": "../images/study/week_03/day_11/kanji.png",
+      "audio": "../audio/vocabulary/week_03/day_11/kanji.m4a",
+      "alt": "Kanji dictionary"
+    },
+    {
+      "id": "sakkaa",
+      "japanese": "サッカー",
+      "romaji": "sakkaa",
+      "english": "soccer / football",
+      "image": "../images/study/week_03/day_11/sakkaa.png",
+      "audio": "../audio/vocabulary/week_03/day_11/sakkaa.m4a",
+      "alt": "Soccer player kicking ball"
+    },
+    {
+      "id": "ruuru",
+      "japanese": "ルール",
+      "romaji": "ruuru",
+      "english": "rule",
+      "audio": "../audio/vocabulary/week_03/day_11/ruuru.m4a",
+      "alt": "Rule"
+    },
+    {
+      "id": "yasuminohi",
+      "japanese": "やすみのひ",
+      "romaji": "yasuminohi",
+      "english": "day off / holiday",
+      "audio": "../audio/vocabulary/week_03/day_11/yasuminohi.m4a",
+      "alt": "Day off"
+    },
+    {
+      "id": "motto",
+      "japanese": "もっと",
+      "romaji": "motto",
+      "english": "more",
+      "audio": "../audio/vocabulary/week_03/day_11/motto.m4a",
+      "alt": "More"
+    },
+    {
+      "id": "sukoshi",
+      "japanese": "すこし",
+      "romaji": "sukoshi",
+      "english": "a little",
+      "audio": "../audio/vocabulary/week_03/day_11/sukoshi.m4a",
+      "alt": "A little"
+    },
+    {
+      "id": "zenzen",
+      "japanese": "ぜんぜん",
+      "romaji": "zenzen",
+      "english": "not at all",
+      "audio": "../audio/vocabulary/week_03/day_11/zenzen.m4a",
+      "alt": "Not at all"
+    },
+    {
+      "id": "yoku",
+      "japanese": "よく",
+      "romaji": "yoku",
+      "english": "often / well",
+      "audio": "../audio/vocabulary/week_03/day_11/yoku.m4a",
+      "alt": "Often"
+    },
+    {
+      "id": "daitai",
+      "japanese": "だいたい",
+      "romaji": "daitai",
+      "english": "about / roughly",
+      "audio": "../audio/vocabulary/week_03/day_11/daitai.m4a",
+      "alt": "About / roughly"
+    }
+  ]
+}

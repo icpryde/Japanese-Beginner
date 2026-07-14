@@ -1,0 +1,390 @@
+{
+ "week": 8,
+ "day": 40,
+ "lesson_id": "13962974",
+ "title": "Day 40 Vocabulary",
+ "raw_audio_dir": "43. Week 8 - Day 40/3.Day 40 - VocabularyText/Day 40 - Vocabulary Audio",
+ "pages": [
+  "Vocabulary_Day_40_1.jpg",
+  "Vocabulary_Day_40_2.jpg",
+  "Vocabulary_Day_40_3.jpg"
+ ],
+ "detect": {"min_band_h": 68, "merge_gap": 15},
+ "words": [
+  {
+   "id": "kootsuu",
+   "japanese": "交通",
+   "romaji": "kootsuu",
+   "english": "transportation",
+   "alt": "A train and a bus",
+   "audio": "交通.wav",
+   "img": true
+  },
+  {
+   "id": "en",
+   "japanese": "円",
+   "romaji": "en",
+   "english": "yen",
+   "alt": "A gold coin with the yen symbol",
+   "audio": "円.wav",
+   "img": true
+  },
+  {
+   "id": "suzushii",
+   "japanese": "涼しい",
+   "romaji": "suzushii",
+   "english": "cool, refreshing",
+   "alt": "Two students feeling cool under an air conditioner",
+   "audio": "涼しい.wav",
+   "img": true
+  },
+  {
+   "id": "oyu",
+   "japanese": "（お）湯",
+   "romaji": "(o)yu",
+   "english": "hot water",
+   "alt": "A steaming kettle of hot water",
+   "audio": "お湯.wav",
+   "img": true
+  },
+  {
+   "id": "heya_o_demasu",
+   "japanese": "（部屋を）出ます【Ⅱ】",
+   "romaji": "(heya o) demasu",
+   "english": "to leave (a room)",
+   "alt": "To leave (a room)",
+   "audio": "部屋を出ます.wav",
+   "img": false
+  },
+  {
+   "id": "botan",
+   "japanese": "ボタン",
+   "romaji": "botan",
+   "english": "button",
+   "alt": "A panel with door open and close buttons",
+   "audio": "ボタン.wav",
+   "img": true
+  },
+  {
+   "id": "akimasu",
+   "japanese": "開きます【Ⅰ】",
+   "romaji": "akimasu",
+   "english": "to open",
+   "alt": "Sliding doors opening with arrows pointing outward",
+   "audio": "開きます.wav",
+   "img": true
+  },
+  {
+   "id": "denki",
+   "japanese": "電気",
+   "romaji": "denki",
+   "english": "electricity",
+   "alt": "Electricity",
+   "audio": "電気.wav",
+   "img": false
+  },
+  {
+   "id": "denki_ga_tsukimasu",
+   "japanese": "（電気が）つきます【Ⅰ】",
+   "romaji": "(denki ga) tsukimasu",
+   "english": "to turn on (the light)",
+   "alt": "To turn on (the light)",
+   "audio": "電気がつきます.wav",
+   "img": false
+  },
+  {
+   "id": "kiemasu",
+   "japanese": "消えます【Ⅱ】",
+   "romaji": "kiemasu",
+   "english": "to turn off",
+   "alt": "To turn off",
+   "audio": "消えます.wav",
+   "img": false
+  },
+  {
+   "id": "mawashimasu",
+   "japanese": "回します【Ⅰ】",
+   "romaji": "mawashimasu",
+   "english": "to turn",
+   "alt": "A hand turning a knob with a curved arrow",
+   "audio": "回します.wav",
+   "img": true
+  },
+  {
+   "id": "kurai",
+   "japanese": "暗い",
+   "romaji": "kurai",
+   "english": "dark",
+   "alt": "A man standing in a dark room",
+   "audio": "暗い.wav",
+   "img": true
+  },
+  {
+   "id": "oto",
+   "japanese": "音",
+   "romaji": "oto",
+   "english": "sound",
+   "alt": "Two colourful musical notes",
+   "audio": "音.wav",
+   "img": true
+  },
+  {
+   "id": "sakimasu",
+   "japanese": "咲きます【Ⅰ】",
+   "romaji": "sakimasu",
+   "english": "to bloom",
+   "alt": "A blooming pink flower",
+   "audio": "咲きます.wav",
+   "img": true
+  },
+  {
+   "id": "atama",
+   "japanese": "頭",
+   "romaji": "atama",
+   "english": "head",
+   "alt": "A man's head in profile",
+   "audio": "頭.wav",
+   "img": true
+  },
+  {
+   "id": "undoo_shimasu",
+   "japanese": "運動します【Ⅲ】",
+   "romaji": "undoo shimasu",
+   "english": "to do exercise",
+   "alt": "A woman exercising with dumbbells",
+   "audio": "運動します.wav",
+   "img": true
+  },
+  {
+   "id": "netsu",
+   "japanese": "熱",
+   "romaji": "netsu",
+   "english": "fever",
+   "alt": "A sick child with a fever and an ice pack on her head",
+   "audio": "熱.wav",
+   "img": true
+  },
+  {
+   "id": "sagarimasu",
+   "japanese": "下がります【Ⅰ】",
+   "romaji": "sagarimasu",
+   "english": "to go down",
+   "alt": "A bar chart with an arrow going down",
+   "audio": "下がります.wav",
+   "img": true
+  },
+  {
+   "id": "shingoo",
+   "japanese": "信号",
+   "romaji": "shingoo",
+   "english": "traffic light",
+   "alt": "A traffic light",
+   "audio": "信号.wav",
+   "img": true
+  },
+  {
+   "id": "magarimasu",
+   "japanese": "曲がります【Ⅰ】",
+   "romaji": "magarimasu",
+   "english": "to curve",
+   "alt": "A blue arrow curving to the right",
+   "audio": "曲がります.wav",
+   "img": true
+  },
+  {
+   "id": "hashi",
+   "japanese": "橋",
+   "romaji": "hashi",
+   "english": "bridge",
+   "alt": "Bridge",
+   "audio": "橋.wav",
+   "img": false
+  },
+  {
+   "id": "watarimasu",
+   "japanese": "渡ります【Ⅰ】",
+   "romaji": "watarimasu",
+   "english": "to cross",
+   "alt": "A boy crossing at a crosswalk",
+   "audio": "渡ります.wav",
+   "img": true
+  },
+  {
+   "id": "arukimasu",
+   "japanese": "歩きます【Ⅰ】",
+   "romaji": "arukimasu",
+   "english": "to walk",
+   "alt": "A man walking",
+   "audio": "歩きます.wav",
+   "img": true
+  },
+  {
+   "id": "koosaten",
+   "japanese": "交差点",
+   "romaji": "koosaten",
+   "english": "crossing",
+   "alt": "Crossing",
+   "audio": "交差点.wav",
+   "img": false
+  },
+  {
+   "id": "atsui",
+   "japanese": "暑い",
+   "romaji": "atsui",
+   "english": "hot",
+   "alt": "Hot",
+   "audio": "暑い.wav"
+  },
+  {
+   "id": "minna_de",
+   "japanese": "みんなで",
+   "romaji": "minna de",
+   "english": "all together",
+   "alt": "All together",
+   "audio": "みんなで.wav"
+  },
+  {
+   "id": "chooshi",
+   "japanese": "調子",
+   "romaji": "chooshi",
+   "english": "condition",
+   "alt": "Condition",
+   "audio": "調子.wav"
+  },
+  {
+   "id": "dandan",
+   "japanese": "だんだん",
+   "romaji": "dandan",
+   "english": "gradually",
+   "alt": "Gradually",
+   "audio": "だんだん.wav"
+  },
+  {
+   "id": "yatto",
+   "japanese": "やっと",
+   "romaji": "yatto",
+   "english": "at last",
+   "alt": "At last",
+   "audio": "やっと.wav"
+  },
+  {
+   "id": "migi",
+   "japanese": "右",
+   "romaji": "migi",
+   "english": "right",
+   "alt": "Right",
+   "audio": "右.wav"
+  },
+  {
+   "id": "hidari",
+   "japanese": "左",
+   "romaji": "hidari",
+   "english": "left",
+   "alt": "Left",
+   "audio": "左.wav"
+  },
+  {
+   "id": "massugu",
+   "japanese": "まっすぐ",
+   "romaji": "massugu",
+   "english": "straight",
+   "alt": "Straight",
+   "audio": "まっすぐ.wav"
+  },
+  {
+   "id": "shimarimasu",
+   "japanese": "閉まります【Ⅰ】",
+   "romaji": "shimarimasu",
+   "english": "to close",
+   "alt": "Sliding doors closing with arrows pointing inward",
+   "audio": "閉まります.wav",
+   "img": true
+  },
+  {
+   "id": "agarimasu",
+   "japanese": "上がります【Ⅰ】",
+   "romaji": "agarimasu",
+   "english": "to go up",
+   "alt": "A bar chart with an arrow going up",
+   "audio": "上がります.wav",
+   "img": true
+  },
+  {
+   "id": "nan_choome",
+   "japanese": "何丁目？",
+   "romaji": "nan choome?",
+   "english": "Which district/block?",
+   "alt": "Which district/block"
+  },
+  {
+   "id": "icchoome",
+   "japanese": "1丁目",
+   "romaji": "icchoome",
+   "english": "block 1",
+   "alt": "Block 1"
+  },
+  {
+   "id": "nichoome",
+   "japanese": "2丁目",
+   "romaji": "nichoome",
+   "english": "block 2",
+   "alt": "Block 2"
+  },
+  {
+   "id": "sanchoome",
+   "japanese": "3丁目",
+   "romaji": "sanchoome",
+   "english": "block 3",
+   "alt": "Block 3"
+  },
+  {
+   "id": "yonchoome",
+   "japanese": "4丁目",
+   "romaji": "yonchoome",
+   "english": "block 4",
+   "alt": "Block 4"
+  },
+  {
+   "id": "gochoome",
+   "japanese": "5丁目",
+   "romaji": "gochoome",
+   "english": "block 5",
+   "alt": "Block 5"
+  },
+  {
+   "id": "rokuchoome",
+   "japanese": "6丁目",
+   "romaji": "rokuchoome",
+   "english": "block 6",
+   "alt": "Block 6"
+  },
+  {
+   "id": "nanachoome",
+   "japanese": "7丁目",
+   "romaji": "nanachoome",
+   "english": "block 7",
+   "alt": "Block 7"
+  },
+  {
+   "id": "hacchoome",
+   "japanese": "8丁目",
+   "romaji": "hacchoome",
+   "english": "block 8",
+   "alt": "Block 8"
+  },
+  {
+   "id": "kyuuchoome",
+   "japanese": "9丁目",
+   "romaji": "kyuuchoome",
+   "english": "block 9",
+   "alt": "Block 9"
+  },
+  {
+   "id": "jucchoome",
+   "japanese": "10丁目",
+   "romaji": "jucchoome",
+   "english": "block 10",
+   "alt": "Block 10"
+  }
+ ]
+}

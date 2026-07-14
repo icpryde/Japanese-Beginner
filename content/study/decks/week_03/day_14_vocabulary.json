@@ -1,0 +1,336 @@
+{
+  "id": "week_03/day_14_vocabulary",
+  "kind": "image",
+  "title": "Day 14 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 14 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "koohii",
+      "japanese": "コーヒー",
+      "romaji": "koohii",
+      "english": "coffee",
+      "image": "../images/study/week_03/day_14/koohii.png",
+      "audio": "../audio/vocabulary/week_03/day_14/koohii.m4a",
+      "alt": "Coffee"
+    },
+    {
+      "id": "keeki",
+      "japanese": "ケーキ",
+      "romaji": "keeki",
+      "english": "cake",
+      "image": "../images/study/week_03/day_14/keeki.png",
+      "audio": "../audio/vocabulary/week_03/day_14/keeki.m4a",
+      "alt": "Cake"
+    },
+    {
+      "id": "sandoicchi",
+      "japanese": "サンドイッチ",
+      "romaji": "sandoicchi",
+      "english": "sandwich",
+      "image": "../images/study/week_03/day_14/sandoicchi.png",
+      "audio": "../audio/vocabulary/week_03/day_14/sandoicchi.m4a",
+      "alt": "Sandwich"
+    },
+    {
+      "id": "koocha",
+      "japanese": "こうちゃ",
+      "romaji": "koocha",
+      "english": "black tea",
+      "image": "../images/study/week_03/day_14/koocha.png",
+      "audio": "../audio/vocabulary/week_03/day_14/koocha.m4a",
+      "alt": "Black tea"
+    },
+    {
+      "id": "karee",
+      "japanese": "カレー",
+      "romaji": "karee",
+      "english": "curry",
+      "image": "../images/study/week_03/day_14/karee.png",
+      "audio": "../audio/vocabulary/week_03/day_14/karee.m4a",
+      "alt": "Curry"
+    },
+    {
+      "id": "kurasu",
+      "japanese": "クラス",
+      "romaji": "kurasu",
+      "english": "class",
+      "image": "../images/study/week_03/day_14/kurasu.png",
+      "audio": "../audio/vocabulary/week_03/day_14/kurasu.m4a",
+      "alt": "Class"
+    },
+    {
+      "id": "sensee",
+      "japanese": "せんせい",
+      "romaji": "sensee",
+      "english": "teacher",
+      "image": "../images/study/week_03/day_14/sensee.png",
+      "audio": "../audio/vocabulary/week_03/day_14/sensee.m4a",
+      "alt": "Teacher"
+    },
+    {
+      "id": "naraimas",
+      "japanese": "ならいます",
+      "romaji": "naraimas",
+      "english": "to learn",
+      "image": "../images/study/week_03/day_14/naraimas.png",
+      "audio": "../audio/vocabulary/week_03/day_14/naraimas.m4a",
+      "alt": "To learn"
+    },
+    {
+      "id": "piano",
+      "japanese": "ピアノ",
+      "romaji": "piano",
+      "english": "piano",
+      "image": "../images/study/week_03/day_14/piano.png",
+      "audio": "../audio/vocabulary/week_03/day_14/piano.m4a",
+      "alt": "Piano"
+    },
+    {
+      "id": "ocha",
+      "japanese": "おちゃ",
+      "romaji": "ocha",
+      "english": "tea",
+      "image": "../images/study/week_03/day_14/ocha.png",
+      "audio": "../audio/vocabulary/week_03/day_14/ocha.m4a",
+      "alt": "Tea"
+    },
+    {
+      "id": "moraimas",
+      "japanese": "もらいます",
+      "romaji": "moraimas",
+      "english": "to receive",
+      "image": "../images/study/week_03/day_14/moraimas.png",
+      "audio": "../audio/vocabulary/week_03/day_14/moraimas.m4a",
+      "alt": "To receive"
+    },
+    {
+      "id": "hana",
+      "japanese": "はな",
+      "romaji": "hana",
+      "english": "flowers",
+      "image": "../images/study/week_03/day_14/hana.png",
+      "audio": "../audio/vocabulary/week_03/day_14/hana.m4a",
+      "alt": "Flowers"
+    },
+    {
+      "id": "tomodachi",
+      "japanese": "ともだち",
+      "romaji": "tomodachi",
+      "english": "friend",
+      "image": "../images/study/week_03/day_14/tomodachi.png",
+      "audio": "../audio/vocabulary/week_03/day_14/tomodachi.m4a",
+      "alt": "Friend"
+    },
+    {
+      "id": "taburetto",
+      "japanese": "タブレット",
+      "romaji": "taburetto",
+      "english": "tablet",
+      "image": "../images/study/week_03/day_14/taburetto.png",
+      "audio": "../audio/vocabulary/week_03/day_14/taburetto.m4a",
+      "alt": "Tablet"
+    },
+    {
+      "id": "karimas",
+      "japanese": "かります",
+      "romaji": "karimas",
+      "english": "to borrow",
+      "image": "../images/study/week_03/day_14/karimas.png",
+      "audio": "../audio/vocabulary/week_03/day_14/karimas.m4a",
+      "alt": "To borrow"
+    },
+    {
+      "id": "tokee",
+      "japanese": "とけい",
+      "romaji": "tokee",
+      "english": "watch",
+      "image": "../images/study/week_03/day_14/tokee.png",
+      "audio": "../audio/vocabulary/week_03/day_14/tokee.m4a",
+      "alt": "Watch"
+    },
+    {
+      "id": "jitensha",
+      "japanese": "じてんしゃ",
+      "romaji": "jitensha",
+      "english": "bicycle",
+      "image": "../images/study/week_03/day_14/jitensha.png",
+      "audio": "../audio/vocabulary/week_03/day_14/jitensha.m4a",
+      "alt": "Bicycle"
+    },
+    {
+      "id": "nekkuresu",
+      "japanese": "ネックレス",
+      "romaji": "nekkuresu",
+      "english": "necklace",
+      "image": "../images/study/week_03/day_14/nekkuresu.png",
+      "audio": "../audio/vocabulary/week_03/day_14/nekkuresu.m4a",
+      "alt": "Necklace"
+    },
+    {
+      "id": "suupaa",
+      "japanese": "スーパー",
+      "romaji": "suupaa",
+      "english": "supermarket",
+      "image": "../images/study/week_03/day_14/suupaa.png",
+      "audio": "../audio/vocabulary/week_03/day_14/suupaa.m4a",
+      "alt": "Supermarket"
+    },
+    {
+      "id": "ikimas",
+      "japanese": "いきます",
+      "romaji": "ikimas",
+      "english": "to go",
+      "image": "../images/study/week_03/day_14/ikimas.png",
+      "audio": "../audio/vocabulary/week_03/day_14/ikimas.m4a",
+      "alt": "To go"
+    },
+    {
+      "id": "ringo",
+      "japanese": "りんご",
+      "romaji": "ringo",
+      "english": "apple",
+      "image": "../images/study/week_03/day_14/ringo.png",
+      "audio": "../audio/vocabulary/week_03/day_14/ringo.m4a",
+      "alt": "Apple"
+    },
+    {
+      "id": "kaimas",
+      "japanese": "かいます",
+      "romaji": "kaimas",
+      "english": "to buy",
+      "image": "../images/study/week_03/day_14/kaimas.png",
+      "audio": "../audio/vocabulary/week_03/day_14/kaimas.m4a",
+      "alt": "To buy"
+    },
+    {
+      "id": "shatsu",
+      "japanese": "シャツ",
+      "romaji": "shatsu",
+      "english": "shirt",
+      "audio": "../audio/vocabulary/week_03/day_14/shatsu.m4a",
+      "alt": "Shirt"
+    },
+    {
+      "id": "hagaki",
+      "japanese": "はがき",
+      "romaji": "hagaki",
+      "english": "postcard",
+      "image": "../images/study/week_03/day_14/hagaki.png",
+      "audio": "../audio/vocabulary/week_03/day_14/hagaki.m4a",
+      "alt": "Postcard"
+    },
+    {
+      "id": "kuruma",
+      "japanese": "くるま",
+      "romaji": "kuruma",
+      "english": "car",
+      "image": "../images/study/week_03/day_14/kuruma.png",
+      "audio": "../audio/vocabulary/week_03/day_14/kuruma.m4a",
+      "alt": "Car"
+    },
+    {
+      "id": "terebi",
+      "japanese": "テレビ",
+      "romaji": "terebi",
+      "english": "television",
+      "audio": "../audio/vocabulary/week_03/day_14/terebi.m4a",
+      "alt": "Television"
+    },
+    {
+      "id": "omoshiroi",
+      "japanese": "おもしろい",
+      "romaji": "omoshiroi",
+      "english": "interesting/fun",
+      "audio": "../audio/vocabulary/week_03/day_14/omoshiroi.m4a",
+      "alt": "Interesting or fun"
+    },
+    {
+      "id": "yasui",
+      "japanese": "やすい",
+      "romaji": "yasui",
+      "english": "cheap",
+      "audio": "../audio/vocabulary/week_03/day_14/yasui.m4a",
+      "alt": "Cheap"
+    },
+    {
+      "id": "kyonen",
+      "japanese": "きょねん",
+      "romaji": "kyonen",
+      "english": "last year",
+      "audio": "../audio/vocabulary/week_03/day_14/kyonen.m4a",
+      "alt": "Last year"
+    },
+    {
+      "id": "tanjoobi",
+      "japanese": "たんじょうび",
+      "romaji": "tanjoobi",
+      "english": "birthday",
+      "audio": "../audio/vocabulary/week_03/day_14/tanjoobi.m4a",
+      "alt": "Birthday"
+    },
+    {
+      "id": "chichi",
+      "japanese": "ちち",
+      "romaji": "chichi",
+      "english": "father",
+      "audio": "../audio/vocabulary/week_03/day_14/chichi.m4a",
+      "alt": "Father (one's own)"
+    },
+    {
+      "id": "haha",
+      "japanese": "はは",
+      "romaji": "haha",
+      "english": "mother",
+      "audio": "../audio/vocabulary/week_03/day_14/haha.m4a",
+      "alt": "Mother (one's own)"
+    },
+    {
+      "id": "ani",
+      "japanese": "あに",
+      "romaji": "ani",
+      "english": "older brother",
+      "audio": "../audio/vocabulary/week_03/day_14/ani.m4a",
+      "alt": "Older brother (one's own)"
+    },
+    {
+      "id": "ane",
+      "japanese": "あね",
+      "romaji": "ane",
+      "english": "older sister",
+      "audio": "../audio/vocabulary/week_03/day_14/ane.m4a",
+      "alt": "Older sister (one's own)"
+    },
+    {
+      "id": "otooto",
+      "japanese": "おとうと",
+      "romaji": "otooto",
+      "english": "younger brother",
+      "audio": "../audio/vocabulary/week_03/day_14/otooto.m4a",
+      "alt": "Younger brother (one's own)"
+    },
+    {
+      "id": "imooto",
+      "japanese": "いもうと",
+      "romaji": "imooto",
+      "english": "younger sister",
+      "audio": "../audio/vocabulary/week_03/day_14/imooto.m4a",
+      "alt": "Younger sister (one's own)"
+    },
+    {
+      "id": "donata",
+      "japanese": "どなた",
+      "romaji": "donata",
+      "english": "who",
+      "audio": "../audio/vocabulary/week_03/day_14/donata.m4a",
+      "alt": "Who (polite)"
+    }
+  ]
+}

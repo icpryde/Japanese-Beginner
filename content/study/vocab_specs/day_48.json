@@ -1,0 +1,203 @@
+{
+ "week": 10,
+ "day": 48,
+ "lesson_id": "14346708",
+ "title": "Day 48 Vocabulary",
+ "raw_audio_dir": "51. Week 10 - Day 48/3.Day 48 - VocabularyText/Day 48 - Vocabulary Audio",
+ "pages": [
+  "Vocabulary_Day_48_1.jpg",
+  "Vocabulary_Day_48_2.jpg"
+ ],
+ "detect": {"merge_gap": 5, "min_colored": 300},
+ "words": [
+  {
+   "id": "modorimasu",
+   "japanese": "戻ります【Ⅰ】",
+   "romaji": "modorimasu",
+   "english": "to go back",
+   "alt": "A man walking with a U-turn arrow above him",
+   "audio": "戻ります.wav",
+   "img": true
+  },
+  {
+   "id": "kaze_o_hikimasu",
+   "japanese": "（かぜを）ひきます【Ⅰ】",
+   "romaji": "(kaze o) hikimasu",
+   "english": "to get (a cold)",
+   "alt": "A sick man with a mask lying in bed",
+   "audio": "かぜをひきます.wav",
+   "img": true
+  },
+  {
+   "id": "nodo",
+   "japanese": "のど",
+   "romaji": "nodo",
+   "english": "throat",
+   "alt": "A man holding his sore throat",
+   "audio": "のど.wav",
+   "img": true
+  },
+  {
+   "id": "jugyoo",
+   "japanese": "授業",
+   "romaji": "jugyoo",
+   "english": "lesson",
+   "alt": "A teacher giving a lesson to students at a blackboard",
+   "audio": "授業.wav",
+   "img": true
+  },
+  {
+   "id": "hajimarimasu",
+   "japanese": "始まります【Ⅰ】",
+   "romaji": "hajimarimasu",
+   "english": "to start",
+   "alt": "A theater stage with red curtains opening",
+   "audio": "始まります.wav",
+   "img": true
+  },
+  {
+   "id": "sagarimasu",
+   "japanese": "下がります【Ⅰ】",
+   "romaji": "sagarimasu",
+   "english": "to go down",
+   "alt": "A bar chart declining with an orange downward arrow",
+   "audio": "下がります.wav",
+   "img": true
+  },
+  {
+   "id": "kafunshoo",
+   "japanese": "花粉症",
+   "romaji": "kafunshoo",
+   "english": "hay fever",
+   "alt": "A man suffering from hay fever with itchy eyes and nose",
+   "audio": "花粉症.wav",
+   "img": true
+  },
+  {
+   "id": "seki",
+   "japanese": "せき",
+   "romaji": "seki",
+   "english": "cough",
+   "alt": "A woman coughing into her hand",
+   "audio": "せき.wav",
+   "img": true
+  },
+  {
+   "id": "saifu",
+   "japanese": "財布",
+   "romaji": "saifu",
+   "english": "wallet",
+   "alt": "A brown leather wallet",
+   "audio": "財布.wav",
+   "img": true
+  },
+  {
+   "id": "kaidan",
+   "japanese": "階段",
+   "romaji": "kaidan",
+   "english": "stairs",
+   "alt": "A flight of concrete stairs",
+   "audio": "階段.wav",
+   "img": true
+  },
+  {
+   "id": "korobimasu",
+   "japanese": "転びます【Ⅰ】",
+   "romaji": "korobimasu",
+   "english": "to fall down",
+   "alt": "A man tumbling down a set of stairs",
+   "audio": "転びます.wav",
+   "img": true
+  },
+  {
+   "id": "furiimaaketto",
+   "japanese": "フリーマーケット",
+   "romaji": "furiimaaketto",
+   "english": "flea market",
+   "alt": "People browsing goods at a flea market stall",
+   "audio": "フリーマーケット.wav",
+   "img": true
+  },
+  {
+   "id": "otsukaresama_desu",
+   "japanese": "お疲れ様です",
+   "romaji": "otsukaresama desu",
+   "english": "Thank you for your hard work",
+   "alt": "Thank you for your hard work",
+   "audio": "お疲れ様です.wav",
+   "img": false
+  },
+  {
+   "id": "kekkoo",
+   "japanese": "けっこう",
+   "romaji": "kekkoo",
+   "english": "fine; no thank you",
+   "alt": "Fine; no thank you",
+   "audio": "けっこう.wav",
+   "img": false
+  },
+  {
+   "id": "hitsuyoo_na",
+   "japanese": "必要（な）",
+   "romaji": "hitsuyoo (na)",
+   "english": "necessary",
+   "alt": "Necessary",
+   "audio": "必要な.wav",
+   "img": false
+  },
+  {
+   "id": "tooi",
+   "japanese": "遠い",
+   "romaji": "tooi",
+   "english": "far",
+   "alt": "Far",
+   "audio": "遠い.wav",
+   "img": false
+  },
+  {
+   "id": "jitsu_wa",
+   "japanese": "実は",
+   "romaji": "jitsu wa",
+   "english": "as a matter of fact",
+   "alt": "As a matter of fact",
+   "audio": "実は.wav",
+   "img": false
+  },
+  {
+   "id": "sorede",
+   "japanese": "それで",
+   "romaji": "sorede",
+   "english": "and then",
+   "alt": "And then",
+   "audio": "それで.wav",
+   "img": false
+  },
+  {
+   "id": "sore_wa_ikemasen_ne",
+   "japanese": "それは　いけませんね",
+   "romaji": "sore wa ikemasen ne",
+   "english": "that's too bad!",
+   "alt": "That's too bad!",
+   "audio": "それはいけませんね.wav",
+   "img": false
+  },
+  {
+   "id": "do_39_do",
+   "japanese": "～度 Ex)39度",
+   "romaji": "~do Ex. sanjuukyuu do",
+   "english": "～degrees Ex. 39 degrees",
+   "alt": "Degrees, e.g. 39 degrees",
+   "audio": "39度.wav",
+   "img": false
+  },
+  {
+   "id": "zuibun",
+   "japanese": "ずいぶん",
+   "romaji": "zuibun",
+   "english": "very",
+   "alt": "Very",
+   "audio": "ずいぶん.wav",
+   "img": false
+  }
+ ]
+}

@@ -1,0 +1,280 @@
+{
+  "id": "week_06/day_28_vocabulary",
+  "kind": "image",
+  "title": "Day 28 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 28 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "tonari",
+      "japanese": "隣",
+      "romaji": "tonari",
+      "english": "next to",
+      "image": "../images/study/week_06/day_28/tonari.png",
+      "audio": "../audio/vocabulary/week_06/day_28/tonari.wav",
+      "alt": "Two people sitting next to each other on a dark sofa"
+    },
+    {
+      "id": "suwarimasu",
+      "japanese": "座ります【Ⅰ】",
+      "romaji": "suwarimasu",
+      "english": "to sit",
+      "image": "../images/study/week_06/day_28/suwarimasu.png",
+      "audio": "../audio/vocabulary/week_06/day_28/suwarimasu.wav",
+      "alt": "A boy sitting down on a chair"
+    },
+    {
+      "id": "akemasu",
+      "japanese": "開けます【Ⅱ】",
+      "romaji": "akemasu",
+      "english": "to open",
+      "image": "../images/study/week_06/day_28/akemasu.png",
+      "audio": "../audio/vocabulary/week_06/day_28/akemasu.wav",
+      "alt": "A girl opening a window, with an arrow pointing right"
+    },
+    {
+      "id": "wakarimasu",
+      "japanese": "わかります【Ⅰ】",
+      "romaji": "wakarimasu",
+      "english": "to understand",
+      "image": "../images/study/week_06/day_28/wakarimasu.png",
+      "audio": "../audio/vocabulary/week_06/day_28/wakarimasu.wav",
+      "alt": "Students at desks, one confused with question marks overhead"
+    },
+    {
+      "id": "keshimasu",
+      "japanese": "消します【Ⅰ】",
+      "romaji": "keshimasu",
+      "english": "to turn off",
+      "image": "../images/study/week_06/day_28/keshimasu.png",
+      "audio": "../audio/vocabulary/week_06/day_28/keshimasu.wav",
+      "alt": "A woman pressing a remote control with an OFF speech bubble"
+    },
+    {
+      "id": "jisho",
+      "japanese": "辞書",
+      "romaji": "jisho",
+      "english": "dictionary",
+      "image": "../images/study/week_06/day_28/jisho.png",
+      "audio": "../audio/vocabulary/week_06/day_28/jisho.wav",
+      "alt": "A thick green dictionary book"
+    },
+    {
+      "id": "kaaten",
+      "japanese": "カーテン",
+      "romaji": "kaaten",
+      "english": "curtain",
+      "image": "../images/study/week_06/day_28/kaaten.png",
+      "audio": "../audio/vocabulary/week_06/day_28/kaaten.wav",
+      "alt": "Pink curtains hanging on a window"
+    },
+    {
+      "id": "shimemasu",
+      "japanese": "閉めます【Ⅱ】",
+      "romaji": "shimemasu",
+      "english": "to close",
+      "image": "../images/study/week_06/day_28/shimemasu.png",
+      "audio": "../audio/vocabulary/week_06/day_28/shimemasu.wav",
+      "alt": "A boy closing a window, with an arrow pointing left"
+    },
+    {
+      "id": "tsukemasu",
+      "japanese": "つけます【Ⅱ】",
+      "romaji": "tsukemasu",
+      "english": "to turn on",
+      "image": "../images/study/week_06/day_28/tsukemasu.png",
+      "audio": "../audio/vocabulary/week_06/day_28/tsukemasu.wav",
+      "alt": "A woman pressing a remote control with an ON speech bubble"
+    },
+    {
+      "id": "nimotsu",
+      "japanese": "荷物",
+      "romaji": "nimotsu",
+      "english": "package",
+      "image": "../images/study/week_06/day_28/nimotsu.png",
+      "audio": "../audio/vocabulary/week_06/day_28/nimotsu.wav",
+      "alt": "A sealed cardboard box package"
+    },
+    {
+      "id": "okimasu",
+      "japanese": "置きます【Ⅰ】",
+      "romaji": "okimasu",
+      "english": "to place",
+      "image": "../images/study/week_06/day_28/okimasu.png",
+      "audio": "../audio/vocabulary/week_06/day_28/okimasu.wav",
+      "alt": "A delivery man placing a box beside a door"
+    },
+    {
+      "id": "bijutsukan",
+      "japanese": "美術館",
+      "romaji": "bijutsukan",
+      "english": "art museum",
+      "image": "../images/study/week_06/day_28/bijutsukan.png",
+      "audio": "../audio/vocabulary/week_06/day_28/bijutsukan.wav",
+      "alt": "A museum wall lined with framed paintings"
+    },
+    {
+      "id": "nomimono",
+      "japanese": "飲み物",
+      "romaji": "nomimono",
+      "english": "drinks",
+      "image": "../images/study/week_06/day_28/nomimono.png",
+      "audio": "../audio/vocabulary/week_06/day_28/nomimono.wav",
+      "alt": "A coffee cup, a water bottle and a carton of milk"
+    },
+    {
+      "id": "gomi",
+      "japanese": "ごみ",
+      "romaji": "gomi",
+      "english": "trash",
+      "image": "../images/study/week_06/day_28/gomi.png",
+      "audio": "../audio/vocabulary/week_06/day_28/gomi.wav",
+      "alt": "A pile of trash bags by a wall"
+    },
+    {
+      "id": "sutemasu",
+      "japanese": "捨てます【Ⅱ】",
+      "romaji": "sutemasu",
+      "english": "to throw away",
+      "image": "../images/study/week_06/day_28/sutemasu.png",
+      "audio": "../audio/vocabulary/week_06/day_28/sutemasu.wav",
+      "alt": "A man carelessly throwing away a can"
+    },
+    {
+      "id": "sawarimasu",
+      "japanese": "触ります【Ⅰ】",
+      "romaji": "sawarimasu",
+      "english": "to touch",
+      "image": "../images/study/week_06/day_28/sawarimasu.png",
+      "audio": "../audio/vocabulary/week_06/day_28/sawarimasu.wav",
+      "alt": "A woman reaching out to touch a red ball"
+    },
+    {
+      "id": "koe",
+      "japanese": "声",
+      "romaji": "koe",
+      "english": "voice",
+      "image": "../images/study/week_06/day_28/koe.png",
+      "audio": "../audio/vocabulary/week_06/day_28/koe.wav",
+      "alt": "A man shouting with a loud voice"
+    },
+    {
+      "id": "hairimasu",
+      "japanese": "入ります【Ⅰ】",
+      "romaji": "hairimasu",
+      "english": "to enter",
+      "image": "../images/study/week_06/day_28/hairimasu.png",
+      "audio": "../audio/vocabulary/week_06/day_28/hairimasu.wav",
+      "alt": "A man entering through a doorway"
+    },
+    {
+      "id": "tomemasu",
+      "japanese": "止めます【Ⅱ】",
+      "romaji": "tomemasu",
+      "english": "to stop",
+      "image": "../images/study/week_06/day_28/tomemasu.png",
+      "audio": "../audio/vocabulary/week_06/day_28/tomemasu.wav",
+      "alt": "A yellow car coming to a stop"
+    },
+    {
+      "id": "kakemasu",
+      "japanese": "かけます【Ⅱ】",
+      "romaji": "kakemasu",
+      "english": "to make (a call)",
+      "image": "../images/study/week_06/day_28/kakemasu.png",
+      "audio": "../audio/vocabulary/week_06/day_28/kakemasu.wav",
+      "alt": "A man talking on a smartphone"
+    },
+    {
+      "id": "pen",
+      "japanese": "ペン",
+      "romaji": "pen",
+      "english": "pen",
+      "image": "../images/study/week_06/day_28/pen.png",
+      "audio": "../audio/vocabulary/week_06/day_28/pen.wav",
+      "alt": "A black and white ballpoint pen"
+    },
+    {
+      "id": "kotae",
+      "japanese": "答え",
+      "romaji": "kotae",
+      "english": "answer",
+      "image": "../images/study/week_06/day_28/kotae.png",
+      "audio": "../audio/vocabulary/week_06/day_28/kotae.wav",
+      "alt": "A boy writing an answer on a test at a desk"
+    },
+    {
+      "id": "gamu",
+      "japanese": "ガム",
+      "romaji": "gamu",
+      "english": "gum",
+      "image": "../images/study/week_06/day_28/gamu.png",
+      "audio": "../audio/vocabulary/week_06/day_28/gamu.wav",
+      "alt": "A green pack of chewing gum"
+    },
+    {
+      "id": "kamimasu",
+      "japanese": "かみます【Ⅰ】",
+      "romaji": "kamimasu",
+      "english": "to bite",
+      "image": "../images/study/week_06/day_28/kamimasu.png",
+      "audio": "../audio/vocabulary/week_06/day_28/kamimasu.wav",
+      "alt": "A dog biting a man's arm while a woman panics"
+    },
+    {
+      "id": "sukoshi",
+      "japanese": "少し",
+      "romaji": "sukoshi",
+      "english": "a little",
+      "audio": "../audio/vocabulary/week_06/day_28/sukoshi.wav",
+      "alt": "A little, a small amount"
+    },
+    {
+      "id": "sumimasen",
+      "japanese": "すみません",
+      "romaji": "sumimasen",
+      "english": "sorry",
+      "audio": "../audio/vocabulary/week_06/day_28/sumimasen.wav",
+      "alt": "Sorry, excuse me"
+    },
+    {
+      "id": "suteki_na",
+      "japanese": "すてき（な）",
+      "romaji": "suteki (na)",
+      "english": "lovely",
+      "audio": "../audio/vocabulary/week_06/day_28/suteki_na.wav",
+      "alt": "Lovely, wonderful (na-adjective)"
+    },
+    {
+      "id": "hora",
+      "japanese": "ほら",
+      "romaji": "hora",
+      "english": "look!",
+      "audio": "../audio/vocabulary/week_06/day_28/hora.wav",
+      "alt": "Look! (interjection to draw attention)"
+    },
+    {
+      "id": "hontou",
+      "japanese": "本当",
+      "romaji": "hontou",
+      "english": "right, true",
+      "audio": "../audio/vocabulary/week_06/day_28/hontou.wav",
+      "alt": "Right, true, really"
+    },
+    {
+      "id": "minasan",
+      "japanese": "皆さん",
+      "romaji": "minasan",
+      "english": "everybody",
+      "audio": "../audio/vocabulary/week_06/day_28/minasan.wav",
+      "alt": "Everybody, everyone (polite)"
+    }
+  ]
+}

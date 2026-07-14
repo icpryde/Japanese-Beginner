@@ -1,0 +1,202 @@
+{
+ "week": 9,
+ "day": 43,
+ "lesson_id": "14228967",
+ "title": "Day 43 Vocabulary",
+ "raw_audio_dir": "46. Week 9 - Day 43/3.Day 43 - VocabularyText/Day43 - Vocabulary Audio",
+ "pages": [
+  "Vocabulary_Day_43_1.jpg",
+  "Vocabulary_Day_43_2.jpg"
+ ],
+ "words": [
+  {
+   "id": "shookai_shimasu",
+   "japanese": "紹介します【Ⅲ】",
+   "romaji": "shookai shimasu",
+   "english": "to introduce (someone)",
+   "alt": "Businesspeople shaking hands as one person introduces another",
+   "audio": "紹介します.wav",
+   "img": true
+  },
+  {
+   "id": "eki_made_okurimasu",
+   "japanese": "（駅まで）送ります【Ⅰ】",
+   "romaji": "(eki made) okurimasu",
+   "english": "to escort (to the station)",
+   "alt": "A driver taking a passenger somewhere in a van",
+   "audio": "駅まで送ります.wav",
+   "img": true
+  },
+  {
+   "id": "kukkii",
+   "japanese": "クッキー",
+   "romaji": "kukkii",
+   "english": "cookie",
+   "alt": "Assorted chocolate chip cookies",
+   "audio": "クッキー.wav",
+   "img": true
+  },
+  {
+   "id": "purezenteeshon",
+   "japanese": "プレゼンテーション",
+   "romaji": "purezenteeshon",
+   "english": "presentation",
+   "alt": "A woman giving a presentation while pointing at a chart",
+   "audio": "プレゼンテーション.wav",
+   "img": true
+  },
+  {
+   "id": "tetsuya",
+   "japanese": "徹夜",
+   "romaji": "tetsuya",
+   "english": "staying up all night",
+   "alt": "A man playing video games late at night under the moon",
+   "audio": "徹夜.wav",
+   "img": true
+  },
+  {
+   "id": "okosan",
+   "japanese": "お子さん",
+   "romaji": "okosan",
+   "english": "children",
+   "alt": "A group of happy children raising their hands",
+   "audio": "お子さん.wav",
+   "img": true
+  },
+  {
+   "id": "mooshimasu",
+   "japanese": "申します【Ⅰ】",
+   "romaji": "mooshimasu",
+   "english": "to say, to be called",
+   "alt": "To say, to be called (humble)",
+   "audio": "申します.wav",
+   "img": false
+  },
+  {
+   "id": "nihongo_kyooshitsu",
+   "japanese": "～教室 Ex)日本語教室",
+   "romaji": "~kyooshitsu Ex. nihongo kyooshitsu",
+   "english": "～classroom Ex. Japanese classroom",
+   "alt": "Classroom, e.g. Japanese classroom",
+   "audio": "日本語教室.wav",
+   "img": false
+  },
+  {
+   "id": "kuwashii",
+   "japanese": "詳しい",
+   "romaji": "kuwashii",
+   "english": "detailed",
+   "alt": "Detailed",
+   "audio": "詳しい.wav",
+   "img": false
+  },
+  {
+   "id": "hikkoshi",
+   "japanese": "引っ越し",
+   "romaji": "hikkoshi",
+   "english": "moving",
+   "alt": "Moving (house)",
+   "audio": "引っ越し.wav",
+   "img": false
+  },
+  {
+   "id": "kono_aida",
+   "japanese": "この間",
+   "romaji": "kono aida",
+   "english": "the other day",
+   "alt": "The other day",
+   "audio": "この間.wav",
+   "img": false
+  },
+  {
+   "id": "toruko",
+   "japanese": "トルコ",
+   "romaji": "toruko",
+   "english": "Turkey",
+   "alt": "Turkey (the country)",
+   "audio": "トルコ.wav",
+   "img": false
+  },
+  {
+   "id": "moo",
+   "japanese": "もう",
+   "romaji": "moo",
+   "english": "already",
+   "alt": "Already",
+   "audio": "もう.wav",
+   "img": false
+  },
+  {
+   "id": "mada",
+   "japanese": "まだ",
+   "romaji": "mada",
+   "english": "not yet",
+   "alt": "Not yet",
+   "audio": "まだ.wav",
+   "img": false
+  },
+  {
+   "id": "shimekiri",
+   "japanese": "締切",
+   "romaji": "shimekiri",
+   "english": "deadline",
+   "alt": "Deadline",
+   "audio": "締切.wav",
+   "img": false
+  },
+  {
+   "id": "yarimasu",
+   "japanese": "やります【Ⅰ】",
+   "romaji": "yarimasu",
+   "english": "to do",
+   "alt": "To do",
+   "audio": "やります.wav",
+   "img": false
+  },
+  {
+   "id": "mooshikomimasu",
+   "japanese": "申し込みます【Ⅰ】",
+   "romaji": "mooshikomimasu",
+   "english": "to make an application",
+   "alt": "To make an application",
+   "audio": "申し込みます.wav",
+   "img": false
+  },
+  {
+   "id": "kimemasu",
+   "japanese": "決めます【Ⅱ】",
+   "romaji": "kimemasu",
+   "english": "to decide",
+   "alt": "To decide",
+   "audio": "決めます.wav",
+   "img": false
+  },
+  {
+   "id": "oboemasu",
+   "japanese": "覚えます【Ⅱ】",
+   "romaji": "oboemasu",
+   "english": "to remember",
+   "alt": "To remember",
+   "audio": "覚えます.wav",
+   "img": false
+  },
+  {
+   "id": "kyanseru_shimasu",
+   "japanese": "キャンセルします【Ⅲ】",
+   "romaji": "kyanseru shimasu",
+   "english": "to cancel",
+   "alt": "To cancel",
+   "audio": "キャンセルします.wav",
+   "img": false
+  },
+  {
+   "id": "wasuremasu",
+   "japanese": "忘れます【Ⅱ】",
+   "romaji": "wasuremasu",
+   "english": "to forget",
+   "alt": "To forget",
+   "audio": "忘れます.wav",
+   "img": false
+  }
+ ]
+}

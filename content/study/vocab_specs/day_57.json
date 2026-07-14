@@ -1,0 +1,266 @@
+{
+ "week": 12,
+ "day": 57,
+ "lesson_id": "14710586",
+ "title": "Day 57 Vocabulary",
+ "raw_audio_dir": "60. Week 12 - Day 57/3.Day 57 - VocabularyText/Day 57 - Vocabulary Audio",
+ "pages": [
+  "Vocabulary_Day_57_1.jpg",
+  "Vocabulary_Day_57_2.jpg"
+ ],
+ "detect": {"merge_gap": 10},
+ "words": [
+  {
+   "id": "yoimasu",
+   "japanese": "酔います【Ⅰ】",
+   "romaji": "yoimasu",
+   "english": "to get drunk",
+   "alt": "A red-faced drunk man dancing happily",
+   "audio": "酔います.wav",
+   "img": true
+  },
+  {
+   "id": "kontakuto_renzu",
+   "japanese": "コンタクト（レンズ）",
+   "romaji": "kontakuto (renzu)",
+   "english": "contact (lens)",
+   "alt": "A woman putting in a contact lens",
+   "audio": "コンタクトレンズ.wav",
+   "img": true
+  },
+  {
+   "id": "me",
+   "japanese": "目",
+   "romaji": "me",
+   "english": "eye",
+   "alt": "A close-up of a human eye",
+   "audio": "目.wav",
+   "img": true
+  },
+  {
+   "id": "uchi_o_demasu",
+   "japanese": "（うちを）出ます【Ⅱ】",
+   "romaji": "(uchi o) demasu",
+   "english": "to go out (the house)",
+   "alt": "A family leaving their house together",
+   "audio": "うちを出ます.wav",
+   "img": true
+  },
+  {
+   "id": "pajama",
+   "japanese": "パジャマ",
+   "romaji": "pajama",
+   "english": "pajamas",
+   "alt": "A boy wearing blue plaid pajamas",
+   "audio": "パジャマ.wav",
+   "img": true
+  },
+  {
+   "id": "musume",
+   "japanese": "娘",
+   "romaji": "musume",
+   "english": "daughter",
+   "alt": "A mother holding her little daughter",
+   "audio": "娘.wav",
+   "img": true
+  },
+  {
+   "id": "zubon",
+   "japanese": "ズボン",
+   "romaji": "zubon",
+   "english": "trousers",
+   "alt": "A pair of green trousers",
+   "audio": "ズボン.wav",
+   "img": true
+  },
+  {
+   "id": "tisshu",
+   "japanese": "ティッシュ",
+   "romaji": "tisshu",
+   "english": "tissue",
+   "alt": "A green box of tissues",
+   "audio": "ティッシュ.wav",
+   "img": true
+  },
+  {
+   "id": "sentaku_shimasu",
+   "japanese": "洗濯します【Ⅲ】",
+   "romaji": "sentaku shimasu",
+   "english": "to do laundry",
+   "alt": "A woman hanging laundry out to dry",
+   "audio": "洗濯します.wav",
+   "img": true
+  },
+  {
+   "id": "aisatsu_shimasu",
+   "japanese": "挨拶します【Ⅲ】",
+   "romaji": "aisatsu shimasu",
+   "english": "to greet",
+   "alt": "Two businessmen bowing to each other in greeting",
+   "audio": "挨拶します.wav",
+   "img": true
+  },
+  {
+   "id": "shiitoberuto",
+   "japanese": "シートベルト",
+   "romaji": "shiitoberuto",
+   "english": "seatbelt",
+   "alt": "A man fastening his seatbelt in a car",
+   "audio": "シートベルト.wav",
+   "img": true
+  },
+  {
+   "id": "dengen_ga_kiremasu",
+   "japanese": "（電源が）切れます【Ⅱ】",
+   "romaji": "(dengen ga) kiremasu",
+   "english": "to turn off (the power)",
+   "alt": "A desktop computer with its monitor",
+   "audio": "電源が切れます.wav",
+   "img": true
+  },
+  {
+   "id": "soobetsukai",
+   "japanese": "送別会",
+   "romaji": "soobetsukai",
+   "english": "farewell party",
+   "alt": "Office workers toasting at a farewell party",
+   "audio": "送別会.wav",
+   "img": true
+  },
+  {
+   "id": "kopii_yooshi",
+   "japanese": "コピー用紙",
+   "romaji": "kopii yooshi",
+   "english": "copier paper",
+   "alt": "A stack of white copier paper",
+   "audio": "コピー用紙.wav",
+   "img": false
+  },
+  {
+   "id": "wasabi",
+   "japanese": "わさび",
+   "romaji": "wasabi",
+   "english": "wasabi",
+   "alt": "A fresh green wasabi root",
+   "audio": "わさび.wav",
+   "img": true
+  },
+  {
+   "id": "poppukoon",
+   "japanese": "ポップコーン",
+   "romaji": "poppukoon",
+   "english": "pop corn",
+   "alt": "A striped tub of popcorn",
+   "audio": "ポップコーン.wav",
+   "img": true
+  },
+  {
+   "id": "gookaku_shimasu",
+   "japanese": "合格します【Ⅲ】",
+   "romaji": "gookaku shimasu",
+   "english": "to pass",
+   "alt": "Students celebrating in front of an exam results board",
+   "audio": "合格します.wav",
+   "img": true
+  },
+  {
+   "id": "fuku",
+   "japanese": "服",
+   "romaji": "fuku",
+   "english": "clothes",
+   "alt": "A pile of neatly folded clothes",
+   "audio": "服.wav",
+   "img": true
+  },
+  {
+   "id": "buji_ni",
+   "japanese": "無事に",
+   "romaji": "buji ni",
+   "english": "safely",
+   "alt": "Safely",
+   "audio": "無事に.wav",
+   "img": false
+  },
+  {
+   "id": "chiimu",
+   "japanese": "チーム",
+   "romaji": "chiimu",
+   "english": "team",
+   "alt": "Team",
+   "audio": "チーム.wav",
+   "img": false
+  },
+  {
+   "id": "zuibun",
+   "japanese": "ずいぶん",
+   "romaji": "zuibun",
+   "english": "very",
+   "alt": "Very",
+   "audio": "ずいぶん.wav",
+   "img": false
+  },
+  {
+   "id": "isogi_no_yooji",
+   "japanese": "急ぎ Ex) 急ぎの 用事",
+   "romaji": "isogi Ex. isogi no yooji",
+   "english": "hurry Ex. urgent business",
+   "alt": "Hurry, e.g. urgent business",
+   "audio": "急ぎの用事.wav",
+   "img": false
+  },
+  {
+   "id": "shunin",
+   "japanese": "主任",
+   "romaji": "shunin",
+   "english": "person in charge",
+   "alt": "Person in charge",
+   "audio": "主任.wav",
+   "img": false
+  },
+  {
+   "id": "akihabara",
+   "japanese": "秋葉原",
+   "romaji": "akihabara",
+   "english": "Akihabara",
+   "alt": "Akihabara",
+   "audio": "秋葉原.wav",
+   "img": false
+  },
+  {
+   "id": "ma_ni_aimasu",
+   "japanese": "間に合います【Ⅰ】",
+   "romaji": "ma ni aimasu",
+   "english": "to be in time",
+   "alt": "To be in time",
+   "audio": "間に合います.wav",
+   "img": false
+  },
+  {
+   "id": "hajimarimasu",
+   "japanese": "始まります【Ⅰ】",
+   "romaji": "hajimarimasu",
+   "english": "to start",
+   "alt": "To start",
+   "audio": "始まります.wav",
+   "img": false
+  },
+  {
+   "id": "aji_wasabi_aji",
+   "japanese": "～味 Ex) わさび 味",
+   "romaji": "~aji Ex. wasabi aji",
+   "english": "~flavour Ex. wasabi flavour",
+   "alt": "Flavour, e.g. wasabi flavour",
+   "audio": "わさび味.wav",
+   "img": false
+  },
+  {
+   "id": "hen_na",
+   "japanese": "変（な）",
+   "romaji": "hen (na)",
+   "english": "odd",
+   "alt": "Odd",
+   "audio": "変な.wav",
+   "img": false
+  }
+ ]
+}

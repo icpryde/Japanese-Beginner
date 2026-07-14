@@ -1,0 +1,312 @@
+{
+  "id": "week_04/day_20_vocabulary",
+  "kind": "image",
+  "title": "Day 20 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 20 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "tenki",
+      "japanese": "てんき",
+      "romaji": "tenki",
+      "english": "weather",
+      "image": "../images/study/week_04/day_20/tenki.png",
+      "alt": "A red sun, a blue umbrella and a cloud"
+    },
+    {
+      "id": "ikimasu",
+      "japanese": "いきます",
+      "romaji": "ikimasu",
+      "english": "to go",
+      "image": "../images/study/week_04/day_20/ikimasu.png",
+      "audio": "../audio/vocabulary/week_04/day_20/ikimasu.wav",
+      "alt": "A man leaving through the front door with a bag"
+    },
+    {
+      "id": "onaka_ga_sukimashita",
+      "japanese": "おなかが　すきました",
+      "romaji": "onaka ga sukimashita",
+      "english": "I'm hungry",
+      "image": "../images/study/week_04/day_20/onaka_ga_sukimashita.png",
+      "audio": "../audio/vocabulary/week_04/day_20/onaka_ga_sukimashita.wav",
+      "alt": "A hungry boy imagining a bowl of rice"
+    },
+    {
+      "id": "kaeshimasu",
+      "japanese": "かえします",
+      "romaji": "kaeshimasu",
+      "english": "to return",
+      "image": "../images/study/week_04/day_20/kaeshimasu.png",
+      "audio": "../audio/vocabulary/week_04/day_20/kaeshimasu.wav",
+      "alt": "A boy returning a book to a librarian"
+    },
+    {
+      "id": "asobimasu",
+      "japanese": "あそびます",
+      "romaji": "asobimasu",
+      "english": "to play",
+      "image": "../images/study/week_04/day_20/asobimasu.png",
+      "audio": "../audio/vocabulary/week_04/day_20/asobimasu.wav",
+      "alt": "Two children playing with water guns"
+    },
+    {
+      "id": "kaerimasu",
+      "japanese": "かえります",
+      "romaji": "kaerimasu",
+      "english": "to come back",
+      "image": "../images/study/week_04/day_20/kaerimasu.png",
+      "audio": "../audio/vocabulary/week_04/day_20/kaerimasu.wav",
+      "alt": "A father arriving home at night, greeted at the door"
+    },
+    {
+      "id": "aimasu",
+      "japanese": "あいます",
+      "romaji": "aimasu",
+      "english": "to meet",
+      "image": "../images/study/week_04/day_20/aimasu.png",
+      "audio": "../audio/vocabulary/week_04/day_20/aimasu.wav",
+      "alt": "Two women meeting and greeting each other"
+    },
+    {
+      "id": "kimasu",
+      "japanese": "きます",
+      "romaji": "kimasu",
+      "english": "to come",
+      "image": "../images/study/week_04/day_20/kimasu.png",
+      "audio": "../audio/vocabulary/week_04/day_20/kimasu.wav",
+      "alt": "A boy in a blue shirt running towards the viewer"
+    },
+    {
+      "id": "bijutsu",
+      "japanese": "びじゅつ",
+      "romaji": "bijutsu",
+      "english": "art",
+      "image": "../images/study/week_04/day_20/bijutsu.png",
+      "audio": "../audio/vocabulary/week_04/day_20/bijutsu.wav",
+      "alt": "A woman admiring a framed painting"
+    },
+    {
+      "id": "hanami",
+      "japanese": "はなみ",
+      "romaji": "hanami",
+      "english": "flower viewing",
+      "image": "../images/study/week_04/day_20/hanami.png",
+      "audio": "../audio/vocabulary/week_04/day_20/hanami.wav",
+      "alt": "People picnicking under a blooming cherry tree"
+    },
+    {
+      "id": "ryokoo",
+      "japanese": "りょこう",
+      "romaji": "ryokoo",
+      "english": "travel",
+      "image": "../images/study/week_04/day_20/ryokoo.png",
+      "audio": "../audio/vocabulary/week_04/day_20/ryokoo.wav",
+      "alt": "A man walking cheerfully with a suitcase"
+    },
+    {
+      "id": "kooen",
+      "japanese": "こうえん",
+      "romaji": "kooen",
+      "english": "park",
+      "image": "../images/study/week_04/day_20/kooen.png",
+      "audio": "../audio/vocabulary/week_04/day_20/kooen.wav",
+      "alt": "A playground with a slide and climbing frame"
+    },
+    {
+      "id": "sanpo",
+      "japanese": "さんぽ",
+      "romaji": "sanpo",
+      "english": "walk",
+      "image": "../images/study/week_04/day_20/sanpo.png",
+      "audio": "../audio/vocabulary/week_04/day_20/sanpo.wav",
+      "alt": "A man taking a walk"
+    },
+    {
+      "id": "sukii",
+      "japanese": "スキー",
+      "romaji": "sukii",
+      "english": "skiing",
+      "image": "../images/study/week_04/day_20/sukii.png",
+      "audio": "../audio/vocabulary/week_04/day_20/sukii.wav",
+      "alt": "A skier in a red hat crouching on skis"
+    },
+    {
+      "id": "bungaku",
+      "japanese": "ぶんがく",
+      "romaji": "bungaku",
+      "english": "literature",
+      "image": "../images/study/week_04/day_20/bungaku.png",
+      "audio": "../audio/vocabulary/week_04/day_20/bungaku.wav",
+      "alt": "A green novel with a stack of books"
+    },
+    {
+      "id": "kenkyuu",
+      "japanese": "けんきゅう",
+      "romaji": "kenkyuu",
+      "english": "research",
+      "image": "../images/study/week_04/day_20/kenkyuu.png",
+      "audio": "../audio/vocabulary/week_04/day_20/kenkyuu.wav",
+      "alt": "A researcher in a lab coat with a microscope"
+    },
+    {
+      "id": "shokuji",
+      "japanese": "しょくじ",
+      "romaji": "shokuji",
+      "english": "meal",
+      "image": "../images/study/week_04/day_20/shokuji.png",
+      "audio": "../audio/vocabulary/week_04/day_20/shokuji.wav",
+      "alt": "A family eating a meal together at a table"
+    },
+    {
+      "id": "kuukoo",
+      "japanese": "くうこう",
+      "romaji": "kuukoo",
+      "english": "airport",
+      "image": "../images/study/week_04/day_20/kuukoo.png",
+      "audio": "../audio/vocabulary/week_04/day_20/kuukoo.wav",
+      "alt": "An airport terminal building with a plane"
+    },
+    {
+      "id": "mukaemasu",
+      "japanese": "むかえます",
+      "romaji": "mukaemasu",
+      "english": "to pick up someone",
+      "image": "../images/study/week_04/day_20/mukaemasu.png",
+      "audio": "../audio/vocabulary/week_04/day_20/mukaemasu.wav",
+      "alt": "A person waving to greet an arriving traveller"
+    },
+    {
+      "id": "obentoo",
+      "japanese": "（お）べんとう",
+      "romaji": "(o)bentoo",
+      "english": "Japanese lunch box",
+      "image": "../images/study/week_04/day_20/obentoo.png",
+      "audio": "../audio/vocabulary/week_04/day_20/obentoo.wav",
+      "alt": "A Japanese lunch box with rice and side dishes"
+    },
+    {
+      "id": "oyogimasu",
+      "japanese": "およぎます",
+      "romaji": "oyogimasu",
+      "english": "to swim",
+      "image": "../images/study/week_04/day_20/oyogimasu.png",
+      "audio": "../audio/vocabulary/week_04/day_20/oyogimasu.wav",
+      "alt": "A swimmer in a cap doing the front crawl"
+    },
+    {
+      "id": "jimu",
+      "japanese": "ジム",
+      "romaji": "jimu",
+      "english": "gym",
+      "image": "../images/study/week_04/day_20/jimu.png",
+      "audio": "../audio/vocabulary/week_04/day_20/jimu.wav",
+      "alt": "A man and woman exercising on gym machines"
+    },
+    {
+      "id": "puuru",
+      "japanese": "プール",
+      "romaji": "puuru",
+      "english": "pool",
+      "image": "../images/study/week_04/day_20/puuru.png",
+      "audio": "../audio/vocabulary/week_04/day_20/puuru.wav",
+      "alt": "A swimming pool with bunting flags"
+    },
+    {
+      "id": "kaimono",
+      "japanese": "かいもの",
+      "romaji": "kaimono",
+      "english": "shopping",
+      "image": "../images/study/week_04/day_20/kaimono.png",
+      "audio": "../audio/vocabulary/week_04/day_20/kaimono.wav",
+      "alt": "A smiling woman carrying shopping bags"
+    },
+    {
+      "id": "dokoka",
+      "japanese": "どこか",
+      "romaji": "dokoka",
+      "english": "somewhere",
+      "audio": "../audio/vocabulary/week_04/day_20/dokoka.wav",
+      "alt": "Somewhere"
+    },
+    {
+      "id": "dareka",
+      "japanese": "だれか",
+      "romaji": "dareka",
+      "english": "someone",
+      "audio": "../audio/vocabulary/week_04/day_20/dareka.wav",
+      "alt": "Someone"
+    },
+    {
+      "id": "nanika",
+      "japanese": "なにか",
+      "romaji": "nanika",
+      "english": "something",
+      "audio": "../audio/vocabulary/week_04/day_20/nanika.wav",
+      "alt": "Something"
+    },
+    {
+      "id": "isshoni",
+      "japanese": "いっしょに",
+      "romaji": "isshoni",
+      "english": "together",
+      "audio": "../audio/vocabulary/week_04/day_20/isshoni.wav",
+      "alt": "Together"
+    },
+    {
+      "id": "demo",
+      "japanese": "でも",
+      "romaji": "demo",
+      "english": "but",
+      "audio": "../audio/vocabulary/week_04/day_20/demo.wav",
+      "alt": "But"
+    },
+    {
+      "id": "kyonen",
+      "japanese": "きょねん",
+      "romaji": "kyonen",
+      "english": "last year",
+      "audio": "../audio/vocabulary/week_04/day_20/kyonen.wav",
+      "alt": "Last year"
+    },
+    {
+      "id": "itsuka",
+      "japanese": "いつか",
+      "romaji": "itsuka",
+      "english": "someday",
+      "audio": "../audio/vocabulary/week_04/day_20/itsuka.wav",
+      "alt": "Someday"
+    },
+    {
+      "id": "itsumo",
+      "japanese": "いつも",
+      "romaji": "itsumo",
+      "english": "always",
+      "audio": "../audio/vocabulary/week_04/day_20/itsumo.wav",
+      "alt": "Always"
+    },
+    {
+      "id": "shuumatsu",
+      "japanese": "しゅうまつ",
+      "romaji": "shuumatsu",
+      "english": "weekend",
+      "audio": "../audio/vocabulary/week_04/day_20/shuumatsu.wav",
+      "alt": "Weekend"
+    },
+    {
+      "id": "chuugokugo",
+      "japanese": "ちゅうごくご",
+      "romaji": "chuugokugo",
+      "english": "Chinese language",
+      "image": "../images/study/week_04/day_20/chuugokugo.png",
+      "audio": "../audio/vocabulary/week_04/day_20/chuugokugo.wav",
+      "alt": "A woman reading a book with Chinese characters"
+    }
+  ]
+}

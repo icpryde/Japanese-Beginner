@@ -1,0 +1,251 @@
+{
+  "id": "week_06/day_30_vocabulary",
+  "kind": "image",
+  "title": "Day 30 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 30 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "omiyage",
+      "japanese": "おみやげ",
+      "romaji": "omiyage",
+      "english": "souvenir",
+      "image": "../images/study/week_06/day_30/omiyage.png",
+      "audio": "../audio/vocabulary/week_06/day_30/omiyage.wav",
+      "alt": "A purple souvenir box tied with a wrapping band"
+    },
+    {
+      "id": "moraimasu",
+      "japanese": "もらいます【Ｉ】（サンタクロースにプレゼントを～）",
+      "romaji": "moraimasu",
+      "english": "to receive (a present from Santa Claus)",
+      "image": "../images/study/week_06/day_30/moraimasu.png",
+      "audio": "../audio/vocabulary/week_06/day_30/moraimasu.wav",
+      "alt": "A boy receiving a present from Santa Claus"
+    },
+    {
+      "id": "shashin",
+      "japanese": "写真",
+      "romaji": "shashin",
+      "english": "photo",
+      "image": "../images/study/week_06/day_30/shashin.png",
+      "audio": "../audio/vocabulary/week_06/day_30/shashin.wav",
+      "alt": "A scattered pile of family photographs"
+    },
+    {
+      "id": "torimasu",
+      "japanese": "とります【Ｉ】",
+      "romaji": "torimasu",
+      "english": "to take",
+      "image": "../images/study/week_06/day_30/torimasu.png",
+      "audio": "../audio/vocabulary/week_06/day_30/torimasu.wav",
+      "alt": "A woman taking a photo of a baby with a camera"
+    },
+    {
+      "id": "sukii",
+      "japanese": "スキー",
+      "romaji": "sukii",
+      "english": "skiing",
+      "image": "../images/study/week_06/day_30/sukii.png",
+      "audio": "../audio/vocabulary/week_06/day_30/sukii.wav",
+      "alt": "A skier in blue gear going downhill"
+    },
+    {
+      "id": "aimasu",
+      "japanese": "会います【Ｉ】",
+      "romaji": "aimasu",
+      "english": "to meet",
+      "image": "../images/study/week_06/day_30/aimasu.png",
+      "audio": "../audio/vocabulary/week_06/day_30/aimasu.wav",
+      "alt": "Two people meeting across an office desk"
+    },
+    {
+      "id": "daietto",
+      "japanese": "ダイエット",
+      "romaji": "daietto",
+      "english": "diet",
+      "image": "../images/study/week_06/day_30/daietto.png",
+      "audio": "../audio/vocabulary/week_06/day_30/daietto.wav",
+      "alt": "A slim woman holding out the waistband of her now-loose trousers"
+    },
+    {
+      "id": "naraimasu",
+      "japanese": "習います【Ｉ】",
+      "romaji": "naraimasu",
+      "english": "to learn",
+      "image": "../images/study/week_06/day_30/naraimasu.png",
+      "audio": "../audio/vocabulary/week_06/day_30/naraimasu.wav",
+      "alt": "Students learning at desks in a classroom"
+    },
+    {
+      "id": "sumou",
+      "japanese": "相撲",
+      "romaji": "sumou",
+      "english": "sumo",
+      "image": "../images/study/week_06/day_30/sumou.png",
+      "audio": "../audio/vocabulary/week_06/day_30/sumou.wav",
+      "alt": "Sumo wrestlers grappling while spectators watch"
+    },
+    {
+      "id": "hatarakimasu",
+      "japanese": "働きます【Ｉ】",
+      "romaji": "hatarakimasu",
+      "english": "to work",
+      "image": "../images/study/week_06/day_30/hatarakimasu.png",
+      "audio": "../audio/vocabulary/week_06/day_30/hatarakimasu.wav",
+      "alt": "A man in a suit working at a laptop"
+    },
+    {
+      "id": "uma",
+      "japanese": "馬",
+      "romaji": "uma",
+      "english": "horse",
+      "image": "../images/study/week_06/day_30/uma.png",
+      "audio": "../audio/vocabulary/week_06/day_30/uma.wav",
+      "alt": "A standing brown horse"
+    },
+    {
+      "id": "norimasu",
+      "japanese": "乗ります【Ｉ】",
+      "romaji": "norimasu",
+      "english": "to get on",
+      "image": "../images/study/week_06/day_30/norimasu.png",
+      "audio": "../audio/vocabulary/week_06/day_30/norimasu.wav",
+      "alt": "A boy riding on a horse"
+    },
+    {
+      "id": "kinkakuji",
+      "japanese": "金閣寺",
+      "romaji": "kinkakuji",
+      "english": "Kinkakuji",
+      "image": "../images/study/week_06/day_30/kinkakuji.png",
+      "audio": "../audio/vocabulary/week_06/day_30/kinkakuji.wav",
+      "alt": "The golden pavilion of Kinkakuji temple"
+    },
+    {
+      "id": "kengaku_shimasu",
+      "japanese": "見学します【Ⅲ】",
+      "romaji": "kengaku shimasu",
+      "english": "to study by observation, to go on a field trip",
+      "image": "../images/study/week_06/day_30/kengaku_shimasu.png",
+      "audio": "../audio/vocabulary/week_06/day_30/kengaku_shimasu.wav",
+      "alt": "Visitors observing workers behind a partition on a field trip"
+    },
+    {
+      "id": "sukaitsurii",
+      "japanese": "スカイツリー",
+      "romaji": "sukaitsurii",
+      "english": "Skytree",
+      "image": "../images/study/week_06/day_30/sukaitsurii.png",
+      "audio": "../audio/vocabulary/week_06/day_30/sukaitsurii.wav",
+      "alt": "The Tokyo Skytree tower with clouds"
+    },
+    {
+      "id": "noborimasu",
+      "japanese": "登ります【Ｉ】",
+      "romaji": "noborimasu",
+      "english": "to climb",
+      "image": "../images/study/week_06/day_30/noborimasu.png",
+      "audio": "../audio/vocabulary/week_06/day_30/noborimasu.wav",
+      "alt": "A man climbing up a steep slope"
+    },
+    {
+      "id": "kabuki",
+      "japanese": "歌舞伎",
+      "romaji": "kabuki",
+      "english": "Kabuki theatre",
+      "image": "../images/study/week_06/day_30/kabuki.png",
+      "audio": "../audio/vocabulary/week_06/day_30/kabuki.wav",
+      "alt": "A kabuki actor in traditional costume and face paint"
+    },
+    {
+      "id": "umi",
+      "japanese": "海",
+      "romaji": "umi",
+      "english": "sea",
+      "image": "../images/study/week_06/day_30/umi.png",
+      "audio": "../audio/vocabulary/week_06/day_30/umi.wav",
+      "alt": "A beach with a palm tree and an OPEN sign by the sea"
+    },
+    {
+      "id": "oyogimasu",
+      "japanese": "泳ぎます【Ｉ】",
+      "romaji": "oyogimasu",
+      "english": "to swim",
+      "image": "../images/study/week_06/day_30/oyogimasu.png",
+      "audio": "../audio/vocabulary/week_06/day_30/oyogimasu.wav",
+      "alt": "A person swimming the crawl in a pool"
+    },
+    {
+      "id": "kono_mae",
+      "japanese": "この前",
+      "romaji": "kono mae",
+      "english": "some time ago",
+      "audio": "../audio/vocabulary/week_06/day_30/kono_mae.wav",
+      "alt": "Some time ago, the other day"
+    },
+    {
+      "id": "dizuniirando",
+      "japanese": "ディズニーランド",
+      "romaji": "dizuniirando",
+      "english": "Disneyland",
+      "audio": "../audio/vocabulary/week_06/day_30/dizuniirando.wav",
+      "alt": "Disneyland theme park"
+    },
+    {
+      "id": "ikimasu",
+      "japanese": "行きます",
+      "romaji": "ikimasu",
+      "english": "to go",
+      "audio": "../audio/vocabulary/week_06/day_30/ikimasu.wav",
+      "alt": "To go"
+    },
+    {
+      "id": "purinsesu",
+      "japanese": "プリンセス",
+      "romaji": "purinsesu",
+      "english": "princess",
+      "audio": "../audio/vocabulary/week_06/day_30/purinsesu.wav",
+      "alt": "Princess"
+    },
+    {
+      "id": "nomimasu",
+      "japanese": "飲みます【Ｉ】",
+      "romaji": "nomimasu",
+      "english": "to drink",
+      "audio": "../audio/vocabulary/week_06/day_30/nomimasu.wav",
+      "alt": "To drink"
+    },
+    {
+      "id": "mimasu",
+      "japanese": "見ます【Ⅱ】",
+      "romaji": "mimasu",
+      "english": "to look",
+      "audio": "../audio/vocabulary/week_06/day_30/mimasu.wav",
+      "alt": "To look, to see"
+    },
+    {
+      "id": "nihon",
+      "japanese": "日本",
+      "romaji": "nihon",
+      "english": "Japan",
+      "audio": "../audio/vocabulary/week_06/day_30/nihon.wav",
+      "alt": "Japan, the country"
+    },
+    {
+      "id": "faasutokurasu",
+      "japanese": "ファーストクラス",
+      "romaji": "faasutokurasu",
+      "english": "first-class",
+      "audio": "../audio/vocabulary/week_06/day_30/faasutokurasu.wav",
+      "alt": "First-class (airline seating class)"
+    }
+  ]
+}

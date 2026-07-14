@@ -1,0 +1,244 @@
+{
+  "id": "week_02/day_09_vocabulary",
+  "kind": "image",
+  "title": "Day 9 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 9 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "gakkoo",
+      "japanese": "がっこう",
+      "romaji": "gakkoo",
+      "english": "school",
+      "image": "../images/study/week_02/day_09/gakkoo.png",
+      "audio": "../audio/vocabulary/week_02/day_09/gakkoo.m4a",
+      "alt": "A school building with a clock tower and trees"
+    },
+    {
+      "id": "kyooshitsu",
+      "japanese": "きょうしつ",
+      "romaji": "kyooshitsu",
+      "english": "classroom",
+      "image": "../images/study/week_02/day_09/kyooshitsu.png",
+      "audio": "../audio/vocabulary/week_02/day_09/kyooshitsu.m4a",
+      "alt": "A classroom with rows of desks and a green chalkboard"
+    },
+    {
+      "id": "sakura",
+      "japanese": "さくら",
+      "romaji": "sakura",
+      "english": "cherry blossoms",
+      "image": "../images/study/week_02/day_09/sakura.png",
+      "audio": "../audio/vocabulary/week_02/day_09/sakura.m4a",
+      "alt": "A blooming pink cherry blossom tree"
+    },
+    {
+      "id": "hana",
+      "japanese": "はな",
+      "romaji": "hana",
+      "english": "flower",
+      "image": "../images/study/week_02/day_09/hana.png",
+      "audio": "../audio/vocabulary/week_02/day_09/hana.m4a",
+      "alt": "A pink flower with five petals"
+    },
+    {
+      "id": "hujisan",
+      "japanese": "ふじさん",
+      "romaji": "hujisan",
+      "english": "Mt. Fuji",
+      "image": "../images/study/week_02/day_09/hujisan.png",
+      "audio": "../audio/vocabulary/week_02/day_09/hujisan.m4a",
+      "alt": "Snow-capped Mt. Fuji in a blue circle"
+    },
+    {
+      "id": "yama",
+      "japanese": "やま",
+      "romaji": "yama",
+      "english": "mountain",
+      "image": "../images/study/week_02/day_09/yama.png",
+      "audio": "../audio/vocabulary/week_02/day_09/yama.m4a",
+      "alt": "A green mountain"
+    },
+    {
+      "id": "kuni",
+      "japanese": "くに",
+      "romaji": "kuni",
+      "english": "country",
+      "image": "../images/study/week_02/day_09/kuni.png",
+      "audio": "../audio/vocabulary/week_02/day_09/kuni.m4a",
+      "alt": "A green world map"
+    },
+    {
+      "id": "kimas",
+      "japanese": "きます",
+      "romaji": "kimas",
+      "english": "to come",
+      "image": "../images/study/week_02/day_09/kimas.png",
+      "audio": "../audio/vocabulary/week_02/day_09/kimas.m4a",
+      "alt": "A woman walking toward the viewer with an arrow pointing forward"
+    },
+    {
+      "id": "machi",
+      "japanese": "まち",
+      "romaji": "machi",
+      "english": "town",
+      "image": "../images/study/week_02/day_09/machi.png",
+      "audio": "../audio/vocabulary/week_02/day_09/machi.m4a",
+      "alt": "A townscape with houses and buildings"
+    },
+    {
+      "id": "kaisha",
+      "japanese": "かいしゃ",
+      "romaji": "kaisha",
+      "english": "company",
+      "image": "../images/study/week_02/day_09/kaisha.png",
+      "audio": "../audio/vocabulary/week_02/day_09/kaisha.m4a",
+      "alt": "A grey office building labelled kaisha"
+    },
+    {
+      "id": "kaerimasu",
+      "japanese": "かえります",
+      "romaji": "kaerimasu",
+      "english": "to return (home, own country)",
+      "image": "../images/study/week_02/day_09/kaerimasu.png",
+      "audio": "../audio/vocabulary/week_02/day_09/kaerimasu.m4a",
+      "alt": "A businessman happily walking home with an arrow toward a house"
+    },
+    {
+      "id": "kasa",
+      "japanese": "かさ",
+      "romaji": "kasa",
+      "english": "umbrella",
+      "image": "../images/study/week_02/day_09/kasa.png",
+      "audio": "../audio/vocabulary/week_02/day_09/kasa.m4a",
+      "alt": "An open pink polka-dot umbrella"
+    },
+    {
+      "id": "ookii",
+      "japanese": "おおきい",
+      "romaji": "ookii",
+      "english": "big",
+      "audio": "../audio/vocabulary/week_02/day_09/ookii.m4a",
+      "alt": "Adjective meaning big"
+    },
+    {
+      "id": "chiisai",
+      "japanese": "ちいさい",
+      "romaji": "chiisai",
+      "english": "small",
+      "audio": "../audio/vocabulary/week_02/day_09/chiisai.m4a",
+      "alt": "Adjective meaning small"
+    },
+    {
+      "id": "kiree_na",
+      "japanese": "きれい（な）",
+      "romaji": "kiree(na)",
+      "english": "beautiful",
+      "audio": "../audio/vocabulary/week_02/day_09/kiree_na.m4a",
+      "alt": "Na-adjective meaning beautiful"
+    },
+    {
+      "id": "yuumee_na",
+      "japanese": "ゆうめい（な）",
+      "romaji": "yuumee(na)",
+      "english": "famous",
+      "audio": "../audio/vocabulary/week_02/day_09/yuumee_na.m4a",
+      "alt": "Na-adjective meaning famous"
+    },
+    {
+      "id": "takai",
+      "japanese": "たかい",
+      "romaji": "takai",
+      "english": "expensive; tall",
+      "audio": "../audio/vocabulary/week_02/day_09/takai.m4a",
+      "alt": "Adjective meaning expensive or tall"
+    },
+    {
+      "id": "nigiyaka_na",
+      "japanese": "にぎやか（な）",
+      "romaji": "nigiyaka(na)",
+      "english": "lively",
+      "audio": "../audio/vocabulary/week_02/day_09/nigiyaka_na.m4a",
+      "alt": "Na-adjective meaning lively"
+    },
+    {
+      "id": "atarashii",
+      "japanese": "あたらしい",
+      "romaji": "atarashii",
+      "english": "new",
+      "audio": "../audio/vocabulary/week_02/day_09/atarashii.m4a",
+      "alt": "Adjective meaning new"
+    },
+    {
+      "id": "shizuka_na",
+      "japanese": "しずか（な）",
+      "romaji": "shizuka(na)",
+      "english": "quiet",
+      "audio": "../audio/vocabulary/week_02/day_09/shizuka_na.m4a",
+      "alt": "Na-adjective meaning quiet"
+    },
+    {
+      "id": "kuroi",
+      "japanese": "くろい",
+      "romaji": "kuroi",
+      "english": "black",
+      "audio": "../audio/vocabulary/week_02/day_09/kuroi.m4a",
+      "alt": "Adjective meaning black"
+    },
+    {
+      "id": "shiroi",
+      "japanese": "しろい",
+      "romaji": "shiroi",
+      "english": "white",
+      "audio": "../audio/vocabulary/week_02/day_09/shiroi.m4a",
+      "alt": "Adjective meaning white"
+    },
+    {
+      "id": "dochira",
+      "japanese": "どちら",
+      "romaji": "dochira",
+      "english": "which way",
+      "audio": "../audio/vocabulary/week_02/day_09/dochira.m4a",
+      "alt": "Question word meaning which way"
+    },
+    {
+      "id": "donna",
+      "japanese": "どんな",
+      "romaji": "donna",
+      "english": "what kind of",
+      "audio": "../audio/vocabulary/week_02/day_09/donna.m4a",
+      "alt": "Question word meaning what kind of"
+    },
+    {
+      "id": "dore",
+      "japanese": "どれ",
+      "romaji": "dore",
+      "english": "which",
+      "audio": "../audio/vocabulary/week_02/day_09/dore.m4a",
+      "alt": "Question word meaning which"
+    },
+    {
+      "id": "hikui",
+      "japanese": "ひくい",
+      "romaji": "hikui",
+      "english": "short",
+      "audio": "../audio/vocabulary/week_02/day_09/hikui.m4a",
+      "alt": "Reference adjective meaning short or low"
+    },
+    {
+      "id": "hurui",
+      "japanese": "ふるい",
+      "romaji": "hurui",
+      "english": "old",
+      "audio": "../audio/vocabulary/week_02/day_09/hurui.m4a",
+      "alt": "Reference adjective meaning old"
+    }
+  ]
+}

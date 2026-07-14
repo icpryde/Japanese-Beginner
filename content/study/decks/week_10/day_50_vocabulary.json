@@ -1,0 +1,108 @@
+{
+  "id": "week_10/day_50_vocabulary",
+  "kind": "image",
+  "title": "Day 50 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 50 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "paatii_doresu",
+      "japanese": "パーティードレス",
+      "romaji": "paatii doresu",
+      "english": "party dress",
+      "image": "../images/study/week_10/day_50/paatii_doresu.png",
+      "audio": "../audio/vocabulary/week_10/day_50/paatii_doresu.wav",
+      "alt": "A woman wearing a pink party dress, highlighted by a yellow arrow"
+    },
+    {
+      "id": "sagashimasu",
+      "japanese": "探します【Ⅰ】",
+      "romaji": "sagashimasu",
+      "english": "to search",
+      "image": "../images/study/week_10/day_50/sagashimasu.png",
+      "audio": "../audio/vocabulary/week_10/day_50/sagashimasu.wav",
+      "alt": "A man patting his pockets searching for something"
+    },
+    {
+      "id": "wanpiisu",
+      "japanese": "ワンピース",
+      "romaji": "wanpiisu",
+      "english": "dress",
+      "image": "../images/study/week_10/day_50/wanpiisu.png",
+      "audio": "../audio/vocabulary/week_10/day_50/wanpiisu.wav",
+      "alt": "A light blue one-piece dress"
+    },
+    {
+      "id": "kangaemasu",
+      "japanese": "考えます【Ⅱ】",
+      "romaji": "kangaemasu",
+      "english": "to think",
+      "image": "../images/study/week_10/day_50/kangaemasu.png",
+      "audio": "../audio/vocabulary/week_10/day_50/kangaemasu.wav",
+      "alt": "A man at a desk thinking about the future"
+    },
+    {
+      "id": "shusseki_shimasu",
+      "japanese": "出席します【Ⅲ】",
+      "romaji": "shusseki shimasu",
+      "english": "to attend",
+      "audio": "../audio/vocabulary/week_10/day_50/shusseki_shimasu.wav",
+      "alt": "To attend"
+    },
+    {
+      "id": "nakushimasu",
+      "japanese": "失くします【Ⅰ】",
+      "romaji": "nakushimasu",
+      "english": "to lose (something)",
+      "audio": "../audio/vocabulary/week_10/day_50/nakushimasu.wav",
+      "alt": "To lose (something)"
+    },
+    {
+      "id": "naorimasu",
+      "japanese": "治ります【Ⅰ】",
+      "romaji": "naorimasu",
+      "english": "to be cured",
+      "audio": "../audio/vocabulary/week_10/day_50/naorimasu.wav",
+      "alt": "To be cured"
+    },
+    {
+      "id": "juken_shimasu",
+      "japanese": "受験します【Ⅲ】",
+      "romaji": "juken shimasu",
+      "english": "to take an exam",
+      "audio": "../audio/vocabulary/week_10/day_50/juken_shimasu.wav",
+      "alt": "To take an exam"
+    },
+    {
+      "id": "gansho",
+      "japanese": "願書",
+      "romaji": "gansho",
+      "english": "written application",
+      "audio": "../audio/vocabulary/week_10/day_50/gansho.wav",
+      "alt": "Written application"
+    },
+    {
+      "id": "zutsu_hitotsu_zutsu",
+      "japanese": "～ずつ Ex)１つずつ",
+      "romaji": "~zutsu Ex. hitotsu zutsu",
+      "english": "each, apiece Ex. one by one",
+      "audio": "../audio/vocabulary/week_10/day_50/zutsu_hitotsu_zutsu.wav",
+      "alt": "Each, apiece, e.g. one by one"
+    },
+    {
+      "id": "renrakusaki",
+      "japanese": "連絡先",
+      "romaji": "renrakusaki",
+      "english": "contact address",
+      "audio": "../audio/vocabulary/week_10/day_50/renrakusaki.wav",
+      "alt": "Contact address"
+    }
+  ]
+}

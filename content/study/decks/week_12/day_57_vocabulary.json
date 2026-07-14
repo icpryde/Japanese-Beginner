@@ -1,0 +1,257 @@
+{
+  "id": "week_12/day_57_vocabulary",
+  "kind": "image",
+  "title": "Day 57 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 57 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "yoimasu",
+      "japanese": "酔います【Ⅰ】",
+      "romaji": "yoimasu",
+      "english": "to get drunk",
+      "image": "../images/study/week_12/day_57/yoimasu.png",
+      "audio": "../audio/vocabulary/week_12/day_57/yoimasu.wav",
+      "alt": "A red-faced drunk man dancing happily"
+    },
+    {
+      "id": "kontakuto_renzu",
+      "japanese": "コンタクト（レンズ）",
+      "romaji": "kontakuto (renzu)",
+      "english": "contact (lens)",
+      "image": "../images/study/week_12/day_57/kontakuto_renzu.png",
+      "audio": "../audio/vocabulary/week_12/day_57/kontakuto_renzu.wav",
+      "alt": "A woman putting in a contact lens"
+    },
+    {
+      "id": "me",
+      "japanese": "目",
+      "romaji": "me",
+      "english": "eye",
+      "image": "../images/study/week_12/day_57/me.png",
+      "audio": "../audio/vocabulary/week_12/day_57/me.wav",
+      "alt": "A close-up of a human eye"
+    },
+    {
+      "id": "uchi_o_demasu",
+      "japanese": "（うちを）出ます【Ⅱ】",
+      "romaji": "(uchi o) demasu",
+      "english": "to go out (the house)",
+      "image": "../images/study/week_12/day_57/uchi_o_demasu.png",
+      "audio": "../audio/vocabulary/week_12/day_57/uchi_o_demasu.wav",
+      "alt": "A family leaving their house together"
+    },
+    {
+      "id": "pajama",
+      "japanese": "パジャマ",
+      "romaji": "pajama",
+      "english": "pajamas",
+      "image": "../images/study/week_12/day_57/pajama.png",
+      "audio": "../audio/vocabulary/week_12/day_57/pajama.wav",
+      "alt": "A boy wearing blue plaid pajamas"
+    },
+    {
+      "id": "musume",
+      "japanese": "娘",
+      "romaji": "musume",
+      "english": "daughter",
+      "image": "../images/study/week_12/day_57/musume.png",
+      "audio": "../audio/vocabulary/week_12/day_57/musume.wav",
+      "alt": "A mother holding her little daughter"
+    },
+    {
+      "id": "zubon",
+      "japanese": "ズボン",
+      "romaji": "zubon",
+      "english": "trousers",
+      "image": "../images/study/week_12/day_57/zubon.png",
+      "audio": "../audio/vocabulary/week_12/day_57/zubon.wav",
+      "alt": "A pair of green trousers"
+    },
+    {
+      "id": "tisshu",
+      "japanese": "ティッシュ",
+      "romaji": "tisshu",
+      "english": "tissue",
+      "image": "../images/study/week_12/day_57/tisshu.png",
+      "audio": "../audio/vocabulary/week_12/day_57/tisshu.wav",
+      "alt": "A green box of tissues"
+    },
+    {
+      "id": "sentaku_shimasu",
+      "japanese": "洗濯します【Ⅲ】",
+      "romaji": "sentaku shimasu",
+      "english": "to do laundry",
+      "image": "../images/study/week_12/day_57/sentaku_shimasu.png",
+      "audio": "../audio/vocabulary/week_12/day_57/sentaku_shimasu.wav",
+      "alt": "A woman hanging laundry out to dry"
+    },
+    {
+      "id": "aisatsu_shimasu",
+      "japanese": "挨拶します【Ⅲ】",
+      "romaji": "aisatsu shimasu",
+      "english": "to greet",
+      "image": "../images/study/week_12/day_57/aisatsu_shimasu.png",
+      "audio": "../audio/vocabulary/week_12/day_57/aisatsu_shimasu.wav",
+      "alt": "Two businessmen bowing to each other in greeting"
+    },
+    {
+      "id": "shiitoberuto",
+      "japanese": "シートベルト",
+      "romaji": "shiitoberuto",
+      "english": "seatbelt",
+      "image": "../images/study/week_12/day_57/shiitoberuto.png",
+      "audio": "../audio/vocabulary/week_12/day_57/shiitoberuto.wav",
+      "alt": "A man fastening his seatbelt in a car"
+    },
+    {
+      "id": "dengen_ga_kiremasu",
+      "japanese": "（電源が）切れます【Ⅱ】",
+      "romaji": "(dengen ga) kiremasu",
+      "english": "to turn off (the power)",
+      "image": "../images/study/week_12/day_57/dengen_ga_kiremasu.png",
+      "audio": "../audio/vocabulary/week_12/day_57/dengen_ga_kiremasu.wav",
+      "alt": "A desktop computer with its monitor"
+    },
+    {
+      "id": "soobetsukai",
+      "japanese": "送別会",
+      "romaji": "soobetsukai",
+      "english": "farewell party",
+      "image": "../images/study/week_12/day_57/soobetsukai.png",
+      "audio": "../audio/vocabulary/week_12/day_57/soobetsukai.wav",
+      "alt": "Office workers toasting at a farewell party"
+    },
+    {
+      "id": "kopii_yooshi",
+      "japanese": "コピー用紙",
+      "romaji": "kopii yooshi",
+      "english": "copier paper",
+      "audio": "../audio/vocabulary/week_12/day_57/kopii_yooshi.wav",
+      "alt": "A stack of white copier paper"
+    },
+    {
+      "id": "wasabi",
+      "japanese": "わさび",
+      "romaji": "wasabi",
+      "english": "wasabi",
+      "image": "../images/study/week_12/day_57/wasabi.png",
+      "audio": "../audio/vocabulary/week_12/day_57/wasabi.wav",
+      "alt": "A fresh green wasabi root"
+    },
+    {
+      "id": "poppukoon",
+      "japanese": "ポップコーン",
+      "romaji": "poppukoon",
+      "english": "pop corn",
+      "image": "../images/study/week_12/day_57/poppukoon.png",
+      "audio": "../audio/vocabulary/week_12/day_57/poppukoon.wav",
+      "alt": "A striped tub of popcorn"
+    },
+    {
+      "id": "gookaku_shimasu",
+      "japanese": "合格します【Ⅲ】",
+      "romaji": "gookaku shimasu",
+      "english": "to pass",
+      "image": "../images/study/week_12/day_57/gookaku_shimasu.png",
+      "audio": "../audio/vocabulary/week_12/day_57/gookaku_shimasu.wav",
+      "alt": "Students celebrating in front of an exam results board"
+    },
+    {
+      "id": "fuku",
+      "japanese": "服",
+      "romaji": "fuku",
+      "english": "clothes",
+      "image": "../images/study/week_12/day_57/fuku.png",
+      "audio": "../audio/vocabulary/week_12/day_57/fuku.wav",
+      "alt": "A pile of neatly folded clothes"
+    },
+    {
+      "id": "buji_ni",
+      "japanese": "無事に",
+      "romaji": "buji ni",
+      "english": "safely",
+      "audio": "../audio/vocabulary/week_12/day_57/buji_ni.wav",
+      "alt": "Safely"
+    },
+    {
+      "id": "chiimu",
+      "japanese": "チーム",
+      "romaji": "chiimu",
+      "english": "team",
+      "audio": "../audio/vocabulary/week_12/day_57/chiimu.wav",
+      "alt": "Team"
+    },
+    {
+      "id": "zuibun",
+      "japanese": "ずいぶん",
+      "romaji": "zuibun",
+      "english": "very",
+      "audio": "../audio/vocabulary/week_12/day_57/zuibun.wav",
+      "alt": "Very"
+    },
+    {
+      "id": "isogi_no_yooji",
+      "japanese": "急ぎ Ex) 急ぎの 用事",
+      "romaji": "isogi Ex. isogi no yooji",
+      "english": "hurry Ex. urgent business",
+      "audio": "../audio/vocabulary/week_12/day_57/isogi_no_yooji.wav",
+      "alt": "Hurry, e.g. urgent business"
+    },
+    {
+      "id": "shunin",
+      "japanese": "主任",
+      "romaji": "shunin",
+      "english": "person in charge",
+      "audio": "../audio/vocabulary/week_12/day_57/shunin.wav",
+      "alt": "Person in charge"
+    },
+    {
+      "id": "akihabara",
+      "japanese": "秋葉原",
+      "romaji": "akihabara",
+      "english": "Akihabara",
+      "audio": "../audio/vocabulary/week_12/day_57/akihabara.wav",
+      "alt": "Akihabara"
+    },
+    {
+      "id": "ma_ni_aimasu",
+      "japanese": "間に合います【Ⅰ】",
+      "romaji": "ma ni aimasu",
+      "english": "to be in time",
+      "audio": "../audio/vocabulary/week_12/day_57/ma_ni_aimasu.wav",
+      "alt": "To be in time"
+    },
+    {
+      "id": "hajimarimasu",
+      "japanese": "始まります【Ⅰ】",
+      "romaji": "hajimarimasu",
+      "english": "to start",
+      "audio": "../audio/vocabulary/week_12/day_57/hajimarimasu.wav",
+      "alt": "To start"
+    },
+    {
+      "id": "aji_wasabi_aji",
+      "japanese": "～味 Ex) わさび 味",
+      "romaji": "~aji Ex. wasabi aji",
+      "english": "~flavour Ex. wasabi flavour",
+      "audio": "../audio/vocabulary/week_12/day_57/aji_wasabi_aji.wav",
+      "alt": "Flavour, e.g. wasabi flavour"
+    },
+    {
+      "id": "hen_na",
+      "japanese": "変（な）",
+      "romaji": "hen (na)",
+      "english": "odd",
+      "audio": "../audio/vocabulary/week_12/day_57/hen_na.wav",
+      "alt": "Odd"
+    }
+  ]
+}

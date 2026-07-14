@@ -1,0 +1,271 @@
+{
+  "id": "week_09/day_44_vocabulary",
+  "kind": "image",
+  "title": "Day 44 Vocabulary",
+  "context_blocks": [
+    {
+      "japanese": "おぼえましょう",
+      "romaji": "oboemashou",
+      "english": "Let's remember"
+    }
+  ],
+  "description": "Image-based vocabulary cards with native-speaker audio. The original PDF and Google Drive resources remain below.",
+  "flashcards_title": "Day 44 Vocabulary Flashcards",
+  "items": [
+    {
+      "id": "jama_na",
+      "japanese": "邪魔（な）",
+      "romaji": "jama (na)",
+      "english": "obstructive, annoying",
+      "image": "../images/study/week_09/day_44/jama_na.png",
+      "audio": "../audio/vocabulary/week_09/day_44/jama_na.wav",
+      "alt": "A man standing in the way of two people sitting on steps"
+    },
+    {
+      "id": "gakkoo_o_yasumimasu",
+      "japanese": "（学校を）休みます【Ⅰ】",
+      "romaji": "(gakkoo o) yasumimasu",
+      "english": "to be absent (from school)",
+      "image": "../images/study/week_09/day_44/gakkoo_o_yasumimasu.png",
+      "audio": "../audio/vocabulary/week_09/day_44/gakkoo_o_yasumimasu.wav",
+      "alt": "A sick girl in bed phoning her school"
+    },
+    {
+      "id": "sootai_shimasu",
+      "japanese": "早退します【Ⅲ】",
+      "romaji": "sootai shimasu",
+      "english": "to leave early",
+      "image": "../images/study/week_09/day_44/sootai_shimasu.png",
+      "audio": "../audio/vocabulary/week_09/day_44/sootai_shimasu.wav",
+      "alt": "A woman leaving an office building early"
+    },
+    {
+      "id": "jiko",
+      "japanese": "事故",
+      "romaji": "jiko",
+      "english": "accident",
+      "image": "../images/study/week_09/day_44/jiko.png",
+      "audio": "../audio/vocabulary/week_09/day_44/jiko.wav",
+      "alt": "Two cars crashing into each other"
+    },
+    {
+      "id": "tomarimasu",
+      "japanese": "止まります【Ⅰ】",
+      "romaji": "tomarimasu",
+      "english": "to stop",
+      "image": "../images/study/week_09/day_44/tomarimasu.png",
+      "audio": "../audio/vocabulary/week_09/day_44/tomarimasu.wav",
+      "alt": "A train marked with a red X because it has stopped"
+    },
+    {
+      "id": "renraku_shimasu",
+      "japanese": "連絡します【Ⅲ】",
+      "romaji": "renraku shimasu",
+      "english": "to contact",
+      "image": "../images/study/week_09/day_44/renraku_shimasu.png",
+      "audio": "../audio/vocabulary/week_09/day_44/renraku_shimasu.wav",
+      "alt": "A businessman contacting someone by phone"
+    },
+    {
+      "id": "kaji",
+      "japanese": "火事",
+      "romaji": "kaji",
+      "english": "fire",
+      "image": "../images/study/week_09/day_44/kaji.png",
+      "audio": "../audio/vocabulary/week_09/day_44/kaji.wav",
+      "alt": "A building on fire"
+    },
+    {
+      "id": "ie_ga_yakemasu",
+      "japanese": "（家が）焼けます【Ⅱ】",
+      "romaji": "(ie ga) yakemasu",
+      "english": "to burn (the house)",
+      "image": "../images/study/week_09/day_44/ie_ga_yakemasu.png",
+      "audio": "../audio/vocabulary/week_09/day_44/ie_ga_yakemasu.wav",
+      "alt": "A house burning in flames"
+    },
+    {
+      "id": "jishin",
+      "japanese": "地震",
+      "romaji": "jishin",
+      "english": "earthquake",
+      "image": "../images/study/week_09/day_44/jishin.png",
+      "audio": "../audio/vocabulary/week_09/day_44/jishin.wav",
+      "alt": "Houses and a utility pole shaken by an earthquake"
+    },
+    {
+      "id": "taoremasu",
+      "japanese": "倒れます【Ⅱ】",
+      "romaji": "taoremasu",
+      "english": "to fall down",
+      "image": "../images/study/week_09/day_44/taoremasu.png",
+      "audio": "../audio/vocabulary/week_09/day_44/taoremasu.wav",
+      "alt": "A building toppling over, with an arrow showing it falling"
+    },
+    {
+      "id": "taifuu",
+      "japanese": "台風",
+      "romaji": "taifuu",
+      "english": "typhoon",
+      "image": "../images/study/week_09/day_44/taifuu.png",
+      "audio": "../audio/vocabulary/week_09/day_44/taifuu.wav",
+      "alt": "A typhoon with strong wind and rain over houses"
+    },
+    {
+      "id": "kaminari",
+      "japanese": "雷",
+      "romaji": "kaminari",
+      "english": "lightning",
+      "image": "../images/study/week_09/day_44/kaminari.png",
+      "audio": "../audio/vocabulary/week_09/day_44/kaminari.wav",
+      "alt": "Storm clouds with bolts of lightning"
+    },
+    {
+      "id": "denkiya",
+      "japanese": "～屋 Ex)電気屋",
+      "romaji": "~ya Ex. denkiya",
+      "english": "～store Ex. Electric appliance store",
+      "image": "../images/study/week_09/day_44/denkiya.png",
+      "audio": "../audio/vocabulary/week_09/day_44/denkiya.wav",
+      "alt": "The storefront of an electric appliance store"
+    },
+    {
+      "id": "shuuri_shimasu",
+      "japanese": "修理します【Ⅲ】",
+      "romaji": "shuuri shimasu",
+      "english": "to repair",
+      "image": "../images/study/week_09/day_44/shuuri_shimasu.png",
+      "audio": "../audio/vocabulary/week_09/day_44/shuuri_shimasu.wav",
+      "alt": "A man repairing a small device at a workbench"
+    },
+    {
+      "id": "koshoo",
+      "japanese": "故障",
+      "romaji": "koshoo",
+      "english": "damage",
+      "image": "../images/study/week_09/day_44/koshoo.png",
+      "audio": "../audio/vocabulary/week_09/day_44/koshoo.wav",
+      "alt": "A broken-down car emitting smoke"
+    },
+    {
+      "id": "ma_ni_aimasu",
+      "japanese": "間に合います【Ⅰ】",
+      "romaji": "ma ni aimasu",
+      "english": "to be in time (for)",
+      "image": "../images/study/week_09/day_44/ma_ni_aimasu.png",
+      "audio": "../audio/vocabulary/week_09/day_44/ma_ni_aimasu.wav",
+      "alt": "A woman just making it onto a train in time"
+    },
+    {
+      "id": "michi",
+      "japanese": "道",
+      "romaji": "michi",
+      "english": "street",
+      "image": "../images/study/week_09/day_44/michi.png",
+      "audio": "../audio/vocabulary/week_09/day_44/michi.wav",
+      "alt": "A winding dirt road through the grass"
+    },
+    {
+      "id": "toorimasu",
+      "japanese": "通ります【Ⅰ】",
+      "romaji": "toorimasu",
+      "english": "to go by",
+      "image": "../images/study/week_09/day_44/toorimasu.png",
+      "audio": "../audio/vocabulary/week_09/day_44/toorimasu.wav",
+      "alt": "A car passing by a pedestrian"
+    },
+    {
+      "id": "shiai_ni_demasu",
+      "japanese": "（試合に）出ます【Ⅱ】",
+      "romaji": "(shiai ni) demasu",
+      "english": "to take part (in the match)",
+      "image": "../images/study/week_09/day_44/shiai_ni_demasu.png",
+      "audio": "../audio/vocabulary/week_09/day_44/shiai_ni_demasu.wav",
+      "alt": "Children playing in a soccer match"
+    },
+    {
+      "id": "kega",
+      "japanese": "けが",
+      "romaji": "kega",
+      "english": "injury",
+      "image": "../images/study/week_09/day_44/kega.png",
+      "audio": "../audio/vocabulary/week_09/day_44/kega.wav",
+      "alt": "An injured man with a bandaged leg on crutches"
+    },
+    {
+      "id": "shiken",
+      "japanese": "試験",
+      "romaji": "shiken",
+      "english": "exam",
+      "image": "../images/study/week_09/day_44/shiken.png",
+      "audio": "../audio/vocabulary/week_09/day_44/shiken.wav",
+      "alt": "Students taking an exam at their desks"
+    },
+    {
+      "id": "fukimasu",
+      "japanese": "ふきます【Ⅰ】",
+      "romaji": "fukimasu",
+      "english": "to wipe",
+      "image": "../images/study/week_09/day_44/fukimasu.png",
+      "audio": "../audio/vocabulary/week_09/day_44/fukimasu.wav",
+      "alt": "A woman wiping a table with a cloth"
+    },
+    {
+      "id": "osara",
+      "japanese": "（お）皿",
+      "romaji": "(o)sara",
+      "english": "dishes",
+      "audio": "../audio/vocabulary/week_09/day_44/osara.wav",
+      "alt": "A stack of plates"
+    },
+    {
+      "id": "shooyu_o_kakemasu",
+      "japanese": "（しょうゆを）かけます【Ⅱ】",
+      "romaji": "(shooyu o) kakemasu",
+      "english": "to put (soy sauce)",
+      "image": "../images/study/week_09/day_44/shooyu_o_kakemasu.png",
+      "audio": "../audio/vocabulary/week_09/day_44/shooyu_o_kakemasu.wav",
+      "alt": "A bottle of soy sauce being poured"
+    },
+    {
+      "id": "moosugu",
+      "japanese": "もうすぐ",
+      "romaji": "moosugu",
+      "english": "soon",
+      "audio": "../audio/vocabulary/week_09/day_44/moosugu.wav",
+      "alt": "Soon"
+    },
+    {
+      "id": "kimatsu_shiken",
+      "japanese": "期末試験",
+      "romaji": "kimatsu shiken",
+      "english": "final exam",
+      "audio": "../audio/vocabulary/week_09/day_44/kimatsu_shiken.wav",
+      "alt": "Final exam"
+    },
+    {
+      "id": "oozei",
+      "japanese": "大勢",
+      "romaji": "oozei",
+      "english": "crowd of people",
+      "audio": "../audio/vocabulary/week_09/day_44/oozei.wav",
+      "alt": "Crowd of people"
+    },
+    {
+      "id": "koshoochuu",
+      "japanese": "～中 Ex)故障中",
+      "romaji": "~chuu Ex. koshoochuu",
+      "english": "during/under～ Ex. out-of-order",
+      "audio": "../audio/vocabulary/week_09/day_44/koshoochuu.wav",
+      "alt": "During/under, e.g. out of order"
+    },
+    {
+      "id": "senjitsu",
+      "japanese": "先日",
+      "romaji": "senjitsu",
+      "english": "the other day",
+      "audio": "../audio/vocabulary/week_09/day_44/senjitsu.wav",
+      "alt": "The other day"
+    }
+  ]
+}
