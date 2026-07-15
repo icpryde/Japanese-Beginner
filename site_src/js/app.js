@@ -294,6 +294,7 @@
   // ═══════════════════════════════════════════
   const Search = {
     lessons: [],
+    words: null, wordAudio: new Audio(),
 
     init() {
       const input = document.getElementById('searchInput');
@@ -309,6 +310,54 @@
         clearTimeout(timeout);
         timeout = setTimeout(() => this.search(input.value), 200);
       });
+
+      // dictionary results box (words from the flashcard data)
+      const box = document.createElement('div');
+      box.id = 'dictResults';
+      box.className = 'dict-results';
+      input.parentElement.appendChild(box);
+      box.addEventListener('click', (e) => {
+        const play = e.target.closest('.dict-play');
+        if (play) {
+          e.preventDefault(); e.stopPropagation();
+          this.wordAudio.src = this.getRoot() + play.dataset.a;
+          this.wordAudio.play().catch(() => {});
+        }
+      });
+    },
+
+    async loadWords() {
+      if (this.words) return;
+      try {
+        const r = await fetch(this.getRoot() + 'flashcards-data.json');
+        const days = await r.json();
+        this.words = [];
+        days.forEach(d => d.decks.forEach(k => k.items.forEach(it => {
+          this.words.push({ j: it.j, r: it.r, e: it.e, a: it.a, day: d.day, lesson: d.lessons[d.lessons.length - 1] });
+        })));
+      } catch { this.words = []; }
+    },
+
+    async searchWords(q) {
+      const box = document.getElementById('dictResults');
+      if (!box) return;
+      if (!q || q.length < 2) { box.innerHTML = ''; return; }
+      await this.loadWords();
+      const needle = q.toLowerCase();
+      const hits = this.words.filter(w =>
+        (w.r && w.r.toLowerCase().includes(needle)) ||
+        (w.e && w.e.toLowerCase().includes(needle)) ||
+        (w.j && w.j.includes(q))).slice(0, 8);
+      const root = this.getRoot();
+      box.innerHTML = hits.length
+        ? '<div class="dict-head">Words</div>' + hits.map(w =>
+            '<a class="dict-row" href="' + root + 'lessons/' + w.lesson + '.html">' +
+            '<span class="dict-jp">' + w.j + '</span>' +
+            '<span class="dict-romaji">' + (w.r || '') + '</span>' +
+            '<span class="dict-en">' + w.e + '</span>' +
+            (w.a ? '<button class="dict-play" data-a="' + w.a + '">🔊</button>' : '') +
+            '<span class="dict-day">D' + w.day + '</span></a>').join('')
+        : '';
     },
 
     getRoot() {
@@ -318,6 +367,7 @@
     },
 
     search(query) {
+      this.searchWords(query.trim());
       const nav = document.getElementById('sidebarNav');
       if (!nav) return;
 
@@ -529,9 +579,9 @@
       if (!panel) return;
 
         // Get review link metadata from page header (or default to Week 1)
-        const breadcrumb = document.evaluate("//a[contains(text(), 'Review')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
-        const reviewLink = breadcrumb ? breadcrumb.href : '../lessons/12645437.html';
-        const reviewLabel = breadcrumb ? breadcrumb.textContent.trim() : 'Week 1 Review';
+        const breadcrumb = document.querySelector('.breadcrumb a[href*="lessons/"]');
+        const reviewLink = breadcrumb ? breadcrumb.href : '../index.html';
+        const reviewLabel = breadcrumb ? breadcrumb.textContent.trim() : 'Dashboard';
 
       let grade, gradeLabel;
       if (pct >= 90) { grade = 'A'; gradeLabel = 'Excellent!'; }
@@ -2151,12 +2201,122 @@
   };
 
   // ═══════════════════════════════════════════
+  // Romaji visibility toggle (site-wide)
+  // ═══════════════════════════════════════════
+  const Romaji = {
+    KEY: 'akamonkai_hide_romaji',
+    init() {
+      this.apply(localStorage.getItem(this.KEY) === '1');
+      const btn = document.getElementById('romajiToggle');
+      if (!btn) return;
+      btn.addEventListener('click', () => {
+        const hide = !(localStorage.getItem(this.KEY) === '1');
+        localStorage.setItem(this.KEY, hide ? '1' : '0');
+        this.apply(hide);
+      });
+    },
+    apply(hide) {
+      document.body.classList.toggle('hide-romaji', hide);
+      const btn = document.getElementById('romajiToggle');
+      if (btn) {
+        btn.textContent = hide ? 'あ' : 'Aa';
+        btn.title = hide ? 'Romaji hidden — click to show' : 'Romaji shown — click to hide';
+      }
+    },
+  };
+
+  // ═══════════════════════════════════════════
   // Flashcards Hub (flashcards.html)
   // ═══════════════════════════════════════════
   const Flashdeck = {
     data: [], selected: new Set(), cards: [], index: 0, revealed: false,
     cats: new Set(['vocab', 'numbers', 'time', 'other']),
     audio: new Audio(),
+    review: false, allCards: [],
+    SRS_KEY: 'akamonkai_srs', NEW_PER_DAY: 20,
+
+    epochDay() { return Math.floor(Date.now() / 86400000); },
+    srsLoad() { try { return JSON.parse(localStorage.getItem(this.SRS_KEY)) || {}; } catch { return {}; } },
+    srsSave(d) { localStorage.setItem(this.SRS_KEY, JSON.stringify(d)); },
+
+    buildIndex() {
+      this.allCards = [];
+      this.data.forEach(day => day.decks.forEach(deck => deck.items.forEach(item => {
+        const key = deck.id + '|' + (item.id || item.r || item.j);
+        this.allCards.push({ key, day, item });
+      })));
+    },
+
+    reviewQueue() {
+      const srs = this.srsLoad();
+      const today = this.epochDay();
+      const due = [], fresh = [];
+      for (const c of this.allCards) {
+        const st = srs[c.key];
+        if (st) { if (st.due <= today) due.push(c); }
+        else if (c.day.lessons.some(id => Progress.isComplete(id))) fresh.push(c);
+      }
+      return { due, fresh: fresh.slice(0, this.NEW_PER_DAY) };
+    },
+
+    updateReviewBanner() {
+      const box = document.getElementById('fcReview');
+      if (!box) return;
+      const q = this.reviewQueue();
+      const total = q.due.length + q.fresh.length;
+      box.hidden = false;
+      document.getElementById('fcDueText').textContent = total
+        ? q.due.length + ' to review · ' + q.fresh.length + ' new'
+        : 'all caught up — nothing due today 🎉';
+      document.getElementById('fcReviewBtn').disabled = total === 0;
+    },
+
+    startReview() {
+      const q = this.reviewQueue();
+      this.cards = q.due.concat(q.fresh).map(c => Object.assign({ _key: c.key }, c.item));
+      if (!this.cards.length) return;
+      this.review = true;
+      this.index = 0;
+      const overlay = document.getElementById('fcOverlay');
+      overlay.hidden = false;
+      document.body.classList.add('fc-practicing');
+      const mobileLike = window.matchMedia('(pointer: coarse), (max-width: 820px)').matches;
+      if (mobileLike && overlay.requestFullscreen) overlay.requestFullscreen().catch(() => {});
+      this.render();
+    },
+
+    grade(g) {
+      const card = this.cards[this.index];
+      const srs = this.srsLoad();
+      const today = this.epochDay();
+      const st = srs[card._key] || { iv: 0, ef: 2.5, reps: 0 };
+      if (g === 0) {            // Again
+        st.iv = 0; st.reps = 0; st.ef = Math.max(1.3, st.ef - 0.2); st.due = today;
+      } else if (g === 1) {     // Hard
+        st.iv = Math.max(1, Math.round(st.iv * 1.2)) || 1;
+        st.ef = Math.max(1.3, st.ef - 0.15); st.reps += 1; st.due = today + st.iv;
+      } else if (g === 2) {     // Good
+        st.iv = st.iv <= 0 ? 1 : Math.round(st.iv * st.ef);
+        st.reps += 1; st.due = today + st.iv;
+      } else {                  // Easy
+        st.iv = st.iv <= 0 ? 3 : Math.round(st.iv * st.ef * 1.3);
+        st.ef = Math.min(2.8, st.ef + 0.15); st.reps += 1; st.due = today + st.iv;
+      }
+      srs[card._key] = st;
+      this.srsSave(srs);
+      if (g === 0) {
+        // see it again a few cards later in this same session
+        const c = this.cards.splice(this.index, 1)[0];
+        this.cards.splice(Math.min(this.index + 5, this.cards.length), 0, c);
+      } else {
+        this.cards.splice(this.index, 1);
+      }
+      if (!this.cards.length || this.index >= this.cards.length) {
+        if (!this.cards.length) { this.exit(); this.updateReviewBanner(); return; }
+        this.index = 0;
+      }
+      this.render();
+    },
 
     async init() {
       const app = document.getElementById('flashcardsApp');
@@ -2165,9 +2325,11 @@
         const resp = await fetch('flashcards-data.json');
         this.data = await resp.json();
       } catch { return; }
+      this.buildIndex();
       this.renderWeeks();
       this.bind();
       this.updateCount();
+      this.updateReviewBanner();
     },
 
     isDayCompleted(d) {
@@ -2245,6 +2407,11 @@
         this.renderWeeks(); this.updateCount();
       }));
       document.getElementById('fcStart').addEventListener('click', () => this.start());
+      document.getElementById('fcReviewBtn').addEventListener('click', () => this.startReview());
+      document.getElementById('fcGradeBar').addEventListener('click', (e) => {
+        const b = e.target.closest('.fc-grade');
+        if (b) { e.stopPropagation(); this.grade(+b.dataset.grade); }
+      });
       document.getElementById('fcExit').addEventListener('click', () => this.exit());
       document.getElementById('fcCard').addEventListener('click', () => this.reveal());
       document.getElementById('fcPrev').addEventListener('click', (e) => { e.stopPropagation(); this.move(-1); });
@@ -2278,6 +2445,7 @@
     },
 
     start() {
+      this.review = false;
       const days = this.visibleDays().filter(d => this.selected.has(d.day));
       this.cards = days.flatMap(d => this.dayItems(d));
       if (!this.cards.length) return;
@@ -2326,6 +2494,17 @@
       document.querySelector('#fcOverlay .fc-front').hidden = this.revealed;
       document.querySelector('#fcOverlay .fc-back').hidden = !this.revealed;
       document.getElementById('fcPlay').style.visibility = c.a ? 'visible' : 'hidden';
+      const nav = document.getElementById('fcNavBar');
+      const grades = document.getElementById('fcGradeBar');
+      if (this.review) {
+        nav.querySelector('#fcPrev').style.visibility = 'hidden';
+        nav.querySelector('#fcNext').style.visibility = 'hidden';
+        grades.hidden = !this.revealed;
+      } else {
+        nav.querySelector('#fcPrev').style.visibility = 'visible';
+        nav.querySelector('#fcNext').style.visibility = 'visible';
+        grades.hidden = true;
+      }
       this.audio.pause();
     },
 
@@ -2334,6 +2513,20 @@
       if (!c.a) return;
       this.audio.src = c.a;
       this.audio.play().catch(() => {});
+    },
+
+    navBadge() {
+      const link = document.querySelector('.nav-flashcards');
+      if (!link) return;
+      const srs = this.srsLoad();
+      const today = this.epochDay();
+      const due = Object.values(srs).filter(st => st.due <= today).length;
+      if (due > 0) {
+        const b = document.createElement('span');
+        b.className = 'fc-nav-badge';
+        b.textContent = due;
+        link.appendChild(b);
+      }
     },
   };
 
@@ -2399,6 +2592,8 @@
     Resume.init();
     Study.init();
     Flashdeck.init();
+    Flashdeck.navBadge();
+    Romaji.init();
     registerSW();
   });
 })();

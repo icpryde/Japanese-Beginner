@@ -733,6 +733,7 @@ LAYOUT_TEMPLATE = r"""<!DOCTYPE html>
         <div class="breadcrumb">{{ breadcrumb }}</div>
         <div class="topbar-actions">
           <span class="sync-status" id="syncStatus" data-state="idle">Ready</span>
+          <button class="theme-toggle" id="romajiToggle" aria-label="Toggle romaji" title="Show/hide romaji">Aa</button>
           <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌙</button>
         </div>
       </header>
@@ -2035,6 +2036,11 @@ FLASHCARDS_TEMPLATE = r"""
     Progress-aware: filter to only the lessons you've completed.</p>
   </div>
 
+  <div id="fcReview" class="fc-review" hidden>
+    <div class="fc-review-text"><strong>📆 Daily review</strong> — <span id="fcDueText">…</span></div>
+    <button id="fcReviewBtn" class="fc-start">Start Review</button>
+  </div>
+
   <div class="fc-controls">
     <button id="fcSelectAll" class="fc-btn">Select All</button>
     <button id="fcSelectNone" class="fc-btn">Clear</button>
@@ -2074,10 +2080,16 @@ FLASHCARDS_TEMPLATE = r"""
       <div id="fcAnswer" class="fc-answer"></div>
     </div>
   </div>
-  <div class="fc-actions">
+  <div class="fc-actions" id="fcNavBar">
     <button id="fcPrev" class="fc-nav">‹ Prev</button>
     <button id="fcPlay" class="fc-play">🔊 Play</button>
     <button id="fcNext" class="fc-nav">Next ›</button>
+  </div>
+  <div class="fc-actions fc-grades" id="fcGradeBar" hidden>
+    <button class="fc-grade g-again" data-grade="0">Again</button>
+    <button class="fc-grade g-hard" data-grade="1">Hard</button>
+    <button class="fc-grade g-good" data-grade="2">Good</button>
+    <button class="fc-grade g-easy" data-grade="3">Easy</button>
   </div>
 </div>
 """
@@ -2129,6 +2141,7 @@ def collect_flashcards_data(manifest: dict, study_map: dict, deck_cache: dict) -
                     continue
                 seen.add(key)
                 items.append({
+                    "id": it.get("id", ""),
                     "j": it.get("japanese", ""), "r": it.get("romaji", ""),
                     "e": it.get("english", ""),
                     # deck paths are ../-relative (from lessons/); hub sits at root
@@ -2136,11 +2149,100 @@ def collect_flashcards_data(manifest: dict, study_map: dict, deck_cache: dict) -
                     "a": (it.get("audio") or "").replace("../", "") or None,
                 })
             if items:
-                decks.append({"cat": _deck_category(deck_id), "n": len(items), "items": items})
+                decks.append({"id": deck_id, "cat": _deck_category(deck_id),
+                              "n": len(items), "items": items})
         if decks:
             out.append({"day": day, "week": b["week"], "lessons": b["lesson_ids"],
                         "decks": decks})
     return out
+
+
+# Weeks with no official course test get an auto-generated practice quiz
+# built from their vocabulary decks (listening / picture / JP↔EN questions).
+PRACTICE_WEEKS = [4, 5, 6, 7, 9, 10, 11]
+
+
+def get_practice_quiz_questions(week: int, fc_data: list) -> str | None:
+    """30 deterministic multiple-choice questions from one week's decks."""
+    import random as _random
+    rng = _random.Random(4000 + week)
+
+    pool, seen = [], set()
+    for d in fc_data:
+        if d["week"] != week:
+            continue
+        for deck in d["decks"]:
+            for it in deck["items"]:
+                key = (it["j"], it["e"])
+                if key in seen or not it["j"] or not it["e"]:
+                    continue
+                seen.add(key)
+                pool.append(it)
+    if len(pool) < 8:
+        return None
+    items = pool[:]
+    rng.shuffle(items)
+
+    type_cycle = ["listen_e", "img_j", "jp_en", "en_jp"]
+    picks, used, ti = [], set(), 0
+    for it in items * 2:                     # wrap if the week is small
+        if len(picks) >= 30:
+            break
+        for _ in range(4):
+            t = type_cycle[ti % 4]; ti += 1
+            if t == "listen_e" and not it.get("a"):
+                continue
+            if t == "img_j" and not it.get("img"):
+                continue
+            if (it["j"], t) in used:
+                continue
+            used.add((it["j"], t))
+            picks.append((it, t))
+            break
+
+    blocks = [QUIZ_EXTRA_CSS]
+    for qn, (it, t) in enumerate(picks, 1):
+        ans_field = "e" if t in ("listen_e", "jp_en") else "j"
+        answer = it[ans_field]
+        others = [x[ans_field] for x in pool if x[ans_field] != answer]
+        rng.shuffle(others)
+        dis, seen_o = [], set()
+        for o in others:
+            if o in seen_o:
+                continue
+            seen_o.add(o)
+            dis.append(o)
+            if len(dis) == 3:
+                break
+        opts = dis + [answer]
+        rng.shuffle(opts)
+        expl = f'{it["j"]} ({it["r"]}) — {it["e"]}'
+        if t == "listen_e":
+            topic, badge = "Listening", "Listening"
+            prompt = ('<p>Listen — what does this word mean?</p>'
+                      f'<audio controls preload="none" src="../{it["a"]}"></audio>')
+        elif t == "img_j":
+            topic, badge = "Reading", "Picture"
+            prompt = ('<p>Which word matches this picture?</p>'
+                      f'<img src="../{it["img"]}" alt="" style="max-height:200px">')
+        elif t == "jp_en":
+            topic, badge = "Vocabulary", "Multiple Choice"
+            prompt = f'<p>What does <strong>{escape(it["j"])}</strong> ({escape(it["r"])}) mean?</p>'
+        else:
+            topic, badge = "Vocabulary", "Multiple Choice"
+            prompt = f'<p>Which word means <strong>{escape(it["e"])}</strong>?</p>'
+        opts_html = "".join(
+            f'<button class="q-option" data-correct="{"true" if o == answer else "false"}">{escape(o)}</button>'
+            for o in opts)
+        blocks.append(f'''
+<div class="quiz-question" data-topic="{topic}" data-explanation="{escape(expl)}" data-qnum="{qn}">
+  <div class="q-number">Q{qn}</div>
+  <span class="q-type-badge type-mc">{badge}</span>
+  <div class="q-text">{prompt}</div>
+  <div class="q-options">{opts_html}</div>
+  <div class="q-feedback"></div>
+</div>''')
+    return "\n".join(blocks)
 
 
 def generate_site():
@@ -2374,6 +2476,31 @@ def generate_site():
     )
     (SITE_DIR / "flashcards.html").write_text(fc_html)
     print(f"  Flashcards hub: {sum(k['n'] for d in fc_data for k in d['decks'])} cards across {len(fc_data)} days")
+
+    # Practice quizzes for weeks without an official test
+    n_practice = 0
+    for wk in PRACTICE_WEEKS:
+        qhtml = get_practice_quiz_questions(wk, fc_data)
+        if not qhtml:
+            continue
+        test_html = test_tpl.render(
+            test_id=f"week{wk}-practice",
+            test_title=f"Week {wk} Practice Quiz",
+            test_subtitle=f"30 auto-generated questions from Week {wk} vocabulary",
+            questions_html=qhtml,
+            meta_badges='<span class="test-meta-badge">Listening</span>'
+                        '<span class="test-meta-badge">Pictures</span>'
+                        '<span class="test-meta-badge">Multiple Choice</span>',
+        )
+        breadcrumb = (f'<a href="../index.html">Dashboard</a> → Week {wk} → '
+                      f'<a href="../lessons/practice_week{wk}.html">Week {wk} Practice Quiz</a> → Practice')
+        page_html = layout_tpl.render(
+            title=f"Week {wk} Practice Quiz", root="../", breadcrumb=breadcrumb,
+            content=test_html, structure=structure,
+        )
+        (weeks_out / f"week{wk}-practice.html").write_text(page_html)
+        n_practice += 1
+    print(f"  Practice quizzes generated for {n_practice} weeks")
 
     print(f"Site built at: {SITE_DIR}/")
     print("Done!")

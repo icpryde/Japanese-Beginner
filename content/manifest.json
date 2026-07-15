@@ -2,7 +2,7 @@
   "course_name": "Akamonkai 12-Week Beginner Course",
   "imported_at": "2026-04-02T09:29:37.535648+00:00",
   "source": "/Users/kurisu/Documents/AI Apps/Akamonkai Japanese 12 Week Beginner Course - content",
-  "total_lessons": 1296,
+  "total_lessons": 1303,
   "sections": [
     {
       "order": 1,
@@ -178,7 +178,7 @@
       "section_type": "day",
       "week": 4,
       "day": 20,
-      "lesson_count": 18
+      "lesson_count": 19
     },
     {
       "order": 23,
@@ -218,7 +218,7 @@
       "section_type": "day",
       "week": 5,
       "day": 25,
-      "lesson_count": 17
+      "lesson_count": 18
     },
     {
       "order": 28,
@@ -258,7 +258,7 @@
       "section_type": "day",
       "week": 6,
       "day": 30,
-      "lesson_count": 15
+      "lesson_count": 16
     },
     {
       "order": 33,
@@ -306,7 +306,7 @@
       "section_type": "day",
       "week": 7,
       "day": 35,
-      "lesson_count": 25
+      "lesson_count": 26
     },
     {
       "order": 39,
@@ -386,7 +386,7 @@
       "section_type": "day",
       "week": 9,
       "day": 45,
-      "lesson_count": 23
+      "lesson_count": 24
     },
     {
       "order": 49,
@@ -426,7 +426,7 @@
       "section_type": "day",
       "week": 10,
       "day": 50,
-      "lesson_count": 19
+      "lesson_count": 20
     },
     {
       "order": 54,
@@ -466,7 +466,7 @@
       "section_type": "day",
       "week": 11,
       "day": 55,
-      "lesson_count": 21
+      "lesson_count": 22
     },
     {
       "order": 59,
@@ -4551,6 +4551,15 @@
       "day": 20
     },
     {
+      "id": "practice_week4",
+      "title": "Week 4 Practice Quiz",
+      "type": "reference",
+      "section": "Week 4 - Day 20",
+      "section_type": "day",
+      "week": 4,
+      "day": 20
+    },
+    {
       "id": "13340111",
       "title": "Particles and Interrogative Cram Sheets",
       "type": "reference",
@@ -5496,6 +5505,15 @@
       "day": 25
     },
     {
+      "id": "practice_week5",
+      "title": "Week 5 Practice Quiz",
+      "type": "reference",
+      "section": "Week 5 - Day 25",
+      "section_type": "day",
+      "week": 5,
+      "day": 25
+    },
+    {
       "id": "pdf_28_1",
       "title": "Day 26 - Previous Day Grammar Homework Answer",
       "type": "download",
@@ -6353,6 +6371,15 @@
     {
       "id": "13622806",
       "title": "Week 6 Review",
+      "type": "reference",
+      "section": "Week 6 - Day 30",
+      "section_type": "day",
+      "week": 6,
+      "day": 30
+    },
+    {
+      "id": "practice_week6",
+      "title": "Week 6 Practice Quiz",
       "type": "reference",
       "section": "Week 6 - Day 30",
       "section_type": "day",
@@ -7442,6 +7469,15 @@
     {
       "id": "13834605",
       "title": "Week 7 Review",
+      "type": "reference",
+      "section": "Week 7 - Day 35",
+      "section_type": "day",
+      "week": 7,
+      "day": 35
+    },
+    {
+      "id": "practice_week7",
+      "title": "Week 7 Practice Quiz",
       "type": "reference",
       "section": "Week 7 - Day 35",
       "section_type": "day",
@@ -9366,6 +9402,15 @@
       "day": 45
     },
     {
+      "id": "practice_week9",
+      "title": "Week 9 Practice Quiz",
+      "type": "reference",
+      "section": "Week 9 - Day 45",
+      "section_type": "day",
+      "week": 9,
+      "day": 45
+    },
+    {
       "id": "pdf_49_1",
       "title": "Day 46 - Previous Day Grammar Homework Answer",
       "type": "download",
@@ -10250,6 +10295,15 @@
     {
       "id": "14347439",
       "title": "Week 10 Review",
+      "type": "reference",
+      "section": "Week 10 - Day 50",
+      "section_type": "day",
+      "week": 10,
+      "day": 50
+    },
+    {
+      "id": "practice_week10",
+      "title": "Week 10 Practice Quiz",
       "type": "reference",
       "section": "Week 10 - Day 50",
       "section_type": "day",
@@ -11150,6 +11204,15 @@
     {
       "id": "14529342",
       "title": "Week 11 Review",
+      "type": "reference",
+      "section": "Week 11 - Day 55",
+      "section_type": "day",
+      "week": 11,
+      "day": 55
+    },
+    {
+      "id": "practice_week11",
+      "title": "Week 11 Practice Quiz",
       "type": "reference",
       "section": "Week 11 - Day 55",
       "section_type": "day",
