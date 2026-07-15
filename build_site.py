@@ -1924,12 +1924,18 @@ def _localize_quiz_fragment(fragment: str, key: str) -> str:
     for fr in list(soup.find_all("iframe")):
         src = fr.get("src") or ""
         local = next((v for k, v in QUIZ_VIDEO_MAP.items() if k in src), None)
+        # replace the whole aspect-ratio wrapper span, not just the iframe,
+        # or its padding-bottom spacer leaves a huge empty box
+        target = fr
+        wrapper = fr.find_parent("span", class_="fr-video")
+        if wrapper is not None:
+            target = wrapper
         if local:
             video = soup.new_tag("video", controls="", preload="metadata", src=local)
             video["style"] = "max-width:100%;border-radius:8px;"
-            fr.replace_with(video)
+            target.replace_with(video)
         else:
-            fr.decompose()  # embeds of the source site can't render here
+            target.decompose()  # embeds of the source site can't render here
     for a in list(soup.find_all("a")):
         href = (a.get("href") or "").split("?")[0].lower()
         if a.find("audio") is not None:
@@ -1956,6 +1962,11 @@ def _localize_quiz_fragment(fragment: str, key: str) -> str:
             img.attrs.pop(attr, None)
     for el in soup.find_all(attrs={"contenteditable": True}):
         del el["contenteditable"]
+    # drop empty filler blocks (<p><br></p> etc.) that create dead space
+    for el in list(soup.find_all(["p", "div", "span"])):
+        if el.find(["img", "audio", "video", "iframe", "source", "ruby"]) is None \
+                and not el.get_text(strip=True):
+            el.decompose()
     return str(soup)
 
 
