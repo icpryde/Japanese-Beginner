@@ -340,9 +340,10 @@
       "id": "okawari",
       "japanese": "おかわり",
       "romaji": "okawari",
-      "english": "end",
+      "english": "another helping (refill)",
       "audio": "../audio/vocabulary/week_09/day_45/okawari.m4a",
-      "alt": "Another helping (refill)"
+      "alt": "Another helping (refill)",
+      "image": "../images/study/week_09/day_45/okawari.png"
     },
     {
       "id": "muryoo",

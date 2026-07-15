@@ -1,5 +1,5 @@
 {
-  "build_id": "20260715021013",
+  "build_id": "20260715030856",
   "profile": "full_offline",
   "urls": [
     "./images/.DS_Store",
@@ -927,6 +927,7 @@
     "./images/study/week_04/day_16/ame.png",
     "./images/study/week_04/day_16/atamaga_ii.png",
     "./images/study/week_04/day_16/benri_na.png",
+    "./images/study/week_04/day_16/chikaku.png",
     "./images/study/week_04/day_16/dansu.png",
     "./images/study/week_04/day_16/dokushin.png",
     "./images/study/week_04/day_16/fuyu.png",
@@ -1942,6 +1943,7 @@
     "./images/study/week_09/day_45/muryoo.png",
     "./images/study/week_09/day_45/nakushimasu.png",
     "./images/study/week_09/day_45/nemui.png",
+    "./images/study/week_09/day_45/okawari.png",
     "./images/study/week_09/day_45/okimasu.png",
     "./images/study/week_09/day_45/okuremasu.png",
     "./images/study/week_09/day_45/otto.png",
@@ -2260,6 +2262,7 @@
     "./images/study/week_12/day_59/chokin_shimasu.png",
     "./images/study/week_12/day_59/gaikokujin.png",
     "./images/study/week_12/day_59/gamuteepu.png",
+    "./images/study/week_12/day_59/hani.png",
     "./images/study/week_12/day_59/hikkoshimasu.png",
     "./images/study/week_12/day_59/hooritsu.png",
     "./images/study/week_12/day_59/koibito.png",
@@ -2283,6 +2286,7 @@
     "./images/study/week_12/day_60/jiko_ga_arimasu.png",
     "./images/study/week_12/day_60/kagi_o_kakemasu.png",
     "./images/study/week_12/day_60/kimochi_ga_ii.png",
+    "./images/study/week_12/day_60/koto.png",
     "./images/study/week_12/day_60/muri_na.png",
     "./images/study/week_12/day_60/nyuuin_shimasu.png",
     "./images/study/week_12/day_60/oiwai.png",
@@ -5148,10 +5152,12 @@
     "./audio/week_03/day_15/3week_test_audio_question6.mp3",
     "./videos/.DS_Store",
     "./videos/bqlucpuhra84otn7gs10.mp4",
+    "./videos/week_03/.DS_Store",
     "./videos/week_03/day_15/D1L4Q1.mp4",
     "./videos/week_03/day_15/new_question.mp4",
     "./weeks/week1-test.html",
     "./weeks/week2-test.html",
+    "./weeks/week3-test.html",
     "./weeks/week8-test.html",
     "./weeks/week9-12-test.html"
   ]

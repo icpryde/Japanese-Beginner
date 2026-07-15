@@ -1,0 +1,17 @@
+{
+  "id": "quiz_week3",
+  "title": "Week 3 Test",
+  "primary_type": "reference",
+  "section": "Week 3 - Day 15",
+  "section_type": "day",
+  "week": 3,
+  "day": 15,
+  "html": "<div class=\"fr-view\">\n<p>This review test covers the previous weeks — listening comprehension,\nvideo questions, grammar, and vocabulary. You can retake it as many times as\nyou like.</p>\n<a href=\"../weeks/week3-test.html\" class=\"test-link-card\">\n  <span class=\"test-link-icon\">📝</span>\n  <div class=\"test-link-info\">\n    <h3>Take the Week 3 Test</h3>\n    <p>30 questions — review of Weeks 1–3 · listening, video, and multi-select</p>\n  </div>\n  <span class=\"test-link-arrow\">→</span>\n</a>\n</div>",
+  "videos": [],
+  "downloads": [],
+  "images": [],
+  "has_video": false,
+  "has_images": false,
+  "has_downloads": false,
+  "placeholder": false
+}

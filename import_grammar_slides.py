@@ -586,12 +586,22 @@ def import_placeholders(
 
 
 def insert_after_anchors(lessons: list[dict], insertions: dict[str, list[dict]]) -> list[dict]:
+    """Insert items after their anchors, supporting chains where an item's
+    anchor is itself being inserted in the same pass (e.g. a Part 2 slide
+    anchored on its Part 1). Items whose anchor never appears are appended
+    at the end with a warning instead of being silently dropped."""
     out = []
+    pending = {k: list(v) for k, v in insertions.items()}
     for lesson in lessons:
         out.append(lesson)
-        lid = str(lesson["id"])
-        if lid in insertions:
-            out.extend(insertions[lid])
+        queue = pending.pop(str(lesson["id"]), [])
+        while queue:
+            item = queue.pop(0)
+            out.append(item)
+            queue = pending.pop(str(item["id"]), []) + queue
+    for anchor, items in pending.items():
+        print(f"Warning: anchor {anchor} not found; appending {len(items)} lesson(s) at end")
+        out.extend(items)
     return out
 
 

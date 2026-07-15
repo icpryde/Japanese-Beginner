@@ -674,6 +674,7 @@ LAYOUT_TEMPLATE = r"""<!DOCTYPE html>
       <div class="sidebar-nav" id="sidebarNav">
         <a href="{{ root }}index.html" class="nav-link nav-home">📊 Dashboard</a>
         <a href="{{ root }}worksheets.html" class="nav-link nav-worksheets">📄 Downloads</a>
+        <a href="{{ root }}flashcards.html" class="nav-link nav-flashcards">🎴 Flashcards</a>
         {% for key, section in structure.items() %}
           {% set section_ids = get_section_ids(section) %}
           {% if section.days is defined %}
@@ -1861,6 +1862,13 @@ def get_week2_test_questions():
 # ─────────────────────────────────────────────────────────────────────────────
 
 QUIZ_PAGES = [
+    {"key": "week_03", "test_id": "week3-test", "file": "week3-test.html",
+     "title": "Week 3 Test", "subtitle": "30 questions — review of Weeks 1–3",
+     "lesson_id": "quiz_week3", "lesson_title": "Week 3 Test",
+     "week_label": "Week 3",
+     "meta_badges": '<span class="test-meta-badge">Listening</span>'
+                    '<span class="test-meta-badge">Video</span>'
+                    '<span class="test-meta-badge">Multi-Select</span>'},
     {"key": "week_08", "test_id": "week8-test", "file": "week8-test.html",
      "title": "Week 8 Test", "subtitle": "30 questions — cumulative review of Weeks 4–8",
      "lesson_id": "quiz_week8", "lesson_title": "Week 8 Review Quiz",
@@ -1900,10 +1908,28 @@ def _decode_quiz_credited(value) -> bool:
     return False
 
 
+# Course-player video embeds in quiz prompts -> local backup files
+# (pairing verified against the live player pages).
+QUIZ_VIDEO_MAP = {
+    "13399082/play/3411981": "../videos/week_03/day_15/D1L4Q1.mp4",
+    "13399082/play/3252292": "../videos/week_03/day_15/new_question.mp4",
+}
+
+
 def _localize_quiz_fragment(fragment: str, key: str) -> str:
-    """Rewrite CDN media URLs to local test assets; unwrap file-download anchors."""
+    """Rewrite CDN media URLs to local test assets; unwrap file-download anchors;
+    swap course-player video iframes for local <video> players."""
     from urllib.parse import unquote
     soup = BeautifulSoup(fragment or "", "html.parser")
+    for fr in list(soup.find_all("iframe")):
+        src = fr.get("src") or ""
+        local = next((v for k, v in QUIZ_VIDEO_MAP.items() if k in src), None)
+        if local:
+            video = soup.new_tag("video", controls="", preload="metadata", src=local)
+            video["style"] = "max-width:100%;border-radius:8px;"
+            fr.replace_with(video)
+        else:
+            fr.decompose()  # embeds of the source site can't render here
     for a in list(soup.find_all("a")):
         href = (a.get("href") or "").split("?")[0].lower()
         if a.find("audio") is not None:
@@ -1985,6 +2011,103 @@ def get_data_quiz_questions(key: str) -> str:
     return "\n".join(blocks)
 
 
+# ─────────────────────────────────────────────────────────────────────────────
+# Flashcards hub — one page to practice any combination of days' decks,
+# with a "completed lessons only" filter and a fullscreen player (app.js).
+# ─────────────────────────────────────────────────────────────────────────────
+
+FLASHCARDS_TEMPLATE = r"""
+<div id="flashcardsApp" class="flashcards-hub">
+  <div class="fc-header">
+    <h1>🎴 Flashcards</h1>
+    <p class="fc-sub">Pick any days — or whole weeks — and practice their vocabulary in one deck.
+    Progress-aware: filter to only the lessons you've completed.</p>
+  </div>
+
+  <div class="fc-controls">
+    <button id="fcSelectAll" class="fc-btn">Select All</button>
+    <button id="fcSelectNone" class="fc-btn">Clear</button>
+    <label class="fc-toggle"><input type="checkbox" id="fcCompletedOnly"> Completed lessons only</label>
+    <label class="fc-toggle"><input type="checkbox" id="fcShuffle" checked> Shuffle</label>
+  </div>
+
+  <div id="fcWeeks" class="fc-weeks"><!-- populated by app.js --></div>
+
+  <div class="fc-startbar">
+    <span id="fcCount" class="fc-count">0 cards selected</span>
+    <button id="fcStart" class="fc-start" disabled>Start Practice</button>
+  </div>
+</div>
+
+<!-- Fullscreen practice overlay -->
+<div id="fcOverlay" class="fc-overlay" hidden>
+  <div class="fc-topbar">
+    <span id="fcProgress">1 / 1</span>
+    <button id="fcExit" class="fc-exit" aria-label="Exit">✕</button>
+  </div>
+  <div id="fcCard" class="fc-card">
+    <div class="fc-face fc-front">
+      <div id="fcImage" class="fc-image"></div>
+      <div id="fcJapanese" class="fc-japanese"></div>
+      <div class="fc-hint">tap card to reveal</div>
+    </div>
+    <div class="fc-face fc-back" hidden>
+      <div id="fcAnswer" class="fc-answer"></div>
+    </div>
+  </div>
+  <div class="fc-actions">
+    <button id="fcPrev" class="fc-nav">‹ Prev</button>
+    <button id="fcPlay" class="fc-play">🔊 Play</button>
+    <button id="fcNext" class="fc-nav">Next ›</button>
+  </div>
+</div>
+"""
+
+
+def collect_flashcards_data(manifest: dict, study_map: dict, deck_cache: dict) -> list:
+    """Aggregate every mapped study deck into per-day flashcard bundles."""
+    lesson_meta = {str(l["id"]): l for l in manifest["lessons"]}
+    days: dict = {}
+    for lesson_id, deck_ids in study_map.items():
+        meta = lesson_meta.get(str(lesson_id))
+        if not meta:
+            continue
+        day = int(meta.get("day", 0) or 0)
+        if day < 1:
+            continue
+        bucket = days.setdefault(day, {"day": day, "week": int(meta.get("week", 0) or 0),
+                                       "lesson_ids": [], "deck_ids": []})
+        bucket["lesson_ids"].append(str(lesson_id))
+        for d in deck_ids:
+            if d not in bucket["deck_ids"]:
+                bucket["deck_ids"].append(d)
+
+    out = []
+    for day in sorted(days):
+        b = days[day]
+        items, seen = [], set()
+        for deck_id in b["deck_ids"]:
+            deck = deck_cache.get(deck_id)
+            if not deck:
+                continue
+            for it in deck.get("items", []):
+                key = (it.get("japanese"), it.get("english"))
+                if key in seen:
+                    continue
+                seen.add(key)
+                items.append({
+                    "j": it.get("japanese", ""), "r": it.get("romaji", ""),
+                    "e": it.get("english", ""),
+                    # deck paths are ../-relative (from lessons/); hub sits at root
+                    "img": (it.get("image") or "").replace("../", "") or None,
+                    "a": (it.get("audio") or "").replace("../", "") or None,
+                })
+        if items:
+            out.append({"day": day, "week": b["week"], "lessons": b["lesson_ids"],
+                        "count": len(items), "items": items})
+    return out
+
+
 def generate_site():
     print("Building site...")
 
@@ -2033,10 +2156,7 @@ def generate_site():
     videos_src = CONTENT_DIR / "videos"
     videos_dst = SITE_DIR / "videos"
     if videos_src.exists() and any(videos_src.iterdir()):
-        videos_dst.mkdir(exist_ok=True)
-        for f in videos_src.iterdir():
-            if f.is_file():
-                shutil.copy2(f, videos_dst / f.name)
+        shutil.copytree(videos_src, videos_dst, dirs_exist_ok=True)
 
     # Copy local images (recursive to preserve week/day layout)
     images_src = CONTENT_DIR / "images"
@@ -2206,6 +2326,19 @@ def generate_site():
         (weeks_out / spec["file"]).write_text(page_html)
 
     print("  Weekly test pages generated")
+
+    # Flashcards hub
+    print("  Generating flashcards hub...")
+    fc_data = collect_flashcards_data(manifest, study_map, study_decks)
+    (SITE_DIR / "flashcards-data.json").write_text(
+        json.dumps(fc_data, ensure_ascii=False), encoding="utf-8")
+    fc_html = layout_tpl.render(
+        title="Flashcards", root="",
+        breadcrumb='<a href="index.html">Dashboard</a> → Flashcards',
+        content=FLASHCARDS_TEMPLATE, structure=structure,
+    )
+    (SITE_DIR / "flashcards.html").write_text(fc_html)
+    print(f"  Flashcards hub: {sum(d['count'] for d in fc_data)} cards across {len(fc_data)} days")
 
     print(f"Site built at: {SITE_DIR}/")
     print("Done!")

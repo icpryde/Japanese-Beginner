@@ -2151,6 +2151,177 @@
   };
 
   // ═══════════════════════════════════════════
+  // Flashcards Hub (flashcards.html)
+  // ═══════════════════════════════════════════
+  const Flashdeck = {
+    data: [], selected: new Set(), cards: [], index: 0, revealed: false,
+    audio: new Audio(),
+
+    async init() {
+      const app = document.getElementById('flashcardsApp');
+      if (!app) return;
+      try {
+        const resp = await fetch('flashcards-data.json');
+        this.data = await resp.json();
+      } catch { return; }
+      this.renderWeeks();
+      this.bind();
+      this.updateCount();
+    },
+
+    isDayCompleted(d) {
+      return d.lessons.some(id => Progress.isComplete(id));
+    },
+
+    visibleDays() {
+      const completedOnly = document.getElementById('fcCompletedOnly')?.checked;
+      return completedOnly ? this.data.filter(d => this.isDayCompleted(d)) : this.data;
+    },
+
+    renderWeeks() {
+      const wrap = document.getElementById('fcWeeks');
+      const completedOnly = document.getElementById('fcCompletedOnly')?.checked;
+      const byWeek = {};
+      this.visibleDays().forEach(d => (byWeek[d.week] = byWeek[d.week] || []).push(d));
+      let html = '';
+      Object.keys(byWeek).sort((a, b) => a - b).forEach(w => {
+        const days = byWeek[w];
+        const allOn = days.every(d => this.selected.has(d.day));
+        html += '<div class="fc-week">';
+        html += '<button class="fc-week-btn' + (allOn ? ' on' : '') + '" data-week="' + w + '">Week ' + w + '</button>';
+        html += '<div class="fc-days">';
+        days.forEach(d => {
+          const on = this.selected.has(d.day);
+          const done = this.isDayCompleted(d);
+          html += '<button class="fc-day' + (on ? ' on' : '') + '" data-day="' + d.day + '">' +
+                  'Day ' + d.day + (done ? ' ✓' : '') + '<span class="fc-day-n">' + d.count + '</span></button>';
+        });
+        html += '</div></div>';
+      });
+      wrap.innerHTML = html || '<p class="fc-empty">No completed lessons yet — finish a vocabulary lesson first, or untick the filter.</p>';
+      if (completedOnly) {
+        const visible = new Set(this.visibleDays().map(d => d.day));
+        [...this.selected].forEach(day => { if (!visible.has(day)) this.selected.delete(day); });
+      }
+    },
+
+    bind() {
+      document.getElementById('fcWeeks').addEventListener('click', (e) => {
+        const dayBtn = e.target.closest('.fc-day');
+        const weekBtn = e.target.closest('.fc-week-btn');
+        if (dayBtn) {
+          const day = +dayBtn.dataset.day;
+          this.selected.has(day) ? this.selected.delete(day) : this.selected.add(day);
+        } else if (weekBtn) {
+          const days = this.visibleDays().filter(d => d.week === +weekBtn.dataset.week);
+          const allOn = days.every(d => this.selected.has(d.day));
+          days.forEach(d => allOn ? this.selected.delete(d.day) : this.selected.add(d.day));
+        } else return;
+        this.renderWeeks(); this.updateCount();
+      });
+      document.getElementById('fcSelectAll').addEventListener('click', () => {
+        this.visibleDays().forEach(d => this.selected.add(d.day));
+        this.renderWeeks(); this.updateCount();
+      });
+      document.getElementById('fcSelectNone').addEventListener('click', () => {
+        this.selected.clear(); this.renderWeeks(); this.updateCount();
+      });
+      document.getElementById('fcCompletedOnly').addEventListener('change', () => {
+        this.renderWeeks(); this.updateCount();
+      });
+      document.getElementById('fcStart').addEventListener('click', () => this.start());
+      document.getElementById('fcExit').addEventListener('click', () => this.exit());
+      document.getElementById('fcCard').addEventListener('click', () => this.reveal());
+      document.getElementById('fcPrev').addEventListener('click', (e) => { e.stopPropagation(); this.move(-1); });
+      document.getElementById('fcNext').addEventListener('click', (e) => { e.stopPropagation(); this.move(1); });
+      document.getElementById('fcPlay').addEventListener('click', (e) => { e.stopPropagation(); this.play(); });
+      document.addEventListener('keydown', (e) => {
+        if (document.getElementById('fcOverlay').hidden) return;
+        if (e.key === 'ArrowRight') this.move(1);
+        else if (e.key === 'ArrowLeft') this.move(-1);
+        else if (e.key === ' ') { e.preventDefault(); this.reveal(); }
+        else if (e.key === 'Escape') this.exit();
+      });
+      // swipe left/right to change cards
+      let x0 = null;
+      const overlay = document.getElementById('fcOverlay');
+      overlay.addEventListener('touchstart', (e) => { x0 = e.touches[0].clientX; }, { passive: true });
+      overlay.addEventListener('touchend', (e) => {
+        if (x0 === null) return;
+        const dx = e.changedTouches[0].clientX - x0;
+        if (Math.abs(dx) > 60) this.move(dx < 0 ? 1 : -1);
+        x0 = null;
+      }, { passive: true });
+    },
+
+    updateCount() {
+      const days = this.visibleDays().filter(d => this.selected.has(d.day));
+      const n = days.reduce((s, d) => s + d.count, 0);
+      document.getElementById('fcCount').textContent =
+        n ? n + ' cards from ' + days.length + ' day' + (days.length > 1 ? 's' : '') : '0 cards selected';
+      document.getElementById('fcStart').disabled = n === 0;
+    },
+
+    start() {
+      const days = this.visibleDays().filter(d => this.selected.has(d.day));
+      this.cards = days.flatMap(d => d.items);
+      if (!this.cards.length) return;
+      if (document.getElementById('fcShuffle').checked) {
+        for (let i = this.cards.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [this.cards[i], this.cards[j]] = [this.cards[j], this.cards[i]];
+        }
+      }
+      this.index = 0;
+      const overlay = document.getElementById('fcOverlay');
+      overlay.hidden = false;
+      document.body.classList.add('fc-practicing');
+      if (overlay.requestFullscreen) overlay.requestFullscreen().catch(() => {});
+      this.render();
+    },
+
+    exit() {
+      document.getElementById('fcOverlay').hidden = true;
+      document.body.classList.remove('fc-practicing');
+      if (document.fullscreenElement) document.exitFullscreen().catch(() => {});
+      this.audio.pause();
+    },
+
+    move(dir) {
+      const n = this.cards.length;
+      this.index = (this.index + dir + n) % n;
+      this.render();
+    },
+
+    reveal() {
+      this.revealed = !this.revealed;
+      this.render(true);
+    },
+
+    render(keepReveal) {
+      if (!keepReveal) this.revealed = false;
+      const c = this.cards[this.index];
+      document.getElementById('fcProgress').textContent = (this.index + 1) + ' / ' + this.cards.length;
+      const imgWrap = document.getElementById('fcImage');
+      imgWrap.innerHTML = c.img ? '<img src="' + c.img + '" alt="" loading="eager">' : '';
+      document.getElementById('fcJapanese').textContent = c.j;
+      document.getElementById('fcAnswer').innerHTML =
+        '<div class="fc-romaji">' + c.r + '</div><div class="fc-english">' + c.e + '</div>';
+      document.querySelector('#fcOverlay .fc-front').hidden = this.revealed;
+      document.querySelector('#fcOverlay .fc-back').hidden = !this.revealed;
+      document.getElementById('fcPlay').style.visibility = c.a ? 'visible' : 'hidden';
+      this.audio.pause();
+    },
+
+    play() {
+      const c = this.cards[this.index];
+      if (!c.a) return;
+      this.audio.src = c.a;
+      this.audio.play().catch(() => {});
+    },
+  };
+
+  // ═══════════════════════════════════════════
   // Service Worker Registration
   // ═══════════════════════════════════════════
   function registerSW() {
@@ -2211,6 +2382,7 @@
     Bookmarks.init();
     Resume.init();
     Study.init();
+    Flashdeck.init();
     registerSW();
   });
 })();

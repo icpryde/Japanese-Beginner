@@ -15,7 +15,7 @@ LESSONS = REPO / "content" / "lessons"
 
 PAGES = [
     {"key": "week_03", "lesson_id": "Week 3 - Review quiz Answers",
-     "heading": "Week 3 Review Quiz — Answer Key", "test_href": None},
+     "heading": "Week 3 Test — Answer Key", "test_href": "../weeks/week3-test.html"},
     {"key": "week_08", "lesson_id": "Week 8 Review Quiz Answers",
      "heading": "Week 8 Test — Answer Key", "test_href": "../weeks/week8-test.html"},
     {"key": "week_09-12", "lesson_id": "Week 9-12 Quiz Review Answers",
