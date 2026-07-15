@@ -134,6 +134,7 @@
       "japanese": "おいしい",
       "romaji": "oishii",
       "english": "delicious",
+      "image": "../images/study/week_02/day_08/oishii.png",
       "audio": "../audio/vocabulary/week_02/day_08/oishii.m4a",
       "alt": "Delicious"
     },
@@ -142,6 +143,7 @@
       "japanese": "しずか（な）",
       "romaji": "shizuka(na)",
       "english": "quiet",
+      "image": "../images/study/week_02/day_08/shizukana.png",
       "audio": "../audio/vocabulary/week_02/day_08/shizukana.m4a",
       "alt": "Quiet"
     },
@@ -150,6 +152,7 @@
       "japanese": "たかい",
       "romaji": "takai",
       "english": "expensive; tall",
+      "image": "../images/study/week_02/day_08/takai.png",
       "audio": "../audio/vocabulary/week_02/day_08/takai.m4a",
       "alt": "Expensive"
     },
@@ -158,6 +161,7 @@
       "japanese": "おおきい",
       "romaji": "ookii",
       "english": "big",
+      "image": "../images/study/week_02/day_08/ookii.png",
       "audio": "../audio/vocabulary/week_02/day_08/ookii.m4a",
       "alt": "Big"
     },
@@ -166,6 +170,7 @@
       "japanese": "むずかしい",
       "romaji": "muzukashii",
       "english": "difficult",
+      "image": "../images/study/week_02/day_08/muzukashii.png",
       "audio": "../audio/vocabulary/week_02/day_08/muzukashii.m4a",
       "alt": "Difficult"
     },
@@ -174,6 +179,7 @@
       "japanese": "おもしろい",
       "romaji": "omoshiroi",
       "english": "interesting; fun",
+      "image": "../images/study/week_02/day_08/omoshiroi.png",
       "audio": "../audio/vocabulary/week_02/day_08/omoshiroi.m4a",
       "alt": "Interesting"
     },
@@ -182,6 +188,7 @@
       "japanese": "にぎやか（な）",
       "romaji": "nigiyaka(na)",
       "english": "lively (busy)",
+      "image": "../images/study/week_02/day_08/nigiyakana.png",
       "audio": "../audio/vocabulary/week_02/day_08/nigiyakana.m4a",
       "alt": "Lively"
     },
@@ -190,6 +197,7 @@
       "japanese": "しんせつ（な）",
       "romaji": "shinsetsu(na)",
       "english": "kind",
+      "image": "../images/study/week_02/day_08/shinsetsuna.png",
       "audio": "../audio/vocabulary/week_02/day_08/shinsetsuna.m4a",
       "alt": "Kind"
     },
@@ -198,6 +206,7 @@
       "japanese": "きれい（な）",
       "romaji": "kiree(na)",
       "english": "beautiful; clean",
+      "image": "../images/study/week_02/day_08/kireena.png",
       "audio": "../audio/vocabulary/week_02/day_08/kireena.m4a",
       "alt": "Beautiful"
     },
@@ -206,6 +215,7 @@
       "japanese": "ゆうめい（な）",
       "romaji": "yuumee(na)",
       "english": "famous",
+      "image": "../images/study/week_02/day_08/yuumeena.png",
       "audio": "../audio/vocabulary/week_02/day_08/yuumeena.m4a",
       "alt": "Famous"
     },
@@ -214,6 +224,7 @@
       "japanese": "しょっぱい",
       "romaji": "shoppai",
       "english": "salty",
+      "image": "../images/study/week_02/day_08/shoppai.png",
       "audio": "../audio/vocabulary/week_02/day_08/shoppai.m4a",
       "alt": "Salty"
     },
@@ -222,6 +233,7 @@
       "japanese": "ひろい",
       "romaji": "hiroi",
       "english": "wide",
+      "image": "../images/study/week_02/day_08/hiroi.png",
       "audio": "../audio/vocabulary/week_02/day_08/hiroi.m4a",
       "alt": "Wide"
     },
@@ -230,6 +242,7 @@
       "japanese": "せまい",
       "romaji": "semai",
       "english": "narrow",
+      "image": "../images/study/week_02/day_08/semai.png",
       "audio": "../audio/vocabulary/week_02/day_08/semai.m4a",
       "alt": "Narrow"
     },
@@ -238,6 +251,7 @@
       "japanese": "とても",
       "romaji": "totemo",
       "english": "very much",
+      "image": "../images/study/week_02/day_08/totemo.png",
       "audio": "../audio/vocabulary/week_02/day_08/totemo.m4a",
       "alt": "Very much"
     },
@@ -246,6 +260,7 @@
       "japanese": "あまり",
       "romaji": "amari",
       "english": "not really",
+      "image": "../images/study/week_02/day_08/amari.png",
       "audio": "../audio/vocabulary/week_02/day_08/amari.m4a",
       "alt": "Not really"
     }

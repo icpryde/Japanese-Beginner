@@ -273,6 +273,9 @@ def make_slide_html(
                     mapped = (page_audio_map or {}).get(str(i), 0)
                 page_to_audio[i] = int(mapped)
 
+            # One player per audio file, but only the current slide's player is
+            # visible; the inline script below switches them on Prev/Next.
+            initial_audio = page_to_audio[0] if page_to_audio else 0
             for audio_idx, audio_name in enumerate(audio_files):
                 pages = [i + 1 for i, mapped_idx in enumerate(page_to_audio) if mapped_idx == audio_idx]
                 if pages:
@@ -283,7 +286,8 @@ def make_slide_html(
                 else:
                     label = f"Audio {audio_idx + 1}"
 
-                lines.append('<div style="margin:10px 0;">')
+                display = "block" if audio_idx == initial_audio else "none"
+                lines.append(f'<div class="gs-audio-slot" data-audio-idx="{audio_idx}" style="margin:10px 0; display:{display};">')
                 lines.append(f'<div style="font-size:12px; color:#94a3b8; margin-bottom:4px;">{label}</div>')
                 lines.append(f'<audio controls preload="metadata" src="../audio/{audio_name}"></audio>')
                 lines.append('</div>')
@@ -322,6 +326,29 @@ def make_slide_html(
         lines.append("      audio.setAttribute('src', expectedSrc);")
         lines.append("      audio.load();")
         lines.append("    }")
+        lines.append("  }")
+        lines.append("  const _render = render;")
+        lines.append("  render = function(){ _render(); updateAudio(); };")
+    elif audio_files:
+        # Multiple audio files: show only the slot mapped to the current slide.
+        total_pages_js = max(len(image_files), 1)
+        page_to_audio_list = [0] * total_pages_js
+        for i in range(total_pages_js):
+            mapped = (page_audio_map or {}).get(i)
+            if mapped is None:
+                mapped = (page_audio_map or {}).get(str(i), 0)
+            page_to_audio_list[i] = int(mapped)
+        lines.append("  const doc=root.closest('.fr-view')||document;")
+        lines.append("  const slots=Array.from(doc.querySelectorAll('.gs-audio-slot'));")
+        lines.append(f"  const pageToAudio={json.dumps(page_to_audio_list)};")
+        lines.append("  function updateAudio(){")
+        lines.append("    if(!slots.length){return;}")
+        lines.append("    const want=String(pageToAudio[idx] ?? 0);")
+        lines.append("    slots.forEach(s=>{")
+        lines.append("      const show = s.dataset.audioIdx === want;")
+        lines.append("      s.style.display = show ? 'block' : 'none';")
+        lines.append("      if(!show){ const a=s.querySelector('audio'); if(a && !a.paused){ a.pause(); } }")
+        lines.append("    });")
         lines.append("  }")
         lines.append("  const _render = render;")
         lines.append("  render = function(){ _render(); updateAudio(); };")
@@ -405,7 +432,12 @@ def import_real_slides(manifest: dict) -> tuple[list[dict], dict[str, list[dict]
 
         folder = GRAMMAR_ROOT / entry["folder"]
         if not folder.exists():
-            raise FileNotFoundError(f"Missing grammar folder: {folder}")
+            # Historical rename: days 6-15 were moved from "Week 2/" into "Week 2 & 3/".
+            alt = GRAMMAR_ROOT / entry["folder"].replace("Week 2/", "Week 2 & 3/", 1)
+            if alt.exists():
+                folder = alt
+            else:
+                raise FileNotFoundError(f"Missing grammar folder: {folder}")
 
         files = [p for p in folder.iterdir() if p.is_file() and p.name != ".DS_Store"]
         images = sorted([p for p in files if p.suffix.lower() in {".jpg", ".jpeg", ".png", ".webp"}], key=page_key)

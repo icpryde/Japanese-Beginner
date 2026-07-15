@@ -18,7 +18,7 @@
       "romaji": "shookai shimasu",
       "english": "to introduce (someone)",
       "image": "../images/study/week_09/day_43/shookai_shimasu.png",
-      "audio": "../audio/vocabulary/week_09/day_43/shookai_shimasu.wav",
+      "audio": "../audio/vocabulary/week_09/day_43/shookai_shimasu.m4a",
       "alt": "Businesspeople shaking hands as one person introduces another"
     },
     {
@@ -27,7 +27,7 @@
       "romaji": "(eki made) okurimasu",
       "english": "to escort (to the station)",
       "image": "../images/study/week_09/day_43/eki_made_okurimasu.png",
-      "audio": "../audio/vocabulary/week_09/day_43/eki_made_okurimasu.wav",
+      "audio": "../audio/vocabulary/week_09/day_43/eki_made_okurimasu.m4a",
       "alt": "A driver taking a passenger somewhere in a van"
     },
     {
@@ -36,7 +36,7 @@
       "romaji": "kukkii",
       "english": "cookie",
       "image": "../images/study/week_09/day_43/kukkii.png",
-      "audio": "../audio/vocabulary/week_09/day_43/kukkii.wav",
+      "audio": "../audio/vocabulary/week_09/day_43/kukkii.m4a",
       "alt": "Assorted chocolate chip cookies"
     },
     {
@@ -45,7 +45,7 @@
       "romaji": "purezenteeshon",
       "english": "presentation",
       "image": "../images/study/week_09/day_43/purezenteeshon.png",
-      "audio": "../audio/vocabulary/week_09/day_43/purezenteeshon.wav",
+      "audio": "../audio/vocabulary/week_09/day_43/purezenteeshon.m4a",
       "alt": "A woman giving a presentation while pointing at a chart"
     },
     {
@@ -54,7 +54,7 @@
       "romaji": "tetsuya",
       "english": "staying up all night",
       "image": "../images/study/week_09/day_43/tetsuya.png",
-      "audio": "../audio/vocabulary/week_09/day_43/tetsuya.wav",
+      "audio": "../audio/vocabulary/week_09/day_43/tetsuya.m4a",
       "alt": "A man playing video games late at night under the moon"
     },
     {
@@ -63,7 +63,7 @@
       "romaji": "okosan",
       "english": "children",
       "image": "../images/study/week_09/day_43/okosan.png",
-      "audio": "../audio/vocabulary/week_09/day_43/okosan.wav",
+      "audio": "../audio/vocabulary/week_09/day_43/okosan.m4a",
       "alt": "A group of happy children raising their hands"
     },
     {
@@ -71,120 +71,135 @@
       "japanese": "申します【Ⅰ】",
       "romaji": "mooshimasu",
       "english": "to say, to be called",
-      "audio": "../audio/vocabulary/week_09/day_43/mooshimasu.wav",
-      "alt": "To say, to be called (humble)"
+      "audio": "../audio/vocabulary/week_09/day_43/mooshimasu.m4a",
+      "alt": "A cheerful hajimemashite greeting banner with two smiling faces",
+      "image": "../images/study/week_09/day_43/mooshimasu.png"
     },
     {
       "id": "nihongo_kyooshitsu",
       "japanese": "～教室 Ex)日本語教室",
       "romaji": "~kyooshitsu Ex. nihongo kyooshitsu",
       "english": "～classroom Ex. Japanese classroom",
-      "audio": "../audio/vocabulary/week_09/day_43/nihongo_kyooshitsu.wav",
-      "alt": "Classroom, e.g. Japanese classroom"
+      "audio": "../audio/vocabulary/week_09/day_43/nihongo_kyooshitsu.m4a",
+      "alt": "A teacher holding up a picture card for children in a language classroom",
+      "image": "../images/study/week_09/day_43/nihongo_kyooshitsu.png"
     },
     {
       "id": "kuwashii",
       "japanese": "詳しい",
       "romaji": "kuwashii",
       "english": "detailed",
-      "audio": "../audio/vocabulary/week_09/day_43/kuwashii.wav",
-      "alt": "Detailed"
+      "audio": "../audio/vocabulary/week_09/day_43/kuwashii.m4a",
+      "alt": "A magnifying glass for examining things in detail",
+      "image": "../images/study/week_09/day_43/kuwashii.png"
     },
     {
       "id": "hikkoshi",
       "japanese": "引っ越し",
       "romaji": "hikkoshi",
       "english": "moving",
-      "audio": "../audio/vocabulary/week_09/day_43/hikkoshi.wav",
-      "alt": "Moving (house)"
+      "audio": "../audio/vocabulary/week_09/day_43/hikkoshi.m4a",
+      "alt": "A moving truck with hikkoshi written on its side",
+      "image": "../images/study/week_09/day_43/hikkoshi.png"
     },
     {
       "id": "kono_aida",
       "japanese": "この間",
       "romaji": "kono aida",
       "english": "the other day",
-      "audio": "../audio/vocabulary/week_09/day_43/kono_aida.wav",
-      "alt": "The other day"
+      "audio": "../audio/vocabulary/week_09/day_43/kono_aida.m4a",
+      "alt": "A wall calendar filled with scribbled schedule entries",
+      "image": "../images/study/week_09/day_43/kono_aida.png"
     },
     {
       "id": "toruko",
       "japanese": "トルコ",
       "romaji": "toruko",
       "english": "Turkey",
-      "audio": "../audio/vocabulary/week_09/day_43/toruko.wav",
-      "alt": "Turkey (the country)"
+      "audio": "../audio/vocabulary/week_09/day_43/toruko.m4a",
+      "alt": "A Turkish ice cream vendor in a fez stretching dondurma",
+      "image": "../images/study/week_09/day_43/toruko.png"
     },
     {
       "id": "moo",
       "japanese": "もう",
       "romaji": "moo",
       "english": "already",
-      "audio": "../audio/vocabulary/week_09/day_43/moo.wav",
-      "alt": "Already"
+      "audio": "../audio/vocabulary/week_09/day_43/moo.m4a",
+      "alt": "A red sumi stamp meaning already done",
+      "image": "../images/study/week_09/day_43/moo.png"
     },
     {
       "id": "mada",
       "japanese": "まだ",
       "romaji": "mada",
       "english": "not yet",
-      "audio": "../audio/vocabulary/week_09/day_43/mada.wav",
-      "alt": "Not yet"
+      "audio": "../audio/vocabulary/week_09/day_43/mada.m4a",
+      "alt": "An hourglass with sand still running",
+      "image": "../images/study/week_09/day_43/mada.png"
     },
     {
       "id": "shimekiri",
       "japanese": "締切",
       "romaji": "shimekiri",
       "english": "deadline",
-      "audio": "../audio/vocabulary/week_09/day_43/shimekiri.wav",
-      "alt": "Deadline"
+      "audio": "../audio/vocabulary/week_09/day_43/shimekiri.m4a",
+      "alt": "A woman panicking as she looks at a calendar deadline",
+      "image": "../images/study/week_09/day_43/shimekiri.png"
     },
     {
       "id": "yarimasu",
       "japanese": "やります【Ⅰ】",
       "romaji": "yarimasu",
       "english": "to do",
-      "audio": "../audio/vocabulary/week_09/day_43/yarimasu.wav",
-      "alt": "To do"
+      "audio": "../audio/vocabulary/week_09/day_43/yarimasu.m4a",
+      "alt": "A determined office worker rolling up his sleeves to get to work",
+      "image": "../images/study/week_09/day_43/yarimasu.png"
     },
     {
       "id": "mooshikomimasu",
       "japanese": "申し込みます【Ⅰ】",
       "romaji": "mooshikomimasu",
       "english": "to make an application",
-      "audio": "../audio/vocabulary/week_09/day_43/mooshikomimasu.wav",
-      "alt": "To make an application"
+      "audio": "../audio/vocabulary/week_09/day_43/mooshikomimasu.m4a",
+      "alt": "A blank application form",
+      "image": "../images/study/week_09/day_43/mooshikomimasu.png"
     },
     {
       "id": "kimemasu",
       "japanese": "決めます【Ⅱ】",
       "romaji": "kimemasu",
       "english": "to decide",
-      "audio": "../audio/vocabulary/week_09/day_43/kimemasu.wav",
-      "alt": "To decide"
+      "audio": "../audio/vocabulary/week_09/day_43/kimemasu.m4a",
+      "alt": "A woman deciding between two paths at a fork in the road",
+      "image": "../images/study/week_09/day_43/kimemasu.png"
     },
     {
       "id": "oboemasu",
       "japanese": "覚えます【Ⅱ】",
       "romaji": "oboemasu",
       "english": "to remember",
-      "audio": "../audio/vocabulary/week_09/day_43/oboemasu.wav",
-      "alt": "To remember"
+      "audio": "../audio/vocabulary/week_09/day_43/oboemasu.m4a",
+      "alt": "A ring of vocabulary flashcards for memorizing",
+      "image": "../images/study/week_09/day_43/oboemasu.png"
     },
     {
       "id": "kyanseru_shimasu",
       "japanese": "キャンセルします【Ⅲ】",
       "romaji": "kyanseru shimasu",
       "english": "to cancel",
-      "audio": "../audio/vocabulary/week_09/day_43/kyanseru_shimasu.wav",
-      "alt": "To cancel"
+      "audio": "../audio/vocabulary/week_09/day_43/kyanseru_shimasu.m4a",
+      "alt": "A woman crossing her arms in an X to call something off",
+      "image": "../images/study/week_09/day_43/kyanseru_shimasu.png"
     },
     {
       "id": "wasuremasu",
       "japanese": "忘れます【Ⅱ】",
       "romaji": "wasuremasu",
       "english": "to forget",
-      "audio": "../audio/vocabulary/week_09/day_43/wasuremasu.wav",
-      "alt": "To forget"
+      "audio": "../audio/vocabulary/week_09/day_43/wasuremasu.m4a",
+      "alt": "A woman scratching her head after forgetting something",
+      "image": "../images/study/week_09/day_43/wasuremasu.png"
     }
   ]
 }

@@ -18,7 +18,7 @@
       "romaji": "okashi",
       "english": "candies",
       "image": "../images/study/week_09/day_42/okashi.png",
-      "audio": "../audio/vocabulary/week_09/day_42/okashi.wav",
+      "audio": "../audio/vocabulary/week_09/day_42/okashi.m4a",
       "alt": "Colorful assorted candies, chocolates and a lollipop"
     },
     {
@@ -27,7 +27,7 @@
       "romaji": "amai",
       "english": "sweet",
       "image": "../images/study/week_09/day_42/amai.png",
-      "audio": "../audio/vocabulary/week_09/day_42/amai.wav",
+      "audio": "../audio/vocabulary/week_09/day_42/amai.m4a",
       "alt": "A thought bubble filled with ice cream, chocolate and cake"
     },
     {
@@ -36,7 +36,7 @@
       "romaji": "hanataba",
       "english": "bouquet of flowers",
       "image": "../images/study/week_09/day_42/hanataba.png",
-      "audio": "../audio/vocabulary/week_09/day_42/hanataba.wav",
+      "audio": "../audio/vocabulary/week_09/day_42/hanataba.m4a",
       "alt": "A bouquet of red roses tied with a red ribbon"
     },
     {
@@ -45,7 +45,7 @@
       "romaji": "kado",
       "english": "corner",
       "image": "../images/study/week_09/day_42/kado.png",
-      "audio": "../audio/vocabulary/week_09/day_42/kado.wav",
+      "audio": "../audio/vocabulary/week_09/day_42/kado.m4a",
       "alt": "A street corner with a red arrow rounding the bend"
     },
     {
@@ -54,7 +54,7 @@
       "romaji": "magarimasu",
       "english": "to turn",
       "image": "../images/study/week_09/day_42/magarimasu.png",
-      "audio": "../audio/vocabulary/week_09/day_42/magarimasu.wav",
+      "audio": "../audio/vocabulary/week_09/day_42/magarimasu.m4a",
       "alt": "A red arrow turning around a street corner"
     },
     {
@@ -63,7 +63,7 @@
       "romaji": "setsumee",
       "english": "explanation",
       "image": "../images/study/week_09/day_42/setsumee.png",
-      "audio": "../audio/vocabulary/week_09/day_42/setsumee.wav",
+      "audio": "../audio/vocabulary/week_09/day_42/setsumee.m4a",
       "alt": "A man explaining a document to a woman"
     },
     {
@@ -72,7 +72,7 @@
       "romaji": "annai",
       "english": "information",
       "image": "../images/study/week_09/day_42/annai.png",
-      "audio": "../audio/vocabulary/week_09/day_42/annai.wav",
+      "audio": "../audio/vocabulary/week_09/day_42/annai.m4a",
       "alt": "A police officer giving directions to an elderly woman with a map"
     },
     {
@@ -81,7 +81,7 @@
       "romaji": "shuuri",
       "english": "repair",
       "image": "../images/study/week_09/day_42/shuuri.png",
-      "audio": "../audio/vocabulary/week_09/day_42/shuuri.wav",
+      "audio": "../audio/vocabulary/week_09/day_42/shuuri.m4a",
       "alt": "A man repairing a shoe with tools"
     },
     {
@@ -89,7 +89,8 @@
       "japanese": "リフレッシュ",
       "romaji": "rifuresshu",
       "english": "refresh",
-      "audio": "../audio/vocabulary/week_09/day_42/rifuresshu.wav",
+      "image": "../images/study/week_09/day_42/rifuresshu.png",
+      "audio": "../audio/vocabulary/week_09/day_42/rifuresshu.m4a",
       "alt": "Refresh"
     },
     {
@@ -97,7 +98,8 @@
       "japanese": "くれます【Ⅱ】",
       "romaji": "kuremasu",
       "english": "to give",
-      "audio": "../audio/vocabulary/week_09/day_42/kuremasu.wav",
+      "image": "../images/study/week_09/day_42/kuremasu.png",
+      "audio": "../audio/vocabulary/week_09/day_42/kuremasu.m4a",
       "alt": "To give"
     },
     {
@@ -105,7 +107,8 @@
       "japanese": "直します【Ⅰ】",
       "romaji": "naoshimasu",
       "english": "to fix",
-      "audio": "../audio/vocabulary/week_09/day_42/naoshimasu.wav",
+      "image": "../images/study/week_09/day_42/naoshimasu.png",
+      "audio": "../audio/vocabulary/week_09/day_42/naoshimasu.m4a",
       "alt": "To fix"
     },
     {
@@ -113,7 +116,8 @@
       "japanese": "いただきます【Ⅰ】",
       "romaji": "itadakimasu",
       "english": "to receive",
-      "audio": "../audio/vocabulary/week_09/day_42/itadakimasu.wav",
+      "image": "../images/study/week_09/day_42/itadakimasu.png",
+      "audio": "../audio/vocabulary/week_09/day_42/itadakimasu.m4a",
       "alt": "To receive"
     },
     {
@@ -121,7 +125,8 @@
       "japanese": "もう～ Ex)もうひとつ",
       "romaji": "mou~ Ex. mou hitotsu",
       "english": "more～ Ex. one more",
-      "audio": "../audio/vocabulary/week_09/day_42/mou_hitotsu.wav",
+      "image": "../images/study/week_09/day_42/mou_hitotsu.png",
+      "audio": "../audio/vocabulary/week_09/day_42/mou_hitotsu.m4a",
       "alt": "More, e.g. one more"
     },
     {
@@ -129,7 +134,8 @@
       "japanese": "西口",
       "romaji": "nishiguchi",
       "english": "west entrance",
-      "audio": "../audio/vocabulary/week_09/day_42/nishiguchi.wav",
+      "image": "../images/study/week_09/day_42/nishiguchi.png",
+      "audio": "../audio/vocabulary/week_09/day_42/nishiguchi.m4a",
       "alt": "West entrance"
     },
     {
@@ -137,7 +143,8 @@
       "japanese": "いとこ",
       "romaji": "itoko",
       "english": "cousin",
-      "audio": "../audio/vocabulary/week_09/day_42/itoko.wav",
+      "image": "../images/study/week_09/day_42/itoko.png",
+      "audio": "../audio/vocabulary/week_09/day_42/itoko.m4a",
       "alt": "Cousin"
     },
     {
@@ -145,7 +152,8 @@
       "japanese": "紹介",
       "romaji": "shookai",
       "english": "introduction",
-      "audio": "../audio/vocabulary/week_09/day_42/shookai.wav",
+      "image": "../images/study/week_09/day_42/shookai.png",
+      "audio": "../audio/vocabulary/week_09/day_42/shookai.m4a",
       "alt": "Introduction"
     },
     {
@@ -153,7 +161,8 @@
       "japanese": "東口",
       "romaji": "higashiguchi",
       "english": "east entrance",
-      "audio": "../audio/vocabulary/week_09/day_42/higashiguchi.wav",
+      "image": "../images/study/week_09/day_42/higashiguchi.png",
+      "audio": "../audio/vocabulary/week_09/day_42/higashiguchi.m4a",
       "alt": "East entrance"
     },
     {
@@ -161,7 +170,8 @@
       "japanese": "連れて行きます【Ⅰ】",
       "romaji": "tsurete ikimasu",
       "english": "to take someone along",
-      "audio": "../audio/vocabulary/week_09/day_42/tsurete_ikimasu.wav",
+      "image": "../images/study/week_09/day_42/tsurete_ikimasu.png",
+      "audio": "../audio/vocabulary/week_09/day_42/tsurete_ikimasu.m4a",
       "alt": "To take someone along"
     }
   ]

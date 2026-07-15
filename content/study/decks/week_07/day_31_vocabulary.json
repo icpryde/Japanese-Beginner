@@ -18,7 +18,7 @@
       "romaji": "kooyoo",
       "english": "leaves changing color",
       "image": "../images/study/week_07/day_31/kooyoo.png",
-      "audio": "../audio/vocabulary/week_07/day_31/kooyoo.wav",
+      "audio": "../audio/vocabulary/week_07/day_31/kooyoo.m4a",
       "alt": "Colourful autumn leaves in red and yellow"
     },
     {
@@ -27,7 +27,7 @@
       "romaji": "omairi",
       "english": "worship",
       "image": "../images/study/week_07/day_31/omairi.png",
-      "audio": "../audio/vocabulary/week_07/day_31/omairi.wav",
+      "audio": "../audio/vocabulary/week_07/day_31/omairi.m4a",
       "alt": "A person praying at a shrine offering box"
     },
     {
@@ -36,7 +36,7 @@
       "romaji": "teien",
       "english": "garden",
       "image": "../images/study/week_07/day_31/teien.png",
-      "audio": "../audio/vocabulary/week_07/day_31/teien.wav",
+      "audio": "../audio/vocabulary/week_07/day_31/teien.m4a",
       "alt": "A Japanese rock garden with stones and moss"
     },
     {
@@ -45,7 +45,7 @@
       "romaji": "sentaku shimasu",
       "english": "to do laundry",
       "image": "../images/study/week_07/day_31/sentaku_shimasu.png",
-      "audio": "../audio/vocabulary/week_07/day_31/sentaku_shimasu.wav",
+      "audio": "../audio/vocabulary/week_07/day_31/sentaku_shimasu.m4a",
       "alt": "A woman doing laundry with a basket and clothesline"
     },
     {
@@ -54,7 +54,7 @@
       "romaji": "boonenkai",
       "english": "year-end party",
       "image": "../images/study/week_07/day_31/boonenkai.png",
-      "audio": "../audio/vocabulary/week_07/day_31/boonenkai.wav",
+      "audio": "../audio/vocabulary/week_07/day_31/boonenkai.m4a",
       "alt": "People toasting at a December year-end party"
     },
     {
@@ -63,7 +63,7 @@
       "romaji": "okuremasu",
       "english": "to be late",
       "image": "../images/study/week_07/day_31/okuremasu.png",
-      "audio": "../audio/vocabulary/week_07/day_31/okuremasu.wav",
+      "audio": "../audio/vocabulary/week_07/day_31/okuremasu.m4a",
       "alt": "A businessman running late with his briefcase"
     },
     {
@@ -72,7 +72,7 @@
       "romaji": "wasuremono",
       "english": "lost article",
       "image": "../images/study/week_07/day_31/wasuremono.png",
-      "audio": "../audio/vocabulary/week_07/day_31/wasuremono.wav",
+      "audio": "../audio/vocabulary/week_07/day_31/wasuremono.m4a",
       "alt": "An umbrella left behind on a train"
     },
     {
@@ -81,7 +81,7 @@
       "romaji": "satoo",
       "english": "sugar",
       "image": "../images/study/week_07/day_31/satoo.png",
-      "audio": "../audio/vocabulary/week_07/day_31/satoo.wav",
+      "audio": "../audio/vocabulary/week_07/day_31/satoo.m4a",
       "alt": "A jar of sugar with a scoop"
     },
     {
@@ -90,7 +90,7 @@
       "romaji": "iremasu",
       "english": "to put in",
       "image": "../images/study/week_07/day_31/iremasu.png",
-      "audio": "../audio/vocabulary/week_07/day_31/iremasu.wav",
+      "audio": "../audio/vocabulary/week_07/day_31/iremasu.m4a",
       "alt": "A hand putting a wallet into a bag"
     },
     {
@@ -99,7 +99,7 @@
       "romaji": "soodan shimasu",
       "english": "to ask for advice",
       "image": "../images/study/week_07/day_31/soodan_shimasu.png",
-      "audio": "../audio/vocabulary/week_07/day_31/soodan_shimasu.wav",
+      "audio": "../audio/vocabulary/week_07/day_31/soodan_shimasu.m4a",
       "alt": "A student consulting with an advisor at a desk"
     },
     {
@@ -108,7 +108,7 @@
       "romaji": "hanashimasu",
       "english": "to talk",
       "image": "../images/study/week_07/day_31/hanashimasu.png",
-      "audio": "../audio/vocabulary/week_07/day_31/hanashimasu.wav",
+      "audio": "../audio/vocabulary/week_07/day_31/hanashimasu.m4a",
       "alt": "A group of people talking together"
     },
     {
@@ -116,7 +116,8 @@
       "japanese": "ガイドブック",
       "romaji": "gaidobukku",
       "english": "guidebook",
-      "audio": "../audio/vocabulary/week_07/day_31/gaidobukku.wav",
+      "image": "../images/study/week_07/day_31/gaidobukku.png",
+      "audio": "../audio/vocabulary/week_07/day_31/gaidobukku.m4a",
       "alt": "Guidebook"
     },
     {
@@ -124,7 +125,8 @@
       "japanese": "～連休",
       "romaji": "~renkyuu",
       "english": "consecutive holidays",
-      "audio": "../audio/vocabulary/week_07/day_31/renkyuu.wav",
+      "image": "../images/study/week_07/day_31/renkyuu.png",
+      "audio": "../audio/vocabulary/week_07/day_31/renkyuu.m4a",
       "alt": "Consecutive holidays"
     },
     {
@@ -132,7 +134,8 @@
       "japanese": "景色",
       "romaji": "keshiki",
       "english": "scenery",
-      "audio": "../audio/vocabulary/week_07/day_31/keshiki.wav",
+      "image": "../images/study/week_07/day_31/keshiki.png",
+      "audio": "../audio/vocabulary/week_07/day_31/keshiki.m4a",
       "alt": "Scenery"
     },
     {
@@ -140,7 +143,8 @@
       "japanese": "遅い",
       "romaji": "osoi",
       "english": "slow",
-      "audio": "../audio/vocabulary/week_07/day_31/osoi.wav",
+      "image": "../images/study/week_07/day_31/osoi.png",
+      "audio": "../audio/vocabulary/week_07/day_31/osoi.m4a",
       "alt": "Slow"
     },
     {
@@ -148,7 +152,8 @@
       "japanese": "気がつきます【Ⅰ】",
       "romaji": "ki ga tsukimasu",
       "english": "to be aware",
-      "audio": "../audio/vocabulary/week_07/day_31/ki_ga_tsukimasu.wav",
+      "image": "../images/study/week_07/day_31/ki_ga_tsukimasu.png",
+      "audio": "../audio/vocabulary/week_07/day_31/ki_ga_tsukimasu.m4a",
       "alt": "To be aware"
     },
     {
@@ -156,7 +161,8 @@
       "japanese": "戻ります【Ⅰ】",
       "romaji": "modorimasu",
       "english": "to return",
-      "audio": "../audio/vocabulary/week_07/day_31/modorimasu.wav",
+      "image": "../images/study/week_07/day_31/modorimasu.png",
+      "audio": "../audio/vocabulary/week_07/day_31/modorimasu.m4a",
       "alt": "To return"
     },
     {
@@ -164,7 +170,8 @@
       "japanese": "気をつけます【Ⅱ】",
       "romaji": "ki o tsukemasu",
       "english": "to be careful",
-      "audio": "../audio/vocabulary/week_07/day_31/ki_o_tsukemasu.wav",
+      "image": "../images/study/week_07/day_31/ki_o_tsukemasu.png",
+      "audio": "../audio/vocabulary/week_07/day_31/ki_o_tsukemasu.m4a",
       "alt": "To be careful"
     },
     {
@@ -172,7 +179,8 @@
       "japanese": "仕事",
       "romaji": "shigoto",
       "english": "job",
-      "audio": "../audio/vocabulary/week_07/day_31/shigoto.wav",
+      "image": "../images/study/week_07/day_31/shigoto.png",
+      "audio": "../audio/vocabulary/week_07/day_31/shigoto.m4a",
       "alt": "Job"
     },
     {
@@ -180,7 +188,8 @@
       "japanese": "練習",
       "romaji": "renshuu",
       "english": "practice",
-      "audio": "../audio/vocabulary/week_07/day_31/renshuu.wav",
+      "image": "../images/study/week_07/day_31/renshuu.png",
+      "audio": "../audio/vocabulary/week_07/day_31/renshuu.m4a",
       "alt": "Practice"
     },
     {
@@ -188,7 +197,8 @@
       "japanese": "しょうゆ",
       "romaji": "shooyu",
       "english": "soy sauce",
-      "audio": "../audio/vocabulary/week_07/day_31/shooyu.wav",
+      "image": "../images/study/week_07/day_31/shooyu.png",
+      "audio": "../audio/vocabulary/week_07/day_31/shooyu.m4a",
       "alt": "Soy sauce"
     },
     {
@@ -196,7 +206,8 @@
       "japanese": "あとで",
       "romaji": "atode",
       "english": "afterwards",
-      "audio": "../audio/vocabulary/week_07/day_31/atode.wav",
+      "image": "../images/study/week_07/day_31/atode.png",
+      "audio": "../audio/vocabulary/week_07/day_31/atode.m4a",
       "alt": "Afterwards"
     },
     {
@@ -205,7 +216,7 @@
       "romaji": "shinnenkai",
       "english": "New Year's party",
       "image": "../images/study/week_07/day_31/shinnenkai.png",
-      "audio": "../audio/vocabulary/week_07/day_31/shinnenkai.wav",
+      "audio": "../audio/vocabulary/week_07/day_31/shinnenkai.m4a",
       "alt": "People toasting at a January New Year's party"
     },
     {
@@ -214,7 +225,7 @@
       "romaji": "shio",
       "english": "salt",
       "image": "../images/study/week_07/day_31/shio.png",
-      "audio": "../audio/vocabulary/week_07/day_31/shio.wav",
+      "audio": "../audio/vocabulary/week_07/day_31/shio.m4a",
       "alt": "A bottle of salt"
     }
   ]

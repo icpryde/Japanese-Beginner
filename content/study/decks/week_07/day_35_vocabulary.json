@@ -18,7 +18,7 @@
       "romaji": "nyuujiirando",
       "english": "New Zealand",
       "image": "../images/study/week_07/day_35/nyuujiirando.png",
-      "audio": "../audio/vocabulary/week_07/day_35/nyuujiirando.wav",
+      "audio": "../audio/vocabulary/week_07/day_35/nyuujiirando.m4a",
       "alt": "The flag of New Zealand"
     },
     {
@@ -27,7 +27,7 @@
       "romaji": "ragubii",
       "english": "rugby",
       "image": "../images/study/week_07/day_35/ragubii.png",
-      "audio": "../audio/vocabulary/week_07/day_35/ragubii.wav",
+      "audio": "../audio/vocabulary/week_07/day_35/ragubii.m4a",
       "alt": "Two rugby players chasing a ball"
     },
     {
@@ -36,7 +36,7 @@
       "romaji": "ooen shimasu",
       "english": "support, cheering",
       "image": "../images/study/week_07/day_35/ooen_shimasu.png",
-      "audio": "../audio/vocabulary/week_07/day_35/ooen_shimasu.wav",
+      "audio": "../audio/vocabulary/week_07/day_35/ooen_shimasu.m4a",
       "alt": "A cheering fan holding up a megaphone"
     },
     {
@@ -45,7 +45,7 @@
       "romaji": "kaigishitsu",
       "english": "conference room",
       "image": "../images/study/week_07/day_35/kaigishitsu.png",
-      "audio": "../audio/vocabulary/week_07/day_35/kaigishitsu.wav",
+      "audio": "../audio/vocabulary/week_07/day_35/kaigishitsu.m4a",
       "alt": "A conference room with a large table and chairs"
     },
     {
@@ -54,7 +54,7 @@
       "romaji": "byooin",
       "english": "hospital",
       "image": "../images/study/week_07/day_35/byooin.png",
-      "audio": "../audio/vocabulary/week_07/day_35/byooin.wav",
+      "audio": "../audio/vocabulary/week_07/day_35/byooin.m4a",
       "alt": "A hospital building with a cross sign"
     },
     {
@@ -63,7 +63,7 @@
       "romaji": "furimasu",
       "english": "to fall (of rain, snow)",
       "image": "../images/study/week_07/day_35/furimasu.png",
-      "audio": "../audio/vocabulary/week_07/day_35/furimasu.wav",
+      "audio": "../audio/vocabulary/week_07/day_35/furimasu.m4a",
       "alt": "Rain falling on the ground"
     },
     {
@@ -72,7 +72,7 @@
       "romaji": "kaishain",
       "english": "employee",
       "image": "../images/study/week_07/day_35/kaishain.png",
-      "audio": "../audio/vocabulary/week_07/day_35/kaishain.wav",
+      "audio": "../audio/vocabulary/week_07/day_35/kaishain.m4a",
       "alt": "A businessman in a suit rushing with a briefcase"
     },
     {
@@ -81,7 +81,7 @@
       "romaji": "furuutsu",
       "english": "fruit",
       "image": "../images/study/week_07/day_35/furuutsu.png",
-      "audio": "../audio/vocabulary/week_07/day_35/furuutsu.wav",
+      "audio": "../audio/vocabulary/week_07/day_35/furuutsu.m4a",
       "alt": "Assorted fruit slices including orange, kiwi and strawberry"
     },
     {
@@ -90,7 +90,7 @@
       "romaji": "shinnyuushain",
       "english": "new employee",
       "image": "../images/study/week_07/day_35/shinnyuushain.png",
-      "audio": "../audio/vocabulary/week_07/day_35/shinnyuushain.wav",
+      "audio": "../audio/vocabulary/week_07/day_35/shinnyuushain.m4a",
       "alt": "A crowd of new employees in suits"
     },
     {
@@ -98,7 +98,8 @@
       "japanese": "勝ちます【Ⅰ】",
       "romaji": "kachimasu",
       "english": "to win",
-      "audio": "../audio/vocabulary/week_07/day_35/kachimasu.wav",
+      "image": "../images/study/week_07/day_35/kachimasu.png",
+      "audio": "../audio/vocabulary/week_07/day_35/kachimasu.m4a",
       "alt": "Verb meaning to win"
     },
     {
@@ -106,7 +107,8 @@
       "japanese": "思います【Ⅰ】",
       "romaji": "omoimasu",
       "english": "to think",
-      "audio": "../audio/vocabulary/week_07/day_35/omoimasu.wav",
+      "image": "../images/study/week_07/day_35/omoimasu.png",
+      "audio": "../audio/vocabulary/week_07/day_35/omoimasu.m4a",
       "alt": "Verb meaning to think"
     },
     {
@@ -114,7 +116,8 @@
       "japanese": "もちろん",
       "romaji": "mochiron",
       "english": "of course",
-      "audio": "../audio/vocabulary/week_07/day_35/mochiron.wav",
+      "image": "../images/study/week_07/day_35/mochiron.png",
+      "audio": "../audio/vocabulary/week_07/day_35/mochiron.m4a",
       "alt": "Adverb meaning of course"
     },
     {
@@ -122,7 +125,8 @@
       "japanese": "最近",
       "romaji": "saikin",
       "english": "recently",
-      "audio": "../audio/vocabulary/week_07/day_35/saikin.wav",
+      "image": "../images/study/week_07/day_35/saikin.png",
+      "audio": "../audio/vocabulary/week_07/day_35/saikin.m4a",
       "alt": "Noun meaning recently"
     },
     {
@@ -130,7 +134,8 @@
       "japanese": "届きます【Ⅰ】",
       "romaji": "todokimasu",
       "english": "to reach, to arrive",
-      "audio": "../audio/vocabulary/week_07/day_35/todokimasu.wav",
+      "image": "../images/study/week_07/day_35/todokimasu.png",
+      "audio": "../audio/vocabulary/week_07/day_35/todokimasu.m4a",
       "alt": "Verb meaning to reach or to arrive"
     },
     {
@@ -138,7 +143,8 @@
       "japanese": "新発売",
       "romaji": "shinhatsubai",
       "english": "new product",
-      "audio": "../audio/vocabulary/week_07/day_35/shinhatsubai.wav",
+      "image": "../images/study/week_07/day_35/shinhatsubai.png",
+      "audio": "../audio/vocabulary/week_07/day_35/shinhatsubai.m4a",
       "alt": "Noun meaning newly released product"
     },
     {
@@ -146,7 +152,8 @@
       "japanese": "自由（な）",
       "romaji": "jiyuu(na)",
       "english": "free",
-      "audio": "../audio/vocabulary/week_07/day_35/jiyuu_na.wav",
+      "image": "../images/study/week_07/day_35/jiyuu_na.png",
+      "audio": "../audio/vocabulary/week_07/day_35/jiyuu_na.m4a",
       "alt": "Na-adjective meaning free"
     },
     {
@@ -154,7 +161,8 @@
       "japanese": "意見",
       "romaji": "iken",
       "english": "opinion",
-      "audio": "../audio/vocabulary/week_07/day_35/iken.wav",
+      "image": "../images/study/week_07/day_35/iken.png",
+      "audio": "../audio/vocabulary/week_07/day_35/iken.m4a",
       "alt": "Noun meaning opinion"
     },
     {
@@ -162,7 +170,8 @@
       "japanese": "味",
       "romaji": "aji",
       "english": "flavour",
-      "audio": "../audio/vocabulary/week_07/day_35/aji.wav",
+      "image": "../images/study/week_07/day_35/aji.png",
+      "audio": "../audio/vocabulary/week_07/day_35/aji.m4a",
       "alt": "Noun meaning flavour"
     },
     {
@@ -170,7 +179,8 @@
       "japanese": "さわやか（な）",
       "romaji": "sawayaka(na)",
       "english": "fresh",
-      "audio": "../audio/vocabulary/week_07/day_35/sawayaka_na.wav",
+      "image": "../images/study/week_07/day_35/sawayaka_na.png",
+      "audio": "../audio/vocabulary/week_07/day_35/sawayaka_na.m4a",
       "alt": "Na-adjective meaning fresh or refreshing"
     },
     {
@@ -178,7 +188,8 @@
       "japanese": "人気",
       "romaji": "ninki",
       "english": "popular",
-      "audio": "../audio/vocabulary/week_07/day_35/ninki.wav",
+      "image": "../images/study/week_07/day_35/ninki.png",
+      "audio": "../audio/vocabulary/week_07/day_35/ninki.m4a",
       "alt": "Noun meaning popularity"
     },
     {
@@ -186,7 +197,8 @@
       "japanese": "（人気が）出ます【Ⅱ】",
       "romaji": "(ninki ga) demasu",
       "english": "to become popular",
-      "audio": "../audio/vocabulary/week_07/day_35/ninki_ga_demasu.wav",
+      "image": "../images/study/week_07/day_35/ninki_ga_demasu.png",
+      "audio": "../audio/vocabulary/week_07/day_35/ninki_ga_demasu.m4a",
       "alt": "Verb phrase meaning to become popular"
     },
     {
@@ -194,7 +206,8 @@
       "japanese": "気をつけます【Ⅱ】",
       "romaji": "ki o tsukemasu",
       "english": "to be careful",
-      "audio": "../audio/vocabulary/week_07/day_35/ki_o_tsukemasu.wav",
+      "image": "../images/study/week_07/day_35/ki_o_tsukemasu.png",
+      "audio": "../audio/vocabulary/week_07/day_35/ki_o_tsukemasu.m4a",
       "alt": "Verb phrase meaning to be careful"
     },
     {
@@ -202,7 +215,8 @@
       "japanese": "SNS",
       "romaji": "SNS",
       "english": "social network services",
-      "audio": "../audio/vocabulary/week_07/day_35/sns.wav",
+      "image": "../images/study/week_07/day_35/sns.png",
+      "audio": "../audio/vocabulary/week_07/day_35/sns.m4a",
       "alt": "Abbreviation for social network services"
     },
     {
@@ -210,7 +224,8 @@
       "japanese": "慣れます【Ⅱ】",
       "romaji": "naremasu",
       "english": "to get used to",
-      "audio": "../audio/vocabulary/week_07/day_35/naremasu.wav",
+      "image": "../images/study/week_07/day_35/naremasu.png",
+      "audio": "../audio/vocabulary/week_07/day_35/naremasu.m4a",
       "alt": "Verb meaning to get used to"
     },
     {
@@ -218,7 +233,8 @@
       "japanese": "冷たい",
       "romaji": "tsumetai",
       "english": "cold (to the touch)",
-      "audio": "../audio/vocabulary/week_07/day_35/tsumetai.wav",
+      "image": "../images/study/week_07/day_35/tsumetai.png",
+      "audio": "../audio/vocabulary/week_07/day_35/tsumetai.m4a",
       "alt": "I-adjective meaning cold to the touch"
     },
     {
@@ -226,7 +242,8 @@
       "japanese": "デザイン",
       "romaji": "dezain",
       "english": "design",
-      "audio": "../audio/vocabulary/week_07/day_35/dezain.wav",
+      "image": "../images/study/week_07/day_35/dezain.png",
+      "audio": "../audio/vocabulary/week_07/day_35/dezain.m4a",
       "alt": "Noun meaning design"
     },
     {
@@ -234,7 +251,8 @@
       "japanese": "健康",
       "romaji": "kenkoo",
       "english": "health",
-      "audio": "../audio/vocabulary/week_07/day_35/kenkoo.wav",
+      "image": "../images/study/week_07/day_35/kenkoo.png",
+      "audio": "../audio/vocabulary/week_07/day_35/kenkoo.m4a",
       "alt": "Noun meaning health"
     },
     {
@@ -242,7 +260,8 @@
       "japanese": "役に立ちます【Ⅰ】",
       "romaji": "yaku ni tachimasu",
       "english": "to be helpful",
-      "audio": "../audio/vocabulary/week_07/day_35/yaku_ni_tachimasu.wav",
+      "image": "../images/study/week_07/day_35/yaku_ni_tachimasu.png",
+      "audio": "../audio/vocabulary/week_07/day_35/yaku_ni_tachimasu.m4a",
       "alt": "Verb phrase meaning to be helpful"
     },
     {
@@ -250,7 +269,8 @@
       "japanese": "留学",
       "romaji": "ryuugaku",
       "english": "studying abroad",
-      "audio": "../audio/vocabulary/week_07/day_35/ryuugaku.wav",
+      "image": "../images/study/week_07/day_35/ryuugaku.png",
+      "audio": "../audio/vocabulary/week_07/day_35/ryuugaku.m4a",
       "alt": "Noun meaning studying abroad"
     },
     {
@@ -258,7 +278,8 @@
       "japanese": "負けます【Ⅱ】",
       "romaji": "makemasu",
       "english": "to lose",
-      "audio": "../audio/vocabulary/week_07/day_35/makemasu.wav",
+      "image": "../images/study/week_07/day_35/makemasu.png",
+      "audio": "../audio/vocabulary/week_07/day_35/makemasu.m4a",
       "alt": "Verb meaning to lose"
     },
     {
@@ -266,7 +287,8 @@
       "japanese": "やみます【Ⅰ】",
       "romaji": "yamimasu",
       "english": "to stop",
-      "audio": "../audio/vocabulary/week_07/day_35/yamimasu.wav",
+      "image": "../images/study/week_07/day_35/yamimasu.png",
+      "audio": "../audio/vocabulary/week_07/day_35/yamimasu.m4a",
       "alt": "Verb meaning to stop (of rain)"
     },
     {
@@ -274,7 +296,8 @@
       "japanese": "公務員",
       "romaji": "koomuin",
       "english": "government worker",
-      "audio": "../audio/vocabulary/week_07/day_35/koomuin.wav",
+      "image": "../images/study/week_07/day_35/koomuin.png",
+      "audio": "../audio/vocabulary/week_07/day_35/koomuin.m4a",
       "alt": "Noun meaning government worker"
     },
     {
@@ -282,7 +305,8 @@
       "japanese": "アメリカンフットボール",
       "romaji": "amerikan futtobooru",
       "english": "American football",
-      "audio": "../audio/vocabulary/week_07/day_35/amerikan_futtobooru.wav",
+      "image": "../images/study/week_07/day_35/amerikan_futtobooru.png",
+      "audio": "../audio/vocabulary/week_07/day_35/amerikan_futtobooru.m4a",
       "alt": "Noun meaning American football"
     }
   ]

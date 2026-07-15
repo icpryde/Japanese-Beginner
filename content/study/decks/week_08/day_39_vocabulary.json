@@ -18,7 +18,7 @@
       "romaji": "hoomupeeji",
       "english": "homepage",
       "image": "../images/study/week_08/day_39/hoomupeeji.png",
-      "audio": "../audio/vocabulary/week_08/day_39/hoomupeeji.wav",
+      "audio": "../audio/vocabulary/week_08/day_39/hoomupeeji.m4a",
       "alt": "A website homepage shown on a computer screen"
     },
     {
@@ -27,7 +27,7 @@
       "romaji": "chansu",
       "english": "chance",
       "image": "../images/study/week_08/day_39/chansu.png",
-      "audio": "../audio/vocabulary/week_08/day_39/chansu.wav",
+      "audio": "../audio/vocabulary/week_08/day_39/chansu.m4a",
       "alt": "A boy reaching out to grab a glowing chance sign"
     },
     {
@@ -36,7 +36,7 @@
       "romaji": "yamemasu",
       "english": "to leave (one's job)",
       "image": "../images/study/week_08/day_39/yamemasu.png",
-      "audio": "../audio/vocabulary/week_08/day_39/yamemasu.wav",
+      "audio": "../audio/vocabulary/week_08/day_39/yamemasu.m4a",
       "alt": "A woman holding a bouquet as colleagues applaud her leaving"
     },
     {
@@ -45,7 +45,7 @@
       "romaji": "byooki",
       "english": "illness",
       "image": "../images/study/week_08/day_39/byooki.png",
-      "audio": "../audio/vocabulary/week_08/day_39/byooki.wav",
+      "audio": "../audio/vocabulary/week_08/day_39/byooki.m4a",
       "alt": "A sick child in bed with worried family and germ characters"
     },
     {
@@ -54,7 +54,7 @@
       "romaji": "zutsuu",
       "english": "headache",
       "image": "../images/study/week_08/day_39/zutsuu.png",
-      "audio": "../audio/vocabulary/week_08/day_39/zutsuu.wav",
+      "audio": "../audio/vocabulary/week_08/day_39/zutsuu.m4a",
       "alt": "A man pressing his head with a throbbing headache"
     },
     {
@@ -63,7 +63,7 @@
       "romaji": "torekkingu shuuzu",
       "english": "trekking shoes",
       "image": "../images/study/week_08/day_39/torekkingu_shuuzu.png",
-      "audio": "../audio/vocabulary/week_08/day_39/torekkingu_shuuzu.wav",
+      "audio": "../audio/vocabulary/week_08/day_39/torekkingu_shuuzu.m4a",
       "alt": "A sturdy orange trekking boot"
     },
     {
@@ -72,7 +72,7 @@
       "romaji": "shujutsu",
       "english": "surgery",
       "image": "../images/study/week_08/day_39/shujutsu.png",
-      "audio": "../audio/vocabulary/week_08/day_39/shujutsu.wav",
+      "audio": "../audio/vocabulary/week_08/day_39/shujutsu.m4a",
       "alt": "Surgeons operating on a patient in an operating room"
     },
     {
@@ -80,128 +80,144 @@
       "japanese": "ツアー",
       "romaji": "tsuaa",
       "english": "tour",
-      "audio": "../audio/vocabulary/week_08/day_39/tsuaa.wav",
-      "alt": "Tour"
+      "audio": "../audio/vocabulary/week_08/day_39/tsuaa.m4a",
+      "alt": "Tour",
+      "image": "../images/study/week_08/day_39/tsuaa.png"
     },
     {
       "id": "chuushi",
       "japanese": "中止",
       "romaji": "chuushi",
       "english": "suspension",
-      "audio": "../audio/vocabulary/week_08/day_39/chuushi.wav",
-      "alt": "Suspension (calling something off)"
+      "audio": "../audio/vocabulary/week_08/day_39/chuushi.m4a",
+      "alt": "Suspension (calling something off)",
+      "image": "../images/study/week_08/day_39/chuushi.png"
     },
     {
       "id": "warui",
       "japanese": "悪い",
       "romaji": "warui",
       "english": "bad",
-      "audio": "../audio/vocabulary/week_08/day_39/warui.wav",
-      "alt": "Bad"
+      "audio": "../audio/vocabulary/week_08/day_39/warui.m4a",
+      "alt": "Bad",
+      "image": "../images/study/week_08/day_39/warui.png"
     },
     {
       "id": "umaremasu",
       "japanese": "生まれます／産まれます【Ⅱ】",
       "romaji": "umaremasu",
       "english": "to be born",
-      "audio": "../audio/vocabulary/week_08/day_39/umaremasu.wav",
-      "alt": "To be born"
+      "audio": "../audio/vocabulary/week_08/day_39/umaremasu.m4a",
+      "alt": "To be born",
+      "image": "../images/study/week_08/day_39/umaremasu.png"
     },
     {
       "id": "chooshi",
       "japanese": "調子",
       "romaji": "chooshi",
       "english": "condition",
-      "audio": "../audio/vocabulary/week_08/day_39/chooshi.wav",
-      "alt": "Condition"
+      "audio": "../audio/vocabulary/week_08/day_39/chooshi.m4a",
+      "alt": "Condition",
+      "image": "../images/study/week_08/day_39/chooshi.png"
     },
     {
       "id": "tatemasu",
       "japanese": "建てます【Ⅱ】",
       "romaji": "tatemasu",
       "english": "to build",
-      "audio": "../audio/vocabulary/week_08/day_39/tatemasu.wav",
-      "alt": "To build"
+      "audio": "../audio/vocabulary/week_08/day_39/tatemasu.m4a",
+      "alt": "To build",
+      "image": "../images/study/week_08/day_39/tatemasu.png"
     },
     {
       "id": "naorimasu",
       "japanese": "治ります【Ⅰ】",
       "romaji": "naorimasu",
       "english": "to get healed",
-      "audio": "../audio/vocabulary/week_08/day_39/naorimasu.wav",
-      "alt": "To get healed"
+      "audio": "../audio/vocabulary/week_08/day_39/naorimasu.m4a",
+      "alt": "To get healed",
+      "image": "../images/study/week_08/day_39/naorimasu.png"
     },
     {
       "id": "atama",
       "japanese": "頭",
       "romaji": "atama",
       "english": "head",
-      "audio": "../audio/vocabulary/week_08/day_39/atama.wav",
-      "alt": "Head"
+      "audio": "../audio/vocabulary/week_08/day_39/atama.m4a",
+      "alt": "Head",
+      "image": "../images/study/week_08/day_39/atama.png"
     },
     {
       "id": "keeken",
       "japanese": "経験",
       "romaji": "keeken",
       "english": "experience",
-      "audio": "../audio/vocabulary/week_08/day_39/keeken.wav",
-      "alt": "Experience"
+      "audio": "../audio/vocabulary/week_08/day_39/keeken.m4a",
+      "alt": "Experience",
+      "image": "../images/study/week_08/day_39/keeken.png"
     },
     {
       "id": "keekensha",
       "japanese": "経験者",
       "romaji": "keekensha",
       "english": "person who had a particular experience",
-      "audio": "../audio/vocabulary/week_08/day_39/keekensha.wav",
-      "alt": "Person who had a particular experience"
+      "audio": "../audio/vocabulary/week_08/day_39/keekensha.m4a",
+      "alt": "Person who had a particular experience",
+      "image": "../images/study/week_08/day_39/keekensha.png"
     },
     {
       "id": "sonna_ni",
       "japanese": "そんなに",
       "romaji": "sonna ni",
       "english": "so much",
-      "audio": "../audio/vocabulary/week_08/day_39/sonna_ni.wav",
-      "alt": "So much"
+      "audio": "../audio/vocabulary/week_08/day_39/sonna_ni.m4a",
+      "alt": "So much",
+      "image": "../images/study/week_08/day_39/sonna_ni.png"
     },
     {
       "id": "amai",
       "japanese": "甘い",
       "romaji": "amai",
       "english": "sweet",
-      "audio": "../audio/vocabulary/week_08/day_39/amai.wav",
-      "alt": "Sweet"
+      "audio": "../audio/vocabulary/week_08/day_39/amai.m4a",
+      "alt": "Sweet",
+      "image": "../images/study/week_08/day_39/amai.png"
     },
     {
       "id": "yasemasu",
       "japanese": "やせます【Ⅱ】",
       "romaji": "yasemasu",
       "english": "to become thin",
-      "audio": "../audio/vocabulary/week_08/day_39/yasemasu.wav",
-      "alt": "To become thin"
+      "audio": "../audio/vocabulary/week_08/day_39/yasemasu.m4a",
+      "alt": "To become thin",
+      "image": "../images/study/week_08/day_39/yasemasu.png"
     },
     {
       "id": "ukemasu",
       "japanese": "受けます【Ⅱ】",
       "romaji": "ukemasu",
       "english": "to receive",
-      "audio": "../audio/vocabulary/week_08/day_39/ukemasu.wav",
-      "alt": "To receive"
+      "audio": "../audio/vocabulary/week_08/day_39/ukemasu.m4a",
+      "alt": "To receive",
+      "image": "../images/study/week_08/day_39/ukemasu.png"
     },
     {
       "id": "kuyakusho",
       "japanese": "区役所",
       "romaji": "kuyakusho",
       "english": "ward office",
-      "audio": "../audio/vocabulary/week_08/day_39/kuyakusho.wav",
-      "alt": "Ward office"
+      "audio": "../audio/vocabulary/week_08/day_39/kuyakusho.m4a",
+      "alt": "Ward office",
+      "image": "../images/study/week_08/day_39/kuyakusho.png"
     },
     {
       "id": "mata",
       "japanese": "また",
       "romaji": "mata",
       "english": "still",
-      "audio": "../audio/vocabulary/week_08/day_39/mata.wav",
-      "alt": "Still"
+      "audio": "../audio/vocabulary/week_08/day_39/mata.m4a",
+      "alt": "Still",
+      "image": "../images/study/week_08/day_39/mata.png"
     },
     {
       "id": "gaido",
@@ -209,7 +225,7 @@
       "romaji": "gaido",
       "english": "tour guide",
       "image": "../images/study/week_08/day_39/gaido.png",
-      "audio": "../audio/vocabulary/week_08/day_39/gaido.wav",
+      "audio": "../audio/vocabulary/week_08/day_39/gaido.m4a",
       "alt": "A tour guide in uniform holding up a flag"
     },
     {
@@ -218,7 +234,7 @@
       "romaji": "fukutsuu",
       "english": "stomach ache",
       "image": "../images/study/week_08/day_39/fukutsuu.png",
-      "audio": "../audio/vocabulary/week_08/day_39/fukutsuu.wav",
+      "audio": "../audio/vocabulary/week_08/day_39/fukutsuu.m4a",
       "alt": "A man crouching and clutching his aching stomach"
     },
     {
@@ -226,24 +242,27 @@
       "japanese": "お腹",
       "romaji": "onaka",
       "english": "belly",
-      "audio": "../audio/vocabulary/week_08/day_39/onaka.wav",
-      "alt": "Belly"
+      "audio": "../audio/vocabulary/week_08/day_39/onaka.m4a",
+      "alt": "Belly",
+      "image": "../images/study/week_08/day_39/onaka.png"
     },
     {
       "id": "futorimasu",
       "japanese": "太ります【Ⅰ】",
       "romaji": "futorimasu",
       "english": "to put on weight",
-      "audio": "../audio/vocabulary/week_08/day_39/futorimasu.wav",
-      "alt": "To put on weight"
+      "audio": "../audio/vocabulary/week_08/day_39/futorimasu.m4a",
+      "alt": "To put on weight",
+      "image": "../images/study/week_08/day_39/futorimasu.png"
     },
     {
       "id": "enki",
       "japanese": "延期",
       "romaji": "enki",
       "english": "postponement",
-      "audio": "../audio/vocabulary/week_08/day_39/enki.wav",
-      "alt": "Postponement"
+      "audio": "../audio/vocabulary/week_08/day_39/enki.m4a",
+      "alt": "Postponement",
+      "image": "../images/study/week_08/day_39/enki.png"
     }
   ]
 }

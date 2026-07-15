@@ -260,6 +260,7 @@
       "japanese": "たのしい",
       "romaji": "tanoshii",
       "english": "fun",
+      "image": "../images/study/week_03/day_15/tanoshii.png",
       "audio": "../audio/vocabulary/week_03/day_15/tanoshii.m4a",
       "alt": "Fun"
     },
@@ -268,6 +269,7 @@
       "japanese": "たかい",
       "romaji": "takai",
       "english": "expensive; high",
+      "image": "../images/study/week_03/day_15/takai.png",
       "audio": "../audio/vocabulary/week_03/day_15/takai.m4a",
       "alt": "Expensive or high"
     },
@@ -276,6 +278,7 @@
       "japanese": "おおい",
       "romaji": "ooi",
       "english": "many",
+      "image": "../images/study/week_03/day_15/ooi.png",
       "audio": "../audio/vocabulary/week_03/day_15/ooi.m4a",
       "alt": "Many"
     },
@@ -284,6 +287,7 @@
       "japanese": "おいしい",
       "romaji": "oishii",
       "english": "delicious",
+      "image": "../images/study/week_03/day_15/oishii.png",
       "audio": "../audio/vocabulary/week_03/day_15/oishii.m4a",
       "alt": "Delicious"
     },
@@ -292,6 +296,7 @@
       "japanese": "きれい（な）",
       "romaji": "kiree(na)",
       "english": "beautiful; clean",
+      "image": "../images/study/week_03/day_15/kiree_na.png",
       "audio": "../audio/vocabulary/week_03/day_15/kiree_na.m4a",
       "alt": "Beautiful or clean"
     },
@@ -300,6 +305,7 @@
       "japanese": "やすい",
       "romaji": "yasui",
       "english": "cheap",
+      "image": "../images/study/week_03/day_15/yasui.png",
       "audio": "../audio/vocabulary/week_03/day_15/yasui.m4a",
       "alt": "Cheap"
     },
@@ -308,6 +314,7 @@
       "japanese": "あに",
       "romaji": "ani",
       "english": "older brother",
+      "image": "../images/study/week_03/day_15/ani_2.png",
       "audio": "../audio/vocabulary/week_03/day_15/ani_2.m4a",
       "alt": "Older brother"
     },
@@ -316,6 +323,7 @@
       "japanese": "あね",
       "romaji": "ane",
       "english": "older sister",
+      "image": "../images/study/week_03/day_15/ane_2.png",
       "audio": "../audio/vocabulary/week_03/day_15/ane_2.m4a",
       "alt": "Older sister"
     },
@@ -324,6 +332,7 @@
       "japanese": "さむい",
       "romaji": "samui",
       "english": "cold",
+      "image": "../images/study/week_03/day_15/samui.png",
       "audio": "../audio/vocabulary/week_03/day_15/samui.m4a",
       "alt": "Cold"
     },
@@ -332,6 +341,7 @@
       "japanese": "おおきい",
       "romaji": "ookii",
       "english": "big",
+      "image": "../images/study/week_03/day_15/ookii.png",
       "audio": "../audio/vocabulary/week_03/day_15/ookii.m4a",
       "alt": "Big"
     },
@@ -340,6 +350,7 @@
       "japanese": "じょうず（な）",
       "romaji": "joozu(na)",
       "english": "good (at)",
+      "image": "../images/study/week_03/day_15/joozu_na.png",
       "audio": "../audio/vocabulary/week_03/day_15/joozu_na.m4a",
       "alt": "Good at something"
     },
@@ -348,6 +359,7 @@
       "japanese": "むずかしい",
       "romaji": "muzukashii",
       "english": "difficult",
+      "image": "../images/study/week_03/day_15/muzukashii.png",
       "audio": "../audio/vocabulary/week_03/day_15/muzukashii.m4a",
       "alt": "Difficult"
     },
@@ -356,6 +368,7 @@
       "japanese": "はやい",
       "romaji": "hayai",
       "english": "early",
+      "image": "../images/study/week_03/day_15/hayai.png",
       "audio": "../audio/vocabulary/week_03/day_15/hayai.m4a",
       "alt": "Early"
     },
@@ -364,6 +377,7 @@
       "japanese": "すき（な）",
       "romaji": "ski(na)",
       "english": "liked",
+      "image": "../images/study/week_03/day_15/ski_na.png",
       "audio": "../audio/vocabulary/week_03/day_15/ski_na.m4a",
       "alt": "Liked"
     },
@@ -372,6 +386,7 @@
       "japanese": "ずっと",
       "romaji": "zutto",
       "english": "continuously; the whole time",
+      "image": "../images/study/week_03/day_15/zutto.png",
       "audio": "../audio/vocabulary/week_03/day_15/zutto.m4a",
       "alt": "Continuously, the whole time"
     }

@@ -18,7 +18,7 @@
       "romaji": "shinchiku",
       "english": "new building",
       "image": "../images/study/week_11/day_51/shinchiku.png",
-      "audio": "../audio/vocabulary/week_11/day_51/shinchiku.wav",
+      "audio": "../audio/vocabulary/week_11/day_51/shinchiku.m4a",
       "alt": "A newly built two-story house with a blue roof"
     },
     {
@@ -27,7 +27,7 @@
       "romaji": "shinsen (na)",
       "english": "fresh",
       "image": "../images/study/week_11/day_51/shinsen_na.png",
-      "audio": "../audio/vocabulary/week_11/day_51/shinsen_na.wav",
+      "audio": "../audio/vocabulary/week_11/day_51/shinsen_na.m4a",
       "alt": "A cardboard box full of fresh vegetables"
     },
     {
@@ -36,7 +36,7 @@
       "romaji": "onsen",
       "english": "hot spring",
       "image": "../images/study/week_11/day_51/onsen.png",
-      "audio": "../audio/vocabulary/week_11/day_51/onsen.wav",
+      "audio": "../audio/vocabulary/week_11/day_51/onsen.m4a",
       "alt": "A stone outdoor hot spring bath"
     },
     {
@@ -45,7 +45,7 @@
       "romaji": "kangeikai",
       "english": "welcome party",
       "image": "../images/study/week_11/day_51/kangeikai.png",
-      "audio": "../audio/vocabulary/week_11/day_51/kangeikai.wav",
+      "audio": "../audio/vocabulary/week_11/day_51/kangeikai.m4a",
       "alt": "Office workers toasting with drinks at a welcome party"
     },
     {
@@ -54,7 +54,7 @@
       "romaji": "kyuuryoo",
       "english": "salary",
       "image": "../images/study/week_11/day_51/kyuuryoo.png",
-      "audio": "../audio/vocabulary/week_11/day_51/kyuuryoo.wav",
+      "audio": "../audio/vocabulary/week_11/day_51/kyuuryoo.m4a",
       "alt": "A happy man in a suit holding up his pay envelope"
     },
     {
@@ -63,7 +63,7 @@
       "romaji": "dorinku baa",
       "english": "self-service drink area",
       "image": "../images/study/week_11/day_51/dorinku_baa.png",
-      "audio": "../audio/vocabulary/week_11/day_51/dorinku_baa.wav",
+      "audio": "../audio/vocabulary/week_11/day_51/dorinku_baa.m4a",
       "alt": "A self-service drink bar with dispenser machines"
     },
     {
@@ -71,168 +71,189 @@
       "japanese": "～LDK Ex）2LDK",
       "romaji": "~LDK Ex. 2LDK",
       "english": "～LDK Ex. 2LDK",
-      "audio": "../audio/vocabulary/week_11/day_51/ldk_2ldk.wav",
-      "alt": "Apartment layout counter, e.g. 2LDK"
+      "audio": "../audio/vocabulary/week_11/day_51/ldk_2ldk.m4a",
+      "alt": "Apartment layout counter, e.g. 2LDK",
+      "image": "../images/study/week_11/day_51/ldk_2ldk.png"
     },
     {
       "id": "hiatari",
       "japanese": "日当たり",
       "romaji": "hiatari",
       "english": "sunny; exposure to sunlight",
-      "audio": "../audio/vocabulary/week_11/day_51/hiatari.wav",
-      "alt": "Sunny; exposure to sunlight"
+      "audio": "../audio/vocabulary/week_11/day_51/hiatari.m4a",
+      "alt": "Sunny; exposure to sunlight",
+      "image": "../images/study/week_11/day_51/hiatari.png"
     },
     {
       "id": "soreni",
       "japanese": "それに",
       "romaji": "soreni",
       "english": "besides",
-      "audio": "../audio/vocabulary/week_11/day_51/soreni.wav",
-      "alt": "Besides"
+      "audio": "../audio/vocabulary/week_11/day_51/soreni.m4a",
+      "alt": "Besides",
+      "image": "../images/study/week_11/day_51/soreni.png"
     },
     {
       "id": "isshookenmei",
       "japanese": "一生懸命",
       "romaji": "isshookenmei",
       "english": "with utmost effort",
-      "audio": "../audio/vocabulary/week_11/day_51/isshookenmei.wav",
-      "alt": "With utmost effort"
+      "audio": "../audio/vocabulary/week_11/day_51/isshookenmei.m4a",
+      "alt": "With utmost effort",
+      "image": "../images/study/week_11/day_51/isshookenmei.png"
     },
     {
       "id": "shusshinchi",
       "japanese": "出身地",
       "romaji": "shusshinchi",
       "english": "birthplace",
-      "audio": "../audio/vocabulary/week_11/day_51/shusshinchi.wav",
-      "alt": "Birthplace"
+      "audio": "../audio/vocabulary/week_11/day_51/shusshinchi.m4a",
+      "alt": "Birthplace",
+      "image": "../images/study/week_11/day_51/shusshinchi.png"
     },
     {
       "id": "kanji",
       "japanese": "幹事",
       "romaji": "kanji",
       "english": "organizer",
-      "audio": "../audio/vocabulary/week_11/day_51/kanji.wav",
-      "alt": "Organizer"
+      "audio": "../audio/vocabulary/week_11/day_51/kanji.m4a",
+      "alt": "Organizer",
+      "image": "../images/study/week_11/day_51/kanji.png"
     },
     {
       "id": "boku",
       "japanese": "僕",
       "romaji": "boku",
       "english": "I, me (male term)",
-      "audio": "../audio/vocabulary/week_11/day_51/boku.wav",
-      "alt": "I, me (male term)"
+      "audio": "../audio/vocabulary/week_11/day_51/boku.m4a",
+      "alt": "I, me (male term)",
+      "image": "../images/study/week_11/day_51/boku.png"
     },
     {
       "id": "sanka_shimasu",
       "japanese": "参加します【Ⅲ】",
       "romaji": "sanka shimasu",
       "english": "to participate",
-      "audio": "../audio/vocabulary/week_11/day_51/sanka_shimasu.wav",
-      "alt": "To participate"
+      "audio": "../audio/vocabulary/week_11/day_51/sanka_shimasu.m4a",
+      "alt": "To participate",
+      "image": "../images/study/week_11/day_51/sanka_shimasu.png"
     },
     {
       "id": "zannen_na",
       "japanese": "残念（な）",
       "romaji": "zannen (na)",
       "english": "unfortunate",
-      "audio": "../audio/vocabulary/week_11/day_51/zannen_na.wav",
-      "alt": "Unfortunate"
+      "audio": "../audio/vocabulary/week_11/day_51/zannen_na.m4a",
+      "alt": "Unfortunate",
+      "image": "../images/study/week_11/day_51/zannen_na.png"
     },
     {
       "id": "i",
       "japanese": "胃",
       "romaji": "i",
       "english": "stomach",
-      "audio": "../audio/vocabulary/week_11/day_51/i.wav",
-      "alt": "Stomach"
+      "audio": "../audio/vocabulary/week_11/day_51/i.m4a",
+      "alt": "Stomach",
+      "image": "../images/study/week_11/day_51/i.png"
     },
     {
       "id": "torihikisaki",
       "japanese": "取引先",
       "romaji": "torihikisaki",
       "english": "customer",
-      "audio": "../audio/vocabulary/week_11/day_51/torihikisaki.wav",
-      "alt": "Customer"
+      "audio": "../audio/vocabulary/week_11/day_51/torihikisaki.m4a",
+      "alt": "Customer",
+      "image": "../images/study/week_11/day_51/torihikisaki.png"
     },
     {
       "id": "settai",
       "japanese": "接待",
       "romaji": "settai",
       "english": "entertainment (of guests)",
-      "audio": "../audio/vocabulary/week_11/day_51/settai.wav",
-      "alt": "Entertainment (of guests)"
+      "audio": "../audio/vocabulary/week_11/day_51/settai.m4a",
+      "alt": "Entertainment (of guests)",
+      "image": "../images/study/week_11/day_51/settai.png"
     },
     {
       "id": "sorosoro",
       "japanese": "そろそろ",
       "romaji": "sorosoro",
       "english": "soon; slowly",
-      "audio": "../audio/vocabulary/week_11/day_51/sorosoro.wav",
-      "alt": "Soon; slowly"
+      "audio": "../audio/vocabulary/week_11/day_51/sorosoro.m4a",
+      "alt": "Soon; slowly",
+      "image": "../images/study/week_11/day_51/sorosoro.png"
     },
     {
       "id": "zemi",
       "japanese": "ゼミ",
       "romaji": "zemi",
       "english": "seminar",
-      "audio": "../audio/vocabulary/week_11/day_51/zemi.wav",
-      "alt": "Seminar"
+      "audio": "../audio/vocabulary/week_11/day_51/zemi.m4a",
+      "alt": "Seminar",
+      "image": "../images/study/week_11/day_51/zemi.png"
     },
     {
       "id": "gasshuku",
       "japanese": "合宿",
       "romaji": "gasshuku",
       "english": "training camp",
-      "audio": "../audio/vocabulary/week_11/day_51/gasshuku.wav",
-      "alt": "Training camp"
+      "audio": "../audio/vocabulary/week_11/day_51/gasshuku.m4a",
+      "alt": "Training camp",
+      "image": "../images/study/week_11/day_51/gasshuku.png"
     },
     {
       "id": "osusume",
       "japanese": "お勧め",
       "romaji": "osusume",
       "english": "recommendation",
-      "audio": "../audio/vocabulary/week_11/day_51/osusume.wav",
-      "alt": "Recommendation"
+      "audio": "../audio/vocabulary/week_11/day_51/osusume.m4a",
+      "alt": "Recommendation",
+      "image": "../images/study/week_11/day_51/osusume.png"
     },
     {
       "id": "setsubi",
       "japanese": "設備",
       "romaji": "setsubi",
       "english": "facilities",
-      "audio": "../audio/vocabulary/week_11/day_51/setsubi.wav",
-      "alt": "Facilities"
+      "audio": "../audio/vocabulary/week_11/day_51/setsubi.m4a",
+      "alt": "Facilities",
+      "image": "../images/study/week_11/day_51/setsubi.png"
     },
     {
       "id": "shokuryoohin",
       "japanese": "食料品",
       "romaji": "shokuryoohin",
       "english": "groceries",
-      "audio": "../audio/vocabulary/week_11/day_51/shokuryoohin.wav",
-      "alt": "Groceries"
+      "audio": "../audio/vocabulary/week_11/day_51/shokuryoohin.m4a",
+      "alt": "Groceries",
+      "image": "../images/study/week_11/day_51/shokuryoohin.png"
     },
     {
       "id": "shinamono",
       "japanese": "品物",
       "romaji": "shinamono",
       "english": "goods",
-      "audio": "../audio/vocabulary/week_11/day_51/shinamono.wav",
-      "alt": "Goods"
+      "audio": "../audio/vocabulary/week_11/day_51/shinamono.m4a",
+      "alt": "Goods",
+      "image": "../images/study/week_11/day_51/shinamono.png"
     },
     {
       "id": "oshare_na",
       "japanese": "おしゃれ（な）",
       "romaji": "oshare (na)",
       "english": "stylish, fashionable",
-      "audio": "../audio/vocabulary/week_11/day_51/oshare_na.wav",
-      "alt": "Stylish, fashionable"
+      "audio": "../audio/vocabulary/week_11/day_51/oshare_na.m4a",
+      "alt": "Stylish, fashionable",
+      "image": "../images/study/week_11/day_51/oshare_na.png"
     },
     {
       "id": "soobetsukai",
       "japanese": "送別会",
       "romaji": "soobetsukai",
       "english": "farewell party",
-      "audio": "../audio/vocabulary/week_11/day_51/soobetsukai.wav",
-      "alt": "Farewell party"
+      "audio": "../audio/vocabulary/week_11/day_51/soobetsukai.m4a",
+      "alt": "Farewell party",
+      "image": "../images/study/week_11/day_51/soobetsukai.png"
     }
   ]
 }

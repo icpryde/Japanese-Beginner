@@ -18,7 +18,7 @@
       "romaji": "tsumetai",
       "english": "cold",
       "image": "../images/study/week_12/day_58/tsumetai.png",
-      "audio": "../audio/vocabulary/week_12/day_58/tsumetai.wav",
+      "audio": "../audio/vocabulary/week_12/day_58/tsumetai.m4a",
       "alt": "A triple-scoop ice cream cone"
     },
     {
@@ -27,7 +27,7 @@
       "romaji": "kyuukei shimasu",
       "english": "to rest",
       "image": "../images/study/week_12/day_58/kyuukei_shimasu.png",
-      "audio": "../audio/vocabulary/week_12/day_58/kyuukei_shimasu.wav",
+      "audio": "../audio/vocabulary/week_12/day_58/kyuukei_shimasu.m4a",
       "alt": "A woman resting on a bench drinking water"
     },
     {
@@ -36,7 +36,7 @@
       "romaji": "benchi",
       "english": "bench",
       "image": "../images/study/week_12/day_58/benchi.png",
-      "audio": "../audio/vocabulary/week_12/day_58/benchi.wav",
+      "audio": "../audio/vocabulary/week_12/day_58/benchi.m4a",
       "alt": "A yellow arrow pointing at the bench a woman sits on"
     },
     {
@@ -44,7 +44,8 @@
       "japanese": "申し込みます【Ⅰ】",
       "romaji": "mooshikomimasu",
       "english": "to apply",
-      "audio": "../audio/vocabulary/week_12/day_58/mooshikomimasu.wav",
+      "image": "../images/study/week_12/day_58/mooshikomimasu.png",
+      "audio": "../audio/vocabulary/week_12/day_58/mooshikomimasu.m4a",
       "alt": "To apply"
     },
     {
@@ -53,7 +54,7 @@
       "romaji": "katazukemasu",
       "english": "to tidy up",
       "image": "../images/study/week_12/day_58/katazukemasu.png",
-      "audio": "../audio/vocabulary/week_12/day_58/katazukemasu.wav",
+      "audio": "../audio/vocabulary/week_12/day_58/katazukemasu.m4a",
       "alt": "A tidy living room with a TV and green sofa"
     },
     {
@@ -62,7 +63,7 @@
       "romaji": "(inu o) kaimasu",
       "english": "to have (a dog)",
       "image": "../images/study/week_12/day_58/inu_o_kaimasu.png",
-      "audio": "../audio/vocabulary/week_12/day_58/inu_o_kaimasu.wav",
+      "audio": "../audio/vocabulary/week_12/day_58/inu_o_kaimasu.m4a",
       "alt": "A girl happily hugging her pet dog"
     },
     {
@@ -71,7 +72,7 @@
       "romaji": "sotsugyoo shimasu",
       "english": "to graduate",
       "image": "../images/study/week_12/day_58/sotsugyoo_shimasu.png",
-      "audio": "../audio/vocabulary/week_12/day_58/sotsugyoo_shimasu.wav",
+      "audio": "../audio/vocabulary/week_12/day_58/sotsugyoo_shimasu.m4a",
       "alt": "A graduate shaking hands while receiving a diploma"
     },
     {
@@ -80,7 +81,7 @@
       "romaji": "umaremasu",
       "english": "to be born",
       "image": "../images/study/week_12/day_58/umaremasu.png",
-      "audio": "../audio/vocabulary/week_12/day_58/umaremasu.wav",
+      "audio": "../audio/vocabulary/week_12/day_58/umaremasu.m4a",
       "alt": "A nurse holding a newborn baby"
     },
     {
@@ -89,7 +90,7 @@
       "romaji": "omocha",
       "english": "toy",
       "image": "../images/study/week_12/day_58/omocha.png",
-      "audio": "../audio/vocabulary/week_12/day_58/omocha.wav",
+      "audio": "../audio/vocabulary/week_12/day_58/omocha.m4a",
       "alt": "A toy box with a teddy bear, balloon and toy car"
     },
     {
@@ -97,7 +98,8 @@
       "japanese": "（オムライス）に します【Ⅲ】",
       "romaji": "(omuraisu) ni shimasu",
       "english": "to have (an omurice)",
-      "audio": "../audio/vocabulary/week_12/day_58/omuraisu_ni_shimasu.wav",
+      "image": "../images/study/week_12/day_58/omuraisu_ni_shimasu.png",
+      "audio": "../audio/vocabulary/week_12/day_58/omuraisu_ni_shimasu.m4a",
       "alt": "To have (an omurice)"
     },
     {
@@ -105,7 +107,8 @@
       "japanese": "ゆっくりします【Ⅲ】",
       "romaji": "yukkuri shimasu",
       "english": "to take it easy",
-      "audio": "../audio/vocabulary/week_12/day_58/yukkuri_shimasu.wav",
+      "image": "../images/study/week_12/day_58/yukkuri_shimasu.png",
+      "audio": "../audio/vocabulary/week_12/day_58/yukkuri_shimasu.m4a",
       "alt": "To take it easy"
     },
     {
@@ -113,7 +116,8 @@
       "japanese": "～でも Ex) コーヒーでも",
       "romaji": "~demo Ex. koohii demo",
       "english": "... or something Ex. a coffee or something",
-      "audio": "../audio/vocabulary/week_12/day_58/demo_koohii_demo.wav",
+      "image": "../images/study/week_12/day_58/demo_koohii_demo.png",
+      "audio": "../audio/vocabulary/week_12/day_58/demo_koohii_demo.m4a",
       "alt": "Or something, e.g. a coffee or something"
     },
     {
@@ -121,7 +125,8 @@
       "japanese": "見つけます【Ⅱ】",
       "romaji": "mitsukemasu",
       "english": "to discover",
-      "audio": "../audio/vocabulary/week_12/day_58/mitsukemasu.wav",
+      "image": "../images/study/week_12/day_58/mitsukemasu.png",
+      "audio": "../audio/vocabulary/week_12/day_58/mitsukemasu.m4a",
       "alt": "To discover"
     },
     {
@@ -129,7 +134,8 @@
       "japanese": "（休みを）取ります",
       "romaji": "(yasumi o) torimasu",
       "english": "to take (time off)",
-      "audio": "../audio/vocabulary/week_12/day_58/yasumi_o_torimasu.wav",
+      "image": "../images/study/week_12/day_58/yasumi_o_torimasu.png",
+      "audio": "../audio/vocabulary/week_12/day_58/yasumi_o_torimasu.m4a",
       "alt": "To take (time off)"
     },
     {
@@ -137,7 +143,8 @@
       "japanese": "もっと",
       "romaji": "motto",
       "english": "more",
-      "audio": "../audio/vocabulary/week_12/day_58/motto.wav",
+      "image": "../images/study/week_12/day_58/motto.png",
+      "audio": "../audio/vocabulary/week_12/day_58/motto.m4a",
       "alt": "More"
     },
     {
@@ -145,7 +152,8 @@
       "japanese": "できるだけ",
       "romaji": "dekirudake",
       "english": "as much as possible",
-      "audio": "../audio/vocabulary/week_12/day_58/dekirudake.wav",
+      "image": "../images/study/week_12/day_58/dekirudake.png",
+      "audio": "../audio/vocabulary/week_12/day_58/dekirudake.m4a",
       "alt": "As much as possible"
     },
     {
@@ -153,7 +161,8 @@
       "japanese": "将来",
       "romaji": "shoorai",
       "english": "future",
-      "audio": "../audio/vocabulary/week_12/day_58/shoorai.wav",
+      "image": "../images/study/week_12/day_58/shoorai.png",
+      "audio": "../audio/vocabulary/week_12/day_58/shoorai.m4a",
       "alt": "Future"
     }
   ]

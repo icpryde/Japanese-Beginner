@@ -215,6 +215,7 @@
       "japanese": "シャツ",
       "romaji": "shatsu",
       "english": "shirt",
+      "image": "../images/study/week_03/day_14/shatsu.png",
       "audio": "../audio/vocabulary/week_03/day_14/shatsu.m4a",
       "alt": "Shirt"
     },
@@ -241,6 +242,7 @@
       "japanese": "テレビ",
       "romaji": "terebi",
       "english": "television",
+      "image": "../images/study/week_03/day_14/terebi.png",
       "audio": "../audio/vocabulary/week_03/day_14/terebi.m4a",
       "alt": "Television"
     },
@@ -249,6 +251,7 @@
       "japanese": "おもしろい",
       "romaji": "omoshiroi",
       "english": "interesting/fun",
+      "image": "../images/study/week_03/day_14/omoshiroi.png",
       "audio": "../audio/vocabulary/week_03/day_14/omoshiroi.m4a",
       "alt": "Interesting or fun"
     },
@@ -257,6 +260,7 @@
       "japanese": "やすい",
       "romaji": "yasui",
       "english": "cheap",
+      "image": "../images/study/week_03/day_14/yasui.png",
       "audio": "../audio/vocabulary/week_03/day_14/yasui.m4a",
       "alt": "Cheap"
     },
@@ -265,6 +269,7 @@
       "japanese": "きょねん",
       "romaji": "kyonen",
       "english": "last year",
+      "image": "../images/study/week_03/day_14/kyonen.png",
       "audio": "../audio/vocabulary/week_03/day_14/kyonen.m4a",
       "alt": "Last year"
     },
@@ -273,6 +278,7 @@
       "japanese": "たんじょうび",
       "romaji": "tanjoobi",
       "english": "birthday",
+      "image": "../images/study/week_03/day_14/tanjoobi.png",
       "audio": "../audio/vocabulary/week_03/day_14/tanjoobi.m4a",
       "alt": "Birthday"
     },
@@ -281,6 +287,7 @@
       "japanese": "ちち",
       "romaji": "chichi",
       "english": "father",
+      "image": "../images/study/week_03/day_14/chichi.png",
       "audio": "../audio/vocabulary/week_03/day_14/chichi.m4a",
       "alt": "Father (one's own)"
     },
@@ -289,6 +296,7 @@
       "japanese": "はは",
       "romaji": "haha",
       "english": "mother",
+      "image": "../images/study/week_03/day_14/haha.png",
       "audio": "../audio/vocabulary/week_03/day_14/haha.m4a",
       "alt": "Mother (one's own)"
     },
@@ -297,6 +305,7 @@
       "japanese": "あに",
       "romaji": "ani",
       "english": "older brother",
+      "image": "../images/study/week_03/day_14/ani.png",
       "audio": "../audio/vocabulary/week_03/day_14/ani.m4a",
       "alt": "Older brother (one's own)"
     },
@@ -305,6 +314,7 @@
       "japanese": "あね",
       "romaji": "ane",
       "english": "older sister",
+      "image": "../images/study/week_03/day_14/ane.png",
       "audio": "../audio/vocabulary/week_03/day_14/ane.m4a",
       "alt": "Older sister (one's own)"
     },
@@ -313,6 +323,7 @@
       "japanese": "おとうと",
       "romaji": "otooto",
       "english": "younger brother",
+      "image": "../images/study/week_03/day_14/otooto.png",
       "audio": "../audio/vocabulary/week_03/day_14/otooto.m4a",
       "alt": "Younger brother (one's own)"
     },
@@ -321,6 +332,7 @@
       "japanese": "いもうと",
       "romaji": "imooto",
       "english": "younger sister",
+      "image": "../images/study/week_03/day_14/imooto.png",
       "audio": "../audio/vocabulary/week_03/day_14/imooto.m4a",
       "alt": "Younger sister (one's own)"
     },
@@ -329,6 +341,7 @@
       "japanese": "どなた",
       "romaji": "donata",
       "english": "who",
+      "image": "../images/study/week_03/day_14/donata.png",
       "audio": "../audio/vocabulary/week_03/day_14/donata.m4a",
       "alt": "Who (polite)"
     }

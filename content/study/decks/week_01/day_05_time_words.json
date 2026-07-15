@@ -18,56 +18,56 @@
       "japanese": "らいしゅう",
       "romaji": "raishuu",
       "english": "next week",
-      "audio": "../audio/vocabulary/week_01/day_05/raishuu.wav"
+      "audio": "../audio/vocabulary/week_01/day_05/raishuu.m4a"
     },
     {
       "id": "goro",
       "japanese": "〜ごろ",
       "romaji": "goro",
       "english": "around",
-      "audio": "../audio/vocabulary/week_01/day_05/goro.wav"
+      "audio": "../audio/vocabulary/week_01/day_05/goro.m4a"
     },
     {
       "id": "kinoo",
       "japanese": "きのう",
       "romaji": "kinoo",
       "english": "yesterday",
-      "audio": "../audio/vocabulary/week_01/day_05/kinoo.wav"
+      "audio": "../audio/vocabulary/week_01/day_05/kinoo.m4a"
     },
     {
       "id": "kesa",
       "japanese": "けさ",
       "romaji": "kesa",
       "english": "this morning",
-      "audio": "../audio/vocabulary/week_01/day_05/kesa.wav"
+      "audio": "../audio/vocabulary/week_01/day_05/kesa.m4a"
     },
     {
       "id": "ototoi",
       "japanese": "おととい",
       "romaji": "ototoi",
       "english": "day before yesterday",
-      "audio": "../audio/vocabulary/week_01/day_05/ototoi.wav"
+      "audio": "../audio/vocabulary/week_01/day_05/ototoi.m4a"
     },
     {
       "id": "senshuu",
       "japanese": "せんしゅう",
       "romaji": "senshuu",
       "english": "last week",
-      "audio": "../audio/vocabulary/week_01/day_05/senshuu.wav"
+      "audio": "../audio/vocabulary/week_01/day_05/senshuu.m4a"
     },
     {
       "id": "konshuu",
       "japanese": "こんしゅう",
       "romaji": "konshuu",
       "english": "this week",
-      "audio": "../audio/vocabulary/week_01/day_05/konshuu.wav"
+      "audio": "../audio/vocabulary/week_01/day_05/konshuu.m4a"
     },
     {
       "id": "maishuu",
       "japanese": "まいしゅう",
       "romaji": "maishuu",
       "english": "every week",
-      "audio": "../audio/vocabulary/week_01/day_05/maishuu.wav"
+      "audio": "../audio/vocabulary/week_01/day_05/maishuu.m4a"
     }
   ]
 }

@@ -107,6 +107,7 @@
       "japanese": "テレビ",
       "romaji": "terebi",
       "english": "TV",
+      "image": "../images/study/week_03/day_11/terebi.png",
       "audio": "../audio/vocabulary/week_03/day_11/terebi.m4a",
       "alt": "Television set"
     },
@@ -429,6 +430,7 @@
       "japanese": "ルール",
       "romaji": "ruuru",
       "english": "rule",
+      "image": "../images/study/week_03/day_11/ruuru.png",
       "audio": "../audio/vocabulary/week_03/day_11/ruuru.m4a",
       "alt": "Rule"
     },
@@ -437,6 +439,7 @@
       "japanese": "やすみのひ",
       "romaji": "yasuminohi",
       "english": "day off / holiday",
+      "image": "../images/study/week_03/day_11/yasuminohi.png",
       "audio": "../audio/vocabulary/week_03/day_11/yasuminohi.m4a",
       "alt": "Day off"
     },
@@ -445,6 +448,7 @@
       "japanese": "もっと",
       "romaji": "motto",
       "english": "more",
+      "image": "../images/study/week_03/day_11/motto.png",
       "audio": "../audio/vocabulary/week_03/day_11/motto.m4a",
       "alt": "More"
     },
@@ -453,6 +457,7 @@
       "japanese": "すこし",
       "romaji": "sukoshi",
       "english": "a little",
+      "image": "../images/study/week_03/day_11/sukoshi.png",
       "audio": "../audio/vocabulary/week_03/day_11/sukoshi.m4a",
       "alt": "A little"
     },
@@ -461,6 +466,7 @@
       "japanese": "ぜんぜん",
       "romaji": "zenzen",
       "english": "not at all",
+      "image": "../images/study/week_03/day_11/zenzen.png",
       "audio": "../audio/vocabulary/week_03/day_11/zenzen.m4a",
       "alt": "Not at all"
     },
@@ -469,6 +475,7 @@
       "japanese": "よく",
       "romaji": "yoku",
       "english": "often / well",
+      "image": "../images/study/week_03/day_11/yoku.png",
       "audio": "../audio/vocabulary/week_03/day_11/yoku.m4a",
       "alt": "Often"
     },
@@ -477,6 +484,7 @@
       "japanese": "だいたい",
       "romaji": "daitai",
       "english": "about / roughly",
+      "image": "../images/study/week_03/day_11/daitai.png",
       "audio": "../audio/vocabulary/week_03/day_11/daitai.m4a",
       "alt": "About / roughly"
     }

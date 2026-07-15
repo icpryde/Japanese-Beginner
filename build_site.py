@@ -1914,7 +1914,13 @@ def _localize_quiz_fragment(fragment: str, key: str) -> str:
     for tag in soup.find_all(["audio", "source"]):
         src = tag.get("src") or ""
         if src:
-            tag["src"] = f"../audio/tests/{key}/{unquote(src.split('/')[-1])}"
+            name = unquote(src.split("/")[-1])
+            # transcode_audio.py converts .wav clips to .m4a — follow the rename
+            if not (CONTENT_DIR / "audio" / "tests" / key / name).exists():
+                alt = re.sub(r"\.wav$", ".m4a", name, flags=re.I)
+                if (CONTENT_DIR / "audio" / "tests" / key / alt).exists():
+                    name = alt
+            tag["src"] = f"../audio/tests/{key}/{name}"
             tag["preload"] = "none"
     for img in soup.find_all("img"):
         src = img.get("src") or ""

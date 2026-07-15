@@ -18,7 +18,7 @@
       "romaji": "daigaku",
       "english": "university",
       "image": "../images/study/week_01/day_01/daigaku.png",
-      "audio": "../audio/vocabulary/week_01/day_01/daigaku.wav",
+      "audio": "../audio/vocabulary/week_01/day_01/daigaku.m4a",
       "alt": "University building"
     },
     {
@@ -27,7 +27,7 @@
       "romaji": "daigakuinsei",
       "english": "graduate student",
       "image": "../images/study/week_01/day_01/daigakuinsei.png",
-      "audio": "../audio/vocabulary/week_01/day_01/daigakuinsei.wav",
+      "audio": "../audio/vocabulary/week_01/day_01/daigakuinsei.m4a",
       "alt": "Graduate student"
     },
     {
@@ -36,7 +36,7 @@
       "romaji": "gakusei",
       "english": "student",
       "image": "../images/study/week_01/day_01/gakusei.png",
-      "audio": "../audio/vocabulary/week_01/day_01/gakusei.wav",
+      "audio": "../audio/vocabulary/week_01/day_01/gakusei.m4a",
       "alt": "Student at a desk"
     },
     {
@@ -45,7 +45,7 @@
       "romaji": "koocha",
       "english": "black tea",
       "image": "../images/study/week_01/day_01/koocha.png",
-      "audio": "../audio/vocabulary/week_01/day_01/koocha.wav",
+      "audio": "../audio/vocabulary/week_01/day_01/koocha.m4a",
       "alt": "Cup of black tea"
     },
     {
@@ -54,7 +54,7 @@
       "romaji": "koohii",
       "english": "coffee",
       "image": "../images/study/week_01/day_01/koohii.png",
-      "audio": "../audio/vocabulary/week_01/day_01/koohii.wav",
+      "audio": "../audio/vocabulary/week_01/day_01/koohii.m4a",
       "alt": "Cup of coffee"
     },
     {
@@ -63,7 +63,7 @@
       "romaji": "nihongo",
       "english": "Japanese language",
       "image": "../images/study/week_01/day_01/nihongo.png",
-      "audio": "../audio/vocabulary/week_01/day_01/nihongo.wav",
+      "audio": "../audio/vocabulary/week_01/day_01/nihongo.m4a",
       "alt": "Person studying Japanese"
     },
     {
@@ -72,7 +72,7 @@
       "romaji": "omuraisu",
       "english": "omelette rice",
       "image": "../images/study/week_01/day_01/omuraisu.png",
-      "audio": "../audio/vocabulary/week_01/day_01/omuraisu.wav",
+      "audio": "../audio/vocabulary/week_01/day_01/omuraisu.m4a",
       "alt": "Plate of omelette rice"
     },
     {
@@ -81,7 +81,7 @@
       "romaji": "omuretsu",
       "english": "omelette",
       "image": "../images/study/week_01/day_01/omuretsu.png",
-      "audio": "../audio/vocabulary/week_01/day_01/omuretsu.wav",
+      "audio": "../audio/vocabulary/week_01/day_01/omuretsu.m4a",
       "alt": "Plate with an omelette"
     },
     {
@@ -90,7 +90,7 @@
       "romaji": "oosaka",
       "english": "Osaka",
       "image": "../images/study/week_01/day_01/oosaka.png",
-      "audio": "../audio/vocabulary/week_01/day_01/oosaka.wav",
+      "audio": "../audio/vocabulary/week_01/day_01/oosaka.m4a",
       "alt": "Osaka landmarks"
     },
     {
@@ -99,7 +99,7 @@
       "romaji": "rosenzu",
       "english": "route map",
       "image": "../images/study/week_01/day_01/rosenzu.png",
-      "audio": "../audio/vocabulary/week_01/day_01/rosenzu.wav",
+      "audio": "../audio/vocabulary/week_01/day_01/rosenzu.m4a",
       "alt": "Transit route map"
     },
     {
@@ -108,7 +108,7 @@
       "romaji": "senmon",
       "english": "major",
       "image": "../images/study/week_01/day_01/senmon.png",
-      "audio": "../audio/vocabulary/week_01/day_01/senmon.wav",
+      "audio": "../audio/vocabulary/week_01/day_01/senmon.m4a",
       "alt": "School subject icons"
     },
     {
@@ -117,7 +117,7 @@
       "romaji": "tokyo",
       "english": "Tokyo",
       "image": "../images/study/week_01/day_01/tokyo.png",
-      "audio": "../audio/vocabulary/week_01/day_01/tokyo.wav",
+      "audio": "../audio/vocabulary/week_01/day_01/tokyo.m4a",
       "alt": "Tokyo landmarks"
     }
   ]

@@ -18,7 +18,7 @@
       "romaji": "modorimasu",
       "english": "to go back",
       "image": "../images/study/week_10/day_48/modorimasu.png",
-      "audio": "../audio/vocabulary/week_10/day_48/modorimasu.wav",
+      "audio": "../audio/vocabulary/week_10/day_48/modorimasu.m4a",
       "alt": "A man walking with a U-turn arrow above him"
     },
     {
@@ -27,7 +27,7 @@
       "romaji": "(kaze o) hikimasu",
       "english": "to get (a cold)",
       "image": "../images/study/week_10/day_48/kaze_o_hikimasu.png",
-      "audio": "../audio/vocabulary/week_10/day_48/kaze_o_hikimasu.wav",
+      "audio": "../audio/vocabulary/week_10/day_48/kaze_o_hikimasu.m4a",
       "alt": "A sick man with a mask lying in bed"
     },
     {
@@ -36,7 +36,7 @@
       "romaji": "nodo",
       "english": "throat",
       "image": "../images/study/week_10/day_48/nodo.png",
-      "audio": "../audio/vocabulary/week_10/day_48/nodo.wav",
+      "audio": "../audio/vocabulary/week_10/day_48/nodo.m4a",
       "alt": "A man holding his sore throat"
     },
     {
@@ -45,7 +45,7 @@
       "romaji": "jugyoo",
       "english": "lesson",
       "image": "../images/study/week_10/day_48/jugyoo.png",
-      "audio": "../audio/vocabulary/week_10/day_48/jugyoo.wav",
+      "audio": "../audio/vocabulary/week_10/day_48/jugyoo.m4a",
       "alt": "A teacher giving a lesson to students at a blackboard"
     },
     {
@@ -54,7 +54,7 @@
       "romaji": "hajimarimasu",
       "english": "to start",
       "image": "../images/study/week_10/day_48/hajimarimasu.png",
-      "audio": "../audio/vocabulary/week_10/day_48/hajimarimasu.wav",
+      "audio": "../audio/vocabulary/week_10/day_48/hajimarimasu.m4a",
       "alt": "A theater stage with red curtains opening"
     },
     {
@@ -63,7 +63,7 @@
       "romaji": "sagarimasu",
       "english": "to go down",
       "image": "../images/study/week_10/day_48/sagarimasu.png",
-      "audio": "../audio/vocabulary/week_10/day_48/sagarimasu.wav",
+      "audio": "../audio/vocabulary/week_10/day_48/sagarimasu.m4a",
       "alt": "A bar chart declining with an orange downward arrow"
     },
     {
@@ -72,7 +72,7 @@
       "romaji": "kafunshoo",
       "english": "hay fever",
       "image": "../images/study/week_10/day_48/kafunshoo.png",
-      "audio": "../audio/vocabulary/week_10/day_48/kafunshoo.wav",
+      "audio": "../audio/vocabulary/week_10/day_48/kafunshoo.m4a",
       "alt": "A man suffering from hay fever with itchy eyes and nose"
     },
     {
@@ -81,7 +81,7 @@
       "romaji": "seki",
       "english": "cough",
       "image": "../images/study/week_10/day_48/seki.png",
-      "audio": "../audio/vocabulary/week_10/day_48/seki.wav",
+      "audio": "../audio/vocabulary/week_10/day_48/seki.m4a",
       "alt": "A woman coughing into her hand"
     },
     {
@@ -90,7 +90,7 @@
       "romaji": "saifu",
       "english": "wallet",
       "image": "../images/study/week_10/day_48/saifu.png",
-      "audio": "../audio/vocabulary/week_10/day_48/saifu.wav",
+      "audio": "../audio/vocabulary/week_10/day_48/saifu.m4a",
       "alt": "A brown leather wallet"
     },
     {
@@ -99,7 +99,7 @@
       "romaji": "kaidan",
       "english": "stairs",
       "image": "../images/study/week_10/day_48/kaidan.png",
-      "audio": "../audio/vocabulary/week_10/day_48/kaidan.wav",
+      "audio": "../audio/vocabulary/week_10/day_48/kaidan.m4a",
       "alt": "A flight of concrete stairs"
     },
     {
@@ -108,7 +108,7 @@
       "romaji": "korobimasu",
       "english": "to fall down",
       "image": "../images/study/week_10/day_48/korobimasu.png",
-      "audio": "../audio/vocabulary/week_10/day_48/korobimasu.wav",
+      "audio": "../audio/vocabulary/week_10/day_48/korobimasu.m4a",
       "alt": "A man tumbling down a set of stairs"
     },
     {
@@ -117,7 +117,7 @@
       "romaji": "furiimaaketto",
       "english": "flea market",
       "image": "../images/study/week_10/day_48/furiimaaketto.png",
-      "audio": "../audio/vocabulary/week_10/day_48/furiimaaketto.wav",
+      "audio": "../audio/vocabulary/week_10/day_48/furiimaaketto.m4a",
       "alt": "People browsing goods at a flea market stall"
     },
     {
@@ -125,72 +125,81 @@
       "japanese": "お疲れ様です",
       "romaji": "otsukaresama desu",
       "english": "Thank you for your hard work",
-      "audio": "../audio/vocabulary/week_10/day_48/otsukaresama_desu.wav",
-      "alt": "Thank you for your hard work"
+      "audio": "../audio/vocabulary/week_10/day_48/otsukaresama_desu.m4a",
+      "alt": "Thank you for your hard work",
+      "image": "../images/study/week_10/day_48/otsukaresama_desu.png"
     },
     {
       "id": "kekkoo",
       "japanese": "けっこう",
       "romaji": "kekkoo",
       "english": "fine; no thank you",
-      "audio": "../audio/vocabulary/week_10/day_48/kekkoo.wav",
-      "alt": "Fine; no thank you"
+      "audio": "../audio/vocabulary/week_10/day_48/kekkoo.m4a",
+      "alt": "Fine; no thank you",
+      "image": "../images/study/week_10/day_48/kekkoo.png"
     },
     {
       "id": "hitsuyoo_na",
       "japanese": "必要（な）",
       "romaji": "hitsuyoo (na)",
       "english": "necessary",
-      "audio": "../audio/vocabulary/week_10/day_48/hitsuyoo_na.wav",
-      "alt": "Necessary"
+      "audio": "../audio/vocabulary/week_10/day_48/hitsuyoo_na.m4a",
+      "alt": "Necessary",
+      "image": "../images/study/week_10/day_48/hitsuyoo_na.png"
     },
     {
       "id": "tooi",
       "japanese": "遠い",
       "romaji": "tooi",
       "english": "far",
-      "audio": "../audio/vocabulary/week_10/day_48/tooi.wav",
-      "alt": "Far"
+      "audio": "../audio/vocabulary/week_10/day_48/tooi.m4a",
+      "alt": "Far",
+      "image": "../images/study/week_10/day_48/tooi.png"
     },
     {
       "id": "jitsu_wa",
       "japanese": "実は",
       "romaji": "jitsu wa",
       "english": "as a matter of fact",
-      "audio": "../audio/vocabulary/week_10/day_48/jitsu_wa.wav",
-      "alt": "As a matter of fact"
+      "audio": "../audio/vocabulary/week_10/day_48/jitsu_wa.m4a",
+      "alt": "As a matter of fact",
+      "image": "../images/study/week_10/day_48/jitsu_wa.png"
     },
     {
       "id": "sorede",
       "japanese": "それで",
       "romaji": "sorede",
       "english": "and then",
-      "audio": "../audio/vocabulary/week_10/day_48/sorede.wav",
-      "alt": "And then"
+      "audio": "../audio/vocabulary/week_10/day_48/sorede.m4a",
+      "alt": "And then",
+      "image": "../images/study/week_10/day_48/sorede.png"
     },
     {
       "id": "sore_wa_ikemasen_ne",
       "japanese": "それは　いけませんね",
       "romaji": "sore wa ikemasen ne",
       "english": "that's too bad!",
-      "audio": "../audio/vocabulary/week_10/day_48/sore_wa_ikemasen_ne.wav",
-      "alt": "That's too bad!"
+      "audio": "../audio/vocabulary/week_10/day_48/sore_wa_ikemasen_ne.m4a",
+      "alt": "That's too bad!",
+      "image": "../images/study/week_10/day_48/sore_wa_ikemasen_ne.png"
     },
     {
       "id": "do_39_do",
       "japanese": "～度 Ex)39度",
       "romaji": "~do Ex. sanjuukyuu do",
       "english": "～degrees Ex. 39 degrees",
-      "audio": "../audio/vocabulary/week_10/day_48/do_39_do.wav",
-      "alt": "Degrees, e.g. 39 degrees"
+      "audio": "../audio/vocabulary/week_10/day_48/do_39_do.m4a",
+      "alt": "Degrees, e.g. 39 degrees",
+      "image": "../images/study/week_10/day_48/do_39_do.png"
     },
     {
       "id": "zuibun",
       "japanese": "ずいぶん",
       "romaji": "zuibun",
       "english": "very",
-      "audio": "../audio/vocabulary/week_10/day_48/zuibun.wav",
-      "alt": "Very"
+      "audio": "../audio/vocabulary/week_10/day_48/zuibun.m4a",
+      "alt": "Very",
+      "image": "../images/study/week_10/day_48/zuibun.png"
     }
   ]
 }

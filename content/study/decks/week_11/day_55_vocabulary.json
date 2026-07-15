@@ -18,7 +18,7 @@
       "romaji": "neboo shimasu",
       "english": "to oversleep",
       "image": "../images/study/week_11/day_55/neboo_shimasu.png",
-      "audio": "../audio/vocabulary/week_11/day_55/neboo_shimasu.wav",
+      "audio": "../audio/vocabulary/week_11/day_55/neboo_shimasu.m4a",
       "alt": "A man oversleeping in bed, glaring at his ringing alarm clock"
     },
     {
@@ -27,7 +27,7 @@
       "romaji": "mayoimasu",
       "english": "to get lost",
       "image": "../images/study/week_11/day_55/mayoimasu.png",
-      "audio": "../audio/vocabulary/week_11/day_55/mayoimasu.wav",
+      "audio": "../audio/vocabulary/week_11/day_55/mayoimasu.m4a",
       "alt": "A worried woman standing at a fork in the road between two signposts"
     },
     {
@@ -36,7 +36,7 @@
       "romaji": "otoshimasu",
       "english": "to drop",
       "image": "../images/study/week_11/day_55/otoshimasu.png",
-      "audio": "../audio/vocabulary/week_11/day_55/otoshimasu.wav",
+      "audio": "../audio/vocabulary/week_11/day_55/otoshimasu.m4a",
       "alt": "A panicked man dropping his smartphone over a ledge"
     },
     {
@@ -45,7 +45,7 @@
       "romaji": "panku shimasu",
       "english": "to get a flat tire",
       "image": "../images/study/week_11/day_55/panku_shimasu.png",
-      "audio": "../audio/vocabulary/week_11/day_55/panku_shimasu.wav",
+      "audio": "../audio/vocabulary/week_11/day_55/panku_shimasu.m4a",
       "alt": "A blue bicycle with air puffing out of its flat tires"
     },
     {
@@ -53,7 +53,8 @@
       "japanese": "さっき",
       "romaji": "sakki",
       "english": "a moment ago",
-      "audio": "../audio/vocabulary/week_11/day_55/sakki.wav",
+      "image": "../images/study/week_11/day_55/sakki.png",
+      "audio": "../audio/vocabulary/week_11/day_55/sakki.m4a",
       "alt": "A moment ago"
     },
     {
@@ -61,7 +62,8 @@
       "japanese": "データ",
       "romaji": "deeta",
       "english": "data",
-      "audio": "../audio/vocabulary/week_11/day_55/deeta.wav",
+      "image": "../images/study/week_11/day_55/deeta.png",
+      "audio": "../audio/vocabulary/week_11/day_55/deeta.m4a",
       "alt": "Data"
     },
     {
@@ -69,7 +71,8 @@
       "japanese": "まとめます【Ⅱ】",
       "romaji": "matomemasu",
       "english": "to put together",
-      "audio": "../audio/vocabulary/week_11/day_55/matomemasu.wav",
+      "image": "../images/study/week_11/day_55/matomemasu.png",
+      "audio": "../audio/vocabulary/week_11/day_55/matomemasu.m4a",
       "alt": "To put together"
     },
     {
@@ -77,7 +80,8 @@
       "japanese": "報告書",
       "romaji": "hookokusho",
       "english": "written report",
-      "audio": "../audio/vocabulary/week_11/day_55/hookokusho.wav",
+      "image": "../images/study/week_11/day_55/hookokusho.png",
+      "audio": "../audio/vocabulary/week_11/day_55/hookokusho.m4a",
       "alt": "Written report"
     },
     {
@@ -85,7 +89,8 @@
       "japanese": "取引先",
       "romaji": "torihikisaki",
       "english": "customer",
-      "audio": "../audio/vocabulary/week_11/day_55/torihikisaki.wav",
+      "image": "../images/study/week_11/day_55/torihikisaki.png",
+      "audio": "../audio/vocabulary/week_11/day_55/torihikisaki.m4a",
       "alt": "Customer"
     },
     {
@@ -93,7 +98,8 @@
       "japanese": "折り畳み",
       "romaji": "oritatami",
       "english": "folding",
-      "audio": "../audio/vocabulary/week_11/day_55/oritatami.wav",
+      "image": "../images/study/week_11/day_55/oritatami.png",
+      "audio": "../audio/vocabulary/week_11/day_55/oritatami.m4a",
       "alt": "Folding"
     },
     {
@@ -101,7 +107,8 @@
       "japanese": "終点",
       "romaji": "shuuten",
       "english": "last stop",
-      "audio": "../audio/vocabulary/week_11/day_55/shuuten.wav",
+      "image": "../images/study/week_11/day_55/shuuten.png",
+      "audio": "../audio/vocabulary/week_11/day_55/shuuten.m4a",
       "alt": "Last stop"
     },
     {
@@ -109,7 +116,8 @@
       "japanese": "定期券",
       "romaji": "teikiken",
       "english": "commuter pass",
-      "audio": "../audio/vocabulary/week_11/day_55/teikiken.wav",
+      "image": "../images/study/week_11/day_55/teikiken.png",
+      "audio": "../audio/vocabulary/week_11/day_55/teikiken.m4a",
       "alt": "Commuter pass"
     },
     {
@@ -117,7 +125,8 @@
       "japanese": "フリーズします【Ⅲ】",
       "romaji": "furiizu shimasu",
       "english": "to freeze",
-      "audio": "../audio/vocabulary/week_11/day_55/furiizu_shimasu.wav",
+      "image": "../images/study/week_11/day_55/furiizu_shimasu.png",
+      "audio": "../audio/vocabulary/week_11/day_55/furiizu_shimasu.m4a",
       "alt": "To freeze (a computer)"
     },
     {
@@ -126,7 +135,7 @@
       "romaji": "gurafu",
       "english": "graph",
       "image": "../images/study/week_11/day_55/gurafu.png",
-      "audio": "../audio/vocabulary/week_11/day_55/gurafu.wav",
+      "audio": "../audio/vocabulary/week_11/day_55/gurafu.m4a",
       "alt": "A pie chart, a line graph and a rising bar chart"
     },
     {
@@ -135,7 +144,7 @@
       "romaji": "IC kaado",
       "english": "IC card",
       "image": "../images/study/week_11/day_55/ic_kaado.png",
-      "audio": "../audio/vocabulary/week_11/day_55/ic_kaado.wav",
+      "audio": "../audio/vocabulary/week_11/day_55/ic_kaado.m4a",
       "alt": "Several IC transit smart cards"
     },
     {
@@ -144,7 +153,7 @@
       "romaji": "kaisuuken",
       "english": "book of tickets",
       "image": "../images/study/week_11/day_55/kaisuuken.png",
-      "audio": "../audio/vocabulary/week_11/day_55/kaisuuken.wav",
+      "audio": "../audio/vocabulary/week_11/day_55/kaisuuken.m4a",
       "alt": "A fanned-out book of green tickets"
     },
     {
@@ -153,7 +162,7 @@
       "romaji": "higasa",
       "english": "parasol",
       "image": "../images/study/week_11/day_55/higasa.png",
-      "audio": "../audio/vocabulary/week_11/day_55/higasa.wav",
+      "audio": "../audio/vocabulary/week_11/day_55/higasa.m4a",
       "alt": "A woman shading herself with a parasol under the blazing sun"
     },
     {
@@ -161,7 +170,8 @@
       "japanese": "表",
       "romaji": "hyoo",
       "english": "table, chart",
-      "audio": "../audio/vocabulary/week_11/day_55/hyoo.wav",
+      "image": "../images/study/week_11/day_55/hyoo.png",
+      "audio": "../audio/vocabulary/week_11/day_55/hyoo.m4a",
       "alt": "Table, chart"
     }
   ]

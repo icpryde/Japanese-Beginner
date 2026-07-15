@@ -251,6 +251,7 @@
       "japanese": "たくさん",
       "romaji": "taksan",
       "english": "many",
+      "image": "../images/study/week_02/day_10/taksan.png",
       "audio": "../audio/vocabulary/week_02/day_10/taksan.m4a",
       "alt": "Many"
     },
@@ -259,6 +260,7 @@
       "japanese": "ちいさい",
       "romaji": "chiisai",
       "english": "small",
+      "image": "../images/study/week_02/day_10/chiisai.png",
       "audio": "../audio/vocabulary/week_02/day_10/chiisai.m4a",
       "alt": "Small"
     },
@@ -267,6 +269,7 @@
       "japanese": "かわいい",
       "romaji": "kawaii",
       "english": "cute",
+      "image": "../images/study/week_02/day_10/kawaii.png",
       "audio": "../audio/vocabulary/week_02/day_10/kawaii.m4a",
       "alt": "Cute"
     },
@@ -302,6 +305,7 @@
       "japanese": "なんにん？",
       "romaji": "nan nin",
       "english": "How many people?",
+      "image": "../images/study/week_02/day_10/nan_nin.png",
       "alt": "How many people"
     },
     {
@@ -309,6 +313,7 @@
       "japanese": "ひとり",
       "romaji": "hitori",
       "english": "one person",
+      "image": "../images/study/week_02/day_10/hitori.png",
       "alt": "One person"
     },
     {
@@ -316,6 +321,7 @@
       "japanese": "ふたり",
       "romaji": "futari",
       "english": "two people",
+      "image": "../images/study/week_02/day_10/futari.png",
       "alt": "Two people"
     },
     {
@@ -323,6 +329,7 @@
       "japanese": "さんにん",
       "romaji": "sannin",
       "english": "three people",
+      "image": "../images/study/week_02/day_10/sannin.png",
       "alt": "Three people"
     },
     {
@@ -330,6 +337,7 @@
       "japanese": "よにん",
       "romaji": "yonin",
       "english": "four people",
+      "image": "../images/study/week_02/day_10/yonin.png",
       "alt": "Four people"
     },
     {
@@ -337,6 +345,7 @@
       "japanese": "ごにん",
       "romaji": "gonin",
       "english": "five people",
+      "image": "../images/study/week_02/day_10/gonin.png",
       "alt": "Five people"
     }
   ]

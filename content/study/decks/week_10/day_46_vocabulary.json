@@ -18,7 +18,7 @@
       "romaji": "kangaemasu",
       "english": "to think",
       "image": "../images/study/week_10/day_46/kangaemasu.png",
-      "audio": "../audio/vocabulary/week_10/day_46/kangaemasu.wav",
+      "audio": "../audio/vocabulary/week_10/day_46/kangaemasu.m4a",
       "alt": "A man thinking about his future"
     },
     {
@@ -27,7 +27,7 @@
       "romaji": "mikan",
       "english": "mandarin",
       "image": "../images/study/week_10/day_46/mikan.png",
-      "audio": "../audio/vocabulary/week_10/day_46/mikan.wav",
+      "audio": "../audio/vocabulary/week_10/day_46/mikan.m4a",
       "alt": "A mandarin orange"
     },
     {
@@ -36,7 +36,7 @@
       "romaji": "kazoemasu",
       "english": "to count",
       "image": "../images/study/week_10/day_46/kazoemasu.png",
-      "audio": "../audio/vocabulary/week_10/day_46/kazoemasu.wav",
+      "audio": "../audio/vocabulary/week_10/day_46/kazoemasu.m4a",
       "alt": "Hands counting on fingers"
     },
     {
@@ -45,7 +45,7 @@
       "romaji": "shirabemasu",
       "english": "to look up",
       "image": "../images/study/week_10/day_46/shirabemasu.png",
-      "audio": "../audio/vocabulary/week_10/day_46/shirabemasu.wav",
+      "audio": "../audio/vocabulary/week_10/day_46/shirabemasu.m4a",
       "alt": "A person looking something up on a laptop"
     },
     {
@@ -54,7 +54,7 @@
       "romaji": "toochaku shimasu",
       "english": "to arrive",
       "image": "../images/study/week_10/day_46/toochaku_shimasu.png",
-      "audio": "../audio/vocabulary/week_10/day_46/toochaku_shimasu.wav",
+      "audio": "../audio/vocabulary/week_10/day_46/toochaku_shimasu.m4a",
       "alt": "An arrow pointing down at a station where a train arrives"
     },
     {
@@ -63,7 +63,7 @@
       "romaji": "omote",
       "english": "surface; front",
       "image": "../images/study/week_10/day_46/omote.png",
-      "audio": "../audio/vocabulary/week_10/day_46/omote.wav",
+      "audio": "../audio/vocabulary/week_10/day_46/omote.m4a",
       "alt": "The front side of an identification card"
     },
     {
@@ -72,7 +72,7 @@
       "romaji": "myuujikaru",
       "english": "musical",
       "image": "../images/study/week_10/day_46/myuujikaru.png",
-      "audio": "../audio/vocabulary/week_10/day_46/myuujikaru.wav",
+      "audio": "../audio/vocabulary/week_10/day_46/myuujikaru.m4a",
       "alt": "A performer singing and dancing in a musical"
     },
     {
@@ -81,7 +81,7 @@
       "romaji": "hakimasu",
       "english": "to put on (lower-body clothing)",
       "image": "../images/study/week_10/day_46/hakimasu.png",
-      "audio": "../audio/vocabulary/week_10/day_46/hakimasu.wav",
+      "audio": "../audio/vocabulary/week_10/day_46/hakimasu.m4a",
       "alt": "A woman wearing lower-body clothing"
     },
     {
@@ -90,7 +90,7 @@
       "romaji": "kaburimasu",
       "english": "to put on (one’s head)",
       "image": "../images/study/week_10/day_46/kaburimasu.png",
-      "audio": "../audio/vocabulary/week_10/day_46/kaburimasu.wav",
+      "audio": "../audio/vocabulary/week_10/day_46/kaburimasu.m4a",
       "alt": "A person wearing a cap on their head"
     },
     {
@@ -98,64 +98,72 @@
       "japanese": "はっきり",
       "romaji": "hakkiri",
       "english": "clearly",
-      "audio": "../audio/vocabulary/week_10/day_46/hakkiri.wav",
-      "alt": "Clearly"
+      "audio": "../audio/vocabulary/week_10/day_46/hakkiri.m4a",
+      "alt": "Clearly",
+      "image": "../images/study/week_10/day_46/hakkiri.png"
     },
     {
       "id": "ikko",
       "japanese": "～個 Ex)1個",
       "romaji": "~ko Ex. ikko",
       "english": "counter for a piece Ex. one piece",
-      "audio": "../audio/vocabulary/week_10/day_46/ikko.wav",
-      "alt": "Counter for a piece, e.g. one piece"
+      "audio": "../audio/vocabulary/week_10/day_46/ikko.m4a",
+      "alt": "Counter for a piece, e.g. one piece",
+      "image": "../images/study/week_10/day_46/ikko.png"
     },
     {
       "id": "ippaku",
       "japanese": "～泊 Ex)1泊",
       "romaji": "~haku/paku Ex. ippaku",
       "english": "counter for nights of a stay Ex. one night",
-      "audio": "../audio/vocabulary/week_10/day_46/ippaku.wav",
-      "alt": "Counter for nights of a stay, e.g. one night"
+      "audio": "../audio/vocabulary/week_10/day_46/ippaku.m4a",
+      "alt": "Counter for nights of a stay, e.g. one night",
+      "image": "../images/study/week_10/day_46/ippaku.png"
     },
     {
       "id": "tashikamemasu",
       "japanese": "確かめます【Ⅱ】",
       "romaji": "tashikamemasu",
       "english": "to make sure",
-      "audio": "../audio/vocabulary/week_10/day_46/tashikamemasu.wav",
-      "alt": "To make sure"
+      "audio": "../audio/vocabulary/week_10/day_46/tashikamemasu.m4a",
+      "alt": "To make sure",
+      "image": "../images/study/week_10/day_46/tashikamemasu.png"
     },
     {
       "id": "chokusetsu",
       "japanese": "直接",
       "romaji": "chokusetsu",
       "english": "direct",
-      "audio": "../audio/vocabulary/week_10/day_46/chokusetsu.wav",
-      "alt": "Direct"
+      "audio": "../audio/vocabulary/week_10/day_46/chokusetsu.m4a",
+      "alt": "Direct",
+      "image": "../images/study/week_10/day_46/chokusetsu.png"
     },
     {
       "id": "adobaisu",
       "japanese": "アドバイス",
       "romaji": "adobaisu",
       "english": "advice",
-      "audio": "../audio/vocabulary/week_10/day_46/adobaisu.wav",
-      "alt": "Advice"
+      "audio": "../audio/vocabulary/week_10/day_46/adobaisu.m4a",
+      "alt": "Advice",
+      "image": "../images/study/week_10/day_46/adobaisu.png"
     },
     {
       "id": "shiken_o_ukemasu",
       "japanese": "（試験を）受けます【Ⅱ】",
       "romaji": "(shiken o) ukemasu",
       "english": "to take (an exam)",
-      "audio": "../audio/vocabulary/week_10/day_46/shiken_o_ukemasu.wav",
-      "alt": "To take (an exam)"
+      "audio": "../audio/vocabulary/week_10/day_46/shiken_o_ukemasu.m4a",
+      "alt": "To take (an exam)",
+      "image": "../images/study/week_10/day_46/shiken_o_ukemasu.png"
     },
     {
       "id": "soodan_shimasu",
       "japanese": "相談します【Ⅲ】",
       "romaji": "soodan shimasu",
       "english": "to consult (someone)",
-      "audio": "../audio/vocabulary/week_10/day_46/soodan_shimasu.wav",
-      "alt": "To consult (someone)"
+      "audio": "../audio/vocabulary/week_10/day_46/soodan_shimasu.m4a",
+      "alt": "To consult (someone)",
+      "image": "../images/study/week_10/day_46/soodan_shimasu.png"
     }
   ]
 }

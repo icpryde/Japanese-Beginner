@@ -18,7 +18,7 @@
       "romaji": "sensee",
       "english": "teacher",
       "image": "../images/study/week_01/day_05/sensee.png",
-      "audio": "../audio/vocabulary/week_01/day_05/sensee.wav",
+      "audio": "../audio/vocabulary/week_01/day_05/sensee.m4a",
       "alt": "Teacher"
     },
     {
@@ -36,7 +36,7 @@
       "romaji": "ginkoo",
       "english": "bank",
       "image": "../images/study/week_01/day_05/ginkoo.png",
-      "audio": "../audio/vocabulary/week_01/day_05/ginkoo.wav",
+      "audio": "../audio/vocabulary/week_01/day_05/ginkoo.m4a",
       "alt": "Bank"
     },
     {
@@ -45,7 +45,7 @@
       "romaji": "suupaa",
       "english": "supermarket",
       "image": "../images/study/week_01/day_05/suupaa.png",
-      "audio": "../audio/vocabulary/week_01/day_05/suupaa.wav",
+      "audio": "../audio/vocabulary/week_01/day_05/suupaa.m4a",
       "alt": "Supermarket"
     },
     {
@@ -63,7 +63,7 @@
       "romaji": "nemasu",
       "english": "to sleep",
       "image": "../images/study/week_01/day_05/nemas.png",
-      "audio": "../audio/vocabulary/week_01/day_05/nemasu.wav",
+      "audio": "../audio/vocabulary/week_01/day_05/nemasu.m4a",
       "alt": "To sleep"
     },
     {
@@ -72,7 +72,7 @@
       "romaji": "okimasu",
       "english": "to wake up",
       "image": "../images/study/week_01/day_05/okimas.png",
-      "audio": "../audio/vocabulary/week_01/day_05/okimasu.wav",
+      "audio": "../audio/vocabulary/week_01/day_05/okimasu.m4a",
       "alt": "To wake up"
     },
     {
@@ -81,7 +81,7 @@
       "romaji": "ima",
       "english": "now",
       "image": "../images/study/week_01/day_05/ima.png",
-      "audio": "../audio/vocabulary/week_01/day_05/ima.wav",
+      "audio": "../audio/vocabulary/week_01/day_05/ima.m4a",
       "alt": "Now"
     },
     {
@@ -90,7 +90,7 @@
       "romaji": "benkyoo shimasu",
       "english": "to study",
       "image": "../images/study/week_01/day_05/benkyoo-shimas.png",
-      "audio": "../audio/vocabulary/week_01/day_05/benkyoo-shimas.wav",
+      "audio": "../audio/vocabulary/week_01/day_05/benkyoo-shimas.m4a",
       "alt": "To study"
     },
     {
@@ -99,7 +99,7 @@
       "romaji": "hatarakimasu",
       "english": "to work",
       "image": "../images/study/week_01/day_05/hatarakimas.png",
-      "audio": "../audio/vocabulary/week_01/day_05/hatarakimas.wav",
+      "audio": "../audio/vocabulary/week_01/day_05/hatarakimas.m4a",
       "alt": "To work"
     }
   ]

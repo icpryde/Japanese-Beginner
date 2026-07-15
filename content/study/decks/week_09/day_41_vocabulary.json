@@ -18,7 +18,7 @@
       "romaji": "tsurete ikimasu",
       "english": "to take someone somewhere",
       "image": "../images/study/week_09/day_41/tsurete_ikimasu.png",
-      "audio": "../audio/vocabulary/week_09/day_41/tsurete_ikimasu.wav",
+      "audio": "../audio/vocabulary/week_09/day_41/tsurete_ikimasu.m4a",
       "alt": "Two people walking together, one taking the other along"
     },
     {
@@ -27,7 +27,7 @@
       "romaji": "nimotsu",
       "english": "luggage",
       "image": "../images/study/week_09/day_41/nimotsu.png",
-      "audio": "../audio/vocabulary/week_09/day_41/nimotsu.wav",
+      "audio": "../audio/vocabulary/week_09/day_41/nimotsu.m4a",
       "alt": "A woman struggling to close an overstuffed suitcase"
     },
     {
@@ -36,7 +36,7 @@
       "romaji": "mochimasu",
       "english": "to carry",
       "image": "../images/study/week_09/day_41/mochimasu.png",
-      "audio": "../audio/vocabulary/week_09/day_41/mochimasu.wav",
+      "audio": "../audio/vocabulary/week_09/day_41/mochimasu.m4a",
       "alt": "A man carrying shopping bags in both hands"
     },
     {
@@ -45,7 +45,7 @@
       "romaji": "(hito o) okurimasu",
       "english": "to escort (someone) somewhere",
       "image": "../images/study/week_09/day_41/hito_o_okurimasu.png",
-      "audio": "../audio/vocabulary/week_09/day_41/hito_o_okurimasu.wav",
+      "audio": "../audio/vocabulary/week_09/day_41/hito_o_okurimasu.m4a",
       "alt": "A car dropping someone off at a train station"
     },
     {
@@ -54,7 +54,7 @@
       "romaji": "naoshimasu",
       "english": "to fix",
       "image": "../images/study/week_09/day_41/naoshimasu.png",
-      "audio": "../audio/vocabulary/week_09/day_41/naoshimasu.wav",
+      "audio": "../audio/vocabulary/week_09/day_41/naoshimasu.m4a",
       "alt": "A mechanic with a wrench repairing a car"
     },
     {
@@ -63,7 +63,7 @@
       "romaji": "keshigomu",
       "english": "eraser",
       "image": "../images/study/week_09/day_41/keshigomu.png",
-      "audio": "../audio/vocabulary/week_09/day_41/keshigomu.wav",
+      "audio": "../audio/vocabulary/week_09/day_41/keshigomu.m4a",
       "alt": "A blue eraser"
     },
     {
@@ -72,7 +72,7 @@
       "romaji": "sukaitsurii",
       "english": "Skytree",
       "image": "../images/study/week_09/day_41/sukaitsurii.png",
-      "audio": "../audio/vocabulary/week_09/day_41/sukaitsurii.wav",
+      "audio": "../audio/vocabulary/week_09/day_41/sukaitsurii.m4a",
       "alt": "The Tokyo Skytree tower"
     },
     {
@@ -81,7 +81,7 @@
       "romaji": "hikkoshi",
       "english": "moving",
       "image": "../images/study/week_09/day_41/hikkoshi.png",
-      "audio": "../audio/vocabulary/week_09/day_41/hikkoshi.wav",
+      "audio": "../audio/vocabulary/week_09/day_41/hikkoshi.m4a",
       "alt": "An excited woman next to a moving truck"
     },
     {
@@ -90,7 +90,7 @@
       "romaji": "tetsudaimasu",
       "english": "to help",
       "image": "../images/study/week_09/day_41/tetsudaimasu.png",
-      "audio": "../audio/vocabulary/week_09/day_41/tetsudaimasu.wav",
+      "audio": "../audio/vocabulary/week_09/day_41/tetsudaimasu.m4a",
       "alt": "A child helping a parent wash dishes"
     },
     {
@@ -99,7 +99,7 @@
       "romaji": "suidoo",
       "english": "water supply",
       "image": "../images/study/week_09/day_41/suidoo.png",
-      "audio": "../audio/vocabulary/week_09/day_41/suidoo.wav",
+      "audio": "../audio/vocabulary/week_09/day_41/suidoo.m4a",
       "alt": "Water flowing from a tap"
     },
     {
@@ -108,7 +108,7 @@
       "romaji": "gasu",
       "english": "gas",
       "image": "../images/study/week_09/day_41/gasu.png",
-      "audio": "../audio/vocabulary/week_09/day_41/gasu.wav",
+      "audio": "../audio/vocabulary/week_09/day_41/gasu.m4a",
       "alt": "A gas valve with a red handle"
     },
     {
@@ -117,7 +117,7 @@
       "romaji": "annai shimasu",
       "english": "to guide",
       "image": "../images/study/week_09/day_41/annai_shimasu.png",
-      "audio": "../audio/vocabulary/week_09/day_41/annai_shimasu.wav",
+      "audio": "../audio/vocabulary/week_09/day_41/annai_shimasu.m4a",
       "alt": "A female guide in uniform holding a flag"
     },
     {
@@ -126,7 +126,7 @@
       "romaji": "shookai shimasu",
       "english": "to introduce (someone)",
       "image": "../images/study/week_09/day_41/shookai_shimasu.png",
-      "audio": "../audio/vocabulary/week_09/day_41/shookai_shimasu.wav",
+      "audio": "../audio/vocabulary/week_09/day_41/shookai_shimasu.m4a",
       "alt": "Businessmen shaking hands as one introduces another"
     },
     {
@@ -134,7 +134,8 @@
       "japanese": "この間",
       "romaji": "kono aida",
       "english": "the other day",
-      "audio": "../audio/vocabulary/week_09/day_41/kono_aida.wav",
+      "image": "../images/study/week_09/day_41/kono_aida.png",
+      "audio": "../audio/vocabulary/week_09/day_41/kono_aida.m4a",
       "alt": "The other day"
     },
     {
@@ -142,7 +143,8 @@
       "japanese": "全部",
       "romaji": "zenbu",
       "english": "all",
-      "audio": "../audio/vocabulary/week_09/day_41/zenbu.wav",
+      "image": "../images/study/week_09/day_41/zenbu.png",
+      "audio": "../audio/vocabulary/week_09/day_41/zenbu.m4a",
       "alt": "All"
     },
     {
@@ -150,7 +152,8 @@
       "japanese": "ほかに",
       "romaji": "hoka ni",
       "english": "in addition",
-      "audio": "../audio/vocabulary/week_09/day_41/hoka_ni.wav",
+      "image": "../images/study/week_09/day_41/hoka_ni.png",
+      "audio": "../audio/vocabulary/week_09/day_41/hoka_ni.m4a",
       "alt": "In addition"
     },
     {
@@ -158,7 +161,8 @@
       "japanese": "また",
       "romaji": "mata",
       "english": "not yet",
-      "audio": "../audio/vocabulary/week_09/day_41/mata.wav",
+      "image": "../images/study/week_09/day_41/mata.png",
+      "audio": "../audio/vocabulary/week_09/day_41/mata.m4a",
       "alt": "Not yet"
     },
     {
@@ -166,7 +170,8 @@
       "japanese": "終わります【Ⅰ】",
       "romaji": "owarimasu",
       "english": "to finish",
-      "audio": "../audio/vocabulary/week_09/day_41/owarimasu.wav",
+      "image": "../images/study/week_09/day_41/owarimasu.png",
+      "audio": "../audio/vocabulary/week_09/day_41/owarimasu.m4a",
       "alt": "To finish"
     },
     {
@@ -174,7 +179,8 @@
       "japanese": "～会社 Ex)水道会社",
       "romaji": "~kaisha Ex. suidoo gaisha",
       "english": "～company Ex. water supply company",
-      "audio": "../audio/vocabulary/week_09/day_41/kaisha.wav",
+      "image": "../images/study/week_09/day_41/kaisha.png",
+      "audio": "../audio/vocabulary/week_09/day_41/kaisha.m4a",
       "alt": "Suffix for company, e.g. water supply company"
     }
   ]

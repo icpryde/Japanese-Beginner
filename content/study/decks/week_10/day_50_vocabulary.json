@@ -18,7 +18,7 @@
       "romaji": "paatii doresu",
       "english": "party dress",
       "image": "../images/study/week_10/day_50/paatii_doresu.png",
-      "audio": "../audio/vocabulary/week_10/day_50/paatii_doresu.wav",
+      "audio": "../audio/vocabulary/week_10/day_50/paatii_doresu.m4a",
       "alt": "A woman wearing a pink party dress, highlighted by a yellow arrow"
     },
     {
@@ -27,7 +27,7 @@
       "romaji": "sagashimasu",
       "english": "to search",
       "image": "../images/study/week_10/day_50/sagashimasu.png",
-      "audio": "../audio/vocabulary/week_10/day_50/sagashimasu.wav",
+      "audio": "../audio/vocabulary/week_10/day_50/sagashimasu.m4a",
       "alt": "A man patting his pockets searching for something"
     },
     {
@@ -36,7 +36,7 @@
       "romaji": "wanpiisu",
       "english": "dress",
       "image": "../images/study/week_10/day_50/wanpiisu.png",
-      "audio": "../audio/vocabulary/week_10/day_50/wanpiisu.wav",
+      "audio": "../audio/vocabulary/week_10/day_50/wanpiisu.m4a",
       "alt": "A light blue one-piece dress"
     },
     {
@@ -45,7 +45,7 @@
       "romaji": "kangaemasu",
       "english": "to think",
       "image": "../images/study/week_10/day_50/kangaemasu.png",
-      "audio": "../audio/vocabulary/week_10/day_50/kangaemasu.wav",
+      "audio": "../audio/vocabulary/week_10/day_50/kangaemasu.m4a",
       "alt": "A man at a desk thinking about the future"
     },
     {
@@ -53,56 +53,63 @@
       "japanese": "出席します【Ⅲ】",
       "romaji": "shusseki shimasu",
       "english": "to attend",
-      "audio": "../audio/vocabulary/week_10/day_50/shusseki_shimasu.wav",
-      "alt": "To attend"
+      "audio": "../audio/vocabulary/week_10/day_50/shusseki_shimasu.m4a",
+      "alt": "To attend",
+      "image": "../images/study/week_10/day_50/shusseki_shimasu.png"
     },
     {
       "id": "nakushimasu",
       "japanese": "失くします【Ⅰ】",
       "romaji": "nakushimasu",
       "english": "to lose (something)",
-      "audio": "../audio/vocabulary/week_10/day_50/nakushimasu.wav",
-      "alt": "To lose (something)"
+      "audio": "../audio/vocabulary/week_10/day_50/nakushimasu.m4a",
+      "alt": "To lose (something)",
+      "image": "../images/study/week_10/day_50/nakushimasu.png"
     },
     {
       "id": "naorimasu",
       "japanese": "治ります【Ⅰ】",
       "romaji": "naorimasu",
       "english": "to be cured",
-      "audio": "../audio/vocabulary/week_10/day_50/naorimasu.wav",
-      "alt": "To be cured"
+      "audio": "../audio/vocabulary/week_10/day_50/naorimasu.m4a",
+      "alt": "To be cured",
+      "image": "../images/study/week_10/day_50/naorimasu.png"
     },
     {
       "id": "juken_shimasu",
       "japanese": "受験します【Ⅲ】",
       "romaji": "juken shimasu",
       "english": "to take an exam",
-      "audio": "../audio/vocabulary/week_10/day_50/juken_shimasu.wav",
-      "alt": "To take an exam"
+      "audio": "../audio/vocabulary/week_10/day_50/juken_shimasu.m4a",
+      "alt": "To take an exam",
+      "image": "../images/study/week_10/day_50/juken_shimasu.png"
     },
     {
       "id": "gansho",
       "japanese": "願書",
       "romaji": "gansho",
       "english": "written application",
-      "audio": "../audio/vocabulary/week_10/day_50/gansho.wav",
-      "alt": "Written application"
+      "audio": "../audio/vocabulary/week_10/day_50/gansho.m4a",
+      "alt": "Written application",
+      "image": "../images/study/week_10/day_50/gansho.png"
     },
     {
       "id": "zutsu_hitotsu_zutsu",
       "japanese": "～ずつ Ex)１つずつ",
       "romaji": "~zutsu Ex. hitotsu zutsu",
       "english": "each, apiece Ex. one by one",
-      "audio": "../audio/vocabulary/week_10/day_50/zutsu_hitotsu_zutsu.wav",
-      "alt": "Each, apiece, e.g. one by one"
+      "audio": "../audio/vocabulary/week_10/day_50/zutsu_hitotsu_zutsu.m4a",
+      "alt": "Each, apiece, e.g. one by one",
+      "image": "../images/study/week_10/day_50/zutsu_hitotsu_zutsu.png"
     },
     {
       "id": "renrakusaki",
       "japanese": "連絡先",
       "romaji": "renrakusaki",
       "english": "contact address",
-      "audio": "../audio/vocabulary/week_10/day_50/renrakusaki.wav",
-      "alt": "Contact address"
+      "audio": "../audio/vocabulary/week_10/day_50/renrakusaki.m4a",
+      "alt": "Contact address",
+      "image": "../images/study/week_10/day_50/renrakusaki.png"
     }
   ]
 }

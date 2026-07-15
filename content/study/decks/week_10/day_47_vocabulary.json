@@ -17,7 +17,8 @@
       "japanese": "エントリーシート",
       "romaji": "entoriishiito",
       "english": "application form",
-      "audio": "../audio/vocabulary/week_10/day_47/entoriishiito.wav",
+      "image": "../images/study/week_10/day_47/entoriishiito.png",
+      "audio": "../audio/vocabulary/week_10/day_47/entoriishiito.m4a",
       "alt": "Application form"
     },
     {
@@ -26,7 +27,7 @@
       "romaji": "shinpai (na)",
       "english": "anxious",
       "image": "../images/study/week_10/day_47/shinpai_na.png",
-      "audio": "../audio/vocabulary/week_10/day_47/shinpai_na.wav",
+      "audio": "../audio/vocabulary/week_10/day_47/shinpai_na.m4a",
       "alt": "A worried woman with an empty thought bubble"
     },
     {
@@ -35,7 +36,7 @@
       "romaji": "komyunikeeshon",
       "english": "communication",
       "image": "../images/study/week_10/day_47/komyunikeeshon.png",
-      "audio": "../audio/vocabulary/week_10/day_47/komyunikeeshon.wav",
+      "audio": "../audio/vocabulary/week_10/day_47/komyunikeeshon.m4a",
       "alt": "Businesspeople talking happily together"
     },
     {
@@ -44,7 +45,7 @@
       "romaji": "baiorin",
       "english": "violin",
       "image": "../images/study/week_10/day_47/baiorin.png",
-      "audio": "../audio/vocabulary/week_10/day_47/baiorin.wav",
+      "audio": "../audio/vocabulary/week_10/day_47/baiorin.m4a",
       "alt": "A violin and bow"
     },
     {
@@ -53,7 +54,7 @@
       "romaji": "netto (= intaanetto)",
       "english": "internet",
       "image": "../images/study/week_10/day_47/netto.png",
-      "audio": "../audio/vocabulary/week_10/day_47/netto.wav",
+      "audio": "../audio/vocabulary/week_10/day_47/netto.m4a",
       "alt": "A globe surrounded by people connected to the internet"
     },
     {
@@ -62,7 +63,7 @@
       "romaji": "kurejitto kaado",
       "english": "credit card",
       "image": "../images/study/week_10/day_47/kurejitto_kaado.png",
-      "audio": "../audio/vocabulary/week_10/day_47/kurejitto_kaado.wav",
+      "audio": "../audio/vocabulary/week_10/day_47/kurejitto_kaado.m4a",
       "alt": "A blue credit card with a world map design"
     },
     {
@@ -71,7 +72,7 @@
       "romaji": "genkin",
       "english": "cash",
       "image": "../images/study/week_10/day_47/genkin.png",
-      "audio": "../audio/vocabulary/week_10/day_47/genkin.wav",
+      "audio": "../audio/vocabulary/week_10/day_47/genkin.m4a",
       "alt": "Paper banknotes and coins"
     },
     {
@@ -80,7 +81,7 @@
       "romaji": "biiru",
       "english": "beer",
       "image": "../images/study/week_10/day_47/biiru.png",
-      "audio": "../audio/vocabulary/week_10/day_47/biiru.wav",
+      "audio": "../audio/vocabulary/week_10/day_47/biiru.m4a",
       "alt": "A frothy mug of beer"
     },
     {
@@ -89,7 +90,7 @@
       "romaji": "wain",
       "english": "wine",
       "image": "../images/study/week_10/day_47/wain.png",
-      "audio": "../audio/vocabulary/week_10/day_47/wain.wav",
+      "audio": "../audio/vocabulary/week_10/day_47/wain.m4a",
       "alt": "A bottle of wine and a glass of red wine"
     },
     {
@@ -97,7 +98,8 @@
       "japanese": "ひらがな",
       "romaji": "hiragana",
       "english": "Hiragana",
-      "audio": "../audio/vocabulary/week_10/day_47/hiragana.wav",
+      "image": "../images/study/week_10/day_47/hiragana.png",
+      "audio": "../audio/vocabulary/week_10/day_47/hiragana.m4a",
       "alt": "Hiragana"
     },
     {
@@ -105,7 +107,8 @@
       "japanese": "就職",
       "romaji": "shuushoku",
       "english": "finding employment",
-      "audio": "../audio/vocabulary/week_10/day_47/shuushoku.wav",
+      "image": "../images/study/week_10/day_47/shuushoku.png",
+      "audio": "../audio/vocabulary/week_10/day_47/shuushoku.m4a",
       "alt": "Finding employment"
     },
     {
@@ -113,7 +116,8 @@
       "japanese": "活動",
       "romaji": "katsudoo",
       "english": "activity",
-      "audio": "../audio/vocabulary/week_10/day_47/katsudoo.wav",
+      "image": "../images/study/week_10/day_47/katsudoo.png",
+      "audio": "../audio/vocabulary/week_10/day_47/katsudoo.m4a",
       "alt": "Activity"
     },
     {
@@ -121,7 +125,8 @@
       "japanese": "うまく いきます【Ⅰ】",
       "romaji": "umaku ikimasu",
       "english": "to go smoothly",
-      "audio": "../audio/vocabulary/week_10/day_47/umaku_ikimasu.wav",
+      "image": "../images/study/week_10/day_47/umaku_ikimasu.png",
+      "audio": "../audio/vocabulary/week_10/day_47/umaku_ikimasu.m4a",
       "alt": "To go smoothly"
     },
     {
@@ -129,7 +134,8 @@
       "japanese": "～しか Ex)少ししか",
       "romaji": "~shika Ex. sukoshi shika",
       "english": "only Ex. (nothing) but a little",
-      "audio": "../audio/vocabulary/week_10/day_47/shika_sukoshi_shika.wav",
+      "image": "../images/study/week_10/day_47/shika_sukoshi_shika.png",
+      "audio": "../audio/vocabulary/week_10/day_47/shika_sukoshi_shika.m4a",
       "alt": "Only, e.g. (nothing) but a little"
     },
     {
@@ -137,7 +143,8 @@
       "japanese": "ほかの",
       "romaji": "hoka no",
       "english": "another thing",
-      "audio": "../audio/vocabulary/week_10/day_47/hoka_no.wav",
+      "image": "../images/study/week_10/day_47/hoka_no.png",
+      "audio": "../audio/vocabulary/week_10/day_47/hoka_no.m4a",
       "alt": "Another thing"
     },
     {
@@ -145,7 +152,8 @@
       "japanese": "外国語",
       "romaji": "gaikokugo",
       "english": "foreign language",
-      "audio": "../audio/vocabulary/week_10/day_47/gaikokugo.wav",
+      "image": "../images/study/week_10/day_47/gaikokugo.png",
+      "audio": "../audio/vocabulary/week_10/day_47/gaikokugo.m4a",
       "alt": "Foreign language"
     },
     {
@@ -153,7 +161,8 @@
       "japanese": "何か国語",
       "romaji": "nan kakokugo",
       "english": "how many languages",
-      "audio": "../audio/vocabulary/week_10/day_47/nan_kakokugo.wav",
+      "image": "../images/study/week_10/day_47/nan_kakokugo.png",
+      "audio": "../audio/vocabulary/week_10/day_47/nan_kakokugo.m4a",
       "alt": "How many languages"
     },
     {
@@ -161,7 +170,8 @@
       "japanese": "能力",
       "romaji": "nooryoku",
       "english": "ability",
-      "audio": "../audio/vocabulary/week_10/day_47/nooryoku.wav",
+      "image": "../images/study/week_10/day_47/nooryoku.png",
+      "audio": "../audio/vocabulary/week_10/day_47/nooryoku.m4a",
       "alt": "Ability"
     },
     {
@@ -169,7 +179,8 @@
       "japanese": "代引き",
       "romaji": "daibiki",
       "english": "cash on delivery",
-      "audio": "../audio/vocabulary/week_10/day_47/daibiki.wav",
+      "image": "../images/study/week_10/day_47/daibiki.png",
+      "audio": "../audio/vocabulary/week_10/day_47/daibiki.m4a",
       "alt": "Cash on delivery"
     },
     {
@@ -177,7 +188,8 @@
       "japanese": "～払い Ex)コンビニ払い",
       "romaji": "~barai Ex. konbini barai",
       "english": "payment Ex. payment at the konbini",
-      "audio": "../audio/vocabulary/week_10/day_47/barai_konbini_barai.wav",
+      "image": "../images/study/week_10/day_47/barai_konbini_barai.png",
+      "audio": "../audio/vocabulary/week_10/day_47/barai_konbini_barai.m4a",
       "alt": "Payment, e.g. payment at the convenience store"
     },
     {
@@ -185,7 +197,8 @@
       "japanese": "利用します【Ⅲ】",
       "romaji": "riyoo shimasu",
       "english": "to use",
-      "audio": "../audio/vocabulary/week_10/day_47/riyoo_shimasu.wav",
+      "image": "../images/study/week_10/day_47/riyoo_shimasu.png",
+      "audio": "../audio/vocabulary/week_10/day_47/riyoo_shimasu.m4a",
       "alt": "To use"
     },
     {
@@ -193,7 +206,8 @@
       "japanese": "自分",
       "romaji": "jibun",
       "english": "myself",
-      "audio": "../audio/vocabulary/week_10/day_47/jibun.wav",
+      "image": "../images/study/week_10/day_47/jibun.png",
+      "audio": "../audio/vocabulary/week_10/day_47/jibun.m4a",
       "alt": "Myself"
     },
     {
@@ -201,7 +215,8 @@
       "japanese": "面接",
       "romaji": "mensetsu",
       "english": "interview (for a job)",
-      "audio": "../audio/vocabulary/week_10/day_47/mensetsu.wav",
+      "image": "../images/study/week_10/day_47/mensetsu.png",
+      "audio": "../audio/vocabulary/week_10/day_47/mensetsu.m4a",
       "alt": "Interview for a job"
     },
     {
@@ -209,7 +224,8 @@
       "japanese": "リクルートスーツ",
       "romaji": "rikuruuto suutsu",
       "english": "formal suit worn by students during interviews",
-      "audio": "../audio/vocabulary/week_10/day_47/rikuruuto_suutsu.wav",
+      "image": "../images/study/week_10/day_47/rikuruuto_suutsu.png",
+      "audio": "../audio/vocabulary/week_10/day_47/rikuruuto_suutsu.m4a",
       "alt": "Formal suit worn by students during interviews"
     },
     {
@@ -217,7 +233,8 @@
       "japanese": "振込",
       "romaji": "furikomi",
       "english": "bank transfer",
-      "audio": "../audio/vocabulary/week_10/day_47/furikomi.wav",
+      "image": "../images/study/week_10/day_47/furikomi.png",
+      "audio": "../audio/vocabulary/week_10/day_47/furikomi.m4a",
       "alt": "Bank transfer"
     },
     {
@@ -225,7 +242,8 @@
       "japanese": "カクテル",
       "romaji": "kakuteru",
       "english": "cocktail",
-      "audio": "../audio/vocabulary/week_10/day_47/kakuteru.wav",
+      "image": "../images/study/week_10/day_47/kakuteru.png",
+      "audio": "../audio/vocabulary/week_10/day_47/kakuteru.m4a",
       "alt": "Cocktail"
     }
   ]

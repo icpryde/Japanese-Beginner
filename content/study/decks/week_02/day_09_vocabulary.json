@@ -125,6 +125,7 @@
       "japanese": "おおきい",
       "romaji": "ookii",
       "english": "big",
+      "image": "../images/study/week_02/day_09/ookii.png",
       "audio": "../audio/vocabulary/week_02/day_09/ookii.m4a",
       "alt": "Adjective meaning big"
     },
@@ -133,6 +134,7 @@
       "japanese": "ちいさい",
       "romaji": "chiisai",
       "english": "small",
+      "image": "../images/study/week_02/day_09/chiisai.png",
       "audio": "../audio/vocabulary/week_02/day_09/chiisai.m4a",
       "alt": "Adjective meaning small"
     },
@@ -141,6 +143,7 @@
       "japanese": "きれい（な）",
       "romaji": "kiree(na)",
       "english": "beautiful",
+      "image": "../images/study/week_02/day_09/kiree_na.png",
       "audio": "../audio/vocabulary/week_02/day_09/kiree_na.m4a",
       "alt": "Na-adjective meaning beautiful"
     },
@@ -149,6 +152,7 @@
       "japanese": "ゆうめい（な）",
       "romaji": "yuumee(na)",
       "english": "famous",
+      "image": "../images/study/week_02/day_09/yuumee_na.png",
       "audio": "../audio/vocabulary/week_02/day_09/yuumee_na.m4a",
       "alt": "Na-adjective meaning famous"
     },
@@ -157,6 +161,7 @@
       "japanese": "たかい",
       "romaji": "takai",
       "english": "expensive; tall",
+      "image": "../images/study/week_02/day_09/takai.png",
       "audio": "../audio/vocabulary/week_02/day_09/takai.m4a",
       "alt": "Adjective meaning expensive or tall"
     },
@@ -165,6 +170,7 @@
       "japanese": "にぎやか（な）",
       "romaji": "nigiyaka(na)",
       "english": "lively",
+      "image": "../images/study/week_02/day_09/nigiyaka_na.png",
       "audio": "../audio/vocabulary/week_02/day_09/nigiyaka_na.m4a",
       "alt": "Na-adjective meaning lively"
     },
@@ -173,6 +179,7 @@
       "japanese": "あたらしい",
       "romaji": "atarashii",
       "english": "new",
+      "image": "../images/study/week_02/day_09/atarashii.png",
       "audio": "../audio/vocabulary/week_02/day_09/atarashii.m4a",
       "alt": "Adjective meaning new"
     },
@@ -181,6 +188,7 @@
       "japanese": "しずか（な）",
       "romaji": "shizuka(na)",
       "english": "quiet",
+      "image": "../images/study/week_02/day_09/shizuka_na.png",
       "audio": "../audio/vocabulary/week_02/day_09/shizuka_na.m4a",
       "alt": "Na-adjective meaning quiet"
     },
@@ -189,6 +197,7 @@
       "japanese": "くろい",
       "romaji": "kuroi",
       "english": "black",
+      "image": "../images/study/week_02/day_09/kuroi.png",
       "audio": "../audio/vocabulary/week_02/day_09/kuroi.m4a",
       "alt": "Adjective meaning black"
     },
@@ -197,6 +206,7 @@
       "japanese": "しろい",
       "romaji": "shiroi",
       "english": "white",
+      "image": "../images/study/week_02/day_09/shiroi.png",
       "audio": "../audio/vocabulary/week_02/day_09/shiroi.m4a",
       "alt": "Adjective meaning white"
     },
@@ -205,6 +215,7 @@
       "japanese": "どちら",
       "romaji": "dochira",
       "english": "which way",
+      "image": "../images/study/week_02/day_09/dochira.png",
       "audio": "../audio/vocabulary/week_02/day_09/dochira.m4a",
       "alt": "Question word meaning which way"
     },
@@ -213,6 +224,7 @@
       "japanese": "どんな",
       "romaji": "donna",
       "english": "what kind of",
+      "image": "../images/study/week_02/day_09/donna.png",
       "audio": "../audio/vocabulary/week_02/day_09/donna.m4a",
       "alt": "Question word meaning what kind of"
     },
@@ -221,6 +233,7 @@
       "japanese": "どれ",
       "romaji": "dore",
       "english": "which",
+      "image": "../images/study/week_02/day_09/dore.png",
       "audio": "../audio/vocabulary/week_02/day_09/dore.m4a",
       "alt": "Question word meaning which"
     },
@@ -229,6 +242,7 @@
       "japanese": "ひくい",
       "romaji": "hikui",
       "english": "short",
+      "image": "../images/study/week_02/day_09/hikui.png",
       "audio": "../audio/vocabulary/week_02/day_09/hikui.m4a",
       "alt": "Reference adjective meaning short or low"
     },
@@ -237,6 +251,7 @@
       "japanese": "ふるい",
       "romaji": "hurui",
       "english": "old",
+      "image": "../images/study/week_02/day_09/hurui.png",
       "audio": "../audio/vocabulary/week_02/day_09/hurui.m4a",
       "alt": "Reference adjective meaning old"
     }

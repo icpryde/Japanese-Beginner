@@ -18,7 +18,7 @@
       "romaji": "kootsuu",
       "english": "transportation",
       "image": "../images/study/week_08/day_40/kootsuu.png",
-      "audio": "../audio/vocabulary/week_08/day_40/kootsuu.wav",
+      "audio": "../audio/vocabulary/week_08/day_40/kootsuu.m4a",
       "alt": "A train and a bus"
     },
     {
@@ -27,7 +27,7 @@
       "romaji": "en",
       "english": "yen",
       "image": "../images/study/week_08/day_40/en.png",
-      "audio": "../audio/vocabulary/week_08/day_40/en.wav",
+      "audio": "../audio/vocabulary/week_08/day_40/en.m4a",
       "alt": "A gold coin with the yen symbol"
     },
     {
@@ -36,7 +36,7 @@
       "romaji": "suzushii",
       "english": "cool, refreshing",
       "image": "../images/study/week_08/day_40/suzushii.png",
-      "audio": "../audio/vocabulary/week_08/day_40/suzushii.wav",
+      "audio": "../audio/vocabulary/week_08/day_40/suzushii.m4a",
       "alt": "Two students feeling cool under an air conditioner"
     },
     {
@@ -45,7 +45,7 @@
       "romaji": "(o)yu",
       "english": "hot water",
       "image": "../images/study/week_08/day_40/oyu.png",
-      "audio": "../audio/vocabulary/week_08/day_40/oyu.wav",
+      "audio": "../audio/vocabulary/week_08/day_40/oyu.m4a",
       "alt": "A steaming kettle of hot water"
     },
     {
@@ -53,8 +53,9 @@
       "japanese": "（部屋を）出ます【Ⅱ】",
       "romaji": "(heya o) demasu",
       "english": "to leave (a room)",
-      "audio": "../audio/vocabulary/week_08/day_40/heya_o_demasu.wav",
-      "alt": "To leave (a room)"
+      "audio": "../audio/vocabulary/week_08/day_40/heya_o_demasu.m4a",
+      "alt": "To leave (a room)",
+      "image": "../images/study/week_08/day_40/heya_o_demasu.png"
     },
     {
       "id": "botan",
@@ -62,7 +63,7 @@
       "romaji": "botan",
       "english": "button",
       "image": "../images/study/week_08/day_40/botan.png",
-      "audio": "../audio/vocabulary/week_08/day_40/botan.wav",
+      "audio": "../audio/vocabulary/week_08/day_40/botan.m4a",
       "alt": "A panel with door open and close buttons"
     },
     {
@@ -71,7 +72,7 @@
       "romaji": "akimasu",
       "english": "to open",
       "image": "../images/study/week_08/day_40/akimasu.png",
-      "audio": "../audio/vocabulary/week_08/day_40/akimasu.wav",
+      "audio": "../audio/vocabulary/week_08/day_40/akimasu.m4a",
       "alt": "Sliding doors opening with arrows pointing outward"
     },
     {
@@ -79,24 +80,27 @@
       "japanese": "電気",
       "romaji": "denki",
       "english": "electricity",
-      "audio": "../audio/vocabulary/week_08/day_40/denki.wav",
-      "alt": "Electricity"
+      "audio": "../audio/vocabulary/week_08/day_40/denki.m4a",
+      "alt": "Electricity",
+      "image": "../images/study/week_08/day_40/denki.png"
     },
     {
       "id": "denki_ga_tsukimasu",
       "japanese": "（電気が）つきます【Ⅰ】",
       "romaji": "(denki ga) tsukimasu",
       "english": "to turn on (the light)",
-      "audio": "../audio/vocabulary/week_08/day_40/denki_ga_tsukimasu.wav",
-      "alt": "To turn on (the light)"
+      "audio": "../audio/vocabulary/week_08/day_40/denki_ga_tsukimasu.m4a",
+      "alt": "To turn on (the light)",
+      "image": "../images/study/week_08/day_40/denki_ga_tsukimasu.png"
     },
     {
       "id": "kiemasu",
       "japanese": "消えます【Ⅱ】",
       "romaji": "kiemasu",
       "english": "to turn off",
-      "audio": "../audio/vocabulary/week_08/day_40/kiemasu.wav",
-      "alt": "To turn off"
+      "audio": "../audio/vocabulary/week_08/day_40/kiemasu.m4a",
+      "alt": "To turn off",
+      "image": "../images/study/week_08/day_40/kiemasu.png"
     },
     {
       "id": "mawashimasu",
@@ -104,7 +108,7 @@
       "romaji": "mawashimasu",
       "english": "to turn",
       "image": "../images/study/week_08/day_40/mawashimasu.png",
-      "audio": "../audio/vocabulary/week_08/day_40/mawashimasu.wav",
+      "audio": "../audio/vocabulary/week_08/day_40/mawashimasu.m4a",
       "alt": "A hand turning a knob with a curved arrow"
     },
     {
@@ -113,7 +117,7 @@
       "romaji": "kurai",
       "english": "dark",
       "image": "../images/study/week_08/day_40/kurai.png",
-      "audio": "../audio/vocabulary/week_08/day_40/kurai.wav",
+      "audio": "../audio/vocabulary/week_08/day_40/kurai.m4a",
       "alt": "A man standing in a dark room"
     },
     {
@@ -122,7 +126,7 @@
       "romaji": "oto",
       "english": "sound",
       "image": "../images/study/week_08/day_40/oto.png",
-      "audio": "../audio/vocabulary/week_08/day_40/oto.wav",
+      "audio": "../audio/vocabulary/week_08/day_40/oto.m4a",
       "alt": "Two colourful musical notes"
     },
     {
@@ -131,7 +135,7 @@
       "romaji": "sakimasu",
       "english": "to bloom",
       "image": "../images/study/week_08/day_40/sakimasu.png",
-      "audio": "../audio/vocabulary/week_08/day_40/sakimasu.wav",
+      "audio": "../audio/vocabulary/week_08/day_40/sakimasu.m4a",
       "alt": "A blooming pink flower"
     },
     {
@@ -140,7 +144,7 @@
       "romaji": "atama",
       "english": "head",
       "image": "../images/study/week_08/day_40/atama.png",
-      "audio": "../audio/vocabulary/week_08/day_40/atama.wav",
+      "audio": "../audio/vocabulary/week_08/day_40/atama.m4a",
       "alt": "A man's head in profile"
     },
     {
@@ -149,7 +153,7 @@
       "romaji": "undoo shimasu",
       "english": "to do exercise",
       "image": "../images/study/week_08/day_40/undoo_shimasu.png",
-      "audio": "../audio/vocabulary/week_08/day_40/undoo_shimasu.wav",
+      "audio": "../audio/vocabulary/week_08/day_40/undoo_shimasu.m4a",
       "alt": "A woman exercising with dumbbells"
     },
     {
@@ -158,7 +162,7 @@
       "romaji": "netsu",
       "english": "fever",
       "image": "../images/study/week_08/day_40/netsu.png",
-      "audio": "../audio/vocabulary/week_08/day_40/netsu.wav",
+      "audio": "../audio/vocabulary/week_08/day_40/netsu.m4a",
       "alt": "A sick child with a fever and an ice pack on her head"
     },
     {
@@ -167,7 +171,7 @@
       "romaji": "sagarimasu",
       "english": "to go down",
       "image": "../images/study/week_08/day_40/sagarimasu.png",
-      "audio": "../audio/vocabulary/week_08/day_40/sagarimasu.wav",
+      "audio": "../audio/vocabulary/week_08/day_40/sagarimasu.m4a",
       "alt": "A bar chart with an arrow going down"
     },
     {
@@ -176,7 +180,7 @@
       "romaji": "shingoo",
       "english": "traffic light",
       "image": "../images/study/week_08/day_40/shingoo.png",
-      "audio": "../audio/vocabulary/week_08/day_40/shingoo.wav",
+      "audio": "../audio/vocabulary/week_08/day_40/shingoo.m4a",
       "alt": "A traffic light"
     },
     {
@@ -185,7 +189,7 @@
       "romaji": "magarimasu",
       "english": "to curve",
       "image": "../images/study/week_08/day_40/magarimasu.png",
-      "audio": "../audio/vocabulary/week_08/day_40/magarimasu.wav",
+      "audio": "../audio/vocabulary/week_08/day_40/magarimasu.m4a",
       "alt": "A blue arrow curving to the right"
     },
     {
@@ -193,8 +197,9 @@
       "japanese": "橋",
       "romaji": "hashi",
       "english": "bridge",
-      "audio": "../audio/vocabulary/week_08/day_40/hashi.wav",
-      "alt": "Bridge"
+      "audio": "../audio/vocabulary/week_08/day_40/hashi.m4a",
+      "alt": "Bridge",
+      "image": "../images/study/week_08/day_40/hashi.png"
     },
     {
       "id": "watarimasu",
@@ -202,7 +207,7 @@
       "romaji": "watarimasu",
       "english": "to cross",
       "image": "../images/study/week_08/day_40/watarimasu.png",
-      "audio": "../audio/vocabulary/week_08/day_40/watarimasu.wav",
+      "audio": "../audio/vocabulary/week_08/day_40/watarimasu.m4a",
       "alt": "A boy crossing at a crosswalk"
     },
     {
@@ -211,7 +216,7 @@
       "romaji": "arukimasu",
       "english": "to walk",
       "image": "../images/study/week_08/day_40/arukimasu.png",
-      "audio": "../audio/vocabulary/week_08/day_40/arukimasu.wav",
+      "audio": "../audio/vocabulary/week_08/day_40/arukimasu.m4a",
       "alt": "A man walking"
     },
     {
@@ -219,72 +224,81 @@
       "japanese": "交差点",
       "romaji": "koosaten",
       "english": "crossing",
-      "audio": "../audio/vocabulary/week_08/day_40/koosaten.wav",
-      "alt": "Crossing"
+      "audio": "../audio/vocabulary/week_08/day_40/koosaten.m4a",
+      "alt": "Crossing",
+      "image": "../images/study/week_08/day_40/koosaten.png"
     },
     {
       "id": "atsui",
       "japanese": "暑い",
       "romaji": "atsui",
       "english": "hot",
-      "audio": "../audio/vocabulary/week_08/day_40/atsui.wav",
-      "alt": "Hot"
+      "audio": "../audio/vocabulary/week_08/day_40/atsui.m4a",
+      "alt": "Hot",
+      "image": "../images/study/week_08/day_40/atsui.png"
     },
     {
       "id": "minna_de",
       "japanese": "みんなで",
       "romaji": "minna de",
       "english": "all together",
-      "audio": "../audio/vocabulary/week_08/day_40/minna_de.wav",
-      "alt": "All together"
+      "audio": "../audio/vocabulary/week_08/day_40/minna_de.m4a",
+      "alt": "All together",
+      "image": "../images/study/week_08/day_40/minna_de.png"
     },
     {
       "id": "chooshi",
       "japanese": "調子",
       "romaji": "chooshi",
       "english": "condition",
-      "audio": "../audio/vocabulary/week_08/day_40/chooshi.wav",
-      "alt": "Condition"
+      "audio": "../audio/vocabulary/week_08/day_40/chooshi.m4a",
+      "alt": "Condition",
+      "image": "../images/study/week_08/day_40/chooshi.png"
     },
     {
       "id": "dandan",
       "japanese": "だんだん",
       "romaji": "dandan",
       "english": "gradually",
-      "audio": "../audio/vocabulary/week_08/day_40/dandan.wav",
-      "alt": "Gradually"
+      "audio": "../audio/vocabulary/week_08/day_40/dandan.m4a",
+      "alt": "Gradually",
+      "image": "../images/study/week_08/day_40/dandan.png"
     },
     {
       "id": "yatto",
       "japanese": "やっと",
       "romaji": "yatto",
       "english": "at last",
-      "audio": "../audio/vocabulary/week_08/day_40/yatto.wav",
-      "alt": "At last"
+      "audio": "../audio/vocabulary/week_08/day_40/yatto.m4a",
+      "alt": "At last",
+      "image": "../images/study/week_08/day_40/yatto.png"
     },
     {
       "id": "migi",
       "japanese": "右",
       "romaji": "migi",
       "english": "right",
-      "audio": "../audio/vocabulary/week_08/day_40/migi.wav",
-      "alt": "Right"
+      "audio": "../audio/vocabulary/week_08/day_40/migi.m4a",
+      "alt": "Right",
+      "image": "../images/study/week_08/day_40/migi.png"
     },
     {
       "id": "hidari",
       "japanese": "左",
       "romaji": "hidari",
       "english": "left",
-      "audio": "../audio/vocabulary/week_08/day_40/hidari.wav",
-      "alt": "Left"
+      "audio": "../audio/vocabulary/week_08/day_40/hidari.m4a",
+      "alt": "Left",
+      "image": "../images/study/week_08/day_40/hidari.png"
     },
     {
       "id": "massugu",
       "japanese": "まっすぐ",
       "romaji": "massugu",
       "english": "straight",
-      "audio": "../audio/vocabulary/week_08/day_40/massugu.wav",
-      "alt": "Straight"
+      "audio": "../audio/vocabulary/week_08/day_40/massugu.m4a",
+      "alt": "Straight",
+      "image": "../images/study/week_08/day_40/massugu.png"
     },
     {
       "id": "shimarimasu",
@@ -292,7 +306,7 @@
       "romaji": "shimarimasu",
       "english": "to close",
       "image": "../images/study/week_08/day_40/shimarimasu.png",
-      "audio": "../audio/vocabulary/week_08/day_40/shimarimasu.wav",
+      "audio": "../audio/vocabulary/week_08/day_40/shimarimasu.m4a",
       "alt": "Sliding doors closing with arrows pointing inward"
     },
     {
@@ -301,7 +315,7 @@
       "romaji": "agarimasu",
       "english": "to go up",
       "image": "../images/study/week_08/day_40/agarimasu.png",
-      "audio": "../audio/vocabulary/week_08/day_40/agarimasu.wav",
+      "audio": "../audio/vocabulary/week_08/day_40/agarimasu.m4a",
       "alt": "A bar chart with an arrow going up"
     },
     {
@@ -309,77 +323,88 @@
       "japanese": "何丁目？",
       "romaji": "nan choome?",
       "english": "Which district/block?",
-      "alt": "Which district/block"
+      "alt": "Which district/block",
+      "image": "../images/study/week_08/day_40/nan_choome.png"
     },
     {
       "id": "icchoome",
       "japanese": "1丁目",
       "romaji": "icchoome",
       "english": "block 1",
-      "alt": "Block 1"
+      "alt": "Block 1",
+      "image": "../images/study/week_08/day_40/icchoome.png"
     },
     {
       "id": "nichoome",
       "japanese": "2丁目",
       "romaji": "nichoome",
       "english": "block 2",
-      "alt": "Block 2"
+      "alt": "Block 2",
+      "image": "../images/study/week_08/day_40/nichoome.png"
     },
     {
       "id": "sanchoome",
       "japanese": "3丁目",
       "romaji": "sanchoome",
       "english": "block 3",
-      "alt": "Block 3"
+      "alt": "Block 3",
+      "image": "../images/study/week_08/day_40/sanchoome.png"
     },
     {
       "id": "yonchoome",
       "japanese": "4丁目",
       "romaji": "yonchoome",
       "english": "block 4",
-      "alt": "Block 4"
+      "alt": "Block 4",
+      "image": "../images/study/week_08/day_40/yonchoome.png"
     },
     {
       "id": "gochoome",
       "japanese": "5丁目",
       "romaji": "gochoome",
       "english": "block 5",
-      "alt": "Block 5"
+      "alt": "Block 5",
+      "image": "../images/study/week_08/day_40/gochoome.png"
     },
     {
       "id": "rokuchoome",
       "japanese": "6丁目",
       "romaji": "rokuchoome",
       "english": "block 6",
-      "alt": "Block 6"
+      "alt": "Block 6",
+      "image": "../images/study/week_08/day_40/rokuchoome.png"
     },
     {
       "id": "nanachoome",
       "japanese": "7丁目",
       "romaji": "nanachoome",
       "english": "block 7",
-      "alt": "Block 7"
+      "alt": "Block 7",
+      "image": "../images/study/week_08/day_40/nanachoome.png"
     },
     {
       "id": "hacchoome",
       "japanese": "8丁目",
       "romaji": "hacchoome",
       "english": "block 8",
-      "alt": "Block 8"
+      "alt": "Block 8",
+      "image": "../images/study/week_08/day_40/hacchoome.png"
     },
     {
       "id": "kyuuchoome",
       "japanese": "9丁目",
       "romaji": "kyuuchoome",
       "english": "block 9",
-      "alt": "Block 9"
+      "alt": "Block 9",
+      "image": "../images/study/week_08/day_40/kyuuchoome.png"
     },
     {
       "id": "jucchoome",
       "japanese": "10丁目",
       "romaji": "jucchoome",
       "english": "block 10",
-      "alt": "Block 10"
+      "alt": "Block 10",
+      "image": "../images/study/week_08/day_40/jucchoome.png"
     }
   ]
 }

@@ -18,7 +18,7 @@
       "romaji": "yachin",
       "english": "rent",
       "image": "../images/study/week_08/day_37/yachin.png",
-      "audio": "../audio/vocabulary/week_08/day_37/yachin.wav",
+      "audio": "../audio/vocabulary/week_08/day_37/yachin.m4a",
       "alt": "A house with a red roof"
     },
     {
@@ -27,7 +27,7 @@
       "romaji": "shain",
       "english": "employee",
       "image": "../images/study/week_08/day_37/shain.png",
-      "audio": "../audio/vocabulary/week_08/day_37/shain.wav",
+      "audio": "../audio/vocabulary/week_08/day_37/shain.m4a",
       "alt": "A large group of company employees"
     },
     {
@@ -36,7 +36,7 @@
       "romaji": "shachou",
       "english": "company president",
       "image": "../images/study/week_08/day_37/shachou.png",
-      "audio": "../audio/vocabulary/week_08/day_37/shachou.wav",
+      "audio": "../audio/vocabulary/week_08/day_37/shachou.m4a",
       "alt": "A company president sitting at his desk"
     },
     {
@@ -45,7 +45,7 @@
       "romaji": "yakei",
       "english": "night view",
       "image": "../images/study/week_08/day_37/yakei.png",
-      "audio": "../audio/vocabulary/week_08/day_37/yakei.wav",
+      "audio": "../audio/vocabulary/week_08/day_37/yakei.m4a",
       "alt": "A city night view with lights"
     },
     {
@@ -54,7 +54,7 @@
       "romaji": "niwa",
       "english": "garden",
       "image": "../images/study/week_08/day_37/niwa.png",
-      "audio": "../audio/vocabulary/week_08/day_37/niwa.wav",
+      "audio": "../audio/vocabulary/week_08/day_37/niwa.m4a",
       "alt": "A garden with a tree and a stream"
     },
     {
@@ -63,7 +63,7 @@
       "romaji": "zangyou",
       "english": "overtime (work)",
       "image": "../images/study/week_08/day_37/zangyou.png",
-      "audio": "../audio/vocabulary/week_08/day_37/zangyou.wav",
+      "audio": "../audio/vocabulary/week_08/day_37/zangyou.m4a",
       "alt": "A man working overtime late at night"
     },
     {
@@ -72,7 +72,7 @@
       "romaji": "okinawa",
       "english": "Okinawa",
       "image": "../images/study/week_08/day_37/okinawa.png",
-      "audio": "../audio/vocabulary/week_08/day_37/okinawa.wav",
+      "audio": "../audio/vocabulary/week_08/day_37/okinawa.m4a",
       "alt": "A traditional Okinawan house"
     },
     {
@@ -81,7 +81,7 @@
       "romaji": "jishuushitsu",
       "english": "private study room",
       "image": "../images/study/week_08/day_37/jishuushitsu.png",
-      "audio": "../audio/vocabulary/week_08/day_37/jishuushitsu.wav",
+      "audio": "../audio/vocabulary/week_08/day_37/jishuushitsu.m4a",
       "alt": "Students studying in a private study room"
     },
     {
@@ -90,7 +90,7 @@
       "romaji": "wanpiisu",
       "english": "dress",
       "image": "../images/study/week_08/day_37/wanpiisu.png",
-      "audio": "../audio/vocabulary/week_08/day_37/wanpiisu.wav",
+      "audio": "../audio/vocabulary/week_08/day_37/wanpiisu.m4a",
       "alt": "A light blue dress"
     },
     {
@@ -99,7 +99,7 @@
       "romaji": "moderu",
       "english": "model",
       "image": "../images/study/week_08/day_37/moderu.png",
-      "audio": "../audio/vocabulary/week_08/day_37/moderu.wav",
+      "audio": "../audio/vocabulary/week_08/day_37/moderu.m4a",
       "alt": "Fashion models posing"
     },
     {
@@ -108,7 +108,7 @@
       "romaji": "joyuu",
       "english": "actress",
       "image": "../images/study/week_08/day_37/joyuu.png",
-      "audio": "../audio/vocabulary/week_08/day_37/joyuu.wav",
+      "audio": "../audio/vocabulary/week_08/day_37/joyuu.m4a",
       "alt": "An actress surrounded by cameras"
     },
     {
@@ -117,7 +117,7 @@
       "romaji": "boushi",
       "english": "hat",
       "image": "../images/study/week_08/day_37/boushi.png",
-      "audio": "../audio/vocabulary/week_08/day_37/boushi.wav",
+      "audio": "../audio/vocabulary/week_08/day_37/boushi.m4a",
       "alt": "Three different hats"
     },
     {
@@ -126,7 +126,7 @@
       "romaji": "kaburimasu",
       "english": "to put on (a hat)",
       "image": "../images/study/week_08/day_37/kaburimasu.png",
-      "audio": "../audio/vocabulary/week_08/day_37/kaburimasu.wav",
+      "audio": "../audio/vocabulary/week_08/day_37/kaburimasu.m4a",
       "alt": "A boy putting on a green cap"
     },
     {
@@ -134,8 +134,9 @@
       "japanese": "眼鏡",
       "romaji": "megane",
       "english": "glasses",
-      "audio": "../audio/vocabulary/week_08/day_37/megane.wav",
-      "alt": "A pair of glasses"
+      "audio": "../audio/vocabulary/week_08/day_37/megane.m4a",
+      "alt": "A pair of glasses",
+      "image": "../images/study/week_08/day_37/megane.png"
     },
     {
       "id": "kakemasu",
@@ -143,7 +144,7 @@
       "romaji": "kakemasu",
       "english": "to put on (glasses)",
       "image": "../images/study/week_08/day_37/kakemasu.png",
-      "audio": "../audio/vocabulary/week_08/day_37/kakemasu.wav",
+      "audio": "../audio/vocabulary/week_08/day_37/kakemasu.m4a",
       "alt": "A man putting on glasses"
     },
     {
@@ -151,8 +152,9 @@
       "japanese": "シャツ",
       "romaji": "shatsu",
       "english": "shirt",
-      "audio": "../audio/vocabulary/week_08/day_37/shatsu.wav",
-      "alt": "A white shirt"
+      "audio": "../audio/vocabulary/week_08/day_37/shatsu.m4a",
+      "alt": "A white shirt",
+      "image": "../images/study/week_08/day_37/shatsu.png"
     },
     {
       "id": "kimasu",
@@ -160,7 +162,7 @@
       "romaji": "kimasu",
       "english": "to wear",
       "image": "../images/study/week_08/day_37/kimasu.png",
-      "audio": "../audio/vocabulary/week_08/day_37/kimasu.wav",
+      "audio": "../audio/vocabulary/week_08/day_37/kimasu.m4a",
       "alt": "A man putting on a shirt"
     },
     {
@@ -169,7 +171,7 @@
       "romaji": "nekutai",
       "english": "necktie",
       "image": "../images/study/week_08/day_37/nekutai.png",
-      "audio": "../audio/vocabulary/week_08/day_37/nekutai.wav",
+      "audio": "../audio/vocabulary/week_08/day_37/nekutai.m4a",
       "alt": "A blue striped necktie"
     },
     {
@@ -178,7 +180,7 @@
       "romaji": "(nekutai o) shimasu",
       "english": "to put on (a necktie)",
       "image": "../images/study/week_08/day_37/shimasu.png",
-      "audio": "../audio/vocabulary/week_08/day_37/shimasu.wav",
+      "audio": "../audio/vocabulary/week_08/day_37/shimasu.m4a",
       "alt": "A man putting on a necktie"
     },
     {
@@ -187,7 +189,7 @@
       "romaji": "suutsu",
       "english": "suit",
       "image": "../images/study/week_08/day_37/suutsu.png",
-      "audio": "../audio/vocabulary/week_08/day_37/suutsu.wav",
+      "audio": "../audio/vocabulary/week_08/day_37/suutsu.m4a",
       "alt": "A man wearing a business suit"
     },
     {
@@ -196,7 +198,7 @@
       "romaji": "sangurasu",
       "english": "sunglasses",
       "image": "../images/study/week_08/day_37/sangurasu.png",
-      "audio": "../audio/vocabulary/week_08/day_37/sangurasu.wav",
+      "audio": "../audio/vocabulary/week_08/day_37/sangurasu.m4a",
       "alt": "A woman wearing sunglasses"
     },
     {
@@ -205,7 +207,7 @@
       "romaji": "zubon",
       "english": "trousers",
       "image": "../images/study/week_08/day_37/zubon.png",
-      "audio": "../audio/vocabulary/week_08/day_37/zubon.wav",
+      "audio": "../audio/vocabulary/week_08/day_37/zubon.m4a",
       "alt": "A pair of green trousers"
     },
     {
@@ -214,7 +216,7 @@
       "romaji": "piasu",
       "english": "earrings (for pierced ears)",
       "image": "../images/study/week_08/day_37/piasu.png",
-      "audio": "../audio/vocabulary/week_08/day_37/piasu.wav",
+      "audio": "../audio/vocabulary/week_08/day_37/piasu.m4a",
       "alt": "A woman wearing pierced earrings"
     },
     {
@@ -223,7 +225,7 @@
       "romaji": "jaaji",
       "english": "jersey",
       "image": "../images/study/week_08/day_37/jaaji.png",
-      "audio": "../audio/vocabulary/week_08/day_37/jaaji.wav",
+      "audio": "../audio/vocabulary/week_08/day_37/jaaji.m4a",
       "alt": "A girl wearing a jersey tracksuit"
     },
     {
@@ -232,7 +234,7 @@
       "romaji": "sukaato",
       "english": "skirt",
       "image": "../images/study/week_08/day_37/sukaato.png",
-      "audio": "../audio/vocabulary/week_08/day_37/sukaato.wav",
+      "audio": "../audio/vocabulary/week_08/day_37/sukaato.m4a",
       "alt": "A pink skirt"
     },
     {
@@ -241,7 +243,7 @@
       "romaji": "paakaa",
       "english": "hooded sweatshirt",
       "image": "../images/study/week_08/day_37/paakaa.png",
-      "audio": "../audio/vocabulary/week_08/day_37/paakaa.wav",
+      "audio": "../audio/vocabulary/week_08/day_37/paakaa.m4a",
       "alt": "A blue hooded sweatshirt"
     },
     {
@@ -250,7 +252,7 @@
       "romaji": "masuku",
       "english": "mask",
       "image": "../images/study/week_08/day_37/masuku.png",
-      "audio": "../audio/vocabulary/week_08/day_37/masuku.wav",
+      "audio": "../audio/vocabulary/week_08/day_37/masuku.m4a",
       "alt": "A boy wearing a face mask"
     },
     {
@@ -259,7 +261,7 @@
       "romaji": "sandaru",
       "english": "sandal",
       "image": "../images/study/week_08/day_37/sandaru.png",
-      "audio": "../audio/vocabulary/week_08/day_37/sandaru.wav",
+      "audio": "../audio/vocabulary/week_08/day_37/sandaru.m4a",
       "alt": "Pairs of sandals"
     },
     {
@@ -268,7 +270,7 @@
       "romaji": "nomikai",
       "english": "drinking party",
       "image": "../images/study/week_08/day_37/nomikai.png",
-      "audio": "../audio/vocabulary/week_08/day_37/nomikai.wav",
+      "audio": "../audio/vocabulary/week_08/day_37/nomikai.m4a",
       "alt": "People toasting at a drinking party"
     },
     {
@@ -277,7 +279,7 @@
       "romaji": "sagashimasu",
       "english": "to look for",
       "image": "../images/study/week_08/day_37/sagashimasu.png",
-      "audio": "../audio/vocabulary/week_08/day_37/sagashimasu.wav",
+      "audio": "../audio/vocabulary/week_08/day_37/sagashimasu.m4a",
       "alt": "A man looking around for something"
     },
     {
@@ -286,7 +288,7 @@
       "romaji": "urimasu",
       "english": "to sell",
       "image": "../images/study/week_08/day_37/urimasu.png",
-      "audio": "../audio/vocabulary/week_08/day_37/urimasu.wav",
+      "audio": "../audio/vocabulary/week_08/day_37/urimasu.m4a",
       "alt": "A vendor selling bananas at a stall"
     },
     {
@@ -295,7 +297,7 @@
       "romaji": "todokimasu",
       "english": "to arrive",
       "image": "../images/study/week_08/day_37/todokimasu.png",
-      "audio": "../audio/vocabulary/week_08/day_37/todokimasu.wav",
+      "audio": "../audio/vocabulary/week_08/day_37/todokimasu.m4a",
       "alt": "A delivery worker handing a package to a woman"
     },
     {
@@ -304,7 +306,7 @@
       "romaji": "suwarimasu",
       "english": "to sit",
       "image": "../images/study/week_08/day_37/suwarimasu.png",
-      "audio": "../audio/vocabulary/week_08/day_37/suwarimasu.wav",
+      "audio": "../audio/vocabulary/week_08/day_37/suwarimasu.m4a",
       "alt": "A man sitting on a chair"
     },
     {
@@ -313,7 +315,7 @@
       "romaji": "kafe",
       "english": "cafe",
       "image": "../images/study/week_08/day_37/kafe.png",
-      "audio": "../audio/vocabulary/week_08/day_37/kafe.wav",
+      "audio": "../audio/vocabulary/week_08/day_37/kafe.m4a",
       "alt": "A cafe storefront"
     },
     {
@@ -322,7 +324,7 @@
       "romaji": "dorama",
       "english": "drama",
       "image": "../images/study/week_08/day_37/dorama.png",
-      "audio": "../audio/vocabulary/week_08/day_37/dorama.wav",
+      "audio": "../audio/vocabulary/week_08/day_37/dorama.m4a",
       "alt": "A drama showing on a television"
     },
     {
@@ -330,96 +332,108 @@
       "japanese": "おじゃまします",
       "romaji": "ojamashimasu",
       "english": "greeting used when entering someone's home",
-      "audio": "../audio/vocabulary/week_08/day_37/ojamashimasu.wav",
-      "alt": "Greeting used when entering someone's home"
+      "audio": "../audio/vocabulary/week_08/day_37/ojamashimasu.m4a",
+      "alt": "Greeting used when entering someone's home",
+      "image": "../images/study/week_08/day_37/ojamashimasu.png"
     },
     {
       "id": "ki_ni_irimasu",
       "japanese": "気に入ります【Ⅰ】",
       "romaji": "ki ni irimasu",
       "english": "to like",
-      "audio": "../audio/vocabulary/week_08/day_37/ki_ni_irimasu.wav",
-      "alt": "To like"
+      "audio": "../audio/vocabulary/week_08/day_37/ki_ni_irimasu.m4a",
+      "alt": "To like",
+      "image": "../images/study/week_08/day_37/ki_ni_irimasu.png"
     },
     {
       "id": "mukashi",
       "japanese": "昔",
       "romaji": "mukashi",
       "english": "olden times",
-      "audio": "../audio/vocabulary/week_08/day_37/mukashi.wav",
-      "alt": "Olden times"
+      "audio": "../audio/vocabulary/week_08/day_37/mukashi.m4a",
+      "alt": "Olden times",
+      "image": "../images/study/week_08/day_37/mukashi.png"
     },
     {
       "id": "sakki",
       "japanese": "さっき",
       "romaji": "sakki",
       "english": "a short while ago",
-      "audio": "../audio/vocabulary/week_08/day_37/sakki.wav",
-      "alt": "A short while ago"
+      "audio": "../audio/vocabulary/week_08/day_37/sakki.m4a",
+      "alt": "A short while ago",
+      "image": "../images/study/week_08/day_37/sakki.png"
     },
     {
       "id": "dono",
       "japanese": "どの～",
       "romaji": "dono~",
       "english": "which～",
-      "audio": "../audio/vocabulary/week_08/day_37/dono.wav",
-      "alt": "Which"
+      "audio": "../audio/vocabulary/week_08/day_37/dono.m4a",
+      "alt": "Which",
+      "image": "../images/study/week_08/day_37/dono.png"
     },
     {
       "id": "line",
       "japanese": "LINE",
       "romaji": "LINE",
       "english": "LINE (instant messaging software)",
-      "audio": "../audio/vocabulary/week_08/day_37/line.wav",
-      "alt": "LINE instant messaging software"
+      "audio": "../audio/vocabulary/week_08/day_37/line.m4a",
+      "alt": "LINE instant messaging software",
+      "image": "../images/study/week_08/day_37/line.png"
     },
     {
       "id": "busho",
       "japanese": "部署",
       "romaji": "busho",
       "english": "one's station",
-      "audio": "../audio/vocabulary/week_08/day_37/busho.wav",
-      "alt": "One's station"
+      "audio": "../audio/vocabulary/week_08/day_37/busho.m4a",
+      "alt": "One's station",
+      "image": "../images/study/week_08/day_37/busho.png"
     },
     {
       "id": "keiri",
       "japanese": "経理",
       "romaji": "keiri",
       "english": "accounting",
-      "audio": "../audio/vocabulary/week_08/day_37/keiri.wav",
-      "alt": "Accounting"
+      "audio": "../audio/vocabulary/week_08/day_37/keiri.m4a",
+      "alt": "Accounting",
+      "image": "../images/study/week_08/day_37/keiri.png"
     },
     {
       "id": "bu_keiribu",
       "japanese": "～部 Ex)経理部",
       "romaji": "~bu Ex) keiribu",
       "english": "division",
-      "audio": "../audio/vocabulary/week_08/day_37/bu_keiribu.wav",
-      "alt": "Division"
+      "audio": "../audio/vocabulary/week_08/day_37/bu_keiribu.m4a",
+      "alt": "Division",
+      "image": "../images/study/week_08/day_37/bu_keiribu.png"
     },
     {
       "id": "seki",
       "japanese": "席",
       "romaji": "seki",
       "english": "seat",
-      "audio": "../audio/vocabulary/week_08/day_37/seki.wav",
-      "alt": "Seat"
+      "audio": "../audio/vocabulary/week_08/day_37/seki.m4a",
+      "alt": "Seat",
+      "image": "../images/study/week_08/day_37/seki.png"
     },
     {
       "id": "haiyuu",
       "japanese": "俳優",
       "romaji": "haiyuu",
       "english": "actor",
-      "audio": "../audio/vocabulary/week_08/day_37/haiyuu.wav",
-      "alt": "An actor being filmed by cameras"
+      "audio": "../audio/vocabulary/week_08/day_37/haiyuu.m4a",
+      "alt": "An actor being filmed by cameras",
+      "image": "../images/study/week_08/day_37/haiyuu.png"
     },
     {
       "id": "kimono",
       "japanese": "着物",
       "romaji": "kimono",
       "english": "kimono",
-      "audio": "../audio/vocabulary/week_08/day_37/kimono.wav",
-      "alt": "A woman wearing a kimono"
+      "audio": "../audio/vocabulary/week_08/day_37/kimono.m4a",
+      "alt": "A woman wearing a kimono",
+      "image": "../images/study/week_08/day_37/kimono.png"
     }
   ]
 }

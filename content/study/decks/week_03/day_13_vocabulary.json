@@ -62,6 +62,7 @@
       "japanese": "スプーン",
       "romaji": "supuun",
       "english": "spoon",
+      "image": "../images/study/week_03/day_13/supuun.png",
       "audio": "../audio/vocabulary/week_03/day_13/supuun.m4a",
       "alt": "Spoon"
     },
@@ -70,6 +71,7 @@
       "japanese": "フォーク",
       "romaji": "hwooku",
       "english": "fork",
+      "image": "../images/study/week_03/day_13/hwooku.png",
       "audio": "../audio/vocabulary/week_03/day_13/hwooku.m4a",
       "alt": "Fork"
     },
@@ -123,6 +125,7 @@
       "japanese": "ボールペン",
       "romaji": "boorupen",
       "english": "ball-point pen",
+      "image": "../images/study/week_03/day_13/boorupen.png",
       "audio": "../audio/vocabulary/week_03/day_13/boorupen.m4a",
       "alt": "Ball-point pen"
     },
@@ -140,6 +143,7 @@
       "japanese": "おにぎり",
       "romaji": "onigiri",
       "english": "onigiri",
+      "image": "../images/study/week_03/day_13/onigiri.png",
       "audio": "../audio/vocabulary/week_03/day_13/onigiri.m4a",
       "alt": "Onigiri rice ball"
     },
@@ -265,6 +269,7 @@
       "japanese": "ぼうし",
       "romaji": "booshi",
       "english": "hat",
+      "image": "../images/study/week_03/day_13/booshi.png",
       "audio": "../audio/vocabulary/week_03/day_13/booshi.m4a",
       "alt": "Hat"
     },
@@ -363,6 +368,7 @@
       "japanese": "でんわ",
       "romaji": "denwa",
       "english": "telephone",
+      "image": "../images/study/week_03/day_13/denwa.png",
       "audio": "../audio/vocabulary/week_03/day_13/denwa.m4a",
       "alt": "Telephone"
     },
@@ -380,6 +386,7 @@
       "japanese": "はじめて",
       "romaji": "hajimete",
       "english": "first time",
+      "image": "../images/study/week_03/day_13/hajimete.png",
       "audio": "../audio/vocabulary/week_03/day_13/hajimete.m4a",
       "alt": "First time"
     },
@@ -388,6 +395,7 @@
       "japanese": "インドネシア",
       "romaji": "indoneshia",
       "english": "Indonesia",
+      "image": "../images/study/week_03/day_13/indoneshia.png",
       "audio": "../audio/vocabulary/week_03/day_13/indoneshia.m4a",
       "alt": "Indonesia"
     },
@@ -396,6 +404,7 @@
       "japanese": "いつも",
       "romaji": "itsumo",
       "english": "always",
+      "image": "../images/study/week_03/day_13/itsumo.png",
       "audio": "../audio/vocabulary/week_03/day_13/itsumo.m4a",
       "alt": "Always"
     },
@@ -404,6 +413,7 @@
       "japanese": "むずかしい",
       "romaji": "muzukashii",
       "english": "difficult",
+      "image": "../images/study/week_03/day_13/muzukashii.png",
       "audio": "../audio/vocabulary/week_03/day_13/muzukashii.m4a",
       "alt": "Difficult"
     },
@@ -412,6 +422,7 @@
       "japanese": "いつでも",
       "romaji": "itsudemo",
       "english": "anytime",
+      "image": "../images/study/week_03/day_13/itsudemo.png",
       "audio": "../audio/vocabulary/week_03/day_13/itsudemo.m4a",
       "alt": "Anytime"
     },
@@ -420,6 +431,7 @@
       "japanese": "だいじょうぶ（な）",
       "romaji": "daijoobu(na)",
       "english": "alright",
+      "image": "../images/study/week_03/day_13/daijoobu_na.png",
       "audio": "../audio/vocabulary/week_03/day_13/daijoobu_na.m4a",
       "alt": "Alright"
     },
@@ -428,6 +440,7 @@
       "japanese": "らいしゅう",
       "romaji": "raishuu",
       "english": "next week",
+      "image": "../images/study/week_03/day_13/raishuu.png",
       "audio": "../audio/vocabulary/week_03/day_13/raishuu.m4a",
       "alt": "Next week"
     },
@@ -436,6 +449,7 @@
       "japanese": "にちようび",
       "romaji": "nichiyoobi",
       "english": "Sunday",
+      "image": "../images/study/week_03/day_13/nichiyoobi.png",
       "audio": "../audio/vocabulary/week_03/day_13/nichiyoobi.m4a",
       "alt": "Sunday"
     },
@@ -444,6 +458,7 @@
       "japanese": "ははのひ",
       "romaji": "hahanohi",
       "english": "Mother's Day",
+      "image": "../images/study/week_03/day_13/hahanohi.png",
       "audio": "../audio/vocabulary/week_03/day_13/hahanohi.m4a",
       "alt": "Mother's Day"
     },
@@ -452,6 +467,7 @@
       "japanese": "きょねん",
       "romaji": "kyonen",
       "english": "last year",
+      "image": "../images/study/week_03/day_13/kyonen.png",
       "audio": "../audio/vocabulary/week_03/day_13/kyonen.m4a",
       "alt": "Last year"
     },
@@ -460,6 +476,7 @@
       "japanese": "まいにち",
       "romaji": "mainichi",
       "english": "every day",
+      "image": "../images/study/week_03/day_13/mainichi.png",
       "audio": "../audio/vocabulary/week_03/day_13/mainichi.m4a",
       "alt": "Every day"
     }
