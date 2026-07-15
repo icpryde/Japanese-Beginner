@@ -1,5 +1,5 @@
 {
-  "build_id": "20260715054039",
+  "build_id": "20260715055144",
   "profile": "full_offline",
   "urls": [
     "./images/.DS_Store",
@@ -5156,9 +5156,16 @@
     "./videos/week_03/day_15/D1L4Q1.mp4",
     "./videos/week_03/day_15/new_question.mp4",
     "./weeks/week1-test.html",
+    "./weeks/week10-practice.html",
+    "./weeks/week11-practice.html",
     "./weeks/week2-test.html",
     "./weeks/week3-test.html",
+    "./weeks/week4-practice.html",
+    "./weeks/week5-practice.html",
+    "./weeks/week6-practice.html",
+    "./weeks/week7-practice.html",
     "./weeks/week8-test.html",
-    "./weeks/week9-12-test.html"
+    "./weeks/week9-12-test.html",
+    "./weeks/week9-practice.html"
   ]
 }

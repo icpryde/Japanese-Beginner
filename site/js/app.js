@@ -2231,6 +2231,8 @@
   const Flashdeck = {
     data: [], selected: new Set(), cards: [], index: 0, revealed: false,
     cats: new Set(['vocab', 'numbers', 'time', 'other']),
+    diffs: new Set(['new', 'again', 'hard', 'good', 'easy']),
+    _srs: {},
     audio: new Audio(),
     review: false, allCards: [],
     SRS_KEY: 'akamonkai_srs', NEW_PER_DAY: 20,
@@ -2238,6 +2240,12 @@
     epochDay() { return Math.floor(Date.now() / 86400000); },
     srsLoad() { try { return JSON.parse(localStorage.getItem(this.SRS_KEY)) || {}; } catch { return {}; } },
     srsSave(d) { localStorage.setItem(this.SRS_KEY, JSON.stringify(d)); },
+    itemKey(deckId, it) { return deckId + '|' + (it.id || it.r || it.j); },
+    bucketOf(st) {
+      if (!st) return 'new';
+      if (st.last === undefined) return 'good';
+      return ['again', 'hard', 'good', 'easy'][st.last] || 'good';
+    },
 
     buildIndex() {
       this.allCards = [];
@@ -2302,8 +2310,10 @@
         st.iv = st.iv <= 0 ? 3 : Math.round(st.iv * st.ef * 1.3);
         st.ef = Math.min(2.8, st.ef + 0.15); st.reps += 1; st.due = today + st.iv;
       }
+      st.last = g;
       srs[card._key] = st;
       this.srsSave(srs);
+      this._srs = srs;
       if (g === 0) {
         // see it again a few cards later in this same session
         const c = this.cards.splice(this.index, 1)[0];
@@ -2337,11 +2347,12 @@
     },
 
     dayCount(d) {
-      return d.decks.filter(k => this.cats.has(k.cat)).reduce((s, k) => s + k.n, 0);
+      return this.dayItems(d).length;
     },
 
     dayItems(d) {
-      return d.decks.filter(k => this.cats.has(k.cat)).flatMap(k => k.items);
+      return d.decks.filter(k => this.cats.has(k.cat)).flatMap(k =>
+        k.items.filter(it => this.diffs.has(this.bucketOf(this._srs[this.itemKey(k.id, it)]))));
     },
 
     visibleDays() {
@@ -2350,6 +2361,7 @@
     },
 
     renderWeeks() {
+      this._srs = this.srsLoad();
       const wrap = document.getElementById('fcWeeks');
       const completedOnly = document.getElementById('fcCompletedOnly')?.checked;
       const byWeek = {};
@@ -2404,6 +2416,12 @@
         const c = btn.dataset.cat;
         if (this.cats.has(c)) { this.cats.delete(c); btn.classList.remove('on'); }
         else { this.cats.add(c); btn.classList.add('on'); }
+        this.renderWeeks(); this.updateCount();
+      }));
+      document.querySelectorAll('.fc-diff').forEach(btn => btn.addEventListener('click', () => {
+        const c = btn.dataset.diff;
+        if (this.diffs.has(c)) { this.diffs.delete(c); btn.classList.remove('on'); }
+        else { this.diffs.add(c); btn.classList.add('on'); }
         this.renderWeeks(); this.updateCount();
       }));
       document.getElementById('fcStart').addEventListener('click', () => this.start());

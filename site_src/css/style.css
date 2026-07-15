@@ -2405,3 +2405,6 @@ body.fc-practicing { overflow: hidden; }
 body.hide-romaji .study-item-line-romaji,
 body.hide-romaji .fc-romaji,
 body.hide-romaji .dict-romaji { display: none !important; }
+
+.fc-actions[hidden] { display: none !important; }
+.fc-grades { margin-top: 10px; }

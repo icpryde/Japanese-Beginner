@@ -2056,6 +2056,15 @@ FLASHCARDS_TEMPLATE = r"""
     <button class="fc-cat on" data-cat="other">✨ Extras</button>
   </div>
 
+  <div class="fc-cats">
+    <span class="fc-cats-label">Difficulty:</span>
+    <button class="fc-diff on" data-diff="new">🆕 New</button>
+    <button class="fc-diff on" data-diff="again">🔴 Again</button>
+    <button class="fc-diff on" data-diff="hard">🟠 Hard</button>
+    <button class="fc-diff on" data-diff="good">🟢 Good</button>
+    <button class="fc-diff on" data-diff="easy">🔵 Easy</button>
+  </div>
+
   <div id="fcWeeks" class="fc-weeks"><!-- populated by app.js --></div>
 
   <div class="fc-startbar">
