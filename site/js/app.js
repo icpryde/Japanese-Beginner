@@ -2272,10 +2272,15 @@
       if (!box) return;
       const q = this.reviewQueue();
       const total = q.due.length + q.fresh.length;
+      const anyGraded = Object.keys(this.srsLoad()).length > 0;
+      const anyCompleted = this.data.some(d => this.isDayCompleted(d));
       box.hidden = false;
-      document.getElementById('fcDueText').textContent = total
-        ? q.due.length + ' to review · ' + q.fresh.length + ' new'
-        : 'all caught up — nothing due today 🎉';
+      let text;
+      if (total) text = q.due.length + ' to review · ' + q.fresh.length + ' new';
+      else if (!anyGraded && !anyCompleted)
+        text = 'mark lessons complete (✓) to start collecting cards for daily review';
+      else text = 'all caught up — nothing due today 🎉';
+      document.getElementById('fcDueText').textContent = text;
       document.getElementById('fcReviewBtn').disabled = total === 0;
     },
 
