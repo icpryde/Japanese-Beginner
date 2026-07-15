@@ -2155,6 +2155,7 @@
   // ═══════════════════════════════════════════
   const Flashdeck = {
     data: [], selected: new Set(), cards: [], index: 0, revealed: false,
+    cats: new Set(['vocab', 'numbers', 'time', 'other']),
     audio: new Audio(),
 
     async init() {
@@ -2171,6 +2172,14 @@
 
     isDayCompleted(d) {
       return d.lessons.some(id => Progress.isComplete(id));
+    },
+
+    dayCount(d) {
+      return d.decks.filter(k => this.cats.has(k.cat)).reduce((s, k) => s + k.n, 0);
+    },
+
+    dayItems(d) {
+      return d.decks.filter(k => this.cats.has(k.cat)).flatMap(k => k.items);
     },
 
     visibleDays() {
@@ -2194,7 +2203,7 @@
           const on = this.selected.has(d.day);
           const done = this.isDayCompleted(d);
           html += '<button class="fc-day' + (on ? ' on' : '') + '" data-day="' + d.day + '">' +
-                  'Day ' + d.day + (done ? ' ✓' : '') + '<span class="fc-day-n">' + d.count + '</span></button>';
+                  'Day ' + d.day + (done ? ' ✓' : '') + '<span class="fc-day-n">' + this.dayCount(d) + '</span></button>';
         });
         html += '</div></div>';
       });
@@ -2229,6 +2238,12 @@
       document.getElementById('fcCompletedOnly').addEventListener('change', () => {
         this.renderWeeks(); this.updateCount();
       });
+      document.querySelectorAll('.fc-cat').forEach(btn => btn.addEventListener('click', () => {
+        const c = btn.dataset.cat;
+        if (this.cats.has(c)) { this.cats.delete(c); btn.classList.remove('on'); }
+        else { this.cats.add(c); btn.classList.add('on'); }
+        this.renderWeeks(); this.updateCount();
+      }));
       document.getElementById('fcStart').addEventListener('click', () => this.start());
       document.getElementById('fcExit').addEventListener('click', () => this.exit());
       document.getElementById('fcCard').addEventListener('click', () => this.reveal());
@@ -2256,7 +2271,7 @@
 
     updateCount() {
       const days = this.visibleDays().filter(d => this.selected.has(d.day));
-      const n = days.reduce((s, d) => s + d.count, 0);
+      const n = days.reduce((s, d) => s + this.dayCount(d), 0);
       document.getElementById('fcCount').textContent =
         n ? n + ' cards from ' + days.length + ' day' + (days.length > 1 ? 's' : '') : '0 cards selected';
       document.getElementById('fcStart').disabled = n === 0;
@@ -2264,7 +2279,7 @@
 
     start() {
       const days = this.visibleDays().filter(d => this.selected.has(d.day));
-      this.cards = days.flatMap(d => d.items);
+      this.cards = days.flatMap(d => this.dayItems(d));
       if (!this.cards.length) return;
       if (document.getElementById('fcShuffle').checked) {
         for (let i = this.cards.length - 1; i > 0; i--) {
@@ -2276,7 +2291,8 @@
       const overlay = document.getElementById('fcOverlay');
       overlay.hidden = false;
       document.body.classList.add('fc-practicing');
-      if (overlay.requestFullscreen) overlay.requestFullscreen().catch(() => {});
+      const mobileLike = window.matchMedia('(pointer: coarse), (max-width: 820px)').matches;
+      if (mobileLike && overlay.requestFullscreen) overlay.requestFullscreen().catch(() => {});
       this.render();
     },
 

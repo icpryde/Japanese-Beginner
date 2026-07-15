@@ -2042,6 +2042,14 @@ FLASHCARDS_TEMPLATE = r"""
     <label class="fc-toggle"><input type="checkbox" id="fcShuffle" checked> Shuffle</label>
   </div>
 
+  <div class="fc-cats">
+    <span class="fc-cats-label">Include:</span>
+    <button class="fc-cat on" data-cat="vocab">🖼 Vocabulary</button>
+    <button class="fc-cat on" data-cat="numbers">🔢 Numbers &amp; Counting</button>
+    <button class="fc-cat on" data-cat="time">🕐 Time &amp; Dates</button>
+    <button class="fc-cat on" data-cat="other">✨ Extras</button>
+  </div>
+
   <div id="fcWeeks" class="fc-weeks"><!-- populated by app.js --></div>
 
   <div class="fc-startbar">
@@ -2075,8 +2083,21 @@ FLASHCARDS_TEMPLATE = r"""
 """
 
 
+def _deck_category(deck_id: str) -> str:
+    """Bucket decks for the flashcards hub's category filter."""
+    i = deck_id.lower()
+    if i.endswith("_vocabulary"):
+        return "vocab"
+    if any(k in i for k in ("number", "ikutsu", "floor", "age")):
+        return "numbers"
+    if any(k in i for k in ("hour", "minute", "time_words", "days_of_month",
+                            "months", "_days", "date_example")):
+        return "time"
+    return "other"
+
+
 def collect_flashcards_data(manifest: dict, study_map: dict, deck_cache: dict) -> list:
-    """Aggregate every mapped study deck into per-day flashcard bundles."""
+    """Aggregate every mapped study deck into per-day, per-category bundles."""
     lesson_meta = {str(l["id"]): l for l in manifest["lessons"]}
     days: dict = {}
     for lesson_id, deck_ids in study_map.items():
@@ -2096,11 +2117,12 @@ def collect_flashcards_data(manifest: dict, study_map: dict, deck_cache: dict) -
     out = []
     for day in sorted(days):
         b = days[day]
-        items, seen = [], set()
+        decks, seen = [], set()
         for deck_id in b["deck_ids"]:
             deck = deck_cache.get(deck_id)
             if not deck:
                 continue
+            items = []
             for it in deck.get("items", []):
                 key = (it.get("japanese"), it.get("english"))
                 if key in seen:
@@ -2113,9 +2135,11 @@ def collect_flashcards_data(manifest: dict, study_map: dict, deck_cache: dict) -
                     "img": (it.get("image") or "").replace("../", "") or None,
                     "a": (it.get("audio") or "").replace("../", "") or None,
                 })
-        if items:
+            if items:
+                decks.append({"cat": _deck_category(deck_id), "n": len(items), "items": items})
+        if decks:
             out.append({"day": day, "week": b["week"], "lessons": b["lesson_ids"],
-                        "count": len(items), "items": items})
+                        "decks": decks})
     return out
 
 
@@ -2349,7 +2373,7 @@ def generate_site():
         content=FLASHCARDS_TEMPLATE, structure=structure,
     )
     (SITE_DIR / "flashcards.html").write_text(fc_html)
-    print(f"  Flashcards hub: {sum(d['count'] for d in fc_data)} cards across {len(fc_data)} days")
+    print(f"  Flashcards hub: {sum(k['n'] for d in fc_data for k in d['decks'])} cards across {len(fc_data)} days")
 
     print(f"Site built at: {SITE_DIR}/")
     print("Done!")

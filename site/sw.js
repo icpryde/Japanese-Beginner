@@ -12,7 +12,7 @@
  *    {type:'PRECACHE_ALL'} (see app.js), never blocking updates.
  */
 
-const BUILD_ID = '20260715032026';
+const BUILD_ID = '20260715034808';
 const SHELL_CACHE = `akamonkai-shell-${BUILD_ID}`;
 const MEDIA_CACHE = 'akamonkai-media-v2';
 

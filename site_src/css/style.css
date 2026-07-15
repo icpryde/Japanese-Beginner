@@ -2354,3 +2354,12 @@ body.fc-practicing { overflow: hidden; }
 
 /* video questions: keep the player a sane size */
 .q-text video { display: block; margin: 10px auto; max-width: 100%; max-height: 46vh; border-radius: 8px; }
+
+.fc-cats { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 0 0 18px; }
+.fc-cats-label { font-size: .85rem; color: var(--text-muted, #94a3b8); margin-right: 2px; }
+.fc-cat {
+  padding: 7px 12px; border-radius: 999px; cursor: pointer; font-size: .85rem;
+  border: 1px solid var(--border, rgba(128,128,128,.3)); background: transparent; color: var(--text-muted, #94a3b8);
+  opacity: .6;
+}
+.fc-cat.on { opacity: 1; color: inherit; border-color: var(--accent, #e63946); background: color-mix(in srgb, var(--accent, #e63946) 12%, transparent); }
