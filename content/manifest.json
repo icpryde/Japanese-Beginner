@@ -2,7 +2,7 @@
   "course_name": "Akamonkai 12-Week Beginner Course",
   "imported_at": "2026-04-02T09:29:37.535648+00:00",
   "source": "/Users/kurisu/Documents/AI Apps/Akamonkai Japanese 12 Week Beginner Course - content",
-  "total_lessons": 1293,
+  "total_lessons": 1295,
   "sections": [
     {
       "order": 1,
@@ -98,7 +98,7 @@
       "section_type": "day",
       "week": 2,
       "day": 10,
-      "lesson_count": 29
+      "lesson_count": 30
     },
     {
       "order": 13,
@@ -322,7 +322,7 @@
       "section_type": "day",
       "week": 8,
       "day": 37,
-      "lesson_count": 22
+      "lesson_count": 23
     },
     {
       "order": 41,
@@ -2267,6 +2267,15 @@
     {
       "id": "gs_w02_d10_l01",
       "title": "Day 10 Lesson 1 - Grammar Slides",
+      "type": "reference",
+      "section": "Week 2 - Day 10",
+      "section_type": "day",
+      "week": 2,
+      "day": 10
+    },
+    {
+      "id": "gs_w02_d10_l01_p2",
+      "title": "Day 10 Lesson 1 - Grammar Slides Part 2",
       "type": "reference",
       "section": "Week 2 - Day 10",
       "section_type": "day",
@@ -7730,6 +7739,15 @@
     {
       "id": "gs_w08_d37_l03",
       "title": "Day 37 Lesson 3 - Grammar Slides",
+      "type": "reference",
+      "section": "Week 8 - Day 37",
+      "section_type": "day",
+      "week": 8,
+      "day": 37
+    },
+    {
+      "id": "gs_w08_d37_l04",
+      "title": "Day 37 Lesson 4 - Grammar Slides",
       "type": "reference",
       "section": "Week 8 - Day 37",
       "section_type": "day",

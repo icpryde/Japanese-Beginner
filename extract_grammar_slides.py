@@ -73,7 +73,7 @@ def extract_day(contents, day, dry=False):
         [c for c in contents
          if dayof(c.get("name", "")) == day
          and c.get("contentable_type") == "Presentation"
-         and re.search(r"grammar\s*slide", c.get("name", ""), re.I)],
+         and re.search(r"gramma\w*\s*slide", c.get("name", ""), re.I)],
         key=lambda c: c.get("position", 0))
     if not lessons:
         print(f"Day {day}: no grammar-slide presentations found on site.")
