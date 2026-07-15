@@ -90,6 +90,7 @@ def extract_day(contents, day, dry=False):
         if not dry:
             os.makedirs(folder, exist_ok=True)
         seen = set()
+        seen_logical = set()   # the course re-uploads the same audio per slide
         for it in items:
             for key in ("image_file_url", "audio_file_url"):
                 u = it.get(key)
@@ -97,6 +98,11 @@ def extract_day(contents, day, dry=False):
                     continue
                 seen.add(u)
                 fname = urllib.parse.unquote(u.split("/")[-1])
+                if key == "audio_file_url":
+                    logical = re.sub(r"^[A-Za-z0-9]{18,22}_", "", fname)
+                    if logical in seen_logical:
+                        continue
+                    seen_logical.add(logical)
                 dest = os.path.join(folder, fname)
                 if download(u, dest, dry):
                     n_files += 1

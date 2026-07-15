@@ -2172,6 +2172,26 @@
 
     const root = window.location.pathname.includes('/lessons/') ? '../' : '';
     navigator.serviceWorker.register(root + 'sw.js').catch(() => {});
+
+    // When a new service worker takes over, reload once so the page and all
+    // its media references come from the new version (prevents stale pages
+    // pointing at files that no longer exist on the server).
+    let reloaded = false;
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+      if (reloaded) return;
+      reloaded = true;
+      window.location.reload();
+    });
+
+    // Kick off the full offline precache in the background once the page
+    // is idle — never blocks updates or first paint.
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        navigator.serviceWorker.ready
+          .then((reg) => reg.active && reg.active.postMessage({ type: 'PRECACHE_ALL' }))
+          .catch(() => {});
+      }, 4000);
+    });
   }
 
   // ═══════════════════════════════════════════

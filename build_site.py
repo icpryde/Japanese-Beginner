@@ -1967,11 +1967,13 @@ def get_data_quiz_questions(key: str) -> str:
             n_correct += 1 if correct else 0
             rendered.append(_render_quiz_choice(
                 _localize_quiz_fragment(c.get("text") or "", key), j, correct))
-        multi = n_correct > 1
+        # Checkbox questions are "select all that apply" on the source site —
+        # keep them multi-selectable even when only one choice is credited.
+        multi = q.get("display_type") == "checkbox" or n_correct > 1
         topic = "Listening" if has_audio else ("Reading" if has_img else "Grammar & Vocabulary")
-        badge = f"Select {n_correct} Answers" if multi else \
+        badge = "Select All That Apply" if multi else \
             ("Listening" if has_audio else ("Reading" if has_img else "Multiple Choice"))
-        multi_attr = f' data-multi="{n_correct}"' if multi else ""
+        multi_attr = f' data-multi="{max(n_correct, 1)}"' if multi else ""
         blocks.append(f'''
 <div class="quiz-question" data-topic="{topic}"{multi_attr} data-explanation="" data-qnum="{i}">
   <div class="q-number">Q{i}</div>

@@ -1,13 +1,22 @@
 /**
  * Akamonkai Japanese — Service Worker
- * Cache-first strategy for offline PWA support
+ *
+ * Strategy:
+ *  - Install is FAST (core shell only) and activates immediately, so clients
+ *    never linger on a stale version behind a huge precache download.
+ *  - Pages/data (HTML/JSON/JS/CSS) are network-first with cache fallback:
+ *    always fresh when online, still available offline.
+ *  - Media (audio/images/video/pdf) is cache-first in a STABLE cache that
+ *    survives deploys, so updates don't re-download the whole course.
+ *  - The full offline precache runs in the background when the page sends
+ *    {type:'PRECACHE_ALL'} (see app.js), never blocking updates.
  */
 
 const BUILD_ID = '__BUILD_ID__';
-const CACHE_NAME = `akamonkai-${BUILD_ID}`;
+const SHELL_CACHE = `akamonkai-shell-${BUILD_ID}`;
+const MEDIA_CACHE = 'akamonkai-media-v2';
 
-// Core files to precache
-const PRECACHE_URLS = [
+const CORE_URLS = [
   './',
   './index.html',
   './worksheets.html',
@@ -15,97 +24,94 @@ const PRECACHE_URLS = [
   './js/app.js',
   './lesson-data.json',
   './manifest.json',
-  './offline-asset-report.json',
-  './precache-manifest.json',
 ];
 
-async function getGeneratedPrecacheUrls() {
-  try {
-    const response = await fetch('./precache-manifest.json', { cache: 'no-store' });
-    if (!response.ok) return [];
-    const payload = await response.json();
-    if (!Array.isArray(payload.urls)) return [];
-    return payload.urls.filter(Boolean);
-  } catch {
-    return [];
-  }
-}
+const MEDIA_RE = /\.(m4a|mp3|wav|ogg|jpg|jpeg|png|gif|webp|svg|mp4|webm|pdf|ico|woff2?)$/i;
 
-// Install: precache core files, then background-cache all assets
 self.addEventListener('install', (event) => {
+  self.skipWaiting();
   event.waitUntil(
-    caches.open(CACHE_NAME).then(async (cache) => {
-      // Always precache core files first
-      await cache.addAll(PRECACHE_URLS);
-
-      // Then try to cache generated assets (lessons, images, PDFs, audio)
-      const generatedUrls = await getGeneratedPrecacheUrls();
-      // Cache in batches to avoid overwhelming the browser
-      const BATCH = 50;
-      for (let i = 0; i < generatedUrls.length; i += BATCH) {
-        const batch = generatedUrls.slice(i, i + BATCH);
-        try {
-          await cache.addAll(batch);
-        } catch (e) {
-          // Cache individually on batch failure so one bad URL doesn't skip all
-          for (const url of batch) {
-            try { await cache.add(url); } catch { /* skip */ }
-          }
-        }
-      }
-    }).then(() => self.skipWaiting())
+    caches.open(SHELL_CACHE).then((cache) => cache.addAll(CORE_URLS)).catch(() => {})
   );
 });
 
-// Activate: clean old caches
 self.addEventListener('activate', (event) => {
   event.waitUntil(
-    caches.keys().then((names) => {
-      return Promise.all(
-        names.filter(n => n !== CACHE_NAME).map(n => caches.delete(n))
-      );
-    }).then(() => self.clients.claim())
+    caches.keys().then((names) => Promise.all(
+      names
+        .filter((n) => n !== SHELL_CACHE && n !== MEDIA_CACHE)
+        .map((n) => caches.delete(n))
+    )).then(() => self.clients.claim())
   );
 });
 
-// Fetch: cache-first for static, network-first for API
+// Background full precache, triggered by the page after load.
+self.addEventListener('message', (event) => {
+  if (event.data && event.data.type === 'PRECACHE_ALL') {
+    event.waitUntil(precacheAll());
+  }
+});
+
+async function precacheAll() {
+  try {
+    const resp = await fetch('./precache-manifest.json', { cache: 'no-store' });
+    if (!resp.ok) return;
+    const payload = await resp.json();
+    const urls = Array.isArray(payload.urls) ? payload.urls.filter(Boolean) : [];
+    const media = await caches.open(MEDIA_CACHE);
+    const shell = await caches.open(SHELL_CACHE);
+    for (const url of urls) {
+      const target = MEDIA_RE.test(url.split('?')[0]) ? media : shell;
+      if (await target.match(url)) continue;
+      try { await target.add(url); } catch { /* skip individual failures */ }
+    }
+  } catch { /* offline or aborted — retried on a later visit */ }
+}
+
 self.addEventListener('fetch', (event) => {
   const url = new URL(event.request.url);
+  if (event.request.method !== 'GET') return;
 
-  // Don't cache API calls
+  // Never intercept cross-origin or API traffic.
+  if (url.origin !== self.location.origin) return;
   if (url.pathname.startsWith('/api/')) {
-    event.respondWith(fetch(event.request).catch(() => {
-      return new Response('{"error":"offline"}', {
-        headers: { 'Content-Type': 'application/json' }
-      });
-    }));
+    event.respondWith(fetch(event.request).catch(() =>
+      new Response('{"error":"offline"}', { headers: { 'Content-Type': 'application/json' } })
+    ));
     return;
   }
 
-  // Cache-first strategy for everything else
-  event.respondWith(
-    caches.match(event.request).then((cached) => {
-      if (cached) return cached;
+  const isMedia = MEDIA_RE.test(url.pathname);
 
-      return fetch(event.request).then((response) => {
-        // Don't cache non-success or non-GET
-        if (!response || response.status !== 200 || event.request.method !== 'GET') {
-          return response;
+  if (isMedia) {
+    // Cache-first: media files are content-addressed enough (renames on change).
+    event.respondWith(
+      caches.match(event.request).then((cached) => cached || fetch(event.request).then((resp) => {
+        if (resp && resp.status === 200) {
+          const copy = resp.clone();
+          caches.open(MEDIA_CACHE).then((c) => c.put(event.request, copy));
         }
+        return resp;
+      }))
+    );
+    return;
+  }
 
-        // Clone and cache
-        const toCache = response.clone();
-        caches.open(CACHE_NAME).then((cache) => {
-          cache.put(event.request, toCache);
-        });
-
-        return response;
-      }).catch(() => {
-        // Offline fallback for HTML pages
+  // Network-first for pages/data: always current when online, cached for offline.
+  event.respondWith(
+    fetch(event.request).then((resp) => {
+      if (resp && resp.status === 200) {
+        const copy = resp.clone();
+        caches.open(SHELL_CACHE).then((c) => c.put(event.request, copy));
+      }
+      return resp;
+    }).catch(() =>
+      caches.match(event.request).then((cached) => {
+        if (cached) return cached;
         if (event.request.headers.get('accept')?.includes('text/html')) {
           return caches.match('./index.html');
         }
-      });
-    })
+      })
+    )
   );
 });

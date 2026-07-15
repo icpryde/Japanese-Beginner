@@ -9,3 +9,4 @@ cloudflare_sync/.wrangler/
 .wrangler/
 .grammar_curriculum_cache.json
 content/study/vocab_specs/*_contact.png
+.presentations_cache/

@@ -19,6 +19,8 @@ BITRATE = "96000"
 
 def transcode(src):
     dst = os.path.splitext(src)[0] + ".m4a"
+    if os.path.exists(dst):
+        os.remove(dst)
     r = subprocess.run(["afconvert", "-f", "m4af", "-d", "aac", "-b", BITRATE, src, dst],
                        capture_output=True, text=True)
     if r.returncode != 0 or not os.path.exists(dst) or os.path.getsize(dst) < 200:

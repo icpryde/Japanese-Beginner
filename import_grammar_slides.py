@@ -222,10 +222,11 @@ def build_page_audio_map(
                     f"Invalid page index override {page_i} for lesson {lesson_id}; "
                     f"expected 0..{max(len(image_pages) - 1, 0)}"
                 )
-            if audio_i < 0 or audio_i >= len(audio_files):
+            # -1 means "this slide has no narration" (player hidden on that page)
+            if audio_i < -1 or audio_i >= len(audio_files):
                 raise ValueError(
                     f"Invalid audio index override {audio_i} for lesson {lesson_id}; "
-                    f"expected 0..{max(len(audio_files) - 1, 0)}"
+                    f"expected -1..{max(len(audio_files) - 1, 0)}"
                 )
             page_audio_map[page_i] = audio_i
 
@@ -275,6 +276,7 @@ def make_slide_html(
 
             # One player per audio file, but only the current slide's player is
             # visible; the inline script below switches them on Prev/Next.
+            # Pages mapped to -1 have no narration and show no player.
             initial_audio = page_to_audio[0] if page_to_audio else 0
             for audio_idx, audio_name in enumerate(audio_files):
                 pages = [i + 1 for i, mapped_idx in enumerate(page_to_audio) if mapped_idx == audio_idx]
@@ -320,6 +322,8 @@ def make_slide_html(
         lines.append("    if(!audio || !audioFiles.length){return;}")
         lines.append("    const key = String(idx);")
         lines.append("    const targetIdx = Object.prototype.hasOwnProperty.call(pageToAudio, key) ? pageToAudio[key] : 0;")
+        lines.append("    if(targetIdx < 0){ if(!audio.paused){audio.pause();} audio.style.display='none'; return; }")
+        lines.append("    audio.style.display='';")
         lines.append("    const target = audioFiles[targetIdx] || audioFiles[0];")
         lines.append("    const expectedSrc = `../audio/${target}`;")
         lines.append("    if(!audio.getAttribute('src') || !audio.getAttribute('src').endsWith(target)){")
