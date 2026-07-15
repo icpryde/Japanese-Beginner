@@ -2319,6 +2319,11 @@
       srs[card._key] = st;
       this.srsSave(srs);
       this._srs = srs;
+      if (!this.review) {           // practice: rate and move on
+        this.updateReviewBanner();
+        this.move(1);
+        return;
+      }
       if (g === 0) {
         // see it again a few cards later in this same session
         const c = this.cards.splice(this.index, 1)[0];
@@ -2357,7 +2362,8 @@
 
     dayItems(d) {
       return d.decks.filter(k => this.cats.has(k.cat)).flatMap(k =>
-        k.items.filter(it => this.diffs.has(this.bucketOf(this._srs[this.itemKey(k.id, it)]))));
+        k.items.filter(it => this.diffs.has(this.bucketOf(this._srs[this.itemKey(k.id, it)])))
+          .map(it => Object.assign({ _key: this.itemKey(k.id, it) }, it)));
     },
 
     visibleDays() {
@@ -2519,15 +2525,9 @@
       document.getElementById('fcPlay').style.visibility = c.a ? 'visible' : 'hidden';
       const nav = document.getElementById('fcNavBar');
       const grades = document.getElementById('fcGradeBar');
-      if (this.review) {
-        nav.querySelector('#fcPrev').style.visibility = 'hidden';
-        nav.querySelector('#fcNext').style.visibility = 'hidden';
-        grades.hidden = !this.revealed;
-      } else {
-        nav.querySelector('#fcPrev').style.visibility = 'visible';
-        nav.querySelector('#fcNext').style.visibility = 'visible';
-        grades.hidden = true;
-      }
+      nav.querySelector('#fcPrev').style.visibility = this.review ? 'hidden' : 'visible';
+      nav.querySelector('#fcNext').style.visibility = this.review ? 'hidden' : 'visible';
+      grades.hidden = !this.revealed;
       this.audio.pause();
     },
 
