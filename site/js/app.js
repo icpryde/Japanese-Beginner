@@ -238,7 +238,7 @@
 
       if (bar && text) {
         // Load lesson count from data attribute or fetch
-        const root = window.location.pathname.includes('/lessons/') ? '../' : '';
+        const root = getRootPath();
         fetch(root + 'lesson-data.json').then(r => r.json()).then(lessons => {
           const total = lessons.length;
           const pct = total > 0 ? ((completed / total) * 100).toFixed(1) : 0;
@@ -364,9 +364,7 @@
     },
 
     getRoot() {
-      // Detect if we're in a subdirectory
-      const path = window.location.pathname;
-      return path.includes('/lessons/') ? '../' : '';
+      return getRootPath();
     },
 
     search(query) {
@@ -827,7 +825,7 @@
       const ids = Object.keys(this.data);
       if (ids.length === 0) return;
 
-      const root = window.location.pathname.includes('/lessons/') ? '../' : '';
+      const root = getRootPath();
       fetch(root + 'lesson-data.json').then(r => r.json()).then(lessons => {
         const map = {};
         lessons.forEach(l => { map[l.id] = l; });
@@ -2576,7 +2574,7 @@
       return;
     }
 
-    const root = window.location.pathname.includes('/lessons/') ? '../' : '';
+    const root = getRootPath();
     navigator.serviceWorker.register(root + 'sw.js').catch(() => {});
 
     // When a new service worker takes over, reload once so the page and all
