@@ -8,6 +8,7 @@ importer and generates a modern PWA study site in the site/ directory.
 import json
 import re
 import shutil
+import unicodedata
 from html import escape
 from pathlib import Path
 from collections import OrderedDict
@@ -2343,7 +2344,9 @@ def generate_site():
         if asset_dir.exists():
             for f in sorted(asset_dir.rglob("*")):
                 if f.is_file():
-                    rel = f.relative_to(SITE_DIR).as_posix()
+                    # HFS+ drives return decomposed (NFD) names, but git and
+                    # GitHub Pages serve the composed (NFC) ones.
+                    rel = unicodedata.normalize("NFC", f.relative_to(SITE_DIR).as_posix())
                     precache_urls.append(f"./{rel}")
     precache_manifest = {
         "build_id": build_id,
