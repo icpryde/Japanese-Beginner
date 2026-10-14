@@ -653,7 +653,8 @@ LAYOUT_TEMPLATE = r"""<!DOCTYPE html>
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="Akamonkai">
   <meta name="theme-color" content="#1a1a2e">
-  <link rel="apple-touch-icon" href="{{ root }}icons/icon-192.png">
+  <link rel="icon" href="{{ root }}icons/favicon-v2.png">
+  <link rel="apple-touch-icon" href="{{ root }}icons/apple-touch-icon-v2.png">
   <link rel="manifest" href="{{ root }}manifest.json">
   <title>{{ title }} — Akamonkai Japanese</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">

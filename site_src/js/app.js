@@ -6,12 +6,15 @@
   'use strict';
 
   function getRootPath() {
-    return window.location.pathname.includes('/lessons/') ? '../' : '';
+    return /\/(lessons|weeks)\//.test(window.location.pathname) ? '../' : '';
   }
 
   function ensureBrandIcons() {
     const root = getRootPath();
-    const icon192 = root + 'icons/icon-192.png';
+    // Versioned names: the service worker serves PNGs cache-first, so a new
+    // icon needs a new filename to reach devices that cached the old one.
+    const favicon = root + 'icons/favicon-v2.png';
+    const touchIcon = root + 'icons/apple-touch-icon-v2.png';
 
     const ensureLink = (rel, href) => {
       let node = document.querySelector(`link[rel="${rel}"]`);
@@ -23,9 +26,9 @@
       node.href = href;
     };
 
-    ensureLink('icon', icon192);
-    ensureLink('shortcut icon', icon192);
-    ensureLink('apple-touch-icon', icon192);
+    ensureLink('icon', favicon);
+    ensureLink('shortcut icon', favicon);
+    ensureLink('apple-touch-icon', touchIcon);
   }
 
   // ═══════════════════════════════════════════
