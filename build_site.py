@@ -652,12 +652,12 @@ LAYOUT_TEMPLATE = r"""<!DOCTYPE html>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="Akamonkai">
+  <meta name="apple-mobile-web-app-title" content="Torii">
   <meta name="theme-color" content="#1a1a2e">
   <link rel="icon" href="{{ root }}icons/favicon-v2.png">
   <link rel="apple-touch-icon" href="{{ root }}icons/apple-touch-icon-v2.png">
   <link rel="manifest" href="{{ root }}manifest.json">
-  <title>{{ title }} — Akamonkai Japanese</title>
+  <title>{{ title }} — Torii Japanese</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -667,7 +667,7 @@ LAYOUT_TEMPLATE = r"""<!DOCTYPE html>
   <div class="app">
     <nav class="sidebar" id="sidebar">
       <div class="sidebar-header">
-        <h2 class="logo">赤門会<span class="logo-sub">Akamonkai Japanese</span></h2>
+        <h2 class="logo">鳥居<span class="logo-sub">Torii Japanese</span></h2>
         <button class="sidebar-close" id="sidebarClose" aria-label="Close sidebar">&times;</button>
       </div>
       <div class="sidebar-search">
@@ -751,7 +751,7 @@ LAYOUT_TEMPLATE = r"""<!DOCTYPE html>
 DASHBOARD_CONTENT = r"""
 <div class="dashboard">
   <div class="dashboard-hero" id="resumeHero">
-    <h1>赤門会 Akamonkai Japanese</h1>
+    <h1>鳥居 Torii Japanese</h1>
     <p class="dashboard-subtitle">12 Week Beginner Course</p>
     <div class="progress-overview" id="progressOverview">
       <div class="progress-bar-container">
@@ -834,7 +834,7 @@ LESSON_CONTENT = r"""
     {% else %}
     <div class="course-guide">
       <h2>📖 How to Navigate This Course</h2>
-      <p>Welcome to the Akamonkai Japanese Beginner course. Here's how to get the most out of this study app:</p>
+      <p>Welcome to Torii Japanese, your 12-week beginner course. Here's how to get the most out of this study app:</p>
       <h3>🧭 Navigation</h3>
       <ul>
         <li><strong>Sidebar</strong> — Browse all weeks, days, and lessons. Tap any lesson to jump straight to it.</li>

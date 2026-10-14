@@ -1,7 +1,7 @@
 {
-  "name": "Akamonkai Japanese",
-  "short_name": "Akamonkai",
-  "description": "Akamonkai Japanese 12-Week Beginner Course — Offline",
+  "name": "Torii Japanese",
+  "short_name": "Torii",
+  "description": "Torii Japanese 12-Week Beginner Course — Offline",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
